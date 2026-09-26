@@ -1,0 +1,5 @@
+Record=TopLevelDocument|FileName=00_TOP.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=00_TOP.SchDoc|FileName=01_SMART_ARTIX_INTERFACE.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=00_TOP.SchDoc|FileName=02_REFERENCE_INPUT_10MHZ.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=00_TOP.SchDoc|FileName=03_PPS_OUTPUTS.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=00_TOP.SchDoc|FileName=04_POWER_PROTECTION.SchDoc|SheetNumber=5

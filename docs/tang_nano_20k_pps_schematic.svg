@@ -1,0 +1,291 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3700" height="2260" viewBox="0 0 3700 2260">
+<rect x="0" y="0" width="3700" height="2260" rx="0" fill="white" stroke="white" stroke-width="0"/>
+<text x="60" y="82" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="43" font-weight="bold" text-anchor="start">Схема электрическая принципиальная — прототип формирователя 1/10/100 PPS</text>
+<text x="60" y="128" fill="#555555" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" font-weight="normal" text-anchor="start">Опора 10 МГц · два независимо выбираемых выхода · Tang Nano 20K</text>
+<rect x="50" y="180" width="560" height="1350" rx="12" fill="none" stroke="#9b9b9b" stroke-width="2"/>
+<rect x="50" y="180" width="560" height="76" rx="12" fill="#f0f0f0" stroke="#111111" stroke-width="2"/>
+<text x="74" y="232" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="32" font-weight="bold" text-anchor="start">1. Источник сигнала</text>
+<rect x="630" y="180" width="740" height="1350" rx="12" fill="none" stroke="#9b9b9b" stroke-width="2"/>
+<rect x="630" y="180" width="740" height="76" rx="12" fill="#f0f0f0" stroke="#111111" stroke-width="2"/>
+<text x="654" y="232" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="32" font-weight="bold" text-anchor="start">2. Вход и согласование</text>
+<rect x="1390" y="180" width="1040" height="1350" rx="12" fill="none" stroke="#9b9b9b" stroke-width="2"/>
+<rect x="1390" y="180" width="1040" height="76" rx="12" fill="#f0f0f0" stroke="#111111" stroke-width="2"/>
+<text x="1414" y="232" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="32" font-weight="bold" text-anchor="start">3. Компаратор и опора</text>
+<rect x="2450" y="180" width="610" height="1350" rx="12" fill="none" stroke="#9b9b9b" stroke-width="2"/>
+<rect x="2450" y="180" width="610" height="76" rx="12" fill="#f0f0f0" stroke="#111111" stroke-width="2"/>
+<text x="2474" y="232" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="32" font-weight="bold" text-anchor="start">4. Отладочная плата</text>
+<rect x="3080" y="180" width="570" height="1350" rx="12" fill="none" stroke="#9b9b9b" stroke-width="2"/>
+<rect x="3080" y="180" width="570" height="76" rx="12" fill="#f0f0f0" stroke="#111111" stroke-width="2"/>
+<text x="3104" y="232" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="32" font-weight="bold" text-anchor="start">5. Выходы</text>
+<rect x="125" y="495" width="310" height="280" rx="0" fill="white" stroke="#111111" stroke-width="4"/>
+<text x="152" y="545" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="34" font-weight="bold" text-anchor="start">XG1</text>
+<text x="152" y="589" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="25" font-weight="normal" text-anchor="start">Генератор ГК199-ТС</text>
+<text x="152" y="639" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="28" font-weight="normal" text-anchor="start">Выход SIN</text>
+<text x="152" y="682" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="25" font-weight="normal" text-anchor="start">Частота 10 МГц</text>
+<text x="152" y="720" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="25" font-weight="normal" text-anchor="start">Амплитуда &gt; 300 мВ</text>
+<text x="152" y="757" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="25" font-weight="normal" text-anchor="start">Нагрузка 50 Ом ±5%</text>
+<path d="M300 775 L300 955" fill="none" stroke="#111111" stroke-width="4"/>
+<circle cx="300" cy="775" r="7" fill="#111111" stroke="none" stroke-width="1"/>
+<text x="158" y="895" fill="#bb2525" font-family="Arial, DejaVu Sans, sans-serif" font-size="23" font-weight="normal" text-anchor="start">+5 / +12 В</text>
+<path d="M435 620 L694 620" fill="none" stroke="#111111" stroke-width="4"/>
+<circle cx="435" cy="620" r="6" fill="#111111" stroke="none" stroke-width="1"/>
+<text x="448" y="460" fill="#555555" font-family="Arial, DejaVu Sans, sans-serif" font-size="23" font-weight="normal" text-anchor="start">Центральная жила коаксиала</text>
+<path d="M435 760 L695 760" fill="none" stroke="#111111" stroke-width="4"/>
+<circle cx="435" cy="760" r="6" fill="#111111" stroke="none" stroke-width="1"/>
+<path d="M550 760 L550 777" fill="none" stroke="#111111" stroke-width="4"/>
+<path d="M533 777 L567 777" fill="none" stroke="#111111" stroke-width="4"/>
+<path d="M538 785 L562 785" fill="none" stroke="#111111" stroke-width="4"/>
+<path d="M544 793 L556 793" fill="none" stroke="#111111" stroke-width="4"/>
+<text x="460" y="840" fill="#555555" font-family="Arial, DejaVu Sans, sans-serif" font-size="23" font-weight="normal" text-anchor="start">Экран → GND</text>
+<rect x="125" y="955" width="420" height="172" rx="0" fill="white" stroke="#111111" stroke-width="4"/>
+<text x="151" y="1003" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="29" font-weight="bold" text-anchor="start">PS1 · источник питания</text>
+<text x="151" y="1052" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="27" font-weight="normal" text-anchor="start">Питание генератора:</text>
+<text x="151" y="1090" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="24" font-weight="normal" text-anchor="start">5 В или 12 В;</text>
+<text x="151" y="1120" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="24" font-weight="normal" text-anchor="start">проверить исполнение</text>
+<path d="M420 955 L420 870" fill="none" stroke="#111111" stroke-width="4"/>
+<path d="M420 870 L420 887" fill="none" stroke="#111111" stroke-width="4"/>
+<path d="M403 887 L437 887" fill="none" stroke="#111111" stroke-width="4"/>
+<path d="M408 895 L432 895" fill="none" stroke="#111111" stroke-width="4"/>
+<path d="M414 903 L426 903" fill="none" stroke="#111111" stroke-width="4"/>
+<text x="446" y="900" fill="#0755a4" font-family="Arial, DejaVu Sans, sans-serif" font-size="23" font-weight="normal" text-anchor="start">GND</text>
+<rect x="694" y="584" width="82" height="220" rx="0" fill="white" stroke="#111111" stroke-width="3"/>
+<text x="735" y="557" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="29" font-weight="bold" text-anchor="middle">J1</text>
+<circle cx="694" cy="620" r="7" fill="white" stroke="#111111" stroke-width="3"/>
+<circle cx="694" cy="760" r="7" fill="white" stroke="#111111" stroke-width="3"/>
+<text x="790" y="600" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="25" font-weight="normal" text-anchor="start">J1.1</text>
+<text x="790" y="735" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="25" font-weight="normal" text-anchor="start">J1.2</text>
+<path d="M776 620 L980 620" fill="none" stroke="#111111" stroke-width="4"/>
+<path d="M776 760 L835 760" fill="none" stroke="#111111" stroke-width="4"/>
+<path d="M835 760 L835 777" fill="none" stroke="#111111" stroke-width="4"/>
+<path d="M818 777 L852 777" fill="none" stroke="#111111" stroke-width="4"/>
+<path d="M823 785 L847 785" fill="none" stroke="#111111" stroke-width="4"/>
+<path d="M829 793 L841 793" fill="none" stroke="#111111" stroke-width="4"/>
+<text x="790" y="838" fill="#0755a4" font-family="Arial, DejaVu Sans, sans-serif" font-size="23" font-weight="normal" text-anchor="start">GND</text>
+<text x="809" y="540" fill="#0755a4" font-family="Arial, DejaVu Sans, sans-serif" font-size="30" font-weight="bold" text-anchor="start">RF_IN</text>
+<circle cx="946" cy="620" r="7" fill="#111111" stroke="none" stroke-width="1"/>
+<path d="M946 620 L946 538" fill="none" stroke="#111111" stroke-width="4"/>
+<circle cx="946" cy="538" r="13" fill="white" stroke="#111111" stroke-width="4"/>
+<text x="970" y="547" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="27" font-weight="bold" text-anchor="start">TP1</text>
+<circle cx="885" cy="620" r="7" fill="#111111" stroke="none" stroke-width="1"/>
+<path d="M885 620 L885 748.5" fill="none" stroke="#111111" stroke-width="4"/>
+<rect x="869" y="748.5" width="32" height="68" rx="0" fill="white" stroke="#111111" stroke-width="4"/>
+<path d="M885 816.5 L885 945" fill="none" stroke="#111111" stroke-width="4"/>
+<text x="914" y="776.5" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="24" font-weight="bold" text-anchor="start">R1</text>
+<text x="914" y="810.5" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="23" font-weight="normal" text-anchor="start">49,9 Ом · 1%</text>
+<path d="M885 945 L885 962" fill="none" stroke="#111111" stroke-width="4"/>
+<path d="M868 962 L902 962" fill="none" stroke="#111111" stroke-width="4"/>
+<path d="M873 970 L897 970" fill="none" stroke="#111111" stroke-width="4"/>
+<path d="M879 978 L891 978" fill="none" stroke="#111111" stroke-width="4"/>
+<text x="911" y="975" fill="#0755a4" font-family="Arial, DejaVu Sans, sans-serif" font-size="23" font-weight="normal" text-anchor="start">GND</text>
+<text x="695" y="1065" fill="#555555" font-family="Arial, DejaVu Sans, sans-serif" font-size="25" font-weight="normal" text-anchor="start">R1 — входная терминация 50 Ом</text>
+<path d="M980 620 L1040.5 620" fill="none" stroke="#111111" stroke-width="4"/>
+<path d="M1040.5 589 L1040.5 651" fill="none" stroke="#111111" stroke-width="4"/>
+<path d="M1064.5 589 L1064.5 651" fill="none" stroke="#111111" stroke-width="4"/>
+<path d="M1064.5 620 L1125 620" fill="none" stroke="#111111" stroke-width="4"/>
+<text x="1052.5" y="560" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="28" font-weight="bold" text-anchor="middle">C1</text>
+<text x="1052.5" y="695" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="26" font-weight="normal" text-anchor="middle">100 нФ</text>
+<text x="1052.5" y="733" fill="#555555" font-family="Arial, DejaVu Sans, sans-serif" font-size="24" font-weight="normal" text-anchor="middle">Керамика; AC-развязка</text>
+<path d="M1125 620 L1177.5 620" fill="none" stroke="#111111" stroke-width="4"/>
+<rect x="1177.5" y="604" width="75" height="32" rx="0" fill="white" stroke="#111111" stroke-width="4"/>
+<path d="M1252.5 620 L1305 620" fill="none" stroke="#111111" stroke-width="4"/>
+<text x="1215.0" y="567" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="28" font-weight="bold" text-anchor="middle">R2</text>
+<text x="1215.0" y="689" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="27" font-weight="normal" text-anchor="middle">1 кОм</text>
+<path d="M1305 620 L1435 620" fill="none" stroke="#111111" stroke-width="4"/>
+<text x="1310" y="559" fill="#0755a4" font-family="Arial, DejaVu Sans, sans-serif" font-size="29" font-weight="bold" text-anchor="start">VIN_BIAS</text>
+<path d="M1435 620 L1705 620" fill="none" stroke="#111111" stroke-width="4"/>
+<circle cx="1485" cy="620" r="7" fill="#111111" stroke="none" stroke-width="1"/>
+<path d="M1485 620 L1485 798.5" fill="none" stroke="#111111" stroke-width="4"/>
+<rect x="1469" y="798.5" width="32" height="68" rx="0" fill="white" stroke="#111111" stroke-width="4"/>
+<path d="M1485 866.5 L1485 1045" fill="none" stroke="#111111" stroke-width="4"/>
+<text x="1510" y="826.5" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="24" font-weight="bold" text-anchor="start">R3</text>
+<text x="1510" y="860.5" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="23" font-weight="normal" text-anchor="start">10 кОм</text>
+<path d="M1705 620 L1705 590" fill="none" stroke="#111111" stroke-width="4"/>
+<path d="M1705 590 L1820 590" fill="none" stroke="#111111" stroke-width="4"/>
+<path d="M1485 1045 L1790 1045" fill="none" stroke="#111111" stroke-width="4"/>
+<circle cx="1485" cy="1045" r="7" fill="#111111" stroke="none" stroke-width="1"/>
+<circle cx="1595" cy="1045" r="7" fill="#111111" stroke="none" stroke-width="1"/>
+<circle cx="1720" cy="1045" r="7" fill="#111111" stroke="none" stroke-width="1"/>
+<text x="1815" y="1105" fill="#0755a4" font-family="Arial, DejaVu Sans, sans-serif" font-size="28" font-weight="bold" text-anchor="start">VREF ≈ 1,65 В</text>
+<path d="M1760 1045 L1760 952" fill="none" stroke="#111111" stroke-width="4"/>
+<circle cx="1760" cy="952" r="13" fill="white" stroke="#111111" stroke-width="4"/>
+<circle cx="1760" cy="1045" r="7" fill="#111111" stroke="none" stroke-width="1"/>
+<text x="1815" y="962" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="25" font-weight="bold" text-anchor="start">TP2</text>
+<path d="M1595 820 L1595 898.5" fill="none" stroke="#111111" stroke-width="4"/>
+<rect x="1579" y="898.5" width="32" height="68" rx="0" fill="white" stroke="#111111" stroke-width="4"/>
+<path d="M1595 966.5 L1595 1045" fill="none" stroke="#111111" stroke-width="4"/>
+<text x="1618" y="926.5" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="24" font-weight="bold" text-anchor="start">R4</text>
+<text x="1618" y="960.5" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="23" font-weight="normal" text-anchor="start">10 кОм</text>
+<path d="M1595 820 L1595 789" fill="none" stroke="#bb2525" stroke-width="4"/>
+<path d="M1582 789 L1595 772 L1608 789" fill="none" stroke="#bb2525" stroke-width="4" stroke-linejoin="round"/>
+<text x="1617" y="789" fill="#bb2525" font-family="Arial, DejaVu Sans, sans-serif" font-size="26" font-weight="bold" text-anchor="start">+3V3</text>
+<path d="M1595 1045 L1595 1128.5" fill="none" stroke="#111111" stroke-width="4"/>
+<rect x="1579" y="1128.5" width="32" height="68" rx="0" fill="white" stroke="#111111" stroke-width="4"/>
+<path d="M1595 1196.5 L1595 1280" fill="none" stroke="#111111" stroke-width="4"/>
+<text x="1618" y="1156.5" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="24" font-weight="bold" text-anchor="start">R5</text>
+<text x="1618" y="1190.5" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="23" font-weight="normal" text-anchor="start">10 кОм</text>
+<path d="M1595 1280 L1595 1297" fill="none" stroke="#111111" stroke-width="4"/>
+<path d="M1578 1297 L1612 1297" fill="none" stroke="#111111" stroke-width="4"/>
+<path d="M1583 1305 L1607 1305" fill="none" stroke="#111111" stroke-width="4"/>
+<path d="M1589 1313 L1601 1313" fill="none" stroke="#111111" stroke-width="4"/>
+<text x="1621" y="1310" fill="#0755a4" font-family="Arial, DejaVu Sans, sans-serif" font-size="23" font-weight="normal" text-anchor="start">GND</text>
+<path d="M1720 1045 L1720 1149.5" fill="none" stroke="#111111" stroke-width="4"/>
+<path d="M1691 1149.5 L1749 1149.5" fill="none" stroke="#111111" stroke-width="4"/>
+<path d="M1691 1175.5 L1749 1175.5" fill="none" stroke="#111111" stroke-width="4"/>
+<path d="M1720 1175.5 L1720 1280" fill="none" stroke="#111111" stroke-width="4"/>
+<text x="1749" y="1152.5" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="24" font-weight="bold" text-anchor="start">C2</text>
+<text x="1749" y="1189.5" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="23" font-weight="normal" text-anchor="start">1 мкФ</text>
+<path d="M1720 1280 L1720 1297" fill="none" stroke="#111111" stroke-width="4"/>
+<path d="M1703 1297 L1737 1297" fill="none" stroke="#111111" stroke-width="4"/>
+<path d="M1708 1305 L1732 1305" fill="none" stroke="#111111" stroke-width="4"/>
+<path d="M1714 1313 L1726 1313" fill="none" stroke="#111111" stroke-width="4"/>
+<text x="1746" y="1310" fill="#0755a4" font-family="Arial, DejaVu Sans, sans-serif" font-size="23" font-weight="normal" text-anchor="start">GND</text>
+<path d="M1790 1045 L1790 710" fill="none" stroke="#111111" stroke-width="4"/>
+<path d="M1790 710 L1820 710" fill="none" stroke="#111111" stroke-width="4"/>
+<path d="M1820 505 L1820 795 L2095 650 Z" fill="none" stroke="#111111" stroke-width="4" stroke-linejoin="round"/>
+<text x="1872" y="616" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="34" font-weight="bold" text-anchor="start">U1</text>
+<text x="1853" y="656" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="27" font-weight="normal" text-anchor="start">TLV3511DBVR</text>
+<text x="1860" y="692" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="25" font-weight="normal" text-anchor="start">SOT-23-5</text>
+<text x="1832" y="578" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="25" font-weight="normal" text-anchor="start">3 IN+</text>
+<text x="1832" y="744" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="25" font-weight="normal" text-anchor="start">4 IN−</text>
+<path d="M1930 505 L1930 447" fill="none" stroke="#111111" stroke-width="4"/>
+<path d="M1930 447 L1930 416" fill="none" stroke="#bb2525" stroke-width="4"/>
+<path d="M1917 416 L1930 399 L1943 416" fill="none" stroke="#bb2525" stroke-width="4" stroke-linejoin="round"/>
+<text x="1952" y="416" fill="#bb2525" font-family="Arial, DejaVu Sans, sans-serif" font-size="26" font-weight="bold" text-anchor="start">+3V3</text>
+<text x="1950" y="486" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="25" font-weight="normal" text-anchor="start">5 V+</text>
+<path d="M1930 795 L1930 856" fill="none" stroke="#111111" stroke-width="4"/>
+<path d="M1930 856 L1930 873" fill="none" stroke="#111111" stroke-width="4"/>
+<path d="M1913 873 L1947 873" fill="none" stroke="#111111" stroke-width="4"/>
+<path d="M1918 881 L1942 881" fill="none" stroke="#111111" stroke-width="4"/>
+<path d="M1924 889 L1936 889" fill="none" stroke="#111111" stroke-width="4"/>
+<text x="1956" y="886" fill="#0755a4" font-family="Arial, DejaVu Sans, sans-serif" font-size="23" font-weight="normal" text-anchor="start">GND</text>
+<text x="1950" y="825" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="25" font-weight="normal" text-anchor="start">2 V−</text>
+<text x="2098" y="612" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="23" font-weight="normal" text-anchor="start">1 OUT</text>
+<path d="M2095 650 L2160 650" fill="none" stroke="#111111" stroke-width="4"/>
+<path d="M2160 650 L2177.5 650" fill="none" stroke="#111111" stroke-width="4"/>
+<rect x="2177.5" y="634" width="75" height="32" rx="0" fill="white" stroke="#111111" stroke-width="4"/>
+<path d="M2252.5 650 L2270 650" fill="none" stroke="#111111" stroke-width="4"/>
+<text x="2215.0" y="597" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="28" font-weight="bold" text-anchor="middle">R6</text>
+<text x="2215.0" y="719" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="27" font-weight="normal" text-anchor="middle">33 Ом</text>
+<path d="M2270 650 L2490 650" fill="none" stroke="#111111" stroke-width="4"/>
+<text x="2270" y="598" fill="#0755a4" font-family="Arial, DejaVu Sans, sans-serif" font-size="27" font-weight="bold" text-anchor="start">REF_CLK</text>
+<circle cx="2355" cy="650" r="7" fill="#111111" stroke="none" stroke-width="1"/>
+<path d="M2355 650 L2355 732" fill="none" stroke="#111111" stroke-width="4"/>
+<circle cx="2355" cy="732" r="13" fill="white" stroke="#111111" stroke-width="4"/>
+<text x="2379" y="741" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="27" font-weight="bold" text-anchor="start">TP3</text>
+<text x="2020" y="907" fill="#555555" font-family="Arial, DejaVu Sans, sans-serif" font-size="25" font-weight="normal" text-anchor="start">Выход push-pull · питание 3,3 В</text>
+<path d="M2140 990 L2140 1057.0" fill="none" stroke="#111111" stroke-width="4"/>
+<path d="M2111 1057.0 L2169 1057.0" fill="none" stroke="#111111" stroke-width="4"/>
+<path d="M2111 1083.0 L2169 1083.0" fill="none" stroke="#111111" stroke-width="4"/>
+<path d="M2140 1083.0 L2140 1150" fill="none" stroke="#111111" stroke-width="4"/>
+<text x="2168" y="1060.0" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="24" font-weight="bold" text-anchor="start">C3</text>
+<text x="2168" y="1097.0" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="23" font-weight="normal" text-anchor="start">100 нФ</text>
+<path d="M2140 990 L2140 959" fill="none" stroke="#bb2525" stroke-width="4"/>
+<path d="M2127 959 L2140 942 L2153 959" fill="none" stroke="#bb2525" stroke-width="4" stroke-linejoin="round"/>
+<text x="2162" y="959" fill="#bb2525" font-family="Arial, DejaVu Sans, sans-serif" font-size="26" font-weight="bold" text-anchor="start">+3V3</text>
+<path d="M2140 1150 L2140 1167" fill="none" stroke="#111111" stroke-width="4"/>
+<path d="M2123 1167 L2157 1167" fill="none" stroke="#111111" stroke-width="4"/>
+<path d="M2128 1175 L2152 1175" fill="none" stroke="#111111" stroke-width="4"/>
+<path d="M2134 1183 L2146 1183" fill="none" stroke="#111111" stroke-width="4"/>
+<text x="2166" y="1180" fill="#0755a4" font-family="Arial, DejaVu Sans, sans-serif" font-size="23" font-weight="normal" text-anchor="start">GND</text>
+<path d="M2300 990 L2300 1057.0" fill="none" stroke="#111111" stroke-width="4"/>
+<path d="M2271 1057.0 L2329 1057.0" fill="none" stroke="#111111" stroke-width="4"/>
+<path d="M2271 1083.0 L2329 1083.0" fill="none" stroke="#111111" stroke-width="4"/>
+<path d="M2300 1083.0 L2300 1150" fill="none" stroke="#111111" stroke-width="4"/>
+<text x="2328" y="1060.0" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="24" font-weight="bold" text-anchor="start">C4</text>
+<text x="2328" y="1097.0" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="23" font-weight="normal" text-anchor="start">1 мкФ</text>
+<path d="M2300 990 L2300 959" fill="none" stroke="#bb2525" stroke-width="4"/>
+<path d="M2287 959 L2300 942 L2313 959" fill="none" stroke="#bb2525" stroke-width="4" stroke-linejoin="round"/>
+<text x="2322" y="959" fill="#bb2525" font-family="Arial, DejaVu Sans, sans-serif" font-size="26" font-weight="bold" text-anchor="start">+3V3</text>
+<path d="M2300 1150 L2300 1167" fill="none" stroke="#111111" stroke-width="4"/>
+<path d="M2283 1167 L2317 1167" fill="none" stroke="#111111" stroke-width="4"/>
+<path d="M2288 1175 L2312 1175" fill="none" stroke="#111111" stroke-width="4"/>
+<path d="M2294 1183 L2306 1183" fill="none" stroke="#111111" stroke-width="4"/>
+<text x="2326" y="1180" fill="#0755a4" font-family="Arial, DejaVu Sans, sans-serif" font-size="23" font-weight="normal" text-anchor="start">GND</text>
+<text x="2020" y="1288" fill="#555555" font-family="Arial, DejaVu Sans, sans-serif" font-size="23" font-weight="normal" text-anchor="start">C3 разместить непосредственно</text>
+<text x="2020" y="1324" fill="#555555" font-family="Arial, DejaVu Sans, sans-serif" font-size="23" font-weight="normal" text-anchor="start">около выводов 5 и 2 U1.</text>
+<rect x="2490" y="328" width="530" height="1015" rx="0" fill="white" stroke="#111111" stroke-width="4"/>
+<text x="2524" y="387" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="34" font-weight="bold" text-anchor="start">U2 · Tang Nano 20K</text>
+<path d="M2508 415 L3003 415" fill="none" stroke="#111111" stroke-width="2"/>
+<path d="M2450 468 L2490 468" fill="none" stroke="#bb2525" stroke-width="4"/>
+<path d="M2450 468 L2450 433" fill="none" stroke="#bb2525" stroke-width="4"/>
+<path d="M2437 433 L2450 416 L2463 433" fill="none" stroke="#bb2525" stroke-width="4" stroke-linejoin="round"/>
+<text x="2514" y="480" fill="#bb2525" font-family="Arial, DejaVu Sans, sans-serif" font-size="26" font-weight="bold" text-anchor="start">+3V3 — выход питания</text>
+<path d="M2450 555 L2490 555" fill="none" stroke="#111111" stroke-width="4"/>
+<path d="M2450 555 L2450 572" fill="none" stroke="#111111" stroke-width="4"/>
+<path d="M2433 572 L2467 572" fill="none" stroke="#111111" stroke-width="4"/>
+<path d="M2438 580 L2462 580" fill="none" stroke="#111111" stroke-width="4"/>
+<path d="M2444 588 L2456 588" fill="none" stroke="#111111" stroke-width="4"/>
+<text x="2514" y="565" fill="#0755a4" font-family="Arial, DejaVu Sans, sans-serif" font-size="26" font-weight="normal" text-anchor="start">GND — общий провод</text>
+<text x="2514" y="657" fill="#0755a4" font-family="Arial, DejaVu Sans, sans-serif" font-size="27" font-weight="bold" text-anchor="start">GPIO_CLK — вход</text>
+<circle cx="2490" cy="650" r="7" fill="#111111" stroke="none" stroke-width="1"/>
+<rect x="2535" y="718" width="440" height="115" rx="0" fill="#f6f6f6" stroke="#111111" stroke-width="2"/>
+<text x="2558" y="762" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="29" font-weight="bold" text-anchor="start">USB-C</text>
+<text x="2558" y="804" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="26" font-weight="normal" text-anchor="start">Питание и программирование</text>
+<path d="M3020 900 L3100 900" fill="none" stroke="#111111" stroke-width="4"/>
+<text x="2514" y="909" fill="#0755a4" font-family="Arial, DejaVu Sans, sans-serif" font-size="27" font-weight="bold" text-anchor="start">GPIO_PPS1 — выход</text>
+<path d="M3020 1100 L3100 1100" fill="none" stroke="#111111" stroke-width="4"/>
+<text x="2514" y="1109" fill="#0755a4" font-family="Arial, DejaVu Sans, sans-serif" font-size="27" font-weight="bold" text-anchor="start">GPIO_PPS2 — выход</text>
+<text x="2514" y="1191" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="25" font-weight="normal" text-anchor="start">KEY1: 1 → 10 → 100 → 1 PPS</text>
+<text x="2514" y="1231" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="25" font-weight="normal" text-anchor="start">KEY2: 1 → 10 → 100 → 1 PPS</text>
+<text x="2514" y="1273" fill="#555555" font-family="Arial, DejaVu Sans, sans-serif" font-size="25" font-weight="normal" text-anchor="start">Выбор каналов независим</text>
+<text x="2480" y="1392" fill="#555555" font-family="Arial, DejaVu Sans, sans-serif" font-size="24" font-weight="normal" text-anchor="start">Точные номера GPIO назначить по pinout</text>
+<text x="2480" y="1428" fill="#555555" font-family="Arial, DejaVu Sans, sans-serif" font-size="24" font-weight="normal" text-anchor="start">конкретной ревизии платы.</text>
+<path d="M3100 900 L3157.5 900" fill="none" stroke="#111111" stroke-width="4"/>
+<rect x="3157.5" y="884" width="75" height="32" rx="0" fill="white" stroke="#111111" stroke-width="4"/>
+<path d="M3232.5 900 L3290 900" fill="none" stroke="#111111" stroke-width="4"/>
+<text x="3195.0" y="847" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="28" font-weight="bold" text-anchor="middle">R7</text>
+<text x="3195.0" y="969" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="27" font-weight="normal" text-anchor="middle">33 Ом</text>
+<path d="M3290 900 L3475 900" fill="none" stroke="#111111" stroke-width="4"/>
+<text x="3295" y="845" fill="#0755a4" font-family="Arial, DejaVu Sans, sans-serif" font-size="27" font-weight="bold" text-anchor="start">PPS_CH1</text>
+<path d="M3440 900 L3440 775" fill="none" stroke="#111111" stroke-width="4"/>
+<circle cx="3440" cy="775" r="13" fill="white" stroke="#111111" stroke-width="4"/>
+<circle cx="3440" cy="900" r="7" fill="#111111" stroke="none" stroke-width="1"/>
+<text x="3465" y="767" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="25" font-weight="bold" text-anchor="start">TP4</text>
+<rect x="3475" y="866" width="96" height="114" rx="0" fill="white" stroke="#111111" stroke-width="3"/>
+<circle cx="3475" cy="900" r="7" fill="white" stroke="#111111" stroke-width="3"/>
+<text x="3515" y="846" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="29" font-weight="bold" text-anchor="start">J2</text>
+<text x="3508" y="921" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="23" font-weight="normal" text-anchor="start">центр</text>
+<path d="M3475 955 L3420 955" fill="none" stroke="#111111" stroke-width="4"/>
+<path d="M3420 955 L3420 972" fill="none" stroke="#111111" stroke-width="4"/>
+<path d="M3403 972 L3437 972" fill="none" stroke="#111111" stroke-width="4"/>
+<path d="M3408 980 L3432 980" fill="none" stroke="#111111" stroke-width="4"/>
+<path d="M3414 988 L3426 988" fill="none" stroke="#111111" stroke-width="4"/>
+<text x="3345" y="1005" fill="#0755a4" font-family="Arial, DejaVu Sans, sans-serif" font-size="23" font-weight="normal" text-anchor="start">GND</text>
+<text x="3508" y="970" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="23" font-weight="normal" text-anchor="start">экран</text>
+<path d="M3100 1100 L3157.5 1100" fill="none" stroke="#111111" stroke-width="4"/>
+<rect x="3157.5" y="1084" width="75" height="32" rx="0" fill="white" stroke="#111111" stroke-width="4"/>
+<path d="M3232.5 1100 L3290 1100" fill="none" stroke="#111111" stroke-width="4"/>
+<text x="3195.0" y="1047" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="28" font-weight="bold" text-anchor="middle">R8</text>
+<text x="3195.0" y="1169" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="27" font-weight="normal" text-anchor="middle">33 Ом</text>
+<path d="M3290 1100 L3475 1100" fill="none" stroke="#111111" stroke-width="4"/>
+<text x="3295" y="1045" fill="#0755a4" font-family="Arial, DejaVu Sans, sans-serif" font-size="27" font-weight="bold" text-anchor="start">PPS_CH2</text>
+<path d="M3330 1100 L3330 1260" fill="none" stroke="#111111" stroke-width="4"/>
+<circle cx="3330" cy="1260" r="13" fill="white" stroke="#111111" stroke-width="4"/>
+<circle cx="3330" cy="1100" r="7" fill="#111111" stroke="none" stroke-width="1"/>
+<text x="3355" y="1270" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="25" font-weight="bold" text-anchor="start">TP5</text>
+<rect x="3475" y="1066" width="96" height="114" rx="0" fill="white" stroke="#111111" stroke-width="3"/>
+<circle cx="3475" cy="1100" r="7" fill="white" stroke="#111111" stroke-width="3"/>
+<text x="3515" y="1046" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="29" font-weight="bold" text-anchor="start">J3</text>
+<text x="3508" y="1121" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="23" font-weight="normal" text-anchor="start">центр</text>
+<path d="M3475 1155 L3420 1155" fill="none" stroke="#111111" stroke-width="4"/>
+<path d="M3420 1155 L3420 1172" fill="none" stroke="#111111" stroke-width="4"/>
+<path d="M3403 1172 L3437 1172" fill="none" stroke="#111111" stroke-width="4"/>
+<path d="M3408 1180 L3432 1180" fill="none" stroke="#111111" stroke-width="4"/>
+<path d="M3414 1188 L3426 1188" fill="none" stroke="#111111" stroke-width="4"/>
+<text x="3345" y="1205" fill="#0755a4" font-family="Arial, DejaVu Sans, sans-serif" font-size="23" font-weight="normal" text-anchor="start">GND</text>
+<text x="3508" y="1170" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="23" font-weight="normal" text-anchor="start">экран</text>
+<text x="3110" y="1350" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="25" font-weight="normal" text-anchor="start">Осциллограф: вход 1 МОм,</text>
+<text x="3110" y="1390" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="25" font-weight="normal" text-anchor="start">связь по постоянному току.</text>
+<text x="3110" y="1430" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="25" font-weight="bold" text-anchor="start">Режим 50 Ом выключить.</text>
+<rect x="50" y="1565" width="3600" height="540" rx="0" fill="white" stroke="#111111" stroke-width="3"/>
+<rect x="50" y="1565" width="3600" height="62" rx="0" fill="#f0f0f0" stroke="#111111" stroke-width="2"/>
+<text x="76" y="1607" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="31" font-weight="bold" text-anchor="start">Примечания и контроль</text>
+<text x="85" y="1685" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="29" font-weight="normal" text-anchor="start">1. Земли генератора, Tang Nano, компаратора, разъёмов и осциллографа объединены.</text>
+<text x="85" y="1750" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="29" font-weight="normal" text-anchor="start">2. R1 является нагрузкой 50 Ом для генератора.</text>
+<text x="85" y="1815" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="29" font-weight="normal" text-anchor="start">3. R6, R7 и R8 — последовательные демпфирующие резисторы, не нагрузки 50 Ом.</text>
+<text x="85" y="1880" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="29" font-weight="normal" text-anchor="start">4. Не подавать синус 10 МГц непосредственно на GPIO FPGA.</text>
+<text x="85" y="1945" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="29" font-weight="normal" text-anchor="start">5. Проверка: TP2 ≈ 1,65 В; TP1 — синусоида 10 МГц; TP3 — прямоугольный сигнал 10 МГц;</text>
+<text x="85" y="2010" fill="#111111" font-family="Arial, DejaVu Sans, sans-serif" font-size="29" font-weight="normal" text-anchor="start">    TP4 и TP5 — выбранные сигналы PPS.</text>
+<text x="60" y="2166" fill="#555555" font-family="Arial, DejaVu Sans, sans-serif" font-size="26" font-weight="normal" text-anchor="start">Прототип на готовой отладочной плате · электрические связи показаны условно по именованным цепям</text>
+<text x="3635" y="2166" fill="#555555" font-family="Arial, DejaVu Sans, sans-serif" font-size="25" font-weight="normal" text-anchor="end">Лист 1 / 1</text>
+</svg>
