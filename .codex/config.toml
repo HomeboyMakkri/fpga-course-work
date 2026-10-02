@@ -1,0 +1,8 @@
+# Portable project configuration. Codex loads this for trusted projects.
+# Locate the launcher from the session working directory, including subfolders.
+[mcp_servers.altium_local]
+command = 'py'
+args = ['-3.13', '-c', 'from pathlib import Path; import runpy; p=next((d/"tools/altium/launch_mcp.py" for d in (Path.cwd(), *Path.cwd().parents) if (d/"tools/altium/launch_mcp.py").is_file()), None); assert p is not None, "Altium launcher not found"; runpy.run_path(str(p), run_name="__main__")']
+enabled = true
+startup_timeout_sec = 240
+tool_timeout_sec = 120

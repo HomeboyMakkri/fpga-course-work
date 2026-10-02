@@ -1,0 +1,6 @@
+interface:
+  display_name: "Altium Library"
+  short_description: "Edit native Altium symbols, pin fonts and parts"
+  default_prompt: "Use $altium-library to edit my Altium library component and verify the saved result."
+policy:
+  allow_implicit_invocation: true

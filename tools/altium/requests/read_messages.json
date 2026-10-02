@@ -1,0 +1,5 @@
+{
+ "body":"M := GetWorkspace.DM_MessagesManager; S := ''; for I := 0 to M.MessagesCount-1 do begin MI := M.Messages(I); S := S+MI.MsgClass+' | '+MI.Text+' | '+MI.Document+#13#10; end; ResultText := S;",
+ "declarations":"M: IMessagesManager; MI: IMessageItem; I: Integer; S: String;",
+ "timeout":10
+}

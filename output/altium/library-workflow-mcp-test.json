@@ -1,0 +1,219 @@
+{
+  "tools": [
+    "altium_read_saved_schematic",
+    "altium_read_project",
+    "altium_compile_project",
+    "altium_status",
+    "altium_open_document",
+    "altium_inspect_schematic",
+    "altium_create_schematic",
+    "altium_set_component_parameter",
+    "altium_run_delphiscript",
+    "altium_inspect_library_component",
+    "altium_format_library_pins",
+    "altium_repartition_library_component"
+  ],
+  "live": true,
+  "before": {
+    "parts": 2,
+    "pins": 484,
+    "job": "C:\\Users\\makarlistkov\\.codex\\integrations\\altium\\runtime\\jobs\\71dbc9d149d94e50a3fe5e8ac3caa86e"
+  },
+  "format_7mm_12pt": {
+    "success": true,
+    "path": "C:\\Users\\makarlistkov\\.codex\\worktrees\\ad06\\FPGA-COURSE-WORK\\tmp\\altium-multipart\\WorkflowForwardTest-06eb2798.SchLib",
+    "component": "XC7A50T-2FGG484I",
+    "open": {
+      "success": true,
+      "job_dir": "C:\\Users\\makarlistkov\\.codex\\integrations\\altium\\runtime\\jobs\\ef47d3aef9414af7adc9bf59e81ce0e7",
+      "steps": [
+        "START",
+        "FINISHED"
+      ],
+      "elapsed_seconds": 0.6,
+      "result": "OPENED"
+    },
+    "before_job": "C:\\Users\\makarlistkov\\.codex\\integrations\\altium\\runtime\\jobs\\bf354e8b43504931b1c08f94faf38cdb",
+    "disk_backup": "C:\\Users\\makarlistkov\\.codex\\integrations\\altium\\runtime\\backups\\20261002-182939-dfd02e8c\\WorkflowForwardTest-06eb2798.SchLib",
+    "checkpoint": {
+      "success": true,
+      "job_dir": "C:\\Users\\makarlistkov\\.codex\\integrations\\altium\\runtime\\jobs\\3941d38a525e44ee9667015ed4620f07",
+      "steps": [
+        "START",
+        "FINISHED"
+      ],
+      "elapsed_seconds": 0.75,
+      "result": {
+        "saved": true
+      }
+    },
+    "editor_checkpoint_backup": "C:\\Users\\makarlistkov\\.codex\\integrations\\altium\\runtime\\backups\\20261002-182939-94eaca40\\WorkflowForwardTest-06eb2798.SchLib",
+    "mutation": {
+      "success": true,
+      "job_dir": "C:\\Users\\makarlistkov\\.codex\\integrations\\altium\\runtime\\jobs\\5218bb12908f4890ad6b117346e4bc71",
+      "steps": [
+        "START",
+        "FINISHED"
+      ],
+      "elapsed_seconds": 0.9,
+      "result": {
+        "saved": true
+      }
+    },
+    "readback_job": "C:\\Users\\makarlistkov\\.codex\\integrations\\altium\\runtime\\jobs\\7cc7bda66904411da16a2717d8a7f205",
+    "saved_and_reloaded": true,
+    "pin_count": 484,
+    "part_count": 2,
+    "model_streams_unchanged": true,
+    "sha256": "666578fc38ad525434ce8b56372c53a63e0538bad110602ba7d239762a861b22",
+    "report_path": "C:\\Users\\makarlistkov\\.codex\\integrations\\altium\\runtime\\library-reports\\afe9079f857b4027b82d18d5f10f1113.json",
+    "requested_format": {
+      "length_mm": 7.0,
+      "font_name": "GOST Common",
+      "font_size": 12
+    }
+  },
+  "repartition": {
+    "success": true,
+    "path": "C:\\Users\\makarlistkov\\.codex\\worktrees\\ad06\\FPGA-COURSE-WORK\\tmp\\altium-multipart\\WorkflowForwardTest-06eb2798.SchLib",
+    "component": "XC7A50T-2FGG484I",
+    "open": {
+      "success": true,
+      "job_dir": "C:\\Users\\makarlistkov\\.codex\\integrations\\altium\\runtime\\jobs\\780ad7312a3a482c917b800bd6063b30",
+      "steps": [
+        "START",
+        "FINISHED"
+      ],
+      "elapsed_seconds": 0.75,
+      "result": "OPENED"
+    },
+    "before_job": "C:\\Users\\makarlistkov\\.codex\\integrations\\altium\\runtime\\jobs\\b14ef1db56164415bf7360fdd8e8cf1a",
+    "disk_backup": "C:\\Users\\makarlistkov\\.codex\\integrations\\altium\\runtime\\backups\\20261002-182945-72b8b1d6\\WorkflowForwardTest-06eb2798.SchLib",
+    "checkpoint": {
+      "success": true,
+      "job_dir": "C:\\Users\\makarlistkov\\.codex\\integrations\\altium\\runtime\\jobs\\9169c34370da49e284a0edda6d6c4322",
+      "steps": [
+        "START",
+        "FINISHED"
+      ],
+      "elapsed_seconds": 0.75,
+      "result": {
+        "saved": true
+      }
+    },
+    "editor_checkpoint_backup": "C:\\Users\\makarlistkov\\.codex\\integrations\\altium\\runtime\\backups\\20261002-182946-25a45f8d\\WorkflowForwardTest-06eb2798.SchLib",
+    "mutation": {
+      "success": true,
+      "job_dir": "C:\\Users\\makarlistkov\\.codex\\integrations\\altium\\runtime\\jobs\\036ae9659a3942ac9e661348e38005fb",
+      "steps": [
+        "START",
+        "layout loaded",
+        "pins moved",
+        "eRectangle removed",
+        "eLabel removed",
+        "FINISHED"
+      ],
+      "elapsed_seconds": 0.9,
+      "result": {
+        "saved": true
+      }
+    },
+    "readback_job": "C:\\Users\\makarlistkov\\.codex\\integrations\\altium\\runtime\\jobs\\11b7458f44434da282e6195e59f1127d",
+    "saved_and_reloaded": true,
+    "pin_count": 484,
+    "part_count": 10,
+    "model_streams_unchanged": true,
+    "sha256": "d49d8944b7813f4f8e06639ef8646a8e7b5d45d1107df0b5a31981df76d41639",
+    "report_path": "C:\\Users\\makarlistkov\\.codex\\integrations\\altium\\runtime\\library-reports\\7e8c20263573442292232dbcd5f0e6d9.json"
+  },
+  "format_5mm_10pt": {
+    "success": true,
+    "path": "C:\\Users\\makarlistkov\\.codex\\worktrees\\ad06\\FPGA-COURSE-WORK\\tmp\\altium-multipart\\WorkflowForwardTest-06eb2798.SchLib",
+    "component": "XC7A50T-2FGG484I",
+    "open": {
+      "success": true,
+      "job_dir": "C:\\Users\\makarlistkov\\.codex\\integrations\\altium\\runtime\\jobs\\a2dfc68506f84aeebce1c36de69c2c35",
+      "steps": [
+        "START",
+        "FINISHED"
+      ],
+      "elapsed_seconds": 0.6,
+      "result": "OPENED"
+    },
+    "before_job": "C:\\Users\\makarlistkov\\.codex\\integrations\\altium\\runtime\\jobs\\f61551e0c04d4f4bbbc6bad6161a1185",
+    "disk_backup": "C:\\Users\\makarlistkov\\.codex\\integrations\\altium\\runtime\\backups\\20261002-182951-44aa54f0\\WorkflowForwardTest-06eb2798.SchLib",
+    "checkpoint": {
+      "success": true,
+      "job_dir": "C:\\Users\\makarlistkov\\.codex\\integrations\\altium\\runtime\\jobs\\0d5f12314c074737b6140efd7440a7e3",
+      "steps": [
+        "START",
+        "FINISHED"
+      ],
+      "elapsed_seconds": 0.75,
+      "result": {
+        "saved": true
+      }
+    },
+    "editor_checkpoint_backup": "C:\\Users\\makarlistkov\\.codex\\integrations\\altium\\runtime\\backups\\20261002-182952-e6e7edaf\\WorkflowForwardTest-06eb2798.SchLib",
+    "mutation": {
+      "success": true,
+      "job_dir": "C:\\Users\\makarlistkov\\.codex\\integrations\\altium\\runtime\\jobs\\7a1ebeaa19b14712b7606b60641cc6d3",
+      "steps": [
+        "START",
+        "FINISHED"
+      ],
+      "elapsed_seconds": 0.75,
+      "result": {
+        "saved": true
+      }
+    },
+    "readback_job": "C:\\Users\\makarlistkov\\.codex\\integrations\\altium\\runtime\\jobs\\147a09e00425464ba84159c13f7534cc",
+    "saved_and_reloaded": true,
+    "pin_count": 484,
+    "part_count": 10,
+    "model_streams_unchanged": true,
+    "sha256": "c1ac0f02ac9e529a559bef4bd3696eb300c265ea7f5278edf8ceb00dc0b21327",
+    "report_path": "C:\\Users\\makarlistkov\\.codex\\integrations\\altium\\runtime\\library-reports\\61fee0b21b454d97afbb668b5bb13de9.json",
+    "requested_format": {
+      "length_mm": 5.0,
+      "font_name": "GOST Common",
+      "font_size": 10
+    }
+  },
+  "after": {
+    "parts": 10,
+    "pins": 484,
+    "job": "C:\\Users\\makarlistkov\\.codex\\integrations\\altium\\runtime\\jobs\\25578e1976474690a6144051ea26b2e2"
+  },
+  "original_readback_pins": 484,
+  "original_sha256": "24eac977e2736357616f97e7a85e55cf54aa2682d7ff6ee8de8eec6363d70425",
+  "original_unchanged": true,
+  "success": true,
+  "geometry": {
+    "rectangle_parts": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "label_parts": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "source": "saved_file_read_only"
+  }
+}

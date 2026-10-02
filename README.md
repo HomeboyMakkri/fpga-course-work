@@ -34,6 +34,8 @@
 
 ## Проект Altium Designer
 
+Интеграция Codex ↔ Altium находится в этом же репозитории: [установка и MCP](tools/altium/README.md), [редактирование библиотек](tools/altium/LIBRARY_WORKFLOW.md), [навык altium-library](.agents/skills/altium-library/SKILL.md). Исходники, настройка проекта и таблицы выводов обновляются вместе с `git pull`. Для первого запуска на Windows выполните `powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\tools\altium\setup.ps1 -RegisterUserMcp`. Нужны Python 3.13, Git и установленный Altium.
+
 Создан проект `artix_expansion_board` в Altium Designer. В нём подготовлено пять принципиальных листов: структурная схема, интерфейс Smart Artix, вход опоры 10 МГц, выходы PPS и питание/защита. На листы добавлены рамка и основное оформление, чтобы документация была готова к дальнейшему заполнению по ГОСТ.
 
 По мере утверждения архитектуры здесь появятся HDL-исходники, тестовые окружения, проект PCB и сопроводительная документация.

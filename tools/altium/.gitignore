@@ -1,0 +1,9 @@
+.venv/
+vendor/
+__pycache__/
+runtime/
+*.log
+bridge_config.json
+addon-backup/
+config.json
+*.pyc

@@ -1,0 +1,1301 @@
+{
+  "before": {
+    "success": true,
+    "job_dir": "C:\\Users\\makarlistkov\\.codex\\integrations\\altium\\runtime\\jobs\\e92928e0acf14f34bacb97ff5cccc911",
+    "steps": [
+      "START",
+      "open target for inspection",
+      "inspection complete",
+      "FINISHED"
+    ],
+    "elapsed_seconds": 1.05,
+    "result": {
+      "components": [
+        {
+          "ref": "J2",
+          "value": "W25Q128JVSIQTR",
+          "x": 1900,
+          "y": 6100,
+          "pins": [
+            {
+              "number": "1",
+              "name": "CS",
+              "x": -450,
+              "y": -120,
+              "orientation": 2,
+              "length": 200
+            },
+            {
+              "number": "2",
+              "name": "DO (IO1)",
+              "x": -450,
+              "y": -240,
+              "orientation": 2,
+              "length": 200
+            },
+            {
+              "number": "3",
+              "name": "WP (IO2)",
+              "x": -450,
+              "y": -360,
+              "orientation": 2,
+              "length": 200
+            },
+            {
+              "number": "4",
+              "name": "GND",
+              "x": -450,
+              "y": -480,
+              "orientation": 2,
+              "length": 200
+            },
+            {
+              "number": "8",
+              "name": "VCC",
+              "x": 450,
+              "y": -120,
+              "orientation": 0,
+              "length": 200
+            },
+            {
+              "number": "7",
+              "name": "HOLD (IO3)",
+              "x": 450,
+              "y": -240,
+              "orientation": 0,
+              "length": 200
+            },
+            {
+              "number": "6",
+              "name": "CLK",
+              "x": 450,
+              "y": -360,
+              "orientation": 0,
+              "length": 200
+            },
+            {
+              "number": "5",
+              "name": "DI (IO0)",
+              "x": 450,
+              "y": -480,
+              "orientation": 0,
+              "length": 200
+            }
+          ]
+        },
+        {
+          "ref": "R655",
+          "value": "4.7k",
+          "x": 4400,
+          "y": 6100,
+          "pins": [
+            {
+              "number": "1",
+              "name": "1",
+              "x": -125,
+              "y": -120,
+              "orientation": 2,
+              "length": 200
+            },
+            {
+              "number": "2",
+              "name": "2",
+              "x": 125,
+              "y": -120,
+              "orientation": 0,
+              "length": 200
+            }
+          ]
+        },
+        {
+          "ref": "R151",
+          "value": "4.7k",
+          "x": 6600,
+          "y": 6100,
+          "pins": [
+            {
+              "number": "1",
+              "name": "1",
+              "x": -125,
+              "y": -120,
+              "orientation": 2,
+              "length": 200
+            },
+            {
+              "number": "2",
+              "name": "2",
+              "x": 125,
+              "y": -120,
+              "orientation": 0,
+              "length": 200
+            }
+          ]
+        },
+        {
+          "ref": "R656",
+          "value": "4.7k",
+          "x": 4400,
+          "y": 5300,
+          "pins": [
+            {
+              "number": "1",
+              "name": "1",
+              "x": -125,
+              "y": -120,
+              "orientation": 2,
+              "length": 200
+            },
+            {
+              "number": "2",
+              "name": "2",
+              "x": 125,
+              "y": -120,
+              "orientation": 0,
+              "length": 200
+            }
+          ]
+        },
+        {
+          "ref": "C18",
+          "value": "0.1uF",
+          "x": 6600,
+          "y": 5300,
+          "pins": [
+            {
+              "number": "1",
+              "name": "1",
+              "x": -125,
+              "y": -120,
+              "orientation": 2,
+              "length": 200
+            },
+            {
+              "number": "2",
+              "name": "2",
+              "x": 125,
+              "y": -120,
+              "orientation": 0,
+              "length": 200
+            }
+          ]
+        },
+        {
+          "ref": "X6",
+          "value": "50MHz oscillator",
+          "x": 1900,
+          "y": 4100,
+          "pins": [
+            {
+              "number": "4",
+              "name": "VCC",
+              "x": -400,
+              "y": -120,
+              "orientation": 2,
+              "length": 200
+            },
+            {
+              "number": "2",
+              "name": "GND",
+              "x": -400,
+              "y": -240,
+              "orientation": 2,
+              "length": 200
+            },
+            {
+              "number": "3",
+              "name": "OUT",
+              "x": 400,
+              "y": -120,
+              "orientation": 0,
+              "length": 200
+            },
+            {
+              "number": "1",
+              "name": "NC",
+              "x": 400,
+              "y": -240,
+              "orientation": 0,
+              "length": 200
+            }
+          ]
+        },
+        {
+          "ref": "R657",
+          "value": "22R",
+          "x": 4400,
+          "y": 4100,
+          "pins": [
+            {
+              "number": "1",
+              "name": "1",
+              "x": -125,
+              "y": -120,
+              "orientation": 2,
+              "length": 200
+            },
+            {
+              "number": "2",
+              "name": "2",
+              "x": 125,
+              "y": -120,
+              "orientation": 0,
+              "length": 200
+            }
+          ]
+        },
+        {
+          "ref": "C827",
+          "value": "0.1uF",
+          "x": 6600,
+          "y": 4100,
+          "pins": [
+            {
+              "number": "1",
+              "name": "1",
+              "x": -125,
+              "y": -120,
+              "orientation": 2,
+              "length": 200
+            },
+            {
+              "number": "2",
+              "name": "2",
+              "x": 125,
+              "y": -120,
+              "orientation": 0,
+              "length": 200
+            }
+          ]
+        }
+      ],
+      "net_labels": [
+        {
+          "net": "QSPI_CS",
+          "x": 950,
+          "y": 5980
+        },
+        {
+          "net": "QSPI_DQ1",
+          "x": 950,
+          "y": 5860
+        },
+        {
+          "net": "QSPI_DQ2",
+          "x": 950,
+          "y": 5740
+        },
+        {
+          "net": "GND",
+          "x": 950,
+          "y": 5620
+        },
+        {
+          "net": "VCC3V3",
+          "x": 2850,
+          "y": 5980
+        },
+        {
+          "net": "QSPI_DQ3",
+          "x": 2850,
+          "y": 5860
+        },
+        {
+          "net": "QSPI_CLK",
+          "x": 2850,
+          "y": 5740
+        },
+        {
+          "net": "QSPI_DQ0",
+          "x": 2850,
+          "y": 5620
+        },
+        {
+          "net": "VCC3V3",
+          "x": 3775,
+          "y": 5980
+        },
+        {
+          "net": "QSPI_CS",
+          "x": 5025,
+          "y": 5980
+        },
+        {
+          "net": "VCC3V3",
+          "x": 5975,
+          "y": 5980
+        },
+        {
+          "net": "QSPI_DQ2",
+          "x": 7225,
+          "y": 5980
+        },
+        {
+          "net": "VCC3V3",
+          "x": 3775,
+          "y": 5180
+        },
+        {
+          "net": "QSPI_DQ3",
+          "x": 5025,
+          "y": 5180
+        },
+        {
+          "net": "VCC3V3",
+          "x": 5975,
+          "y": 5180
+        },
+        {
+          "net": "GND",
+          "x": 7225,
+          "y": 5180
+        },
+        {
+          "net": "VCC3V3",
+          "x": 1000,
+          "y": 3980
+        },
+        {
+          "net": "GND",
+          "x": 1000,
+          "y": 3860
+        },
+        {
+          "net": "CLK50_RAW",
+          "x": 2800,
+          "y": 3980
+        },
+        {
+          "net": "CLK50_RAW",
+          "x": 3775,
+          "y": 3980
+        },
+        {
+          "net": "CLK_50M",
+          "x": 5025,
+          "y": 3980
+        },
+        {
+          "net": "VCC3V3",
+          "x": 5975,
+          "y": 3980
+        },
+        {
+          "net": "GND",
+          "x": 7225,
+          "y": 3980
+        }
+      ],
+      "wires": [
+        {
+          "x1": 1250,
+          "y1": 5980,
+          "x2": 950,
+          "y2": 5980
+        },
+        {
+          "x1": 1250,
+          "y1": 5860,
+          "x2": 950,
+          "y2": 5860
+        },
+        {
+          "x1": 1250,
+          "y1": 5740,
+          "x2": 950,
+          "y2": 5740
+        },
+        {
+          "x1": 1250,
+          "y1": 5620,
+          "x2": 950,
+          "y2": 5620
+        },
+        {
+          "x1": 2550,
+          "y1": 5980,
+          "x2": 2850,
+          "y2": 5980
+        },
+        {
+          "x1": 2550,
+          "y1": 5860,
+          "x2": 2850,
+          "y2": 5860
+        },
+        {
+          "x1": 2550,
+          "y1": 5740,
+          "x2": 2850,
+          "y2": 5740
+        },
+        {
+          "x1": 2550,
+          "y1": 5620,
+          "x2": 2850,
+          "y2": 5620
+        },
+        {
+          "x1": 4075,
+          "y1": 5980,
+          "x2": 3775,
+          "y2": 5980
+        },
+        {
+          "x1": 4725,
+          "y1": 5980,
+          "x2": 5025,
+          "y2": 5980
+        },
+        {
+          "x1": 6275,
+          "y1": 5980,
+          "x2": 5975,
+          "y2": 5980
+        },
+        {
+          "x1": 6925,
+          "y1": 5980,
+          "x2": 7225,
+          "y2": 5980
+        },
+        {
+          "x1": 4075,
+          "y1": 5180,
+          "x2": 3775,
+          "y2": 5180
+        },
+        {
+          "x1": 4725,
+          "y1": 5180,
+          "x2": 5025,
+          "y2": 5180
+        },
+        {
+          "x1": 6275,
+          "y1": 5180,
+          "x2": 5975,
+          "y2": 5180
+        },
+        {
+          "x1": 6925,
+          "y1": 5180,
+          "x2": 7225,
+          "y2": 5180
+        },
+        {
+          "x1": 1300,
+          "y1": 3980,
+          "x2": 1000,
+          "y2": 3980
+        },
+        {
+          "x1": 1300,
+          "y1": 3860,
+          "x2": 1000,
+          "y2": 3860
+        },
+        {
+          "x1": 2500,
+          "y1": 3980,
+          "x2": 2800,
+          "y2": 3980
+        },
+        {
+          "x1": 4075,
+          "y1": 3980,
+          "x2": 3775,
+          "y2": 3980
+        },
+        {
+          "x1": 4725,
+          "y1": 3980,
+          "x2": 5025,
+          "y2": 3980
+        },
+        {
+          "x1": 6275,
+          "y1": 3980,
+          "x2": 5975,
+          "y2": 3980
+        },
+        {
+          "x1": 6925,
+          "y1": 3980,
+          "x2": 7225,
+          "y2": 3980
+        }
+      ]
+    }
+  },
+  "change": {
+    "success": true,
+    "job_dir": "C:\\Users\\makarlistkov\\.codex\\integrations\\altium\\runtime\\jobs\\8ff54222b9d3425ea493b523fdc7ea04",
+    "steps": [
+      "START",
+      "component located",
+      "FINISHED"
+    ],
+    "elapsed_seconds": 1.2,
+    "result": "UPDATED",
+    "backup": "C:\\Users\\makarlistkov\\.codex\\integrations\\altium\\runtime\\backups\\20261001-180105-4f7c9d7e\\Clock_Flash.SchDoc"
+  },
+  "changed_readback": "C:\\Users\\makarlistkov\\.codex\\integrations\\altium\\runtime\\jobs\\9e2b6f7a71704edfb698dfbc53d204fc",
+  "restore": {
+    "success": true,
+    "job_dir": "C:\\Users\\makarlistkov\\.codex\\integrations\\altium\\runtime\\jobs\\417e5c55ceec46dcbf5611369446f822",
+    "steps": [
+      "START",
+      "component located",
+      "FINISHED"
+    ],
+    "elapsed_seconds": 1.2,
+    "result": "UPDATED",
+    "backup": "C:\\Users\\makarlistkov\\.codex\\integrations\\altium\\runtime\\backups\\20261001-180107-5af77c23\\Clock_Flash.SchDoc"
+  },
+  "final": {
+    "success": true,
+    "job_dir": "C:\\Users\\makarlistkov\\.codex\\integrations\\altium\\runtime\\jobs\\a02f02e9f47542ce97ba50a62dc1d07c",
+    "steps": [
+      "START",
+      "open target for inspection",
+      "inspection complete",
+      "FINISHED"
+    ],
+    "elapsed_seconds": 1.05,
+    "result": {
+      "components": [
+        {
+          "ref": "J2",
+          "value": "W25Q128JVSIQTR",
+          "x": 1900,
+          "y": 6100,
+          "pins": [
+            {
+              "number": "1",
+              "name": "CS",
+              "x": -450,
+              "y": -120,
+              "orientation": 2,
+              "length": 200
+            },
+            {
+              "number": "2",
+              "name": "DO (IO1)",
+              "x": -450,
+              "y": -240,
+              "orientation": 2,
+              "length": 200
+            },
+            {
+              "number": "3",
+              "name": "WP (IO2)",
+              "x": -450,
+              "y": -360,
+              "orientation": 2,
+              "length": 200
+            },
+            {
+              "number": "4",
+              "name": "GND",
+              "x": -450,
+              "y": -480,
+              "orientation": 2,
+              "length": 200
+            },
+            {
+              "number": "8",
+              "name": "VCC",
+              "x": 450,
+              "y": -120,
+              "orientation": 0,
+              "length": 200
+            },
+            {
+              "number": "7",
+              "name": "HOLD (IO3)",
+              "x": 450,
+              "y": -240,
+              "orientation": 0,
+              "length": 200
+            },
+            {
+              "number": "6",
+              "name": "CLK",
+              "x": 450,
+              "y": -360,
+              "orientation": 0,
+              "length": 200
+            },
+            {
+              "number": "5",
+              "name": "DI (IO0)",
+              "x": 450,
+              "y": -480,
+              "orientation": 0,
+              "length": 200
+            }
+          ]
+        },
+        {
+          "ref": "R655",
+          "value": "4.7k",
+          "x": 4400,
+          "y": 6100,
+          "pins": [
+            {
+              "number": "1",
+              "name": "1",
+              "x": -125,
+              "y": -120,
+              "orientation": 2,
+              "length": 200
+            },
+            {
+              "number": "2",
+              "name": "2",
+              "x": 125,
+              "y": -120,
+              "orientation": 0,
+              "length": 200
+            }
+          ]
+        },
+        {
+          "ref": "R151",
+          "value": "4.7k",
+          "x": 6600,
+          "y": 6100,
+          "pins": [
+            {
+              "number": "1",
+              "name": "1",
+              "x": -125,
+              "y": -120,
+              "orientation": 2,
+              "length": 200
+            },
+            {
+              "number": "2",
+              "name": "2",
+              "x": 125,
+              "y": -120,
+              "orientation": 0,
+              "length": 200
+            }
+          ]
+        },
+        {
+          "ref": "R656",
+          "value": "4.7k",
+          "x": 4400,
+          "y": 5300,
+          "pins": [
+            {
+              "number": "1",
+              "name": "1",
+              "x": -125,
+              "y": -120,
+              "orientation": 2,
+              "length": 200
+            },
+            {
+              "number": "2",
+              "name": "2",
+              "x": 125,
+              "y": -120,
+              "orientation": 0,
+              "length": 200
+            }
+          ]
+        },
+        {
+          "ref": "C18",
+          "value": "0.1uF",
+          "x": 6600,
+          "y": 5300,
+          "pins": [
+            {
+              "number": "1",
+              "name": "1",
+              "x": -125,
+              "y": -120,
+              "orientation": 2,
+              "length": 200
+            },
+            {
+              "number": "2",
+              "name": "2",
+              "x": 125,
+              "y": -120,
+              "orientation": 0,
+              "length": 200
+            }
+          ]
+        },
+        {
+          "ref": "X6",
+          "value": "50MHz oscillator",
+          "x": 1900,
+          "y": 4100,
+          "pins": [
+            {
+              "number": "4",
+              "name": "VCC",
+              "x": -400,
+              "y": -120,
+              "orientation": 2,
+              "length": 200
+            },
+            {
+              "number": "2",
+              "name": "GND",
+              "x": -400,
+              "y": -240,
+              "orientation": 2,
+              "length": 200
+            },
+            {
+              "number": "3",
+              "name": "OUT",
+              "x": 400,
+              "y": -120,
+              "orientation": 0,
+              "length": 200
+            },
+            {
+              "number": "1",
+              "name": "NC",
+              "x": 400,
+              "y": -240,
+              "orientation": 0,
+              "length": 200
+            }
+          ]
+        },
+        {
+          "ref": "R657",
+          "value": "22R",
+          "x": 4400,
+          "y": 4100,
+          "pins": [
+            {
+              "number": "1",
+              "name": "1",
+              "x": -125,
+              "y": -120,
+              "orientation": 2,
+              "length": 200
+            },
+            {
+              "number": "2",
+              "name": "2",
+              "x": 125,
+              "y": -120,
+              "orientation": 0,
+              "length": 200
+            }
+          ]
+        },
+        {
+          "ref": "C827",
+          "value": "0.1uF",
+          "x": 6600,
+          "y": 4100,
+          "pins": [
+            {
+              "number": "1",
+              "name": "1",
+              "x": -125,
+              "y": -120,
+              "orientation": 2,
+              "length": 200
+            },
+            {
+              "number": "2",
+              "name": "2",
+              "x": 125,
+              "y": -120,
+              "orientation": 0,
+              "length": 200
+            }
+          ]
+        }
+      ],
+      "net_labels": [
+        {
+          "net": "QSPI_CS",
+          "x": 950,
+          "y": 5980
+        },
+        {
+          "net": "QSPI_DQ1",
+          "x": 950,
+          "y": 5860
+        },
+        {
+          "net": "QSPI_DQ2",
+          "x": 950,
+          "y": 5740
+        },
+        {
+          "net": "GND",
+          "x": 950,
+          "y": 5620
+        },
+        {
+          "net": "VCC3V3",
+          "x": 2850,
+          "y": 5980
+        },
+        {
+          "net": "QSPI_DQ3",
+          "x": 2850,
+          "y": 5860
+        },
+        {
+          "net": "QSPI_CLK",
+          "x": 2850,
+          "y": 5740
+        },
+        {
+          "net": "QSPI_DQ0",
+          "x": 2850,
+          "y": 5620
+        },
+        {
+          "net": "VCC3V3",
+          "x": 3775,
+          "y": 5980
+        },
+        {
+          "net": "QSPI_CS",
+          "x": 5025,
+          "y": 5980
+        },
+        {
+          "net": "VCC3V3",
+          "x": 5975,
+          "y": 5980
+        },
+        {
+          "net": "QSPI_DQ2",
+          "x": 7225,
+          "y": 5980
+        },
+        {
+          "net": "VCC3V3",
+          "x": 3775,
+          "y": 5180
+        },
+        {
+          "net": "QSPI_DQ3",
+          "x": 5025,
+          "y": 5180
+        },
+        {
+          "net": "VCC3V3",
+          "x": 5975,
+          "y": 5180
+        },
+        {
+          "net": "GND",
+          "x": 7225,
+          "y": 5180
+        },
+        {
+          "net": "VCC3V3",
+          "x": 1000,
+          "y": 3980
+        },
+        {
+          "net": "GND",
+          "x": 1000,
+          "y": 3860
+        },
+        {
+          "net": "CLK50_RAW",
+          "x": 2800,
+          "y": 3980
+        },
+        {
+          "net": "CLK50_RAW",
+          "x": 3775,
+          "y": 3980
+        },
+        {
+          "net": "CLK_50M",
+          "x": 5025,
+          "y": 3980
+        },
+        {
+          "net": "VCC3V3",
+          "x": 5975,
+          "y": 3980
+        },
+        {
+          "net": "GND",
+          "x": 7225,
+          "y": 3980
+        }
+      ],
+      "wires": [
+        {
+          "x1": 1250,
+          "y1": 5980,
+          "x2": 950,
+          "y2": 5980
+        },
+        {
+          "x1": 1250,
+          "y1": 5860,
+          "x2": 950,
+          "y2": 5860
+        },
+        {
+          "x1": 1250,
+          "y1": 5740,
+          "x2": 950,
+          "y2": 5740
+        },
+        {
+          "x1": 1250,
+          "y1": 5620,
+          "x2": 950,
+          "y2": 5620
+        },
+        {
+          "x1": 2550,
+          "y1": 5980,
+          "x2": 2850,
+          "y2": 5980
+        },
+        {
+          "x1": 2550,
+          "y1": 5860,
+          "x2": 2850,
+          "y2": 5860
+        },
+        {
+          "x1": 2550,
+          "y1": 5740,
+          "x2": 2850,
+          "y2": 5740
+        },
+        {
+          "x1": 2550,
+          "y1": 5620,
+          "x2": 2850,
+          "y2": 5620
+        },
+        {
+          "x1": 4075,
+          "y1": 5980,
+          "x2": 3775,
+          "y2": 5980
+        },
+        {
+          "x1": 4725,
+          "y1": 5980,
+          "x2": 5025,
+          "y2": 5980
+        },
+        {
+          "x1": 6275,
+          "y1": 5980,
+          "x2": 5975,
+          "y2": 5980
+        },
+        {
+          "x1": 6925,
+          "y1": 5980,
+          "x2": 7225,
+          "y2": 5980
+        },
+        {
+          "x1": 4075,
+          "y1": 5180,
+          "x2": 3775,
+          "y2": 5180
+        },
+        {
+          "x1": 4725,
+          "y1": 5180,
+          "x2": 5025,
+          "y2": 5180
+        },
+        {
+          "x1": 6275,
+          "y1": 5180,
+          "x2": 5975,
+          "y2": 5180
+        },
+        {
+          "x1": 6925,
+          "y1": 5180,
+          "x2": 7225,
+          "y2": 5180
+        },
+        {
+          "x1": 1300,
+          "y1": 3980,
+          "x2": 1000,
+          "y2": 3980
+        },
+        {
+          "x1": 1300,
+          "y1": 3860,
+          "x2": 1000,
+          "y2": 3860
+        },
+        {
+          "x1": 2500,
+          "y1": 3980,
+          "x2": 2800,
+          "y2": 3980
+        },
+        {
+          "x1": 4075,
+          "y1": 3980,
+          "x2": 3775,
+          "y2": 3980
+        },
+        {
+          "x1": 4725,
+          "y1": 3980,
+          "x2": 5025,
+          "y2": 3980
+        },
+        {
+          "x1": 6275,
+          "y1": 3980,
+          "x2": 5975,
+          "y2": 3980
+        },
+        {
+          "x1": 6925,
+          "y1": 3980,
+          "x2": 7225,
+          "y2": 3980
+        }
+      ]
+    }
+  },
+  "pin_net_checks": [
+    {
+      "ref": "J2",
+      "pin": "1",
+      "expected": "QSPI_CS",
+      "actual": [
+        "QSPI_CS"
+      ],
+      "pass": true
+    },
+    {
+      "ref": "J2",
+      "pin": "2",
+      "expected": "QSPI_DQ1",
+      "actual": [
+        "QSPI_DQ1"
+      ],
+      "pass": true
+    },
+    {
+      "ref": "J2",
+      "pin": "3",
+      "expected": "QSPI_DQ2",
+      "actual": [
+        "QSPI_DQ2"
+      ],
+      "pass": true
+    },
+    {
+      "ref": "J2",
+      "pin": "4",
+      "expected": "GND",
+      "actual": [
+        "GND"
+      ],
+      "pass": true
+    },
+    {
+      "ref": "J2",
+      "pin": "8",
+      "expected": "VCC3V3",
+      "actual": [
+        "VCC3V3"
+      ],
+      "pass": true
+    },
+    {
+      "ref": "J2",
+      "pin": "7",
+      "expected": "QSPI_DQ3",
+      "actual": [
+        "QSPI_DQ3"
+      ],
+      "pass": true
+    },
+    {
+      "ref": "J2",
+      "pin": "6",
+      "expected": "QSPI_CLK",
+      "actual": [
+        "QSPI_CLK"
+      ],
+      "pass": true
+    },
+    {
+      "ref": "J2",
+      "pin": "5",
+      "expected": "QSPI_DQ0",
+      "actual": [
+        "QSPI_DQ0"
+      ],
+      "pass": true
+    },
+    {
+      "ref": "R655",
+      "pin": "1",
+      "expected": "VCC3V3",
+      "actual": [
+        "VCC3V3"
+      ],
+      "pass": true
+    },
+    {
+      "ref": "R655",
+      "pin": "2",
+      "expected": "QSPI_CS",
+      "actual": [
+        "QSPI_CS"
+      ],
+      "pass": true
+    },
+    {
+      "ref": "R151",
+      "pin": "1",
+      "expected": "VCC3V3",
+      "actual": [
+        "VCC3V3"
+      ],
+      "pass": true
+    },
+    {
+      "ref": "R151",
+      "pin": "2",
+      "expected": "QSPI_DQ2",
+      "actual": [
+        "QSPI_DQ2"
+      ],
+      "pass": true
+    },
+    {
+      "ref": "R656",
+      "pin": "1",
+      "expected": "VCC3V3",
+      "actual": [
+        "VCC3V3"
+      ],
+      "pass": true
+    },
+    {
+      "ref": "R656",
+      "pin": "2",
+      "expected": "QSPI_DQ3",
+      "actual": [
+        "QSPI_DQ3"
+      ],
+      "pass": true
+    },
+    {
+      "ref": "C18",
+      "pin": "1",
+      "expected": "VCC3V3",
+      "actual": [
+        "VCC3V3"
+      ],
+      "pass": true
+    },
+    {
+      "ref": "C18",
+      "pin": "2",
+      "expected": "GND",
+      "actual": [
+        "GND"
+      ],
+      "pass": true
+    },
+    {
+      "ref": "X6",
+      "pin": "4",
+      "expected": "VCC3V3",
+      "actual": [
+        "VCC3V3"
+      ],
+      "pass": true
+    },
+    {
+      "ref": "X6",
+      "pin": "2",
+      "expected": "GND",
+      "actual": [
+        "GND"
+      ],
+      "pass": true
+    },
+    {
+      "ref": "X6",
+      "pin": "3",
+      "expected": "CLK50_RAW",
+      "actual": [
+        "CLK50_RAW"
+      ],
+      "pass": true
+    },
+    {
+      "ref": "X6",
+      "pin": "1",
+      "expected": null,
+      "actual": [],
+      "pass": true
+    },
+    {
+      "ref": "R657",
+      "pin": "1",
+      "expected": "CLK50_RAW",
+      "actual": [
+        "CLK50_RAW"
+      ],
+      "pass": true
+    },
+    {
+      "ref": "R657",
+      "pin": "2",
+      "expected": "CLK_50M",
+      "actual": [
+        "CLK_50M"
+      ],
+      "pass": true
+    },
+    {
+      "ref": "C827",
+      "pin": "1",
+      "expected": "VCC3V3",
+      "actual": [
+        "VCC3V3"
+      ],
+      "pass": true
+    },
+    {
+      "ref": "C827",
+      "pin": "2",
+      "expected": "GND",
+      "actual": [
+        "GND"
+      ],
+      "pass": true
+    }
+  ],
+  "all_geometry_checks_pass": true,
+  "note": "API geometry verification; compiler connectivity and ERC are separate checks"
+}

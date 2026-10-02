@@ -1,0 +1,247 @@
+{
+  "title": "Smart Artix: QSPI configuration flash and local 50 MHz clock",
+  "note": "Native reconstruction of PDF page 6. Pin/net check required; footprints not assigned.",
+  "source": "Schematic_Smart_Artix_251120.pdf page 6",
+  "components": [
+    {
+      "ref": "J2",
+      "value": "W25Q128JVSIQTR",
+      "x": 1900,
+      "y": 6100,
+      "width": 900,
+      "pins": [
+        {
+          "number": "1",
+          "name": "CS",
+          "net": "QSPI_CS",
+          "side": "left",
+          "electrical": "passive"
+        },
+        {
+          "number": "2",
+          "name": "DO (IO1)",
+          "net": "QSPI_DQ1",
+          "side": "left",
+          "electrical": "passive"
+        },
+        {
+          "number": "3",
+          "name": "WP (IO2)",
+          "net": "QSPI_DQ2",
+          "side": "left",
+          "electrical": "passive"
+        },
+        {
+          "number": "4",
+          "name": "GND",
+          "net": "GND",
+          "side": "left",
+          "electrical": "power"
+        },
+        {
+          "number": "8",
+          "name": "VCC",
+          "net": "VCC3V3",
+          "side": "right",
+          "electrical": "power"
+        },
+        {
+          "number": "7",
+          "name": "HOLD (IO3)",
+          "net": "QSPI_DQ3",
+          "side": "right",
+          "electrical": "passive"
+        },
+        {
+          "number": "6",
+          "name": "CLK",
+          "net": "QSPI_CLK",
+          "side": "right",
+          "electrical": "passive"
+        },
+        {
+          "number": "5",
+          "name": "DI (IO0)",
+          "net": "QSPI_DQ0",
+          "side": "right",
+          "electrical": "passive"
+        }
+      ]
+    },
+    {
+      "ref": "R655",
+      "value": "4.7k",
+      "x": 4400,
+      "y": 6100,
+      "width": 250,
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "VCC3V3",
+          "side": "left",
+          "electrical": "passive"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "QSPI_CS",
+          "side": "right",
+          "electrical": "passive"
+        }
+      ]
+    },
+    {
+      "ref": "R151",
+      "value": "4.7k",
+      "x": 6600,
+      "y": 6100,
+      "width": 250,
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "VCC3V3",
+          "side": "left",
+          "electrical": "passive"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "QSPI_DQ2",
+          "side": "right",
+          "electrical": "passive"
+        }
+      ]
+    },
+    {
+      "ref": "R656",
+      "value": "4.7k",
+      "x": 4400,
+      "y": 5300,
+      "width": 250,
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "VCC3V3",
+          "side": "left",
+          "electrical": "passive"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "QSPI_DQ3",
+          "side": "right",
+          "electrical": "passive"
+        }
+      ]
+    },
+    {
+      "ref": "C18",
+      "value": "0.1uF",
+      "x": 6600,
+      "y": 5300,
+      "width": 250,
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "VCC3V3",
+          "side": "left",
+          "electrical": "passive"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND",
+          "side": "right",
+          "electrical": "passive"
+        }
+      ]
+    },
+    {
+      "ref": "X6",
+      "value": "50MHz oscillator",
+      "x": 1900,
+      "y": 4100,
+      "width": 800,
+      "pins": [
+        {
+          "number": "4",
+          "name": "VCC",
+          "net": "VCC3V3",
+          "side": "left",
+          "electrical": "power"
+        },
+        {
+          "number": "2",
+          "name": "GND",
+          "net": "GND",
+          "side": "left",
+          "electrical": "power"
+        },
+        {
+          "number": "3",
+          "name": "OUT",
+          "net": "CLK50_RAW",
+          "side": "right",
+          "electrical": "output"
+        },
+        {
+          "number": "1",
+          "name": "NC",
+          "net": null,
+          "side": "right",
+          "electrical": "passive"
+        }
+      ]
+    },
+    {
+      "ref": "R657",
+      "value": "22R",
+      "x": 4400,
+      "y": 4100,
+      "width": 250,
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "CLK50_RAW",
+          "side": "left",
+          "electrical": "passive"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "CLK_50M",
+          "side": "right",
+          "electrical": "passive"
+        }
+      ]
+    },
+    {
+      "ref": "C827",
+      "value": "0.1uF",
+      "x": 6600,
+      "y": 4100,
+      "width": 250,
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "VCC3V3",
+          "side": "left",
+          "electrical": "passive"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND",
+          "side": "right",
+          "electrical": "passive"
+        }
+      ]
+    }
+  ]
+}

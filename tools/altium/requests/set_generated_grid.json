@@ -1,0 +1,5 @@
+{
+ "body":"SD := Client.OpenDocument('SCH','C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\CodexGenerated\\Clock_Flash_Verified.SchDoc'); D := SchServer.GetSchDocumentByPath(SD.FileName); D.SnapGridSize := MilsToCoord(5); D.VisibleGridSize := MilsToCoord(100); SD.SetModified(True); SD.DoFileSave(''); ResultText := 'GRID_SAVED';",
+ "declarations":"SD: IServerDocument; D: ISch_Document;",
+ "timeout":10
+}

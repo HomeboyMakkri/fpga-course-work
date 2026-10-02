@@ -1,0 +1,301 @@
+{
+  "success": true,
+  "job_dir": "C:\\Users\\makarlistkov\\.codex\\integrations\\altium\\runtime\\jobs\\3611d71ab5a94fd2badceae7d206a633",
+  "steps": [
+    "START",
+    "open dedicated generated project",
+    "compile dedicated generated project",
+    "read compiled nets",
+    "FINISHED"
+  ],
+  "elapsed_seconds": 2.71,
+  "result": {
+    "compiled": false,
+    "pins": [
+      {
+        "ref": "C18",
+        "pin": "1",
+        "net": "VCC3V3"
+      },
+      {
+        "ref": "C18",
+        "pin": "2",
+        "net": "GND"
+      },
+      {
+        "ref": "C827",
+        "pin": "1",
+        "net": "VCC3V3"
+      },
+      {
+        "ref": "C827",
+        "pin": "2",
+        "net": "GND"
+      },
+      {
+        "ref": "J2",
+        "pin": "1",
+        "net": "QSPI_CS"
+      },
+      {
+        "ref": "J2",
+        "pin": "2",
+        "net": "QSPI_DQ1"
+      },
+      {
+        "ref": "J2",
+        "pin": "3",
+        "net": "QSPI_DQ2"
+      },
+      {
+        "ref": "J2",
+        "pin": "4",
+        "net": "GND"
+      },
+      {
+        "ref": "J2",
+        "pin": "5",
+        "net": "QSPI_DQ0"
+      },
+      {
+        "ref": "J2",
+        "pin": "6",
+        "net": "QSPI_CLK"
+      },
+      {
+        "ref": "J2",
+        "pin": "7",
+        "net": "QSPI_DQ3"
+      },
+      {
+        "ref": "J2",
+        "pin": "8",
+        "net": "VCC3V3"
+      },
+      {
+        "ref": "R151",
+        "pin": "1",
+        "net": "VCC3V3"
+      },
+      {
+        "ref": "R151",
+        "pin": "2",
+        "net": "QSPI_DQ2"
+      },
+      {
+        "ref": "R655",
+        "pin": "1",
+        "net": "VCC3V3"
+      },
+      {
+        "ref": "R655",
+        "pin": "2",
+        "net": "QSPI_CS"
+      },
+      {
+        "ref": "R656",
+        "pin": "1",
+        "net": "VCC3V3"
+      },
+      {
+        "ref": "R656",
+        "pin": "2",
+        "net": "QSPI_DQ3"
+      },
+      {
+        "ref": "R657",
+        "pin": "1",
+        "net": "CLK50_RAW"
+      },
+      {
+        "ref": "R657",
+        "pin": "2",
+        "net": "CLK_50M"
+      },
+      {
+        "ref": "X6",
+        "pin": "1",
+        "net": "NetX6_1"
+      },
+      {
+        "ref": "X6",
+        "pin": "2",
+        "net": "GND"
+      },
+      {
+        "ref": "X6",
+        "pin": "3",
+        "net": "CLK50_RAW"
+      },
+      {
+        "ref": "X6",
+        "pin": "4",
+        "net": "VCC3V3"
+      }
+    ]
+  },
+  "checks": [
+    {
+      "ref": "J2",
+      "pin": "1",
+      "expected": "QSPI_CS",
+      "actual": "QSPI_CS",
+      "pass": true
+    },
+    {
+      "ref": "J2",
+      "pin": "2",
+      "expected": "QSPI_DQ1",
+      "actual": "QSPI_DQ1",
+      "pass": true
+    },
+    {
+      "ref": "J2",
+      "pin": "3",
+      "expected": "QSPI_DQ2",
+      "actual": "QSPI_DQ2",
+      "pass": true
+    },
+    {
+      "ref": "J2",
+      "pin": "4",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "J2",
+      "pin": "8",
+      "expected": "VCC3V3",
+      "actual": "VCC3V3",
+      "pass": true
+    },
+    {
+      "ref": "J2",
+      "pin": "7",
+      "expected": "QSPI_DQ3",
+      "actual": "QSPI_DQ3",
+      "pass": true
+    },
+    {
+      "ref": "J2",
+      "pin": "6",
+      "expected": "QSPI_CLK",
+      "actual": "QSPI_CLK",
+      "pass": true
+    },
+    {
+      "ref": "J2",
+      "pin": "5",
+      "expected": "QSPI_DQ0",
+      "actual": "QSPI_DQ0",
+      "pass": true
+    },
+    {
+      "ref": "R655",
+      "pin": "1",
+      "expected": "VCC3V3",
+      "actual": "VCC3V3",
+      "pass": true
+    },
+    {
+      "ref": "R655",
+      "pin": "2",
+      "expected": "QSPI_CS",
+      "actual": "QSPI_CS",
+      "pass": true
+    },
+    {
+      "ref": "R151",
+      "pin": "1",
+      "expected": "VCC3V3",
+      "actual": "VCC3V3",
+      "pass": true
+    },
+    {
+      "ref": "R151",
+      "pin": "2",
+      "expected": "QSPI_DQ2",
+      "actual": "QSPI_DQ2",
+      "pass": true
+    },
+    {
+      "ref": "R656",
+      "pin": "1",
+      "expected": "VCC3V3",
+      "actual": "VCC3V3",
+      "pass": true
+    },
+    {
+      "ref": "R656",
+      "pin": "2",
+      "expected": "QSPI_DQ3",
+      "actual": "QSPI_DQ3",
+      "pass": true
+    },
+    {
+      "ref": "C18",
+      "pin": "1",
+      "expected": "VCC3V3",
+      "actual": "VCC3V3",
+      "pass": true
+    },
+    {
+      "ref": "C18",
+      "pin": "2",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "X6",
+      "pin": "4",
+      "expected": "VCC3V3",
+      "actual": "VCC3V3",
+      "pass": true
+    },
+    {
+      "ref": "X6",
+      "pin": "2",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "X6",
+      "pin": "3",
+      "expected": "CLK50_RAW",
+      "actual": "CLK50_RAW",
+      "pass": true
+    },
+    {
+      "ref": "R657",
+      "pin": "1",
+      "expected": "CLK50_RAW",
+      "actual": "CLK50_RAW",
+      "pass": true
+    },
+    {
+      "ref": "R657",
+      "pin": "2",
+      "expected": "CLK_50M",
+      "actual": "CLK_50M",
+      "pass": true
+    },
+    {
+      "ref": "C827",
+      "pin": "1",
+      "expected": "VCC3V3",
+      "actual": "VCC3V3",
+      "pass": true
+    },
+    {
+      "ref": "C827",
+      "pin": "2",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    }
+  ],
+  "all_nets_match": true
+}

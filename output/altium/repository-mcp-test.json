@@ -1,0 +1,70 @@
+{
+  "project_root": {
+    "tools": [
+      "altium_read_saved_schematic",
+      "altium_read_project",
+      "altium_compile_project",
+      "altium_status",
+      "altium_open_document",
+      "altium_inspect_schematic",
+      "altium_create_schematic",
+      "altium_set_component_parameter",
+      "altium_run_delphiscript",
+      "altium_inspect_library_component",
+      "altium_format_library_pins",
+      "altium_repartition_library_component"
+    ],
+    "status": {
+      "altium_exe": "Z:\\Altium\\X2.EXE",
+      "exe_exists": true,
+      "state_dir": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\tools\\altium\\runtime",
+      "desktop_available": true,
+      "transport": "stdio",
+      "bridge": "CodexAltium",
+      "live_check": {
+        "success": true,
+        "job_dir": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\tools\\altium\\runtime\\jobs\\c5b54244ea444645b8a6bf666b603108",
+        "steps": [
+          "START",
+          "FINISHED"
+        ],
+        "elapsed_seconds": 0.75,
+        "result": "CODEX_ALTIUM_LIVE_OK"
+      }
+    },
+    "project_sheets": 6,
+    "saved_components": 8,
+    "saved_pins": 24,
+    "saved_sha256": "8f24c5c69f3871e5825fa95823627ee8a1e5c00da3fb242f7192179ae7bb4e02"
+  },
+  "project_subdirectory": {
+    "tools": [
+      "altium_read_saved_schematic",
+      "altium_read_project",
+      "altium_compile_project",
+      "altium_status",
+      "altium_open_document",
+      "altium_inspect_schematic",
+      "altium_create_schematic",
+      "altium_set_component_parameter",
+      "altium_run_delphiscript",
+      "altium_inspect_library_component",
+      "altium_format_library_pins",
+      "altium_repartition_library_component"
+    ],
+    "status": {
+      "altium_exe": "Z:\\Altium\\X2.EXE",
+      "exe_exists": true,
+      "state_dir": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\tools\\altium\\runtime",
+      "desktop_available": true,
+      "transport": "stdio",
+      "bridge": "CodexAltium"
+    },
+    "project_sheets": 6,
+    "saved_components": 8,
+    "saved_pins": 24,
+    "saved_sha256": "8f24c5c69f3871e5825fa95823627ee8a1e5c00da3fb242f7192179ae7bb4e02"
+  },
+  "original_library_unchanged": true,
+  "success": true
+}

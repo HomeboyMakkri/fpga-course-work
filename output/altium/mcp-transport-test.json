@@ -1,0 +1,396 @@
+{
+  "server": {
+    "name": "CodexAltium",
+    "version": "1.5.0"
+  },
+  "tools": [
+    "altium_read_saved_schematic",
+    "altium_read_project",
+    "altium_compile_project",
+    "altium_status",
+    "altium_open_document",
+    "altium_inspect_schematic",
+    "altium_create_schematic",
+    "altium_set_component_parameter",
+    "altium_run_delphiscript"
+  ],
+  "status": {
+    "meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"altium_exe\": \"Z:\\\\Altium\\\\X2.EXE\", \"exe_exists\": true, \"state_dir\": \"C:\\\\Users\\\\makarlistkov\\\\.codex\\\\integrations\\\\altium\\\\runtime\", \"desktop_available\": true, \"transport\": \"stdio\", \"bridge\": \"CodexAltium\"}",
+        "annotations": null
+      }
+    ],
+    "isError": false
+  },
+  "project": {
+    "meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"path\": \"C:\\\\Users\\\\makarlistkov\\\\Documents\\\\Work\\\\Engineering\\\\FPGA-COURSE-WORK\\\\ARTIX\\\\ARTIX\\\\ARTIX.PrjPcb\", \"sheets\": []}",
+        "annotations": null
+      }
+    ],
+    "isError": false
+  },
+  "saved_file_check": {
+    "isError": false,
+    "sha256": "1de85a57c99e1e71322d48100f4da6929aaba7db6c6b578d189d0b3b9cc61671",
+    "component_count": 14,
+    "pin_count": 32
+  },
+  "live_roundtrip": {
+    "altium_exe": "Z:\\Altium\\X2.EXE",
+    "exe_exists": true,
+    "state_dir": "C:\\Users\\makarlistkov\\.codex\\integrations\\altium\\runtime",
+    "desktop_available": true,
+    "transport": "stdio",
+    "bridge": "CodexAltium",
+    "live_check": {
+      "success": true,
+      "job_dir": "C:\\Users\\makarlistkov\\.codex\\integrations\\altium\\runtime\\jobs\\e26317c685a845fcbb5827bf6c1b85e8",
+      "steps": [
+        "START",
+        "FINISHED"
+      ],
+      "elapsed_seconds": 0.75,
+      "result": "CODEX_ALTIUM_LIVE_OK"
+    }
+  },
+  "compile_result": {
+    "success": true,
+    "job_dir": "C:\\Users\\makarlistkov\\.codex\\integrations\\altium\\runtime\\jobs\\b15ed18107784eaeb601eff21a5a5f1a",
+    "steps": [
+      "START",
+      "open explicit project",
+      "load project schematic documents",
+      "compile explicit project",
+      "read compiled nets",
+      "FINISHED"
+    ],
+    "elapsed_seconds": 0.75,
+    "result": {
+      "compiled": false,
+      "net_source": "physical",
+      "document_count": 1,
+      "pins": [
+        {
+          "ref": "C18",
+          "pin": "1",
+          "net": "VCC3V3"
+        },
+        {
+          "ref": "C18",
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "ref": "C827",
+          "pin": "1",
+          "net": "VCC3V3"
+        },
+        {
+          "ref": "C827",
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "ref": "J2",
+          "pin": "1",
+          "net": "QSPI_CS"
+        },
+        {
+          "ref": "J2",
+          "pin": "2",
+          "net": "QSPI_DQ1"
+        },
+        {
+          "ref": "J2",
+          "pin": "3",
+          "net": "QSPI_DQ2"
+        },
+        {
+          "ref": "J2",
+          "pin": "4",
+          "net": "GND"
+        },
+        {
+          "ref": "J2",
+          "pin": "5",
+          "net": "QSPI_DQ0"
+        },
+        {
+          "ref": "J2",
+          "pin": "6",
+          "net": "QSPI_CLK"
+        },
+        {
+          "ref": "J2",
+          "pin": "7",
+          "net": "QSPI_DQ3"
+        },
+        {
+          "ref": "J2",
+          "pin": "8",
+          "net": "VCC3V3"
+        },
+        {
+          "ref": "R151",
+          "pin": "1",
+          "net": "VCC3V3"
+        },
+        {
+          "ref": "R151",
+          "pin": "2",
+          "net": "QSPI_DQ2"
+        },
+        {
+          "ref": "R655",
+          "pin": "1",
+          "net": "VCC3V3"
+        },
+        {
+          "ref": "R655",
+          "pin": "2",
+          "net": "QSPI_CS"
+        },
+        {
+          "ref": "R656",
+          "pin": "1",
+          "net": "VCC3V3"
+        },
+        {
+          "ref": "R656",
+          "pin": "2",
+          "net": "QSPI_DQ3"
+        },
+        {
+          "ref": "R657",
+          "pin": "1",
+          "net": "CLK50_RAW"
+        },
+        {
+          "ref": "R657",
+          "pin": "2",
+          "net": "CLK_50M"
+        },
+        {
+          "ref": "X6",
+          "pin": "1",
+          "net": "NetX6_1"
+        },
+        {
+          "ref": "X6",
+          "pin": "2",
+          "net": "GND"
+        },
+        {
+          "ref": "X6",
+          "pin": "3",
+          "net": "CLK50_RAW"
+        },
+        {
+          "ref": "X6",
+          "pin": "4",
+          "net": "VCC3V3"
+        }
+      ],
+      "messages": [
+        {
+          "class": "[Error]",
+          "text": "Net CLK_50M has only one pin (Pin R657-2)",
+          "document": "Clock_Flash_Verified.SchDoc"
+        },
+        {
+          "class": "[Error]",
+          "text": "Net QSPI_CLK has only one pin (Pin J2-6)",
+          "document": "Clock_Flash_Verified.SchDoc"
+        },
+        {
+          "class": "[Error]",
+          "text": "Net QSPI_DQ0 has only one pin (Pin J2-5)",
+          "document": "Clock_Flash_Verified.SchDoc"
+        },
+        {
+          "class": "[Error]",
+          "text": "Net QSPI_DQ1 has only one pin (Pin J2-2)",
+          "document": "Clock_Flash_Verified.SchDoc"
+        },
+        {
+          "class": "[Warning]",
+          "text": "Footprint of component Component C18 0.1uF cannot be found",
+          "document": "Clock_Flash_Verified.SchDoc"
+        },
+        {
+          "class": "[Warning]",
+          "text": "Footprint of component Component C827 0.1uF cannot be found",
+          "document": "Clock_Flash_Verified.SchDoc"
+        },
+        {
+          "class": "[Warning]",
+          "text": "Footprint of component Component J2 CODEX_ROUNDTRIP_TEST cannot be found",
+          "document": "Clock_Flash_Verified.SchDoc"
+        },
+        {
+          "class": "[Warning]",
+          "text": "Footprint of component Component R151 4.7k cannot be found",
+          "document": "Clock_Flash_Verified.SchDoc"
+        },
+        {
+          "class": "[Warning]",
+          "text": "Footprint of component Component R655 4.7k cannot be found",
+          "document": "Clock_Flash_Verified.SchDoc"
+        },
+        {
+          "class": "[Warning]",
+          "text": "Footprint of component Component R656 4.7k cannot be found",
+          "document": "Clock_Flash_Verified.SchDoc"
+        },
+        {
+          "class": "[Warning]",
+          "text": "Footprint of component Component R657 22R cannot be found",
+          "document": "Clock_Flash_Verified.SchDoc"
+        },
+        {
+          "class": "[Warning]",
+          "text": "Footprint of component Component X6 50MHz oscillator cannot be found",
+          "document": "Clock_Flash_Verified.SchDoc"
+        },
+        {
+          "class": "[Warning]",
+          "text": "Off grid Net Label CLK50_RAW at 95.89mm,101.09mm",
+          "document": "Clock_Flash_Verified.SchDoc"
+        },
+        {
+          "class": "[Warning]",
+          "text": "Off grid Net Label CLK_50M at 127.64mm,101.09mm",
+          "document": "Clock_Flash_Verified.SchDoc"
+        },
+        {
+          "class": "[Warning]",
+          "text": "Off grid Net Label GND at 183.52mm,101.09mm",
+          "document": "Clock_Flash_Verified.SchDoc"
+        },
+        {
+          "class": "[Warning]",
+          "text": "Off grid Net Label GND at 183.52mm,131.57mm",
+          "document": "Clock_Flash_Verified.SchDoc"
+        },
+        {
+          "class": "[Warning]",
+          "text": "Off grid Net Label QSPI_CS at 127.64mm,151.89mm",
+          "document": "Clock_Flash_Verified.SchDoc"
+        },
+        {
+          "class": "[Warning]",
+          "text": "Off grid Net Label QSPI_DQ2 at 183.52mm,151.89mm",
+          "document": "Clock_Flash_Verified.SchDoc"
+        },
+        {
+          "class": "[Warning]",
+          "text": "Off grid Net Label QSPI_DQ3 at 127.64mm,131.57mm",
+          "document": "Clock_Flash_Verified.SchDoc"
+        },
+        {
+          "class": "[Warning]",
+          "text": "Off grid Net Label VCC3V3 at 95.89mm,131.57mm",
+          "document": "Clock_Flash_Verified.SchDoc"
+        },
+        {
+          "class": "[Warning]",
+          "text": "Off grid Net Label VCC3V3 at 95.89mm,151.89mm",
+          "document": "Clock_Flash_Verified.SchDoc"
+        },
+        {
+          "class": "[Warning]",
+          "text": "Off grid Net Label VCC3V3 at 151.77mm,101.09mm",
+          "document": "Clock_Flash_Verified.SchDoc"
+        },
+        {
+          "class": "[Warning]",
+          "text": "Off grid Net Label VCC3V3 at 151.77mm,131.57mm",
+          "document": "Clock_Flash_Verified.SchDoc"
+        },
+        {
+          "class": "[Warning]",
+          "text": "Off grid Net Label VCC3V3 at 151.77mm,151.89mm",
+          "document": "Clock_Flash_Verified.SchDoc"
+        },
+        {
+          "class": "[Warning]",
+          "text": "Off grid Pin C18-1 at 159.39mm,131.57mm",
+          "document": "Clock_Flash_Verified.SchDoc"
+        },
+        {
+          "class": "[Warning]",
+          "text": "Off grid Pin C18-2 at 175.9mm,131.57mm",
+          "document": "Clock_Flash_Verified.SchDoc"
+        },
+        {
+          "class": "[Warning]",
+          "text": "Off grid Pin C827-1 at 159.39mm,101.09mm",
+          "document": "Clock_Flash_Verified.SchDoc"
+        },
+        {
+          "class": "[Warning]",
+          "text": "Off grid Pin C827-2 at 175.9mm,101.09mm",
+          "document": "Clock_Flash_Verified.SchDoc"
+        },
+        {
+          "class": "[Warning]",
+          "text": "Off grid Pin R151-1 at 159.39mm,151.89mm",
+          "document": "Clock_Flash_Verified.SchDoc"
+        },
+        {
+          "class": "[Warning]",
+          "text": "Off grid Pin R151-2 at 175.9mm,151.89mm",
+          "document": "Clock_Flash_Verified.SchDoc"
+        },
+        {
+          "class": "[Warning]",
+          "text": "Off grid Pin R655-1 at 103.51mm,151.89mm",
+          "document": "Clock_Flash_Verified.SchDoc"
+        },
+        {
+          "class": "[Warning]",
+          "text": "Off grid Pin R655-2 at 120.02mm,151.89mm",
+          "document": "Clock_Flash_Verified.SchDoc"
+        },
+        {
+          "class": "[Warning]",
+          "text": "Off grid Pin R656-1 at 103.51mm,131.57mm",
+          "document": "Clock_Flash_Verified.SchDoc"
+        },
+        {
+          "class": "[Warning]",
+          "text": "Off grid Pin R656-2 at 120.02mm,131.57mm",
+          "document": "Clock_Flash_Verified.SchDoc"
+        },
+        {
+          "class": "[Warning]",
+          "text": "Off grid Pin R657-1 at 103.51mm,101.09mm",
+          "document": "Clock_Flash_Verified.SchDoc"
+        },
+        {
+          "class": "[Warning]",
+          "text": "Off grid Pin R657-2 at 120.02mm,101.09mm",
+          "document": "Clock_Flash_Verified.SchDoc"
+        }
+      ]
+    }
+  },
+  "compiled_pin_net_matches": 23,
+  "final_native_readback": {
+    "success": true,
+    "job_dir": "C:\\Users\\makarlistkov\\.codex\\integrations\\altium\\runtime\\jobs\\ed07703c872d42fbba5a53d12ead7074",
+    "comment_restored": true
+  },
+  "final_disk_readback": {
+    "sha256": "34e47de0835f164055c8e490174b468faa535b44c566923f1178663d40170501",
+    "components": 8,
+    "pins": 24
+  }
+}
