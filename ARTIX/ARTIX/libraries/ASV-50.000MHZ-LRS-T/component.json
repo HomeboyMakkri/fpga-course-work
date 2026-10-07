@@ -1,0 +1,30 @@
+{
+  "mpn": "ASV-50.000MHZ-LRS-T",
+  "manufacturer": "ABRACON",
+  "source_url": "https://componentsearchengine.com/part-view/ASV-50.000MHZ-LRS-T/ABRACON",
+  "download_sha256": "977861ecb12ae6ea93f422e202d0bea9b193735d2534828cb4c024eac5366e84",
+  "original_hashes": {
+    "ASV-50.000MHZ-LRS-T-native.zip": "977861ecb12ae6ea93f422e202d0bea9b193735d2534828cb4c024eac5366e84",
+    "extracted\\PcbLib1.PcbLib": "26310c6bb559149fe36b03c2bc114b7760eb6e6daaef833e82e1fbde05840e04",
+    "extracted\\Schlib1.SchLib": "b57324318b43f415e04c968f013d1490726876b1e15b992d742a50023c1dddcc"
+  },
+  "status": "GOST_SYMBOL_SAVED_VERIFIED",
+  "native_schlibs": [
+    "Schlib1.SchLib"
+  ],
+  "note": "Exact MPN, pin map, footprint/model links and GOST rendering require verification. Extract IntLib through Altium if no SchLib is supplied.",
+  "native_import_origin": "User imported with Library Loader",
+  "verification": {
+    "symbol": "ASV-50.000MHZ-LRS-T",
+    "pin_count": 4,
+    "pins_verified": true,
+    "saved_and_reloaded": true,
+    "original_unchanged": true,
+    "other_components_unchanged": true,
+    "model_name": "ASV25000MHZEJT",
+    "model_link": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\ASV-50.000MHZ-LRS-T\\new\\PcbLib1.PcbLib",
+    "model_identity_and_mapping_preserved": true,
+    "old_line_body_removed": true,
+    "project_connectivity_compiled": false
+  }
+}

@@ -1,34 +1,21 @@
-module main_module_top 
-(
+module main_module_top (
     input Clock,
-    output wire [5:0] led_bus
+    input btn_input,
+    output led_state
 );
-//parameter Clock = 27_000_000
-parameter count_value = 13_499_000;
 
-reg [23:0] count_value_reg;  //counter
-reg        count_value_flag; //flag
+    wire press_pulse_wire;
+    
+    button_press_detector detector_inst (
+        .Clock(Clock),
+        .btn_input(btn_input),
+        .press_pulse(press_pulse_wire)
+    );
 
-always @(posedge Clock) begin
-    if ( count_value_reg == count_value ) begin //not count
-        count_value_reg <= 0;
-        count_value_flag <= 1'b1;
-    end
-    else begin //Count to 0.5S
-        count_value_reg <= count_value_reg + 1'b1;
-        count_value_flag <= 1'b0; 
-    end
-end
-
-reg [5:0] IO_voltage_reg = 6'b000000; //init state
-
-always @(posedge Clock) begin
-    if ( count_value_flag ) // FF 
-        IO_voltage_reg <= ~IO_voltage_reg;
-    else 
-        IO_voltage_reg <= IO_voltage_reg;
-end
-
-assign led_bus[5:0] = IO_voltage_reg[5:0];
+    led_toggler toggler_inst (
+        .Clock(Clock),
+        .toggle_pulse(press_pulse_wire),
+        .led_state(led_state)
+    );
 
 endmodule //main_module_top

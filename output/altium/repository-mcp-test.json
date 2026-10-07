@@ -3,6 +3,11 @@
     "tools": [
       "altium_read_saved_schematic",
       "altium_read_project",
+      "altium_diagnose_job",
+      "altium_recover_executor",
+      "altium_prepare_component_package",
+      "altium_download_component_package",
+      "altium_verify_component_original",
       "altium_compile_project",
       "altium_status",
       "altium_open_document",
@@ -21,16 +26,7 @@
       "desktop_available": true,
       "transport": "stdio",
       "bridge": "CodexAltium",
-      "live_check": {
-        "success": true,
-        "job_dir": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\tools\\altium\\runtime\\jobs\\c5b54244ea444645b8a6bf666b603108",
-        "steps": [
-          "START",
-          "FINISHED"
-        ],
-        "elapsed_seconds": 0.75,
-        "result": "CODEX_ALTIUM_LIVE_OK"
-      }
+      "executor_blocked": false
     },
     "project_sheets": 6,
     "saved_components": 8,
@@ -41,6 +37,11 @@
     "tools": [
       "altium_read_saved_schematic",
       "altium_read_project",
+      "altium_diagnose_job",
+      "altium_recover_executor",
+      "altium_prepare_component_package",
+      "altium_download_component_package",
+      "altium_verify_component_original",
       "altium_compile_project",
       "altium_status",
       "altium_open_document",
@@ -58,7 +59,8 @@
       "state_dir": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\tools\\altium\\runtime",
       "desktop_available": true,
       "transport": "stdio",
-      "bridge": "CodexAltium"
+      "bridge": "CodexAltium",
+      "executor_blocked": false
     },
     "project_sheets": 6,
     "saved_components": 8,

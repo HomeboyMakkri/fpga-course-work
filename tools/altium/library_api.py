@@ -10,6 +10,7 @@ import json
 import math
 from pathlib import Path
 import uuid
+from obstacle_policy import guard_action
 
 
 def q(value):
@@ -48,6 +49,7 @@ if SD <> Nil then begin
     while LC <> Nil do begin if LC.LibReference = {q(component)} then C := LC; LC := LI.NextSchObject; end;
     L.SchIterator_Destroy(LI);
     if C <> Nil then begin
+      LogStep('select exact library component');
       if L.CurrentSchComponent.LibReference <> {q(component)} then L.CurrentSchComponent := C;
       C := L.CurrentSchComponent;
       if C.LibReference = {q(component)} then begin
@@ -98,6 +100,7 @@ def checked(result):
     return payload
 
 
+@guard_action
 def inspect_library(bridge, path, component):
     target = target_path(path)
     with bridge.operation_lock():
@@ -150,6 +153,9 @@ def index_pins(snapshot):
 
 def transact(bridge, path, component, builder, verify):
     target = target_path(path)
+    for parent in target.parents:
+        if parent.name.lower() == 'original' and (parent.parent / 'component.json').exists():
+            raise ValueError('Downloaded original is immutable; edit the corresponding new library')
     report = {'success': False, 'path': str(target), 'component': component}
     # One reentrant cross-process lock covers snapshot, checkpoint, edit and readback.
     with bridge.operation_lock():
@@ -216,6 +222,7 @@ def installed_font(font):
     return next(x for x in names if x.casefold() == font.casefold())
 
 
+@guard_action
 def format_pins(bridge, path, component, length_mm=5.0, font_name='GOST Common', font_size=10):
     length_mm = float(length_mm)
     if not math.isfinite(length_mm) or not 0 < length_mm <= 100:
@@ -227,6 +234,7 @@ def format_pins(bridge, path, component, length_mm=5.0, font_name='GOST Common',
     def builder(target, before):
         content = f"""
 F := SchServer.FontManager.GetFontID({font_size},0,False,False,False,False,{q(font_name)});
+LogStep('begin native pin formatting');
 SchServer.ProcessControl.PreProcess(L,'');
 try I := C.SchIterator_Create; I.AddFilter_ObjectSet(MkSet(ePin)); P := I.FirstSchObject;
 while P <> Nil do begin
@@ -237,6 +245,7 @@ while P <> Nil do begin
 end; C.SchIterator_Destroy(I);
 finally SchServer.ProcessControl.PostProcess(L,'Format library pins'); end;
 SD.SetModified(True); L.GraphicallyInvalidate;
+LogStep('save formatted library');
 if SD.DoFileSave('') then ResultText := '{{"saved":true}}' else ResultText := '{{"error":"SAVE_FAILED"}}';
 """
         return target_block(target, component, content), DECL+' F: Integer;', ''
@@ -253,6 +262,7 @@ if SD.DoFileSave('') then ResultText := '{{"saved":true}}' else ResultText := '{
     return report
 
 
+@guard_action
 def repartition(bridge, path, component, manifest_path, replace_body=False):
     """Manifest defines existing pins by physical designator, not PDF aliases."""
     manifest_file = Path(manifest_path)

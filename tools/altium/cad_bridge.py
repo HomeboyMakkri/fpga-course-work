@@ -22,6 +22,7 @@ import time
 import threading
 import uuid
 from contextlib import contextmanager
+from obstacle_policy import guard_action
 
 BASE = Path(__file__).resolve().parent
 CONFIG_PATH = BASE / 'bridge_config.json'
@@ -117,7 +118,13 @@ end;
 """
 
 
-def run_script(body: str, declarations: str = "", helpers: str = "", timeout: int = 45) -> dict:
+@guard_action
+def run_script(body: str, declarations: str = "", helpers: str = "", timeout: int = 45, _recovery_probe: bool = False) -> dict:
+    from job_diagnostics import preflight, diagnose
+    hazards = preflight(body, declarations, helpers)
+    if hazards:
+        return {"success": False, "error": "SCRIPT_PREFLIGHT_REJECTED", "hazards": hazards,
+                "message": "Correct the demonstrated API hazard before launching Altium; no CAD writes ran."}
     if not desktop_available():
         return {"success": False, "error": "WINDOWS_DESKTOP_UNAVAILABLE",
                 "message": "Unlock Windows before running Altium commands."}
@@ -142,6 +149,11 @@ def run_script(body: str, declarations: str = "", helpers: str = "", timeout: in
                 "message": "Save your documents and leave one Altium instance before native commands."}
     timeout = max(2, min(int(timeout), 60))
     with operation_lock():
+        blocked = STATE / 'blocked-job.json'
+        if blocked.exists() and not _recovery_probe:
+            return {"success": False, "error": "EXECUTOR_RECOVERY_REQUIRED",
+                    "blocked_job": json.loads(blocked.read_text(encoding='utf-8')),
+                    "recovery": "Diagnose the previous job, inspect saved output, stop the failed script in Altium, then call altium_recover_executor. No automatic replay."}
         job = STATE / "jobs" / uuid.uuid4().hex
         job.mkdir(parents=True)
         module = "CodexJob_" + job.name[:12]
@@ -149,6 +161,8 @@ def run_script(body: str, declarations: str = "", helpers: str = "", timeout: in
         project = job / (module + ".PrjScr")
         unit.write_text(_script_source(body, declarations, helpers, job), encoding="utf-8")
         project.write_text(f"[Design]\nVersion=1.0\n[Document1]\nDocumentPath={module}.pas\n", encoding="ascii")
+        (job / 'request.json').write_text(json.dumps({'body': body, 'declarations': declarations,
+            'helpers': helpers, 'timeout': timeout, 'editor_pids': editors}, ensure_ascii=False, indent=2), encoding='utf-8')
         # Altium's custom -R parser needs the literal quoted subfields. Passing
         # an argv list causes Windows escaping to change their representation.
         # No shell is involved. All embedded paths are generated locally.
@@ -174,6 +188,8 @@ def run_script(body: str, declarations: str = "", helpers: str = "", timeout: in
             result["error"] = "SCRIPT_FAILED_OR_BLOCKED"
             result["last_step"] = steps[-1] if steps else "NOT_STARTED"
             result["recovery"] = "Inspect the Altium error/debugger, stop the failed script, then retry. Do not blindly repeat a mutation."
+            result['diagnosis'] = diagnose(job, any(psutil.pid_exists(pid) for pid in editors))
+            blocked.write_text(json.dumps({'job_dir': str(job), 'diagnosis': result['diagnosis']}, ensure_ascii=False, indent=2), encoding='utf-8')
             # Only terminate the secondary launcher we created, never the
             # already running editor containing the user's design.
             if launcher.poll() is None:
@@ -183,10 +199,40 @@ def run_script(body: str, declarations: str = "", helpers: str = "", timeout: in
         return result
 
 
+@guard_action
+def diagnose_job(job_dir: str) -> dict:
+    from job_diagnostics import diagnose
+    import psutil
+    job = Path(job_dir).resolve()
+    if job.parent != (STATE / 'jobs').resolve() or not job.is_dir():
+        raise ValueError('Use the exact job_dir returned by this bridge')
+    request = job / 'request.json'
+    pids = json.loads(request.read_text(encoding='utf-8')).get('editor_pids', []) if request.exists() else []
+    return diagnose(job, any(psutil.pid_exists(pid) for pid in pids) if pids else None)
+
+
+@guard_action
+def recover_executor() -> dict:
+    """Probe only; never stops or kills the user's editor and never replays a write."""
+    with operation_lock():
+        result = run_script("ResultText := 'CODEX_RECOVERY_PROBE_OK';", timeout=5, _recovery_probe=True)
+        if result.get('success') and result.get('result') == 'CODEX_RECOVERY_PROBE_OK':
+            (STATE / 'blocked-job.json').unlink(missing_ok=True)
+            result['executor_recovered'] = True
+        else:
+            result['executor_recovered'] = False
+        return result
+
+
+@guard_action
 def status(live: bool = False) -> dict:
     info = {"altium_exe": str(EXE), "exe_exists": EXE.is_file(),
             "state_dir": str(STATE), "desktop_available": desktop_available(),
             "transport": "stdio", "bridge": "CodexAltium"}
+    blocked = STATE / 'blocked-job.json'
+    info['executor_blocked'] = blocked.exists()
+    if blocked.exists():
+        info['blocked_job'] = json.loads(blocked.read_text(encoding='utf-8'))
     if live:
         info["live_check"] = run_script("ResultText := 'CODEX_ALTIUM_LIVE_OK';")
     return info
@@ -202,6 +248,7 @@ def backup_document(path: str) -> str | None:
     return str(dest)
 
 
+@guard_action
 def open_document(path: str) -> dict:
     target = Path(path).resolve()
     kinds = {".schdoc": "SCH", ".schlib": "SCHLIB", ".pcbdoc": "PCB", ".pcblib": "PCBLIB"}
@@ -213,11 +260,13 @@ def open_document(path: str) -> dict:
                       "D: IServerDocument;")
 
 
+@guard_action
 def inspect_schematic(path: str) -> dict:
     from manifest import inspect_body
     return run_script(*inspect_body(str(Path(path).resolve())))
 
 
+@guard_action
 def create_schematic(manifest_path: str, output_path: str) -> dict:
     from manifest import build_sheet
     target = Path(output_path).resolve()
@@ -236,6 +285,7 @@ def create_schematic(manifest_path: str, output_path: str) -> dict:
     return result
 
 
+@guard_action
 def set_component_parameter(path: str, designator: str, parameter: str, value: str) -> dict:
     from manifest import parameter_body
     saved_copy = backup_document(path)
@@ -245,6 +295,7 @@ def set_component_parameter(path: str, designator: str, parameter: str, value: s
     return result
 
 
+@guard_action
 def compile_project(path: str) -> dict:
     from project_api import compile_body
     target = Path(path).resolve()
@@ -261,9 +312,13 @@ def serve():
         "a script success is not an ERC result. CAD scripts use mils. "
         "If desktop is unavailable ask the user to unlock it. Never bypass locks. "
         "PDF reconstruction is a draft until pin-net and ERC checks pass. "
-        "Do not invoke GUI or shell automation through scripts."))
+        "Do not invoke GUI or shell automation through scripts. "
+        "Repair code/input failures autonomously. For external or ambiguous constraints report evidence and uncertainty; "
+        "ask for a choice only when human action or a new strategy is required. "
+        "Stop after three attempts without new evidence or ten minutes without progress. Never replay ambiguous CAD writes."))
 
     @server.tool()
+    @guard_action
     def altium_read_saved_schematic(path: str) -> dict:
         """Read saved native binary SchDoc without Altium: components, pins, wires, and inferred nets. Does not include unsaved edits; inferred nets are not compiler/ ERC results."""
         from eda_agent.fileio import (read_schematic_components, read_schematic_pins,
@@ -277,6 +332,7 @@ def serve():
                 'inferred_nets': read_schematic_nets(target)}
 
     @server.tool()
+    @guard_action
     def altium_read_project(path: str) -> dict:
         """Read project sheet references from a saved .PrjPcb without opening Altium."""
         target = Path(path).resolve()
@@ -301,6 +357,34 @@ def serve():
                     sheets.append(str(sheet))
         return {'path': str(target), 'sheets': sheets, 'source':'saved_project_document_entries',
                 'missing_sheets':[sheet for sheet in sheets if not Path(sheet).is_file()]}
+
+    @server.tool()
+    def altium_diagnose_job(job_dir: str) -> dict:
+        """Read exact failed-job artifacts and editor liveness without launching a script. Does not infer unsaved state or permit replay."""
+        return diagnose_job(job_dir)
+
+    @server.tool()
+    async def altium_recover_executor() -> dict:
+        """After the failed interpreter has been stopped, run a bounded read-only health probe and clear the circuit breaker only on success. Does not stop/restart Altium or replay writes."""
+        return await asyncio.to_thread(recover_executor)
+
+    @server.tool()
+    async def altium_prepare_component_package(mpn: str, manufacturer: str, source_url: str, downloaded_path: str) -> dict:
+        """Preserve an already downloaded CAD file/archive under libraries/MPN/original and copy its contents to new. Refuses overwrites and non-CAD downloads. Returns unverified import status."""
+        from component_package import prepare
+        return await asyncio.to_thread(guard_action(prepare), mpn, manufacturer, source_url, downloaded_path)
+
+    @server.tool()
+    async def altium_download_component_package(mpn: str, manufacturer: str, url: str) -> dict:
+        """Download a known public HTTPS CAD URL, preserve original and prepare new in the main engineering checkout. This does not search MPS, handle authentication, or verify electrical suitability."""
+        from component_package import download_and_prepare
+        return await asyncio.to_thread(guard_action(download_and_prepare), mpn, manufacturer, url)
+
+    @server.tool()
+    def altium_verify_component_original(package_path: str) -> dict:
+        """Compare every original file against import-time SHA256 values without opening Altium."""
+        from component_package import verify_original
+        return verify_original(package_path)
 
     @server.tool()
     async def altium_compile_project(path: str) -> dict:
@@ -360,7 +444,10 @@ def serve():
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("action", choices=["serve", "status", "inspect", "open", "create", "parameter", "run", "compile", "library-inspect", "library-format", "library-repartition"])
+    parser.add_argument("action", choices=["serve", "status", "inspect", "open", "create", "parameter", "run", "compile", "library-inspect", "library-format", "library-repartition", "diagnose-job", "recover-executor", "prepare-component", "download-component", "verify-original"])
+    parser.add_argument('--mpn')
+    parser.add_argument('--manufacturer')
+    parser.add_argument('--url')
     parser.add_argument("--live", action="store_true")
     parser.add_argument("--path")
     parser.add_argument("--manifest")
@@ -377,8 +464,14 @@ def main():
         serve()
         return
     from library_api import inspect_library, format_pins, repartition
+    from component_package import prepare, download_and_prepare, verify_original
     actions = {
         "status": lambda: status(args.live),
+        "diagnose-job": lambda: diagnose_job(args.path),
+        "recover-executor": recover_executor,
+        "prepare-component": lambda: prepare(args.mpn, args.manufacturer, args.url, args.path),
+        "download-component": lambda: download_and_prepare(args.mpn, args.manufacturer, args.url),
+        "verify-original": lambda: verify_original(args.path),
         "inspect": lambda: inspect_schematic(args.path),
         "open": lambda: open_document(args.path),
         "create": lambda: create_schematic(args.manifest, args.path),
@@ -389,7 +482,7 @@ def main():
         "library-format": lambda: format_pins(sys.modules[__name__], args.path, args.component, args.length_mm, args.font_name, args.font_size),
         "library-repartition": lambda: repartition(sys.modules[__name__], args.path, args.component, args.manifest, args.replace_body),
     }
-    print(json.dumps(actions[args.action](), ensure_ascii=True, indent=2))
+    print(json.dumps(guard_action(actions[args.action])(), ensure_ascii=True, indent=2))
 
 
 if __name__ == "__main__":

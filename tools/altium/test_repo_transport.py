@@ -18,7 +18,9 @@ async def check(params,live=False):
         async with ClientSession(reader,writer) as session:
             await asyncio.wait_for(session.initialize(),timeout=35)
             tools = [t.name for t in (await session.list_tools()).tools]
-            assert len(tools)==12 and EXPECTED.issubset(tools),tools
+            assert len(tools)==17 and EXPECTED.issubset(tools),tools
+            assert {'altium_diagnose_job','altium_recover_executor','altium_prepare_component_package',
+                    'altium_download_component_package','altium_verify_component_original'}.issubset(tools),tools
             async def call(name,args):
                 response = await session.call_tool(name,args)
                 assert not response.isError,response
@@ -48,7 +50,7 @@ async def main():
     result['success']=True
     dest=REPO/'output/altium/repository-mcp-test.json'
     dest.write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8')
-    print(json.dumps({'success':True,'tools':12,'launch_locations':list(result)[:2],
+    print(json.dumps({'success':True,'tools':17,'launch_locations':list(result)[:2],
                       'original_library_unchanged':True,'report':str(dest)}))
 
 if __name__=='__main__':
