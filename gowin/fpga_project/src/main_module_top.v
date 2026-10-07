@@ -5,7 +5,7 @@ module main_module_top (
 );
 
     wire press_pulse_wire;
-    
+
     button_press_detector detector_inst (
         .Clock(Clock),
         .btn_input(btn_input),

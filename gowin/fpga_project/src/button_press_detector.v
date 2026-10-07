@@ -15,7 +15,7 @@ always @(posedge Clock) begin
         flag <= 1;
     end else begin
         flag <= 0;
-    end    
+    end
 end
 
 assign press_pulse = flag;
