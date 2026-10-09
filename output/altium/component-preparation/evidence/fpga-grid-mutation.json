@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "job_dir": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\tools\\altium\\runtime\\jobs\\2934f022450940d586ce538c12534373",
+  "steps": [
+    "START",
+    "select exact library component",
+    "load exact mm-to-internal layout",
+    "mm pin geometry applied; remove old graphic body",
+    "save mm symbol",
+    "FINISHED"
+  ],
+  "elapsed_seconds": 1.35,
+  "result": {
+    "saved": true
+  }
+}

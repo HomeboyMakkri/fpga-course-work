@@ -1,0 +1,26 @@
+[
+  {
+    "manufacturer": "HanRun",
+    "mpn": "HR911130A",
+    "path": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\output\\altium\\component-preparation\\evidence\\ethernet\\HR911130A-Hanrun-LCSC.pdf",
+    "sha256": "99bd6ac77d8b46bbf4764056c3fba8b18b5180de9488052ed1204c85b27fd3b0",
+    "url": "https://atta.szlcsc.com/upload/public/pdf/source/20250812/A9B443FB770AA42A34C92B1A15093C54.pdf",
+    "note": "Existing local manufacturer document retained. URL for SPX points to current manufacturer revision; local PDF is older Exar revision. RTL original acquisition URL unknown."
+  },
+  {
+    "manufacturer": "MaxLinear / Exar",
+    "mpn": "SPX3819M5-L-3-3",
+    "path": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\datasheets\\Datasheets\\POWER\\SPX3819M5-L-3-3.pdf",
+    "sha256": "f2808357a4016e81da70c9a8ce78a15a285ad41ad7637933513658eeb047ba4b",
+    "url": "https://www.maxlinear.com/ds/spx3819.pdf",
+    "note": "Existing local manufacturer document retained. URL for SPX points to current manufacturer revision; local PDF is older Exar revision. RTL original acquisition URL unknown."
+  },
+  {
+    "manufacturer": "Realtek",
+    "mpn": "RTL8211E-VB-CG",
+    "path": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\datasheets\\Datasheets\\NET\\rtl8211e.pdf",
+    "sha256": "b081006e6619ba24b38be4959675e36748ad3f80053f27e9319b38a44620fa3c",
+    "url": null,
+    "note": "Existing local manufacturer document retained. URL for SPX points to current manufacturer revision; local PDF is older Exar revision. RTL original acquisition URL unknown."
+  }
+]

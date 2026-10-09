@@ -1,0 +1,17 @@
+{
+  "success": true,
+  "job_dir": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\tools\\altium\\runtime\\jobs\\2dd43294a6104026af5854e9050cdd27",
+  "steps": [
+    "START",
+    "verify saved model map and portable link",
+    "FINISHED"
+  ],
+  "elapsed_seconds": 1.05,
+  "result": {
+    "name": "SOT65P280X110-8N",
+    "type": "PCBLIB",
+    "map": "(3:3),(7:7),(5:5),(6:6),(8:8),(2:2),(4:4),(1:1)",
+    "location": "TPS563210A.PcbLib",
+    "entity": "SOT65P280X110-8N"
+  }
+}

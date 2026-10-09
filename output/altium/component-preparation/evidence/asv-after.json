@@ -1,0 +1,90 @@
+{
+  "success": true,
+  "job_dir": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\tools\\altium\\runtime\\jobs\\0de43d70db1e4e39b7297b80638aab7f",
+  "steps": [
+    "START",
+    "select exact library component",
+    "FINISHED"
+  ],
+  "elapsed_seconds": 1.81,
+  "result": {
+    "component": "ASV-50.000MHZ-LRS-T",
+    "part_count": 1,
+    "current_part": 1,
+    "pins": [
+      {
+        "designator": "1",
+        "name": "TRI-STATE_ENABLE/DISABLE",
+        "unique_id": "HICFXYNR",
+        "part": 1,
+        "display_mode": 0,
+        "x_coord": 0,
+        "y_coord": -4724409,
+        "orientation": 2,
+        "electrical": 4,
+        "length_coord": 1968504,
+        "name_font_mode": 1,
+        "designator_font_mode": 1,
+        "name_font": "GOST Common",
+        "name_size": 10,
+        "designator_font": "GOST Common",
+        "designator_size": 10
+      },
+      {
+        "designator": "2",
+        "name": "GND/CASE",
+        "unique_id": "MGKFRLUE",
+        "part": 1,
+        "display_mode": 0,
+        "x_coord": 25590551,
+        "y_coord": -4724409,
+        "orientation": 0,
+        "electrical": 4,
+        "length_coord": 1968504,
+        "name_font_mode": 1,
+        "designator_font_mode": 1,
+        "name_font": "GOST Common",
+        "name_size": 10,
+        "designator_font": "GOST Common",
+        "designator_size": 10
+      },
+      {
+        "designator": "3",
+        "name": "OUTPUT",
+        "unique_id": "BPXIZKJN",
+        "part": 1,
+        "display_mode": 0,
+        "x_coord": 25590551,
+        "y_coord": -2362205,
+        "orientation": 0,
+        "electrical": 4,
+        "length_coord": 1968504,
+        "name_font_mode": 1,
+        "designator_font_mode": 1,
+        "name_font": "GOST Common",
+        "name_size": 10,
+        "designator_font": "GOST Common",
+        "designator_size": 10
+      },
+      {
+        "designator": "4",
+        "name": "VDD",
+        "unique_id": "VMVFCEHT",
+        "part": 1,
+        "display_mode": 0,
+        "x_coord": 0,
+        "y_coord": -2362205,
+        "orientation": 2,
+        "electrical": 4,
+        "length_coord": 1968504,
+        "name_font_mode": 1,
+        "designator_font_mode": 1,
+        "name_font": "GOST Common",
+        "name_size": 10,
+        "designator_font": "GOST Common",
+        "designator_size": 10
+      }
+    ],
+    "pin_count": 4
+  }
+}

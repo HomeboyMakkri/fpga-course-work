@@ -1,0 +1,37 @@
+[
+  {
+    "source": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\HR911130A\\HR911130A.PcbLib",
+    "original": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\HR911130A\\original\\HR911130A.PcbLib",
+    "sha256": "9ff443ab6c5fb8f3c922b3cb2ad54200c7af80175480464e9cf5761eaed2268f"
+  },
+  {
+    "source": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\HR911130A\\HR911130A.SchLib",
+    "original": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\HR911130A\\original\\HR911130A.SchLib",
+    "sha256": "3911a2efa87fdc8c2926035985b0d43dc94f1535002d7b460bbdcb62d20addaa"
+  },
+  {
+    "source": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\LDO SPX3819M5-L-3-3\\LIB_SPX3819M5-L-3-3.zip",
+    "original": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\LDO SPX3819M5-L-3-3\\original\\LIB_SPX3819M5-L-3-3.zip",
+    "sha256": "bff33e5267069692f0c7b0e07a29a664d182072a0b2c2d9c741e7adb1854ea42"
+  },
+  {
+    "source": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\LDO SPX3819M5-L-3-3\\SPX3819M5-L-3-3.PcbLib",
+    "original": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\LDO SPX3819M5-L-3-3\\original\\SPX3819M5-L-3-3.PcbLib",
+    "sha256": "30b791f06e575a6ca572772331bcaef5442e53865838e96c4a5e58c00663d96b"
+  },
+  {
+    "source": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\LDO SPX3819M5-L-3-3\\SPX3819M5-L-3-3.SchLib",
+    "original": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\LDO SPX3819M5-L-3-3\\original\\SPX3819M5-L-3-3.SchLib",
+    "sha256": "dcdace2b3bd235dc6af544a06bf5d156c95e777564a6020392b723500ef80bf5"
+  },
+  {
+    "source": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\RTL8211E-VB-CG\\RTL8211E-VB-CG.PcbLib",
+    "original": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\RTL8211E-VB-CG\\original\\RTL8211E-VB-CG.PcbLib",
+    "sha256": "a30a61ea3b6c96b624c76ac54e91a8ca88727d90939c3b70aaa7a443e1095438"
+  },
+  {
+    "source": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\RTL8211E-VB-CG\\RTL8211E-VB-CG.SchLib",
+    "original": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\RTL8211E-VB-CG\\original\\RTL8211E-VB-CG.SchLib",
+    "sha256": "34e071df7e98887251fbd2c4f1385d9e8f7caaa1f3f7d9f434ba20c0c53ff132"
+  }
+]

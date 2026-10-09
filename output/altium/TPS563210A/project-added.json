@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "job_dir": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\tools\\altium\\runtime\\jobs\\963a2f6afd924ef4a1f9cda35dfa6f8c",
+  "steps": [
+    "START",
+    "open explicit target project",
+    "add exact TPS library references without duplicates",
+    "save target project references",
+    "FINISHED"
+  ],
+  "elapsed_seconds": 1.51,
+  "result": {
+    "document_count": 17,
+    "saved_request": true
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "component": "SPX3819M5-L-3-3",
+  "source": "Existing exact native library; manufacturer datasheet crosscheck stored in report",
+  "electrical_policy": "power",
+  "parts": [
+    {
+      "id": 1,
+      "function": "LDO 3.3V",
+      "column_widths_mm": [
+        12,
+        20,
+        16
+      ],
+      "pins": [
+        {
+          "designator": "1",
+          "name": "VIN",
+          "side": "left"
+        },
+        {
+          "designator": "3",
+          "name": "EN",
+          "side": "left"
+        },
+        {
+          "designator": "2",
+          "name": "GND",
+          "side": "left"
+        },
+        {
+          "designator": "5",
+          "name": "VOUT",
+          "side": "right"
+        },
+        {
+          "designator": "4",
+          "name": "ADJ/BYP",
+          "side": "right"
+        }
+      ]
+    }
+  ]
+}

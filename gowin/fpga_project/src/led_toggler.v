@@ -1,7 +1,7 @@
 module led_toggler
 (
-    input Clock,
-    input toggle_pulse,
+    input  Clock,
+    input  toggle_pulse,
     output led_state
 );
 

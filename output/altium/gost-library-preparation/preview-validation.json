@@ -1,0 +1,161 @@
+[
+  {
+    "component": "HR911130A",
+    "library": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\HR911130A\\new\\HR911130A.SchLib",
+    "saved_sha256": "abf36ef72c70cc7a0f78179f5bd7894709f9b49615271590611920dac89b4c43",
+    "native_snapshot": "HR911130A-after.json",
+    "parts": [
+      {
+        "part": 1,
+        "pins": 10,
+        "preview": "HR911130A-part-01.png",
+        "rectangle_count": 1,
+        "line_count": 2,
+        "graphic_bounds_mm": [
+          -5.00000016,
+          -54.00000122,
+          78.99999948,
+          5.00000016
+        ],
+        "max_name_ink_height_mm": 0,
+        "approximate_name_bbox_overlaps": []
+      },
+      {
+        "part": 2,
+        "pins": 6,
+        "preview": "HR911130A-part-02.png",
+        "rectangle_count": 1,
+        "line_count": 2,
+        "graphic_bounds_mm": [
+          -5.00000016,
+          -30.00000096,
+          78.99999948,
+          5.00000016
+        ],
+        "max_name_ink_height_mm": 0,
+        "approximate_name_bbox_overlaps": []
+      }
+    ],
+    "limitations": [
+      "Saved graphical primitives and native pin positions used together.",
+      "Pin name/number offsets are reconstruction approximations; native UI not captured.",
+      "No compiler, electrical or model validation is performed by this script."
+    ]
+  },
+  {
+    "component": "SPX3819M5-L-3-3",
+    "library": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\LDO SPX3819M5-L-3-3\\new\\SPX3819M5-L-3-3.SchLib",
+    "saved_sha256": "fb74bd2a168ddde182a94094917df2f55740346bfec51b005bdfe97fed561964",
+    "native_snapshot": "SPX3819M5-L-3-3-after.json",
+    "parts": [
+      {
+        "part": 1,
+        "pins": 5,
+        "preview": "SPX3819M5-L-3-3-part-01.png",
+        "rectangle_count": 1,
+        "line_count": 2,
+        "graphic_bounds_mm": [
+          -5.00000016,
+          -24.00000026,
+          53.00000067999999,
+          5.00000016
+        ],
+        "max_name_ink_height_mm": 2.5,
+        "approximate_name_bbox_overlaps": []
+      }
+    ],
+    "limitations": [
+      "Saved graphical primitives and native pin positions used together.",
+      "Pin name/number offsets are reconstruction approximations; native UI not captured.",
+      "No compiler, electrical or model validation is performed by this script."
+    ]
+  },
+  {
+    "component": "RTL8211E-VB-CG",
+    "library": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\RTL8211E-VB-CG\\new\\RTL8211E-VB-CG.SchLib",
+    "saved_sha256": "41bce3513f9136b4e91db31a82eb2e5b80f76e07eb6232ae0b85ac6998a5a572",
+    "native_snapshot": "RTL8211E-VB-CG-after.json",
+    "parts": [
+      {
+        "part": 1,
+        "pins": 15,
+        "preview": "RTL8211E-VB-CG-part-01.png",
+        "rectangle_count": 1,
+        "line_count": 2,
+        "graphic_bounds_mm": [
+          -5.00000016,
+          -54.00000122,
+          63.000001,
+          5.00000016
+        ],
+        "max_name_ink_height_mm": 3.25,
+        "approximate_name_bbox_overlaps": []
+      },
+      {
+        "part": 2,
+        "pins": 12,
+        "preview": "RTL8211E-VB-CG-part-02.png",
+        "rectangle_count": 1,
+        "line_count": 2,
+        "graphic_bounds_mm": [
+          -5.00000016,
+          -41.99999982,
+          78.99999948,
+          5.00000016
+        ],
+        "max_name_ink_height_mm": 3.25,
+        "approximate_name_bbox_overlaps": []
+      },
+      {
+        "part": 3,
+        "pins": 10,
+        "preview": "RTL8211E-VB-CG-part-03.png",
+        "rectangle_count": 1,
+        "line_count": 2,
+        "graphic_bounds_mm": [
+          -5.00000016,
+          -41.99999982,
+          85.00000017999999,
+          5.00000016
+        ],
+        "max_name_ink_height_mm": 3.25,
+        "approximate_name_bbox_overlaps": []
+      },
+      {
+        "part": 4,
+        "pins": 4,
+        "preview": "RTL8211E-VB-CG-part-04.png",
+        "rectangle_count": 1,
+        "line_count": 2,
+        "graphic_bounds_mm": [
+          -5.00000016,
+          -17.99999956,
+          59.00000137999999,
+          5.00000016
+        ],
+        "max_name_ink_height_mm": 2.5,
+        "approximate_name_bbox_overlaps": []
+      },
+      {
+        "part": 5,
+        "pins": 8,
+        "preview": "RTL8211E-VB-CG-part-05.png",
+        "rectangle_count": 1,
+        "line_count": 2,
+        "graphic_bounds_mm": [
+          -5.00000016,
+          -30.00000096,
+          59.00000137999999,
+          5.00000016
+        ],
+        "max_name_ink_height_mm": 3.0,
+        "approximate_name_bbox_overlaps": []
+      }
+    ],
+    "limitations": [
+      "Saved graphical primitives and native pin positions used together.",
+      "Pin name/number offsets are reconstruction approximations; native UI not captured.",
+      "No compiler, electrical or model validation is performed by this script."
+    ]
+  }
+]

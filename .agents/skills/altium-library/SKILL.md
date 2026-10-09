@@ -1,15 +1,36 @@
 ---
 name: altium-library
-description: "Find and download ready-made Altium component libraries from the internet or available Manufacturer Part Search, preserve original/new copies, and adapt existing SchLib symbols to GOST while preserving pins and footprint models. Also diagnose local altium_local script failures."
+description: "Create user-requested native Altium SchLib symbols or GOST-format existing IC symbols with verified pins and model links. Also acquire ready-made libraries, preserve original/new copies, and diagnose altium_local failures."
 ---
 
-Use the user's existing Altium native component, preserving pin identity, electrical types, model links and user edits. The working installation is `<repo>/tools/altium`, registered as MCP `altium_local` in `<repo>/.codex/config.toml`. Source, manifests and this skill update together with git pull. This requires local Windows and an open Altium instance.
+Use the user's existing Altium native component, preserving pin identity, electrical types, model links and user edits. Create a new native symbol when explicitly requested, using verified manufacturer pin data and the selected footprint. The working installation is `<repo>/tools/altium`, registered as MCP `altium_local` in `<repo>/.codex/config.toml`. Source, manifests and this skill update together with git pull. This requires local Windows and an open Altium instance.
+
+## Fast GOST symbol authoring and redraw
+
+For rectangular IC symbols like the accepted TPS563210A, read [gost-symbols.md](references/gost-symbols.md) and use `scripts/gost_symbol.py`. It emits deterministic native requests and verifies the saved result; do not recreate DelphiScript by hand. Use `create` for explicitly requested new symbols and `redraw` for existing exact components. Reuse established sources/models without repeating acquisition/import. Ready-made-model requests still follow acquisition below.
+
+The accepted profile has three fields separated by two black vertical lines, with the function label at the top of the middle field. Defaults: black GOST Common regular 10 pt, 5 mm pins, 1 mm electrical grid, 0.5 mm auxiliary grid and 6 mm rows. Adapt field widths/grouping to real labels and multipart parts instead of applying TPS dimensions everywhere.
+
+Electrical types are separate from appearance: preserve existing types by default. The `power` policy requires the user's request or explicit selection of the approved TPS preset; its all-Power pins are a local preference, not a universal GOST rule. Do not reuse that pinout for another part. Require native save/reopen, generated verification and visual review; project resolution and placed ERC are separate checks.
+
+## Required component lifecycle
+
+Apply these six stages whenever finding, importing, adapting or adding a component to a project:
+
+1. Find the exact component and preserve its source: manufacturer, MPN, source URL, downloaded files and hashes.
+2. Import into separate temporary native libraries with explicitly specified absolute destinations. Before Library Loader import, check both its SchLib and PcbLib destinations; an open/active library or a remembered destination is not authorization to append there.
+3. Isolate the selected component into its own working library and include only its required footprint/model dependencies. Enumerate source and destination contents. Unrelated components from a provider bundle or another project must not enter `new` or the project's working libraries.
+4. Redraw the symbol to the requested GOST presentation while preserving footprint geometry, physical pins, electrical types and pin-to-pad mapping. Adapt only the working copy; preserve source evidence.
+5. Save and reopen the native files, then verify component identity, pins, parameters, symbol presentation, model identity, geometry and maps. Check originals remain unchanged. Missing visual or native verification remains explicitly pending.
+6. Add only the verified component and its dependencies to the project's explicitly targeted working libraries, connect those libraries to the project, and verify model resolution from that project. Preserve existing components and reject conflicting names instead of silently overwriting them. For placed components, also compile and inspect actual pin/net connectivity.
+
+Do not report the component as connected or ready for PCB until stage 6 passes. If a stage lacks a supported tool or requires human action, report the pending stage and apply the existing failure-recovery policy. Read [component-acquisition.md](references/component-acquisition.md) for isolation, storage and publication details.
 
 ## Find and import ready-made components
 
 For component selection, downloads or Manufacturer Part Search requests, read [component-acquisition.md](references/component-acquisition.md). The default destination in this project is `ARTIX/ARTIX/libraries/<exact MPN>/original` for downloaded evidence and `new` for the editable copy. A product page or datasheet alone is not a downloaded component. Do not substitute a freshly generated symbol for a requested ready-made library.
 
-Use the package tools to retain provenance and original hashes; then edit only `new` with the existing native library tools. Do not change footprint, pin numbering, electrical types or model maps to accomplish visual formatting. Record any source library defects separately. GOST font and pin length alone do not prove that the complete symbol meets GOST requirements.
+Use the package tools to retain provenance and original hashes; then edit only `new` with the existing native library tools. Do not change footprint, pin numbering or model maps for visual formatting. Preserve electrical types unless the user explicitly requests a change; record such overrides separately. Record any source library defects separately. GOST font and pin length alone do not prove that the complete symbol meets GOST requirements.
 
 ## Start and select
 

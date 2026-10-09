@@ -1,0 +1,882 @@
+=== PDF PAGE 18 ===
+18 7 Series FPGAs Configuration User Guide
+UG470 (v1.17) December 5, 2023
+Chapter 2: Configuration Interfaces
+configuration, with the I/O standard set to the general-purpose default of LVCMOS, 12 mA drive, 
+Slow slew rate.
+Table 2-2 and Table 2-3 show the configuration mode pins and their location across the I/O banks.
+Table 2-2: Configuration Mode Pins (Table 1 of 2)
+Pin Name
+Bank
+JTAG
+(Only)
+Slave
+Serial
+Master
+Serial
+Master SPI
+x1 x2 x4
+CFGBVS 0 CFGBVS CFGBVS CFGBVS CFGBVS CFGBVS CFGBVS
+M[2:0] 0 M[2:0]=101 M[2:0]=111 M[2:0]=000 M[2:0]=001 M[2:0]=001 M[2:0]=001
+TCK 0 TCK TCK TCK TCK TCK TCK
+TMS 0 TMS TMS TMS TMS TMS TMS
+TDI 0 TDI TDI TDI TDI TDI TDI
+TDO 0 TDO TDO TDO TDO TDO TDO
+PROGRAM_B 0 PROGRAM_B PROGRAM_B PROGRAM_B PROGRAM_B PROGRAM_B PROGRAM_B
+INIT_B 0 INIT_B INIT_B INIT_B INIT_B INIT_B INIT_B
+DONE 0 DONE DONE DONE DONE DONE DONE
+CCLK 0 CCLK CCLK CCLK CCLK CCLK CCLK
+PUDC_B(1) 14 PUDC_B (1) PUDC_B(1) PUDC_B(1) PUDC_B(1) PUDC_B(1) PUDC_B(1)
+EMCCLK(2) 14 – – EMCCLK (2) EMCCLK(2) EMCCLK(2) EMCCLK(2)
+CSI_B 14 – – – – – –
+DOUT_CSO_B(3)(4) 14 – [DOUT] (3) [DOUT](3) [DOUT](3) ––
+RDWR_B 14 – – – – – –
+FCS_B 14 – – – FCS_B FCS_B FCS_B
+D00_MOSI 14 – – – MOSI MOSI/D00 MOSI/D00
+D01_DIN 14 – DIN DIN DIN DIN/D01 DIN/D01
+D02 14 – – – – – D02
+D03 14 – – – – – D03
+D[04-07] 14 – – – – – –
+D[08-15] 14 – – – – – –
+A[00-15]_D[16-31] 14 – – – – – –
+A[16-28] 15 – – – – – –
+FOE_B 15 – – – – – –
+FWE_B 15 – – – – – –
+ADV_B 15 – – – – – –
+RS0, RS1(5) 15 RS0, RS1(5) RS0, RS1(5) RS0, RS1(5) – – –
+Notes: 
+1. PUDC_B has special functionality during c onfiguration but is independent of all configuration interfaces, i.e. PUDC_B does not need to be voltage 
+compatible with other pins in a configuration interface.
+2. EMCCLK is only used when the ExtMasterCclk_en option enables EMCCLK as an input for clocking the master configuration modes.
+3. DOUT is only used in a serial configuration daisy-chain for out putting data to the downstream FPGA (or for the DebugBitstream option). Otherwise, 
+DOUT is high-Z.
+4. CSO_B is only used in a parallel conf iguration daisy-chain for outputting a chip-enable signal to a downstream device. Otherwise, CSO_B is high-Z.
+5. RS0 and RS1 are only driven when a MultiBoot event is initiated  or when the ConfigFallback option is enabled and a Fallback event occurs. Otherwise, 
+RS0 and RS1 are high-Z. When using the RS[1:0] pins for configuration it is recommended not to use them in User mode.
+6. Empty cells indicate that the pin is not used in the configur ation mode and is ignored and is high-Z during configuration.
+Send Feedback
+=== PDF PAGE 19 ===
+7 Series FPGAs Configuration User Guide 19
+UG470 (v1.17) December 5, 2023
+Configuration Pins
+Table 2-3: Configuration Mode Pins (Table 2 of 2)
+Pin Name
+Bank Master SelectMAP Slave SelectMAP Master BPI
+x8 x16 x8 x16 x32 x8 x16
+CFGBVS 0 CFGBVS CFGBVS CFGBVS CFGBVS CFGBVS CFGBVS CFGBVS
+M[2:0] 0 M[2:0]=100 M[2:0]=100 M[2:0]=110 M[2:0]=110 M[2:0]=110 M[2:0]=010 M[2:0]=010
+TCK 0 TCK TCK TCK TCK TCK TCK TCK
+TMS 0 TMS TMS TMS TMS TMS TMS TMS
+TDI 0 TDI TDI TDI TDI TDI TDI TDI
+TDO 0 TDO TDO TDO TDO TDO TDO TDO
+PROGRAM_B 0 PROGRAM_B PROGRAM_B PROGRAM_B PROGRAM_B PROGRAM_B PROGRAM_B PROGRAM_B
+INIT_B 0 INIT_B INIT_B INIT_B INIT_B INIT_B INIT_B INIT_B
+DONE 0 DONE DONE DONE DONE DONE DONE DONE
+CCLK 0 CCLK CCLK CCLK CCLK CCLK CCLK CCLK
+PUDC_B(1) 14 PUDC_B (1) PUDC_B(1) PUDC_B(1) PUDC_B(1) PUDC_B(1) PUDC_B(1) PUDC_B(1)
+EMCCLK(2) 14 EMCCLK (2) EMCCLK(2) ––– E M C C L K (2) EMCCLK(2)
+CSI_B 14 CSI_B CSI_B CSI_B CSI_B CSI_B – –
+DOUT_CSO_B(3)(4) 14 [CSO_B] (4) [CSO_B](4) [CSO_B](4) [CSO_B](4) [CSO_B](4) [CSO_B](4) [CSO_B](4)
+RDWR_B 14 RDWR_B RDWR_B RDWR_B RDWR_B RDWR_B – –
+FCS_B 14 – – – – – FCS_B FCS_B
+D00_MOSI 14 D00 D00 D00 D00 D00 D00 D00
+D01_DIN 14 D01 D01 D01 D01 D01 D01 D01
+D02 14 D02 D02 D02 D02 D02 D02 D02
+D03 14 D03 D03 D03 D03 D03 D03 D03
+D[04-07] 14 D[04-07] D[04-07] D[04-07] D[04-07] D[04-07] D[04-07] D[04-07]
+D[08-15] 14 – D[08-15] – D[08-15] D[08-15] – D[08-15]
+A[00-15]_D[16-31] 14 – – – – D[16-31] A[00-15] A[00-15]
+A[16-28] 15 – – – – – A[16-28] A[16-28]
+FOE_B 15 – – – – – FOE_B FOE_B
+FWE_B 15 – – – – – FWE_B FWE_B
+ADV_B 15 – – – – – ADV_B ADV_B
+RS0, RS1(5) 15 RS0, RS1(5) RS0, RS1(5) RS0, RS1(5) RS0, RS1(5) RS0, RS1(5) RS0, RS1(5) RS0, RS1(5)
+Notes: 
+1. PUDC_B has special functionality during c onfiguration but is independent of all configuration interfaces, i.e. PUDC_B does not need to be voltage compatible with other pins 
+in a configuration interface.
+2. EMCCLK is only used when the BitGen ExtMasterCclk_en option en ables EMCCLK as an input for clocking the master configuration modes.
+3. DOUT is only used in a serial configur ation daisy-chain for outputting data to the downstream FPGA (or for the BitGen DebugBitstream option). Otherwise, DOUT is high-Z.
+4. CSO_B is only used in a parallel conf iguration daisy-chain for outputting a chip-enable signal to a downstream device. Otherwise, CSO_B is high-Z.
+5. RS0 and RS1 are only driven when a MultiBoot  event is initiated or when the BitGen ConfigFallback option is enabled and a Fallback event occurs. Otherwise, RS0 and RS1 
+are high-Z. When using the RS[1:0] pins for configuration it is recommended not to use them in User mode.
+6. Empty cells indicate that the pin is not used in the configur ation mode and is ignored and is high-Z during configuration.
+Send Feedback
+=== PDF PAGE 20 ===
+20 7 Series FPGAs Configuration User Guide
+UG470 (v1.17) December 5, 2023
+Chapter 2: Configuration Interfaces
+The definition of each configuration pin is summarized in Table 2-4.
+Table 2-4: Configuration Pin Definitions
+Pin Name Bank (1) Type Direction Description
+CFGBVS 0 Dedicated Input
+Configuration Banks V oltage Select
+CFGBVS determines the I/O voltage operating range and 
+voltage tolerance for the dedicated configuration bank 0 and 
+for the multi-function configuration pins in banks 14 and 15 in 
+the AMD Spartan™-7, AMD Artix™-7 and AMD Kintex™-7 
+families. CFGBVS selects the operating voltage for the 
+dedicated bank 0 at all times in all 7 series devices. CFGBVS 
+selects the operating voltage for the multi-function 
+configuration banks 14 and 15 only during configuration.
+Connect CFGBVS High or Low per the bank voltage 
+requirements. If the V
+CCO_0 supply for bank 0 is supplied with 
+2.5V or 3.3V , then the CFGBVS pin must be tied High (i.e. 
+connected to VCCO_0). Tie CFGBVS to Low (i.e. connected to 
+GND), only if the VCCO_0 for bank 0 is less than or equal to 
+1.8V . If used during configuration, banks 14 and 15 should 
+match the VCCO level applied to bank 0.
+Caution! To avoid device damage, CFGBVS must be 
+connected correctly to either VCCO_0 or GND. See 
+Configuration Banks Voltage Select, page 28 for more 
+information.
+Note: The CFGBVS pin is not available on AMD 
+Virtex™-7 HT devices. Virtex 7 HT devices support 
+only 1.8V operation for bank 0.
+M[2:0] 0 Dedicated Input
+Configuration Mode 
+M[2:0] determine the configuration mode. See Table 2-3, 
+page 19 for the configuration mode settings. Connect each 
+mode pin either directly, or via a ≤ 1k Ω resistor, to VCCO_0 or 
+GND. 
+TCK 0 Dedicated Input
+IEEE Std 1149.1 (JTAG) Test Clock
+Clock for all devices on a JTAG chain. Connect to AMD cable 
+header's TCK pin. Treat as a critical clock signal and buffer the 
+cable header TCK signal as necessary for multiple device 
+JTAG chains. If the TCK signal is buffered, connect the buffer 
+input to an external weak (e.g. 10 kΩ ) pull-up resistor to 
+maintain a valid High when no cable is connected.
+TMS 0 Dedicated Input
+JTAG Test Mode Select
+Mode select for all devices on a JTAG chain. Connect to AMD 
+cable header's TMS pin. Buffer the cable header TMS signal as 
+necessary for multiple device JTAG chains. If the TMS signal 
+is buffered, connect the buffer input to an external weak (e.g. 
+10 kΩ ) pull-up resistor to maintain a valid High when no cable 
+is connected.
+Send Feedback
+=== PDF PAGE 21 ===
+7 Series FPGAs Configuration User Guide 21
+UG470 (v1.17) December 5, 2023
+Configuration Pins
+TDI 0 Dedicated Input
+JTAG Test Data Input
+JTAG chain serialized data input. For an isolated device or for 
+the first device in a JTAG chain, connect to AMD cable 
+header's TDI pin. Otherwise, when the FPGA is not the first 
+device in a JTAG chain, connect to the TDO pin of the 
+upstream JTAG device in the JTAG scan chain.
+TDO 0 Dedicated Output
+JTAG Test Data Output
+JTAG chain serialized data output. For an isolated device or for 
+the last device in a JTAG chain, connect to AMD cable 
+header's TDO pin. Otherwise, when the FPGA is not the last 
+device in a JTAG chain, connect to the TDI pin of the 
+downstream JTAG device in the JTAG scan chain.
+PROGRAM_B 0 Dedicated Input
+Program (bar)
+Active-Low reset to configuration logic. When PROGRAM_B 
+is pulsed Low, the FPGA configuration is cleared and a new 
+configuration sequence is initiated. Configuration reset 
+initiated upon falling edge, and configuration (i.e. 
+programming) sequence begins upon the following rising 
+edge. 
+Connect PROGRAM_B to an external ≤ 4.7 kΩ  pull-up 
+resistor to V
+CCO_0 to ensure a stable High input, and 
+recommend push-button to GND to enable manual 
+configuration reset.
+Note: Holding PROGRAM_B Low from power-on does not 
+keep the FPGA configuration in reset. Instead, use INIT_B 
+to delay the power-on configuration sequence.
+INIT_B 0 Dedicated Bidirectional
+(open-drain)
+Initialization (bar)
+Active-Low FPGA initialization pin or configuration error 
+signal. The FPGA drives this pin Low when the FPGA is in a 
+configuration reset state, when the FPGA is initializing 
+(clearing) its configuration memory, or when the FPGA has 
+detected a configuration error. Upon completing the FPGA 
+initialization process, INIT_B is released to high-Z at which 
+time an external resistor is expected to pull INIT_B High. 
+INIT_B can externally be held Low during power-up to stall 
+the power-on configuration sequence at the end of the 
+initialization process. When a High is detected at the INIT_B 
+input after the initialization process, the FPGA proceeds with 
+the remainder of the configuration sequence dictated by the 
+M[2:0] pin settings.
+Connect INIT_B to a ≤ 4.7 kΩ  pull-up resistor to V
+CCO_0 to 
+ensure clean Low-to-High transitions.
+Table 2-4: Configuration Pin Definitions (Cont’d)
+Pin Name Bank (1) Type Direction Description
+Send Feedback
+=== PDF PAGE 22 ===
+22 7 Series FPGAs Configuration User Guide
+UG470 (v1.17) December 5, 2023
+Chapter 2: Configuration Interfaces
+DONE 0 Dedicated Bidirectional
+Done
+A High signal on the DONE pin indicates completion of the 
+configuration sequence. The DONE output is an open-drain 
+output by default.
+Note: DONE has an internal pull-up resistor of 
+approximately 10 kΩ . There is no setup/hold requirement 
+for the DONE register. These changes, along with the 
+DonePipe register software default, eliminate the need for 
+the DriveDONE driver-option. External 330Ω  resistor 
+circuits are not required but can be used as they have been 
+in previous generations.
+CCLK 0 Dedicated
+Input
+or
+Output
+Configuration Clock
+CCLK runs the synchronous FPGA configuration sequence in 
+all modes except JTAG mode. 
+• For slave modes: CCLK is an input and requires connection 
+to an external clock source. 
+• For master modes: The FPGA sources the configuration 
+clock and drives CCLK as an output. 
+• For JTAG mode: CCLK is high-Z and can be left 
+unconnected.
+Note: Treat CCLK as a critical clock signal to ensure good 
+signal integrity (see the Signal Integrity page on xilinx.com 
+for more information). 
+PUDC_B 14 Multi-function Input
+Pull-Up During Configuration (bar)
+Active-Low PUDC_B input enables internal pull-up resistors 
+on the SelectIO pins after power-up and during configuration.
+• When PUDC_B is Low, internal pull-up resistors are 
+enabled on each SelectIO pin.
+• When PUDC_B is High, internal pull-up resistors are 
+disabled on each SelectIO pin. 
+PUDC_B must be tied either directly, or via a ≤ 1k Ω  to 
+VCCO_14 or GND. When PUDC_B is tied to GND, the 
+activation of internal pull-ups during power-on depends on the 
+power sequence because the PUDC_B control signal is 
+forwarded through an input buffer in bank 14 and internal 
+paths to the enables of internal pull-ups at applicable pins in 
+their respective I/O banks. An external pull-up resistor is 
+recommended between a pin and the pin’s V
+CCO power supply 
+when it is critical for the pin to be pulled High immediately as 
+the pin’s VCCO power ramps up.
+Caution! Do not allow this pin to float before and 
+during configuration.
+Table 2-4: Configuration Pin Definitions (Cont’d)
+Pin Name Bank (1) Type Direction Description
+Send Feedback
+=== PDF PAGE 23 ===
+7 Series FPGAs Configuration User Guide 23
+UG470 (v1.17) December 5, 2023
+Configuration Pins
+EMCCLK 14 Multi-function Input
+External Master Configuration Clock
+Optional external clock input for running the configuration 
+logic in a master mode (versus the internal configuration 
+oscillator). See Setting Configuration Options in the Vivado 
+Tools, page 32 for more information.
+• For master modes: The FPGA can optionally switch to 
+EMCCLK as the clock source, instead of the internal 
+oscillator, for driving the internal configuration engine. The 
+EMCCLK frequency can optionally be divided via a 
+bitstream setting (ExtMasterCclk_en) and is forwarded for 
+output as the master CCLK signal.
+• For JTAG and slave modes: EMCCLK is ignored in the 
+JTAG and slave modes and can be left unconnected.
+CSI_B 14 Multi-function Input
+Chip Select Input (bar)
+Active-Low input that enables the FPGA SelectMAP 
+configuration interface.
+• For master SelectMAP mode: Connect CSI_B directly, or 
+via a ≤ 1k Ω  resistor, to GND. 
+• For slave SelectMAP mode: An external configuration 
+controller can control CSI_B for selecting the active FPGA 
+on the SelectMAP bus, or in a parallel configuration 
+daisy-chain, connect to the CSO_B pin of the upstream 
+FPGA.
+• In all other modes: CSI_B is ignored and can be left 
+unconnected.
+CSO_B 14 Multi-function Output
+(open-drain)
+Chip Select Output (bar)
+Active-Low open-drain output that can drive Low to enable 
+the slave SelectMAP configuration interface of the 
+downstream FPGA in a parallel configuration daisy-chain.
+• For BPI (asynchronous read only) and SelectMAP modes: 
+If the device is in a parallel configuration daisy-chain and 
+has a downstream device, then connect to an external 330Ω  
+pull-up to V
+CCO_14 and connect to the CSI_B input of the 
+downstream device. Otherwise, CSO_B is high-Z.
+• For serial modes: CSO_B is a multi-purpose pin that 
+functions as the DOUT pin. See DOUT row in this table.
+• For all other modes: CSO_B is high-Z and can be left 
+unconnected.
+Table 2-4: Configuration Pin Definitions (Cont’d)
+Pin Name Bank (1) Type Direction Description
+Send Feedback
+=== PDF PAGE 24 ===
+24 7 Series FPGAs Configuration User Guide
+UG470 (v1.17) December 5, 2023
+Chapter 2: Configuration Interfaces
+DOUT 14 Multi-function Output
+Data Output
+DOUT is the data output for a serial configuration daisy-chain. 
+DOUT is clocked out on the falling edge of CCLK. 
+• For serial and SPI (x1 only) modes: If the device is in a 
+serial configuration daisy-chain, then connect to the DIN of 
+the downstream slave-serial FPGA. Otherwise, DOUT is 
+high-Z.
+• For BPI and SelectMAP modes: DOUT is a multi-purpose 
+pin that functions as the CSO_B pin. See CSO_B row in 
+this table.
+• For all other modes: DOUT is high-Z and can be left 
+unconnected.
+Note: DOUT can output data when the DebugBitstream 
+option is enabled.
+RDWR_B 14 Multi-function Input
+Read/Write (bar)
+RDWR_B determines the direction of the SelectMAP data 
+bus. When RDWR_B is High, the FPGA outputs read data 
+onto the SelectMAP data bus. When RDWR_B is Low, an 
+external controller can write data to the FPGA through the 
+SelectMAP data bus.
+• For master SelectMAP mode: Connect RDWR_B directly, 
+or via a ≤ 1k Ω  resistor, to GND.
+• For slave SelectMAP mode: An external device controls 
+the RDWR_B signal to control the direction of the 
+SelectMAP data bus for read/write from/to the SelectMAP 
+interface. 
+• In all other modes: RDWR_B is ignored and can be left 
+unconnected.
+D00_MOSI 14 Multi-function Bidirectional
+Master-Output, Slave-Input
+FPGA (master) SPI mode output for sending commands to the 
+SPI (slave) flash device.
+• For SPI mode: Connect to the SPI flash data input pin. The 
+D00_MOSI pin is high-Z after the command and address is 
+sent to the SPI flash device. The PUDC_B pin determines 
+if the signal will be pulled up.
+• For BPI and SelectMAP modes: The MOSI pin is a 
+multi-purpose pin that functions as the D00 data input pin. 
+See D[00-31] row in this table.
+• For all other modes: The MOSI pin function is not 
+applicable, the pin is high-Z during configuration, is 
+ignored during configuration, and can be left unconnected.
+Table 2-4: Configuration Pin Definitions (Cont’d)
+Pin Name Bank (1) Type Direction Description
+Send Feedback
+=== PDF PAGE 25 ===
+7 Series FPGAs Configuration User Guide 25
+UG470 (v1.17) December 5, 2023
+Configuration Pins
+D01_DIN 14 Multi-function Bidirectional
+Data Input
+DIN is the serial data input pin. By default, data from DIN is 
+captured on the rising edge of CCLK.
+• For serial and SPI modes: DIN is the FPGA data input that 
+receives serial data from the data source. Connect DIN to 
+the serial data output pin of the serial data source.
+• For BPI and SelectMAP modes: The DIN pin is a 
+multi-purpose pin that functions as the D01 data input pin. 
+See D[00-31] row in this table.
+• For JTAG mode: DIN is ignored.
+Table 2-4: Configuration Pin Definitions (Cont’d)
+Pin Name Bank (1) Type Direction Description
+Send Feedback
+=== PDF PAGE 26 ===
+26 7 Series FPGAs Configuration User Guide
+UG470 (v1.17) December 5, 2023
+Chapter 2: Configuration Interfaces
+D[00-31] 14 Multi-function Bidirectional
+Data Bus
+A subset or all of the D[00-31] pins are the data bus interface 
+for the SPI x2, SPI x4, BPI, or SelectMAP modes. By default, 
+data from the data bus is captured on the rising edge of CCLK.
+• For SPI mode: Configuration begins with the D00/MOSI 
+and D01 pins of the data bus used for standard SPI (x1) 
+serial data output and data input. Bitstream options can 
+switch the SPI flash read mode to dual output (x2) or quad 
+output (x4) modes.
+• For SPI x1/x2/x4: Connect D00/MOSI to the SPI flash 
+serial data input (DQ0/D/SI/IO0) pin.
+• For SPI x1/x2/x4: Connect D01/DIN to the SPI flash 
+serial data output (DQ1/Q/SO/IO1) pin.
+• For SPI x4: Connect D02 to the SPI flash quad data bit 
+2 output (DQ2/W#/WP#/IO2) pin and connect to an 
+external 4.7kohm pull-up resistor to VCCO_14.
+• For SPI x4: Connect D03 to the SPI flash quad data bit 
+3 output (DQ3/HOLD#/IO3) pin and connect to an 
+external 4.7kohm pull-up resistor to VCCO_14.
+The remaining data pins are unused, ignored, and high 
+impedance during configuration.
+• For SelectMAP modes: The FPGA monitors the D[00-07] 
+for an auto-bus-width-detect pattern that determines 
+whether only D[00-07] (x8 bus width) are used or a wider 
+(x16 or x32) data bus width is used. Connect used data bus 
+pins to the corresponding data pins on the data source.
+Caution! The slave SelectMAP x16 and x32 data bus 
+widths do not support configuration from 
+AES-encrypted bitstreams.
+• For BPI mode: The FPGA monitors the D[00-07] for an 
+auto-bus-width-detect pattern that determines whether only 
+D[00-07] (x8 bus width) are used or a wider (x16) data bus 
+width is used. Connect used data bus pins to the 
+corresponding data pins on the BPI flash. The D[16-31] 
+pins are multi-purpose pins that function as the BPI address 
+A[00-15] pins. See A[00-28] row in this table.
+• For JTAG mode: None of the data pins are used. 
+• For all modes: The unused data pins are high-Z and ignored 
+during configuration. The unused data pins can be left 
+unconnected.
+Table 2-4: Configuration Pin Definitions (Cont’d)
+Pin Name Bank (1) Type Direction Description
+Send Feedback
+=== PDF PAGE 27 ===
+7 Series FPGAs Configuration User Guide 27
+UG470 (v1.17) December 5, 2023
+Configuration Pins
+A[00-28] 14 or 15 Multi-function Output
+Address Bus
+A[00-28] pins output addresses to a parallel NOR (BPI) flash. 
+A00 is the least-significant address bit. 
+• For BPI mode: Connect the FPGA A[00-28] pins to the 
+parallel NOR flash address pins with the FPGA A00 pin 
+connected to the least-significant flash address input pin 
+that is valid for the used data bus width. Depending on the 
+BPI flash type and used data bus width, the least-significant 
+address bit of the flash can be A1, A0, or A-1. Note that any 
+upper address pins that exceed the address bus width of the 
+parallel NOR flash are driven during configuration, but can 
+be used as I/O after configuration.
+• For SelectMAP mode: The A[00-15] pins are 
+multi-purpose pins that function as the D[16-31] data bus 
+pins. See D[00-31] row in this table.
+• In the other modes: A[00-28] are high-Z, are ignored during 
+configuration, and can be left unconnected.
+FCS_B 14 Multi-function Output
+Flash Chip Select (bar)
+Active-Low chip select output that enables SPI or BPI flash 
+devices for configuration. 
+• For SPI and BPI modes: Connect the FPGA FCS_B to the 
+flash device chip-select input and connect to an external ≤ 
+4.7 kΩ  pull-up resistor to V
+CCO_14.
+• For all other modes: FCS_B is high-Z and can be left 
+unconnected.
+FOE_B 15 Multi-function Output
+Flash Output-Enable (bar)
+Active-Low output-enable control signal for a parallel NOR 
+flash. 
+• For BPI mode: Connect the FPGA FOE_B to the flash 
+output-enable input and connect to an external ≤ 4.7 kΩ 
+pull-up resistor to VCCO_15.
+• For all other modes: FOE_B is high-Z and can be left 
+unconnected.
+FWE_B 15 Multi-function Output
+Flash Write-Enable (bar)
+Active-Low write-enable control signal for a parallel NOR 
+flash. 
+• For BPI mode: Connect the FPGA FWE_B to the flash 
+write-enable input and connect to an external ≤ 4.7 kΩ  
+pull-up resistor to VCCO_15.
+• For all other modes: FWE_B is high-Z, and can be left 
+unconnected.
+Table 2-4: Configuration Pin Definitions (Cont’d)
+Pin Name Bank (1) Type Direction Description
+Send Feedback
+=== PDF PAGE 28 ===
+28 7 Series FPGAs Configuration User Guide
+UG470 (v1.17) December 5, 2023
+Chapter 2: Configuration Interfaces
+Configuration Banks Voltage Select
+The configuration banks voltage select (CFGBVS) pin must be set to High, or Low, in order to 
+determine the I/O voltage support for the pins in bank 0, and for the multi-function pins in banks 14 
+and 15 when they are used during configuration. The CFGBVS is a logic input pin referenced 
+between V
+CCO_0 and GND. When the CFGBVS pin is High (e.g., connected to the VCCO_0 supply 
+of 3.3V or 2.5V), the configuration and JTAG I/O on bank 0 support operation at 3.3V or 2.5V 
+during and after configuration. When the CFGBVS pin is Low (e.g., connected to GND), the I/O in 
+bank 0 support operation at 1.8V or 1.5V . Configuration is not supported at 1.2V .
+ADV_B 15 Multi-function Output
+Address Valid (bar)
+Active-Low address valid output signal for a parallel NOR 
+flash.
+• For BPI mode with flash that support an address valid 
+input: Connect the FPGA ADV_B to the parallel NOR 
+flash address valid input pin and connect to an external ≤ 
+4.7 kΩ pull-up resistor to VCCO_15. For BPI mode with 
+flash that do not support an address valid input: Do not 
+connect the ADV_B pin.
+• For all other modes: ADV_B is high-Z, and can be left 
+unconnected.
+RS0, RS1 15 Multi-function Output
+Revision Select
+The RS0 and RS1 pins are revision selection output pins, 
+intended to drive upper address lines on a parallel flash 
+memory. Normally, RS0 and RS1 are high-Z during 
+configuration. However, the FPGA can drive the RS0 and RS1 
+pins under two possible conditions. When the ConfigFallback 
+option is enabled, the FPGA drives RS0 and RS1 Low during 
+the fallback configuration process that follows a detected 
+configuration error. When a user-invoked MultiBoot 
+configuration is initiated, the FPGA can drive the RS0 and 
+RS1 pins to a user-defined state during the MultiBoot 
+configuration process.
+If fallback is disabled (default) and if MultiBoot is not used, or 
+if SPI mode is used, then RS0 and RS1 are high-Z and can be 
+left unconnected.
+VCCBATT N/A Supply V oltage N/A
+Battery Backup Supply
+V
+CCBATT is the battery backup supply for the FPGA's internal 
+volatile memory that stores the key for the AES decryptor. For 
+encrypted bitstreams that require the decryptor key from the 
+volatile key memory area, connect this pin to a battery to 
+preserve the key when the FPGA is unpowered. If there is no 
+requirement to use the decryptor key from the volatile key 
+storage area, connect this pin to GND or V
+CCAUX. The pin 
+name includes the "_0" bank designation but it is not an I/O 
+and not affected by VCCO_0.
+Notes: 
+1. Each I/O is referenced to the V CCO supply voltage for the bank in which the I/O is located. For example, "0" indicates the I/O is referenced to 
+Bank 0's VCCO_0.
+Table 2-4: Configuration Pin Definitions (Cont’d)
+Pin Name Bank (1) Type Direction Description
+Send Feedback
+=== PDF PAGE 43 ===
+7 Series FPGAs Configuration User Guide 43
+UG470 (v1.17) December 5, 2023
+SelectMAP ABORT
+SelectMAP Data Ordering
+In many cases, SelectMAP configuration is driven by a user application residing on a 
+microprocessor, CPLD, or in some cases another FPGA. In these applications, it is important to 
+understand how the data ordering in the configuration data file corresponds to the data ordering 
+expected by the FPGA.
+In SelectMAP x8 mode, configuration data is loaded at one byte per CCLK, with the MSB of each 
+byte presented to the D0 pin. This convention (D0 = MSB, D7 = LSB) differs from many other 
+devices. For x16 and x32 modes, see Parallel Bus Bit Order, page 77. This convention can be a 
+source of confusion when designing custom configuration solutions. Table 2-10 shows how to load 
+the hexadecimal value 0xABCD into the SelectMAP data bus. 
+Some applications can accommodate the non-conventional data ordering without difficulty. For 
+other applications, it can be more convenient for the source configuration data file to be bit swapped, 
+meaning that the bits in each byte of the data stream are reversed. For these applications, the AMD 
+PROM file generation software can generate bit-swapped PROM files (see Configuration Data File 
+Formats, page 73). 
+Table 2-11 shows the bit ordering for the 7 series FPGA SelectMAP x8, x16, and x32 data bus 
+widths. The 7 series FPGA SelectMAP data bus bit ordering is the same as the Virtex-6 FPGA 
+SelectMAP data bus bit ordering.
+SelectMAP ABORT
+3D ICs do not support the ABORT sequence. In monolithic devices an ABORT is an interruption in 
+the SelectMAP configuration or readback sequence occurring when the state of RDWR_B changes 
+while CSI_B is asserted as sampled by CCLK. During a configuration ABORT, internal status is 
+driven onto the D[04:07] pins over the next four CCLK cycles. The other D pins are always High. 
+After the ABORT sequence finishes, the user can resynchronize the configuration logic and resume 
+configuration. For applications that must deassert RDWR_B between bytes, see the Controlled 
+CCLK method shown in Table 2-8.
+Table 2-10: Bit Ordering for SelectMAP 8-Bit Mode
+CCLK Cycle Hex Equivalent D0 D1 D2 D3 D4 D5 D6 D7
+1 0xAB 1 0 1 0 1 0 1 1
+2 0xCD 1 1 0 0 1 1 0 1
+Notes: 
+1. D[00:07] represent the SelectMAP DATA pins.
+Table 2-11: Bit Ordering
+SelectMAP 
+Data Bus 
+Width
+Data Pins
+31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+x 3 2 2 42 52 62 72 82 93 03 11 61 71 81 92 02 12 22 3 8 9 1 01 11 21 31 41 5 0 1 2 3 4 5 6 7
+x 1 6 89 1 0 1 1 1 2 1 3 1 4 1 5 01234567
+x8 01234567
+Send Feedback
+=== PDF PAGE 44 ===
+44 7 Series FPGAs Configuration User Guide
+UG470 (v1.17) December 5, 2023
+Chapter 2: Configuration Interfaces
+Configuration Abort Sequence Description
+An ABORT is signaled during configuration as follows:
+1. The configuration sequence begins normally.
+2. Pull the RDWR_B pin High synchronous to CCLK while the device is selected (CSI_B asserted 
+Low).
+3. The FPGA drives the status word onto the data pins if RDWR_B remains set for read control 
+(logic High).
+4. The ABORT lasts for four clock cycles, and Status is updated. See Figure 2-9.
+Readback Abort Sequence Description
+An ABORT is signaled during readback as follows:
+1. The readback sequence begins normally.
+2. The user pulls the RDWR_B pin Low synchronous to CCLK while the device is selected 
+(CSI_B asserted Low).
+3. The ABORT ends when CSI_B is deasserted.
+See Figure 2-10.
+X-Ref Target - Figure 2-9
+Figure 2-9: Configuration Abort Sequence for SelectMAP Modes
+DATA[00:07]
+CCLK
+STATUS
+ABORT
+UG470_c02_09_110413
+CSI_B
+RDWR_B
+Send Feedback
+=== PDF PAGE 45 ===
+7 Series FPGAs Configuration User Guide 45
+UG470 (v1.17) December 5, 2023
+SelectMAP ABORT
+ABORTs during readback are not followed by a status word because the RDWR_B signal is set for 
+write control (FPGA D[x:00] pins are inputs).
+ABORT Status Word
+During the configuration ABORT sequence, the device drives a status word onto the D[00:07] pins. 
+The status bits do not bit-swap. The other data pins are always High. The key for the status word is 
+given in Table 2-12.
+X-Ref T arget - Figure 2-10
+Figure 2-10: Readback Abort Sequence
+DATA[00:07]
+CCLK
+DATA
+ABORT
+UG470_c02_10_110413
+CSI_B
+RDWR_B
+Table 2-12: ABORT Status Word
+Bit Number Status Bit Name Meaning
+D07 CFGERR_B
+Configuration error (active Low)
+0 = A configuration error has occurred.
+1 = No configuration error.
+D06 DALIGN
+Sync word received (active High)
+0 = No sync word received.
+1 = Sync word received by interface logic.
+D05 RIP
+Readback in progress (active High)
+0 = No readback in progress.
+1 = A readback is in progress.
+D04 IN_ABORT_B
+ABORT in progress (active Low)
+0 = Abort is in progress.
+1 = No abort in progress.
+D03-D02 RSVD Reserved
+D01-D00 11 Fixed to ones.
+Send Feedback
+=== PDF PAGE 46 ===
+46 7 Series FPGAs Configuration User Guide
+UG470 (v1.17) December 5, 2023
+Chapter 2: Configuration Interfaces
+The ABORT sequence lasts four CCLK cycles. During those cycles, the status word changes to 
+reflect data alignment and ABORT status. A typical sequence might be:
+11011111  => DALIGN = 1,  IN_ABORT_B = 1
+10001111  => DALIGN = 0,  IN_ABORT_B = 0
+10001111  => DALIGN = 0,  IN_ABORT_B = 0
+10001111  => DALIGN = 0,  IN_ABORT_B = 0
+After the last cycle, the synchronization word can be reloaded to establish data alignment.
+Resuming Configuration or Readback After an Abort
+There are two ways to resume configuration or readback after an ABORT:
+• The device can be resynchroni zed after the ABORT completes.
+• The device can be reset by pulsing PROGRAM_B Low at any time.
+To resynchronize the device, CSI_B must be deasserted then reasserted. Configuration or readback 
+can be resumed by sending the last configuration or readback packet that was in progress when the 
+ABORT occurred. Alternatively, configuration or readback can be restarted from the beginning.
+Master SPI Configuration Mode
+The 7 series FPGA Master SPI configuration mode enables the use of low pin-count, 
+industry-standard SPI flash devices for bitstream storage. The FPGA supports a direct connection to 
+the de facto standard, four-pin interface of a SPI flash device for reading a stored bitstream. 
+The 7 series FPGA Master SPI configuration mode (Figure 2-11) can optionally read from SPI 
+devices that support x2 and x4 Fast Output Read operations. These output modes are proportionally 
+faster than the standard 1-bit SPI interface. In addition, a negative edge clocking mode is available 
+to make better use of the entire clock period and allow higher configuration speed. SPI flash 
+densities over 128 Mb requiring 32-bit addressing are also supported. (See SPI Densities over 128 
+Mb, page 52 for additional instructions and limitations.) For information on using SPI configuration 
+with 3D ICs, see 3D ICs Based on SSI Technology, page 14.
+Figure 2-12, page 48 shows the connections for a SPI configuration with a x1 or x2 data width. 
+These connections are the same because the x2 mode uses the D00_MOSI pin as a dual-purpose 
+Data In/Out pin. Daisy-chained configuration mode is only available in SPI x1 mode. The FPGA pin 
+connections to the SPI flash involved in the Master SPI mode are listed in Table 2-4, page 20.
+The programming software provides the ability to program a SPI serial flash using an indirect 
+programming method. This downloads a new FPGA design that provides a connection from the 
+software through the 7 series device to the SPI flash. Previous FPGA memory contents are lost 
+during this operation. For SPI flash supported by the Vivado tools, see UG908
+, Vivado Design Suite 
+User Guide: Programming and Debugging. For the specific devices supported by the AMD ISE™ 
+iMPACT programming tools, please consult the iMPACT Help documentation. 
+Note: The UG908 and iMPACT Help display supported flash devices however named devices are 
+not an assurance of flash device availability. AMD recommends contacting your flash supplier for 
+device availability.
+For additional details on the SPI x1, x2, and x4 operation, including reference schematics and 
+programming instructions, see XAPP586, Using SPI Flash with 7 Series FPGAs.
+Send Feedback
+=== PDF PAGE 47 ===
+7 Series FPGAs Configuration User Guide 47
+UG470 (v1.17) December 5, 2023
+Master SPI Configuration Mode
+X-Ref Target - Figure 2-11
+Figure 2-11: 7 Series FPGA SPI Configuration Interface
+The SPI configuration interface pins shown in Figure 2-11 are defined in Table 2-4, page 20.
+DONE
+CCLK
+PROGRAM_B
+INIT_B
+D01_DIN
+M[2:0]
+EMCCLK
+PUDC_B
+UG470_c2_11_110513
+D00_MOSI
+FCS_B
+Send Feedback
+=== PDF PAGE 48 ===
+48 7 Series FPGAs Configuration User Guide
+UG470 (v1.17) December 5, 2023
+Chapter 2: Configuration Interfaces
+Notes relevant to Figure 2-12:
+1. The DONE pin is an open-drain output. See Table 2-4, page 20 for DONE signal details.
+2. The INIT_B pin is a bidirectional, open-drain pin. An external pull-up resistor is required.
+3. The bitstream startup clock setting must be set for CCLK for SPI configuration.
+4. CCLK signal integrity is critical and termina tion might be required. Simulation is recommend 
+to determine the appropriate termination as it is application dependent.
+5. DOUT should be connected to the DIN of the downstream FPGA for daisy-chained SPI x1 
+configuration mode. Daisy-chaining is not supported for x2 or x4 SPI modes.
+6. A series resistor should be considered for the da tapath from the flash to the FPGA to minimize 
+overshoot. The proper resistor value can be determined from simulation.
+7. The 7 series FPGA V
+CCO_0 supply must be compatible with the VCC for the I/O of the SPI 
+device.
+8. Data is clocked out of the SPI on the CCLK falling edge and clocked in on the FPGA on the 
+rising edge, unless negative edge clocking (spi_fall_edge:Yes) is enabled.
+X-Ref T arget - Figure 2-12
+Figure 2-12: 7 Series FPGA SPI x1/x2 Configuration Interface
+UG470_c2_12_032311
+VCCINT
+FCS_B
+INIT_B
+DIN/D[01]
+MOSI/D[00] D
+S
+VCC
+Q
+C
+GND
+PUDC_B
+VCCO_0
+CCLK
+EMCCLK
+VCCO_14
+SPI Flash
+HOLDM1
+M0
+M2
+DOUT
+W
+TMS
+TDO
+TCK
+TDI
+VREF
+7 Series
+FPGA
+DONE
+GND
+PROGRAM_B
+VREF
+TMS
+TCK
+TDO
+TDI
+N.C.
+N.C.
+1
+14
+Xilinx Cable Header
+(JTAG Interface)
+PROGRAM_B
+VCCO_0
+2.4 kΩ
+4.7 kΩ
+330Ω
+4.7 kΩ
+VCCO_0
+VCCO_0
+NC
+VCCO_0
+VCC
+VCCO_0
+VCCO_0
+VCCO_0
+Refer to the Notes following this figure for related information.
+VCCAUX
+VCCAUX
+VCCBATT
+See Configuration Banks Voltage
+Select section for appropriate
+connection.
+CFGBVS
+Send Feedback
+=== PDF PAGE 49 ===
+7 Series FPGAs Configuration User Guide 49
+UG470 (v1.17) December 5, 2023
+Master SPI Configuration Mode
+9. The CCLK frequency is adjusted by the ConfigRate option if the source is the internal 
+oscillator. Alternatively, the ExtMasterCclk_en option can switch the CCLK to source from the 
+EMCCLK pin to use an external clock source.
+10. V CCBATT is the power source for the AES key stored in SRAM. It should be connected to a 
+battery supply, when used. 
+The 7 series FPGA SPI x1 mode sequence diagram is shown in Figure 2-13.
+Notes relevant to Figure 2-13:
+1. Waveforms represent the relative sequence of even ts and are not to scale. See SPI flash memory 
+data sheet for detailed SPI command and data timing.
+2. The CCLK frequency starts at 3 MHz typical providing sufficient margin for the FCS_B and 
+MOSI activity. The CCLK frequency increases if the ConfigRate option is utilized after the 
+start of the read, where only the SPI clock-to-data output timing and FPGA DIN setup timing 
+need to be considered.
+3. When the SPI flash is not used  after configuration, it is recommended to have the FPGA design 
+drive the FCS_B High.
+4. MOSI signal is high-Z or internally pulled up if PUDC_B is Low after the 8-bit read command 
+and 24-bit address.
+X-Ref T arget - Figure 2-13
+Figure 2-13: 7 Series FPGA SPI x1 Mode Sequence
+PROGRAM_B
+INIT_B
+M[2:0]
+FS[2:0]
+CCLK
+FCS_B
+MOSI
+DIN (Fast Read)
+DONE
+Configuration Mode User Mode
+UG470_c2_15_102417
+001
+8-Bit
+Read CMD
+24-Bit
+Address
+8 CCLKs
+Bitstream Data
+…… ……
+Send Feedback
+=== PDF PAGE 50 ===
+50 7 Series FPGAs Configuration User Guide
+UG470 (v1.17) December 5, 2023
+Chapter 2: Configuration Interfaces
+Master SPI Dual (x2) and Quad (x4) Read Commands
+The Master SPI configuration mode in 7 series FPGAs supports Dual and Quad fast read operations. 
+The FPGA first transmits the Fast Read opcode (0Bh) to the SPI then reads in the command to 
+change the data width in the early part of the bitstream. The FPGA then issues a new read command 
+for the Dual or Quad fast read operation to the SPI device and begins to read the appropriate data 
+width.
+To enable this configuration mode in software, the spi_buswidth option is used to insert the 
+appropriate bitstream commands. The SPI read opcodes supported by the 7 series FPGAs are shown 
+in Table 2-13.
+Table 2-13: SPI Instructions and Required Opcodes
+SPI Instruction Opcode
+Fast Read x1 0B
+Dual Output Fast Read 3B
+Quad Output Fast Read 6B
+Fast Read, 32-bit address 0C
+Dual Output Fast Read, 32-bit address 3C
+Quad Output Fast Read, 32-bit address 6C
+Send Feedback

@@ -1,0 +1,305 @@
+{
+  "success": true,
+  "job_dir": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\tools\\altium\\runtime\\jobs\\27883f65571d436ab5b6b3d055ab73e7",
+  "steps": [
+    "START",
+    "open exact PCB library",
+    "FINISHED"
+  ],
+  "elapsed_seconds": 1.81,
+  "result": {
+    "footprints": [
+      {
+        "name": "RUEF1102",
+        "pads": [
+          {
+            "name": "1",
+            "x_coord": 0,
+            "y_coord": 0,
+            "x_size_coord": 479528,
+            "y_size_coord": 479528,
+            "hole_coord": 279764,
+            "rotation": 0
+          },
+          {
+            "name": "2",
+            "x_coord": 1988189,
+            "y_coord": 0,
+            "x_size_coord": 479528,
+            "y_size_coord": 479528,
+            "hole_coord": 279764,
+            "rotation": 0
+          }
+        ],
+        "pad_count": 2
+      },
+      {
+        "name": "APC817C1SL",
+        "pads": [
+          {
+            "name": "1",
+            "x_coord": -1801181,
+            "y_coord": 500000,
+            "x_size_coord": 629921,
+            "y_size_coord": 393701,
+            "hole_coord": 0,
+            "rotation": 0
+          },
+          {
+            "name": "2",
+            "x_coord": -1801181,
+            "y_coord": -500000,
+            "x_size_coord": 629921,
+            "y_size_coord": 393701,
+            "hole_coord": 0,
+            "rotation": 0
+          },
+          {
+            "name": "3",
+            "x_coord": 1801181,
+            "y_coord": -500000,
+            "x_size_coord": 629921,
+            "y_size_coord": 393701,
+            "hole_coord": 0,
+            "rotation": 0
+          },
+          {
+            "name": "4",
+            "x_coord": 1801181,
+            "y_coord": 500000,
+            "x_size_coord": 629921,
+            "y_size_coord": 393701,
+            "hole_coord": 0,
+            "rotation": 0
+          }
+        ],
+        "pad_count": 4
+      },
+      {
+        "name": "09.03290.01",
+        "pads": [
+          {
+            "name": "3",
+            "x_coord": 501000000,
+            "y_coord": 500000000,
+            "x_size_coord": 511811,
+            "y_size_coord": 511811,
+            "hole_coord": 314961,
+            "rotation": 0
+          },
+          {
+            "name": "2",
+            "x_coord": 499000000,
+            "y_coord": 500000000,
+            "x_size_coord": 511811,
+            "y_size_coord": 511811,
+            "hole_coord": 314961,
+            "rotation": 0
+          },
+          {
+            "name": "1",
+            "x_coord": 500000000,
+            "y_coord": 500000000,
+            "x_size_coord": 511811,
+            "y_size_coord": 511811,
+            "hole_coord": 314961,
+            "rotation": 0
+          }
+        ],
+        "pad_count": 3
+      },
+      {
+        "name": "HF32F024HS3",
+        "pads": [
+          {
+            "name": "4",
+            "x_coord": 5000000,
+            "y_coord": 0,
+            "x_size_coord": 767717,
+            "y_size_coord": 767717,
+            "hole_coord": 511811,
+            "rotation": 0
+          },
+          {
+            "name": "3",
+            "x_coord": 6000000,
+            "y_coord": 2992126,
+            "x_size_coord": 767717,
+            "y_size_coord": 767717,
+            "hole_coord": 511811,
+            "rotation": 0
+          },
+          {
+            "name": "2",
+            "x_coord": 0,
+            "y_coord": 2992126,
+            "x_size_coord": 767717,
+            "y_size_coord": 767717,
+            "hole_coord": 511811,
+            "rotation": 0
+          },
+          {
+            "name": "1",
+            "x_coord": 0,
+            "y_coord": 0,
+            "x_size_coord": 767717,
+            "y_size_coord": 767717,
+            "hole_coord": 511811,
+            "rotation": 0
+          }
+        ],
+        "pad_count": 4
+      },
+      {
+        "name": "DIOM5436X244N",
+        "pads": [
+          {
+            "name": "2",
+            "x_coord": 866142,
+            "y_coord": 0,
+            "x_size_coord": 866142,
+            "y_size_coord": 846457,
+            "hole_coord": 0,
+            "rotation": 0
+          },
+          {
+            "name": "1",
+            "x_coord": -866142,
+            "y_coord": 0,
+            "x_size_coord": 866142,
+            "y_size_coord": 846457,
+            "hole_coord": 0,
+            "rotation": 0
+          }
+        ],
+        "pad_count": 2
+      },
+      {
+        "name": "ASV25000MHZEJT",
+        "pads": [
+          {
+            "name": "4",
+            "x_coord": -1000000,
+            "y_coord": 866142,
+            "x_size_coord": 787402,
+            "y_size_coord": 708661,
+            "hole_coord": 0,
+            "rotation": 0
+          },
+          {
+            "name": "3",
+            "x_coord": 1000000,
+            "y_coord": 866142,
+            "x_size_coord": 787402,
+            "y_size_coord": 708661,
+            "hole_coord": 0,
+            "rotation": 0
+          },
+          {
+            "name": "2",
+            "x_coord": 1000000,
+            "y_coord": -708661,
+            "x_size_coord": 787402,
+            "y_size_coord": 708661,
+            "hole_coord": 0,
+            "rotation": 0
+          },
+          {
+            "name": "1",
+            "x_coord": -1000000,
+            "y_coord": -708661,
+            "x_size_coord": 787402,
+            "y_size_coord": 708661,
+            "hole_coord": 0,
+            "rotation": 0
+          }
+        ],
+        "pad_count": 4
+      },
+      {
+        "name": "PCBComponent_1",
+        "pads": [],
+        "pad_count": 0
+      },
+      {
+        "name": "SOIC127P600X175-8N",
+        "pads": [
+          {
+            "name": "1",
+            "x_coord": -1072835,
+            "y_coord": 750000,
+            "x_size_coord": 610236,
+            "y_size_coord": 275591,
+            "hole_coord": 0,
+            "rotation": 0
+          },
+          {
+            "name": "2",
+            "x_coord": -1072835,
+            "y_coord": 250000,
+            "x_size_coord": 610236,
+            "y_size_coord": 275591,
+            "hole_coord": 0,
+            "rotation": 0
+          },
+          {
+            "name": "3",
+            "x_coord": -1072835,
+            "y_coord": -250000,
+            "x_size_coord": 610236,
+            "y_size_coord": 275591,
+            "hole_coord": 0,
+            "rotation": 0
+          },
+          {
+            "name": "4",
+            "x_coord": -1072835,
+            "y_coord": -750000,
+            "x_size_coord": 610236,
+            "y_size_coord": 275591,
+            "hole_coord": 0,
+            "rotation": 0
+          },
+          {
+            "name": "5",
+            "x_coord": 1072835,
+            "y_coord": -750000,
+            "x_size_coord": 610236,
+            "y_size_coord": 275591,
+            "hole_coord": 0,
+            "rotation": 0
+          },
+          {
+            "name": "6",
+            "x_coord": 1072835,
+            "y_coord": -250000,
+            "x_size_coord": 610236,
+            "y_size_coord": 275591,
+            "hole_coord": 0,
+            "rotation": 0
+          },
+          {
+            "name": "7",
+            "x_coord": 1072835,
+            "y_coord": 250000,
+            "x_size_coord": 610236,
+            "y_size_coord": 275591,
+            "hole_coord": 0,
+            "rotation": 0
+          },
+          {
+            "name": "8",
+            "x_coord": 1072835,
+            "y_coord": 750000,
+            "x_size_coord": 610236,
+            "y_size_coord": 275591,
+            "hole_coord": 0,
+            "rotation": 0
+          }
+        ],
+        "pad_count": 8
+      }
+    ],
+    "count": 8
+  }
+}

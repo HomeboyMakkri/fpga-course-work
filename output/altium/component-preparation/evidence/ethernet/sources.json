@@ -1,0 +1,81 @@
+{
+  "checked_date": "2026-10-08",
+  "research_only": true,
+  "cad_calls": 0,
+  "model_packages_downloaded": 0,
+  "ready_connected_components": 0,
+  "mps_verified": false,
+  "documents": [
+    {
+      "manufacturer": "Realtek",
+      "mpn": "RTL8211E-VB-CG",
+      "path": "datasheets/Datasheets/NET/rtl8211e.pdf",
+      "sha256": "B081006E6619BA24B38BE4959675E36748AD3F80053F27E9319B38A44620FA3C",
+      "revision": "1.6",
+      "source_origin": "existing_user_checkout; acquisition_origin_unknown",
+      "datasheet_identity_verified": true,
+      "visual_schematic_crosscheck": "evidence/pdf/page-05.png"
+    },
+    {
+      "manufacturer": "HanRun",
+      "mpn": "HR911130A",
+      "url": "https://atta.szlcsc.com/upload/public/pdf/source/20250812/A9B443FB770AA42A34C92B1A15093C54.pdf",
+      "path": "output/altium/component-preparation/evidence/ethernet/HR911130A-Hanrun-LCSC.pdf",
+      "sha256": "99BD6AC77D8B46BBF4764056C3FBA8B18B5180DE9488052ED1204C85B27FD3B0",
+      "revision": "B",
+      "pages": 4,
+      "source_type": "manufacturer_authored_datasheet_distributor_mirror",
+      "visual_pin_map_crosscheck": true,
+      "native_footprint_verified": false
+    }
+  ],
+  "model_pages": [
+    {
+      "mpn": "RTL8211E-VB-CG",
+      "provider": "Ultra Librarian",
+      "url": "https://app.ultralibrarian.com/details/73517a83-7c9f-11ea-8c00-0ad2c9526b44/Realtek/RTL8211E-VB-CG",
+      "altium_symbol_advertised": true,
+      "altium_footprint_advertised": true,
+      "authentication_required_observed": true,
+      "downloaded": false
+    },
+    {
+      "mpn": "HR911130A",
+      "provider": "Ultra Librarian",
+      "url": "https://app.ultralibrarian.com/details/2ea77810-e93a-11eb-9033-0a34d6323d74/HanRun/HR911130A",
+      "altium_symbol_advertised": true,
+      "altium_footprint_advertised": true,
+      "three_d_available": false,
+      "authentication_required_observed": true,
+      "downloaded": false
+    },
+    {
+      "mpn": "HR911130A",
+      "provider": "SnapMagic",
+      "url": "https://www.snapeda.com/parts/HR911130A/HanRun/view-part/",
+      "altium_symbol_advertised": true,
+      "altium_footprint_advertised": true,
+      "third_party_model_warning_observed": true,
+      "web_fetch_status": "403",
+      "subagent_iab_status": "IAB visibility is not supported in a subagent thread",
+      "downloaded": false
+    },
+    {
+      "mpn": "RTL8211E-VB-CG",
+      "provider": "Component Search Engine",
+      "url": "https://componentsearchengine.com/part-view/RTL8211E-VB-CG/Realtek",
+      "model_listed_in_search": true,
+      "attempts": ["web exact-page cache miss", "IAB net::ERR_BLOCKED_BY_CLIENT", "HTTP fetch Cloudflare managed challenge"],
+      "branch_stopped_after_attempts": 3,
+      "downloaded": false
+    }
+  ],
+  "unresolved": [
+    "exact X4 crystal manufacturer, MPN, package and CL",
+    "provider-authorized Altium CAD archives for PHY and RJ45",
+    "isolated native import, GOST grid adaptation, save/reopen and footprint verification",
+    "target-project model resolution and placed connectivity compilation",
+    "Ethernet power budget, reset sequence, RGMII delay constraints and application MAC/protocol logic",
+    "final shielding/chassis and ESD/EMC requirements"
+  ]
+}

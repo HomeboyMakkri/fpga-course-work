@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "job_dir": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\tools\\altium\\runtime\\jobs\\639c096828b642b9a762dca4c1bed04a",
+  "steps": [
+    "START",
+    "open exact ASV PCB working copy",
+    "remove foreign footprints from working copy",
+    "save isolated ASV footprint",
+    "FINISHED"
+  ],
+  "elapsed_seconds": 1.2,
+  "result": {
+    "saved": true
+  }
+}

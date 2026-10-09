@@ -23,6 +23,20 @@ Use the exact MPN as the folder name under the user's requested `ARTIX/ARTIX/lib
 
 Do not overwrite an existing package. Reuse the verified existing package or retain a separate version agreed in context. If the provider returns an IntLib only, retain it in original and extract through Altium into new; it is not an editable SchLib. Preserve PcbLib and STEP assets, pin-to-pad maps, and model links. Check relative/absolute paths after copying: a source SchLib may still refer to a provider's original path. Repair links through native API only with before/after verification. Do not treat mere presence of a PcbLib as a linked model.
 
+## Isolated import and project publication
+
+Before import, record the exact temporary SchLib/PcbLib paths and target LibReference. Configure or have the user configure Library Loader to those paths and verify the saved output paths. Do not infer its target from the active editor. Do not change the user's unrelated library settings or append to a previous project's library as a shortcut.
+
+If import has already produced a mixed library, preserve it as source evidence and perform native extraction into a fresh working pair. Verify the destination has only the selected component, all its parts and its required footprints/models. Copying the entire mixed library and merely editing one entry is not isolation. Preserve shared footprint identity and maps; do not duplicate or rename a footprint arbitrarily to resolve a collision.
+
+Keep the existing user-named package paths unless the user requests a migration. `original` holds the archive and unmodified import evidence; `new` holds the isolated component and dependencies. A temporary import may reside in the bridge runtime. Record import destination, exact symbol/model names, hashes, validation results and pending stages in `component.json` or a companion report. A successful package-copy tool result is not evidence of native extraction, GOST compliance or publication.
+
+For publication, first inspect the target `.PrjPcb` and its current library references. Reuse its established working libraries; do not assume that the current editor library is a project library. If none exist, create a clearly named project pair (for ARTIX, `libraries/project/ARTIX.SchLib` and `ARTIX.PcbLib`) and add both explicitly to the project. Keep project model dependencies inside the project tree and use supported portable library resolution instead of links to another project or another user's absolute directories. Existing per-component source packages remain traceable; importing them does not automatically install them globally.
+
+Checkpoint and back up working libraries and the project before publication. Check for duplicate LibReferences and footprint names; reuse an exact verified match, otherwise report the conflict. Copy only the selected verified component and required dependencies through native CAD operations. Save/reopen, compare existing unrelated component/model invariants, and verify the selected footprint resolves to the intended project-local PcbLib and retains its pin-to-pad mapping. A model string or a PcbLib's mere presence is insufficient. A LibPkg/IntLib is optional packaging; preserve editable SchLib/PcbLib sources and validate the compiled package when used.
+
+Report source preservation, isolated extraction, GOST adaptation and project connection separately. Do not infer project connection from a symbol visible in an open library or from an unchanged model name.
+
 ## Adapt and verify
 
 - Inspect the exact downloaded LibReference in new before editing. Cross-check every physical pin against the datasheet and footprint, including OE/NC differences between devices.

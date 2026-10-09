@@ -1,0 +1,12 @@
+[
+  {
+    "source": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\TPS563210A\\TPS563210A.PcbLib",
+    "backup": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\output\\altium\\TPS563210A\\backups\\TPS563210A.PcbLib",
+    "sha256": "e79085bf6cae8f2ad77f42ab562f367dc8a559b13efa7efa69152cbf7ca8ae7b"
+  },
+  {
+    "source": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\ARTIX.PrjPcb",
+    "backup": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\output\\altium\\TPS563210A\\backups\\ARTIX.PrjPcb",
+    "sha256": "fc46b4164d1d7852dcc829727b8d3f1d8b4657eb1c98a591d82695a3787da5b0"
+  }
+]

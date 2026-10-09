@@ -1,0 +1,280 @@
+=== PDF PAGE 15 ===
+7 Series FPGAs PCB Design Guide www.xilinx.com 15
+UG483 (v1.14) May 21, 2019
+PCB Decoupling Capacitors
+Table 2-2 lists the PCB decoupling capacitor guidelines per VCC supply rail for 
+Artix-7 devices.
+CSGA324 XC7S50 0 1 3 5 1 1 1 1 1 2 3 1 2 4
+FTGB196 XC7S50 0 1 3 5 1 1 1 1 1 1 3 1 2 4
+FGGA484 XC7S50 0 1 3 5 1 1 1 1 1 2 4 1 2 4
+FGGA484 XC7S75 0 1 4 7 1 1 1 1 1 3 7 1 2 4
+FGGA676 XC7S75 0 1 4 7 1 1 1 1 1 3 7 1 2 4
+FGGA484 XC7S100 0 1 5 8 1 1 1 1 1 3 7 1 2 4
+FGGA676 XC7S100 0 1 5 8 1 1 1 1 1 3 7 1 2 4
+Notes: 
+1. PCB capacitor specifications are listed in Table 2-5.
+2. Total includes all capacitors for all supp lies. The values in this table account for the number of I/O banks in the device.
+3. One 47 µF (or 100 µF) capacitor is required for up to four V
+CCO banks when powered by the same voltage.
+4. Decoupling capacitors cover down to approximately 100 KHz.
+Table 2-1: Required PCB Capacitor Quantities per Device: Spartan-7 Devices (1)(2) (Continued)
+Package Device
+VCCINT VCCBRAM VCCAUX VCCO (per Bank)
+330 µF 100 µF 4.7 µF 0.47 µF 100 µF 47 µF 4.7 µF 0.47 µF 47 µF 4.7 µF 0.47 µF 47 µF or 
+100 µF(3) 4 . 7µ F 0 . 4 7µ F
+Table 2-2: Required PCB Capacitor Quantities per Device: Artix-7 Devices (1)(2)
+Package Device
+VCCINT VCCBRAM VCCAUX
+VCCO 
+Bank 0
+VCCO all other Banks 
+(per Bank)
+680 µF 330 µF 100 µF 47 µF 4.7 µF 0.47 µF 100 µF 47 µF 4.7 µF 0.47 µF 47 µF 4.7 µF 0.47 µF 47 µF 47 µF or 
+100 µF(3) 4 . 7µ F 0 . 4 7µ F
+CPG238 XC7A12T 0 0 1 0 1 2 0 1 0 1 1 1 2 1 1 2 4
+CSG325 XC7A12T 0 0 1 0 1 2 0 1 0 1 1 1 2 1 1 2 4
+CPG236 XC7A15T
+XA7A15T
+001 0 2 20 1 01 1 1 21124
+CPG238 XC7A25T 0 0 1 0 2 3 0 1 0 1 1 1 2 1 1 2 4
+CSG325 XC7A25T 0 0 1 0 2 3 0 1 0 1 1 1 2 1 1 2 4
+CPG236 XC7A35T
+XA7A35T
+001 0 2 30 1 01 1 1 21124
+CPG236 XC7A50T
+XA7A50T
+010 0 3 51 0 01 1 1 21124
+FTG256 XC7A15T 0 0 1 0 2 2 0 1 0 1 1 2 3 1 1 2 4
+FTG256 XC7A35T 0 0 1 0 2 3 0 1 0 1 1 2 3 1 1 2 4
+FTG256 XC7A50T 0 1 0 0 3 5 1 0 0 1 1 2 3 1 1 2 4
+FTG256 XC7A75T 0 1 0 0 4 6 1 0 0 2 1 2 3 1 1 2 4
+FTG256 XC7A100T 0 1 0 0 6 8 1 0 0 2 1 2 3 1 1 2 4
+CSG324 XC7A15T
+XA7A15T
+001 0 2 20 1 01 1 2 41124
+CSG324 XC7A35T
+XA7A35T
+001 0 2 30 1 01 1 2 41124
+CSG324 XC7A50T
+XA7A50T
+010 0 3 51 0 01 1 2 41124
+Send Feedback
+=== PDF PAGE 16 ===
+16 www.xilinx.com 7 Series FPGAs PCB Design Guide
+UG483 (v1.14) May 21, 2019
+Chapter 2: Power Distribution System
+Table 2-3 lists the PCB decoupling capacitor guidelines per VCC supply rail for 
+Kintex-7 devices.
+CSG324 XC7A75T
+XA7A75T
+010 0 4 61 0 02 1 2 41124
+CSG324 XC7A100T
+XQ7A100T
+XA7A100T
+010 0 6 81 0 02 1 2 41124
+CSG325 XC7A15T
+XA7A15T
+001 0 2 20 1 01 1 2 31124
+CSG325 XC7A35T
+XA7A35T
+001 0 2 30 1 01 1 2 31124
+CSG325 XC7A50T
+XA7A50T
+XQ7A50T
+010 0 3 51 0 01 1 2 31124
+FBG484
+FBV484
+RB484
+XC7A200T
+XQ7A200T
+1 0 0 0 12 14 1 0 0 3 1 3 5 1 1 2 4
+FGG484 XC7A15T 0 0 1 0 2 2 0 1 0 1 1 2 5 1 1 2 4
+FGG484 XC7A35T 0 0 1 0 2 3 0 1 0 1 1 2 5 1 1 2 4
+FGG484 XC7A50T
+XQ7A50T
+010 0 3 51 0 01 1 2 51124
+FGG484 XC7A75T
+XA7A75T
+010 0 4 61 0 02 1 3 51124
+FGG484 XC7A100T
+XA7A100T
+XQ7A100T
+010 0 6 81 0 02 1 3 51124
+SBG484
+SBV484
+RS484
+XC7A200T
+XQ7A200T
+1 0 0 0 12 14 1 0 0 3 1 3 5 1 1 2 4
+FBG676
+FBV676
+RB676
+XC7A200T
+XQ7A200T
+1 0 0 0 12 14 1 0 0 3 1 4 7 1 1 2 4
+FGG676 XC7A75T 0 1 0 0 4 6 1 0 0 2 1 3 5 1 1 2 4
+FGG676 XC7A100T 0 1 0 0 6 8 1 0 0 2 1 3 5 1 1 2 4
+FFG1156
+FFV1156
+XC7A200T 1 0 0 0 12 14 1 0 0 3 1 5 9 1 1 2 4
+Notes: 
+1. PCB Capacitor specifications are listed in Table 2-5.
+2. Total includes all capacitors for all supplies, except for the MGT supplies MGTAVCC and MGTAVTT, which are covered in UG482, 7 Series FPGAs GTP 
+Transceivers User Guide. The values in this table account for the number of I/O banks in the device.
+3. One 47 µF (or 100 µF) capacitor is required for up to four V CCO banks when powered by the same voltage.
+4. Decoupling capacitors cover down to approximately 100 KHz.
+5. Blank cells indicate that the data is not currently available.
+Table 2-2: Required PCB Capacitor Quantities per Device: Artix-7 Devices (1)(2) (Continued)
+Package Device
+VCCINT VCCBRAM VCCAUX
+VCCO 
+Bank 0
+VCCO all other Banks 
+(per Bank)
+680 µF 330 µF 100 µF 47 µF 4.7 µF 0.47 µF 100 µF 47 µF 4.7 µF 0.47 µF 47 µF 4.7 µF 0.47 µF 47 µF 47 µF or 
+100 µF(3) 4 . 7µ F 0 . 4 7µ F
+Send Feedback
+=== PDF PAGE 17 ===
+7 Series FPGAs PCB Design Guide www.xilinx.com 17
+UG483 (v1.14) May 21, 2019
+PCB Decoupling Capacitors
+Table 2-3: Required PCB Capacitor Quantities per Device: Kintex-7 Devices (1)(2)
+Package Device
+VCCINT VCCBRAM VCCAUX VCCAUX_IO per Group(3) VCCO 
+Bank 0
+VCCO all other 
+Banks 
+(per Bank)
+680 µF 330 µF 4.7 µF 660 µF 330 µF 100 µF 4.7 µF 47 µF 4.7 µF 100 µF 47 µF 4.7 µF 47 µF 47 µF or 100 µF(4)
+FBG484
+FBV484
+XC7K70T 0 1 0 0 0 1 2 2 3 N/A N/A N/A 1 1
+FBG484
+FBV484
+XC7K160T 0 2 0 0 0 1 3 2 3 N/A N/A N/A 1 1
+FBG676
+FBV676
+XC7K70T 0 1 0 0 0 1 2 2 3 0 0 0 1 1
+FBG676
+FBV676
+XC7K160T 0 2 0 0 0 1 3 3 4 0 0 0 1 1
+FBG676
+FBV676
+XC7K325T 0 3 5 0 0 2 5 3 4 0 0 0 1 1
+FBG676
+FBV676
+XC7K410T 0 5 10 0 1 0 9 3 4 0 0 0 1 1
+FBG900
+FBV900
+XC7K325T 0 3 5 0 0 2 5 4 4 0 0 0 1 1
+FBG900
+FBV900
+XC7K410T 0 5 10 0 1 0 9 4 4 0 0 0 1 1
+FFG676
+FFV676
+XC7K160T
+XA7K160T
+0 200 0 13 2 00 1 0 1 1
+FFG676
+FFV676
+RF676
+XC7K325T
+XQ7K325T
+0 300 0 25 2 00 1 0 1 1
+FFG676
+FFV676
+RF676
+XC7K410T
+XQ7K410T
+0 500 1 09 2 00 1 0 1 1
+FFG900
+FFV900
+RF900
+XC7K325T
+XQ7K325T
+0 300 0 25 3 00 1 0 1 1
+FFG900
+FFV900
+RF900
+XC7K410T
+XQ7K410T
+0 500 1 09 3 00 1 0 1 1
+FFG901
+FFV901
+XC7K355T 0 5 0 0 1 0 8 2 0 N/A N/A N/A 1 1
+FFG901
+FFV901
+XC7K420T 0 5 0 0 1 0 9 3 0 N/A N/A N/A 1 1
+FFG901
+FFV901
+XC7K480T 0 6 0 0 1 1 11 3 0 N/A N/A N/A 1 1
+FFG1156
+FFV1156
+XC7K420T 0 5 0 0 1 0 9 3 0 N/A N/A N/A 1 1
+FFG1156
+FFV1156
+XC7K480T 0 6 0 0 1 1 11 3 0 N/A N/A N/A 1 1
+Notes: 
+1. PCB Capacitor specifications are listed in Table 2-5.
+2. Total includes all capacitors for all su pplies, except for the MGT supplies MGTAVCC, MGTVCCAUX, and MGTAVTT, which are covered in UG476, 7 Series 
+FPGAs GTX/GTH Transceivers User Guide. The values in this table account for the number of I/O banks in the device.
+3. See UG471, 7 Series FPGAs SelectIO Resources User Guide for a description of the VCCAUX_IO rail specification to see which I/O banks are grouped together in 
+each VCCAUX_IO group. See UG475, 7 Series FPGAs Packaging and Pinout Product Specification to see which I/O banks are grouped together in each VCCAUX_IO 
+group.
+4. One 47 µF (or 100 µF) capacitor is required for up to four V CCO banks when powered by the same voltage.
+5. When N/A is listed for the VCCAUX_IO per group, these components do not have HP I/O banks or VCCAUX_IO pins.
+6. Decoupling capacitors cover down to approximately 100 KHz.
+Send Feedback
+=== PDF PAGE 36 ===
+36 www.xilinx.com 7 Series FPGAs PCB Design Guide
+UG483 (v1.14) May 21, 2019
+Chapter 2: Power Distribution System
+One-tenth of a quarter wavelength is a good target for most practical applications and 
+leads to placing a capacitor within one-fortieth of a wavelength of the power pins it is 
+decoupling. The wavelength corresponds to the capacitor's mounted resonant frequency, 
+F
+RIS.
+When using large numbers of external termination resistors or passive power filtering for 
+transceivers, priority should be given to these over the decoupling capacitors. Moving 
+away from the device in concentric rings, the termination resistors and transceiver supply 
+filtering should be closest to the device, followed by the smallest-value decoupling 
+capacitors, then the larger-value decoupling capacitors.
+VREF Stabilization Capacitors
+In VREF supply stabilization, one capacitor per pin is placed as close as possible to the VREF 
+pin. The capacitors used are in the 0.022 µF – 0.47 µF range. The VREF capacitor’s primary 
+function is to reduce the VREF node impedance, which in turn reduces crosstalk coupling. 
+Since no low-frequency energy is needed, larger capacitors are not necessary.
+This only applies when Internal VREF is not used. Internal VREF is a feature in the 7 series 
+FPGAs wherein the reference voltage rail is generated internally, which in turn allows the 
+V
+REF pins to be used as regular I/O pins. See UG471, 7 Series FPGAs SelectIO User Guide for 
+more details on Internal VREF.
+Power Supply Consolidation
+Powering 1.8V VCCO, VCCAUX, and VCCAUX_IO from a common PCB plane is allowed in 
+7 series FPGA designs. However, careful consideration must be given to power supply 
+noise—in particular, any noise on the V
+CCO rail should not violate the recommended 
+operating condition range for the VCCAUX supply. See DS182, Kintex-7 FPGAs Data Sheet: 
+DC and Switching Characteristics and DS183, Virtex®-7 FPGAs Data Sheet: DC and Switching 
+Characteristics for these requirements.
+Unconnected VCCO Pins
+In some cases, one or more I/O banks in an FPGA are not used (for example, when an 
+FPGA has far more I/O pins than the design requires). In these cases, it might be desirable 
+to leave the bank’s associated V
+CCO pins unconnected, as it can free up some PCB layout 
+constraints (less voiding of power and ground planes from via antipads, less obstacles to 
+signals entering and exiting the pinout array, more copper area available for other 
+planelets in the otherwise used plane layer).
+Leaving the VCCO pins of unused I/O banks floating reduces the level of ESD protection 
+on these pins and the I/O pins in the bank. For maximum ESD protection in an unused 
+bank, all V
+CCO and I/O pins in that bank should be connected together to the same 
+potential, whether that be ground, a valid VCCO voltage, or a floating plane.
+Simulation Methods
+Simulation methods, ranging from very simple to very complex, exist to predict the PDS 
+characteristics. An accurate simulation result is difficult to achieve without using a fairly 
+sophisticated simulator and taking a significant amount of time.
+Basic lumped RLC simulation is one of the simplest simulation methods. Though it does 
+not account for the distributed behavior of a PDS, it is a useful tool for selecting and 
+verifying that combinations of decoupling capacitor values will not lead to large anti-
+Send Feedback

@@ -1,0 +1,253 @@
+{
+  "success": true,
+  "job_dir": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\tools\\altium\\runtime\\jobs\\60ae44e3ce0347ad95ae934a454e3425",
+  "steps": [
+    "START",
+    "select exact library component",
+    "select exact library component",
+    "FINISHED"
+  ],
+  "elapsed_seconds": 2.11,
+  "result": {
+    "component": "TPS563210A",
+    "part_count": 1,
+    "current_part": 1,
+    "pins": [
+      {
+        "designator": "3",
+        "name": "VIN",
+        "unique_id": "PIMOIXUC",
+        "part": 1,
+        "display_mode": 0,
+        "x_coord": 0,
+        "y_coord": -2362205,
+        "orientation": 2,
+        "electrical": 7,
+        "length_coord": 1968504,
+        "name_font_mode": 1,
+        "designator_font_mode": 1,
+        "name_font": "GOST Common",
+        "name_size": 10,
+        "designator_font": "GOST Common",
+        "designator_size": 10
+      },
+      {
+        "designator": "7",
+        "name": "EN",
+        "unique_id": "SDJDVTCI",
+        "part": 1,
+        "display_mode": 0,
+        "x_coord": 0,
+        "y_coord": -4724409,
+        "orientation": 2,
+        "electrical": 7,
+        "length_coord": 1968504,
+        "name_font_mode": 1,
+        "designator_font_mode": 1,
+        "name_font": "GOST Common",
+        "name_size": 10,
+        "designator_font": "GOST Common",
+        "designator_size": 10
+      },
+      {
+        "designator": "5",
+        "name": "SS",
+        "unique_id": "ULTWOTVG",
+        "part": 1,
+        "display_mode": 0,
+        "x_coord": 0,
+        "y_coord": -7086614,
+        "orientation": 2,
+        "electrical": 7,
+        "length_coord": 1968504,
+        "name_font_mode": 1,
+        "designator_font_mode": 1,
+        "name_font": "GOST Common",
+        "name_size": 10,
+        "designator_font": "GOST Common",
+        "designator_size": 10
+      },
+      {
+        "designator": "6",
+        "name": "VFB",
+        "unique_id": "SKCCRHGY",
+        "part": 1,
+        "display_mode": 0,
+        "x_coord": 0,
+        "y_coord": -9448819,
+        "orientation": 2,
+        "electrical": 7,
+        "length_coord": 1968504,
+        "name_font_mode": 1,
+        "designator_font_mode": 1,
+        "name_font": "GOST Common",
+        "name_size": 10,
+        "designator_font": "GOST Common",
+        "designator_size": 10
+      },
+      {
+        "designator": "8",
+        "name": "VBST",
+        "unique_id": "UUQTWYTF",
+        "part": 1,
+        "display_mode": 0,
+        "x_coord": 13779528,
+        "y_coord": -2362205,
+        "orientation": 0,
+        "electrical": 7,
+        "length_coord": 1968504,
+        "name_font_mode": 1,
+        "designator_font_mode": 1,
+        "name_font": "GOST Common",
+        "name_size": 10,
+        "designator_font": "GOST Common",
+        "designator_size": 10
+      },
+      {
+        "designator": "2",
+        "name": "SW",
+        "unique_id": "SDCMRPJW",
+        "part": 1,
+        "display_mode": 0,
+        "x_coord": 13779528,
+        "y_coord": -4724409,
+        "orientation": 0,
+        "electrical": 7,
+        "length_coord": 1968504,
+        "name_font_mode": 1,
+        "designator_font_mode": 1,
+        "name_font": "GOST Common",
+        "name_size": 10,
+        "designator_font": "GOST Common",
+        "designator_size": 10
+      },
+      {
+        "designator": "4",
+        "name": "PG",
+        "unique_id": "PMQQDITV",
+        "part": 1,
+        "display_mode": 0,
+        "x_coord": 13779528,
+        "y_coord": -7086614,
+        "orientation": 0,
+        "electrical": 7,
+        "length_coord": 1968504,
+        "name_font_mode": 1,
+        "designator_font_mode": 1,
+        "name_font": "GOST Common",
+        "name_size": 10,
+        "designator_font": "GOST Common",
+        "designator_size": 10
+      },
+      {
+        "designator": "1",
+        "name": "GND",
+        "unique_id": "MGWXVSKK",
+        "part": 1,
+        "display_mode": 0,
+        "x_coord": 13779528,
+        "y_coord": -9448819,
+        "orientation": 0,
+        "electrical": 7,
+        "length_coord": 1968504,
+        "name_font_mode": 1,
+        "designator_font_mode": 1,
+        "name_font": "GOST Common",
+        "name_size": 10,
+        "designator_font": "GOST Common",
+        "designator_size": 10
+      }
+    ],
+    "pin_count": 8,
+    "graphics": [
+      {
+        "kind": "rectangle",
+        "part": 1,
+        "color": 0,
+        "x": 0,
+        "y": -11811024,
+        "cx": 13779528,
+        "cy": 0
+      },
+      {
+        "kind": "line",
+        "part": 1,
+        "color": 0,
+        "x": 4724409,
+        "y": 0,
+        "cx": 4724409,
+        "cy": -11811024
+      },
+      {
+        "kind": "line",
+        "part": 1,
+        "color": 0,
+        "x": 9055118,
+        "y": 0,
+        "cx": 9055118,
+        "cy": -11811024
+      },
+      {
+        "kind": "label",
+        "part": 1,
+        "color": 0,
+        "text": "DC/DC",
+        "x": 6889764,
+        "y": -1181102,
+        "font": "GOST Common",
+        "size": 10
+      }
+    ],
+    "pin_colors": [
+      {
+        "designator": "3",
+        "color": 0
+      },
+      {
+        "designator": "7",
+        "color": 0
+      },
+      {
+        "designator": "5",
+        "color": 0
+      },
+      {
+        "designator": "6",
+        "color": 0
+      },
+      {
+        "designator": "8",
+        "color": 0
+      },
+      {
+        "designator": "2",
+        "color": 0
+      },
+      {
+        "designator": "4",
+        "color": 0
+      },
+      {
+        "designator": "1",
+        "color": 0
+      }
+    ],
+    "designator_color": 0,
+    "comment_color": 0,
+    "models": [
+      {
+        "name": "SOT65P280X110-8N",
+        "type": "PCBLIB",
+        "map": "(3:3),(7:7),(5:5),(6:6),(8:8),(2:2),(4:4),(1:1)",
+        "links": [
+          {
+            "location": "..\\..\\..\\..\\..\\ARTIX\\ARTIX\\libraries\\TPS563210A\\TPS563210A.PcbLib",
+            "entity": "SOT65P280X110-8N"
+          }
+        ]
+      }
+    ],
+    "snap_grid_coord": 393701,
+    "visible_grid_coord": 196850
+  }
+}

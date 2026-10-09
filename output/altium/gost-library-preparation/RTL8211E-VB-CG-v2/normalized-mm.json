@@ -1,0 +1,979 @@
+{
+  "component": "RTL8211E-VB-CG",
+  "mode": "redraw",
+  "electrical_policy": "power",
+  "pin_length_mm": 5.0,
+  "font_name": "GOST Common",
+  "font_size_pt": 10,
+  "parts": [
+    {
+      "id": 1,
+      "function": "POWER",
+      "width_mm": 58.0,
+      "height_mm": 54.0,
+      "dividers_mm": [
+        20.0,
+        38.0
+      ],
+      "label_mm": [
+        29.0,
+        -3.0
+      ],
+      "pins": [
+        {
+          "designator": "3",
+          "name": "AVDD10_1",
+          "part": 1,
+          "x_mm": 0,
+          "y_mm": -6.0,
+          "orientation": 2,
+          "electrical": 7
+        },
+        {
+          "designator": "9",
+          "name": "AVDD10_2",
+          "part": 1,
+          "x_mm": 0,
+          "y_mm": -12.0,
+          "orientation": 2,
+          "electrical": 7
+        },
+        {
+          "designator": "40",
+          "name": "AVDD10_3",
+          "part": 1,
+          "x_mm": 0,
+          "y_mm": -18.0,
+          "orientation": 2,
+          "electrical": 7
+        },
+        {
+          "designator": "6",
+          "name": "AVDD33_1",
+          "part": 1,
+          "x_mm": 0,
+          "y_mm": -24.0,
+          "orientation": 2,
+          "electrical": 7
+        },
+        {
+          "designator": "41",
+          "name": "AVDD33_2",
+          "part": 1,
+          "x_mm": 0,
+          "y_mm": -30.0,
+          "orientation": 2,
+          "electrical": 7
+        },
+        {
+          "designator": "15",
+          "name": "DVDD33_1",
+          "part": 1,
+          "x_mm": 0,
+          "y_mm": -36.0,
+          "orientation": 2,
+          "electrical": 7
+        },
+        {
+          "designator": "21",
+          "name": "DVDD33_2",
+          "part": 1,
+          "x_mm": 0,
+          "y_mm": -42.0,
+          "orientation": 2,
+          "electrical": 7
+        },
+        {
+          "designator": "37",
+          "name": "DVDD33_3",
+          "part": 1,
+          "x_mm": 0,
+          "y_mm": -48.0,
+          "orientation": 2,
+          "electrical": 7
+        },
+        {
+          "designator": "28",
+          "name": "DVDD10_1",
+          "part": 1,
+          "x_mm": 58.0,
+          "y_mm": -6.0,
+          "orientation": 0,
+          "electrical": 7
+        },
+        {
+          "designator": "36",
+          "name": "DVDD10_2",
+          "part": 1,
+          "x_mm": 58.0,
+          "y_mm": -12.0,
+          "orientation": 0,
+          "electrical": 7
+        },
+        {
+          "designator": "44",
+          "name": "VDDREG_1",
+          "part": 1,
+          "x_mm": 58.0,
+          "y_mm": -18.0,
+          "orientation": 0,
+          "electrical": 7
+        },
+        {
+          "designator": "45",
+          "name": "VDDREG_2",
+          "part": 1,
+          "x_mm": 58.0,
+          "y_mm": -24.0,
+          "orientation": 0,
+          "electrical": 7
+        },
+        {
+          "designator": "48",
+          "name": "REG_OUT",
+          "part": 1,
+          "x_mm": 58.0,
+          "y_mm": -30.0,
+          "orientation": 0,
+          "electrical": 7
+        },
+        {
+          "designator": "47",
+          "name": "GND",
+          "part": 1,
+          "x_mm": 58.0,
+          "y_mm": -36.0,
+          "orientation": 0,
+          "electrical": 7
+        },
+        {
+          "designator": "49",
+          "name": "EP",
+          "part": 1,
+          "x_mm": 58.0,
+          "y_mm": -42.0,
+          "orientation": 0,
+          "electrical": 7
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "function": "RGMII",
+      "width_mm": 74.0,
+      "height_mm": 42.0,
+      "dividers_mm": [
+        24.0,
+        42.0
+      ],
+      "label_mm": [
+        33.0,
+        -3.0
+      ],
+      "pins": [
+        {
+          "designator": "22",
+          "name": "TXC",
+          "part": 2,
+          "x_mm": 0,
+          "y_mm": -6.0,
+          "orientation": 2,
+          "electrical": 7
+        },
+        {
+          "designator": "23",
+          "name": "TXD0",
+          "part": 2,
+          "x_mm": 0,
+          "y_mm": -12.0,
+          "orientation": 2,
+          "electrical": 7
+        },
+        {
+          "designator": "24",
+          "name": "TXD1",
+          "part": 2,
+          "x_mm": 0,
+          "y_mm": -18.0,
+          "orientation": 2,
+          "electrical": 7
+        },
+        {
+          "designator": "25",
+          "name": "TXD2",
+          "part": 2,
+          "x_mm": 0,
+          "y_mm": -24.0,
+          "orientation": 2,
+          "electrical": 7
+        },
+        {
+          "designator": "26",
+          "name": "TXD3",
+          "part": 2,
+          "x_mm": 0,
+          "y_mm": -30.0,
+          "orientation": 2,
+          "electrical": 7
+        },
+        {
+          "designator": "27",
+          "name": "TXCTL",
+          "part": 2,
+          "x_mm": 0,
+          "y_mm": -36.0,
+          "orientation": 2,
+          "electrical": 7
+        },
+        {
+          "designator": "19",
+          "name": "RXC",
+          "part": 2,
+          "x_mm": 74.0,
+          "y_mm": -6.0,
+          "orientation": 0,
+          "electrical": 7
+        },
+        {
+          "designator": "13",
+          "name": "RXCTL/PHY_AD",
+          "part": 2,
+          "x_mm": 74.0,
+          "y_mm": -12.0,
+          "orientation": 0,
+          "electrical": 7
+        },
+        {
+          "designator": "14",
+          "name": "RXD0/SELRGV",
+          "part": 2,
+          "x_mm": 74.0,
+          "y_mm": -18.0,
+          "orientation": 0,
+          "electrical": 7
+        },
+        {
+          "designator": "16",
+          "name": "RXD1/TXDLY",
+          "part": 2,
+          "x_mm": 74.0,
+          "y_mm": -24.0,
+          "orientation": 0,
+          "electrical": 7
+        },
+        {
+          "designator": "17",
+          "name": "RXD2/AN0",
+          "part": 2,
+          "x_mm": 74.0,
+          "y_mm": -30.0,
+          "orientation": 0,
+          "electrical": 7
+        },
+        {
+          "designator": "18",
+          "name": "RXD3/AN1",
+          "part": 2,
+          "x_mm": 74.0,
+          "y_mm": -36.0,
+          "orientation": 0,
+          "electrical": 7
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "function": "MDIO / CTRL",
+      "width_mm": 80.0,
+      "height_mm": 42.0,
+      "dividers_mm": [
+        24.0,
+        48.0
+      ],
+      "label_mm": [
+        36.0,
+        -3.0
+      ],
+      "pins": [
+        {
+          "designator": "30",
+          "name": "MDC",
+          "part": 3,
+          "x_mm": 0,
+          "y_mm": -6.0,
+          "orientation": 2,
+          "electrical": 7
+        },
+        {
+          "designator": "31",
+          "name": "MDIO",
+          "part": 3,
+          "x_mm": 0,
+          "y_mm": -12.0,
+          "orientation": 2,
+          "electrical": 7
+        },
+        {
+          "designator": "29",
+          "name": "PHYRSTB",
+          "part": 3,
+          "x_mm": 0,
+          "y_mm": -18.0,
+          "orientation": 2,
+          "electrical": 7
+        },
+        {
+          "designator": "38",
+          "name": "ENSWREG",
+          "part": 3,
+          "x_mm": 0,
+          "y_mm": -24.0,
+          "orientation": 2,
+          "electrical": 7
+        },
+        {
+          "designator": "20",
+          "name": "INTB",
+          "part": 3,
+          "x_mm": 80.0,
+          "y_mm": -6.0,
+          "orientation": 0,
+          "electrical": 7
+        },
+        {
+          "designator": "33",
+          "name": "PMEB",
+          "part": 3,
+          "x_mm": 80.0,
+          "y_mm": -12.0,
+          "orientation": 0,
+          "electrical": 7
+        },
+        {
+          "designator": "34",
+          "name": "LED0/PHY_AD0",
+          "part": 3,
+          "x_mm": 80.0,
+          "y_mm": -18.0,
+          "orientation": 0,
+          "electrical": 7
+        },
+        {
+          "designator": "35",
+          "name": "LED1/PHY_AD1",
+          "part": 3,
+          "x_mm": 80.0,
+          "y_mm": -24.0,
+          "orientation": 0,
+          "electrical": 7
+        },
+        {
+          "designator": "32",
+          "name": "LED2/RXDLY",
+          "part": 3,
+          "x_mm": 80.0,
+          "y_mm": -30.0,
+          "orientation": 0,
+          "electrical": 7
+        },
+        {
+          "designator": "12",
+          "name": "NC",
+          "part": 3,
+          "x_mm": 80.0,
+          "y_mm": -36.0,
+          "orientation": 0,
+          "electrical": 7
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "function": "XTAL",
+      "width_mm": 54.0,
+      "height_mm": 18.0,
+      "dividers_mm": [
+        18.0,
+        36.0
+      ],
+      "label_mm": [
+        27.0,
+        -3.0
+      ],
+      "pins": [
+        {
+          "designator": "42",
+          "name": "CKXTAL1",
+          "part": 4,
+          "x_mm": 0,
+          "y_mm": -6.0,
+          "orientation": 2,
+          "electrical": 7
+        },
+        {
+          "designator": "39",
+          "name": "RSET",
+          "part": 4,
+          "x_mm": 0,
+          "y_mm": -12.0,
+          "orientation": 2,
+          "electrical": 7
+        },
+        {
+          "designator": "43",
+          "name": "CKXTAL2",
+          "part": 4,
+          "x_mm": 54.0,
+          "y_mm": -6.0,
+          "orientation": 0,
+          "electrical": 7
+        },
+        {
+          "designator": "46",
+          "name": "CLK125",
+          "part": 4,
+          "x_mm": 54.0,
+          "y_mm": -12.0,
+          "orientation": 0,
+          "electrical": 7
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "function": "MDI",
+      "width_mm": 54.0,
+      "height_mm": 30.0,
+      "dividers_mm": [
+        18.0,
+        36.0
+      ],
+      "label_mm": [
+        27.0,
+        -3.0
+      ],
+      "pins": [
+        {
+          "designator": "1",
+          "name": "MDI[0]+",
+          "part": 5,
+          "x_mm": 0,
+          "y_mm": -6.0,
+          "orientation": 2,
+          "electrical": 7
+        },
+        {
+          "designator": "4",
+          "name": "MDI[1]+",
+          "part": 5,
+          "x_mm": 0,
+          "y_mm": -12.0,
+          "orientation": 2,
+          "electrical": 7
+        },
+        {
+          "designator": "7",
+          "name": "MDI[2]+",
+          "part": 5,
+          "x_mm": 0,
+          "y_mm": -18.0,
+          "orientation": 2,
+          "electrical": 7
+        },
+        {
+          "designator": "10",
+          "name": "MDI[3]+",
+          "part": 5,
+          "x_mm": 0,
+          "y_mm": -24.0,
+          "orientation": 2,
+          "electrical": 7
+        },
+        {
+          "designator": "2",
+          "name": "MDI[0]-",
+          "part": 5,
+          "x_mm": 54.0,
+          "y_mm": -6.0,
+          "orientation": 0,
+          "electrical": 7
+        },
+        {
+          "designator": "5",
+          "name": "MDI[1]-",
+          "part": 5,
+          "x_mm": 54.0,
+          "y_mm": -12.0,
+          "orientation": 0,
+          "electrical": 7
+        },
+        {
+          "designator": "8",
+          "name": "MDI[2]-",
+          "part": 5,
+          "x_mm": 54.0,
+          "y_mm": -18.0,
+          "orientation": 0,
+          "electrical": 7
+        },
+        {
+          "designator": "11",
+          "name": "MDI[3]-",
+          "part": 5,
+          "x_mm": 54.0,
+          "y_mm": -24.0,
+          "orientation": 0,
+          "electrical": 7
+        }
+      ]
+    }
+  ],
+  "pins": [
+    {
+      "designator": "3",
+      "name": "AVDD10_1",
+      "part": 1,
+      "x_mm": 0,
+      "y_mm": -6.0,
+      "orientation": 2,
+      "electrical": 7
+    },
+    {
+      "designator": "9",
+      "name": "AVDD10_2",
+      "part": 1,
+      "x_mm": 0,
+      "y_mm": -12.0,
+      "orientation": 2,
+      "electrical": 7
+    },
+    {
+      "designator": "40",
+      "name": "AVDD10_3",
+      "part": 1,
+      "x_mm": 0,
+      "y_mm": -18.0,
+      "orientation": 2,
+      "electrical": 7
+    },
+    {
+      "designator": "6",
+      "name": "AVDD33_1",
+      "part": 1,
+      "x_mm": 0,
+      "y_mm": -24.0,
+      "orientation": 2,
+      "electrical": 7
+    },
+    {
+      "designator": "41",
+      "name": "AVDD33_2",
+      "part": 1,
+      "x_mm": 0,
+      "y_mm": -30.0,
+      "orientation": 2,
+      "electrical": 7
+    },
+    {
+      "designator": "15",
+      "name": "DVDD33_1",
+      "part": 1,
+      "x_mm": 0,
+      "y_mm": -36.0,
+      "orientation": 2,
+      "electrical": 7
+    },
+    {
+      "designator": "21",
+      "name": "DVDD33_2",
+      "part": 1,
+      "x_mm": 0,
+      "y_mm": -42.0,
+      "orientation": 2,
+      "electrical": 7
+    },
+    {
+      "designator": "37",
+      "name": "DVDD33_3",
+      "part": 1,
+      "x_mm": 0,
+      "y_mm": -48.0,
+      "orientation": 2,
+      "electrical": 7
+    },
+    {
+      "designator": "28",
+      "name": "DVDD10_1",
+      "part": 1,
+      "x_mm": 58.0,
+      "y_mm": -6.0,
+      "orientation": 0,
+      "electrical": 7
+    },
+    {
+      "designator": "36",
+      "name": "DVDD10_2",
+      "part": 1,
+      "x_mm": 58.0,
+      "y_mm": -12.0,
+      "orientation": 0,
+      "electrical": 7
+    },
+    {
+      "designator": "44",
+      "name": "VDDREG_1",
+      "part": 1,
+      "x_mm": 58.0,
+      "y_mm": -18.0,
+      "orientation": 0,
+      "electrical": 7
+    },
+    {
+      "designator": "45",
+      "name": "VDDREG_2",
+      "part": 1,
+      "x_mm": 58.0,
+      "y_mm": -24.0,
+      "orientation": 0,
+      "electrical": 7
+    },
+    {
+      "designator": "48",
+      "name": "REG_OUT",
+      "part": 1,
+      "x_mm": 58.0,
+      "y_mm": -30.0,
+      "orientation": 0,
+      "electrical": 7
+    },
+    {
+      "designator": "47",
+      "name": "GND",
+      "part": 1,
+      "x_mm": 58.0,
+      "y_mm": -36.0,
+      "orientation": 0,
+      "electrical": 7
+    },
+    {
+      "designator": "49",
+      "name": "EP",
+      "part": 1,
+      "x_mm": 58.0,
+      "y_mm": -42.0,
+      "orientation": 0,
+      "electrical": 7
+    },
+    {
+      "designator": "22",
+      "name": "TXC",
+      "part": 2,
+      "x_mm": 0,
+      "y_mm": -6.0,
+      "orientation": 2,
+      "electrical": 7
+    },
+    {
+      "designator": "23",
+      "name": "TXD0",
+      "part": 2,
+      "x_mm": 0,
+      "y_mm": -12.0,
+      "orientation": 2,
+      "electrical": 7
+    },
+    {
+      "designator": "24",
+      "name": "TXD1",
+      "part": 2,
+      "x_mm": 0,
+      "y_mm": -18.0,
+      "orientation": 2,
+      "electrical": 7
+    },
+    {
+      "designator": "25",
+      "name": "TXD2",
+      "part": 2,
+      "x_mm": 0,
+      "y_mm": -24.0,
+      "orientation": 2,
+      "electrical": 7
+    },
+    {
+      "designator": "26",
+      "name": "TXD3",
+      "part": 2,
+      "x_mm": 0,
+      "y_mm": -30.0,
+      "orientation": 2,
+      "electrical": 7
+    },
+    {
+      "designator": "27",
+      "name": "TXCTL",
+      "part": 2,
+      "x_mm": 0,
+      "y_mm": -36.0,
+      "orientation": 2,
+      "electrical": 7
+    },
+    {
+      "designator": "19",
+      "name": "RXC",
+      "part": 2,
+      "x_mm": 74.0,
+      "y_mm": -6.0,
+      "orientation": 0,
+      "electrical": 7
+    },
+    {
+      "designator": "13",
+      "name": "RXCTL/PHY_AD",
+      "part": 2,
+      "x_mm": 74.0,
+      "y_mm": -12.0,
+      "orientation": 0,
+      "electrical": 7
+    },
+    {
+      "designator": "14",
+      "name": "RXD0/SELRGV",
+      "part": 2,
+      "x_mm": 74.0,
+      "y_mm": -18.0,
+      "orientation": 0,
+      "electrical": 7
+    },
+    {
+      "designator": "16",
+      "name": "RXD1/TXDLY",
+      "part": 2,
+      "x_mm": 74.0,
+      "y_mm": -24.0,
+      "orientation": 0,
+      "electrical": 7
+    },
+    {
+      "designator": "17",
+      "name": "RXD2/AN0",
+      "part": 2,
+      "x_mm": 74.0,
+      "y_mm": -30.0,
+      "orientation": 0,
+      "electrical": 7
+    },
+    {
+      "designator": "18",
+      "name": "RXD3/AN1",
+      "part": 2,
+      "x_mm": 74.0,
+      "y_mm": -36.0,
+      "orientation": 0,
+      "electrical": 7
+    },
+    {
+      "designator": "30",
+      "name": "MDC",
+      "part": 3,
+      "x_mm": 0,
+      "y_mm": -6.0,
+      "orientation": 2,
+      "electrical": 7
+    },
+    {
+      "designator": "31",
+      "name": "MDIO",
+      "part": 3,
+      "x_mm": 0,
+      "y_mm": -12.0,
+      "orientation": 2,
+      "electrical": 7
+    },
+    {
+      "designator": "29",
+      "name": "PHYRSTB",
+      "part": 3,
+      "x_mm": 0,
+      "y_mm": -18.0,
+      "orientation": 2,
+      "electrical": 7
+    },
+    {
+      "designator": "38",
+      "name": "ENSWREG",
+      "part": 3,
+      "x_mm": 0,
+      "y_mm": -24.0,
+      "orientation": 2,
+      "electrical": 7
+    },
+    {
+      "designator": "20",
+      "name": "INTB",
+      "part": 3,
+      "x_mm": 80.0,
+      "y_mm": -6.0,
+      "orientation": 0,
+      "electrical": 7
+    },
+    {
+      "designator": "33",
+      "name": "PMEB",
+      "part": 3,
+      "x_mm": 80.0,
+      "y_mm": -12.0,
+      "orientation": 0,
+      "electrical": 7
+    },
+    {
+      "designator": "34",
+      "name": "LED0/PHY_AD0",
+      "part": 3,
+      "x_mm": 80.0,
+      "y_mm": -18.0,
+      "orientation": 0,
+      "electrical": 7
+    },
+    {
+      "designator": "35",
+      "name": "LED1/PHY_AD1",
+      "part": 3,
+      "x_mm": 80.0,
+      "y_mm": -24.0,
+      "orientation": 0,
+      "electrical": 7
+    },
+    {
+      "designator": "32",
+      "name": "LED2/RXDLY",
+      "part": 3,
+      "x_mm": 80.0,
+      "y_mm": -30.0,
+      "orientation": 0,
+      "electrical": 7
+    },
+    {
+      "designator": "12",
+      "name": "NC",
+      "part": 3,
+      "x_mm": 80.0,
+      "y_mm": -36.0,
+      "orientation": 0,
+      "electrical": 7
+    },
+    {
+      "designator": "42",
+      "name": "CKXTAL1",
+      "part": 4,
+      "x_mm": 0,
+      "y_mm": -6.0,
+      "orientation": 2,
+      "electrical": 7
+    },
+    {
+      "designator": "39",
+      "name": "RSET",
+      "part": 4,
+      "x_mm": 0,
+      "y_mm": -12.0,
+      "orientation": 2,
+      "electrical": 7
+    },
+    {
+      "designator": "43",
+      "name": "CKXTAL2",
+      "part": 4,
+      "x_mm": 54.0,
+      "y_mm": -6.0,
+      "orientation": 0,
+      "electrical": 7
+    },
+    {
+      "designator": "46",
+      "name": "CLK125",
+      "part": 4,
+      "x_mm": 54.0,
+      "y_mm": -12.0,
+      "orientation": 0,
+      "electrical": 7
+    },
+    {
+      "designator": "1",
+      "name": "MDI[0]+",
+      "part": 5,
+      "x_mm": 0,
+      "y_mm": -6.0,
+      "orientation": 2,
+      "electrical": 7
+    },
+    {
+      "designator": "4",
+      "name": "MDI[1]+",
+      "part": 5,
+      "x_mm": 0,
+      "y_mm": -12.0,
+      "orientation": 2,
+      "electrical": 7
+    },
+    {
+      "designator": "7",
+      "name": "MDI[2]+",
+      "part": 5,
+      "x_mm": 0,
+      "y_mm": -18.0,
+      "orientation": 2,
+      "electrical": 7
+    },
+    {
+      "designator": "10",
+      "name": "MDI[3]+",
+      "part": 5,
+      "x_mm": 0,
+      "y_mm": -24.0,
+      "orientation": 2,
+      "electrical": 7
+    },
+    {
+      "designator": "2",
+      "name": "MDI[0]-",
+      "part": 5,
+      "x_mm": 54.0,
+      "y_mm": -6.0,
+      "orientation": 0,
+      "electrical": 7
+    },
+    {
+      "designator": "5",
+      "name": "MDI[1]-",
+      "part": 5,
+      "x_mm": 54.0,
+      "y_mm": -12.0,
+      "orientation": 0,
+      "electrical": 7
+    },
+    {
+      "designator": "8",
+      "name": "MDI[2]-",
+      "part": 5,
+      "x_mm": 54.0,
+      "y_mm": -18.0,
+      "orientation": 0,
+      "electrical": 7
+    },
+    {
+      "designator": "11",
+      "name": "MDI[3]-",
+      "part": 5,
+      "x_mm": 54.0,
+      "y_mm": -24.0,
+      "orientation": 0,
+      "electrical": 7
+    }
+  ],
+  "designator": "DA?",
+  "comment": "RTL8211E-VB-CG",
+  "description": "RTL8211E-VB-CG",
+  "parameters": {},
+  "source": "Existing exact native library; manufacturer datasheet crosscheck stored in report"
+}

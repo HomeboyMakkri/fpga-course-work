@@ -1,0 +1,216 @@
+{
+  "checked_date": "2026-10-08",
+  "files": [
+    {
+      "path": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\output\\altium\\component-preparation\\evidence\\manufacturer\\a7all.zip",
+      "file": "a7all.zip",
+      "bytes": 227242,
+      "sha256": "576e04c5eea02d4d139a475338cfa4be600e7c4e5a983ba792d799849880d53b",
+      "source_url": "https://download.amd.com/adaptive-socs-and-fpgas/developer/adaptive-socs-and-fpgas/package-pinout-files/a7packages/a7all.zip",
+      "kind": "original_download"
+    },
+    {
+      "path": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\output\\altium\\component-preparation\\evidence\\manufacturer\\AMD-artix7-pinout-page.html",
+      "file": "AMD-artix7-pinout-page.html",
+      "bytes": 154950,
+      "sha256": "23a9027d831815e823ed57639ca07cfe6681f28bb8a2dded9cb7006a11f5681c",
+      "source_url": "https://www.amd.com/en/developer/resources/adaptive-socs-and-fpgas/package-pinout-files/artix-7-package-device-pinout-files.html",
+      "kind": "original_download"
+    },
+    {
+      "path": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\output\\altium\\component-preparation\\evidence\\manufacturer\\DS181-v1.27.1.pdf",
+      "file": "DS181-v1.27.1.pdf",
+      "bytes": 2010373,
+      "sha256": "3f0cb482d645e217ae834e9370c1320300abb85a8046287250f9a48856aed070",
+      "source_url": "https://docs.amd.com/api/khub/documents/iAkxxTOk96ANLJqYf2hgrQ/content",
+      "kind": "original_download"
+    },
+    {
+      "path": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\output\\altium\\component-preparation\\evidence\\manufacturer\\DS181-v1.27.1.pdf.txt",
+      "file": "DS181-v1.27.1.pdf.txt",
+      "bytes": 17385,
+      "sha256": "68eb306178e9220a38d8cbfb71849f06ddd4baf32df80c572a763868814b9ff0",
+      "source_url": null,
+      "kind": "extracted_or_rendered_evidence"
+    },
+    {
+      "path": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\output\\altium\\component-preparation\\evidence\\manufacturer\\SPX3819-page.html",
+      "file": "SPX3819-page.html",
+      "bytes": 538710,
+      "sha256": "0ce1200ca0a0e4ae06d6d544fe9eaa7cd38561a2701a99f2b013791e143b0307",
+      "source_url": "https://www.maxlinear.com/product/power-management/power-conversion/ldos-and-regulators/linear-regulators-ldos/spx3819",
+      "kind": "original_download"
+    },
+    {
+      "path": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\output\\altium\\component-preparation\\evidence\\manufacturer\\SPX3819M5-L-3-3_TR.bxl",
+      "file": "SPX3819M5-L-3-3_TR.bxl",
+      "bytes": 83675,
+      "sha256": "e0570d119a56d9144baa48dbf8e8409407c18f74c19bf7417fbd0a94af36dc94",
+      "source_url": "https://www.maxlinear.com/Document/index?id=22911&languageid=1033&type=Symbols%20%26%20Footprints&partnumber=SPX3819",
+      "kind": "original_download"
+    },
+    {
+      "path": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\output\\altium\\component-preparation\\evidence\\manufacturer\\TPS563210A-page.html",
+      "file": "TPS563210A-page.html",
+      "bytes": 293469,
+      "sha256": "db96d17d07a34bcc28e6627b8889c4efd9865a78ba6df80b128b673c479b911d",
+      "source_url": "https://www.ti.com/product/TPS563210A",
+      "kind": "original_download"
+    },
+    {
+      "path": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\output\\altium\\component-preparation\\evidence\\manufacturer\\TPS563210A-ultralibrarian.html",
+      "file": "TPS563210A-ultralibrarian.html",
+      "bytes": 57923,
+      "sha256": "7a06c718e33584c6303aca02bd40a32577d0cb5b843800f93eb6c669a387a668",
+      "source_url": "https://vendor.ultralibrarian.com/TI/embedded/?gpn=TPS563210A&package=DDF&pin=8",
+      "kind": "original_download"
+    },
+    {
+      "path": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\output\\altium\\component-preparation\\evidence\\manufacturer\\UG470-v1.17.pdf",
+      "file": "UG470-v1.17.pdf",
+      "bytes": 3921767,
+      "sha256": "52aa1f1943cdf631b5ff3d859a8d5905dc9fd198522e0e9d63cf3f87271d615c",
+      "source_url": "https://docs.amd.com/api/khub/documents/FOs3lXmlcWxBhTIFxVKyGA/content",
+      "kind": "original_download"
+    },
+    {
+      "path": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\output\\altium\\component-preparation\\evidence\\manufacturer\\UG470-v1.17.pdf.txt",
+      "file": "UG470-v1.17.pdf.txt",
+      "bytes": 39410,
+      "sha256": "1ded7196debf6b36d84eb73e1674c6aeaab1b7e2b4877df831fb6114cfa9e612",
+      "source_url": null,
+      "kind": "extracted_or_rendered_evidence"
+    },
+    {
+      "path": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\output\\altium\\component-preparation\\evidence\\manufacturer\\UG475-v1.8-FGG484-page230.png",
+      "file": "UG475-v1.8-FGG484-page230.png",
+      "bytes": 294970,
+      "sha256": "60b4d8a80cec698342ce5302f047838d46873e09b71ac298a8ba4da9137a95f5",
+      "source_url": null,
+      "kind": "extracted_or_rendered_evidence"
+    },
+    {
+      "path": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\output\\altium\\component-preparation\\evidence\\manufacturer\\UG483-page16.png",
+      "file": "UG483-page16.png",
+      "bytes": 242870,
+      "sha256": "6344c04aa63d3397efa598b56ff91c1c5dd01585d921e8d5bf356ad6d23f3afc",
+      "source_url": null,
+      "kind": "extracted_or_rendered_evidence"
+    },
+    {
+      "path": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\output\\altium\\component-preparation\\evidence\\manufacturer\\UG483-v1.14.pdf",
+      "file": "UG483-v1.14.pdf",
+      "bytes": 3618466,
+      "sha256": "682d1477fe9eef88027cae34a574ecaca82bb1d871e8d7ce9c8ba24797e97690",
+      "source_url": "https://docs.amd.com/api/khub/documents/6L8DUUei7ZCE78qwQafC3A/content",
+      "kind": "original_download"
+    },
+    {
+      "path": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\output\\altium\\component-preparation\\evidence\\manufacturer\\UG483-v1.14.pdf.txt",
+      "file": "UG483-v1.14.pdf.txt",
+      "bytes": 10361,
+      "sha256": "947030137bc22c2f4def906436e6355158f73f61a37b7ebd71dc4ad40b0cd06e",
+      "source_url": null,
+      "kind": "extracted_or_rendered_evidence"
+    },
+    {
+      "path": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\output\\altium\\component-preparation\\evidence\\manufacturer\\W25Q128JV-RevM-12242024.pdf",
+      "file": "W25Q128JV-RevM-12242024.pdf",
+      "bytes": 2612919,
+      "sha256": "b51bb4303e17a17750c9cbcafc9a776dea842a8971d7cdd5edc70ff738efb1fe",
+      "source_url": "https://www.winbond.com/resource-files/W25Q128JV%20RevM%2012242024%20Plus.pdf",
+      "kind": "original_download"
+    },
+    {
+      "path": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\output\\altium\\component-preparation\\evidence\\manufacturer\\W25Q128JV-RevM-12242024.txt",
+      "file": "W25Q128JV-RevM-12242024.txt",
+      "bytes": 142314,
+      "sha256": "d512dcc7fccbf740a4fe13e489616e2a375859e52f634f1d90ff1af4469d41a4",
+      "source_url": null,
+      "kind": "extracted_or_rendered_evidence"
+    },
+    {
+      "path": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\output\\altium\\component-preparation\\evidence\\manufacturer\\W25Q128JV-revM-page6.png",
+      "file": "W25Q128JV-revM-page6.png",
+      "bytes": 232051,
+      "sha256": "c4bf2c5a17c91dfc1f8baf26cc9d27a19746802e62da3795f6ba56769c07af58",
+      "source_url": null,
+      "kind": "extracted_or_rendered_evidence"
+    },
+    {
+      "path": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\output\\altium\\component-preparation\\evidence\\manufacturer\\W25Q128JV-revM-page76.png",
+      "file": "W25Q128JV-revM-page76.png",
+      "bytes": 264453,
+      "sha256": "ceb70d2e9cc2f774d4c11ec2231b76bfde5ba739f65b7471238bfe422e2bc758",
+      "source_url": null,
+      "kind": "extracted_or_rendered_evidence"
+    },
+    {
+      "path": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\output\\altium\\component-preparation\\evidence\\manufacturer\\W25Q128JV-revM-SOIC-page69.png",
+      "file": "W25Q128JV-revM-SOIC-page69.png",
+      "bytes": 178298,
+      "sha256": "b03110a5f14ab118d97f547db1108d032c566038a3b7b7e037afe2cb39789d86",
+      "source_url": null,
+      "kind": "extracted_or_rendered_evidence"
+    },
+    {
+      "path": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\output\\altium\\component-preparation\\evidence\\manufacturer\\Winbond-current-download-page.html",
+      "file": "Winbond-current-download-page.html",
+      "bytes": 2440,
+      "sha256": "a4c063d50a7e00210a1d7723f0d315c0863747a77be3a549444052053fe51bde",
+      "source_url": "https://www.winbond.com/hq/support/documentation/downloadV2022.jsp?__locale=en&level=1&xmlPath=/support/resources/.content/item/DA00-W25Q128JV.html",
+      "kind": "original_download"
+    },
+    {
+      "path": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\output\\altium\\component-preparation\\evidence\\manufacturer\\Winbond-current-levelOne.html",
+      "file": "Winbond-current-levelOne.html",
+      "bytes": 41231,
+      "sha256": "67386b476168acd22d47a68d4d56d003392c67719fa9bba3016e5f99a0527dd2",
+      "source_url": "https://www.winbond.com/hq/support/documentation/levelOne.jsp?__locale=en&DocNo=DA00-W25Q128JV",
+      "kind": "original_download"
+    },
+    {
+      "path": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\output\\altium\\component-preparation\\evidence\\manufacturer\\xc7a50tfgg484pkg.csv",
+      "file": "xc7a50tfgg484pkg.csv",
+      "bytes": 16234,
+      "sha256": "cecbf7cf3c1b8c8b14373213a3680231fc267104c73d4cecaa881b4fd1dc6cd9",
+      "source_url": null,
+      "kind": "extracted_or_rendered_evidence"
+    },
+    {
+      "path": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\output\\altium\\component-preparation\\evidence\\manufacturer\\xc7a50tfgg484pkg.txt",
+      "file": "xc7a50tfgg484pkg.txt",
+      "bytes": 53361,
+      "sha256": "8997f257991ead42c027a2f2db5243ab0f9f76fbb766a4828dd1b08d75141841",
+      "source_url": null,
+      "kind": "extracted_or_rendered_evidence"
+    },
+    {
+      "path": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\datasheets\\Datasheets\\FPGA\\ug475_7Series_Pkg_Pinout.pdf",
+      "bytes": 28630849,
+      "sha256": "b9c5f0222ba29e717d6df5f98f89ea89fc8f78df41eda534c95a3cf315372386",
+      "kind": "preexisting_local_manufacturer_document"
+    },
+    {
+      "path": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\datasheets\\Datasheets\\POWER\\TPS563210A.pdf",
+      "bytes": 1261063,
+      "sha256": "93ccf335d18255b91ab4e2f942dd7d8343466a523316d460c539994371cd680e",
+      "kind": "preexisting_local_manufacturer_document"
+    },
+    {
+      "path": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\datasheets\\Datasheets\\POWER\\SPX3819M5-L-3-3.pdf",
+      "bytes": 4820377,
+      "sha256": "f2808357a4016e81da70c9a8ce78a15a285ad41ad7637933513658eeb047ba4b",
+      "kind": "preexisting_local_manufacturer_document"
+    },
+    {
+      "path": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\ASV-50MHz\\ASV-datasheet.pdf",
+      "bytes": 3604358,
+      "sha256": "1e9c5f54ef800f33c4d11970d5f281a4f4d0c36f8fc59bcbf636a5e6dc3d2b8e",
+      "kind": "preexisting_local_manufacturer_document"
+    }
+  ],
+  "native_altium_downloads_completed": 0,
+  "bxl_download_completed": true,
+  "tps_export_blocker": "Visible reCAPTCHA and terms required; no export request submitted"
+}

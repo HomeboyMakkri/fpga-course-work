@@ -1,0 +1,307 @@
+{
+  "component": "RTL8211E-VB-CG",
+  "source": "Existing exact native library; manufacturer datasheet crosscheck stored in report",
+  "electrical_policy": "power",
+  "parts": [
+    {
+      "id": 1,
+      "function": "POWER",
+      "column_widths_mm": [
+        20,
+        18,
+        20
+      ],
+      "pins": [
+        {
+          "designator": "3",
+          "name": "AVDD10_1",
+          "side": "left"
+        },
+        {
+          "designator": "9",
+          "name": "AVDD10_2",
+          "side": "left"
+        },
+        {
+          "designator": "40",
+          "name": "AVDD10_3",
+          "side": "left"
+        },
+        {
+          "designator": "6",
+          "name": "AVDD33_1",
+          "side": "left"
+        },
+        {
+          "designator": "41",
+          "name": "AVDD33_2",
+          "side": "left"
+        },
+        {
+          "designator": "15",
+          "name": "DVDD33_1",
+          "side": "left"
+        },
+        {
+          "designator": "21",
+          "name": "DVDD33_2",
+          "side": "left"
+        },
+        {
+          "designator": "37",
+          "name": "DVDD33_3",
+          "side": "left"
+        },
+        {
+          "designator": "28",
+          "name": "DVDD10_1",
+          "side": "right"
+        },
+        {
+          "designator": "36",
+          "name": "DVDD10_2",
+          "side": "right"
+        },
+        {
+          "designator": "44",
+          "name": "VDDREG_1",
+          "side": "right"
+        },
+        {
+          "designator": "45",
+          "name": "VDDREG_2",
+          "side": "right"
+        },
+        {
+          "designator": "48",
+          "name": "REG_OUT",
+          "side": "right"
+        },
+        {
+          "designator": "47",
+          "name": "GND",
+          "side": "right"
+        },
+        {
+          "designator": "49",
+          "name": "EP",
+          "side": "right"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "function": "RGMII",
+      "column_widths_mm": [
+        24,
+        18,
+        32
+      ],
+      "pins": [
+        {
+          "designator": "22",
+          "name": "TXC",
+          "side": "left"
+        },
+        {
+          "designator": "23",
+          "name": "TXD0",
+          "side": "left"
+        },
+        {
+          "designator": "24",
+          "name": "TXD1",
+          "side": "left"
+        },
+        {
+          "designator": "25",
+          "name": "TXD2",
+          "side": "left"
+        },
+        {
+          "designator": "26",
+          "name": "TXD3",
+          "side": "left"
+        },
+        {
+          "designator": "27",
+          "name": "TXCTL",
+          "side": "left"
+        },
+        {
+          "designator": "19",
+          "name": "RXC",
+          "side": "right"
+        },
+        {
+          "designator": "13",
+          "name": "RXCTL/PHY_AD",
+          "side": "right"
+        },
+        {
+          "designator": "14",
+          "name": "RXD0/SELRGV",
+          "side": "right"
+        },
+        {
+          "designator": "16",
+          "name": "RXD1/TXDLY",
+          "side": "right"
+        },
+        {
+          "designator": "17",
+          "name": "RXD2/AN0",
+          "side": "right"
+        },
+        {
+          "designator": "18",
+          "name": "RXD3/AN1",
+          "side": "right"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "function": "MDIO / CTRL",
+      "column_widths_mm": [
+        24,
+        24,
+        32
+      ],
+      "pins": [
+        {
+          "designator": "30",
+          "name": "MDC",
+          "side": "left"
+        },
+        {
+          "designator": "31",
+          "name": "MDIO",
+          "side": "left"
+        },
+        {
+          "designator": "29",
+          "name": "PHYRSTB",
+          "side": "left"
+        },
+        {
+          "designator": "38",
+          "name": "ENSWREG",
+          "side": "left"
+        },
+        {
+          "designator": "20",
+          "name": "INTB",
+          "side": "right"
+        },
+        {
+          "designator": "33",
+          "name": "PMEB",
+          "side": "right"
+        },
+        {
+          "designator": "34",
+          "name": "LED0/PHY_AD0",
+          "side": "right"
+        },
+        {
+          "designator": "35",
+          "name": "LED1/PHY_AD1",
+          "side": "right"
+        },
+        {
+          "designator": "32",
+          "name": "LED2/RXDLY",
+          "side": "right"
+        },
+        {
+          "designator": "12",
+          "name": "NC",
+          "side": "right"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "function": "XTAL",
+      "column_widths_mm": [
+        18,
+        18,
+        18
+      ],
+      "pins": [
+        {
+          "designator": "42",
+          "name": "CKXTAL1",
+          "side": "left"
+        },
+        {
+          "designator": "39",
+          "name": "RSET",
+          "side": "left"
+        },
+        {
+          "designator": "43",
+          "name": "CKXTAL2",
+          "side": "right"
+        },
+        {
+          "designator": "46",
+          "name": "CLK125",
+          "side": "right"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "function": "MDI",
+      "column_widths_mm": [
+        18,
+        18,
+        18
+      ],
+      "pins": [
+        {
+          "designator": "1",
+          "name": "MDI[0]+",
+          "side": "left"
+        },
+        {
+          "designator": "4",
+          "name": "MDI[1]+",
+          "side": "left"
+        },
+        {
+          "designator": "7",
+          "name": "MDI[2]+",
+          "side": "left"
+        },
+        {
+          "designator": "10",
+          "name": "MDI[3]+",
+          "side": "left"
+        },
+        {
+          "designator": "2",
+          "name": "MDI[0]-",
+          "side": "right"
+        },
+        {
+          "designator": "5",
+          "name": "MDI[1]-",
+          "side": "right"
+        },
+        {
+          "designator": "8",
+          "name": "MDI[2]-",
+          "side": "right"
+        },
+        {
+          "designator": "11",
+          "name": "MDI[3]-",
+          "side": "right"
+        }
+      ]
+    }
+  ]
+}

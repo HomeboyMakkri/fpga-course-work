@@ -1,0 +1,79 @@
+{
+  "success": true,
+  "job_dir": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\tools\\altium\\runtime\\jobs\\176d36f0f51942feb0ca9973e2b9c3ba",
+  "steps": [
+    "START",
+    "FINISHED"
+  ],
+  "elapsed_seconds": 1.05,
+  "result": {
+    "designator_color": 0,
+    "comment_color": 0,
+    "pins": [
+      {
+        "number": "3",
+        "color": 0,
+        "electrical": 7
+      },
+      {
+        "number": "7",
+        "color": 0,
+        "electrical": 7
+      },
+      {
+        "number": "5",
+        "color": 0,
+        "electrical": 7
+      },
+      {
+        "number": "6",
+        "color": 0,
+        "electrical": 7
+      },
+      {
+        "number": "8",
+        "color": 0,
+        "electrical": 7
+      },
+      {
+        "number": "2",
+        "color": 0,
+        "electrical": 7
+      },
+      {
+        "number": "4",
+        "color": 0,
+        "electrical": 7
+      },
+      {
+        "number": "1",
+        "color": 0,
+        "electrical": 7
+      }
+    ],
+    "labels": [
+      {
+        "text": "DC/DC",
+        "color": 0,
+        "x_coord": 6889764,
+        "y_coord": -1181102
+      }
+    ],
+    "lines": [
+      {
+        "color": 0,
+        "x_coord": 4724409,
+        "y_coord": 0,
+        "corner_x_coord": 4724409,
+        "corner_y_coord": -11811024
+      },
+      {
+        "color": 0,
+        "x_coord": 9055118,
+        "y_coord": 0,
+        "corner_x_coord": 9055118,
+        "corner_y_coord": -11811024
+      }
+    ]
+  }
+}

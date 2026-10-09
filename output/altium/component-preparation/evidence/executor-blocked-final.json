@@ -1,0 +1,17 @@
+{
+  "job_dir": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\tools\\altium\\runtime\\jobs\\c58f4e3aefe640ef98c37e45496bf9f1",
+  "diagnosis": {
+    "job_dir": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\tools\\altium\\runtime\\jobs\\c58f4e3aefe640ef98c37e45496bf9f1",
+    "state": "NOT_STARTED",
+    "last_step": "NOT_STARTED",
+    "steps": [],
+    "result_exists": false,
+    "editor_alive": true,
+    "automatic_replay_safe": false,
+    "files": [
+      "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\tools\\altium\\runtime\\jobs\\c58f4e3aefe640ef98c37e45496bf9f1\\CodexJob_c58f4e3aefe6.pas",
+      "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\tools\\altium\\runtime\\jobs\\c58f4e3aefe640ef98c37e45496bf9f1\\CodexJob_c58f4e3aefe6.PrjScr",
+      "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\tools\\altium\\runtime\\jobs\\c58f4e3aefe640ef98c37e45496bf9f1\\request.json"
+    ]
+  }
+}

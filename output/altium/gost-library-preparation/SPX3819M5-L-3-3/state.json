@@ -1,0 +1,287 @@
+{
+  "path": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\LDO SPX3819M5-L-3-3\\new\\SPX3819M5-L-3-3.SchLib",
+  "pcblib": null,
+  "footprint": null,
+  "layout": {
+    "component": "SPX3819M5-L-3-3",
+    "mode": "redraw",
+    "electrical_policy": "power",
+    "pin_length_mm": 5.0,
+    "font_name": "GOST Common",
+    "font_size_pt": 10,
+    "parts": [
+      {
+        "id": 1,
+        "function": "LDO 3.3V",
+        "width_mm": 48.0,
+        "height_mm": 24.0,
+        "dividers_mm": [
+          12.0,
+          32.0
+        ],
+        "label_mm": [
+          22.0,
+          -3.0
+        ],
+        "pins": [
+          {
+            "designator": "1",
+            "name": "VIN",
+            "part": 1,
+            "x_mm": 0,
+            "y_mm": -6.0,
+            "orientation": 2,
+            "electrical": 7
+          },
+          {
+            "designator": "3",
+            "name": "EN",
+            "part": 1,
+            "x_mm": 0,
+            "y_mm": -12.0,
+            "orientation": 2,
+            "electrical": 7
+          },
+          {
+            "designator": "2",
+            "name": "GND",
+            "part": 1,
+            "x_mm": 0,
+            "y_mm": -18.0,
+            "orientation": 2,
+            "electrical": 7
+          },
+          {
+            "designator": "5",
+            "name": "VOUT",
+            "part": 1,
+            "x_mm": 48.0,
+            "y_mm": -6.0,
+            "orientation": 0,
+            "electrical": 7
+          },
+          {
+            "designator": "4",
+            "name": "ADJ/BYP",
+            "part": 1,
+            "x_mm": 48.0,
+            "y_mm": -12.0,
+            "orientation": 0,
+            "electrical": 7
+          }
+        ]
+      }
+    ],
+    "pins": [
+      {
+        "designator": "1",
+        "name": "VIN",
+        "part": 1,
+        "x_mm": 0,
+        "y_mm": -6.0,
+        "orientation": 2,
+        "electrical": 7
+      },
+      {
+        "designator": "3",
+        "name": "EN",
+        "part": 1,
+        "x_mm": 0,
+        "y_mm": -12.0,
+        "orientation": 2,
+        "electrical": 7
+      },
+      {
+        "designator": "2",
+        "name": "GND",
+        "part": 1,
+        "x_mm": 0,
+        "y_mm": -18.0,
+        "orientation": 2,
+        "electrical": 7
+      },
+      {
+        "designator": "5",
+        "name": "VOUT",
+        "part": 1,
+        "x_mm": 48.0,
+        "y_mm": -6.0,
+        "orientation": 0,
+        "electrical": 7
+      },
+      {
+        "designator": "4",
+        "name": "ADJ/BYP",
+        "part": 1,
+        "x_mm": 48.0,
+        "y_mm": -12.0,
+        "orientation": 0,
+        "electrical": 7
+      }
+    ],
+    "designator": "DA?",
+    "comment": "SPX3819M5-L-3-3",
+    "description": "SPX3819M5-L-3-3",
+    "parameters": {},
+    "source": "Existing exact native library; manufacturer datasheet crosscheck stored in report"
+  },
+  "before": {
+    "component": "SPX3819M5-L-3-3",
+    "part_count": 1,
+    "current_part": 1,
+    "pins": [
+      {
+        "designator": "1",
+        "name": "VIN",
+        "unique_id": "UAJWNBCM",
+        "part": 1,
+        "display_mode": 0,
+        "x_coord": 2000000,
+        "y_coord": 0,
+        "orientation": 2,
+        "electrical": 4,
+        "length_coord": 2000000,
+        "name_font_mode": 0,
+        "designator_font_mode": 0,
+        "name_font": "Times New Roman",
+        "name_size": 10,
+        "designator_font": "Times New Roman",
+        "designator_size": 10
+      },
+      {
+        "designator": "2",
+        "name": "GND",
+        "unique_id": "QTNFRJGB",
+        "part": 1,
+        "display_mode": 0,
+        "x_coord": 2000000,
+        "y_coord": -1000000,
+        "orientation": 2,
+        "electrical": 4,
+        "length_coord": 2000000,
+        "name_font_mode": 0,
+        "designator_font_mode": 0,
+        "name_font": "Times New Roman",
+        "name_size": 10,
+        "designator_font": "Times New Roman",
+        "designator_size": 10
+      },
+      {
+        "designator": "3",
+        "name": "EN",
+        "unique_id": "YECEDNIS",
+        "part": 1,
+        "display_mode": 0,
+        "x_coord": 2000000,
+        "y_coord": -2000000,
+        "orientation": 2,
+        "electrical": 4,
+        "length_coord": 2000000,
+        "name_font_mode": 0,
+        "designator_font_mode": 0,
+        "name_font": "Times New Roman",
+        "name_size": 10,
+        "designator_font": "Times New Roman",
+        "designator_size": 10
+      },
+      {
+        "designator": "4",
+        "name": "ADJ/BYP",
+        "unique_id": "RGMGJQHA",
+        "part": 1,
+        "display_mode": 0,
+        "x_coord": 10000000,
+        "y_coord": 0,
+        "orientation": 0,
+        "electrical": 4,
+        "length_coord": 2000000,
+        "name_font_mode": 0,
+        "designator_font_mode": 0,
+        "name_font": "Times New Roman",
+        "name_size": 10,
+        "designator_font": "Times New Roman",
+        "designator_size": 10
+      },
+      {
+        "designator": "5",
+        "name": "VOUT",
+        "unique_id": "LIRTHPYX",
+        "part": 1,
+        "display_mode": 0,
+        "x_coord": 10000000,
+        "y_coord": -1000000,
+        "orientation": 0,
+        "electrical": 4,
+        "length_coord": 2000000,
+        "name_font_mode": 0,
+        "designator_font_mode": 0,
+        "name_font": "Times New Roman",
+        "name_size": 10,
+        "designator_font": "Times New Roman",
+        "designator_size": 10
+      }
+    ],
+    "pin_count": 5,
+    "graphics": [
+      {
+        "kind": "rectangle",
+        "part": 1,
+        "color": 128,
+        "x": 2000000,
+        "y": -3000000,
+        "cx": 10000000,
+        "cy": 1000000
+      }
+    ],
+    "pin_colors": [
+      {
+        "designator": "1",
+        "color": 0
+      },
+      {
+        "designator": "2",
+        "color": 0
+      },
+      {
+        "designator": "3",
+        "color": 0
+      },
+      {
+        "designator": "4",
+        "color": 0
+      },
+      {
+        "designator": "5",
+        "color": 0
+      }
+    ],
+    "designator_color": 8388608,
+    "comment_color": 8388608,
+    "models": [
+      {
+        "name": "SOT95P280X145-5N",
+        "type": "PCBLIB",
+        "map": "(1:1),(2:2),(3:3),(4:4),(5:5)",
+        "links": [
+          {
+            "location": "",
+            "entity": "SOT95P280X145-5N"
+          }
+        ]
+      }
+    ],
+    "snap_grid_coord": 1000000,
+    "visible_grid_coord": 1000000
+  },
+  "checkpoint_captured": true,
+  "pcblib_sha256": null,
+  "models_before": {
+    "SPX3819M5-L-3-3/Data:implementation_records": [
+      "{\"DatafileCount\": \"1\", \"IsCurrent\": \"T\", \"ModelDatafileEntity0\": \"SOT95P280X145-5N\", \"ModelDatafileKind0\": \"PCBLib\", \"ModelName\": \"SOT95P280X145-5N\", \"ModelType\": \"PCBLIB\", \"RECORD\": \"45\"}",
+      "{\"RECORD\": \"44\"}",
+      "{\"RECORD\": \"46\"}",
+      "{\"RECORD\": \"48\"}"
+    ]
+  },
+  "others_before": {}
+}

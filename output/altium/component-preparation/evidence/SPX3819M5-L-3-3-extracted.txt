@@ -1,0 +1,554 @@
+=== PDF PAGE 1 ===
+ 
+SPX3819 
+500mA Low-Noise LDO Voltage Regulator 
+  May 2014  Rev. 2.0. 2
+ 
+Exar Corporation  www.exar.com  
+48720 Kato Road, Fremont CA 94538, USA  Tel. +1 510  668-7000 – Fax. +1 510 668-7001 
+GENERAL DESCRIPTION 
+The SPX3819 is a positive voltage regulator 
+with a low dropout voltage and low noise 
+output. In addition, this device offers a very 
+low ground current of 800µA at 100mA output. 
+The SPX3819 has an initial tolerance of less 
+than 1% max and a logic compatible ON/OFF 
+switched input. When disabled, power 
+consumption drops to nearly zero. Other key 
+features include reverse battery protection, 
+current limit, and thermal shutdown. The 
+SPX3819 includes a reference bypass pin for 
+optimal low noise output performance. With its 
+very low output temperature coefficient, this 
+device also makes a superior low power 
+voltage reference. 
+The SPX3819 is an excellent choice for use in 
+battery-powered applications such as cordless 
+telephones, radio control systems, and 
+portable computers. It is available in several 
+fixed output voltage options or with an 
+adjustable output voltage.  
+This device is offered in 8 pin NSOIC, 8 pin 
+DFN and 5-pin SOT-23 packages. 
+APPLICATIONS 
+• Portable Consumer Equipment 
+• Portable Instrumentation 
+• Industrial Equipment 
+• SMPS Post Regulators 
+FEATURES 
+• Low Noise: 40µV Possible 
+• High Accuracy: 1% 
+• Reverse Battery Protection 
+• Low Dropout: 340mV at Full Load 
+• Low Quiescent Current: 90µA 
+• Zero Off-Mode Current 
+• Fixed & Adjustable Output Voltages: 
+− 1.2V, 1.5V, 1.8V, 2.5V, 3.0V, 3.3V & 5.0V 
+Fixed Output Voltages 
+− ≥1.235V Adjustable Output Voltages 
+• Available in RoHS Compliant, Lead Free 
+Packages:  
+− 5-pin SOT-23, 8-pin SOIC and 8-pin DFN 
+ 
+ 
+ 
+TYPICAL APPLICATION DIAGRAM 
+ 
+Fig. 1: SPX3819 Application Circuit 
+
+=== PDF PAGE 2 ===
+ 
+SPX3819 
+500mA Low-Noise LDO Voltage Regulat or 
+  
+ 
+© 2013 Exar Corporation 2/12 Rev. 2.0.2 
+ABSOLUTE MAXIMUM RATINGS 
+These are stress ratings only and functional operat ion of 
+the device at these ratings or any other above thos e 
+indicated in the operation sections of the specific ations 
+below is not implied. Exposure to absolute maximum 
+rating conditions for extended periods of time may affect 
+reliability. 
+V
+IN , EN ..................................................... -20V to +20V 
+Storage Temperature .............................. -65°C to 150°C 
+Junction Temperature .......................................... 150°C 
+Power Dissipation ................................ Internally Limited 
+Lead Temperature (Soldering, 5 sec) ..................... 260°C 
+ESD Rating (HBM - Human Body Model) .................... 2kV 
+OPERATING RATINGS 
+Input Voltage Range V IN  ................................ 2.5V to 16V 
+Enable Pin EN ............................................... 0.0V to V IN  
+Junction Temperature Range ................. -40°C to +125°C 
+Thermal Resistance 1 .....................................................  
+θJA  (SOT23-5) ...............................................191°C/W 
+θJA  (NSOIC-8) ............................................ 128.4°C/W 
+θJA  (DFN-8) ................................................... 59°C/W 
+Note 1: The maximum allowable power dissipation is a 
+function of maximum operating junction temperature,  
+TJ(max)  the junction to ambient thermal resistance, and th e 
+ambient θ JA , and the ambient temperature T A. The 
+maximum allowable power dissipation at any ambient 
+temperature is given: P 
+D(max)  = (T J(max) -TA)/θ JA , exceeding 
+the maximum allowable power limit will result in excessive 
+die temperature; thus, the regulator will go into t hermal 
+shutdown 
+ELECTRICAL SPECIFICATIONS 
+Specifications with standard type are for an Operat ing Junction Temperature of T J = 25°C only; limits applying over the full 
+Operating Junction Temperature range are denoted by  a “•”. Minimum and Maximum limits are guaranteed t hrough test, 
+design, or statistical correlation. Typical values represent the most likely parametric norm at T J = 25°C, and are provided for 
+reference purposes only. Unless otherwise indicated , V IN  = VOUT  + 1V (V IN  = V OUT  + 1.2V for 1.2V option), I L = 100µA, C L = 
+1µF, VEN  ≥ 2.5V, TA= T J = 25°C. 
+Parameter Min. Typ. Max. Units  Conditions 
+Output Voltage Tolerance -1  +1 % 
+  
+-2  +2 •  
+Output Voltage Temperature 
+Coefficient  57  ppm/°C   
+Line Regulation 
+ 0.04 0.1 
+%/V 
+ VIN  = V OUT  +1 to 16V and V EN  ≤ 6V 
+  0.2 • VIN  = V EN  = V OUT  +1 ≤ 8V 
+  0.2  VIN  = V EN  = V OUT  +1 ≤16V 
+TA = 25°C to 85°C 
+Load Regulation  0.05 0.4 %  IL = 0.1mA to 500mA 
+Dropout Voltage (V IN -VOUT ) 2 
+ 10 60 
+mV 
+ IL = 100µA   80 • 
+ 125 175  IL = 50mA   250 • 
+ 180 350  IL = 150mA   450 • 
+ 340 550  IL = 500mA   700 • 
+Quiescent Current (I GND )  0.05 3 µA 
+ VENABLE  ≤ 0.4V 
+  8 • VENABLE  = 0.25V 
+Ground Pin Current (I GND ) 
+ 90 150 
+µA 
+ IL = 100µA   190 • 
+ 250 650  IL = 50mA   900 • 
+ 1.0 2.0 
+mA 
+ IL = 150mA   2.5 • 
+ 6.5 25.0  IL = 500mA   30.0 • 
+Ripple Rejection (PSRR)  70  dB   
+       
+=== PDF PAGE 3 ===
+ 
+SPX3819 
+500mA Low-Noise LDO Voltage Regulat or 
+  
+ 
+© 2013 Exar Corporation 3/12 Rev. 2.0.2 
+Parameter Min. Typ. Max. Units  Conditions 
+Current Limit (I LIMIT )  800  mA  VOUT =0V   950 • 
+Output Noise (e NO ) 
+ 300  µV RMS   IL = 10mA, C L = 1.0µF, C IN  = 1µF, 
+(10Hz – 100kHz) 
+ 40  µV RMS   IL = 10mA, C L = 1.0µF, C BYP  = 1µF, 
+CIN  = 1µF, (10Hz – 100kHz) 
+Input Voltage Level Logic Low 
+(V 
+IL )   0.4 V  OFF 
+Input Voltage Level Logic High 
+(V 
+IH ) 2   V  ON 
+ENABLE Input Current  0.01 2 µA  VIL ≤ 0.4V 
+VIH ≥ 2.0V 
+ 3 20  
+Note 2: Not applicable to output voltage 2V or less. 
+PIN ASSIGNMENT 
+              
+Fig. 2: SPX3819 Pin Assignment 
+PIN DESCRIPTION 
+Name 
+Pin # 
+nSOIC  
+Pin # 
+DFN  
+Pin # 
+SOT-23 Description 
+VIN 2 3 1 Supply Input 
+GND 5, 6, 7, 8 7 2 Ground 
+VOUT 3 5 5 Regulator Output 
+EN 1 1 3 Enable(input). CMOS compatible control input. Logic high – enable; 
+logic low or open = shutdown 
+ADJ/BYP 4 8 4 Adjust(input).  Feedback input. Connect to resistive voltage-divider 
+network 
+NC - 2, 4, 6 - No Connect 
+
+=== PDF PAGE 4 ===
+ 
+SPX3819 
+500mA Low-Noise LDO Voltage Regulat or 
+  
+ 
+© 2013 Exar Corporation 4/12 Rev. 2.0.2 
+ORDERING INFORMATION 
+Part Number Temperature 
+Range Marking Package Packing 
+Quantity Note 1 Note 2 
+SPX3819M5-L 
+-40°C≤T J≤+125°C  G1WW SOT-23-5 
+Bulk 
+Halogen free 
+ 
+SPX3819M5-L/TR 2.5K/Tape & Reel   
+SPX3819M5-L-1-2 
+-40°C≤T J≤+125°C  A4WW SOT-23-5 
+Bulk 
+Halogen free 
+ 
+SPX3819M5-L-1-2/TR  2.5K/Tape & Reel   
+SPX3819M5-L-1-5 
+-40°C≤T J≤+125°C  W3WW SOT-23-5 
+Bulk 
+Halogen free 
+ 
+SPX3819M5-L-1-5/TR  2.5K/Tape & Reel   
+SPX3819M5-L-1-8 
+-40°C≤T J≤+125°C  G3WW SOT-23-5 
+Bulk 
+Halogen free 
+ 
+SPX3819M5-L-1-8/TR  2.5K/Tape & Reel   
+SPX3819M5-L-2-5 
+-40°C≤T J≤+125°C  H3WW SOT-23-5 
+Bulk 
+Halogen free 
+ 
+SPX3819M5-L-2-5/TR  2.5K/Tape & Reel   
+SPX3819M5-L-3-0 
+-40°C≤T J≤+125°C  J3WW SOT-23-5 
+Bulk 
+Halogen free 
+ 
+SPX3819M5-L-3-0/TR  2.5K/Tape & Reel   
+SPX3819M5-L-3-3 
+-40°C≤T J≤+125°C  L3WW SOT-23-5 
+Bulk 
+Halogen free 
+ 
+SPX3819M5-L-3-3/TR  2.5K/Tape & Reel   
+SPX3819M5-L-5-0 
+-40°C≤T J≤+125°C  M3WW SOT-23-5 
+Bulk 
+Halogen free 
+ 
+SPX3819M5-L-5-0/TR  2.5K/Tape & Reel   
+SPX3819R2-L 
+-40°C≤T J≤+125°C  
+L0L 
+YWW 
+XX 
+DFN-8 
+Bulk 
+Halogen free 
+ 
+SPX3819R2-L/TR 3.0K/Tape & Reel   
+SPX3819R2-L-1-2 
+-40°C≤T J≤+125°C  
+M0L 
+YWW 
+XX 
+DFN-8 
+Bulk 
+Halogen free 
+ 
+SPX3819R2-L-1-2/TR  3.0K/Tape & Reel   
+SPX3819R2-L-1-8 
+-40°C≤T J≤+125°C  
+N0L 
+YWW 
+XX 
+DFN-8 
+Bulk 
+Halogen free 
+ 
+SPX3819R2-L-1-8/TR  3.0K/Tape & Reel   
+SPX3819S-L 
+-40°C≤T J≤+125°C  
+SPX3819 
+  YYWWL 
+       XXX 
+NSOIC-8 
+Bulk 
+Halogen free 
+ 
+SPX3819S-L/TR 2.5K/Tape & Reel   
+SPX3819S-L-1-2 
+-40°C≤T J≤+125°C  
+SPX3819 
+12YYWWL 
+       XXX 
+NSOIC-8 
+Bulk 
+Halogen free 
+ 
+SPX3819S-L-1-2/TR 2.5K/Tape & Reel   
+SPX3819S-L-1-5 
+-40°C≤T J≤+125°C  
+SPX3819 
+15YYWWL 
+       XXX 
+NSOIC-8 
+Bulk 
+Halogen free 
+ 
+SPX3819S-L-1-5/TR 2.5K/Tape & Reel   
+SPX3819S-L-1-8 
+-40°C≤T J≤+125°C  
+SPX3819 
+18YYWWL 
+       XXX 
+NSOIC-8 
+Bulk 
+Halogen free 
+ 
+SPX3819S-L-1-8/TR 2.5K/Tape & Reel   
+SPX3819S-L-2-5 
+-40°C≤T J≤+125°C  
+SPX3819 
+25YYWWL 
+       XXX 
+NSOIC-8 
+Bulk 
+Halogen free 
+ 
+SPX3819S-L-2-5/TR 2.5K/Tape & Reel   
+SPX3819S-L-3-3 
+-40°C≤T J≤+125°C  
+ SPX3819 
+33YYWWL 
+        XXX 
+NSOIC-8 
+Bulk 
+Halogen free 
+ 
+SPX3819S-L-3-3/TR 2.5K/Tape & Reel   
+SPX3819S-L-5-0 
+-40°C≤T J≤+125°C  
+SPX3819 
+50YYWWL 
+       XXX 
+NSOIC-8 
+Bulk 
+Halogen free 
+ 
+SPX3819S-L-5-0/TR 2.5K/Tape & Reel   
+“YY” = Year – “WW” = Work Week – “X” = Lot Number; when applicable. 
+=== PDF PAGE 5 ===
+ 
+SPX3819 
+500mA Low-Noise LDO Voltage Regulat or 
+  
+ 
+© 2013 Exar Corporation 5/12 Rev. 2.0.2 
+TYPICAL PERFORMANCE CHARACTERISTICS 
+ 
+ 
+Fig. 3: Ground Current vs Load Current 
+ 
+ 
+Fig. 4: Ground Current vs Input Voltage 
+ 
+ 
+ 
+Fig. 5 Ground Current vs Load Current in Dropout 
+ 
+ 
+Fig. 6 Output Voltage vs Input Voltage 
+ 
+ 
+ 
+Fig. 7 Dropout Voltage vs Load Current 
+ 
+ 
+Fig. 8 Output Voltage vs Load Current 
+ 
+ 
+
+=== PDF PAGE 6 ===
+ 
+SPX3819 
+500mA Low-Noise LDO Voltage Regulat or 
+  
+ 
+© 2013 Exar Corporation 6/12 Rev. 2.0.2 
+ 
+ 
+Fig. 9 Ground Current vs Temperature with 100µA Load 
+ 
+Fig. 10 Ground Current vs Temperature with 50mA Load 
+ 
+ 
+Fig. 11 Ground Current vs Temperature with 500mA Load 
+ 
+Fig. 12 Ground Current vs Temperature in Dropout 
+ 
+ 
+Fig. 13 ENABLE Voltage, ON threshold, vs Input Voltage 
+ 
+Fig. 14 Output Voltage vs Temperature 
+ 
+
+=== PDF PAGE 7 ===
+ 
+SPX3819 
+500mA Low-Noise LDO Voltage Regulat or 
+  
+ 
+© 2013 Exar Corporation 7/12 Rev. 2.0.2 
+ 
+Fig. 15 Output Noise vs Bypass Capacitor Value IL = 10mA, 
+10Hz - 100kHz 
+ 
+Fig. 16 Line Transient Response for 3.3V Device 
+ 
+ 
+Fig. 17 Load Transient Response for 3.3V Device 
+ 
+ 
+ 
+APPLICATION INFORMATION 
+The SPX3819 requires an output capacitor for 
+device stability. Its value depends upon the 
+application circuit. In general, linear regulator 
+stability decreases with higher output 
+currents. In applications where the SPX3819 is 
+sourcing less current, a lower output 
+capacitance may be sufficient. For example, a 
+regulator outputting only 10mA, requires 
+approximately half the capacitance as the 
+same regulator sourcing 150mA. 
+Bench testing is the best method for 
+determining the proper type and value of the 
+capacitor since the high frequency 
+characteristics of electrolytic capacitors vary 
+widely, depending on type and manufacturer. 
+A high quality 2.2µF aluminum electrolytic 
+capacitor works in most application circuits, 
+but the same stability often can be obtained 
+with a 1µF tantalum electrolytic. 
+With the SPX3819 adjustable version, the 
+minimum value of output capacitance is a 
+function of the output voltage. The value 
+decreases with higher output voltages, since 
+closed loop gain is increased. 
+TYPICAL APPLICATIONS CIRCUITS  
+A 10nF capacitor on the BYP pin will 
+significantly reduce output noise, but it may 
+be left unconnected if the output noise is not a 
+major concern. The SPX3819 start-up speed is 
+inversely proportional to the size of the BYP 
+capacitor. Applications requiring a slow 
+rampup of the output voltage should use a 
+larger CBYP. However, if a rapid turn-on is 
+necessary, the BYP capacitor can be omitted. 
+
+=== PDF PAGE 8 ===
+ 
+SPX3819 
+500mA Low-Noise LDO Voltage Regulat or 
+  
+ 
+© 2013 Exar Corporation 8/12 Rev. 2.0.2 
+The SPX3819’s internal reference is available 
+through the BYP pin.  
+Figure 18 represents a SPX3819 standard 
+application circuit. The EN (enable) pin is 
+pulled high (>2.0V) to enable the regulator. 
+To disable the regulator, EN < 0.4V. 
+ 
+Fig. 18: Standard Application Circuit 
+ 
+The SPX3819 in Figure 19 illustrates a typical 
+adjustable output voltage configuration. Two 
+resistors (R1 and R2) set the output voltage. 
+The output voltage is calculated using the 
+formula: 
+VOUT = 1.235V x [1 + R1/R2] 
+R2 must be >10kΩ and for best results, R2 
+should be between 22kΩ and 47kΩ. 
+ 
+Fig. 19: Typical Adjustable Output Voltage Configuration 
+ 
+
+=== PDF PAGE 9 ===
+ 
+SPX3819 
+500mA Low-Noise LDO Voltage Regulat or 
+  
+ 
+© 2013 Exar Corporation 9/12 Rev. 2.0.2 
+PACKAGE SPECIFICATION    8-PIN SOICN 
+ 
+
+=== PDF PAGE 10 ===
+ 
+SPX3819 
+500mA Low-Noise LDO Voltage Regulat or 
+  
+ 
+© 2013 Exar Corporation 10/12 Rev. 2.0.2 
+    8- PIN 2X3 DFN 
+ 
+
+=== PDF PAGE 11 ===
+ 
+SPX3819 
+500mA Low-Noise LDO Voltage Regulat or 
+  
+ 
+© 2013 Exar Corporation 11/12 Rev. 2.0.2 
+    5- PIN SOT-23 
+ 
+
+=== PDF PAGE 12 ===
+ 
+SPX3819 
+500mA Low-Noise LDO Voltage Regulat or 
+  
+ 
+© 2013 Exar Corporation 12/12 Rev. 2.0.2 
+REVISION HISTORY 
+Revision Date Description 
+2.0.0 08/23/12 Reformat of Datasheet 
+Addition of SPX3819R2-L and SPX3819R2-L/TR part numbers 
+2.0.1 12/02/13 Added Storage Temperature Range and Junction Temperature in ABS MAX Ratings. 
+2.0.2 05/20/14 Updated package drawings and corrected DFN-8 package marking information 
+[ECN 1423-03  6/3/14] 
+ 
+ 
+ 
+ 
+ 
+FOR FURTHER ASSISTANCE 
+Email:  customersupport@exar.com  
+  powertechsupport@exar.com  
+Exar Technical Documentation:  http://www.exar.com/ TechDoc/default.aspx? 
+ 
+ 
+EXAR CORPORATION  
+HEADQUARTERS AND SALES OFFICES  
+48720 Kato Road 
+Fremont, CA 94538 – USA 
+Tel.: +1 (510) 668-7000 
+Fax: +1 (510) 668-7030 
+www.exar.com 
+NOTICE 
+EXAR Corporation reserves the right to make changes  to the products contained in this publication in o rder to improve 
+design, performance or reliability. EXAR Corporatio n assumes no responsibility for the use of any circ uits described herein, 
+conveys no license under any patent or other right,  and makes no representation that the circuits are free of patent 
+infringement. Charts and schedules contained herein  are only for illustration purposes and may vary de pending upon a 
+user’s specific application. While the information in this publication has been carefully checked; no responsibility, however, 
+is assumed for inaccuracies. 
+EXAR Corporation does not recommend the use of any of its products in life support applications where the failure or 
+malfunction of the product can reasonably be expected to cause failure of the life support system or to significantly affect its 
+safety or effectiveness. Products are not authorize d for use in such applications unless EXAR Corporat ion receives, in 
+writing, assurances to its satisfaction that: (a) t he risk of injury or damage has been minimized; (b)  the user assumes all 
+such risks; (c) potential liability of EXAR Corporation is adequately protected under the circumstances. 
+Reproduction, in part or whole, without the prior written consent of EXAR Corporation is prohibited. 

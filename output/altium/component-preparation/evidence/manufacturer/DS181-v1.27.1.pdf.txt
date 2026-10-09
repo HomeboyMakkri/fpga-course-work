@@ -1,0 +1,321 @@
+=== PDF PAGE 2 ===
+Artix 7 FPGAs Data Sheet: DC and AC Switching Characteristics
+DS181 (v1.27.1) July 3, 2024
+Product Specification 2
+ 
+VIN Receiver (RXP/RXN) and Transmitter (TXP/TXN) absolute input voltage –0.5 1.26 V
+IDCIN-FLOAT DC input current for receiver input pins DC coupled RX termination = floating – 14 mA
+IDCIN-MGTAVTT DC input current for receiver input pins DC coupled RX termination = VMGTAVTT – 12 mA
+IDCIN-GND DC input current for receiver input pins DC coupled RX termination = GND – 6.5 mA
+IDCOUT-FLOAT DC output current for transmitter pins DC coupled RX termination = floating – 14 mA
+IDCOUT-MGTAVTT DC output current for transmitter pins DC coupled RX termination = VMGTAVTT – 12 mA
+XADC
+VCCADC XADC supply relative to GNDADC –0.5 2.0 V
+VREFP XADC reference input relative to GNDADC –0.5 2.0 V
+Temperature
+TSTG Storage temperature (ambient) –65 150 °C
+TSOL
+Maximum soldering temperature for Pb/Sn component bodies(6) –+ 2 2 0 ° C
+Maximum soldering temperature for Pb-free component bodies(6) –+ 2 6 0 ° C
+Tj Maximum junction temperature(6) –+ 1 2 5 ° C
+Notes: 
+1. Stresses beyond those listed under Absolute Maximum Ratings might cause permanent damage to the device. These are stress ratings only, 
+and functional operation of the device at these or any other conditions beyond those listed under Operating Conditions is not implied. 
+Exposure to Absolute Maximum Ratings conditions for extended periods of time might affect device reliability.
+2. The lower absolute voltage specification always applies.
+3. For I/O operation, refer to 7 Series FPGAs SelectIO Resources User Guide (UG471).
+4. The maximum limit applies to DC signals. For maximum undershoot and overshoot AC specifications, see Table 4.
+5. See Table 9 for TMDS_33 specifications.
+6. For soldering guidelines and thermal considerations, see 7 Series FPGA Packaging and Pinout Specification (UG475).
+Table  2: Recommended Operating Conditions(1)(2)
+Symbol Description Min Typ Max Units
+FPGA Logic
+VCCINT(3)
+For -3, -2, -2LE (1.0V), -1, -1Q, -1M devices: internal supply voltage 0.95 1.00 1.05 V
+For -1LI (0.95V) devices: internal supply voltage 0.92 0.95 0.98 V
+For -2LE (0.9V) devices: internal supply voltage 0.87 0.90 0.93 V
+VCCAUX Auxiliary supply voltage 1.71 1.80 1.89 V
+VCCBRAM(3)
+For -3, -2, -2LE (1.0V), -2LE (0.9V), -1, -1Q, -1M devices: block RAM supply 
+voltage
+0.95 1.00 1.05 V
+For -1LI (0.95V) devices: block RAM supply voltage 0.92 0.95 0.98 V
+VCCO(4)(5) Supply voltage for HR I/O banks 1.14 – 3.465 V
+VIN(6)
+I/O input voltage –0.20 – V CCO +0 . 2 0 V
+I/O input voltage (when VCCO = 3.3V) for VREF and differential I/O standards 
+except TMDS_33(7)
+–0.20 – 2.625 V
+IIN(8) Maximum current through any pin in a powered or unpowered bank when 
+forward biasing the clamp diode.
+–– 1 0m A
+VCCBATT(9) Battery voltage 1.0 – 1.89 V
+GTP Transceiver
+VMGTAVCC(10) Analog supply voltage for the GTP transmitter and receiver circuits 0.97 1.0 1.03 V
+VMGTAVTT(10) Analog supply voltage for the GTP transmitter and receiver termination circuits 1.17 1.2 1.23 V
+Table  1: Absolute Maximum Ratings(1) (Cont’d)
+Symbol Description Min Max Units
+Send Feedback
+=== PDF PAGE 3 ===
+Artix 7 FPGAs Data Sheet: DC and AC Switching Characteristics
+DS181 (v1.27.1) July 3, 2024
+Product Specification 3
+ 
+XADC
+VCCADC XADC supply relative to GNDADC 1.71 1.80 1.89 V
+VREFP Externally supplied reference voltage 1.20 1.25 1.30 V
+Temperature
+Tj
+Junction temperature operating range for commercial (C) temperature devices 0 – 85 °C
+Junction temperature operating range for extended (E) temperature devices 0 – 100 °C
+Junction temperature operating range for industrial (I) temperature devices –40 – 100 °C
+Junction temperature operating range for expanded (Q) temperature devices –40 – 125 °C
+Junction temperature operating range for military (M) temperature devices –55 – 125 °C
+Notes: 
+1. All voltages are relative to ground.
+2. For the design of the power distribution system consult 7 Series FPGAs PCB Design and Pin Planning Guide (UG483).
+3. If V CCINT and VCCBRAM are operating at the same voltage, VCCINT and VCCBRAM should be connected to the same supply.
+4. Configuration data is retained even if V CCO drops to 0V.
+5. Includes V CCO of 1.2V, 1.35V, 1.5V, 1.8V, 2.5V, and 3.3V at ±5%.
+6. The lower absolute voltage specification always applies.
+7. See Table 9 for TMDS_33 specifications.
+8. A total of 200 mA per bank should not be exceeded.
+9. V
+CCBATT is required only when using bitstream encryption. If battery is not used, connect VCCBATT to either ground or VCCAUX.
+10. Each voltage listed requires the filter circuit described in 7 Series FPGAs GTP Transceiver User Guide (UG482).
+Table  3: DC Characteristics Over Recommended Operating Conditions
+Symbol Description Min Typ (1) Max Units
+VDRINT Data retention VCCINT voltage (below which configuration data might be lost) 0.75 – – V
+VDRI Data retention VCCAUX voltage (below which configuration data might be lost) 1.5 – – V
+IREF VREF leakage current per pin – – 15 µA
+IL Input or output leakage current per pin (sample-tested) – – 15 µA
+CIN(2) Die input capacitance at the pad – – 8 pF
+IRPU
+Pad pull-up (when selected) @ VIN =0 V ,  VCCO =3 . 3 V 9 0 – 3 3 0 µ A
+Pad pull-up (when selected) @ VIN =0 V ,  VCCO =2 . 5 V 6 8 – 2 5 0 µ A
+Pad pull-up (when selected) @ VIN =0 V ,  VCCO =1 . 8 V 3 4 – 2 2 0 µ A
+Pad pull-up (when selected) @ VIN =0 V ,  VCCO =1 . 5 V 2 3 – 1 5 0 µ A
+Pad pull-up (when selected) @ VIN =0 V ,  VCCO =1 . 2 V 1 2 – 1 2 0 µ A
+IRPD Pad pull-down (when selected) @ VIN =3 . 3 V 6 8 – 3 3 0 µ A
+ICCADC Analog supply current, analog circuits in powered up state – – 25 mA
+IBATT(3) Battery supply current – – 150 nA
+RIN_TERM(4)
+Thevenin equivalent resistance of programmable input termination to VCCO/2 
+(UNTUNED_SPLIT_40)
+28 40 55 
+Thevenin equivalent resistance of programmable input termination to VCCO/2 
+(UNTUNED_SPLIT_50)
+35 50 65 
+Thevenin equivalent resistance of programmable input termination to VCCO/2 
+(UNTUNED_SPLIT_60)
+44 60 83 
+Table  2: Recommended Operating Conditions(1)(2) (Cont’d)
+Symbol Description Min Typ Max Units
+Send Feedback
+=== PDF PAGE 5 ===
+Artix 7 FPGAs Data Sheet: DC and AC Switching Characteristics
+DS181 (v1.27.1) July 3, 2024
+Product Specification 5
+Table  5: Typical Quiescent Supply Current
+Symbol Description Device
+Speed Grade
+Units1.0V 0.95V 0.9V
+-3 -2 -2LE -1 -1LI -2LE
+ICCINTQ Quiescent VCCINT supply current XC7A12T 48 48 48 48 43 38 mA
+XC7A15T 95 95 95 95 58 66 mA
+XC7A25T 48 48 48 48 43 38 mA
+XC7A35T 95 95 95 95 58 66 mA
+XC7A50T 95 95 95 95 58 66 mA
+XC7A75T 155 155 155 155 96 108 mA
+XC7A100T 155 155 155 155 96 108 mA
+XC7A200T 328 328 328 328 203 232 mA
+XA7A12T N/A 48 N/A 48 N/A N/A mA
+XA7A15T N/A 95 N/A 95 N/A N/A mA
+XA7A25T N/A 48 N/A 48 N/A N/A mA
+XA7A35T N/A 95 N/A 95 N/A N/A mA
+XA7A50T N/A 95 N/A 95 N/A N/A mA
+XA7A75T N/A 155 N/A 155 N/A N/A mA
+XA7A100T N/A 155 N/A 155 N/A N/A mA
+XQ7A50T N/A 95 N/A 95 58 N/A mA
+XQ7A100T N/A 155 N/A 155 96 N/A mA
+XQ7A200T N/A 328 N/A 328 203 N/A mA
+I
+CCOQ Quiescent VCCO supply current XC7A12T 1 1 1 1 1 1 mA
+X C 7 A 1 5 T 111111 m A
+X C 7 A 2 5 T 111111 m A
+X C 7 A 3 5 T 111111 m A
+X C 7 A 5 0 T 111111 m A
+X C 7 A 7 5 T 444444 m A
+XC7A100T 4 4 4 4 4 4 mA
+XC7A200T 5 5 5 5 5 5 mA
+XA7A12T N/A 1 N/A 1 N/A N/A mA
+XA7A15T N/A 1 N/A 1 N/A N/A mA
+XA7A25T N/A 1 N/A 1 N/A N/A mA
+XA7A35T N/A 1 N/A 1 N/A N/A mA
+XA7A50T N/A 1 N/A 1 N/A N/A mA
+XA7A75T N/A 4 N/A 4 N/A N/A mA
+XA7A100T N/A 4 N/A 4 N/A N/A mA
+XQ7A50T N/A 1 N/A 1 1 N/A mA
+XQ7A100T N/A 4 N/A 4 4 N/A mA
+XQ7A200T N/A 5 N/A 5 5 N/A mA
+Send Feedback
+=== PDF PAGE 6 ===
+Artix 7 FPGAs Data Sheet: DC and AC Switching Characteristics
+DS181 (v1.27.1) July 3, 2024
+Product Specification 6
+ICCAUXQ Quiescent VCCAUX supply current XC7A12T 13 13 13 13 13 13 mA
+XC7A15T 22 22 22 22 19 22 mA
+XC7A25T 13 13 13 13 13 13 mA
+XC7A35T 22 22 22 22 19 22 mA
+XC7A50T 22 22 22 22 19 22 mA
+XC7A75T 36 36 36 36 32 36 mA
+XC7A100T 36 36 36 36 32 36 mA
+XC7A200T 73 73 73 73 65 73 mA
+XA7A12T N/A 13 N/A 13 N/A N/A mA
+XA7A15T N/A 22 N/A 22 N/A N/A mA
+XA7A25T N/A 13 N/A 13 N/A N/A mA
+XA7A35T N/A 22 N/A 22 N/A N/A mA
+XA7A50T N/A 22 N/A 22 N/A N/A mA
+XA7A75T N/A 36 N/A 36 N/A N/A mA
+XA7A100T N/A 36 N/A 36 N/A N/A mA
+XQ7A50T N/A 22 N/A 22 19 N/A mA
+XQ7A100T N/A 36 N/A 36 32 N/A mA
+XQ7A200T N/A 73 N/A 73 65 N/A mA
+Table  5: Typical Quiescent Supply Current (Cont’d)
+Symbol Description Device
+Speed Grade
+Units1.0V 0.95V 0.9V
+-3 -2 -2LE -1 -1LI -2LE
+Send Feedback
+=== PDF PAGE 7 ===
+Artix 7 FPGAs Data Sheet: DC and AC Switching Characteristics
+DS181 (v1.27.1) July 3, 2024
+Product Specification 7
+ICCBRAMQ Quiescent VCCBRAM supply current XC7A12T 1 1 1 1 1 1 mA
+X C 7 A 1 5 T 222212 m A
+X C 7 A 2 5 T 111111 m A
+X C 7 A 3 5 T 222212 m A
+X C 7 A 5 0 T 222212 m A
+X C 7 A 7 5 T 444424 m A
+XC7A100T 4 4 4 4 2 4 mA
+XC7A200T 11 11 11 11 6 11 mA
+XA7A12T N/A 1 N/A 1 N/A N/A mA
+XA7A15T N/A 2 N/A 2 N/A N/A mA
+XA7A25T N/A 1 N/A 1 N/A N/A mA
+XA7A35T N/A 2 N/A 2 N/A N/A mA
+XA7A50T N/A 2 N/A 2 N/A N/A mA
+XA7A75T N/A 4 N/A 4 N/A N/A mA
+XA7A100T N/A 4 N/A 4 N/A N/A mA
+XQ7A50T N/A 2 N/A 2 1 N/A mA
+XQ7A100T N/A 4 N/A 4 2 N/A mA
+XQ7A200T N/A 11 N/A 11 6 N/A mA
+Notes: 
+1. Typical values are specified at nominal voltage, 85°C junction temperature (T j) with single-ended SelectIO resources.
+2. Typical values are for blank configured devices with no output current loads, no active input pull-up resistors, all I/O pins  are 3-state and 
+floating.
+3. Use the Xilinx Power Estimator (XPE) spreadsheet tool (download at http://www.xilinx.com/power) to estimate static power consumption for 
+conditions other than those specified.
+Table  5: Typical Quiescent Supply Current (Cont’d)
+Symbol Description Device
+Speed Grade
+Units1.0V 0.95V 0.9V
+-3 -2 -2LE -1 -1LI -2LE
+Send Feedback
+=== PDF PAGE 8 ===
+Artix 7 FPGAs Data Sheet: DC and AC Switching Characteristics
+DS181 (v1.27.1) July 3, 2024
+Product Specification 8
+Power-On/Off Power Supply Sequencing
+The recommended power-on sequence is VCCINT, VCCBRAM, VCCAUX, and VCCO to achieve minimum current draw and ensure 
+that the I/Os are 3-stated at power-on. The recommended power-off sequence is the reverse of the power-on sequence. If 
+VCCINT and VCCBRAM have the same recommended voltage levels then both can be powered by the same supply and ramped 
+simultaneously. If VCCAUX and VCCO have the same recommended voltage levels then both can be powered by the same 
+supply and ramped simultaneously.
+For VCCO voltages of 3.3V in HR I/O banks and configuration bank 0:
+• The voltage difference between V CCO and VCCAUX must not exceed 2.625V for longer than TVCCO2VCCAUX for each 
+power-on/off cycle to maintain device reliability levels.
+•T h e  T VCCO2VCCAUX time can be allocated in any percentage between the power-on and power-off ramps.
+The recommended power-on sequence to achieve minimum current draw for the GTP transceivers is VCCINT, VMGTAVCC, 
+VMGTAVTT OR VMGTAVCC, VCCINT, VMGTAVTT. Both VMGTAVCC and VCCINT can be ramped simultaneously. The recommended 
+power-off sequence is the reverse of the power-on sequence to achieve minimum current draw.
+If these recommended sequences are not met, current drawn from VMGTAVTT can be higher than specifications during power-
+up and power-down.
+•W h e n  V MGTAVTT is powered before VMGTAVCC and VMGTAVTT –V MGTAVCC >1 5 0  m V  a n d  VMGTAVCC <0 . 7 V ,  t h e  VMGTAVTT 
+current draw can increase by 460 mA per transceiver during VMGTAVCC ramp up. The duration of the current draw can be 
+up to 0.3 x TMGTAVCC (ramp time from GND to 90% of VMGTAVCC). The reverse is true for power-down.
+•W h e n  V MGTAVTT is powered before VCCINT and VMGTAVTT –V CCINT > 150 mV and VCCINT <0 . 7 V ,  t h e  VMGTAVTT current 
+draw can increase by 50 mA per transceiver during VCCINT ramp up. The duration of the current draw can be up to 
+0.3 x TVCCINT (ramp time from GND to 90% of VCCINT). The reverse is true for power-down.
+There is no recommended sequence for supplies not shown.
+Table 6 shows the minimum current, in addition to I
+CCQ, that is required by Artix 7 devices for proper power-on and 
+configuration. If the current minimums shown in Table 5 and Table 6 are met, the device powers on after all four supplies 
+have passed through their power-on reset threshold voltages. The FPGA must not be configured until after VCCINT is applied.
+Once initialized and configured, use the Xilinx Power Estimator (XPE) tool (download at http://www.xilinx.com/power) to 
+estimate current drain on these supplies.
+Table  6: Power-On Current for Artix 7 Devices
+Device I CCINTMIN ICCAUXMIN ICCOMIN ICCBRAMMIN Units
+XC7A12T I CCINTQ +1 2 0 I CCAUXQ +4 0 I CCOQ + 40 mA per bank I CCBRAMQ +6 0 m A
+XC7A15T I CCINTQ +1 2 0 I CCAUXQ +4 0 I CCOQ + 40 mA per bank I CCBRAMQ +6 0 m A
+XC7A25T I CCINTQ +1 2 0 I CCAUXQ +4 0 I CCOQ + 40 mA per bank I CCBRAMQ +6 0 m A
+XC7A35T I CCINTQ +1 2 0 I CCAUXQ +4 0 I CCOQ + 40 mA per bank I CCBRAMQ +6 0 m A
+XC7A50T I CCINTQ +1 2 0 I CCAUXQ +4 0 I CCOQ + 40 mA per bank I CCBRAMQ +6 0 m A
+XC7A75T I CCINTQ +1 7 0 I CCAUXQ +4 0 I CCOQ + 40 mA per bank I CCBRAMQ +6 0 m A
+XC7A100T I CCINTQ +1 7 0 I CCAUXQ +4 0 I CCOQ + 40 mA per bank I CCBRAMQ +6 0 m A
+XC7A200T I CCINTQ +3 4 0 I CCAUXQ +5 0 I CCOQ + 40 mA per bank I CCBRAMQ +8 0 m A
+XA7A12T I CCINTQ +1 2 0 I CCAUXQ +4 0 I CCOQ + 40 mA per bank I CCBRAMQ +6 0 m A
+XA7A15T I CCINTQ +1 2 0 I CCAUXQ +4 0 I CCOQ + 40 mA per bank I CCBRAMQ +6 0 m A
+XA7A25T I CCINTQ +1 2 0 I CCAUXQ +4 0 I CCOQ + 40 mA per bank I CCBRAMQ +6 0 m A
+XA7A35T I CCINTQ +1 2 0 I CCAUXQ +4 0 I CCOQ + 40 mA per bank I CCBRAMQ +6 0 m A
+XA7A50T I CCINTQ +1 2 0 I CCAUXQ +4 0 I CCOQ + 40 mA per bank I CCBRAMQ +6 0 m A
+XA7A75T I CCINTQ +1 7 0 I CCAUXQ +4 0 I CCOQ + 40 mA per bank I CCBRAMQ +6 0 m A
+XA7A100T I CCINTQ +1 7 0 I CCAUXQ +4 0 I CCOQ + 40 mA per bank I CCBRAMQ +6 0 m A
+Send Feedback
+=== PDF PAGE 9 ===
+Artix 7 FPGAs Data Sheet: DC and AC Switching Characteristics
+DS181 (v1.27.1) July 3, 2024
+Product Specification 9
+DC Input and Output Levels
+Values for VIL and VIH are recommended input voltages. Values for IOL and IOH are guaranteed over the recommended 
+operating conditions at the VOL and VOH test points. Only selected standards are tested. These are chosen to ensure that all 
+standards meet their specifications. The selected standards are tested at a minimum VCCO with the respective VOL and VOH 
+voltage levels shown. Other standards are sample tested.
+XQ7A50T I CCINTQ +1 2 0 I CCAUXQ +4 0 I CCOQ + 40 mA per bank I CCBRAMQ +6 0 m A
+XQ7A100T I CCINTQ +1 7 0 I CCAUXQ +4 0 I CCOQ + 40 mA per bank I CCBRAMQ +6 0 m A
+XQ7A200T I CCINTQ +3 4 0 I CCAUXQ +5 0 I CCOQ + 40 mA per bank I CCBRAMQ +8 0 m A
+Table  7: Power Supply Ramp Time
+Symbol Description Conditions Min Max Units
+TVCCINT Ramp time from GND to 90% of VCCINT 0.2 50 ms
+TVCCO Ramp time from GND to 90% of VCCO 0.2 50 ms
+TVCCAUX Ramp time from GND to 90% of VCCAUX 0.2 50 ms
+TVCCBRAM Ramp time from GND to 90% of VCCBRAM 0.2 50 ms
+TVCCO2VCCAUX Allowed time per power cycle for VCCO – VCCAUX 2.625V 
+TJ = 125°C(1) –3 0 0
+msTJ = 100°C(1) –5 0 0
+TJ = 85°C(1) –8 0 0
+TMGTAVCC Ramp time from GND to 90% of VMGTAVCC 0.2 50 ms
+TMGTAVTT Ramp time from GND to 90% of VMGTAVTT 0.2 50 ms
+Notes: 
+1. Based on 240,000 power cycles with nominal V CCO of 3.3V or 36,500 power cycles with worst case VCCO of 3.465V.
+Table  8: SelectIO DC Input and Output Levels(1)(2)
+I/O Standard
+VIL VIH VOL VOH IOL IOH
+V, Min V, Max V, Min V, Max V, Max V, Min mA, Max mA, Min
+HSTL_I –0.300 V REF – 0.100 V REF + 0.100 V CCO + 0.300 0.400 V CCO – 0.400 8.00 –8.00
+HSTL_I_18 –0.300 V REF – 0.100 V REF + 0.100 V CCO + 0.300 0.400 V CCO – 0.400 8.00 –8.00
+HSTL_II –0.300 V REF – 0.100 V REF + 0.100 V CCO + 0.300 0.400 V CCO – 0.400 16.00 –16.00
+HSTL_II_18 –0.300 V REF – 0.100 V REF + 0.100 V CCO + 0.300 0.400 V CCO – 0.400 16.00 –16.00
+HSUL_12 –0.300 V REF – 0.130 V REF + 0.130 V CCO + 0.300 20% V CCO 80% VCCO 0.10 –0.10
+LVCMOS12 –0.300 35% V CCO 65% VCCO VCCO + 0.300 0.400 V CCO –0 . 4 0 0 Note 3 Note 3
+LVCMOS15 –0.300 35% V CCO 65% VCCO VCCO + 0.300 25% V CCO 75% VCCO Note 4 Note 4
+LVCMOS18 –0.300 35% V CCO 65% VCCO VCCO + 0.300 0.450 V CCO –0 . 4 5 0 Note 5 Note 5
+LVCMOS25 –0.300 0.7 1.700 V CCO + 0.300 0.400 V CCO –0 . 4 0 0 Note 4 Note 4
+LVCMOS33 –0.300 0.8 2.000 3.450 0.400 V CCO –0 . 4 0 0 Note 4 Note 4
+LVTTL –0.300 0.8 2.000 3.450 0.400 2.400 Note 5 Note 5
+MOBILE_DDR –0.300 20% V CCO 80% VCCO VCCO + 0.300 10% V CCO 90% VCCO 0.10 –0.10
+PCI33_3 –0.400 30% V CCO 50% VCCO VCCO + 0.500 10% V CCO 90% VCCO 1.50 –0.50
+SSTL135 –0.300 V REF – 0.090 V REF + 0.090 V CCO +0 . 3 0 0 VCCO/ 2–0 . 1 5 0 VCCO/2 + 0.150 13.00 –13.00
+SSTL135_R –0.300 V REF – 0.090 V REF + 0.090 V CCO +0 . 3 0 0 VCCO/ 2–0 . 1 5 0 VCCO/2 + 0.150 8.90 –8.90
+Table  6: Power-On Current for Artix 7 Devices (Cont’d)
+Device I CCINTMIN ICCAUXMIN ICCOMIN ICCBRAMMIN Units
+Send Feedback

@@ -1,0 +1,1554 @@
+=== PDF PAGE 1 ===
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+0.001 0.01 0.1 1 10
+Efficiency (%) 
+Output Current (A) 
+Vout = 5V
+Vout = 3.3V
+Vout = 1.8V
+C015 
+VOUT
+TPS562210A
+TPS56321 0A
+VOUT
+VIN
+EN
+VIN
+VBST
+SW
+GND
+EN
+VFB
+1
+2
+3
+7
+5
+6
+PG4
+SS
+8
+Copyright © 2016, Texas Instruments Incorporated
+Product
+Folder
+Order
+Now
+T echnical
+Documents
+Tools &
+Software
+Support &
+Community
+An IMPORTANT NOTICE at the end of this data sheet addresses availability, warranty, changes, use in safety-critical applications,
+intellectual property matters and other important disclaimers. PRODUCTION DATA.
+English Data Sheet: SLVSDP9
+TPS562210A, TPS563210A
+ZHCSFR5 – NOVEMBER 2016
+TPS56x210A采采用用 8 引引脚脚 SOT-23 封封装装的的
+4.5V 至至 17V 输输入入、、2A/3A 同同步步降降压压稳稳压压器器
+1
+1 特特性性
+1• TPS562210A：集成有
+133mΩ 和 80mΩ 场效应晶体管 (FET) 的 2A 转换
+器
+• TPS563210A：集成有
+68mΩ 和 39mΩ FET 的 3A 转换器
+• D-CAP2™针对快速瞬态响应的模式控制
+• 高级 Eco-mode™脉冲跳跃
+• 输入电压范围：4.5V 至 17V
+• 输出电压范围：0.76V 至 7V
+• 650kHz 开关频率
+• 低关断电流（低于 10µA）
+• 1% 反馈电压精度 (25°C)
+• 从预偏置输出电压中启动
+• 逐周期过流限制
+• 断续模式欠压保护
+• 非锁存过压保护 (OVP)，欠压闭锁 (UVLO) 和热关
+断 (TSD) 保护
+• 可调软启动
+• 电源正常输出
+2 应应用用
+• 数字电视电源
+• 高清 蓝光 (Blu-ray) 碟片™播放器
+• 网络家庭终端设备
+• 数字机顶盒(STB)
+3 说说明明
+TPS562210A 和 TPS563210A 是采用 8 引脚 SOT-23
+封装的简单易用型 2A/3A 同步降压转换器。
+两款器件均经过优化，最大限度地减少了运行所需的外
+部组件并且可以实现低待机电流。
+这些开关模式电源 (SMPS) 器件采用 D-CAP2™ 模式
+控制，从而提供快速瞬态响应，并且在无需外部补偿组
+件的情况下支持诸如高分子聚合物等低等效串联电阻
+(ESR) 输出电容器以及超低 ESR 陶瓷电容器。
+该器件可在高级 Eco-mode™ 下运行，从而能在轻载
+运行期间保持高效率。TPS562210A 和 TPS563210A
+采用 8 引脚 1.6mm × 2.9mm SOT (DDF) 封装，额定
+环境温度范围为 –40°C 至 85°C。
+器器件件信信息息(1)
+订订货货编编号号 封封装装 封封装装尺尺寸寸（（标标称称值值））
+TPS562210A
+DDF(8) 1.60mm x 2.90mm
+TPS563210A
+(1) 要了解所有可用封装，请参见数据表末尾的可订购产品附录。
+空白
+空白
+简简化化电电路路原原理理图图
+效效率率
+=== PDF PAGE 2 ===
+2
+TPS562210A, TPS563210A
+ZHCSFR5 – NOVEMBER 2016 www.ti.com.cn
+版权 © 2016, Texas Instruments Incorporated
+目目录录
+1 特特性性.......................................................................... 1
+2 应应用用.......................................................................... 1
+3 说说明明.......................................................................... 1
+4 修修订订历历史史记记录录 ........................................................... 2
+5 Pin Configuration and Functions ......................... 3
+6 Specifications......................................................... 4
+6.1 Absolute Maximum Ratings ...................................... 4
+6.2 ESD Ratings ............................................................ 4
+6.3 Recommended Operating Conditions....................... 4
+6.4 Thermal Information .................................................. 4
+6.5 Electrical Characteristics........................................... 5
+6.6 Timing Requirements ................................................ 5
+6.7 Typical Characteristics .............................................. 6
+7 Detailed Description ............................................ 10
+7.1 Overview ................................................................. 10
+7.2 Functional Block Diagram ...................................... 10
+7.3 Feature Description................................................. 11
+7.4 Device Functional Modes........................................ 12
+8 Application and Implementation ........................ 13
+8.1 Application Information............................................ 13
+8.2 Typical Application ................................................. 13
+9 Power Supply Recommendations ...................... 21
+10 Layout................................................................... 22
+10.1 Layout Guidelines ................................................. 22
+10.2 Layout Example .................................................... 22
+11 器器件件和和文文档档支支持持 ..................................................... 23
+11.1 器件支持 ............................................................... 23
+11.2 相关链接................................................................ 23
+11.3 接收文档更新通知 ................................................. 23
+11.4 社区资源................................................................ 23
+11.5 商标 ....................................................................... 23
+11.6 静电放电警告......................................................... 23
+11.7 Glossary ................................................................ 23
+12 机机械械、、封封装装和和可可订订购购信信息息....................................... 23
+4 修修订订历历史史记记录录
+日日期期 修修订订版版本本 注注释释
+2016 年 11 月 * 最初发布版本。
+=== PDF PAGE 3 ===
+SW
+VBST
+VFB
+GND
+2
+3
+1
+EN
+6
+8
+7
+VIN
+4 5SSPG
+3
+TPS562210A, TPS563210A
+www.ti.com.cn ZHCSFR5 – NOVEMBER 2016
+Copyright © 2016, Texas Instruments Incorporated
+5 Pin Configuration and Functions
+DDF Package
+8 Pin
+Top View
+Pin Functions
+PIN
+DESCRIPTION
+NAME NO.
+GND 1 Ground pin Source terminal of low-side power NFET as well as the ground terminal for controller circuit. Connect
+sensitive VFB to this GND at a single point.
+SW 2 Switch node connection between high-side NFET and low-side NFET.
+VIN 3 Input voltage supply pin. The drain terminal of high-side power NFET.
+PG 4 Power good open drain output
+SS 5 Soft-start control. An external capacitor should be connected to GND.
+VFB 6 Converter feedback input. Connect to output voltage with feedback resistor divider.
+EN 7 Enable input control. Active high and must be pulled up to enable the device.
+VBST 8 Supply input for the high-side NFET gate drive circuit. Connect 0.1 µF capacitor between VBST and SW pins.
+=== PDF PAGE 4 ===
+4
+TPS562210A, TPS563210A
+ZHCSFR5 – NOVEMBER 2016 www.ti.com.cn
+Copyright © 2016, Texas Instruments Incorporated
+(1) Stresses beyond those listed under Absolute Maximum Ratings may cause permanent damage to the device. These are stress ratings
+only, which do not imply functional operation of the device at these or any other conditions beyond those indicated under Recommended
+Operating Conditions. Exposure to absolute-maximum-rated conditions for extended periods may affect device reliability.
+6 Specifications
+6.1 Absolute Maximum Ratings
+TJ = -40°C to 150°C (unless otherwise noted) (1)
+MIN MAX UNIT
+Input voltage range
+VIN, EN –0.3 19 V
+VBST –0.3 25 V
+VBST (10 ns transient) –0.3 27.5 V
+VBST (vs SW) –0.3 6.5 V
+VFB, PG –0.3 6.5 V
+SS –0.3 5.5 V
+SW –2 19 V
+SW (10 ns transient) –3.5 21 V
+Operating junction temperature, TJ –40 150 °C
+Storage temperature, Tstg –55 150 °C
+(1) JEDEC document JEP155 states that 500-V HBM allows safe manufacturing with a standard ESD control process.
+(2) JEDEC document JEP157 states that 250-V CDM allows safe manufacturing with a standard ESD control process.
+6.2 ESD Ratings
+VALUE UNIT
+V(ESD) Electrostatic discharge
+Human body model (HBM), per ANSI/ESDA/JEDEC JS-001 (1) ±2000 V
+Charged device model (CDM), per JEDEC specification JESD22-C101 (2) ±500 V
+6.3 Recommended Operating Conditions
+TJ = –40°C to 150°C (unless otherwise noted)
+MIN MAX UNIT
+VIN Supply input voltage range 4.5 17 V
+VI Input voltage range
+VBST –0.1 23 V
+VBST (10 ns transient) –0.1 26 V
+VBST(vs SW) –0.1 6 V
+EN –0.1 17 V
+VFB, pg –0.1 5.5 V
+SS –0.1 5 V
+SW –1.8 17 V
+SW (10 ns transient) –3.5 20 V
+TA Operating free-air temperature –40 85 °C
+(1) For more information about traditional and new thermal metrics, see the Semiconductor and IC Package Thermal Metrics application
+report.
+6.4 Thermal Information
+THERMAL METRIC (1) TPS562210A TPS563210A
+UNIT
+DDF (8 PINS)
+RθJA Junction-to-ambient thermal resistance 106.1 87.0 °C/W
+RθJC(top) Junction-to-case (top) thermal resistance 49.1 41.6 °C/W
+RθJB Junction-to-board thermal resistance 10.9 14.6 °C/W
+ψJT Junction-to-top characterization parameter 8.6 4.7 °C/W
+ψJB Junction-to-board characterization parameter 10.8 14.6 °C/W
+=== PDF PAGE 5 ===
+5
+TPS562210A, TPS563210A
+www.ti.com.cn ZHCSFR5 – NOVEMBER 2016
+Copyright © 2016, Texas Instruments Incorporated
+(1) Not production tested.
+6.5 Electrical Characteristics
+over operating free-air temperature range, VIN = 12 V (unless otherwise noted)
+PARAMETER TEST CONDITIONS MIN TYP MAX UNIT
+SUPPLY CURRENT
+IVIN Operating – non-switching supply current VIN current, TA = 25°C, EN = 5V, VFB = 0.8 V 190 290 µA
+IVINSDN Shutdown supply current VIN current, TA = 25°C, EN = 0 V 3.0 10 µA
+LOGIC THRESHOLD
+VENH EN high-level input voltage EN 1.6 V
+VENL EN low-level input voltage EN 0.6 V
+REN EN pin resistance to GND VEN = 12 V 225 450 900 kΩ
+VFB VOLTAGE AND DISCHARGE RESISTANCE
+VFBTH
+VFB threshold voltage TPS562210A TA = 25°C, VO = 1.05 V, IO = 10 mA, Eco-mode™
+operation 772 mV
+VFB threshold voltage TPS562210A and
+TPS563210A
+TA = 25°C, VO = 1.05 V 758 765 772
+mVTA = 0°C to 85°C, VO = 1.05 V (1) 753 777
+TA = -40°C to 85°C, VO = 1.05 V (1) 751 779
+IVFB VFB input current VFB = 0.8 V, TA = 25°C 0 ±0.1 µA
+MOSFET
+RDS(on)h High side switch resistance
+TA = 25°C, VBST – SW = 5.5 V, TPS562210A 133
+mΩ
+TA = 25°C, VBST – SW = 5.5 V, TPS563210A 68
+RDS(on)l Low side switch resistance
+TA = 25°C, TPS562210A 80
+mΩ
+TA = 25°C, TPS563210A 39
+CURRENT LIMIT
+IOCL Current limit (1) DC current, VOUT = 1.05 V , L1 = 2.2 µH, TPS562210A 2.5 3.2 4.3
+A
+DC current, VOUT = 1.05 V , L1 = 1.5 µH, TPS563210A 3.5 4.2 5.3
+THERMAL SHUTDOWN
+TSDN Thermal shutdown threshold (1) Shutdown temperature 155
+°C
+Hysteresis 35
+SOFT START
+ISS SS charge current VSS = 1.2 V 4.2 6 7.8 µA
+POWER GOOD
+VTHPG PG threshold
+VFB rising (Good) 85% 90% 95%
+VFB falling (Fault) 85%
+IPG PG sink current PG = 0.5 V 0.5 1 mA
+OUTPUT UNDERVOLTAGE AND OVERVOLTAGE PROTECTION
+VOVP Output OVP threshold OVP Detect 125%x
+Vfbth
+VUVP Output UVP threshold Hiccup detect 65%x
+Vfbth
+tHiccupOn Hiccup Power On Time Relative to soft start time 1 cycle
+tHiccupOff Hiccup Power Off Time Relative to soft start time 7 cycles
+UVLO
+UVLO UVLO threshold
+Wake up VIN voltage 3.45 3.75 4.05
+V
+Hysteresis VIN voltage 0.13 0.32 0.55
+6.6 Timing Requirements
+MIN TYP MAX UNIT
+ON-TIME TIMER CONTROL
+tON On time VIN = 12 V, VO = 1.05 V 150 ns
+tOFF(MIN) Minimum off time TA = 25°C, VFB = 0.5 V 260 310 ns
+=== PDF PAGE 6 ===
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+0.001 0.01 0.1 1 10
+Efficiency (%) 
+Output Current (A) 
+Vout = 5V
+Vout = 3.3V
+Vout = 1.8V
+C015 
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+0.001 0.01 0.1 1 10
+Efficiency (%)
+Output Current(A)
+Vout = 3.3V
+Vout = 1.8V
+C016
+0.750
+0.755
+0.760
+0.765
+0.770
+0.775
+0.780
+±50 0 50 100 150
+VFB Voltage (V) 
+Junction Temperature (C) C013 
+-10
+0
+10
+20
+30
+40
+50
+60
+0 3 6 9 12 15 18
+EN Input Current (µA) 
+EN Input Voltage (V) C014 
+0
+50
+100
+150
+200
+250
+300
+±50 0 50 100 150
+ICC - Supply Current(µA) 
+Junction Temperature (C) C011 
+0
+1
+2
+3
+4
+5
+6
+±50 0 50 100 150
+IVCCSHDN - Supply Current (µA) 
+Junction Temperature (C) C012 
+6
+TPS562210A, TPS563210A
+ZHCSFR5 – NOVEMBER 2016 www.ti.com.cn
+版权 © 2016, Texas Instruments Incorporated
+6.7 Typical Characteristics
+6.7.1 TPS562210A Characteristics
+VIN = 12 V (unless otherwise noted)
+图图 1. Supply Current vs Junction Temperature 图图 2. VIN Shutdown Current vs Junction Temperature
+图图 3. VFB Voltage vs Junction Temperature 图图 4. EN Current vs EN Voltage
+图图 5. Efficiency vs Output Current
+VI = 5 V
+图图 6. Efficiency vs Output Current
+=== PDF PAGE 7 ===
+400
+450
+500
+550
+600
+650
+700
+750
+800
+4 6 8 10 12 14 16 18
+FSW - Switching Frequency 
+Input Voltage (V) 
+Vo = 0.75V
+Vo = 1.05V
+Vo = 6.5V
+C017 
+0
+100
+200
+300
+400
+500
+600
+700
+800
+0.01 0.1 1 10
+FSW - Switching Frequency (kHz) 
+Output Current (A) 
+Vo = 0.76V
+Vo = 1.05V
+Vo = 6.5V
+C018 
+7
+TPS562210A, TPS563210A
+www.ti.com.cn ZHCSFR5 – NOVEMBER 2016
+版权 © 2016, Texas Instruments Incorporated
+TPS562210A Characteristics (接接下下页页)
+图图 7. Switching Frequency vs Input Voltage 图图 8. Switching Frequency vs Output Current
+=== PDF PAGE 8 ===
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+0.001 0.01 0.1 1 10
+Efficiency (%) 
+Output Current (A) 
+Vout = 5V
+Vout = 3.3V
+Vout = 1.8V
+C023 
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+0.001 0.01 0.1 1 10
+Efficiency (%) 
+Output Current (A) 
+Vout = 3.3V
+Vout = 1.8V
+C024 
+0.750
+0.755
+0.760
+0.765
+0.770
+0.775
+0.780
+±50 0 50 100 150
+VFB Voltage (V) 
+Junction Temperature (C) C021 
+±10 
+0
+10
+20
+30
+40
+50
+60
+0 3 6 9 12 15 18
+EN Input Current (µA) 
+EN Input Voltage (V) C022 
+0
+50
+100
+150
+200
+250
+300
+±50 0 50 100 150
+ICC - Supply Current (µA) 
+Junction Temperature (C) C019 
+0
+1
+2
+3
+4
+5
+6
+±50 0 50 100 150
+IVCCSHDN - Supply Current (µA) 
+Junction Temperature (C) C020 
+8
+TPS562210A, TPS563210A
+ZHCSFR5 – NOVEMBER 2016 www.ti.com.cn
+版权 © 2016, Texas Instruments Incorporated
+6.7.2 TPS563210A Characteristics
+VIN = 12V (unless otherwise noted)
+图图 9. Supply Current vs Junction Temperature 图图 10. VIN Shutdown Current vs Junction Temperature
+图图 11. VFB Voltage vs Junction Temperature 图图 12. EN Current vs EN Voltage
+图图 13. Efficiency vs Output Current
+VI = 5 V
+图图 14. Efficiency vs Output Current
+=== PDF PAGE 9 ===
+400
+450
+500
+550
+600
+650
+700
+750
+800
+4 6 8 10 12 14 16 18
+FSW - Switching Frequency (kHz) 
+Input Voltage (V) 
+Vo = 0.76V
+Vo = 1.05V
+Vo = 6.5V
+C025 
+0
+100
+200
+300
+400
+500
+600
+700
+800
+0.01 0.1 1 10
+FSW - Switching Frequency (kHz) 
+Output Current (A) 
+Vo = 0.76V
+Vo = 1.05V
+Vo = 6.5V
+C026 
+9
+TPS562210A, TPS563210A
+www.ti.com.cn ZHCSFR5 – NOVEMBER 2016
+版权 © 2016, Texas Instruments Incorporated
+TPS563210A Characteristics (接接下下页页)
+图图 15. Switching Frequency vs Input Voltage 图图 16. Switching Frequency vs Output Current
+=== PDF PAGE 10 ===
+2 SW
+ZC
+XCON
+PWM
+Control Logic 
++
++
++
+UVP
+OVP
+3 VIN
+Ton
+One-Shot
+8 VBST
++
+6VFB
+OCL
++
++
+Soft Start
+7EN
+HS
+LS
+1 GND
+SS
+Voltage
+Reference
+Ref
+HiccupVUVP
+VOVP
+OCL 
+threshold
+Regulator
+UVLO
+VREG5
+VREG 5
+TSD
+5SS
+4PG
+VTHPG
++
+Copyright © 2016, Texas Instruments Incorporated
+10
+TPS562210A, TPS563210A
+ZHCSFR5 – NOVEMBER 2016 www.ti.com.cn
+版权 © 2016, Texas Instruments Incorporated
+7 Detailed Description
+7.1 Overview
+The TPS562210A and TPS563210A are 2-A, 3-A synchronous step-down converters. The proprietary D-CAP2™
+mode control supports low ESR output capacitors such as specialty polymer capacitors and multi-layer ceramic
+capacitors without complex external compensation circuits. The fast transient response of D-CAP2™ mode
+control can reduce the output capacitance required to meet a specific level of performance.
+7.2 Functional Block Diagram
+=== PDF PAGE 11 ===
+FBTHCss V 0.86Tss(ms) Iss
+/c180 /c180/c61
+11
+TPS562210A, TPS563210A
+www.ti.com.cn ZHCSFR5 – NOVEMBER 2016
+版权 © 2016, Texas Instruments Incorporated
+7.3 Feature Description
+7.3.1 The Adaptive On-Time Control and PWM Operation
+The main control loop of the TPS562210A and TPS563210A are adaptive on-time pulse width modulation (PWM)
+controller that supports a proprietary D-CAP2™ mode control. The D-CAP2™ mode control combines adaptive
+on-time control with an internal compensation circuit for pseudo-fixed frequency and low external component
+count configuration with both low ESR and ceramic output capacitors. It is stable even with virtually no ripple at
+the output.
+At the beginning of each cycle, the high-side MOSFET is turned on. This MOSFET is turned off after internal one
+shot timer expires. This one shot duration is set proportional to the converter input voltage, VIN, and inversely
+proportional to the output voltage, VO, to maintain a pseudo-fixed frequency over the input voltage range, hence
+it is called adaptive on-time control. The one-shot timer is reset and the high-side MOSFET is turned on again
+when the feedback voltage falls below the reference voltage. An internal ramp is added to reference voltage to
+simulate output ripple, eliminating the need for ESR induced output ripple from D-CAP2™ mode control.
+7.3.2 Soft Start and Pre-Biased Soft Start
+The TPS562210A and TPS563210A have adjustable soft-start. When the EN pin becomes high, the SS charge
+current (ISS) begins charging the capacitor which is connected from the SS pin to GND (CSS). Smooth control of
+the output voltage is maintained during start up. The equation for the soft start time, Tss is shown in 公式 1.
+(1)
+where VFBTH is 0.765 V and Iss is 6 µA.
+If the output capacitor is pre-biased at startup, the devices initiate switching and start ramping up only after the
+internal reference voltage becomes greater than the feedback voltage VFB. This scheme ensures that the
+converters ramp up smoothly into regulation point.
+7.3.3 Power Good
+The power good output, PG is an open drain output. The power good function becomes active after 1.7 times
+soft-start time. When the output voltage becomes within –10% of the target value, internal comparators detect
+power good state and the power good signal becomes high. If the feedback voltage goes under 15% of the target
+value, the power good signal becomes low.
+7.3.4 Current Protection
+The output over-current limit (OCL) is implemented using a cycle-by-cycle valley detect control circuit. The switch
+current is monitored during the OFF state by measuring the low-side FET drain to source voltage. This voltage is
+proportional to the switch current. To improve accuracy, the voltage sensing is temperature compensated.
+During the on time of the high-side FET switch, the switch current increases at a linear rate determined by VIN,
+VOUT, the on-time and the output inductor value. During the on time of the low-side FET switch, this current
+decreases linearly. The average value of the switch current is the load current IOUT. If the monitored current is
+above the OCL level, the converter maintains low-side FET on and delays the creation of a new set pulse, even
+the voltage feedback loop requires one, until the current level becomes OCL level or lower. In subsequent
+switching cycles, the on-time is set to a fixed value and the current is monitored in the same manner. If the over
+current condition exists consecutive switching cycles, the internal OCL threshold is set to a lower level, reducing
+the available output current. When a switching cycle occurs where the switch current is not above the lower OCL
+threshold, the counter is reset and the OCL threshold is returned to the higher value.
+There are some important considerations for this type of over-current protection. The load current is higher than
+the over-current threshold by one half of the peak-to-peak inductor ripple current. Also, when the current is being
+limited, the output voltage tends to fall as the demanded load current may be higher than the current available
+from the converter. This may cause the output voltage to fall. When the VFB voltage falls below the UVP
+threshold voltage, the UVP comparator detects it. And then, the device will shut down after the UVP delay time
+(typically 14 µs) and re-start after the hiccup time.
+When the over current condition is removed, the output voltage returns to the regulated value.
+=== PDF PAGE 12 ===
+/c40 /c41 IN OUT OUT
+OUT(LL)
+SW IN
+V V V1I 2 L f V
+/c45 /c180/c61 /c180 /c180 /c180
+12
+TPS562210A, TPS563210A
+ZHCSFR5 – NOVEMBER 2016 www.ti.com.cn
+版权 © 2016, Texas Instruments Incorporated
+Feature Description (接接下下页页)
+7.3.5 Over Voltage Protection
+TPS562210A and TPS563210A detect over voltage condition by monitoring the feedback voltage (VFB). When
+the feedback voltage becomes higher than 125% of the target voltage, the OVP comparator output goes high
+and the high-side MOSFET is turns off. This function is non-latch operation.
+7.3.6 UVLO Protection
+Under voltage lock out protection (UVLO) monitors the internal regulator voltage. When the voltage is lower than
+UVLO threshold voltage, the device is shut off. This protection is non-latching.
+7.3.7 Thermal Shutdown
+The device monitors the temperature of itself. If the temperature exceeds the threshold value (typically 155°C),
+the device is shut off. This is a non-latch protection.
+7.4 Device Functional Modes
+7.4.1 Advanced Eco-Mode™ Control
+The TPS562210A and TPS563210A are designed with Advanced Eco-mode™ to maintain high light load
+efficiency. As the output current decreases from heavy load condition, the inductor current is also reduced and
+eventually comes to point that its rippled valley touches zero level, which is the boundary between continuous
+conduction and discontinuous conduction modes. The rectifying MOSFET is turned off when the zero inductor
+current is detected. As the load current further decreases the converter runs into discontinuous conduction mode.
+The on-time is kept almost the same as it was in the continuous conduction mode so that it takes longer time to
+discharge the output capacitor with smaller load current to the level of the reference voltage. This makes the
+switching frequency lower, proportional to the load current, and keeps the light load efficiency high. The transition
+point to the light load operation IOUT(LL) current can be calculated in 公式 2.
+(2)
+=== PDF PAGE 13 ===
+P
+OUT OUT
+1F
+2 L C
+/c61
+/c112 /c180
+OUT
+R1V 0.765 1 R2
+/c230 /c246/c61 /c180 /c43 /c231 /c247
+/c232 /c248
+10µF
+C3
+22µF
+C6
+22µF
+C7
+L1 2.2uH
+10µF
+C2
+0.1µF
+C1
+10.0k
+R2
+3.74k
+R1
+0.1µF
+C5
+22µF
+C810.0kR3
+GND 1
+SW 2
+VIN3
+PG 4
+SS5 VFB 6
+EN7
+VBST 8
+U1
+TPS562210A
+8200pF
+C4
+100k
+R4
+VIN = 4.5 - 17 V VOUT = 1.05 V, 2 A
+VOUT
+EN
+VIN
+PG
+13
+TPS562210A, TPS563210A
+www.ti.com.cn ZHCSFR5 – NOVEMBER 2016
+版权 © 2016, Texas Instruments Incorporated
+8 Application and Implementation
+注注
+Information in the following applications sections is not part of the TI component
+specification, and TI does not warrant its accuracy or completeness. TI’s customers are
+responsible for determining suitability of components for their purposes. Customers should
+validate and test their design implementation to confirm system functionality.
+8.1 Application Information
+The TPS562210A and TPS563210A are typically used as step down converters, which convert a voltage from
+4.5 V to 17 V to a lower voltage. Webench software is available to aid in the design and analysis of circuits.
+8.2 Typical Application
+8.2.1 Typical Application, TPS562210A
+4.5-V to 17-V Input, 1.05-V Output Converter.
+图图 17. TPS562210A 1.05V/2A Reference Design
+8.2.1.1 Design Requirements
+For this design example, use the parameters shown in 表 1.
+表表 1. Design Parameters
+PARAMETER VALUES
+Input voltage range 4.5 V to 17 V
+Output voltage 1.05 V
+Output current 2 A
+Output voltage ripple 20 mVp-p
+8.2.1.2 Detailed Design Procedure
+8.2.1.2.1 Output Voltage Resistors Selection
+The output voltage is set with a resistor divider from the output node to the VFB pin. It is recommended to use
+1% tolerance or better divider resistors. Start by using 公式 3 to calculate VOUT.
+To improve efficiency at light loads consider using larger value resistors, too high of resistance are more
+susceptible to noise and voltage errors from the VFB input current are more noticeable.
+(3)
+8.2.1.2.2 Output Filter Selection
+The LC filter used as the output filter has double pole at:
+(4)
+=== PDF PAGE 14 ===
+/c40 /c41OUT IN OUT
+CO(RMS)
+IN O SW
+V V VI
+12 V L ƒ
+/c180 /c45/c61
+/c180 /c180 /c180
+2 2
+LO(RMS) O P P
+1I I I 12 /c45/c61 /c43 l
+P P
+PEAK O
+II I 2
+/c45/c61 /c43 ll
+IN(MAX) OUTOUT
+P P
+IN(MAX) O SW
+V VVI V L ƒ/c45
+/c45
+/c61 /c180 /c180l
+14
+TPS562210A, TPS563210A
+ZHCSFR5 – NOVEMBER 2016 www.ti.com.cn
+版权 © 2016, Texas Instruments Incorporated
+At low frequencies, the overall loop gain is set by the output set-point resistor divider network and the internal
+gain of the device. The low frequency phase is 180 degrees. At the output filter pole frequency, the gain rolls off
+at a –40 dB per decade rate and the phase drops rapidly. D-CAP2™ introduces a high frequency zero that
+reduces the gain roll off to –20 dB per decade and increases the phase to 90 degrees one decade above the
+zero frequency. The inductor and capacitor for the output filter must be selected so that the double pole of 公式 4
+is located below the high frequency zero but close enough that the phase boost provided be the high frequency
+zero provides adequate phase margin for a stable circuit. To meet this requirement use the values recommended
+in 表 2.
+表表 2. TPS562210A Recommended Component Values
+Output Voltage (V) R2 (kΩ) R3 (kΩ)
+L1 (µH)
+C6 + C7 + C8 (µF)
+MIN TYP MAX
+1 3.09 10.0 1.5 2.2 4.7 20 - 68
+1.05 3.74 10.0 1.5 2.2 4.7 20 - 68
+1.2 5.76 10.0 1.5 2.2 4.7 20 - 68
+1.5 9.53 10.0 1.5 2.2 4.7 20 - 68
+1.8 13.7 10.0 1.5 2.2 4.7 20 - 68
+2.5 22.6 10.0 2.2 3.3 4.7 20 - 68
+3.3 33.2 10.0 2.2 3.3 4.7 20 - 68
+5 54.9 10.0 3.3 4.7 4.7 20 - 68
+6.5 75 10.0 3.3 4.7 4.7 20 - 68
+The inductor peak-to-peak ripple current, peak current and RMS current are calculated using 公式 5, 公式 6 and
+公式 7. The inductor saturation current rating must be greater than the calculated peak current and the RMS or
+heating current rating must be greater than the calculated RMS current.
+Use 650 kHz for fSW. Make sure the chosen inductor is rated for the peak current of 公式 6 and the RMS current
+of 公式 7.
+(5)
+(6)
+(7)
+For this design example, the calculated peak current is 2.34 A and the calculated RMS current is 2.01 A. The
+inductor used is a TDK CLF7045T-2R2N with a peak current rating of 5.5 A and an RMS current rating of 4.3 A.
+The capacitor value and ESR determines the amount of output voltage ripple. The TPS562210A and
+TPS563210A are intended for use with ceramic or other low ESR capacitors. Recommended values range from
+20µF to 68µF. Use 公式 8 to determine the required RMS current rating for the output capacitor.
+(8)
+For this design, two TDK C3216X5R0J226M 22 µF output capacitors are used. The typical ESR is 2 mΩ each.
+The calculated RMS current is 0.286A and each output capacitor is rated for 4A.
+8.2.1.2.3 Input Capacitor Selection
+The TPS562210A and TPS563210A require an input decoupling capacitor and a bulk capacitor is needed
+depending on the application. A ceramic capacitor over 10 µF is recommended for the decoupling capacitor. An
+additional 0.1 µF capacitor (C3) from pin 3 to ground is optional to provide additional high frequency filtering. The
+capacitor voltage rating needs to be greater than the maximum input voltage.
+=== PDF PAGE 15 ===
+Input Voltage (V)
+Line Regulation (%)
+4 6 8 10 12 14 16 18
+-0.5
+-0.4
+-0.3
+-0.2
+-0.1
+0
+0.1
+0.2
+0.3
+0.4
+0.5
+D010
+V = 50 mV / div (ac coupled)I
+Time = 1 µsec / div
+SW = 5 V / div
+I = 2 AO
+Output Current (A)
+Load Regulation (%)
+0 0.5 1 1.5 2
+-1
+-0.8
+-0.6
+-0.4
+-0.2
+0
+0.2
+0.4
+0.6
+0.8
+1
+D008
+Output Current (A)
+Load Regulation (%)
+0 0.5 1 1.5 2
+-1
+-0.8
+-0.6
+-0.4
+-0.2
+0
+0.2
+0.4
+0.6
+0.8
+1
+D009
+Output Current (A)
+Efficiency (%)
+0 0.5 1 1.5 2
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+D006
+VIN = 5V
+VIN = 12V
+Output Current (A)
+Efficiency (%)
+0.001 0.01 0.02 0.05 0.1 0.2 0.5 1 2 3 4 5 5
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+D007
+VIN = 5V
+VIN = 12V
+15
+TPS562210A, TPS563210A
+www.ti.com.cn ZHCSFR5 – NOVEMBER 2016
+版权 © 2016, Texas Instruments Incorporated
+8.2.1.2.4 Bootstrap capacitor Selection
+A 0.1µF ceramic capacitor must be connected between the VBST to SW pin for proper operation. It is
+recommended to use a ceramic capacitor.
+8.2.1.3 Application Curves
+The following application curves were generated using the application circuit of 图 17.
+图图 18. TPS562210A Efficiency 图图 19. TPS562210A Light Load Efficiency
+图图 20. TPS562210A Load Regulation, VI = 5 V 图图 21. TPS562210A Load Regulation, VI = 12 V
+图图 22. TPS562210A Line Regulation 图图 23. TPS562210A Input Voltage Ripple
+=== PDF PAGE 16 ===
+VI = 10V/ div
+SS = 5V/ div
+VO = 500mV/ div
+PG = 1V/ div
+Time = 1 msec / div
+EN = 10V/ div
+SS = 5V/ div
+VO = 500mV/ div
+PG = 1V/ div
+Time = 1 msec / div
+V = 20 mV / div (ac coupled)O
+Time = 1 µsec / div
+SW = 5 V / div
+I = 2 AO
+V = 50 mV / div (ac coupled)O
+Time = 200 µsec / div
+I = 500 mA / divO
+Load step = 0.5 A - 1.5 A
+Slew rate = 500 mA / µsec
+V = 20 mV / div (ac coupled)O
+Time = 1 µsec / div
+SW = 5 V / div
+I = 200 mAO
+V = 20 mV / div (ac coupled)O
+Time = 5 msec / div
+SW = 5 V / div
+I = 0 AO
+16
+TPS562210A, TPS563210A
+ZHCSFR5 – NOVEMBER 2016 www.ti.com.cn
+版权 © 2016, Texas Instruments Incorporated
+图图 24. TPS562210A Output Voltage Ripple 图图 25. TPS562210A Output Voltage Ripple
+图图 26. TPS562210A Output Voltage Ripple 图图 27. TPS562210A Transient Response
+图图 28. TPS562210A Start Up Relative To VI 图图 29. TPS562210A Start Up Relative To En
+=== PDF PAGE 17 ===
+VI = 10V/ div
+SS = 5V/ div
+VO = 500mV/ div
+PG = 1V/ div
+Time = 5 msec / div
+EN = 10V/ div
+SS = 5V/ div
+VO = 500mV/ div
+PG = 1V/ div
+Time = 5 msec / div
+17
+TPS562210A, TPS563210A
+www.ti.com.cn ZHCSFR5 – NOVEMBER 2016
+版权 © 2016, Texas Instruments Incorporated
+图图 30. TPS562210A Shut Down Relative To VI 图图 31. TPS562210A Shut Down Relative To EN
+=== PDF PAGE 18 ===
+IN(MAX) OUTOUT
+P P
+IN(MAX) O SW
+V VVI V L ƒ/c45
+/c45
+/c61 /c180 /c180l
+10µF
+C3
+22µF
+C6
+22µF
+C7
+L1 1.5uH
+10µF
+C2
+0.1µF
+C1
+10.0k
+R2
+3.74k
+R1
+0.1µF
+C5
+22µF
+C810.0kR3
+GND 1
+SW 2
+VIN3
+PG 4
+SS5 VFB 6
+EN7
+VBST 8
+U1
+TPS563210A
+8200pF
+C4
+100k
+R4
+VIN = 4.5 - 17 V VOUT = 1.05 V, 3 A
+VOUT
+EN
+VIN
+PG
+18
+TPS562210A, TPS563210A
+ZHCSFR5 – NOVEMBER 2016 www.ti.com.cn
+版权 © 2016, Texas Instruments Incorporated
+8.2.2 Typical Application, TPS563210A
+4.5-V To 17-V Input, 1.05-V Output Converter.
+图图 32. TPS563210A 1.05 V / 3A Reference Design
+8.2.2.1 Design Requirements
+For this design example, use the parameters shown in 表 3.
+表表 3. Design Parameters
+PARAMETER VALUE
+Input voltage range 4.5 V to 17 V
+Output voltage 1.05 V
+Output current 3 A
+Output voltage ripple 20 mVpp
+8.2.2.2 Detailed Design Procedures
+The detailed design procedure for TPS563210A is the same as for TPS562210A except for inductor selection.
+8.2.2.2.1 Output Filter Selection
+表表 4. TPS563210A Recommended Component Values
+Output Voltage (V) R2 (kΩ) R3 (kΩ)
+L1 (µH)
+C6 + C7 + C8 (µF)
+MIN TYP MAX
+1 3.09 10.0 1.0 1.5 4.7 20 - 68
+1.05 3.74 10.0 1.0 1.5 4.7 20 - 68
+1.2 5.76 10.0 1.0 1.5 4.7 20 - 68
+1.5 9.53 10.0 1.0 1.5 4.7 20 - 68
+1.8 13.7 10.0 1.5 2.2 4.7 20 - 68
+2.5 22.6 10.0 1.5 2.2 4.7 20 - 68
+3.3 33.2 10.0 1.5 2.2 4.7 20 - 68
+5 54.9 10.0 2.2 3.3 4.7 20 - 68
+6.5 75 10.0 2.2 3.3 4.7 20 - 68
+The inductor peak-to-peak ripple current, peak current and RMS current are calculated using 公式 9, 公式 10 and
+公式 11. The inductor saturation current rating must be greater than the calculated peak current and the RMS or
+heating current rating must be greater than the calculated RMS current. Use 650 kHz for ƒSW.
+Use 650 kHz for ƒSW. Make sure the chosen inductor is rated for the peak current of 公式 10 and the RMS
+current of 公式 11.
+(9)
+=== PDF PAGE 19 ===
+Output Current (A)
+Load Regulation (%)
+0 0.5 1 1.5 2 2.5 3
+-1
+-0.8
+-0.6
+-0.4
+-0.2
+0
+0.2
+0.4
+0.6
+0.8
+1
+D003
+Output Current (A)
+Load Regulation (%)
+0 0.5 1 1.5 2 2.5 3
+-1
+-0.8
+-0.6
+-0.4
+-0.2
+0
+0.2
+0.4
+0.6
+0.8
+1
+D004
+Output Current (A)
+Efficiency (%)
+0 0.5 1 1.5 2 2.5 3
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+D001
+VIN = 5V
+VIN = 12V
+Output Current (A)
+Efficiency (%)
+0.001 0.01 0.02 0.05 0.1 0.2 0.5 1 2 3 4 5 5
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+D002
+VIN = 5V
+VIN = 12V
+l2 2
+LO(RMS) O P P
+1I I I 12 /c45/c61 /c43
+ll P P
+PEAK O
+II I 2
+/c45/c61 /c43
+19
+TPS562210A, TPS563210A
+www.ti.com.cn ZHCSFR5 – NOVEMBER 2016
+版权 © 2016, Texas Instruments Incorporated
+(10)
+(11)
+For this design example, the calculated peak current is 3.505 A and the calculated RMS current is 3.014 A. The
+inductor used is a TDK CLF7045T-1R5N with a peak current rating of 7.3-A and an RMS current rating of 4.9-A.
+The capacitor value and ESR determines the amount of output voltage ripple. The TPS563209 is intended for
+use with ceramic or other low ESR capacitors. Recommended values range from 20 μF to 68 μF. Use 公式 7 to
+determine the required RMS current rating for the output capacitor. For this design three TDK C3216X5R0J226M
+22 μF output capacitors are used. The typical ESR is 2 mΩ each. The calculated RMS current is 0.292A and
+each output capacitor is rated for 4 A.
+8.2.2.3 Application Curves
+The following application curves were generated using the application circuit of 图 32.
+图图 33. TPS563210A Efficiency 图图 34. TPS563210A Light Load Efficiency
+图图 35. TPS563210A Load Regulation, VI = 5 V 图图 36. TPS563210A Load Regulation, VI = 12 V
+=== PDF PAGE 20 ===
+V = 20 mV / div (ac coupled)O
+Time = 1 µsec / div
+SW = 5 V / div
+I = 3 AO
+V = 50 mV / div (ac coupled)O
+Time = 200 µsec / div
+I = 1 A / divO
+Load step = 0.75 A - 2.25 A
+Slew rate = 500 mA / µsec
+V = 20 mV / div (ac coupled)O
+Time = 1 µsec / div
+SW = 5 V / div
+I = 300 mAO
+V = 20 mV / div (ac coupled)O
+Time = 5 msec / div
+SW = 5 V / div
+I = 0 AO
+Input Voltage (V)
+Line Regulation (%)
+4 6 8 10 12 14 16 18
+-0.5
+-0.4
+-0.3
+-0.2
+-0.1
+0
+0.1
+0.2
+0.3
+0.4
+0.5
+D005
+V = 50 mV / div (ac coupled)I
+Time = 1 µsec / div
+SW = 5 V / div
+I = 3 AO
+20
+TPS562210A, TPS563210A
+ZHCSFR5 – NOVEMBER 2016 www.ti.com.cn
+版权 © 2016, Texas Instruments Incorporated
+图图 37. TPS563210A Line Regulation 图图 38. TPS563210A Input Voltage Ripple
+图图 39. TPS563210A Output Voltage Ripple 图图 40. TPS563210A Output Voltage Ripple
+图图 41. TPS563210A Output Voltage Ripple 图图 42. TPS563210A Transient Response
+=== PDF PAGE 21 ===
+VI = 10V/ div
+SS = 5V/ div
+VO = 500mV/ div
+PG = 1V/ div
+Time = 5 msec / div
+EN = 10V/ div
+SS = 5V/ div
+VO = 500mV/ div
+PG = 1V/ div
+Time = 5 msec / div
+VI = 10V/ div
+SS = 5V/ div
+VO = 500mV/ div
+PG = 1V/ div
+Time = 1 msec / div
+EN = 10V/ div
+SS = 5V/ div
+VO = 500mV/ div
+PG = 1V/ div
+Time = 1 msec / div
+21
+TPS562210A, TPS563210A
+www.ti.com.cn ZHCSFR5 – NOVEMBER 2016
+版权 © 2016, Texas Instruments Incorporated
+图图 43. TPS563210A Start Up Relative To VI 图图 44. TPS563210A Start Up Relative To EN
+图图 45. TPS563210A Shut Down Relative To VI 图图 46. TPS563210A Shut Down Relative To EN
+9 Power Supply Recommendations
+The TPS562210A and TPS563210A are designed to operate from input supply voltage in the range of 4.5 V to
+17 V. Buck converters require the input voltage to be higher than the output voltage for proper operation. The
+maximum recommended operating duty cycle is 65%. Using that criteria, the minimum recommended input
+voltage is VO / 0.65.
+=== PDF PAGE 22 ===
+Vias to the
+internal SW
+node copper
+EN
+VFB
+VBSTGND
+SW
+FEEDBACK
+RESISTORS
+TO ENABLE
+CONTROL
+VIN
+GND
+BOOST
+CAPACITOR
+OUTPUT
+INDUCTOR
+OUTPUT
+CAPACITOR
+VOUT
+INPUT BYPASS
+CAPACITOR
+VIN
+SW node copper
+pour area on internal
+or bottom layer
+Additional
+Vias to the
+GND plane
+HIGH FREQUENCY
+INPUT BYPASS
+CAPACITOR
+Vias to the
+internal SW
+node copper
+SS PG
+SLOW START
+CAPACITOR
+VIA TO INTERNAL
+GROUND PLANE
+PG PULL UP
+RESISTOR
+POWER GOOD
+TO PG PULL
+UP VOLTAGE
+TPS56x10A
+22
+TPS562210A, TPS563210A
+ZHCSFR5 – NOVEMBER 2016 www.ti.com.cn
+版权 © 2016, Texas Instruments Incorporated
+10 Layout
+10.1 Layout Guidelines
+1. VIN and GND traces should be as wide as possible to reduce trace impedance. The wide areas are also of
+advantage from the view point of heat dissipation.
+2. The input capacitor and output capacitor should be placed as close to the device as possible to minimize
+trace impedance.
+3. Provide sufficient vias for the input capacitor and output capacitor.
+4. Keep the SW trace as physically short and wide as practical to minimize radiated emissions.
+5. Do not allow switching current to flow under the device.
+6. A separate VOUT path should be connected to the upper feedback resistor.
+7. Make a Kelvin connection to the GND pin for the feedback path.
+8. Voltage feedback loop should be placed away from the high-voltage switching trace, and preferably has
+ground shield.
+9. The trace of the VFB node should be as small as possible to avoid noise coupling.
+10. The GND trace between the output capacitor and the GND pin should be as wide as possible to minimize its
+trace impedance.
+10.2 Layout Example
+=== PDF PAGE 23 ===
+23
+TPS562210A, TPS563210A
+www.ti.com.cn ZHCSFR5 – NOVEMBER 2016
+版权 © 2016, Texas Instruments Incorporated
+11 器器件件和和文文档档支支持持
+11.1 器器件件支支持持
+11.2 相相关关链链接接
+下面的表格列出了快速访问链接。范围包括技术文档、支持和社区资源、工具和软件，以及样片或购买的快速访
+问。
+表表 5. 相相关关链链接接
+器器件件 产产品品文文件件夹夹 样样片片与与购购买买 技技术术文文档档 工工具具与与软软件件 支支持持与与社社区区
+TPS562210A 请单击此处 请单击此处 请单击此处 请单击此处 请单击此处
+TPS563210A 请单击此处 请单击此处 请单击此处 请单击此处 请单击此处
+11.3 接接收收文文档档更更新新通通知知
+如需接收文档更新通知，请访问 www.ti.com.cn 网站上的器件产品文件夹。点击右上角的提醒我 (Alert me) 注册
+后，即可每周定期收到已更改的产品信息。有关更改的详细信息，请查阅已修订文档中包含的修订历史记录。
+11.4 社社区区资资源源
+The following links connect to TI community resources. Linked contents are provided "AS IS" by the respective
+contributors. They do not constitute TI specifications and do not necessarily reflect TI's views; see TI's Terms of
+Use.
+TI E2E™ Online Community TI's Engineer-to-Engineer (E2E) Community. Created to foster collaboration
+among engineers. At e2e.ti.com, you can ask questions, share knowledge, explore ideas and help
+solve problems with fellow engineers.
+Design Support TI's Design Support Quickly find helpful E2E forums along with design support tools and
+contact information for technical support.
+11.5 商商标标
+D-CAP2, Eco-mode, E2E are trademarks of Texas Instruments.
+蓝光 (Blu-ray) 碟片 is a trademark of Blu-ray Disc Association.
+11.6 静静电电放放电电警警告告
+ESD 可能会损坏该集成电路。德州仪器 (TI) 建议通过适当的预防措施处理所有集成电路。如果不遵守正确的处理措施和安装程序 , 可
+能会损坏集成电路。
+ESD 的损坏小至导致微小的性能降级 , 大至整个器件故障。 精密的集成电路可能更容易受到损坏 , 这是因为非常细微的参数更改都可
+能会导致器件与其发布的规格不相符。
+11.7 Glossary
+SLYZ022 — TI Glossary.
+This glossary lists and explains terms, acronyms, and definitions.
+12 机机械械、、封封装装和和可可订订购购信信息息
+以下页中包括机械、封装和可订购信息。这些信息是针对指定器件可提供的最新数据。这些数据会在无通知且不对
+本文档进行修订的情况下发生改变。欲获得该数据表的浏览器版本，请查阅左侧的导航栏。
+=== PDF PAGE 24 ===
+PACKAGE OPTION ADDENDUM
+www.ti.com 10-Nov-2025
+PACKAGING INFORMATION
+Orderable part number Status
+(1)
+Material type
+(2)
+Package | Pins Package qty | Carrier RoHS
+(3)
+Lead finish/
+Ball material
+(4)
+MSL rating/
+Peak reflow
+(5)
+Op temp (°C) Part marking
+(6)
+TPS562210ADDFR Active Production SOT-23-THIN (DDF) | 8 3000 | LARGE T&R Yes SN Level-1-260C-UNLIM -40 to 85 2210A
+TPS562210ADDFR.A Active Production SOT-23-THIN (DDF) | 8 3000 | LARGE T&R Yes SN Level-1-260C-UNLIM -40 to 85 2210A
+TPS562210ADDFR.B Active Production SOT-23-THIN (DDF) | 8 3000 | LARGE T&R Yes SN Level-1-260C-UNLIM -40 to 85 2210A
+TPS562210ADDFT Active Production SOT-23-THIN (DDF) | 8 250 | SMALL T&R Yes SN Level-1-260C-UNLIM -40 to 85 2210A
+TPS562210ADDFT.A Active Production SOT-23-THIN (DDF) | 8 250 | SMALL T&R Yes SN Level-1-260C-UNLIM -40 to 85 2210A
+TPS562210ADDFT.B Active Production SOT-23-THIN (DDF) | 8 250 | SMALL T&R Yes SN Level-1-260C-UNLIM -40 to 85 2210A
+TPS563210ADDFR Active Production SOT-23-THIN (DDF) | 8 3000 | LARGE T&R Yes SN Level-1-260C-UNLIM -40 to 85 3210A
+TPS563210ADDFR.A Active Production SOT-23-THIN (DDF) | 8 3000 | LARGE T&R Yes SN Level-1-260C-UNLIM -40 to 85 3210A
+TPS563210ADDFR.B Active Production SOT-23-THIN (DDF) | 8 3000 | LARGE T&R Yes SN Level-1-260C-UNLIM -40 to 85 3210A
+TPS563210ADDFT Active Production SOT-23-THIN (DDF) | 8 250 | SMALL T&R Yes SN Level-1-260C-UNLIM -40 to 85 3210A
+TPS563210ADDFT.A Active Production SOT-23-THIN (DDF) | 8 250 | SMALL T&R Yes SN Level-1-260C-UNLIM -40 to 85 3210A
+TPS563210ADDFT.B Active Production SOT-23-THIN (DDF) | 8 250 | SMALL T&R Yes SN Level-1-260C-UNLIM -40 to 85 3210A
+ 
+(1) Status:  For more details on status, see our product life cycle.
+ 
+(2) Material type:  When designated, preproduction parts are prototypes/experimental devices, and are not yet approved or released for full production. Testing and final process, including without limitation quality assurance,
+reliability performance testing, and/or process qualification, may not yet be complete, and this item is subject to further changes or possible discontinuation. If available for ordering, purchases will be subject to an additional
+waiver at checkout, and are intended for early internal evaluation purposes only. These items are sold without warranties of any kind.
+ 
+(3) RoHS values:  Yes, No, RoHS Exempt. See the TI RoHS Statement for additional information and value definition.
+ 
+(4) Lead finish/Ball material:  Parts may have multiple material finish options. Finish options are separated by a vertical ruled line. Lead finish/Ball material values may wrap to two lines if the finish value exceeds the maximum
+column width.
+ 
+(5) MSL rating/Peak reflow:  The moisture sensitivity level ratings and peak solder (reflow) temperatures. In the event that a part has multiple moisture sensitivity ratings, only the lowest level per JEDEC standards is shown.
+Refer to the shipping label for the actual reflow temperature that will be used to mount the part to the printed circuit board.
+ 
+(6) Part marking:  There may be an additional marking, which relates to the logo, the lot trace code information, or the environmental category of the part.
+ 
+Multiple part markings will be inside parentheses. Only one part marking contained in parentheses and separated by a "~" will appear on a part. If a line is indented then it is a continuation of the previous line and the two
+combined represent the entire part marking for that device.
+Addendum-Page 1
+=== PDF PAGE 25 ===
+PACKAGE OPTION ADDENDUM
+www.ti.com 10-Nov-2025
+ 
+Important Information and Disclaimer:The information provided on this page represents TI's knowledge and belief as of the date that it is provided. TI bases its knowledge and belief on information provided by third parties, and
+makes no representation or warranty as to the accuracy of such information. Efforts are underway to better integrate information from third parties. TI has taken and continues to take reasonable steps to provide representative
+and accurate information but may not have conducted destructive testing or chemical analysis on incoming materials and chemicals. TI and TI suppliers consider certain information to be proprietary, and thus CAS numbers
+and other limited information may not be available for release.
+ 
+In no event shall TI's liability arising out of such information exceed the total purchase price of the TI part(s) at issue in this document sold by TI to Customer on an annual basis.
+ 
+Addendum-Page 2
+=== PDF PAGE 26 ===
+www.ti.com
+PACKAGE OUTLINE
+C
+2.95
+2.65 TYP
+1.1
+MAX
+6X 0.65
+8X 0.38
+0.22
+2X
+1.95
+0.20
+0.08 TYP
+0 - 8 0.1
+0.0
+0.25
+GAGE PLANE
+0.6
+0.3
+4X 0 -15
+4X 4 -15
+A
+2.95
+2.85
+NOTE 3
+B 1.65
+1.55
+4222047/E   07/2024
+SOT-23-THIN - 1.1 mm max heightDDF0008A
+PLASTIC SMALL OUTLINE
+NOTES: 
+ 
+1. All linear dimensions are in millimeters. Any dimensions in parenthesis are for reference only. Dimensioning and tolerancing
+    per ASME Y14.5M. 
+2. This drawing is subject to change without notice. 
+3. This dimension does not include mold flash, protrusions, or gate burrs. Mold flash, protrusions, or gate burrs shall not
+    exceed 0.15 mm per side.
+ 
+1 8
+0.1 C A B
+5
+4
+PIN 1 ID
+AREA
+SEATING PLANE
+0.1 C
+ SEE DETAIL A
+DETAIL A
+TYPICAL
+SCALE  4.000
+=== PDF PAGE 27 ===
+www.ti.com
+EXAMPLE BOARD LAYOUT
+(2.6)
+0.05 MAX
+ALL AROUND 0.05 MIN
+ALL AROUND
+8X (1.05)
+8X (0.45)
+6X (0.65)
+(R0.05)
+TYP
+4222047/E   07/2024
+SOT-23-THIN - 1.1 mm max heightDDF0008A
+PLASTIC SMALL OUTLINE
+SYMM
+SYMM
+LAND PATTERN EXAMPLE
+EXPOSED METAL SHOWN
+SCALE:15X
+1
+4 5
+8
+NOTES: (continued)
+ 
+4. Publication IPC-7351 may have alternate designs. 
+5. Solder mask tolerances between and around signal pads can vary based on board fabrication site.
+ 
+METALSOLDER MASK
+OPENING
+NON SOLDER MASK
+DEFINED
+SOLDER MASK DETAILS
+EXPOSED
+METAL
+SOLDER MASK
+OPENING
+METAL UNDER
+SOLDER MASK
+SOLDER MASK
+DEFINED
+EXPOSED
+METAL
+=== PDF PAGE 28 ===
+www.ti.com
+EXAMPLE STENCIL DESIGN
+(2.6)
+6X (0.65)
+8X (0.45)
+8X (1.05)
+(R0.05) TYP
+4222047/E   07/2024
+SOT-23-THIN - 1.1 mm max heightDDF0008A
+PLASTIC SMALL OUTLINE
+NOTES: (continued)
+ 
+6. Laser cutting apertures with trapezoidal walls and rounded corners may offer better paste release. IPC-7525 may have alternate
+    design recommendations.   
+7. Board assembly site may have different recommendations for stencil design.
+ 
+SYMM
+SYMM
+1
+4 5
+8
+SOLDER PASTE EXAMPLE
+BASED ON 0.125 mm THICK STENCIL
+SCALE:15X
+=== PDF PAGE 29 ===
+重要通知和免责声明
+TI“按原样”提供技术和可靠性数据（包括数据表）、设计资源（包括参考设计）、应用或其他设计建议、网络工具、安全信息和其他资源，不
+保证没有瑕疵且不做出任何明示或暗示的担保，包括但不限于对适销性、与某特定用途的适用性或不侵犯任何第三方知识产权的暗示担保。
+这些资源可供使用 TI 产品进行设计的熟练开发人员使用。您将自行承担以下全部责任：(1) 针对您的应用选择合适的 TI 产品，(2) 设计、验
+证并测试您的应用，(3) 确保您的应用满足相应标准以及任何其他安全、安保法规或其他要求。
+这些资源如有变更，恕不另行通知。TI 授权您仅可将这些资源用于研发本资源所述的 TI 产品的相关应用。严禁以其他方式对这些资源进行复
+制或展示。您无权使用任何其他 TI 知识产权或任何第三方知识产权。对于因您对这些资源的使用而对 TI 及其代表造成的任何索赔、损害、
+成本、损失和债务，您将全额赔偿，TI 对此概不负责。
+TI 提供的产品受 TI 销售条款)、TI 通用质量指南 或 ti.com 上其他适用条款或 TI 产品随附的其他适用条款的约束。TI 提供这些资源并不会扩
+展或以其他方式更改 TI 针对 TI 产品发布的适用的担保或担保免责声明。 除非德州仪器 (TI) 明确将某产品指定为定制产品或客户特定产品，
+否则其产品均为按确定价格收入目录的标准通用器件。
+TI 反对并拒绝您可能提出的任何其他或不同的条款。
+IMPORTANT NOTICE
+版权所有 © 2025，德州仪器 (TI) 公司
+最后更新日期：2025 年 10 月

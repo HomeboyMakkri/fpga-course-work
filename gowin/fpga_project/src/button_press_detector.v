@@ -1,7 +1,7 @@
 module button_press_detector
 (
-    input Clock,
-    input btn_input, //active - high
+    input  Clock,
+    input  btn_input, //active - high
     output press_pulse
 );
 reg previous = 0;

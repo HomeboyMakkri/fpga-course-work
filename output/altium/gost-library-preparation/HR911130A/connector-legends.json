@@ -1,0 +1,182 @@
+[
+  {
+    "part": 1,
+    "text": "BI_DA+",
+    "x": 3149606,
+    "y": -2362205,
+    "color": 0,
+    "font": "GOST Common",
+    "size": 10
+  },
+  {
+    "part": 1,
+    "text": "BI_DA-",
+    "x": 3149606,
+    "y": -4724409,
+    "color": 0,
+    "font": "GOST Common",
+    "size": 10
+  },
+  {
+    "part": 1,
+    "text": "BI_DB+",
+    "x": 3149606,
+    "y": -7086614,
+    "color": 0,
+    "font": "GOST Common",
+    "size": 10
+  },
+  {
+    "part": 1,
+    "text": "BI_DB-",
+    "x": 3149606,
+    "y": -9448819,
+    "color": 0,
+    "font": "GOST Common",
+    "size": 10
+  },
+  {
+    "part": 1,
+    "text": "BI_DC+",
+    "x": 3149606,
+    "y": -11811024,
+    "color": 0,
+    "font": "GOST Common",
+    "size": 10
+  },
+  {
+    "part": 1,
+    "text": "BI_DC-",
+    "x": 3149606,
+    "y": -14173228,
+    "color": 0,
+    "font": "GOST Common",
+    "size": 10
+  },
+  {
+    "part": 1,
+    "text": "BI_DD+",
+    "x": 3149606,
+    "y": -16535433,
+    "color": 0,
+    "font": "GOST Common",
+    "size": 10
+  },
+  {
+    "part": 1,
+    "text": "BI_DD-",
+    "x": 3149606,
+    "y": -18897638,
+    "color": 0,
+    "font": "GOST Common",
+    "size": 10
+  },
+  {
+    "part": 1,
+    "text": "CT",
+    "x": 25984252,
+    "y": -2362205,
+    "color": 0,
+    "font": "GOST Common",
+    "size": 10
+  },
+  {
+    "part": 1,
+    "text": "TERM",
+    "x": 25984252,
+    "y": -4724409,
+    "color": 0,
+    "font": "GOST Common",
+    "size": 10
+  },
+  {
+    "part": 1,
+    "text": "4 x 1:1",
+    "x": 14566929,
+    "y": -7086614,
+    "color": 0,
+    "font": "GOST Common",
+    "size": 10
+  },
+  {
+    "part": 1,
+    "text": "MAGNETICS",
+    "x": 14566929,
+    "y": -9448819,
+    "color": 0,
+    "font": "GOST Common",
+    "size": 10
+  },
+  {
+    "part": 1,
+    "text": "RJ45",
+    "x": 14566929,
+    "y": -14173228,
+    "color": 0,
+    "font": "GOST Common",
+    "size": 10
+  },
+  {
+    "part": 2,
+    "text": "GREEN A",
+    "x": 3543307,
+    "y": -2362205,
+    "color": 0,
+    "font": "GOST Common",
+    "size": 10
+  },
+  {
+    "part": 2,
+    "text": "GREEN K",
+    "x": 3543307,
+    "y": -4724409,
+    "color": 0,
+    "font": "GOST Common",
+    "size": 10
+  },
+  {
+    "part": 2,
+    "text": "YELLOW A",
+    "x": 3543307,
+    "y": -7086614,
+    "color": 0,
+    "font": "GOST Common",
+    "size": 10
+  },
+  {
+    "part": 2,
+    "text": "YELLOW K",
+    "x": 3543307,
+    "y": -9448819,
+    "color": 0,
+    "font": "GOST Common",
+    "size": 10
+  },
+  {
+    "part": 2,
+    "text": "SHIELD",
+    "x": 25590551,
+    "y": -2362205,
+    "color": 0,
+    "font": "GOST Common",
+    "size": 10
+  },
+  {
+    "part": 2,
+    "text": "SHIELD",
+    "x": 25590551,
+    "y": -4724409,
+    "color": 0,
+    "font": "GOST Common",
+    "size": 10
+  },
+  {
+    "part": 2,
+    "text": "LED",
+    "x": 14566929,
+    "y": -4724409,
+    "color": 0,
+    "font": "GOST Common",
+    "size": 10
+  }
+]

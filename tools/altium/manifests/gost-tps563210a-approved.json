@@ -1,0 +1,30 @@
+{
+  "component": "TPS563210A",
+  "description": "Texas Instruments TPS563210A; DDF; user-approved three-field GOST-style presentation",
+  "source": "https://www.ti.com/lit/ds/symlink/tps563210a.pdf; pin table page 3; accepted symbol output/altium/TPS563210A",
+  "electrical_policy": "power",
+  "font_name": "GOST Common",
+  "font_size_pt": 10,
+  "pin_length_mm": 5,
+  "designator": "DA?",
+  "comment": "TPS563210A",
+  "parameters": {"Manufacturer": "Texas Instruments", "MPN": "TPS563210A", "Package": "DDF", "Datasheet": "https://www.ti.com/lit/ds/symlink/tps563210a.pdf", "OrderingSuffix": "DDFR/DDFT packaging not selected"},
+  "parts": [{
+    "id": 1,
+    "function": "DC/DC",
+    "column_widths_mm": [12, 11, 12],
+    "pitch_mm": 6,
+    "row_start_mm": 6,
+    "label_y_mm": -3,
+    "pins": [
+      {"designator": "3", "name": "VIN", "side": "left"},
+      {"designator": "7", "name": "EN", "side": "left"},
+      {"designator": "5", "name": "SS", "side": "left"},
+      {"designator": "6", "name": "VFB", "side": "left"},
+      {"designator": "8", "name": "VBST", "side": "right"},
+      {"designator": "2", "name": "SW", "side": "right"},
+      {"designator": "4", "name": "PG", "side": "right"},
+      {"designator": "1", "name": "GND", "side": "right"}
+    ]
+  }]
+}

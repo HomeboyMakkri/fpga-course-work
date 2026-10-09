@@ -1,0 +1,150 @@
+{
+  "scope": "This preparation attempt; partial, not a completed component package",
+  "date": "2026-10-08",
+  "report": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\output\\altium\\component-preparation\\validation.json",
+  "component": {
+    "saved_components": [
+      "W25Q128JVSIQ"
+    ],
+    "saved_parameters": [
+      {
+        "RECORD": "41",
+        "OWNERPARTID": "-1",
+        "JUSTIFICATION": "3",
+        "COLOR": "8388608",
+        "FONTID": "2",
+        "ISHIDDEN": "T",
+        "TEXT": "https://www.snapeda.com/parts/W25Q128JVSIQ/Winbond/view-part/?ref=snap",
+        "NAME": "SnapEDA_Link",
+        "UNIQUEID": "IEWXTQLP"
+      },
+      {
+        "RECORD": "41",
+        "INDEXINSHEET": "1",
+        "OWNERPARTID": "-1",
+        "JUSTIFICATION": "3",
+        "COLOR": "8388608",
+        "FONTID": "1",
+        "ISHIDDEN": "T",
+        "TEXT": "SOIC-8 Winbond Electronics",
+        "NAME": "Package",
+        "UNIQUEID": "SGSPOEMN"
+      },
+      {
+        "RECORD": "41",
+        "INDEXINSHEET": "2",
+        "OWNERPARTID": "-1",
+        "JUSTIFICATION": "3",
+        "FONTID": "3",
+        "ISHIDDEN": "T",
+        "TEXT": "*",
+        "NAME": "Value",
+        "UNIQUEID": "YHXPSVGO"
+      },
+      {
+        "RECORD": "41",
+        "INDEXINSHEET": "3",
+        "OWNERPARTID": "-1",
+        "JUSTIFICATION": "3",
+        "COLOR": "8388608",
+        "FONTID": "1",
+        "ISHIDDEN": "T",
+        "TEXT": "Winbond Electronics",
+        "NAME": "MF",
+        "SHOWNAME": "T",
+        "UNIQUEID": "KEBVXMYN"
+      },
+      {
+        "RECORD": "41",
+        "INDEXINSHEET": "4",
+        "OWNERPARTID": "-1",
+        "JUSTIFICATION": "3",
+        "COLOR": "8388608",
+        "FONTID": "1",
+        "ISHIDDEN": "T",
+        "TEXT": "W25Q128JVSIQ",
+        "NAME": "MP",
+        "UNIQUEID": "AHUPSEXH"
+      },
+      {
+        "RECORD": "41",
+        "INDEXINSHEET": "5",
+        "OWNERPARTID": "-1",
+        "JUSTIFICATION": "3",
+        "COLOR": "8388608",
+        "FONTID": "2",
+        "ISHIDDEN": "T",
+        "TEXT": "https://www.snapeda.com/parts/W25Q128JVSIQ/Winbond/view-part/?ref=eda",
+        "NAME": "Check_prices",
+        "UNIQUEID": "HNYUFWFH"
+      },
+      {
+        "RECORD": "41",
+        "INDEXINSHEET": "-1",
+        "OWNERPARTID": "-1",
+        "LOCATION.X": "59",
+        "LOCATION.X_FRAC": "5512",
+        "LOCATION.Y": "19",
+        "LOCATION.Y_FRAC": "68504",
+        "COLOR": "8388608",
+        "FONTID": "3",
+        "ISHIDDEN": "T",
+        "TEXT": "W25Q128JVSIQ",
+        "NAME": "Comment",
+        "UNIQUEID": "EVYCFKCC"
+      }
+    ],
+    "model_fingerprint": {
+      "W25Q128JVSIQ/Data:implementation_records": [
+        "{\"DatafileCount\": \"1\", \"IsCurrent\": \"T\", \"ModelDatafileEntity0\": \"SOIC127P790X216-8N\", \"ModelDatafileKind0\": \"PCBLib\", \"ModelName\": \"SOIC127P790X216-8N\", \"ModelType\": \"PCBLIB\", \"RECORD\": \"45\"}",
+        "{\"RECORD\": \"44\"}",
+        "{\"RECORD\": \"46\"}",
+        "{\"RECORD\": \"48\"}"
+      ]
+    },
+    "path": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\W25Q128JV\\new\\W25Q128JVSIQ.SchLib",
+    "saved_sha256": "313b7ae071c55d5488b8fb311a4d75da42211f6f14c106893f3b728975bb0ebc",
+    "grid_mutation_saved": true,
+    "native_save_reopen": false,
+    "source_defects": [
+      "pin7 RESET instead of IO3",
+      "all pins electrical7 Power"
+    ],
+    "correction_state": "STARTED_WITHOUT_COMPLETION; unsaved state unknown",
+    "connected_new_working_library": false,
+    "model_resolution_from_target_project": null,
+    "erc": null,
+    "ready_full_lifecycle": false,
+    "stages": {
+      "1_exact_component_source": "existing native source + manufacturer evidence",
+      "2_native_import_or_existing_reuse": "existing native source reused in separate explicit working copy",
+      "3_isolation": "single original Flash/footprint only",
+      "4_gost_mm": "layout saved; source defect correction and native validation blocked",
+      "5_save_reopen_validate": "not completed",
+      "6_project_connection_resolution": "not completed"
+    },
+    "blockers": [
+      "B01",
+      "B02",
+      "B03"
+    ]
+  },
+  "source_files": [
+    {
+      "source": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\W25Q128JV\\source\\W25Q128JVSIQ.SchLib",
+      "destination": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\W25Q128JV\\new\\W25Q128JVSIQ.SchLib",
+      "source_sha256": "a0cab69e8b4cf5e0f2d7d9776bda3527bf35df02c21aa888795b81cf132ee521",
+      "destination_sha256": "a0cab69e8b4cf5e0f2d7d9776bda3527bf35df02c21aa888795b81cf132ee521",
+      "current_source_sha256": "a0cab69e8b4cf5e0f2d7d9776bda3527bf35df02c21aa888795b81cf132ee521",
+      "unchanged": true
+    },
+    {
+      "source": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\W25Q128JV\\source\\SOIC127P790X216-8N.PcbLib",
+      "destination": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\W25Q128JV\\new\\SOIC127P790X216-8N.PcbLib",
+      "source_sha256": "fc99c1b590db05c627a6db7ad144397d89b2dbb4e5e8f484f602e91ff264ea50",
+      "destination_sha256": "fc99c1b590db05c627a6db7ad144397d89b2dbb4e5e8f484f602e91ff264ea50",
+      "current_source_sha256": "fc99c1b590db05c627a6db7ad144397d89b2dbb4e5e8f484f602e91ff264ea50",
+      "unchanged": true
+    }
+  ]
+}

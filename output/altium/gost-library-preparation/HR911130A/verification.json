@@ -1,0 +1,27 @@
+{
+  "success": true,
+  "checks": {
+    "identity": true,
+    "pins": true,
+    "fonts": true,
+    "black": true,
+    "body_dividers_header": true,
+    "document_grids": true,
+    "endpoint_grid": true,
+    "models_and_maps_unchanged": true,
+    "other_components_unchanged": true
+  },
+  "component": "HR911130A",
+  "pins": 16,
+  "parts": 2,
+  "electrical_policy": "power",
+  "max_endpoint_grid_error_mm": 1.1400000001771105e-06,
+  "path": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\HR911130A\\new\\HR911130A.SchLib",
+  "sha256": "abf36ef72c70cc7a0f78179f5bd7894709f9b49615271590611920dac89b4c43",
+  "native_result_file": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\output\\altium\\gost-library-preparation\\HR911130A\\base-readback-result.json",
+  "visual_review": "Native/saved-geometry visual review still required; this validates geometry and typography, not formal GOST certification.",
+  "project_resolution": "Separate step when project connection is requested; never inferred from a model name.",
+  "erc": "Separate step for placed components; not proved by symbol readback.",
+  "connector_legends_verified": true,
+  "complete_native_readback": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\output\\altium\\gost-library-preparation\\HR911130A\\readback-result.json"
+}

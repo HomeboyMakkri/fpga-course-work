@@ -1,0 +1,337 @@
+{
+  "component": "HR911130A",
+  "mode": "redraw",
+  "electrical_policy": "power",
+  "pin_length_mm": 5.0,
+  "font_name": "GOST Common",
+  "font_size_pt": 10,
+  "parts": [
+    {
+      "id": 1,
+      "function": "RJ45 / MAGNETICS",
+      "width_mm": 74.0,
+      "height_mm": 54.0,
+      "dividers_mm": [
+        18.0,
+        56.0
+      ],
+      "label_mm": [
+        37.0,
+        -3.0
+      ],
+      "pins": [
+        {
+          "designator": "2",
+          "name": "2",
+          "part": 1,
+          "x_mm": 0,
+          "y_mm": -6.0,
+          "orientation": 2,
+          "electrical": 7
+        },
+        {
+          "designator": "3",
+          "name": "3",
+          "part": 1,
+          "x_mm": 0,
+          "y_mm": -12.0,
+          "orientation": 2,
+          "electrical": 7
+        },
+        {
+          "designator": "4",
+          "name": "4",
+          "part": 1,
+          "x_mm": 0,
+          "y_mm": -18.0,
+          "orientation": 2,
+          "electrical": 7
+        },
+        {
+          "designator": "7",
+          "name": "7",
+          "part": 1,
+          "x_mm": 0,
+          "y_mm": -24.0,
+          "orientation": 2,
+          "electrical": 7
+        },
+        {
+          "designator": "5",
+          "name": "5",
+          "part": 1,
+          "x_mm": 0,
+          "y_mm": -30.0,
+          "orientation": 2,
+          "electrical": 7
+        },
+        {
+          "designator": "6",
+          "name": "6",
+          "part": 1,
+          "x_mm": 0,
+          "y_mm": -36.0,
+          "orientation": 2,
+          "electrical": 7
+        },
+        {
+          "designator": "8",
+          "name": "8",
+          "part": 1,
+          "x_mm": 0,
+          "y_mm": -42.0,
+          "orientation": 2,
+          "electrical": 7
+        },
+        {
+          "designator": "9",
+          "name": "9",
+          "part": 1,
+          "x_mm": 0,
+          "y_mm": -48.0,
+          "orientation": 2,
+          "electrical": 7
+        },
+        {
+          "designator": "1",
+          "name": "1",
+          "part": 1,
+          "x_mm": 74.0,
+          "y_mm": -6.0,
+          "orientation": 0,
+          "electrical": 7
+        },
+        {
+          "designator": "10",
+          "name": "10",
+          "part": 1,
+          "x_mm": 74.0,
+          "y_mm": -12.0,
+          "orientation": 0,
+          "electrical": 7
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "function": "LED / SHIELD",
+      "width_mm": 74.0,
+      "height_mm": 30.0,
+      "dividers_mm": [
+        18.0,
+        56.0
+      ],
+      "label_mm": [
+        37.0,
+        -3.0
+      ],
+      "pins": [
+        {
+          "designator": "11",
+          "name": "11",
+          "part": 2,
+          "x_mm": 0,
+          "y_mm": -6.0,
+          "orientation": 2,
+          "electrical": 7
+        },
+        {
+          "designator": "12",
+          "name": "12",
+          "part": 2,
+          "x_mm": 0,
+          "y_mm": -12.0,
+          "orientation": 2,
+          "electrical": 7
+        },
+        {
+          "designator": "14",
+          "name": "14",
+          "part": 2,
+          "x_mm": 0,
+          "y_mm": -18.0,
+          "orientation": 2,
+          "electrical": 7
+        },
+        {
+          "designator": "13",
+          "name": "13",
+          "part": 2,
+          "x_mm": 0,
+          "y_mm": -24.0,
+          "orientation": 2,
+          "electrical": 7
+        },
+        {
+          "designator": "15",
+          "name": "15",
+          "part": 2,
+          "x_mm": 74.0,
+          "y_mm": -6.0,
+          "orientation": 0,
+          "electrical": 7
+        },
+        {
+          "designator": "16",
+          "name": "16",
+          "part": 2,
+          "x_mm": 74.0,
+          "y_mm": -12.0,
+          "orientation": 0,
+          "electrical": 7
+        }
+      ]
+    }
+  ],
+  "pins": [
+    {
+      "designator": "2",
+      "name": "2",
+      "part": 1,
+      "x_mm": 0,
+      "y_mm": -6.0,
+      "orientation": 2,
+      "electrical": 7
+    },
+    {
+      "designator": "3",
+      "name": "3",
+      "part": 1,
+      "x_mm": 0,
+      "y_mm": -12.0,
+      "orientation": 2,
+      "electrical": 7
+    },
+    {
+      "designator": "4",
+      "name": "4",
+      "part": 1,
+      "x_mm": 0,
+      "y_mm": -18.0,
+      "orientation": 2,
+      "electrical": 7
+    },
+    {
+      "designator": "7",
+      "name": "7",
+      "part": 1,
+      "x_mm": 0,
+      "y_mm": -24.0,
+      "orientation": 2,
+      "electrical": 7
+    },
+    {
+      "designator": "5",
+      "name": "5",
+      "part": 1,
+      "x_mm": 0,
+      "y_mm": -30.0,
+      "orientation": 2,
+      "electrical": 7
+    },
+    {
+      "designator": "6",
+      "name": "6",
+      "part": 1,
+      "x_mm": 0,
+      "y_mm": -36.0,
+      "orientation": 2,
+      "electrical": 7
+    },
+    {
+      "designator": "8",
+      "name": "8",
+      "part": 1,
+      "x_mm": 0,
+      "y_mm": -42.0,
+      "orientation": 2,
+      "electrical": 7
+    },
+    {
+      "designator": "9",
+      "name": "9",
+      "part": 1,
+      "x_mm": 0,
+      "y_mm": -48.0,
+      "orientation": 2,
+      "electrical": 7
+    },
+    {
+      "designator": "1",
+      "name": "1",
+      "part": 1,
+      "x_mm": 74.0,
+      "y_mm": -6.0,
+      "orientation": 0,
+      "electrical": 7
+    },
+    {
+      "designator": "10",
+      "name": "10",
+      "part": 1,
+      "x_mm": 74.0,
+      "y_mm": -12.0,
+      "orientation": 0,
+      "electrical": 7
+    },
+    {
+      "designator": "11",
+      "name": "11",
+      "part": 2,
+      "x_mm": 0,
+      "y_mm": -6.0,
+      "orientation": 2,
+      "electrical": 7
+    },
+    {
+      "designator": "12",
+      "name": "12",
+      "part": 2,
+      "x_mm": 0,
+      "y_mm": -12.0,
+      "orientation": 2,
+      "electrical": 7
+    },
+    {
+      "designator": "14",
+      "name": "14",
+      "part": 2,
+      "x_mm": 0,
+      "y_mm": -18.0,
+      "orientation": 2,
+      "electrical": 7
+    },
+    {
+      "designator": "13",
+      "name": "13",
+      "part": 2,
+      "x_mm": 0,
+      "y_mm": -24.0,
+      "orientation": 2,
+      "electrical": 7
+    },
+    {
+      "designator": "15",
+      "name": "15",
+      "part": 2,
+      "x_mm": 74.0,
+      "y_mm": -6.0,
+      "orientation": 0,
+      "electrical": 7
+    },
+    {
+      "designator": "16",
+      "name": "16",
+      "part": 2,
+      "x_mm": 74.0,
+      "y_mm": -12.0,
+      "orientation": 0,
+      "electrical": 7
+    }
+  ],
+  "designator": "DA?",
+  "comment": "HR911130A",
+  "description": "HR911130A",
+  "parameters": {},
+  "source": "HanRun REV B manufacturer schematic pages 1 and 3, preserved local PDF"
+}

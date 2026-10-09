@@ -1,0 +1,57 @@
+{
+  "component": "ASV-50.000MHZ-LRS-T",
+  "path": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\ASV-50MHz\\new\\Schlib1.SchLib",
+  "units": "mm",
+  "snap_grid_mm": 1,
+  "auxiliary_grid_mm": 0.5,
+  "length_mm": 5,
+  "font_name": "GOST Common",
+  "font_size_pt": 10,
+  "parts": [
+    {
+      "id": 1,
+      "label": "G",
+      "body_mm": [
+        0,
+        -17,
+        65,
+        2
+      ],
+      "label_mm": [
+        32.5,
+        -1
+      ],
+      "pins": [
+        {
+          "designator": "1",
+          "name": "TRI-STATE_ENABLE/DISABLE",
+          "x_mm": 0,
+          "y_mm": -12,
+          "orientation": 2
+        },
+        {
+          "designator": "2",
+          "name": "GND/CASE",
+          "x_mm": 65,
+          "y_mm": -12,
+          "orientation": 0
+        },
+        {
+          "designator": "3",
+          "name": "OUTPUT",
+          "x_mm": 65,
+          "y_mm": -6,
+          "orientation": 0
+        },
+        {
+          "designator": "4",
+          "name": "VDD",
+          "x_mm": 0,
+          "y_mm": -6,
+          "orientation": 2
+        }
+      ]
+    }
+  ],
+  "source_snapshot": "evidence/asv-native-before.json"
+}

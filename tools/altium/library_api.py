@@ -71,6 +71,7 @@ while P <> Nil do begin
     +',"part":'+IntToStr(P.OwnerPartId)+',"display_mode":'+IntToStr(P.OwnerPartDisplayMode)
     +',"x_coord":'+IntToStr(P.Location.X)+',"y_coord":'+IntToStr(P.Location.Y)
     +',"orientation":'+IntToStr(P.Orientation)+',"electrical":'+IntToStr(P.Electrical)
+    +',"show_name":'+LowerCase(BoolToStr(P.ShowName,True))+',"show_designator":'+LowerCase(BoolToStr(P.ShowDesignator,True))
     +',"length_coord":'+IntToStr(P.PinLength)+',"name_font_mode":'+IntToStr(P.GetState_Name_FontMode)
     +',"designator_font_mode":'+IntToStr(P.GetState_Designator_FontMode);
   SchServer.FontManager.GetFontSpec(P.GetState_Name_CustomFontID,Sz,Rot,U,It,B,S,FN);

@@ -1,0 +1,294 @@
+{
+  "component": "TPS563210A",
+  "pins": 8,
+  "parts": 1,
+  "native_saved_reopened": true,
+  "schlib_sha256": "29b61deb86c4312e8446a4b3a297840959415c79bbb8def53616f94fc37d0032",
+  "pcblib_sha256": "e79085bf6cae8f2ad77f42ab562f367dc8a559b13efa7efa69152cbf7ca8ae7b",
+  "existing_pcblib_unchanged": true,
+  "checks": [
+    {
+      "pin": "3",
+      "name": "VIN",
+      "name_type_match": true,
+      "layout_match": true,
+      "length_mm": 5.00000016,
+      "endpoint_mm": [
+        -5.00000016,
+        -6.000000699999999
+      ],
+      "grid_error_mm": 6.99999999298484e-07,
+      "grid_pass": true,
+      "font_pass": true
+    },
+    {
+      "pin": "7",
+      "name": "EN",
+      "name_type_match": true,
+      "layout_match": true,
+      "length_mm": 5.00000016,
+      "endpoint_mm": [
+        -5.00000016,
+        -11.99999886
+      ],
+      "grid_error_mm": 1.1400000001771105e-06,
+      "grid_pass": true,
+      "font_pass": true
+    },
+    {
+      "pin": "5",
+      "name": "SS",
+      "name_type_match": true,
+      "layout_match": true,
+      "length_mm": 5.00000016,
+      "endpoint_mm": [
+        -5.00000016,
+        -17.99999956
+      ],
+      "grid_error_mm": 4.4000000087862645e-07,
+      "grid_pass": true,
+      "font_pass": true
+    },
+    {
+      "pin": "6",
+      "name": "VFB",
+      "name_type_match": true,
+      "layout_match": true,
+      "length_mm": 5.00000016,
+      "endpoint_mm": [
+        -5.00000016,
+        -24.000000259999997
+      ],
+      "grid_error_mm": 2.599999966435007e-07,
+      "grid_pass": true,
+      "font_pass": true
+    },
+    {
+      "pin": "8",
+      "name": "VBST",
+      "name_type_match": true,
+      "layout_match": true,
+      "length_mm": 5.00000016,
+      "endpoint_mm": [
+        40.00000128,
+        -6.000000699999999
+      ],
+      "grid_error_mm": 1.2799999993262645e-06,
+      "grid_pass": true,
+      "font_pass": true
+    },
+    {
+      "pin": "2",
+      "name": "SW",
+      "name_type_match": true,
+      "layout_match": true,
+      "length_mm": 5.00000016,
+      "endpoint_mm": [
+        40.00000128,
+        -11.99999886
+      ],
+      "grid_error_mm": 1.2799999993262645e-06,
+      "grid_pass": true,
+      "font_pass": true
+    },
+    {
+      "pin": "4",
+      "name": "PG",
+      "name_type_match": true,
+      "layout_match": true,
+      "length_mm": 5.00000016,
+      "endpoint_mm": [
+        40.00000128,
+        -17.99999956
+      ],
+      "grid_error_mm": 1.2799999993262645e-06,
+      "grid_pass": true,
+      "font_pass": true
+    },
+    {
+      "pin": "1",
+      "name": "GND",
+      "name_type_match": true,
+      "layout_match": true,
+      "length_mm": 5.00000016,
+      "endpoint_mm": [
+        40.00000128,
+        -24.000000259999997
+      ],
+      "grid_error_mm": 1.2799999993262645e-06,
+      "grid_pass": true,
+      "font_pass": true
+    }
+  ],
+  "visual_reconstruction": {
+    "component": "TPS563210A",
+    "library": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\TPS563210A\\TPS563210A.SchLib",
+    "saved_sha256": "29b61deb86c4312e8446a4b3a297840959415c79bbb8def53616f94fc37d0032",
+    "native_snapshot": "tps-after.json",
+    "parts": [
+      {
+        "part": 1,
+        "pins": 8,
+        "preview": "tps-part-01.png",
+        "rectangle_count": 1,
+        "line_count": 2,
+        "graphic_bounds_mm": [
+          -5.00000016,
+          -30.00000096,
+          40.00000128,
+          5.00000016
+        ],
+        "max_name_ink_height_mm": 2.5,
+        "approximate_name_bbox_overlaps": []
+      }
+    ],
+    "limitations": [
+      "Saved graphical primitives and native pin positions used together.",
+      "Pin name/number offsets are reconstruction approximations; native UI not captured.",
+      "No compiler, electrical or model validation is performed by this script."
+    ]
+  },
+  "visual_method": "Saved graphical records and native snapshot rendered using GOST Common; not Altium screenshot",
+  "source_datasheet_sha256": "93ccf335d18255b91ab4e2f942dd7d8343466a523316d460c539994371cd680e",
+  "symbol_numeric_pass": true,
+  "visual_overlap_count": 0,
+  "model_resolution": {
+    "success": true,
+    "job_dir": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\tools\\altium\\runtime\\jobs\\d9465dc65b5545228440d01fdd043793",
+    "steps": [
+      "START",
+      "activate exact ARTIX project for model lookup",
+      "resolve footprint from available ARTIX libraries",
+      "FINISHED"
+    ],
+    "elapsed_seconds": 1.2,
+    "result": {
+      "resolved": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\TPS563210A\\TPS563210A.PcbLib",
+      "found_library": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\TPS563210A\\TPS563210A.PcbLib",
+      "available_libraries": [
+        "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\X7\\BGA484C100P22X22_2300X2300X260.PcbLib",
+        "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\X7\\new\\XC7A50T-2FGG484I.SchLib",
+        "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\ASV-50.000MHZ-LRS-T\\new\\ASV-50.000MHZ-LRS-T.PcbLib",
+        "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\ASV-50.000MHZ-LRS-T\\new\\ASV-50.000MHZ-LRS-T.SchLib",
+        "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\FB BLM18SG121TN1D\\FB.PcbLib",
+        "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\FB BLM18SG121TN1D\\FB.SchLib",
+        "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\W25Q128JV\\new\\W25Q128JVSIQ.PcbLib",
+        "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\W25Q128JV\\new\\W25Q128JVSIQ.SchLib",
+        "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\TPS563210A\\TPS563210A.PcbLib",
+        "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\TPS563210A\\TPS563210A.SchLib",
+        "C:\\ProgramData\\Altium\\Altium Designer {A05D34BC-9351-489A-A352-B954DF52075E}\\Extensions\\Mixed Simulation\\Library\\Simulation Generic Components.IntLib",
+        "Z:\\Altium\\Library\\GOST_Altium_Library\\GOST.DbLib",
+        "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\W25Q128JV\\original\\Project Outputs for W25Q128JVSIQ\\W25Q128JVSIQ.IntLib"
+      ]
+    }
+  },
+  "model_native_map": {
+    "success": true,
+    "job_dir": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\tools\\altium\\runtime\\jobs\\2dd43294a6104026af5854e9050cdd27",
+    "steps": [
+      "START",
+      "verify saved model map and portable link",
+      "FINISHED"
+    ],
+    "elapsed_seconds": 1.05,
+    "result": {
+      "name": "SOT65P280X110-8N",
+      "type": "PCBLIB",
+      "map": "(3:3),(7:7),(5:5),(6:6),(8:8),(2:2),(4:4),(1:1)",
+      "location": "TPS563210A.PcbLib",
+      "entity": "SOT65P280X110-8N"
+    }
+  },
+  "identity_map_pass": true,
+  "footprint_native_reopen_pad_invariants": true,
+  "resolution_exact_project_pcblib": true,
+  "pad_number_set_pass": true,
+  "project": {
+    "path": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\ARTIX.PrjPcb",
+    "sha256": "f1c10af8c076bfaba24d8a648da18cfa30c3f6fbade102e757773e35f10455c3",
+    "all_prior_live_refs_preserved": true,
+    "added_references": [
+      "libraries\\TPS563210A\\TPS563210A.PcbLib",
+      "libraries\\TPS563210A\\TPS563210A.SchLib"
+    ],
+    "source_document_count": 16,
+    "duplicate_references": false
+  },
+  "project_connection_pass": true,
+  "ready_for_placement": true,
+  "placed_circuit_erc": "Not applicable: this request created/connected libraries; no TPS component placed on user sheets.",
+  "requested_appearance": {
+    "designator_color": 0,
+    "comment_color": 0,
+    "pins": [
+      {
+        "number": "3",
+        "color": 0,
+        "electrical": 7
+      },
+      {
+        "number": "7",
+        "color": 0,
+        "electrical": 7
+      },
+      {
+        "number": "5",
+        "color": 0,
+        "electrical": 7
+      },
+      {
+        "number": "6",
+        "color": 0,
+        "electrical": 7
+      },
+      {
+        "number": "8",
+        "color": 0,
+        "electrical": 7
+      },
+      {
+        "number": "2",
+        "color": 0,
+        "electrical": 7
+      },
+      {
+        "number": "4",
+        "color": 0,
+        "electrical": 7
+      },
+      {
+        "number": "1",
+        "color": 0,
+        "electrical": 7
+      }
+    ],
+    "labels": [
+      {
+        "text": "DC/DC",
+        "color": 0,
+        "x_coord": 6889764,
+        "y_coord": -1181102
+      }
+    ],
+    "lines": [
+      {
+        "color": 0,
+        "x_coord": 4724409,
+        "y_coord": 0,
+        "corner_x_coord": 4724409,
+        "corner_y_coord": -11811024
+      },
+      {
+        "color": 0,
+        "x_coord": 9055118,
+        "y_coord": 0,
+        "corner_x_coord": 9055118,
+        "corner_y_coord": -11811024
+      }
+    ]
+  },
+  "model_records_unchanged_during_gost_edit": true,
+  "all_pins_power": true,
+  "black_text_pins_lines": true,
+  "separator_lines_pass": true
+}

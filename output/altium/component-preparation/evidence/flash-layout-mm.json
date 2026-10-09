@@ -1,0 +1,85 @@
+{
+  "component": "W25Q128JVSIQ",
+  "path": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\W25Q128JV\\new\\W25Q128JVSIQ.SchLib",
+  "units": "mm",
+  "snap_grid_mm": 1,
+  "auxiliary_grid_mm": 0.5,
+  "length_mm": 5,
+  "font_name": "GOST Common",
+  "font_size_pt": 10,
+  "parts": [
+    {
+      "id": 1,
+      "label": "FLASH",
+      "body_mm": [
+        0,
+        -29,
+        50,
+        2
+      ],
+      "label_mm": [
+        25,
+        -1
+      ],
+      "pins": [
+        {
+          "designator": "1",
+          "name": "CS",
+          "x_mm": 0,
+          "y_mm": -6,
+          "orientation": 2
+        },
+        {
+          "designator": "6",
+          "name": "CLK",
+          "x_mm": 0,
+          "y_mm": -12,
+          "orientation": 2
+        },
+        {
+          "designator": "5",
+          "name": "DI(IO0)",
+          "x_mm": 0,
+          "y_mm": -18,
+          "orientation": 2
+        },
+        {
+          "designator": "2",
+          "name": "DO(IO1)",
+          "x_mm": 0,
+          "y_mm": -24,
+          "orientation": 2
+        },
+        {
+          "designator": "3",
+          "name": "WP(IO2)",
+          "x_mm": 50,
+          "y_mm": -18,
+          "orientation": 0
+        },
+        {
+          "designator": "7",
+          "name": "RESET",
+          "x_mm": 50,
+          "y_mm": -24,
+          "orientation": 0
+        },
+        {
+          "designator": "8",
+          "name": "VCC",
+          "x_mm": 50,
+          "y_mm": -6,
+          "orientation": 0
+        },
+        {
+          "designator": "4",
+          "name": "GND",
+          "x_mm": 50,
+          "y_mm": -12,
+          "orientation": 0
+        }
+      ]
+    }
+  ],
+  "source_snapshot": "evidence/flash-native-before.json"
+}

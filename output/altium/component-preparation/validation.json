@@ -1,0 +1,6441 @@
+{
+  "date": "2026-10-08",
+  "complete_kit": false,
+  "fully_ready_connected_count": 0,
+  "new_verified_project_connection_count": 0,
+  "components": {
+    "fpga": {
+      "path": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\project\\ARTIX.SchLib",
+      "saved_sha256": "4a141edc90385b5e58b5f81a61a2f4efecfd7777a0bba3d0abc93de51b7cdaa1",
+      "native_save_reopen": true,
+      "pin_count": 484,
+      "part_count": 10,
+      "identity_names_types_parts_preserved": true,
+      "length_font_pass": true,
+      "endpoint_grid_mm": 1,
+      "precision_step_mm": 2.54e-06,
+      "endpoint_grid_pass": true,
+      "max_endpoint_grid_error_mm": 1.2399999889112223e-06,
+      "off_grid_pins": [],
+      "graphics_aux_grid_mm": 0.5,
+      "graphical_grid_pass": true,
+      "off_grid_graphics": [],
+      "old_line_count": 0,
+      "display_unit_saved": "1",
+      "snap_grid_mm": 1.0000005399999998,
+      "visible_grid_mm": 0.49999899999999997,
+      "model_fingerprint": {
+        "XC7A50T-2FGG484I/Data:implementation_records": [
+          "{\"DatafileCount\": \"1\", \"IsCurrent\": \"T\", \"ModelDatafileEntity0\": \"BGA484C100P22X22_2300X2300X260\", \"ModelDatafileKind0\": \"PCBLib\", \"ModelName\": \"BGA484C100P22X22_2300X2300X260\", \"ModelType\": \"PCBLIB\", \"RECORD\": \"45\"}",
+          "{\"RECORD\": \"44\"}",
+          "{\"RECORD\": \"46\"}",
+          "{\"RECORD\": \"48\"}"
+        ]
+      },
+      "connected_new_working_library": false,
+      "model_resolution_from_target_project": null,
+      "erc": null,
+      "ready_full_lifecycle": false,
+      "manufacturer_ball_map": {
+        "source_url": "https://www.amd.com/en/developer/resources/adaptive-socs-and-fpgas/package-pinout-files/artix-7-package-device-pinout-files.html",
+        "source": "manufacturer/xc7a50tfgg484pkg.csv",
+        "source_archive": "manufacturer/a7all.zip",
+        "manufacturer_file_timestamp": "2013-10-04 09:38:23",
+        "official_pin_count": 484,
+        "native_pin_count": 484,
+        "native_unique_designators": 484,
+        "missing_designators": [],
+        "extra_designators": [],
+        "exact_name_matches": 291,
+        "equivalent_alias_count": 193,
+        "alias_rule": "Only suffix numbers on GND/NC/power aliases, plus PROGRAM_B_0 to PROGRAM_B; no functional IO names normalized",
+        "unexplained_name_mismatches": [],
+        "equivalent_aliases": [
+          {
+            "ball": "N12",
+            "official_name": "PROGRAM_B_0",
+            "native_name": "PROGRAM_B"
+          },
+          {
+            "ball": "D6",
+            "official_name": "MGTAVCC",
+            "native_name": "MGTAVCC_1"
+          },
+          {
+            "ball": "D10",
+            "official_name": "MGTAVCC",
+            "native_name": "MGTAVCC_2"
+          },
+          {
+            "ball": "F7",
+            "official_name": "MGTAVCC",
+            "native_name": "MGTAVCC_4"
+          },
+          {
+            "ball": "F9",
+            "official_name": "MGTAVCC",
+            "native_name": "MGTAVCC_5"
+          },
+          {
+            "ball": "E8",
+            "official_name": "MGTAVCC",
+            "native_name": "MGTAVCC_3"
+          },
+          {
+            "ball": "B5",
+            "official_name": "MGTAVTT",
+            "native_name": "MGTAVTT_1"
+          },
+          {
+            "ball": "B7",
+            "official_name": "MGTAVTT",
+            "native_name": "MGTAVTT_2"
+          },
+          {
+            "ball": "B9",
+            "official_name": "MGTAVTT",
+            "native_name": "MGTAVTT_3"
+          },
+          {
+            "ball": "B11",
+            "official_name": "MGTAVTT",
+            "native_name": "MGTAVTT_4"
+          },
+          {
+            "ball": "C4",
+            "official_name": "MGTAVTT",
+            "native_name": "MGTAVTT_5"
+          },
+          {
+            "ball": "C8",
+            "official_name": "MGTAVTT",
+            "native_name": "MGTAVTT_6"
+          },
+          {
+            "ball": "D8",
+            "official_name": "GND",
+            "native_name": "GND_19"
+          },
+          {
+            "ball": "A2",
+            "official_name": "GND",
+            "native_name": "GND_1"
+          },
+          {
+            "ball": "A3",
+            "official_name": "GND",
+            "native_name": "GND_2"
+          },
+          {
+            "ball": "A5",
+            "official_name": "GND",
+            "native_name": "GND_3"
+          },
+          {
+            "ball": "A7",
+            "official_name": "GND",
+            "native_name": "GND_4"
+          },
+          {
+            "ball": "A9",
+            "official_name": "GND",
+            "native_name": "GND_5"
+          },
+          {
+            "ball": "A11",
+            "official_name": "GND",
+            "native_name": "GND_6"
+          },
+          {
+            "ball": "A12",
+            "official_name": "GND",
+            "native_name": "GND_7"
+          },
+          {
+            "ball": "A22",
+            "official_name": "GND",
+            "native_name": "GND_8"
+          },
+          {
+            "ball": "AA2",
+            "official_name": "GND",
+            "native_name": "GND_83"
+          },
+          {
+            "ball": "AA12",
+            "official_name": "GND",
+            "native_name": "GND_84"
+          },
+          {
+            "ball": "AA22",
+            "official_name": "GND",
+            "native_name": "GND_85"
+          },
+          {
+            "ball": "AB9",
+            "official_name": "GND",
+            "native_name": "GND_86"
+          },
+          {
+            "ball": "AB19",
+            "official_name": "GND",
+            "native_name": "GND_87"
+          },
+          {
+            "ball": "B3",
+            "official_name": "GND",
+            "native_name": "GND_9"
+          },
+          {
+            "ball": "B12",
+            "official_name": "GND",
+            "native_name": "GND_10"
+          },
+          {
+            "ball": "B19",
+            "official_name": "GND",
+            "native_name": "GND_11"
+          },
+          {
+            "ball": "C3",
+            "official_name": "GND",
+            "native_name": "GND_12"
+          },
+          {
+            "ball": "C6",
+            "official_name": "GND",
+            "native_name": "GND_13"
+          },
+          {
+            "ball": "C10",
+            "official_name": "GND",
+            "native_name": "GND_14"
+          },
+          {
+            "ball": "C12",
+            "official_name": "GND",
+            "native_name": "GND_15"
+          },
+          {
+            "ball": "C16",
+            "official_name": "GND",
+            "native_name": "GND_16"
+          },
+          {
+            "ball": "D3",
+            "official_name": "GND",
+            "native_name": "GND_17"
+          },
+          {
+            "ball": "D4",
+            "official_name": "GND",
+            "native_name": "GND_18"
+          },
+          {
+            "ball": "D12",
+            "official_name": "GND",
+            "native_name": "GND_20"
+          },
+          {
+            "ball": "D13",
+            "official_name": "GND",
+            "native_name": "GND_21"
+          },
+          {
+            "ball": "E4",
+            "official_name": "GND",
+            "native_name": "GND_22"
+          },
+          {
+            "ball": "E5",
+            "official_name": "GND",
+            "native_name": "GND_23"
+          },
+          {
+            "ball": "E7",
+            "official_name": "GND",
+            "native_name": "GND_24"
+          },
+          {
+            "ball": "E9",
+            "official_name": "GND",
+            "native_name": "GND_25"
+          },
+          {
+            "ball": "E11",
+            "official_name": "GND",
+            "native_name": "GND_26"
+          },
+          {
+            "ball": "E20",
+            "official_name": "GND",
+            "native_name": "GND_27"
+          },
+          {
+            "ball": "F5",
+            "official_name": "GND",
+            "native_name": "GND_28"
+          },
+          {
+            "ball": "F11",
+            "official_name": "GND",
+            "native_name": "GND_29"
+          },
+          {
+            "ball": "F17",
+            "official_name": "GND",
+            "native_name": "GND_30"
+          },
+          {
+            "ball": "G5",
+            "official_name": "GND",
+            "native_name": "GND_31"
+          },
+          {
+            "ball": "G6",
+            "official_name": "GND",
+            "native_name": "GND_32"
+          },
+          {
+            "ball": "G7",
+            "official_name": "GND",
+            "native_name": "GND_33"
+          },
+          {
+            "ball": "G8",
+            "official_name": "GND",
+            "native_name": "GND_34"
+          },
+          {
+            "ball": "G9",
+            "official_name": "GND",
+            "native_name": "GND_35"
+          },
+          {
+            "ball": "G10",
+            "official_name": "GND",
+            "native_name": "GND_36"
+          },
+          {
+            "ball": "G12",
+            "official_name": "GND",
+            "native_name": "GND_37"
+          },
+          {
+            "ball": "G14",
+            "official_name": "GND",
+            "native_name": "GND_38"
+          },
+          {
+            "ball": "H1",
+            "official_name": "GND",
+            "native_name": "GND_39"
+          },
+          {
+            "ball": "H7",
+            "official_name": "GND",
+            "native_name": "GND_40"
+          },
+          {
+            "ball": "H9",
+            "official_name": "GND",
+            "native_name": "GND_41"
+          },
+          {
+            "ball": "H11",
+            "official_name": "GND",
+            "native_name": "GND_42"
+          },
+          {
+            "ball": "H21",
+            "official_name": "GND",
+            "native_name": "GND_43"
+          },
+          {
+            "ball": "J8",
+            "official_name": "GND",
+            "native_name": "GND_44"
+          },
+          {
+            "ball": "J10",
+            "official_name": "GND",
+            "native_name": "GND_45"
+          },
+          {
+            "ball": "J12",
+            "official_name": "GND",
+            "native_name": "GND_46"
+          },
+          {
+            "ball": "J18",
+            "official_name": "GND",
+            "native_name": "GND_47"
+          },
+          {
+            "ball": "K5",
+            "official_name": "GND",
+            "native_name": "GND_48"
+          },
+          {
+            "ball": "K7",
+            "official_name": "GND",
+            "native_name": "GND_49"
+          },
+          {
+            "ball": "K11",
+            "official_name": "GND",
+            "native_name": "GND_50"
+          },
+          {
+            "ball": "K15",
+            "official_name": "GND",
+            "native_name": "GND_51"
+          },
+          {
+            "ball": "L2",
+            "official_name": "GND",
+            "native_name": "GND_52"
+          },
+          {
+            "ball": "L8",
+            "official_name": "GND",
+            "native_name": "GND_53"
+          },
+          {
+            "ball": "L22",
+            "official_name": "GND",
+            "native_name": "GND_54"
+          },
+          {
+            "ball": "M7",
+            "official_name": "GND",
+            "native_name": "GND_55"
+          },
+          {
+            "ball": "M11",
+            "official_name": "GND",
+            "native_name": "GND_56"
+          },
+          {
+            "ball": "M19",
+            "official_name": "GND",
+            "native_name": "GND_57"
+          },
+          {
+            "ball": "N6",
+            "official_name": "GND",
+            "native_name": "GND_58"
+          },
+          {
+            "ball": "N8",
+            "official_name": "GND",
+            "native_name": "GND_59"
+          },
+          {
+            "ball": "N16",
+            "official_name": "GND",
+            "native_name": "GND_60"
+          },
+          {
+            "ball": "P3",
+            "official_name": "GND",
+            "native_name": "GND_61"
+          },
+          {
+            "ball": "P7",
+            "official_name": "GND",
+            "native_name": "GND_62"
+          },
+          {
+            "ball": "P9",
+            "official_name": "GND",
+            "native_name": "GND_63"
+          },
+          {
+            "ball": "P11",
+            "official_name": "GND",
+            "native_name": "GND_64"
+          },
+          {
+            "ball": "P13",
+            "official_name": "GND",
+            "native_name": "GND_65"
+          },
+          {
+            "ball": "R8",
+            "official_name": "GND",
+            "native_name": "GND_66"
+          },
+          {
+            "ball": "R10",
+            "official_name": "GND",
+            "native_name": "GND_67"
+          },
+          {
+            "ball": "R12",
+            "official_name": "GND",
+            "native_name": "GND_68"
+          },
+          {
+            "ball": "R20",
+            "official_name": "GND",
+            "native_name": "GND_69"
+          },
+          {
+            "ball": "T7",
+            "official_name": "GND",
+            "native_name": "GND_70"
+          },
+          {
+            "ball": "T9",
+            "official_name": "GND",
+            "native_name": "GND_71"
+          },
+          {
+            "ball": "T11",
+            "official_name": "GND",
+            "native_name": "GND_72"
+          },
+          {
+            "ball": "T17",
+            "official_name": "GND",
+            "native_name": "GND_73"
+          },
+          {
+            "ball": "U4",
+            "official_name": "GND",
+            "native_name": "GND_74"
+          },
+          {
+            "ball": "U14",
+            "official_name": "GND",
+            "native_name": "GND_75"
+          },
+          {
+            "ball": "V1",
+            "official_name": "GND",
+            "native_name": "GND_76"
+          },
+          {
+            "ball": "V11",
+            "official_name": "GND",
+            "native_name": "GND_77"
+          },
+          {
+            "ball": "V21",
+            "official_name": "GND",
+            "native_name": "GND_78"
+          },
+          {
+            "ball": "W8",
+            "official_name": "GND",
+            "native_name": "GND_79"
+          },
+          {
+            "ball": "W18",
+            "official_name": "GND",
+            "native_name": "GND_80"
+          },
+          {
+            "ball": "Y5",
+            "official_name": "GND",
+            "native_name": "GND_81"
+          },
+          {
+            "ball": "Y15",
+            "official_name": "GND",
+            "native_name": "GND_82"
+          },
+          {
+            "ball": "H8",
+            "official_name": "VCCINT",
+            "native_name": "VCCINT_1"
+          },
+          {
+            "ball": "H10",
+            "official_name": "VCCINT",
+            "native_name": "VCCINT_2"
+          },
+          {
+            "ball": "J7",
+            "official_name": "VCCINT",
+            "native_name": "VCCINT_3"
+          },
+          {
+            "ball": "J9",
+            "official_name": "VCCINT",
+            "native_name": "VCCINT_4"
+          },
+          {
+            "ball": "K8",
+            "official_name": "VCCINT",
+            "native_name": "VCCINT_5"
+          },
+          {
+            "ball": "L7",
+            "official_name": "VCCINT",
+            "native_name": "VCCINT_6"
+          },
+          {
+            "ball": "M8",
+            "official_name": "VCCINT",
+            "native_name": "VCCINT_7"
+          },
+          {
+            "ball": "N7",
+            "official_name": "VCCINT",
+            "native_name": "VCCINT_8"
+          },
+          {
+            "ball": "P8",
+            "official_name": "VCCINT",
+            "native_name": "VCCINT_9"
+          },
+          {
+            "ball": "P10",
+            "official_name": "VCCINT",
+            "native_name": "VCCINT_10"
+          },
+          {
+            "ball": "R7",
+            "official_name": "VCCINT",
+            "native_name": "VCCINT_11"
+          },
+          {
+            "ball": "R9",
+            "official_name": "VCCINT",
+            "native_name": "VCCINT_12"
+          },
+          {
+            "ball": "T8",
+            "official_name": "VCCINT",
+            "native_name": "VCCINT_13"
+          },
+          {
+            "ball": "T10",
+            "official_name": "VCCINT",
+            "native_name": "VCCINT_14"
+          },
+          {
+            "ball": "H12",
+            "official_name": "VCCAUX",
+            "native_name": "VCCAUX_1"
+          },
+          {
+            "ball": "K12",
+            "official_name": "VCCAUX",
+            "native_name": "VCCAUX_2"
+          },
+          {
+            "ball": "M12",
+            "official_name": "VCCAUX",
+            "native_name": "VCCAUX_3"
+          },
+          {
+            "ball": "P12",
+            "official_name": "VCCAUX",
+            "native_name": "VCCAUX_4"
+          },
+          {
+            "ball": "R11",
+            "official_name": "VCCAUX",
+            "native_name": "VCCAUX_5"
+          },
+          {
+            "ball": "F12",
+            "official_name": "VCCO_0",
+            "native_name": "VCCO_0_1"
+          },
+          {
+            "ball": "T12",
+            "official_name": "VCCO_0",
+            "native_name": "VCCO_0_2"
+          },
+          {
+            "ball": "AA17",
+            "official_name": "VCCO_13",
+            "native_name": "VCCO_13_4"
+          },
+          {
+            "ball": "AB14",
+            "official_name": "VCCO_13",
+            "native_name": "VCCO_13_5"
+          },
+          {
+            "ball": "V16",
+            "official_name": "VCCO_13",
+            "native_name": "VCCO_13_1"
+          },
+          {
+            "ball": "W13",
+            "official_name": "VCCO_13",
+            "native_name": "VCCO_13_2"
+          },
+          {
+            "ball": "Y10",
+            "official_name": "VCCO_13",
+            "native_name": "VCCO_13_3"
+          },
+          {
+            "ball": "M14",
+            "official_name": "VCCO_14",
+            "native_name": "VCCO_14_1"
+          },
+          {
+            "ball": "P18",
+            "official_name": "VCCO_14",
+            "native_name": "VCCO_14_2"
+          },
+          {
+            "ball": "R15",
+            "official_name": "VCCO_14",
+            "native_name": "VCCO_14_3"
+          },
+          {
+            "ball": "T22",
+            "official_name": "VCCO_14",
+            "native_name": "VCCO_14_4"
+          },
+          {
+            "ball": "U19",
+            "official_name": "VCCO_14",
+            "native_name": "VCCO_14_5"
+          },
+          {
+            "ball": "Y20",
+            "official_name": "VCCO_14",
+            "native_name": "VCCO_14_6"
+          },
+          {
+            "ball": "G19",
+            "official_name": "VCCO_15",
+            "native_name": "VCCO_15_1"
+          },
+          {
+            "ball": "H16",
+            "official_name": "VCCO_15",
+            "native_name": "VCCO_15_2"
+          },
+          {
+            "ball": "J13",
+            "official_name": "VCCO_15",
+            "native_name": "VCCO_15_3"
+          },
+          {
+            "ball": "K20",
+            "official_name": "VCCO_15",
+            "native_name": "VCCO_15_4"
+          },
+          {
+            "ball": "L17",
+            "official_name": "VCCO_15",
+            "native_name": "VCCO_15_5"
+          },
+          {
+            "ball": "N21",
+            "official_name": "VCCO_15",
+            "native_name": "VCCO_15_6"
+          },
+          {
+            "ball": "A17",
+            "official_name": "VCCO_16",
+            "native_name": "VCCO_16_1"
+          },
+          {
+            "ball": "B14",
+            "official_name": "VCCO_16",
+            "native_name": "VCCO_16_2"
+          },
+          {
+            "ball": "C21",
+            "official_name": "VCCO_16",
+            "native_name": "VCCO_16_3"
+          },
+          {
+            "ball": "D18",
+            "official_name": "VCCO_16",
+            "native_name": "VCCO_16_4"
+          },
+          {
+            "ball": "E15",
+            "official_name": "VCCO_16",
+            "native_name": "VCCO_16_5"
+          },
+          {
+            "ball": "F22",
+            "official_name": "VCCO_16",
+            "native_name": "VCCO_16_6"
+          },
+          {
+            "ball": "AA7",
+            "official_name": "VCCO_34",
+            "native_name": "VCCO_34_5"
+          },
+          {
+            "ball": "AB4",
+            "official_name": "VCCO_34",
+            "native_name": "VCCO_34_6"
+          },
+          {
+            "ball": "R5",
+            "official_name": "VCCO_34",
+            "native_name": "VCCO_34_1"
+          },
+          {
+            "ball": "T2",
+            "official_name": "VCCO_34",
+            "native_name": "VCCO_34_2"
+          },
+          {
+            "ball": "V6",
+            "official_name": "VCCO_34",
+            "native_name": "VCCO_34_3"
+          },
+          {
+            "ball": "W3",
+            "official_name": "VCCO_34",
+            "native_name": "VCCO_34_4"
+          },
+          {
+            "ball": "C1",
+            "official_name": "VCCO_35",
+            "native_name": "VCCO_35_1"
+          },
+          {
+            "ball": "F2",
+            "official_name": "VCCO_35",
+            "native_name": "VCCO_35_2"
+          },
+          {
+            "ball": "H6",
+            "official_name": "VCCO_35",
+            "native_name": "VCCO_35_3"
+          },
+          {
+            "ball": "J3",
+            "official_name": "VCCO_35",
+            "native_name": "VCCO_35_4"
+          },
+          {
+            "ball": "M4",
+            "official_name": "VCCO_35",
+            "native_name": "VCCO_35_5"
+          },
+          {
+            "ball": "N1",
+            "official_name": "VCCO_35",
+            "native_name": "VCCO_35_6"
+          },
+          {
+            "ball": "J11",
+            "official_name": "VCCBRAM",
+            "native_name": "VCCBRAM_1"
+          },
+          {
+            "ball": "L11",
+            "official_name": "VCCBRAM",
+            "native_name": "VCCBRAM_2"
+          },
+          {
+            "ball": "N11",
+            "official_name": "VCCBRAM",
+            "native_name": "VCCBRAM_3"
+          },
+          {
+            "ball": "T14",
+            "official_name": "NC",
+            "native_name": "NC_1"
+          },
+          {
+            "ball": "T15",
+            "official_name": "NC",
+            "native_name": "NC_2"
+          },
+          {
+            "ball": "T16",
+            "official_name": "NC",
+            "native_name": "NC_3"
+          },
+          {
+            "ball": "U15",
+            "official_name": "NC",
+            "native_name": "NC_4"
+          },
+          {
+            "ball": "U16",
+            "official_name": "NC",
+            "native_name": "NC_5"
+          },
+          {
+            "ball": "V10",
+            "official_name": "NC",
+            "native_name": "NC_6"
+          },
+          {
+            "ball": "V13",
+            "official_name": "NC",
+            "native_name": "NC_7"
+          },
+          {
+            "ball": "V14",
+            "official_name": "NC",
+            "native_name": "NC_8"
+          },
+          {
+            "ball": "V15",
+            "official_name": "NC",
+            "native_name": "NC_9"
+          },
+          {
+            "ball": "W10",
+            "official_name": "NC",
+            "native_name": "NC_10"
+          },
+          {
+            "ball": "W11",
+            "official_name": "NC",
+            "native_name": "NC_11"
+          },
+          {
+            "ball": "W12",
+            "official_name": "NC",
+            "native_name": "NC_12"
+          },
+          {
+            "ball": "W14",
+            "official_name": "NC",
+            "native_name": "NC_13"
+          },
+          {
+            "ball": "W15",
+            "official_name": "NC",
+            "native_name": "NC_14"
+          },
+          {
+            "ball": "W16",
+            "official_name": "NC",
+            "native_name": "NC_15"
+          },
+          {
+            "ball": "Y11",
+            "official_name": "NC",
+            "native_name": "NC_16"
+          },
+          {
+            "ball": "Y12",
+            "official_name": "NC",
+            "native_name": "NC_17"
+          },
+          {
+            "ball": "Y13",
+            "official_name": "NC",
+            "native_name": "NC_18"
+          },
+          {
+            "ball": "Y14",
+            "official_name": "NC",
+            "native_name": "NC_19"
+          },
+          {
+            "ball": "Y16",
+            "official_name": "NC",
+            "native_name": "NC_20"
+          },
+          {
+            "ball": "Y17",
+            "official_name": "NC",
+            "native_name": "NC_21"
+          },
+          {
+            "ball": "AA9",
+            "official_name": "NC",
+            "native_name": "NC_22"
+          },
+          {
+            "ball": "AA10",
+            "official_name": "NC",
+            "native_name": "NC_23"
+          },
+          {
+            "ball": "AA11",
+            "official_name": "NC",
+            "native_name": "NC_24"
+          },
+          {
+            "ball": "AA13",
+            "official_name": "NC",
+            "native_name": "NC_25"
+          },
+          {
+            "ball": "AA14",
+            "official_name": "NC",
+            "native_name": "NC_26"
+          },
+          {
+            "ball": "AA15",
+            "official_name": "NC",
+            "native_name": "NC_27"
+          },
+          {
+            "ball": "AA16",
+            "official_name": "NC",
+            "native_name": "NC_28"
+          },
+          {
+            "ball": "AB10",
+            "official_name": "NC",
+            "native_name": "NC_29"
+          },
+          {
+            "ball": "AB11",
+            "official_name": "NC",
+            "native_name": "NC_30"
+          },
+          {
+            "ball": "AB12",
+            "official_name": "NC",
+            "native_name": "NC_31"
+          },
+          {
+            "ball": "AB13",
+            "official_name": "NC",
+            "native_name": "NC_32"
+          },
+          {
+            "ball": "AB15",
+            "official_name": "NC",
+            "native_name": "NC_33"
+          },
+          {
+            "ball": "AB16",
+            "official_name": "NC",
+            "native_name": "NC_34"
+          },
+          {
+            "ball": "AB17",
+            "official_name": "NC",
+            "native_name": "NC_35"
+          }
+        ],
+        "pin_map_verified": true,
+        "native_electrical_counts": {
+          "4": 484
+        }
+      },
+      "electrical_types_limitation": "All 484 original pins Passive (4), preserved as requested; directional ERC not validated.",
+      "model_records_and_maps_unchanged": true,
+      "visual_qa": {
+        "method": "reconstruction from saved native geometry with GOST Common font; not Altium screenshot",
+        "status": "PENDING",
+        "finding": "3mm rows may overlap 10pt glyphs; source-file-only generator changed to 4mm but not executed",
+        "evidence": "evidence/qa-preview.md"
+      },
+      "stages": {
+        "1_exact_component_source": "existing native source + manufacturer evidence; FPGA procurement grade unresolved",
+        "2_native_import_or_existing_reuse": "existing native source reused in separate explicit working copy",
+        "3_isolation": "single original FPGA/footprint only",
+        "4_gost_mm": "geometry saved; visual pitch review pending",
+        "5_save_reopen_validate": "pin/font/grid native checks passed; full visual/models pending",
+        "6_project_connection_resolution": "not completed"
+      },
+      "blockers": [
+        "B01",
+        "B02",
+        "B03"
+      ]
+    },
+    "asv": {
+      "path": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\ASV-50MHz\\new\\Schlib1.SchLib",
+      "saved_sha256": "f3d4896704db411b1eba070e49742f5f17c2f0823bb19156ac2e4b91fdb6e4bd",
+      "native_save_reopen": true,
+      "pin_count": 4,
+      "part_count": 1,
+      "identity_names_types_parts_preserved": true,
+      "length_font_pass": true,
+      "endpoint_grid_mm": 1,
+      "precision_step_mm": 2.54e-06,
+      "endpoint_grid_pass": true,
+      "max_endpoint_grid_error_mm": 1.1400000001771105e-06,
+      "off_grid_pins": [],
+      "graphics_aux_grid_mm": 0.5,
+      "graphical_grid_pass": false,
+      "off_grid_graphics": [
+        {
+          "record": "13",
+          "part": "1",
+          "field": "Location.X",
+          "mm": 5.08,
+          "grid_error_mm": 0.08000000000000007,
+          "on_grid": false
+        },
+        {
+          "record": "13",
+          "part": "1",
+          "field": "Location.Y",
+          "mm": 2.54,
+          "grid_error_mm": 0.040000000000000036,
+          "on_grid": false
+        },
+        {
+          "record": "13",
+          "part": "1",
+          "field": "Corner.X",
+          "mm": 53.339999999999996,
+          "grid_error_mm": 0.1600000000000037,
+          "on_grid": false
+        },
+        {
+          "record": "13",
+          "part": "1",
+          "field": "Corner.Y",
+          "mm": 2.54,
+          "grid_error_mm": 0.040000000000000036,
+          "on_grid": false
+        },
+        {
+          "record": "13",
+          "part": "1",
+          "field": "Location.X",
+          "mm": 53.339999999999996,
+          "grid_error_mm": 0.1600000000000037,
+          "on_grid": false
+        },
+        {
+          "record": "13",
+          "part": "1",
+          "field": "Location.Y",
+          "mm": -5.08,
+          "grid_error_mm": 0.08000000000000007,
+          "on_grid": false
+        },
+        {
+          "record": "13",
+          "part": "1",
+          "field": "Corner.X",
+          "mm": 53.339999999999996,
+          "grid_error_mm": 0.1600000000000037,
+          "on_grid": false
+        },
+        {
+          "record": "13",
+          "part": "1",
+          "field": "Corner.Y",
+          "mm": 2.54,
+          "grid_error_mm": 0.040000000000000036,
+          "on_grid": false
+        },
+        {
+          "record": "13",
+          "part": "1",
+          "field": "Location.X",
+          "mm": 53.339999999999996,
+          "grid_error_mm": 0.1600000000000037,
+          "on_grid": false
+        },
+        {
+          "record": "13",
+          "part": "1",
+          "field": "Location.Y",
+          "mm": -5.08,
+          "grid_error_mm": 0.08000000000000007,
+          "on_grid": false
+        },
+        {
+          "record": "13",
+          "part": "1",
+          "field": "Corner.X",
+          "mm": 5.08,
+          "grid_error_mm": 0.08000000000000007,
+          "on_grid": false
+        },
+        {
+          "record": "13",
+          "part": "1",
+          "field": "Corner.Y",
+          "mm": -5.08,
+          "grid_error_mm": 0.08000000000000007,
+          "on_grid": false
+        },
+        {
+          "record": "13",
+          "part": "1",
+          "field": "Location.X",
+          "mm": 5.08,
+          "grid_error_mm": 0.08000000000000007,
+          "on_grid": false
+        },
+        {
+          "record": "13",
+          "part": "1",
+          "field": "Location.Y",
+          "mm": 2.54,
+          "grid_error_mm": 0.040000000000000036,
+          "on_grid": false
+        },
+        {
+          "record": "13",
+          "part": "1",
+          "field": "Corner.X",
+          "mm": 5.08,
+          "grid_error_mm": 0.08000000000000007,
+          "on_grid": false
+        },
+        {
+          "record": "13",
+          "part": "1",
+          "field": "Corner.Y",
+          "mm": -5.08,
+          "grid_error_mm": 0.08000000000000007,
+          "on_grid": false
+        }
+      ],
+      "old_line_count": 4,
+      "display_unit_saved": "1",
+      "snap_grid_mm": 1.0000005399999998,
+      "visible_grid_mm": 0.49999899999999997,
+      "model_fingerprint": {
+        "ASV-50.000MHZ-LRS-T/Data:implementation_records": [
+          "{\"DatafileCount\": \"1\", \"IsCurrent\": \"T\", \"ModelDatafile0\": \"PcbLib1.PcbLib\", \"ModelDatafileEntity0\": \"ASV25000MHZEJT\", \"ModelDatafileKind0\": \"PCBLIB\", \"ModelName\": \"ASV25000MHZEJT\", \"ModelType\": \"PCBLIB\", \"RECORD\": \"45\"}",
+          "{\"RECORD\": \"44\"}",
+          "{\"RECORD\": \"46\"}",
+          "{\"RECORD\": \"48\"}"
+        ]
+      },
+      "connected_new_working_library": false,
+      "model_resolution_from_target_project": null,
+      "erc": null,
+      "ready_full_lifecycle": false,
+      "saved_components": [
+        "ASV-50.000MHZ-LRS-T"
+      ],
+      "saved_parameters": [
+        {
+          "RECORD": "41",
+          "OWNERPARTID": "-1",
+          "COLOR": "8388608",
+          "FONTID": "2",
+          "ISHIDDEN": "T",
+          "TEXT": "https://abracon.com/Oscillators/ASV.pdf",
+          "NAME": "Datasheet Link",
+          "UNIQUEID": "HLDATOOH"
+        },
+        {
+          "RECORD": "41",
+          "INDEXINSHEET": "1",
+          "OWNERPARTID": "-1",
+          "COLOR": "8388608",
+          "FONTID": "1",
+          "ISHIDDEN": "T",
+          "TEXT": "1.8mm",
+          "NAME": "Height",
+          "UNIQUEID": "GKMQJBXY"
+        },
+        {
+          "RECORD": "41",
+          "INDEXINSHEET": "2",
+          "OWNERPARTID": "-1",
+          "COLOR": "8388608",
+          "FONTID": "1",
+          "ISHIDDEN": "T",
+          "TEXT": "ABRACON",
+          "NAME": "Manufacturer_Name",
+          "UNIQUEID": "JCGDAWKW"
+        },
+        {
+          "RECORD": "41",
+          "INDEXINSHEET": "3",
+          "OWNERPARTID": "-1",
+          "COLOR": "8388608",
+          "FONTID": "1",
+          "ISHIDDEN": "T",
+          "TEXT": "ASV-50.000MHZ-LRS-T",
+          "NAME": "Manufacturer_Part_Number",
+          "UNIQUEID": "EBGPLKKU"
+        },
+        {
+          "RECORD": "41",
+          "INDEXINSHEET": "4",
+          "OWNERPARTID": "-1",
+          "COLOR": "8388608",
+          "FONTID": "1",
+          "ISHIDDEN": "T",
+          "TEXT": "815-ASV50000MHZLRST",
+          "NAME": "Mouser Part Number",
+          "UNIQUEID": "KSWNOOSA"
+        },
+        {
+          "RECORD": "41",
+          "INDEXINSHEET": "5",
+          "OWNERPARTID": "-1",
+          "COLOR": "8388608",
+          "FONTID": "2",
+          "ISHIDDEN": "T",
+          "TEXT": "https://www.mouser.co.uk/ProductDetail/ABRACON/ASV-50.000MHZ-LRS-T?qs=vmHwEFxEFR%252BcE99Zr2GZkQ%3D%3D",
+          "NAME": "Mouser Price/Stock",
+          "UNIQUEID": "BJHRJNVA"
+        },
+        {
+          "RECORD": "41",
+          "INDEXINSHEET": "6",
+          "OWNERPARTID": "-1",
+          "COLOR": "8388608",
+          "FONTID": "1",
+          "ISHIDDEN": "T",
+          "NAME": "Arrow Part Number",
+          "UNIQUEID": "MEGFDAAL"
+        },
+        {
+          "RECORD": "41",
+          "INDEXINSHEET": "7",
+          "OWNERPARTID": "-1",
+          "COLOR": "8388608",
+          "FONTID": "1",
+          "ISHIDDEN": "T",
+          "NAME": "Arrow Price/Stock",
+          "UNIQUEID": "BGVRIZVV"
+        },
+        {
+          "RECORD": "41",
+          "INDEXINSHEET": "-1",
+          "OWNERPARTID": "-1",
+          "LOCATION.X": "59",
+          "LOCATION.X_FRAC": "5512",
+          "LOCATION.Y": "19",
+          "LOCATION.Y_FRAC": "68504",
+          "COLOR": "8388608",
+          "FONTID": "3",
+          "ISHIDDEN": "T",
+          "TEXT": "*",
+          "NAME": "Comment",
+          "UNIQUEID": "GGCHEFQJ"
+        }
+      ],
+      "isolated_footprint_names": [
+        "ASV25000MHZEJT"
+      ],
+      "selected_footprint_streams_preserved": {
+        "ASV25000MHZEJT/Data": false,
+        "ASV25000MHZEJT/Header": true,
+        "ASV25000MHZEJT/Parameters": true,
+        "ASV25000MHZEJT/PrimitiveGuids/Data": false,
+        "ASV25000MHZEJT/PrimitiveGuids/Header": true,
+        "ASV25000MHZEJT/UniqueIDPrimitiveInformation/Data": false,
+        "ASV25000MHZEJT/UniqueIDPrimitiveInformation/Header": true,
+        "ASV25000MHZEJT/WideStrings": true
+      },
+      "visual_qa": {
+        "status": "FAIL",
+        "finding": "four old eLine segments remain off grid, alongside new body",
+        "evidence": "evidence/qa-preview.md"
+      },
+      "stages": {
+        "1_exact_component_source": "existing native source + manufacturer evidence",
+        "2_native_import_or_existing_reuse": "existing native source reused in separate explicit working copy",
+        "3_isolation": "single ASV symbol/footprint saved; dependency readback pending",
+        "4_gost_mm": "geometry saved; old contour removal pending",
+        "5_save_reopen_validate": "pin/font/grid native checks passed; full visual/models pending",
+        "6_project_connection_resolution": "not completed"
+      },
+      "blockers": [
+        "B01",
+        "B02",
+        "B03"
+      ]
+    },
+    "flash": {
+      "saved_components": [
+        "W25Q128JVSIQ"
+      ],
+      "saved_parameters": [
+        {
+          "RECORD": "41",
+          "OWNERPARTID": "-1",
+          "JUSTIFICATION": "3",
+          "COLOR": "8388608",
+          "FONTID": "2",
+          "ISHIDDEN": "T",
+          "TEXT": "https://www.snapeda.com/parts/W25Q128JVSIQ/Winbond/view-part/?ref=snap",
+          "NAME": "SnapEDA_Link",
+          "UNIQUEID": "IEWXTQLP"
+        },
+        {
+          "RECORD": "41",
+          "INDEXINSHEET": "1",
+          "OWNERPARTID": "-1",
+          "JUSTIFICATION": "3",
+          "COLOR": "8388608",
+          "FONTID": "1",
+          "ISHIDDEN": "T",
+          "TEXT": "SOIC-8 Winbond Electronics",
+          "NAME": "Package",
+          "UNIQUEID": "SGSPOEMN"
+        },
+        {
+          "RECORD": "41",
+          "INDEXINSHEET": "2",
+          "OWNERPARTID": "-1",
+          "JUSTIFICATION": "3",
+          "FONTID": "3",
+          "ISHIDDEN": "T",
+          "TEXT": "*",
+          "NAME": "Value",
+          "UNIQUEID": "YHXPSVGO"
+        },
+        {
+          "RECORD": "41",
+          "INDEXINSHEET": "3",
+          "OWNERPARTID": "-1",
+          "JUSTIFICATION": "3",
+          "COLOR": "8388608",
+          "FONTID": "1",
+          "ISHIDDEN": "T",
+          "TEXT": "Winbond Electronics",
+          "NAME": "MF",
+          "SHOWNAME": "T",
+          "UNIQUEID": "KEBVXMYN"
+        },
+        {
+          "RECORD": "41",
+          "INDEXINSHEET": "4",
+          "OWNERPARTID": "-1",
+          "JUSTIFICATION": "3",
+          "COLOR": "8388608",
+          "FONTID": "1",
+          "ISHIDDEN": "T",
+          "TEXT": "W25Q128JVSIQ",
+          "NAME": "MP",
+          "UNIQUEID": "AHUPSEXH"
+        },
+        {
+          "RECORD": "41",
+          "INDEXINSHEET": "5",
+          "OWNERPARTID": "-1",
+          "JUSTIFICATION": "3",
+          "COLOR": "8388608",
+          "FONTID": "2",
+          "ISHIDDEN": "T",
+          "TEXT": "https://www.snapeda.com/parts/W25Q128JVSIQ/Winbond/view-part/?ref=eda",
+          "NAME": "Check_prices",
+          "UNIQUEID": "HNYUFWFH"
+        },
+        {
+          "RECORD": "41",
+          "INDEXINSHEET": "-1",
+          "OWNERPARTID": "-1",
+          "LOCATION.X": "59",
+          "LOCATION.X_FRAC": "5512",
+          "LOCATION.Y": "19",
+          "LOCATION.Y_FRAC": "68504",
+          "COLOR": "8388608",
+          "FONTID": "3",
+          "ISHIDDEN": "T",
+          "TEXT": "W25Q128JVSIQ",
+          "NAME": "Comment",
+          "UNIQUEID": "EVYCFKCC"
+        }
+      ],
+      "model_fingerprint": {
+        "W25Q128JVSIQ/Data:implementation_records": [
+          "{\"DatafileCount\": \"1\", \"IsCurrent\": \"T\", \"ModelDatafileEntity0\": \"SOIC127P790X216-8N\", \"ModelDatafileKind0\": \"PCBLib\", \"ModelName\": \"SOIC127P790X216-8N\", \"ModelType\": \"PCBLIB\", \"RECORD\": \"45\"}",
+          "{\"RECORD\": \"44\"}",
+          "{\"RECORD\": \"46\"}",
+          "{\"RECORD\": \"48\"}"
+        ]
+      },
+      "path": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\W25Q128JV\\new\\W25Q128JVSIQ.SchLib",
+      "saved_sha256": "313b7ae071c55d5488b8fb311a4d75da42211f6f14c106893f3b728975bb0ebc",
+      "grid_mutation_saved": true,
+      "native_save_reopen": false,
+      "source_defects": [
+        "pin7 RESET instead of IO3",
+        "all pins electrical7 Power"
+      ],
+      "correction_state": "STARTED_WITHOUT_COMPLETION; unsaved state unknown",
+      "connected_new_working_library": false,
+      "model_resolution_from_target_project": null,
+      "erc": null,
+      "ready_full_lifecycle": false,
+      "stages": {
+        "1_exact_component_source": "existing native source + manufacturer evidence",
+        "2_native_import_or_existing_reuse": "existing native source reused in separate explicit working copy",
+        "3_isolation": "single original Flash/footprint only",
+        "4_gost_mm": "layout saved; source defect correction and native validation blocked",
+        "5_save_reopen_validate": "not completed",
+        "6_project_connection_resolution": "not completed"
+      },
+      "blockers": [
+        "B01",
+        "B02",
+        "B03"
+      ]
+    },
+    "power_tps": {
+      "ready_full_lifecycle": false,
+      "connected_new_working_library": false,
+      "status": "PENDING; see components.md and blockers.md",
+      "stages": {
+        "1_exact_component_source": "family identified; order code proposal documented",
+        "2_native_import_or_existing_reuse": "not completed",
+        "3_isolation": "not completed",
+        "4_gost_mm": "not completed",
+        "5_save_reopen_validate": "not completed",
+        "6_project_connection_resolution": "not completed"
+      },
+      "blockers": [
+        "B04"
+      ]
+    },
+    "power_spx": {
+      "ready_full_lifecycle": false,
+      "connected_new_working_library": false,
+      "status": "PENDING; see components.md and blockers.md",
+      "stages": {
+        "1_exact_component_source": "exact MPN + provider evidence + BXL downloaded",
+        "2_native_import_or_existing_reuse": "not completed",
+        "3_isolation": "not completed",
+        "4_gost_mm": "not completed",
+        "5_save_reopen_validate": "not completed",
+        "6_project_connection_resolution": "not completed"
+      },
+      "blockers": [
+        "B04"
+      ]
+    },
+    "ethernet_phy": {
+      "ready_full_lifecycle": false,
+      "connected_new_working_library": false,
+      "status": "PENDING; see components.md and blockers.md",
+      "stages": {
+        "1_exact_component_source": "exact MPN + vendor evidence, CAD archive not downloaded",
+        "2_native_import_or_existing_reuse": "not completed",
+        "3_isolation": "not completed",
+        "4_gost_mm": "not completed",
+        "5_save_reopen_validate": "not completed",
+        "6_project_connection_resolution": "not completed"
+      },
+      "blockers": [
+        "B04"
+      ]
+    },
+    "ethernet_magjack": {
+      "ready_full_lifecycle": false,
+      "connected_new_working_library": false,
+      "status": "PENDING; see components.md and blockers.md",
+      "stages": {
+        "1_exact_component_source": "exact MPN + vendor evidence, CAD archive not downloaded",
+        "2_native_import_or_existing_reuse": "not completed",
+        "3_isolation": "not completed",
+        "4_gost_mm": "not completed",
+        "5_save_reopen_validate": "not completed",
+        "6_project_connection_resolution": "not completed"
+      },
+      "blockers": [
+        "B04"
+      ]
+    },
+    "ethernet_crystal": {
+      "ready_full_lifecycle": false,
+      "connected_new_working_library": false,
+      "status": "PENDING; see components.md and blockers.md",
+      "stages": {
+        "1_exact_component_source": "exact MPN/requirements unresolved",
+        "2_native_import_or_existing_reuse": "not completed",
+        "3_isolation": "not completed",
+        "4_gost_mm": "not completed",
+        "5_save_reopen_validate": "not completed",
+        "6_project_connection_resolution": "not completed"
+      },
+      "blockers": [
+        "B05"
+      ]
+    },
+    "jtag": {
+      "ready_full_lifecycle": false,
+      "connected_new_working_library": false,
+      "status": "PENDING; see components.md and blockers.md",
+      "stages": {
+        "1_exact_component_source": "exact MPN/requirements unresolved",
+        "2_native_import_or_existing_reuse": "not completed",
+        "3_isolation": "not completed",
+        "4_gost_mm": "not completed",
+        "5_save_reopen_validate": "not completed",
+        "6_project_connection_resolution": "not completed"
+      },
+      "blockers": [
+        "B05"
+      ]
+    },
+    "reset_led": {
+      "ready_full_lifecycle": false,
+      "connected_new_working_library": false,
+      "status": "PENDING; see components.md and blockers.md",
+      "stages": {
+        "1_exact_component_source": "exact MPN/requirements unresolved",
+        "2_native_import_or_existing_reuse": "not completed",
+        "3_isolation": "not completed",
+        "4_gost_mm": "not completed",
+        "5_save_reopen_validate": "not completed",
+        "6_project_connection_resolution": "not completed"
+      },
+      "blockers": [
+        "B05"
+      ]
+    },
+    "inductors": {
+      "ready_full_lifecycle": false,
+      "connected_new_working_library": false,
+      "status": "PENDING; see components.md and blockers.md",
+      "stages": {
+        "1_exact_component_source": "exact MPN/requirements unresolved",
+        "2_native_import_or_existing_reuse": "not completed",
+        "3_isolation": "not completed",
+        "4_gost_mm": "not completed",
+        "5_save_reopen_validate": "not completed",
+        "6_project_connection_resolution": "not completed"
+      },
+      "blockers": [
+        "B05"
+      ]
+    },
+    "ferrite": {
+      "ready_full_lifecycle": false,
+      "connected_new_working_library": false,
+      "status": "PENDING; see components.md and blockers.md",
+      "stages": {
+        "1_exact_component_source": "existing native source + manufacturer evidence",
+        "2_native_import_or_existing_reuse": "local native source found; live verification pending",
+        "3_isolation": "not completed",
+        "4_gost_mm": "not completed",
+        "5_save_reopen_validate": "not completed",
+        "6_project_connection_resolution": "not completed"
+      },
+      "blockers": [
+        "B01",
+        "B03"
+      ]
+    }
+  },
+  "footprints": {
+    "fpga": {
+      "footprints": [
+        {
+          "name": "BGA484C100P22X22_2300X2300X260",
+          "pads": [
+            {
+              "name": "A1",
+              "x_coord": 495866142,
+              "y_coord": 504133858,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "A2",
+              "x_coord": 496259843,
+              "y_coord": 504133858,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "A3",
+              "x_coord": 496653543,
+              "y_coord": 504133858,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "A4",
+              "x_coord": 497047244,
+              "y_coord": 504133858,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "A5",
+              "x_coord": 497440945,
+              "y_coord": 504133858,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "A6",
+              "x_coord": 497834646,
+              "y_coord": 504133858,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "A7",
+              "x_coord": 498228346,
+              "y_coord": 504133858,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "A8",
+              "x_coord": 498622047,
+              "y_coord": 504133858,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "A9",
+              "x_coord": 499015748,
+              "y_coord": 504133858,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "A10",
+              "x_coord": 499409449,
+              "y_coord": 504133858,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "A11",
+              "x_coord": 499803150,
+              "y_coord": 504133858,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "A12",
+              "x_coord": 500196850,
+              "y_coord": 504133858,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "A13",
+              "x_coord": 500590551,
+              "y_coord": 504133858,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "A14",
+              "x_coord": 500984252,
+              "y_coord": 504133858,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "A15",
+              "x_coord": 501377953,
+              "y_coord": 504133858,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "A16",
+              "x_coord": 501771654,
+              "y_coord": 504133858,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "A17",
+              "x_coord": 502165354,
+              "y_coord": 504133858,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "A18",
+              "x_coord": 502559055,
+              "y_coord": 504133858,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "A19",
+              "x_coord": 502952756,
+              "y_coord": 504133858,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "A20",
+              "x_coord": 503346457,
+              "y_coord": 504133858,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "A21",
+              "x_coord": 503740157,
+              "y_coord": 504133858,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "A22",
+              "x_coord": 504133858,
+              "y_coord": 504133858,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "B1",
+              "x_coord": 495866142,
+              "y_coord": 503740157,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "B2",
+              "x_coord": 496259843,
+              "y_coord": 503740157,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "B3",
+              "x_coord": 496653543,
+              "y_coord": 503740157,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "B4",
+              "x_coord": 497047244,
+              "y_coord": 503740157,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "B5",
+              "x_coord": 497440945,
+              "y_coord": 503740157,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "B6",
+              "x_coord": 497834646,
+              "y_coord": 503740157,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "B7",
+              "x_coord": 498228346,
+              "y_coord": 503740157,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "B8",
+              "x_coord": 498622047,
+              "y_coord": 503740157,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "B9",
+              "x_coord": 499015748,
+              "y_coord": 503740157,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "B10",
+              "x_coord": 499409449,
+              "y_coord": 503740157,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "B11",
+              "x_coord": 499803150,
+              "y_coord": 503740157,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "B12",
+              "x_coord": 500196850,
+              "y_coord": 503740157,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "B13",
+              "x_coord": 500590551,
+              "y_coord": 503740157,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "B14",
+              "x_coord": 500984252,
+              "y_coord": 503740157,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "B15",
+              "x_coord": 501377953,
+              "y_coord": 503740157,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "B16",
+              "x_coord": 501771654,
+              "y_coord": 503740157,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "B17",
+              "x_coord": 502165354,
+              "y_coord": 503740157,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "B18",
+              "x_coord": 502559055,
+              "y_coord": 503740157,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "B19",
+              "x_coord": 502952756,
+              "y_coord": 503740157,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "B20",
+              "x_coord": 503346457,
+              "y_coord": 503740157,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "B21",
+              "x_coord": 503740157,
+              "y_coord": 503740157,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "B22",
+              "x_coord": 504133858,
+              "y_coord": 503740157,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "C1",
+              "x_coord": 495866142,
+              "y_coord": 503346457,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "C2",
+              "x_coord": 496259843,
+              "y_coord": 503346457,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "C3",
+              "x_coord": 496653543,
+              "y_coord": 503346457,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "C4",
+              "x_coord": 497047244,
+              "y_coord": 503346457,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "C5",
+              "x_coord": 497440945,
+              "y_coord": 503346457,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "C6",
+              "x_coord": 497834646,
+              "y_coord": 503346457,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "C7",
+              "x_coord": 498228346,
+              "y_coord": 503346457,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "C8",
+              "x_coord": 498622047,
+              "y_coord": 503346457,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "C9",
+              "x_coord": 499015748,
+              "y_coord": 503346457,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "C10",
+              "x_coord": 499409449,
+              "y_coord": 503346457,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "C11",
+              "x_coord": 499803150,
+              "y_coord": 503346457,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "C12",
+              "x_coord": 500196850,
+              "y_coord": 503346457,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "C13",
+              "x_coord": 500590551,
+              "y_coord": 503346457,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "C14",
+              "x_coord": 500984252,
+              "y_coord": 503346457,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "C15",
+              "x_coord": 501377953,
+              "y_coord": 503346457,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "C16",
+              "x_coord": 501771654,
+              "y_coord": 503346457,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "C17",
+              "x_coord": 502165354,
+              "y_coord": 503346457,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "C18",
+              "x_coord": 502559055,
+              "y_coord": 503346457,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "C19",
+              "x_coord": 502952756,
+              "y_coord": 503346457,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "C20",
+              "x_coord": 503346457,
+              "y_coord": 503346457,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "C21",
+              "x_coord": 503740157,
+              "y_coord": 503346457,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "C22",
+              "x_coord": 504133858,
+              "y_coord": 503346457,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "D1",
+              "x_coord": 495866142,
+              "y_coord": 502952756,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "D2",
+              "x_coord": 496259843,
+              "y_coord": 502952756,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "D3",
+              "x_coord": 496653543,
+              "y_coord": 502952756,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "D4",
+              "x_coord": 497047244,
+              "y_coord": 502952756,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "D5",
+              "x_coord": 497440945,
+              "y_coord": 502952756,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "D6",
+              "x_coord": 497834646,
+              "y_coord": 502952756,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "D7",
+              "x_coord": 498228346,
+              "y_coord": 502952756,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "D8",
+              "x_coord": 498622047,
+              "y_coord": 502952756,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "D9",
+              "x_coord": 499015748,
+              "y_coord": 502952756,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "D10",
+              "x_coord": 499409449,
+              "y_coord": 502952756,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "D11",
+              "x_coord": 499803150,
+              "y_coord": 502952756,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "D12",
+              "x_coord": 500196850,
+              "y_coord": 502952756,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "D13",
+              "x_coord": 500590551,
+              "y_coord": 502952756,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "D14",
+              "x_coord": 500984252,
+              "y_coord": 502952756,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "D15",
+              "x_coord": 501377953,
+              "y_coord": 502952756,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "D16",
+              "x_coord": 501771654,
+              "y_coord": 502952756,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "D17",
+              "x_coord": 502165354,
+              "y_coord": 502952756,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "D18",
+              "x_coord": 502559055,
+              "y_coord": 502952756,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "D19",
+              "x_coord": 502952756,
+              "y_coord": 502952756,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "D20",
+              "x_coord": 503346457,
+              "y_coord": 502952756,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "D21",
+              "x_coord": 503740157,
+              "y_coord": 502952756,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "D22",
+              "x_coord": 504133858,
+              "y_coord": 502952756,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "E1",
+              "x_coord": 495866142,
+              "y_coord": 502559055,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "E2",
+              "x_coord": 496259843,
+              "y_coord": 502559055,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "E3",
+              "x_coord": 496653543,
+              "y_coord": 502559055,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "E4",
+              "x_coord": 497047244,
+              "y_coord": 502559055,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "E5",
+              "x_coord": 497440945,
+              "y_coord": 502559055,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "E6",
+              "x_coord": 497834646,
+              "y_coord": 502559055,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "E7",
+              "x_coord": 498228346,
+              "y_coord": 502559055,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "E8",
+              "x_coord": 498622047,
+              "y_coord": 502559055,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "E9",
+              "x_coord": 499015748,
+              "y_coord": 502559055,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "E10",
+              "x_coord": 499409449,
+              "y_coord": 502559055,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "E11",
+              "x_coord": 499803150,
+              "y_coord": 502559055,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "E12",
+              "x_coord": 500196850,
+              "y_coord": 502559055,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "E13",
+              "x_coord": 500590551,
+              "y_coord": 502559055,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "E14",
+              "x_coord": 500984252,
+              "y_coord": 502559055,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "E15",
+              "x_coord": 501377953,
+              "y_coord": 502559055,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "E16",
+              "x_coord": 501771654,
+              "y_coord": 502559055,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "E17",
+              "x_coord": 502165354,
+              "y_coord": 502559055,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "E18",
+              "x_coord": 502559055,
+              "y_coord": 502559055,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "E19",
+              "x_coord": 502952756,
+              "y_coord": 502559055,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "E20",
+              "x_coord": 503346457,
+              "y_coord": 502559055,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "E21",
+              "x_coord": 503740157,
+              "y_coord": 502559055,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "E22",
+              "x_coord": 504133858,
+              "y_coord": 502559055,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "F1",
+              "x_coord": 495866142,
+              "y_coord": 502165354,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "F2",
+              "x_coord": 496259843,
+              "y_coord": 502165354,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "F3",
+              "x_coord": 496653543,
+              "y_coord": 502165354,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "F4",
+              "x_coord": 497047244,
+              "y_coord": 502165354,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "F5",
+              "x_coord": 497440945,
+              "y_coord": 502165354,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "F6",
+              "x_coord": 497834646,
+              "y_coord": 502165354,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "F7",
+              "x_coord": 498228346,
+              "y_coord": 502165354,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "F8",
+              "x_coord": 498622047,
+              "y_coord": 502165354,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "F9",
+              "x_coord": 499015748,
+              "y_coord": 502165354,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "F10",
+              "x_coord": 499409449,
+              "y_coord": 502165354,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "F11",
+              "x_coord": 499803150,
+              "y_coord": 502165354,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "F12",
+              "x_coord": 500196850,
+              "y_coord": 502165354,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "F13",
+              "x_coord": 500590551,
+              "y_coord": 502165354,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "F14",
+              "x_coord": 500984252,
+              "y_coord": 502165354,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "F15",
+              "x_coord": 501377953,
+              "y_coord": 502165354,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "F16",
+              "x_coord": 501771654,
+              "y_coord": 502165354,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "F17",
+              "x_coord": 502165354,
+              "y_coord": 502165354,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "F18",
+              "x_coord": 502559055,
+              "y_coord": 502165354,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "F19",
+              "x_coord": 502952756,
+              "y_coord": 502165354,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "F20",
+              "x_coord": 503346457,
+              "y_coord": 502165354,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "F21",
+              "x_coord": 503740157,
+              "y_coord": 502165354,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "F22",
+              "x_coord": 504133858,
+              "y_coord": 502165354,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "G1",
+              "x_coord": 495866142,
+              "y_coord": 501771654,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "G2",
+              "x_coord": 496259843,
+              "y_coord": 501771654,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "G3",
+              "x_coord": 496653543,
+              "y_coord": 501771654,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "G4",
+              "x_coord": 497047244,
+              "y_coord": 501771654,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "G5",
+              "x_coord": 497440945,
+              "y_coord": 501771654,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "G6",
+              "x_coord": 497834646,
+              "y_coord": 501771654,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "G7",
+              "x_coord": 498228346,
+              "y_coord": 501771654,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "G8",
+              "x_coord": 498622047,
+              "y_coord": 501771654,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "G9",
+              "x_coord": 499015748,
+              "y_coord": 501771654,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "G10",
+              "x_coord": 499409449,
+              "y_coord": 501771654,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "G11",
+              "x_coord": 499803150,
+              "y_coord": 501771654,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "G12",
+              "x_coord": 500196850,
+              "y_coord": 501771654,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "G13",
+              "x_coord": 500590551,
+              "y_coord": 501771654,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "G14",
+              "x_coord": 500984252,
+              "y_coord": 501771654,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "G15",
+              "x_coord": 501377953,
+              "y_coord": 501771654,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "G16",
+              "x_coord": 501771654,
+              "y_coord": 501771654,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "G17",
+              "x_coord": 502165354,
+              "y_coord": 501771654,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "G18",
+              "x_coord": 502559055,
+              "y_coord": 501771654,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "G19",
+              "x_coord": 502952756,
+              "y_coord": 501771654,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "G20",
+              "x_coord": 503346457,
+              "y_coord": 501771654,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "G21",
+              "x_coord": 503740157,
+              "y_coord": 501771654,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "G22",
+              "x_coord": 504133858,
+              "y_coord": 501771654,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "H1",
+              "x_coord": 495866142,
+              "y_coord": 501377953,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "H2",
+              "x_coord": 496259843,
+              "y_coord": 501377953,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "H3",
+              "x_coord": 496653543,
+              "y_coord": 501377953,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "H4",
+              "x_coord": 497047244,
+              "y_coord": 501377953,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "H5",
+              "x_coord": 497440945,
+              "y_coord": 501377953,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "H6",
+              "x_coord": 497834646,
+              "y_coord": 501377953,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "H7",
+              "x_coord": 498228346,
+              "y_coord": 501377953,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "H8",
+              "x_coord": 498622047,
+              "y_coord": 501377953,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "H9",
+              "x_coord": 499015748,
+              "y_coord": 501377953,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "H10",
+              "x_coord": 499409449,
+              "y_coord": 501377953,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "H11",
+              "x_coord": 499803150,
+              "y_coord": 501377953,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "H12",
+              "x_coord": 500196850,
+              "y_coord": 501377953,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "H13",
+              "x_coord": 500590551,
+              "y_coord": 501377953,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "H14",
+              "x_coord": 500984252,
+              "y_coord": 501377953,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "H15",
+              "x_coord": 501377953,
+              "y_coord": 501377953,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "H16",
+              "x_coord": 501771654,
+              "y_coord": 501377953,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "H17",
+              "x_coord": 502165354,
+              "y_coord": 501377953,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "H18",
+              "x_coord": 502559055,
+              "y_coord": 501377953,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "H19",
+              "x_coord": 502952756,
+              "y_coord": 501377953,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "H20",
+              "x_coord": 503346457,
+              "y_coord": 501377953,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "H21",
+              "x_coord": 503740157,
+              "y_coord": 501377953,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "H22",
+              "x_coord": 504133858,
+              "y_coord": 501377953,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "J1",
+              "x_coord": 495866142,
+              "y_coord": 500984252,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "J2",
+              "x_coord": 496259843,
+              "y_coord": 500984252,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "J3",
+              "x_coord": 496653543,
+              "y_coord": 500984252,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "J4",
+              "x_coord": 497047244,
+              "y_coord": 500984252,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "J5",
+              "x_coord": 497440945,
+              "y_coord": 500984252,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "J6",
+              "x_coord": 497834646,
+              "y_coord": 500984252,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "J7",
+              "x_coord": 498228346,
+              "y_coord": 500984252,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "J8",
+              "x_coord": 498622047,
+              "y_coord": 500984252,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "J9",
+              "x_coord": 499015748,
+              "y_coord": 500984252,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "J10",
+              "x_coord": 499409449,
+              "y_coord": 500984252,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "J11",
+              "x_coord": 499803150,
+              "y_coord": 500984252,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "J12",
+              "x_coord": 500196850,
+              "y_coord": 500984252,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "J13",
+              "x_coord": 500590551,
+              "y_coord": 500984252,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "J14",
+              "x_coord": 500984252,
+              "y_coord": 500984252,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "J15",
+              "x_coord": 501377953,
+              "y_coord": 500984252,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "J16",
+              "x_coord": 501771654,
+              "y_coord": 500984252,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "J17",
+              "x_coord": 502165354,
+              "y_coord": 500984252,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "J18",
+              "x_coord": 502559055,
+              "y_coord": 500984252,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "J19",
+              "x_coord": 502952756,
+              "y_coord": 500984252,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "J20",
+              "x_coord": 503346457,
+              "y_coord": 500984252,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "J21",
+              "x_coord": 503740157,
+              "y_coord": 500984252,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "J22",
+              "x_coord": 504133858,
+              "y_coord": 500984252,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "K1",
+              "x_coord": 495866142,
+              "y_coord": 500590551,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "K2",
+              "x_coord": 496259843,
+              "y_coord": 500590551,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "K3",
+              "x_coord": 496653543,
+              "y_coord": 500590551,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "K4",
+              "x_coord": 497047244,
+              "y_coord": 500590551,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "K5",
+              "x_coord": 497440945,
+              "y_coord": 500590551,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "K6",
+              "x_coord": 497834646,
+              "y_coord": 500590551,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "K7",
+              "x_coord": 498228346,
+              "y_coord": 500590551,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "K8",
+              "x_coord": 498622047,
+              "y_coord": 500590551,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "K9",
+              "x_coord": 499015748,
+              "y_coord": 500590551,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "K10",
+              "x_coord": 499409449,
+              "y_coord": 500590551,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "K11",
+              "x_coord": 499803150,
+              "y_coord": 500590551,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "K12",
+              "x_coord": 500196850,
+              "y_coord": 500590551,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "K13",
+              "x_coord": 500590551,
+              "y_coord": 500590551,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "K14",
+              "x_coord": 500984252,
+              "y_coord": 500590551,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "K15",
+              "x_coord": 501377953,
+              "y_coord": 500590551,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "K16",
+              "x_coord": 501771654,
+              "y_coord": 500590551,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "K17",
+              "x_coord": 502165354,
+              "y_coord": 500590551,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "K18",
+              "x_coord": 502559055,
+              "y_coord": 500590551,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "K19",
+              "x_coord": 502952756,
+              "y_coord": 500590551,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "K20",
+              "x_coord": 503346457,
+              "y_coord": 500590551,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "K21",
+              "x_coord": 503740157,
+              "y_coord": 500590551,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "K22",
+              "x_coord": 504133858,
+              "y_coord": 500590551,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "L1",
+              "x_coord": 495866142,
+              "y_coord": 500196850,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "L2",
+              "x_coord": 496259843,
+              "y_coord": 500196850,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "L3",
+              "x_coord": 496653543,
+              "y_coord": 500196850,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "L4",
+              "x_coord": 497047244,
+              "y_coord": 500196850,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "L5",
+              "x_coord": 497440945,
+              "y_coord": 500196850,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "L6",
+              "x_coord": 497834646,
+              "y_coord": 500196850,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "L7",
+              "x_coord": 498228346,
+              "y_coord": 500196850,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "L8",
+              "x_coord": 498622047,
+              "y_coord": 500196850,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "L9",
+              "x_coord": 499015748,
+              "y_coord": 500196850,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "L10",
+              "x_coord": 499409449,
+              "y_coord": 500196850,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "L11",
+              "x_coord": 499803150,
+              "y_coord": 500196850,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "L12",
+              "x_coord": 500196850,
+              "y_coord": 500196850,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "L13",
+              "x_coord": 500590551,
+              "y_coord": 500196850,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "L14",
+              "x_coord": 500984252,
+              "y_coord": 500196850,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "L15",
+              "x_coord": 501377953,
+              "y_coord": 500196850,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "L16",
+              "x_coord": 501771654,
+              "y_coord": 500196850,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "L17",
+              "x_coord": 502165354,
+              "y_coord": 500196850,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "L18",
+              "x_coord": 502559055,
+              "y_coord": 500196850,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "L19",
+              "x_coord": 502952756,
+              "y_coord": 500196850,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "L20",
+              "x_coord": 503346457,
+              "y_coord": 500196850,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "L21",
+              "x_coord": 503740157,
+              "y_coord": 500196850,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "L22",
+              "x_coord": 504133858,
+              "y_coord": 500196850,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "M1",
+              "x_coord": 495866142,
+              "y_coord": 499803150,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "M2",
+              "x_coord": 496259843,
+              "y_coord": 499803150,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "M3",
+              "x_coord": 496653543,
+              "y_coord": 499803150,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "M4",
+              "x_coord": 497047244,
+              "y_coord": 499803150,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "M5",
+              "x_coord": 497440945,
+              "y_coord": 499803150,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "M6",
+              "x_coord": 497834646,
+              "y_coord": 499803150,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "M7",
+              "x_coord": 498228346,
+              "y_coord": 499803150,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "M8",
+              "x_coord": 498622047,
+              "y_coord": 499803150,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "M9",
+              "x_coord": 499015748,
+              "y_coord": 499803150,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "M10",
+              "x_coord": 499409449,
+              "y_coord": 499803150,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "M11",
+              "x_coord": 499803150,
+              "y_coord": 499803150,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "M12",
+              "x_coord": 500196850,
+              "y_coord": 499803150,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "M13",
+              "x_coord": 500590551,
+              "y_coord": 499803150,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "M14",
+              "x_coord": 500984252,
+              "y_coord": 499803150,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "M15",
+              "x_coord": 501377953,
+              "y_coord": 499803150,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "M16",
+              "x_coord": 501771654,
+              "y_coord": 499803150,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "M17",
+              "x_coord": 502165354,
+              "y_coord": 499803150,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "M18",
+              "x_coord": 502559055,
+              "y_coord": 499803150,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "M19",
+              "x_coord": 502952756,
+              "y_coord": 499803150,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "M20",
+              "x_coord": 503346457,
+              "y_coord": 499803150,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "M21",
+              "x_coord": 503740157,
+              "y_coord": 499803150,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "M22",
+              "x_coord": 504133858,
+              "y_coord": 499803150,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "N1",
+              "x_coord": 495866142,
+              "y_coord": 499409449,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "N2",
+              "x_coord": 496259843,
+              "y_coord": 499409449,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "N3",
+              "x_coord": 496653543,
+              "y_coord": 499409449,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "N4",
+              "x_coord": 497047244,
+              "y_coord": 499409449,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "N5",
+              "x_coord": 497440945,
+              "y_coord": 499409449,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "N6",
+              "x_coord": 497834646,
+              "y_coord": 499409449,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "N7",
+              "x_coord": 498228346,
+              "y_coord": 499409449,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "N8",
+              "x_coord": 498622047,
+              "y_coord": 499409449,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "N9",
+              "x_coord": 499015748,
+              "y_coord": 499409449,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "N10",
+              "x_coord": 499409449,
+              "y_coord": 499409449,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "N11",
+              "x_coord": 499803150,
+              "y_coord": 499409449,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "N12",
+              "x_coord": 500196850,
+              "y_coord": 499409449,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "N13",
+              "x_coord": 500590551,
+              "y_coord": 499409449,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "N14",
+              "x_coord": 500984252,
+              "y_coord": 499409449,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "N15",
+              "x_coord": 501377953,
+              "y_coord": 499409449,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "N16",
+              "x_coord": 501771654,
+              "y_coord": 499409449,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "N17",
+              "x_coord": 502165354,
+              "y_coord": 499409449,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "N18",
+              "x_coord": 502559055,
+              "y_coord": 499409449,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "N19",
+              "x_coord": 502952756,
+              "y_coord": 499409449,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "N20",
+              "x_coord": 503346457,
+              "y_coord": 499409449,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "N21",
+              "x_coord": 503740157,
+              "y_coord": 499409449,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "N22",
+              "x_coord": 504133858,
+              "y_coord": 499409449,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "P1",
+              "x_coord": 495866142,
+              "y_coord": 499015748,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "P2",
+              "x_coord": 496259843,
+              "y_coord": 499015748,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "P3",
+              "x_coord": 496653543,
+              "y_coord": 499015748,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "P4",
+              "x_coord": 497047244,
+              "y_coord": 499015748,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "P5",
+              "x_coord": 497440945,
+              "y_coord": 499015748,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "P6",
+              "x_coord": 497834646,
+              "y_coord": 499015748,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "P7",
+              "x_coord": 498228346,
+              "y_coord": 499015748,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "P8",
+              "x_coord": 498622047,
+              "y_coord": 499015748,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "P9",
+              "x_coord": 499015748,
+              "y_coord": 499015748,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "P10",
+              "x_coord": 499409449,
+              "y_coord": 499015748,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "P11",
+              "x_coord": 499803150,
+              "y_coord": 499015748,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "P12",
+              "x_coord": 500196850,
+              "y_coord": 499015748,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "P13",
+              "x_coord": 500590551,
+              "y_coord": 499015748,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "P14",
+              "x_coord": 500984252,
+              "y_coord": 499015748,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "P15",
+              "x_coord": 501377953,
+              "y_coord": 499015748,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "P16",
+              "x_coord": 501771654,
+              "y_coord": 499015748,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "P17",
+              "x_coord": 502165354,
+              "y_coord": 499015748,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "P18",
+              "x_coord": 502559055,
+              "y_coord": 499015748,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "P19",
+              "x_coord": 502952756,
+              "y_coord": 499015748,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "P20",
+              "x_coord": 503346457,
+              "y_coord": 499015748,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "P21",
+              "x_coord": 503740157,
+              "y_coord": 499015748,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "P22",
+              "x_coord": 504133858,
+              "y_coord": 499015748,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "R1",
+              "x_coord": 495866142,
+              "y_coord": 498622047,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "R2",
+              "x_coord": 496259843,
+              "y_coord": 498622047,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "R3",
+              "x_coord": 496653543,
+              "y_coord": 498622047,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "R4",
+              "x_coord": 497047244,
+              "y_coord": 498622047,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "R5",
+              "x_coord": 497440945,
+              "y_coord": 498622047,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "R6",
+              "x_coord": 497834646,
+              "y_coord": 498622047,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "R7",
+              "x_coord": 498228346,
+              "y_coord": 498622047,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "R8",
+              "x_coord": 498622047,
+              "y_coord": 498622047,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "R9",
+              "x_coord": 499015748,
+              "y_coord": 498622047,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "R10",
+              "x_coord": 499409449,
+              "y_coord": 498622047,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "R11",
+              "x_coord": 499803150,
+              "y_coord": 498622047,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "R12",
+              "x_coord": 500196850,
+              "y_coord": 498622047,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "R13",
+              "x_coord": 500590551,
+              "y_coord": 498622047,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "R14",
+              "x_coord": 500984252,
+              "y_coord": 498622047,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "R15",
+              "x_coord": 501377953,
+              "y_coord": 498622047,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "R16",
+              "x_coord": 501771654,
+              "y_coord": 498622047,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "R17",
+              "x_coord": 502165354,
+              "y_coord": 498622047,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "R18",
+              "x_coord": 502559055,
+              "y_coord": 498622047,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "R19",
+              "x_coord": 502952756,
+              "y_coord": 498622047,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "R20",
+              "x_coord": 503346457,
+              "y_coord": 498622047,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "R21",
+              "x_coord": 503740157,
+              "y_coord": 498622047,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "R22",
+              "x_coord": 504133858,
+              "y_coord": 498622047,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "T1",
+              "x_coord": 495866142,
+              "y_coord": 498228346,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "T2",
+              "x_coord": 496259843,
+              "y_coord": 498228346,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "T3",
+              "x_coord": 496653543,
+              "y_coord": 498228346,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "T4",
+              "x_coord": 497047244,
+              "y_coord": 498228346,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "T5",
+              "x_coord": 497440945,
+              "y_coord": 498228346,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "T6",
+              "x_coord": 497834646,
+              "y_coord": 498228346,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "T7",
+              "x_coord": 498228346,
+              "y_coord": 498228346,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "T8",
+              "x_coord": 498622047,
+              "y_coord": 498228346,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "T9",
+              "x_coord": 499015748,
+              "y_coord": 498228346,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "T10",
+              "x_coord": 499409449,
+              "y_coord": 498228346,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "T11",
+              "x_coord": 499803150,
+              "y_coord": 498228346,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "T12",
+              "x_coord": 500196850,
+              "y_coord": 498228346,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "T13",
+              "x_coord": 500590551,
+              "y_coord": 498228346,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "T14",
+              "x_coord": 500984252,
+              "y_coord": 498228346,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "T15",
+              "x_coord": 501377953,
+              "y_coord": 498228346,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "T16",
+              "x_coord": 501771654,
+              "y_coord": 498228346,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "T17",
+              "x_coord": 502165354,
+              "y_coord": 498228346,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "T18",
+              "x_coord": 502559055,
+              "y_coord": 498228346,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "T19",
+              "x_coord": 502952756,
+              "y_coord": 498228346,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "T20",
+              "x_coord": 503346457,
+              "y_coord": 498228346,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "T21",
+              "x_coord": 503740157,
+              "y_coord": 498228346,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "T22",
+              "x_coord": 504133858,
+              "y_coord": 498228346,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "U1",
+              "x_coord": 495866142,
+              "y_coord": 497834646,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "U2",
+              "x_coord": 496259843,
+              "y_coord": 497834646,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "U3",
+              "x_coord": 496653543,
+              "y_coord": 497834646,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "U4",
+              "x_coord": 497047244,
+              "y_coord": 497834646,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "U5",
+              "x_coord": 497440945,
+              "y_coord": 497834646,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "U6",
+              "x_coord": 497834646,
+              "y_coord": 497834646,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "U7",
+              "x_coord": 498228346,
+              "y_coord": 497834646,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "U8",
+              "x_coord": 498622047,
+              "y_coord": 497834646,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "U9",
+              "x_coord": 499015748,
+              "y_coord": 497834646,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "U10",
+              "x_coord": 499409449,
+              "y_coord": 497834646,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "U11",
+              "x_coord": 499803150,
+              "y_coord": 497834646,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "U12",
+              "x_coord": 500196850,
+              "y_coord": 497834646,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "U13",
+              "x_coord": 500590551,
+              "y_coord": 497834646,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "U14",
+              "x_coord": 500984252,
+              "y_coord": 497834646,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "U15",
+              "x_coord": 501377953,
+              "y_coord": 497834646,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "U16",
+              "x_coord": 501771654,
+              "y_coord": 497834646,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "U17",
+              "x_coord": 502165354,
+              "y_coord": 497834646,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "U18",
+              "x_coord": 502559055,
+              "y_coord": 497834646,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "U19",
+              "x_coord": 502952756,
+              "y_coord": 497834646,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "U20",
+              "x_coord": 503346457,
+              "y_coord": 497834646,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "U21",
+              "x_coord": 503740157,
+              "y_coord": 497834646,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "U22",
+              "x_coord": 504133858,
+              "y_coord": 497834646,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "V1",
+              "x_coord": 495866142,
+              "y_coord": 497440945,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "V2",
+              "x_coord": 496259843,
+              "y_coord": 497440945,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "V3",
+              "x_coord": 496653543,
+              "y_coord": 497440945,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "V4",
+              "x_coord": 497047244,
+              "y_coord": 497440945,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "V5",
+              "x_coord": 497440945,
+              "y_coord": 497440945,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "V6",
+              "x_coord": 497834646,
+              "y_coord": 497440945,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "V7",
+              "x_coord": 498228346,
+              "y_coord": 497440945,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "V8",
+              "x_coord": 498622047,
+              "y_coord": 497440945,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "V9",
+              "x_coord": 499015748,
+              "y_coord": 497440945,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "V10",
+              "x_coord": 499409449,
+              "y_coord": 497440945,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "V11",
+              "x_coord": 499803150,
+              "y_coord": 497440945,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "V12",
+              "x_coord": 500196850,
+              "y_coord": 497440945,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "V13",
+              "x_coord": 500590551,
+              "y_coord": 497440945,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "V14",
+              "x_coord": 500984252,
+              "y_coord": 497440945,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "V15",
+              "x_coord": 501377953,
+              "y_coord": 497440945,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "V16",
+              "x_coord": 501771654,
+              "y_coord": 497440945,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "V17",
+              "x_coord": 502165354,
+              "y_coord": 497440945,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "V18",
+              "x_coord": 502559055,
+              "y_coord": 497440945,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "V19",
+              "x_coord": 502952756,
+              "y_coord": 497440945,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "V20",
+              "x_coord": 503346457,
+              "y_coord": 497440945,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "V21",
+              "x_coord": 503740157,
+              "y_coord": 497440945,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "V22",
+              "x_coord": 504133858,
+              "y_coord": 497440945,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "W1",
+              "x_coord": 495866142,
+              "y_coord": 497047244,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "W2",
+              "x_coord": 496259843,
+              "y_coord": 497047244,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "W3",
+              "x_coord": 496653543,
+              "y_coord": 497047244,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "W4",
+              "x_coord": 497047244,
+              "y_coord": 497047244,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "W5",
+              "x_coord": 497440945,
+              "y_coord": 497047244,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "W6",
+              "x_coord": 497834646,
+              "y_coord": 497047244,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "W7",
+              "x_coord": 498228346,
+              "y_coord": 497047244,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "W8",
+              "x_coord": 498622047,
+              "y_coord": 497047244,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "W9",
+              "x_coord": 499015748,
+              "y_coord": 497047244,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "W10",
+              "x_coord": 499409449,
+              "y_coord": 497047244,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "W11",
+              "x_coord": 499803150,
+              "y_coord": 497047244,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "W12",
+              "x_coord": 500196850,
+              "y_coord": 497047244,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "W13",
+              "x_coord": 500590551,
+              "y_coord": 497047244,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "W14",
+              "x_coord": 500984252,
+              "y_coord": 497047244,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "W15",
+              "x_coord": 501377953,
+              "y_coord": 497047244,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "W16",
+              "x_coord": 501771654,
+              "y_coord": 497047244,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "W17",
+              "x_coord": 502165354,
+              "y_coord": 497047244,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "W18",
+              "x_coord": 502559055,
+              "y_coord": 497047244,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "W19",
+              "x_coord": 502952756,
+              "y_coord": 497047244,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "W20",
+              "x_coord": 503346457,
+              "y_coord": 497047244,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "W21",
+              "x_coord": 503740157,
+              "y_coord": 497047244,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "W22",
+              "x_coord": 504133858,
+              "y_coord": 497047244,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "Y1",
+              "x_coord": 495866142,
+              "y_coord": 496653543,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "Y2",
+              "x_coord": 496259843,
+              "y_coord": 496653543,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "Y3",
+              "x_coord": 496653543,
+              "y_coord": 496653543,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "Y4",
+              "x_coord": 497047244,
+              "y_coord": 496653543,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "Y5",
+              "x_coord": 497440945,
+              "y_coord": 496653543,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "Y6",
+              "x_coord": 497834646,
+              "y_coord": 496653543,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "Y7",
+              "x_coord": 498228346,
+              "y_coord": 496653543,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "Y8",
+              "x_coord": 498622047,
+              "y_coord": 496653543,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "Y9",
+              "x_coord": 499015748,
+              "y_coord": 496653543,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "Y10",
+              "x_coord": 499409449,
+              "y_coord": 496653543,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "Y11",
+              "x_coord": 499803150,
+              "y_coord": 496653543,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "Y12",
+              "x_coord": 500196850,
+              "y_coord": 496653543,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "Y13",
+              "x_coord": 500590551,
+              "y_coord": 496653543,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "Y14",
+              "x_coord": 500984252,
+              "y_coord": 496653543,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "Y15",
+              "x_coord": 501377953,
+              "y_coord": 496653543,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "Y16",
+              "x_coord": 501771654,
+              "y_coord": 496653543,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "Y17",
+              "x_coord": 502165354,
+              "y_coord": 496653543,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "Y18",
+              "x_coord": 502559055,
+              "y_coord": 496653543,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "Y19",
+              "x_coord": 502952756,
+              "y_coord": 496653543,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "Y20",
+              "x_coord": 503346457,
+              "y_coord": 496653543,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "Y21",
+              "x_coord": 503740157,
+              "y_coord": 496653543,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "Y22",
+              "x_coord": 504133858,
+              "y_coord": 496653543,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "AA1",
+              "x_coord": 495866142,
+              "y_coord": 496259843,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "AA2",
+              "x_coord": 496259843,
+              "y_coord": 496259843,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "AA3",
+              "x_coord": 496653543,
+              "y_coord": 496259843,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "AA4",
+              "x_coord": 497047244,
+              "y_coord": 496259843,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "AA5",
+              "x_coord": 497440945,
+              "y_coord": 496259843,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "AA6",
+              "x_coord": 497834646,
+              "y_coord": 496259843,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "AA7",
+              "x_coord": 498228346,
+              "y_coord": 496259843,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "AA8",
+              "x_coord": 498622047,
+              "y_coord": 496259843,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "AA9",
+              "x_coord": 499015748,
+              "y_coord": 496259843,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "AA10",
+              "x_coord": 499409449,
+              "y_coord": 496259843,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "AA11",
+              "x_coord": 499803150,
+              "y_coord": 496259843,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "AA12",
+              "x_coord": 500196850,
+              "y_coord": 496259843,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "AA13",
+              "x_coord": 500590551,
+              "y_coord": 496259843,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "AA14",
+              "x_coord": 500984252,
+              "y_coord": 496259843,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "AA15",
+              "x_coord": 501377953,
+              "y_coord": 496259843,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "AA16",
+              "x_coord": 501771654,
+              "y_coord": 496259843,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "AA17",
+              "x_coord": 502165354,
+              "y_coord": 496259843,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "AA18",
+              "x_coord": 502559055,
+              "y_coord": 496259843,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "AA19",
+              "x_coord": 502952756,
+              "y_coord": 496259843,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "AA20",
+              "x_coord": 503346457,
+              "y_coord": 496259843,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "AA21",
+              "x_coord": 503740157,
+              "y_coord": 496259843,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "AA22",
+              "x_coord": 504133858,
+              "y_coord": 496259843,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "AB1",
+              "x_coord": 495866142,
+              "y_coord": 495866142,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "AB2",
+              "x_coord": 496259843,
+              "y_coord": 495866142,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "AB3",
+              "x_coord": 496653543,
+              "y_coord": 495866142,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "AB4",
+              "x_coord": 497047244,
+              "y_coord": 495866142,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "AB5",
+              "x_coord": 497440945,
+              "y_coord": 495866142,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "AB6",
+              "x_coord": 497834646,
+              "y_coord": 495866142,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "AB7",
+              "x_coord": 498228346,
+              "y_coord": 495866142,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "AB8",
+              "x_coord": 498622047,
+              "y_coord": 495866142,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "AB9",
+              "x_coord": 499015748,
+              "y_coord": 495866142,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "AB10",
+              "x_coord": 499409449,
+              "y_coord": 495866142,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "AB11",
+              "x_coord": 499803150,
+              "y_coord": 495866142,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "AB12",
+              "x_coord": 500196850,
+              "y_coord": 495866142,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "AB13",
+              "x_coord": 500590551,
+              "y_coord": 495866142,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "AB14",
+              "x_coord": 500984252,
+              "y_coord": 495866142,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "AB15",
+              "x_coord": 501377953,
+              "y_coord": 495866142,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "AB16",
+              "x_coord": 501771654,
+              "y_coord": 495866142,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "AB17",
+              "x_coord": 502165354,
+              "y_coord": 495866142,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "AB18",
+              "x_coord": 502559055,
+              "y_coord": 495866142,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "AB19",
+              "x_coord": 502952756,
+              "y_coord": 495866142,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "AB20",
+              "x_coord": 503346457,
+              "y_coord": 495866142,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "AB21",
+              "x_coord": 503740157,
+              "y_coord": 495866142,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "AB22",
+              "x_coord": 504133858,
+              "y_coord": 495866142,
+              "x_size_coord": 196850,
+              "y_size_coord": 196850,
+              "hole_coord": 0,
+              "rotation": 0
+            }
+          ],
+          "pad_count": 484
+        }
+      ],
+      "count": 1
+    },
+    "flash": {
+      "footprints": [
+        {
+          "name": "SOIC127P790X216-8N",
+          "pads": [
+            {
+              "name": "8",
+              "x_coord": 501419291,
+              "y_coord": 500750000,
+              "x_size_coord": 633858,
+              "y_size_coord": 228346,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "7",
+              "x_coord": 501419291,
+              "y_coord": 500250000,
+              "x_size_coord": 633858,
+              "y_size_coord": 228346,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "6",
+              "x_coord": 501419291,
+              "y_coord": 499750000,
+              "x_size_coord": 633858,
+              "y_size_coord": 228346,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "5",
+              "x_coord": 501419291,
+              "y_coord": 499250000,
+              "x_size_coord": 633858,
+              "y_size_coord": 228346,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "4",
+              "x_coord": 498580709,
+              "y_coord": 499250000,
+              "x_size_coord": 633858,
+              "y_size_coord": 228346,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "3",
+              "x_coord": 498580709,
+              "y_coord": 499750000,
+              "x_size_coord": 633858,
+              "y_size_coord": 228346,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "2",
+              "x_coord": 498580709,
+              "y_coord": 500250000,
+              "x_size_coord": 633858,
+              "y_size_coord": 228346,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "1",
+              "x_coord": 498580709,
+              "y_coord": 500750000,
+              "x_size_coord": 633858,
+              "y_size_coord": 228346,
+              "hole_coord": 0,
+              "rotation": 0
+            }
+          ],
+          "pad_count": 8
+        }
+      ],
+      "count": 1
+    },
+    "asv_source": {
+      "footprints": [
+        {
+          "name": "RUEF1102",
+          "pads": [
+            {
+              "name": "1",
+              "x_coord": 0,
+              "y_coord": 0,
+              "x_size_coord": 479528,
+              "y_size_coord": 479528,
+              "hole_coord": 279764,
+              "rotation": 0
+            },
+            {
+              "name": "2",
+              "x_coord": 1988189,
+              "y_coord": 0,
+              "x_size_coord": 479528,
+              "y_size_coord": 479528,
+              "hole_coord": 279764,
+              "rotation": 0
+            }
+          ],
+          "pad_count": 2
+        },
+        {
+          "name": "APC817C1SL",
+          "pads": [
+            {
+              "name": "1",
+              "x_coord": -1801181,
+              "y_coord": 500000,
+              "x_size_coord": 629921,
+              "y_size_coord": 393701,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "2",
+              "x_coord": -1801181,
+              "y_coord": -500000,
+              "x_size_coord": 629921,
+              "y_size_coord": 393701,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "3",
+              "x_coord": 1801181,
+              "y_coord": -500000,
+              "x_size_coord": 629921,
+              "y_size_coord": 393701,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "4",
+              "x_coord": 1801181,
+              "y_coord": 500000,
+              "x_size_coord": 629921,
+              "y_size_coord": 393701,
+              "hole_coord": 0,
+              "rotation": 0
+            }
+          ],
+          "pad_count": 4
+        },
+        {
+          "name": "09.03290.01",
+          "pads": [
+            {
+              "name": "3",
+              "x_coord": 501000000,
+              "y_coord": 500000000,
+              "x_size_coord": 511811,
+              "y_size_coord": 511811,
+              "hole_coord": 314961,
+              "rotation": 0
+            },
+            {
+              "name": "2",
+              "x_coord": 499000000,
+              "y_coord": 500000000,
+              "x_size_coord": 511811,
+              "y_size_coord": 511811,
+              "hole_coord": 314961,
+              "rotation": 0
+            },
+            {
+              "name": "1",
+              "x_coord": 500000000,
+              "y_coord": 500000000,
+              "x_size_coord": 511811,
+              "y_size_coord": 511811,
+              "hole_coord": 314961,
+              "rotation": 0
+            }
+          ],
+          "pad_count": 3
+        },
+        {
+          "name": "HF32F024HS3",
+          "pads": [
+            {
+              "name": "4",
+              "x_coord": 5000000,
+              "y_coord": 0,
+              "x_size_coord": 767717,
+              "y_size_coord": 767717,
+              "hole_coord": 511811,
+              "rotation": 0
+            },
+            {
+              "name": "3",
+              "x_coord": 6000000,
+              "y_coord": 2992126,
+              "x_size_coord": 767717,
+              "y_size_coord": 767717,
+              "hole_coord": 511811,
+              "rotation": 0
+            },
+            {
+              "name": "2",
+              "x_coord": 0,
+              "y_coord": 2992126,
+              "x_size_coord": 767717,
+              "y_size_coord": 767717,
+              "hole_coord": 511811,
+              "rotation": 0
+            },
+            {
+              "name": "1",
+              "x_coord": 0,
+              "y_coord": 0,
+              "x_size_coord": 767717,
+              "y_size_coord": 767717,
+              "hole_coord": 511811,
+              "rotation": 0
+            }
+          ],
+          "pad_count": 4
+        },
+        {
+          "name": "DIOM5436X244N",
+          "pads": [
+            {
+              "name": "2",
+              "x_coord": 866142,
+              "y_coord": 0,
+              "x_size_coord": 866142,
+              "y_size_coord": 846457,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "1",
+              "x_coord": -866142,
+              "y_coord": 0,
+              "x_size_coord": 866142,
+              "y_size_coord": 846457,
+              "hole_coord": 0,
+              "rotation": 0
+            }
+          ],
+          "pad_count": 2
+        },
+        {
+          "name": "ASV25000MHZEJT",
+          "pads": [
+            {
+              "name": "4",
+              "x_coord": -1000000,
+              "y_coord": 866142,
+              "x_size_coord": 787402,
+              "y_size_coord": 708661,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "3",
+              "x_coord": 1000000,
+              "y_coord": 866142,
+              "x_size_coord": 787402,
+              "y_size_coord": 708661,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "2",
+              "x_coord": 1000000,
+              "y_coord": -708661,
+              "x_size_coord": 787402,
+              "y_size_coord": 708661,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "1",
+              "x_coord": -1000000,
+              "y_coord": -708661,
+              "x_size_coord": 787402,
+              "y_size_coord": 708661,
+              "hole_coord": 0,
+              "rotation": 0
+            }
+          ],
+          "pad_count": 4
+        },
+        {
+          "name": "PCBComponent_1",
+          "pads": [],
+          "pad_count": 0
+        },
+        {
+          "name": "SOIC127P600X175-8N",
+          "pads": [
+            {
+              "name": "1",
+              "x_coord": -1072835,
+              "y_coord": 750000,
+              "x_size_coord": 610236,
+              "y_size_coord": 275591,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "2",
+              "x_coord": -1072835,
+              "y_coord": 250000,
+              "x_size_coord": 610236,
+              "y_size_coord": 275591,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "3",
+              "x_coord": -1072835,
+              "y_coord": -250000,
+              "x_size_coord": 610236,
+              "y_size_coord": 275591,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "4",
+              "x_coord": -1072835,
+              "y_coord": -750000,
+              "x_size_coord": 610236,
+              "y_size_coord": 275591,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "5",
+              "x_coord": 1072835,
+              "y_coord": -750000,
+              "x_size_coord": 610236,
+              "y_size_coord": 275591,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "6",
+              "x_coord": 1072835,
+              "y_coord": -250000,
+              "x_size_coord": 610236,
+              "y_size_coord": 275591,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "7",
+              "x_coord": 1072835,
+              "y_coord": 250000,
+              "x_size_coord": 610236,
+              "y_size_coord": 275591,
+              "hole_coord": 0,
+              "rotation": 0
+            },
+            {
+              "name": "8",
+              "x_coord": 1072835,
+              "y_coord": 750000,
+              "x_size_coord": 610236,
+              "y_size_coord": 275591,
+              "hole_coord": 0,
+              "rotation": 0
+            }
+          ],
+          "pad_count": 8
+        }
+      ],
+      "count": 8
+    }
+  },
+  "source_preservation": [
+    {
+      "source": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\X7\\XC7A50T-2FGG484I.SchLib",
+      "destination": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\project\\ARTIX.SchLib",
+      "source_sha256": "a7c2b074fc397064db30a0458dbc746344e218c4d54ed01bf785872ad9977d6e",
+      "destination_sha256": "a7c2b074fc397064db30a0458dbc746344e218c4d54ed01bf785872ad9977d6e",
+      "current_source_sha256": "a7c2b074fc397064db30a0458dbc746344e218c4d54ed01bf785872ad9977d6e",
+      "unchanged": true
+    },
+    {
+      "source": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\X7\\BGA484C100P22X22_2300X2300X260.PcbLib",
+      "destination": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\project\\ARTIX.PcbLib",
+      "source_sha256": "9a0c5d1ad347e1a9747f6023edf8ff7649941a8f86fd2336baa59f7b85fef50c",
+      "destination_sha256": "9a0c5d1ad347e1a9747f6023edf8ff7649941a8f86fd2336baa59f7b85fef50c",
+      "current_source_sha256": "9a0c5d1ad347e1a9747f6023edf8ff7649941a8f86fd2336baa59f7b85fef50c",
+      "unchanged": true
+    },
+    {
+      "source": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\ASV-50MHz\\Schlib1.SchLib",
+      "destination": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\ASV-50MHz\\new\\Schlib1.SchLib",
+      "source_sha256": "b57324318b43f415e04c968f013d1490726876b1e15b992d742a50023c1dddcc",
+      "destination_sha256": "b57324318b43f415e04c968f013d1490726876b1e15b992d742a50023c1dddcc",
+      "current_source_sha256": "b57324318b43f415e04c968f013d1490726876b1e15b992d742a50023c1dddcc",
+      "unchanged": true
+    },
+    {
+      "source": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\ASV-50MHz\\PcbLib1.PcbLib",
+      "destination": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\ASV-50MHz\\new\\PcbLib1.PcbLib",
+      "source_sha256": "26310c6bb559149fe36b03c2bc114b7760eb6e6daaef833e82e1fbde05840e04",
+      "destination_sha256": "26310c6bb559149fe36b03c2bc114b7760eb6e6daaef833e82e1fbde05840e04",
+      "current_source_sha256": "26310c6bb559149fe36b03c2bc114b7760eb6e6daaef833e82e1fbde05840e04",
+      "unchanged": true
+    },
+    {
+      "source": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\W25Q128JV\\source\\W25Q128JVSIQ.SchLib",
+      "destination": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\W25Q128JV\\new\\W25Q128JVSIQ.SchLib",
+      "source_sha256": "a0cab69e8b4cf5e0f2d7d9776bda3527bf35df02c21aa888795b81cf132ee521",
+      "destination_sha256": "a0cab69e8b4cf5e0f2d7d9776bda3527bf35df02c21aa888795b81cf132ee521",
+      "current_source_sha256": "a0cab69e8b4cf5e0f2d7d9776bda3527bf35df02c21aa888795b81cf132ee521",
+      "unchanged": true
+    },
+    {
+      "source": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\W25Q128JV\\source\\SOIC127P790X216-8N.PcbLib",
+      "destination": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\W25Q128JV\\new\\SOIC127P790X216-8N.PcbLib",
+      "source_sha256": "fc99c1b590db05c627a6db7ad144397d89b2dbb4e5e8f484f602e91ff264ea50",
+      "destination_sha256": "fc99c1b590db05c627a6db7ad144397d89b2dbb4e5e8f484f602e91ff264ea50",
+      "current_source_sha256": "fc99c1b590db05c627a6db7ad144397d89b2dbb4e5e8f484f602e91ff264ea50",
+      "unchanged": true
+    }
+  ],
+  "project": {
+    "path": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\ARTIX.PrjPcb",
+    "saved_sha256": "3e456e1a766428ee06de1f674c5a3ba999212224df0cb31aec6678a3240c0f72",
+    "references": [
+      "01_Power.SchDoc",
+      "02_FPGA_IO_Config.SchDoc",
+      "03_FPGA_IO_Clock.SchDoc",
+      "04_Reference_Inputs.SchDoc",
+      "05_PPS_Outputs.SchDoc",
+      "06_Ethernet.SchDoc",
+      "libraries\\X7\\BGA484C100P22X22_2300X2300X260.PcbLib",
+      "libraries\\X7\\XC7A50T-2FGG484I.SchLib",
+      "libraries\\ASV-50MHz\\ASV-50MHz-GOST.SchLib",
+      "libraries\\ASV-50MHz\\PcbLib1.PcbLib",
+      "libraries\\ASV-50MHz\\Schlib1.SchLib"
+    ],
+    "modified_by_this_run": false,
+    "new_pair_connected": false,
+    "compiler_called": false
+  },
+  "blocked_executor": {
+    "mutation_job": "0b5f9f78b4034984a80b45aaa67e5ac6",
+    "mutation_state": "STARTED_WITHOUT_COMPLETION",
+    "recovery_job": "c58f4e3aefe640ef98c37e45496bf9f1",
+    "recovery_success": false
+  }
+}

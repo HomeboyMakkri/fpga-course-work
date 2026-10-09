@@ -1,0 +1,93 @@
+{
+  "success": true,
+  "job_dir": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\tools\\altium\\runtime\\jobs\\0d9ad9e24ef6449d8c70d30bf741526d",
+  "steps": [
+    "START",
+    "open exact PCB library",
+    "FINISHED"
+  ],
+  "elapsed_seconds": 1.05,
+  "result": {
+    "footprints": [
+      {
+        "name": "SOT65P280X110-8N",
+        "pads": [
+          {
+            "name": "1",
+            "x_coord": 499547244,
+            "y_coord": 500383858,
+            "x_size_coord": 539370,
+            "y_size_coord": 188976,
+            "hole_coord": 0,
+            "rotation": 0
+          },
+          {
+            "name": "2",
+            "x_coord": 499547244,
+            "y_coord": 500127953,
+            "x_size_coord": 539370,
+            "y_size_coord": 188976,
+            "hole_coord": 0,
+            "rotation": 0
+          },
+          {
+            "name": "3",
+            "x_coord": 499547244,
+            "y_coord": 499872047,
+            "x_size_coord": 539370,
+            "y_size_coord": 188976,
+            "hole_coord": 0,
+            "rotation": 0
+          },
+          {
+            "name": "4",
+            "x_coord": 499547244,
+            "y_coord": 499616142,
+            "x_size_coord": 539370,
+            "y_size_coord": 188976,
+            "hole_coord": 0,
+            "rotation": 0
+          },
+          {
+            "name": "5",
+            "x_coord": 500452756,
+            "y_coord": 499616142,
+            "x_size_coord": 539370,
+            "y_size_coord": 188976,
+            "hole_coord": 0,
+            "rotation": 0
+          },
+          {
+            "name": "6",
+            "x_coord": 500452756,
+            "y_coord": 499872047,
+            "x_size_coord": 539370,
+            "y_size_coord": 188976,
+            "hole_coord": 0,
+            "rotation": 0
+          },
+          {
+            "name": "7",
+            "x_coord": 500452756,
+            "y_coord": 500127953,
+            "x_size_coord": 539370,
+            "y_size_coord": 188976,
+            "hole_coord": 0,
+            "rotation": 0
+          },
+          {
+            "name": "8",
+            "x_coord": 500452756,
+            "y_coord": 500383858,
+            "x_size_coord": 539370,
+            "y_size_coord": 188976,
+            "hole_coord": 0,
+            "rotation": 0
+          }
+        ],
+        "pad_count": 8
+      }
+    ],
+    "count": 1
+  }
+}

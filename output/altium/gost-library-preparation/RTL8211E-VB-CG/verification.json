@@ -1,0 +1,25 @@
+{
+  "success": true,
+  "checks": {
+    "identity": true,
+    "pins": true,
+    "fonts": true,
+    "black": true,
+    "body_dividers_header": true,
+    "document_grids": true,
+    "endpoint_grid": true,
+    "models_and_maps_unchanged": true,
+    "other_components_unchanged": true
+  },
+  "component": "RTL8211E-VB-CG",
+  "pins": 49,
+  "parts": 5,
+  "electrical_policy": "power",
+  "max_endpoint_grid_error_mm": 1.379999993389447e-06,
+  "path": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\RTL8211E-VB-CG\\new\\RTL8211E-VB-CG.SchLib",
+  "sha256": "d7637bedcabb9079216f97243f7717acb24039cd31b5dcb35f289fbb4fde57c6",
+  "native_result_file": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\output\\altium\\gost-library-preparation\\RTL8211E-VB-CG\\readback-result.json",
+  "visual_review": "Native/saved-geometry visual review still required; this validates geometry and typography, not formal GOST certification.",
+  "project_resolution": "Separate step when project connection is requested; never inferred from a model name.",
+  "erc": "Separate step for placed components; not proved by symbol readback."
+}

@@ -1,0 +1,698 @@
+{
+  "success": true,
+  "job_dir": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\tools\\altium\\runtime\\jobs\\2e6e145bab7d4d16b9facab87d8b46bc",
+  "steps": [
+    "START",
+    "select exact library component",
+    "select exact library component",
+    "FINISHED"
+  ],
+  "elapsed_seconds": 2.41,
+  "result": {
+    "component": "HR911130A",
+    "part_count": 2,
+    "current_part": 1,
+    "pins": [
+      {
+        "designator": "11",
+        "name": "11",
+        "unique_id": "JTOCXXAX",
+        "part": 2,
+        "display_mode": 0,
+        "x_coord": 0,
+        "y_coord": -2362205,
+        "orientation": 2,
+        "electrical": 7,
+        "show_name": false,
+        "show_designator": true,
+        "length_coord": 1968504,
+        "name_font_mode": 1,
+        "designator_font_mode": 1,
+        "name_font": "GOST Common",
+        "name_size": 10,
+        "designator_font": "GOST Common",
+        "designator_size": 10
+      },
+      {
+        "designator": "12",
+        "name": "12",
+        "unique_id": "JIMWWSVP",
+        "part": 2,
+        "display_mode": 0,
+        "x_coord": 0,
+        "y_coord": -4724409,
+        "orientation": 2,
+        "electrical": 7,
+        "show_name": false,
+        "show_designator": true,
+        "length_coord": 1968504,
+        "name_font_mode": 1,
+        "designator_font_mode": 1,
+        "name_font": "GOST Common",
+        "name_size": 10,
+        "designator_font": "GOST Common",
+        "designator_size": 10
+      },
+      {
+        "designator": "13",
+        "name": "13",
+        "unique_id": "RYLAOXUX",
+        "part": 2,
+        "display_mode": 0,
+        "x_coord": 0,
+        "y_coord": -9448819,
+        "orientation": 2,
+        "electrical": 7,
+        "show_name": false,
+        "show_designator": true,
+        "length_coord": 1968504,
+        "name_font_mode": 1,
+        "designator_font_mode": 1,
+        "name_font": "GOST Common",
+        "name_size": 10,
+        "designator_font": "GOST Common",
+        "designator_size": 10
+      },
+      {
+        "designator": "14",
+        "name": "14",
+        "unique_id": "WQMVILCW",
+        "part": 2,
+        "display_mode": 0,
+        "x_coord": 0,
+        "y_coord": -7086614,
+        "orientation": 2,
+        "electrical": 7,
+        "show_name": false,
+        "show_designator": true,
+        "length_coord": 1968504,
+        "name_font_mode": 1,
+        "designator_font_mode": 1,
+        "name_font": "GOST Common",
+        "name_size": 10,
+        "designator_font": "GOST Common",
+        "designator_size": 10
+      },
+      {
+        "designator": "15",
+        "name": "15",
+        "unique_id": "ALCRXCGK",
+        "part": 2,
+        "display_mode": 0,
+        "x_coord": 29133858,
+        "y_coord": -2362205,
+        "orientation": 0,
+        "electrical": 7,
+        "show_name": false,
+        "show_designator": true,
+        "length_coord": 1968504,
+        "name_font_mode": 1,
+        "designator_font_mode": 1,
+        "name_font": "GOST Common",
+        "name_size": 10,
+        "designator_font": "GOST Common",
+        "designator_size": 10
+      },
+      {
+        "designator": "16",
+        "name": "16",
+        "unique_id": "JEMFVVHY",
+        "part": 2,
+        "display_mode": 0,
+        "x_coord": 29133858,
+        "y_coord": -4724409,
+        "orientation": 0,
+        "electrical": 7,
+        "show_name": false,
+        "show_designator": true,
+        "length_coord": 1968504,
+        "name_font_mode": 1,
+        "designator_font_mode": 1,
+        "name_font": "GOST Common",
+        "name_size": 10,
+        "designator_font": "GOST Common",
+        "designator_size": 10
+      },
+      {
+        "designator": "1",
+        "name": "1",
+        "unique_id": "ASLYRQOL",
+        "part": 1,
+        "display_mode": 0,
+        "x_coord": 29133858,
+        "y_coord": -2362205,
+        "orientation": 0,
+        "electrical": 7,
+        "show_name": false,
+        "show_designator": true,
+        "length_coord": 1968504,
+        "name_font_mode": 1,
+        "designator_font_mode": 1,
+        "name_font": "GOST Common",
+        "name_size": 10,
+        "designator_font": "GOST Common",
+        "designator_size": 10
+      },
+      {
+        "designator": "2",
+        "name": "2",
+        "unique_id": "ZRGGLEPY",
+        "part": 1,
+        "display_mode": 0,
+        "x_coord": 0,
+        "y_coord": -2362205,
+        "orientation": 2,
+        "electrical": 7,
+        "show_name": false,
+        "show_designator": true,
+        "length_coord": 1968504,
+        "name_font_mode": 1,
+        "designator_font_mode": 1,
+        "name_font": "GOST Common",
+        "name_size": 10,
+        "designator_font": "GOST Common",
+        "designator_size": 10
+      },
+      {
+        "designator": "3",
+        "name": "3",
+        "unique_id": "FQWLQERP",
+        "part": 1,
+        "display_mode": 0,
+        "x_coord": 0,
+        "y_coord": -4724409,
+        "orientation": 2,
+        "electrical": 7,
+        "show_name": false,
+        "show_designator": true,
+        "length_coord": 1968504,
+        "name_font_mode": 1,
+        "designator_font_mode": 1,
+        "name_font": "GOST Common",
+        "name_size": 10,
+        "designator_font": "GOST Common",
+        "designator_size": 10
+      },
+      {
+        "designator": "4",
+        "name": "4",
+        "unique_id": "SBQKLOCA",
+        "part": 1,
+        "display_mode": 0,
+        "x_coord": 0,
+        "y_coord": -7086614,
+        "orientation": 2,
+        "electrical": 7,
+        "show_name": false,
+        "show_designator": true,
+        "length_coord": 1968504,
+        "name_font_mode": 1,
+        "designator_font_mode": 1,
+        "name_font": "GOST Common",
+        "name_size": 10,
+        "designator_font": "GOST Common",
+        "designator_size": 10
+      },
+      {
+        "designator": "5",
+        "name": "5",
+        "unique_id": "IOUQAEEJ",
+        "part": 1,
+        "display_mode": 0,
+        "x_coord": 0,
+        "y_coord": -11811024,
+        "orientation": 2,
+        "electrical": 7,
+        "show_name": false,
+        "show_designator": true,
+        "length_coord": 1968504,
+        "name_font_mode": 1,
+        "designator_font_mode": 1,
+        "name_font": "GOST Common",
+        "name_size": 10,
+        "designator_font": "GOST Common",
+        "designator_size": 10
+      },
+      {
+        "designator": "6",
+        "name": "6",
+        "unique_id": "WQRGWZZE",
+        "part": 1,
+        "display_mode": 0,
+        "x_coord": 0,
+        "y_coord": -14173228,
+        "orientation": 2,
+        "electrical": 7,
+        "show_name": false,
+        "show_designator": true,
+        "length_coord": 1968504,
+        "name_font_mode": 1,
+        "designator_font_mode": 1,
+        "name_font": "GOST Common",
+        "name_size": 10,
+        "designator_font": "GOST Common",
+        "designator_size": 10
+      },
+      {
+        "designator": "7",
+        "name": "7",
+        "unique_id": "OOAFZWHW",
+        "part": 1,
+        "display_mode": 0,
+        "x_coord": 0,
+        "y_coord": -9448819,
+        "orientation": 2,
+        "electrical": 7,
+        "show_name": false,
+        "show_designator": true,
+        "length_coord": 1968504,
+        "name_font_mode": 1,
+        "designator_font_mode": 1,
+        "name_font": "GOST Common",
+        "name_size": 10,
+        "designator_font": "GOST Common",
+        "designator_size": 10
+      },
+      {
+        "designator": "8",
+        "name": "8",
+        "unique_id": "AVGQAEAL",
+        "part": 1,
+        "display_mode": 0,
+        "x_coord": 0,
+        "y_coord": -16535433,
+        "orientation": 2,
+        "electrical": 7,
+        "show_name": false,
+        "show_designator": true,
+        "length_coord": 1968504,
+        "name_font_mode": 1,
+        "designator_font_mode": 1,
+        "name_font": "GOST Common",
+        "name_size": 10,
+        "designator_font": "GOST Common",
+        "designator_size": 10
+      },
+      {
+        "designator": "9",
+        "name": "9",
+        "unique_id": "OFXXJZXB",
+        "part": 1,
+        "display_mode": 0,
+        "x_coord": 0,
+        "y_coord": -18897638,
+        "orientation": 2,
+        "electrical": 7,
+        "show_name": false,
+        "show_designator": true,
+        "length_coord": 1968504,
+        "name_font_mode": 1,
+        "designator_font_mode": 1,
+        "name_font": "GOST Common",
+        "name_size": 10,
+        "designator_font": "GOST Common",
+        "designator_size": 10
+      },
+      {
+        "designator": "10",
+        "name": "10",
+        "unique_id": "MMOZMKTS",
+        "part": 1,
+        "display_mode": 0,
+        "x_coord": 29133858,
+        "y_coord": -4724409,
+        "orientation": 0,
+        "electrical": 7,
+        "show_name": false,
+        "show_designator": true,
+        "length_coord": 1968504,
+        "name_font_mode": 1,
+        "designator_font_mode": 1,
+        "name_font": "GOST Common",
+        "name_size": 10,
+        "designator_font": "GOST Common",
+        "designator_size": 10
+      }
+    ],
+    "pin_count": 16,
+    "graphics": [
+      {
+        "kind": "rectangle",
+        "part": 2,
+        "color": 0,
+        "x": 0,
+        "y": -11811024,
+        "cx": 29133858,
+        "cy": 0
+      },
+      {
+        "kind": "rectangle",
+        "part": 1,
+        "color": 0,
+        "x": 0,
+        "y": -21259843,
+        "cx": 29133858,
+        "cy": 0
+      },
+      {
+        "kind": "line",
+        "part": 2,
+        "color": 0,
+        "x": 7086614,
+        "y": 0,
+        "cx": 7086614,
+        "cy": -11811024
+      },
+      {
+        "kind": "line",
+        "part": 2,
+        "color": 0,
+        "x": 22047244,
+        "y": 0,
+        "cx": 22047244,
+        "cy": -11811024
+      },
+      {
+        "kind": "line",
+        "part": 1,
+        "color": 0,
+        "x": 7086614,
+        "y": 0,
+        "cx": 7086614,
+        "cy": -21259843
+      },
+      {
+        "kind": "line",
+        "part": 1,
+        "color": 0,
+        "x": 22047244,
+        "y": 0,
+        "cx": 22047244,
+        "cy": -21259843
+      },
+      {
+        "kind": "label",
+        "part": 2,
+        "color": 0,
+        "text": "LED / SHIELD",
+        "x": 14566929,
+        "y": -1181102,
+        "font": "GOST Common",
+        "size": 10
+      },
+      {
+        "kind": "label",
+        "part": 2,
+        "color": 0,
+        "text": "GREEN A",
+        "x": 3543307,
+        "y": -2362205,
+        "font": "GOST Common",
+        "size": 10
+      },
+      {
+        "kind": "label",
+        "part": 2,
+        "color": 0,
+        "text": "GREEN K",
+        "x": 3543307,
+        "y": -4724409,
+        "font": "GOST Common",
+        "size": 10
+      },
+      {
+        "kind": "label",
+        "part": 2,
+        "color": 0,
+        "text": "YELLOW A",
+        "x": 3543307,
+        "y": -7086614,
+        "font": "GOST Common",
+        "size": 10
+      },
+      {
+        "kind": "label",
+        "part": 2,
+        "color": 0,
+        "text": "YELLOW K",
+        "x": 3543307,
+        "y": -9448819,
+        "font": "GOST Common",
+        "size": 10
+      },
+      {
+        "kind": "label",
+        "part": 2,
+        "color": 0,
+        "text": "SHIELD",
+        "x": 25590551,
+        "y": -2362205,
+        "font": "GOST Common",
+        "size": 10
+      },
+      {
+        "kind": "label",
+        "part": 2,
+        "color": 0,
+        "text": "SHIELD",
+        "x": 25590551,
+        "y": -4724409,
+        "font": "GOST Common",
+        "size": 10
+      },
+      {
+        "kind": "label",
+        "part": 2,
+        "color": 0,
+        "text": "LED",
+        "x": 14566929,
+        "y": -4724409,
+        "font": "GOST Common",
+        "size": 10
+      },
+      {
+        "kind": "label",
+        "part": 1,
+        "color": 0,
+        "text": "RJ45 / MAGNETICS",
+        "x": 14566929,
+        "y": -1181102,
+        "font": "GOST Common",
+        "size": 10
+      },
+      {
+        "kind": "label",
+        "part": 1,
+        "color": 0,
+        "text": "BI_DA+",
+        "x": 3149606,
+        "y": -2362205,
+        "font": "GOST Common",
+        "size": 10
+      },
+      {
+        "kind": "label",
+        "part": 1,
+        "color": 0,
+        "text": "BI_DA-",
+        "x": 3149606,
+        "y": -4724409,
+        "font": "GOST Common",
+        "size": 10
+      },
+      {
+        "kind": "label",
+        "part": 1,
+        "color": 0,
+        "text": "BI_DB+",
+        "x": 3149606,
+        "y": -7086614,
+        "font": "GOST Common",
+        "size": 10
+      },
+      {
+        "kind": "label",
+        "part": 1,
+        "color": 0,
+        "text": "BI_DB-",
+        "x": 3149606,
+        "y": -9448819,
+        "font": "GOST Common",
+        "size": 10
+      },
+      {
+        "kind": "label",
+        "part": 1,
+        "color": 0,
+        "text": "BI_DC+",
+        "x": 3149606,
+        "y": -11811024,
+        "font": "GOST Common",
+        "size": 10
+      },
+      {
+        "kind": "label",
+        "part": 1,
+        "color": 0,
+        "text": "BI_DC-",
+        "x": 3149606,
+        "y": -14173228,
+        "font": "GOST Common",
+        "size": 10
+      },
+      {
+        "kind": "label",
+        "part": 1,
+        "color": 0,
+        "text": "BI_DD+",
+        "x": 3149606,
+        "y": -16535433,
+        "font": "GOST Common",
+        "size": 10
+      },
+      {
+        "kind": "label",
+        "part": 1,
+        "color": 0,
+        "text": "BI_DD-",
+        "x": 3149606,
+        "y": -18897638,
+        "font": "GOST Common",
+        "size": 10
+      },
+      {
+        "kind": "label",
+        "part": 1,
+        "color": 0,
+        "text": "CT",
+        "x": 25984252,
+        "y": -2362205,
+        "font": "GOST Common",
+        "size": 10
+      },
+      {
+        "kind": "label",
+        "part": 1,
+        "color": 0,
+        "text": "TERM",
+        "x": 25984252,
+        "y": -4724409,
+        "font": "GOST Common",
+        "size": 10
+      },
+      {
+        "kind": "label",
+        "part": 1,
+        "color": 0,
+        "text": "4 x 1:1",
+        "x": 14566929,
+        "y": -7086614,
+        "font": "GOST Common",
+        "size": 10
+      },
+      {
+        "kind": "label",
+        "part": 1,
+        "color": 0,
+        "text": "MAGNETICS",
+        "x": 14566929,
+        "y": -9448819,
+        "font": "GOST Common",
+        "size": 10
+      },
+      {
+        "kind": "label",
+        "part": 1,
+        "color": 0,
+        "text": "RJ45",
+        "x": 14566929,
+        "y": -14173228,
+        "font": "GOST Common",
+        "size": 10
+      }
+    ],
+    "pin_colors": [
+      {
+        "designator": "11",
+        "color": 0
+      },
+      {
+        "designator": "12",
+        "color": 0
+      },
+      {
+        "designator": "13",
+        "color": 0
+      },
+      {
+        "designator": "14",
+        "color": 0
+      },
+      {
+        "designator": "15",
+        "color": 0
+      },
+      {
+        "designator": "16",
+        "color": 0
+      },
+      {
+        "designator": "1",
+        "color": 0
+      },
+      {
+        "designator": "2",
+        "color": 0
+      },
+      {
+        "designator": "3",
+        "color": 0
+      },
+      {
+        "designator": "4",
+        "color": 0
+      },
+      {
+        "designator": "5",
+        "color": 0
+      },
+      {
+        "designator": "6",
+        "color": 0
+      },
+      {
+        "designator": "7",
+        "color": 0
+      },
+      {
+        "designator": "8",
+        "color": 0
+      },
+      {
+        "designator": "9",
+        "color": 0
+      },
+      {
+        "designator": "10",
+        "color": 0
+      }
+    ],
+    "designator_color": 0,
+    "comment_color": 0,
+    "models": [
+      {
+        "name": "HR911130A",
+        "type": "PCBLIB",
+        "map": "(11:11),(12:12),(13:13),(14:14),(15:15),(16:16),(1:1),(2:2),(3:3),(4:4),(5:5),(6:6),(7:7),(8:8),(9:9),(10:10)",
+        "links": [
+          {
+            "location": "",
+            "entity": "HR911130A"
+          }
+        ]
+      }
+    ],
+    "snap_grid_coord": 393701,
+    "visible_grid_coord": 196850
+  }
+}

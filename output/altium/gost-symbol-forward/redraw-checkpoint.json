@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "job_dir": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\tools\\altium\\runtime\\jobs\\b9909adbcae24695a70ec47a21f705f4",
+  "steps": [
+    "START",
+    "select exact library component",
+    "save editor checkpoint",
+    "FINISHED"
+  ],
+  "elapsed_seconds": 1.05,
+  "result": {
+    "saved": true
+  }
+}

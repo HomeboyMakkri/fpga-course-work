@@ -1,0 +1,110 @@
+{
+  "component": "TPS563210A",
+  "manufacturer": "Texas Instruments",
+  "device": "TPS563210A",
+  "package": "DDF 8-pin SOT-23",
+  "procurement_suffix": "not selected",
+  "source": "https://www.ti.com/lit/ds/symlink/tps563210a.pdf",
+  "source_pin_table_page": 3,
+  "working_schlib": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\TPS563210A\\TPS563210A.SchLib",
+  "existing_pcblib": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\TPS563210A\\TPS563210A.PcbLib",
+  "footprint": "SOT65P280X110-8N",
+  "units": "mm",
+  "pin_length_mm": 5,
+  "snap_grid_mm": 1,
+  "auxiliary_grid_mm": 0.5,
+  "font": "GOST Common",
+  "font_pt": 10,
+  "body_mm": [
+    0,
+    -30,
+    35,
+    0
+  ],
+  "pins": [
+    {
+      "designator": "3",
+      "name": "VIN",
+      "x_mm": 0,
+      "y_mm": -6,
+      "orientation": 2,
+      "electrical": 7,
+      "enum": "eElectricPower"
+    },
+    {
+      "designator": "7",
+      "name": "EN",
+      "x_mm": 0,
+      "y_mm": -12,
+      "orientation": 2,
+      "electrical": 7,
+      "enum": "eElectricPower"
+    },
+    {
+      "designator": "5",
+      "name": "SS",
+      "x_mm": 0,
+      "y_mm": -18,
+      "orientation": 2,
+      "electrical": 7,
+      "enum": "eElectricPower"
+    },
+    {
+      "designator": "6",
+      "name": "VFB",
+      "x_mm": 0,
+      "y_mm": -24,
+      "orientation": 2,
+      "electrical": 7,
+      "enum": "eElectricPower"
+    },
+    {
+      "designator": "8",
+      "name": "VBST",
+      "x_mm": 35,
+      "y_mm": -6,
+      "orientation": 0,
+      "electrical": 7,
+      "enum": "eElectricPower"
+    },
+    {
+      "designator": "2",
+      "name": "SW",
+      "x_mm": 35,
+      "y_mm": -12,
+      "orientation": 0,
+      "electrical": 7,
+      "enum": "eElectricPower"
+    },
+    {
+      "designator": "4",
+      "name": "PG",
+      "x_mm": 35,
+      "y_mm": -18,
+      "orientation": 0,
+      "electrical": 7,
+      "enum": "eElectricPower"
+    },
+    {
+      "designator": "1",
+      "name": "GND",
+      "x_mm": 35,
+      "y_mm": -24,
+      "orientation": 0,
+      "electrical": 7,
+      "enum": "eElectricPower"
+    }
+  ],
+  "pin_map": "(1:1),(2:2),(3:3),(4:4),(5:5),(6:6),(7:7),(8:8)",
+  "authoring": "User explicitly requested new schematic symbol; existing user footprint retained.",
+  "electrical_type_policy": "All eight Power by explicit user instruction",
+  "label_mm": [
+    17.5,
+    -3
+  ],
+  "divider_x_mm": [
+    12,
+    23
+  ],
+  "color": 0
+}

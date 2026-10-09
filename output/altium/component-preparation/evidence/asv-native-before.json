@@ -1,0 +1,92 @@
+{
+  "success": true,
+  "job_dir": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\tools\\altium\\runtime\\jobs\\6614368f9d9944489a2e72bf2758ab1b",
+  "steps": [
+    "START",
+    "select exact library component",
+    "FINISHED"
+  ],
+  "elapsed_seconds": 1.05,
+  "result": {
+    "component": "ASV-50.000MHZ-LRS-T",
+    "part_count": 1,
+    "current_part": 1,
+    "pins": [
+      {
+        "designator": "1",
+        "name": "TRI-STATE_ENABLE/DISABLE",
+        "unique_id": "BLYNAFKT",
+        "part": 1,
+        "display_mode": 0,
+        "x_coord": 2000000,
+        "y_coord": -1000000,
+        "orientation": 2,
+        "electrical": 4,
+        "length_coord": 2000000,
+        "name_font_mode": 0,
+        "designator_font_mode": 0,
+        "name_font": "Times New Roman",
+        "name_size": 10,
+        "designator_font": "Times New Roman",
+        "designator_size": 10
+      },
+      {
+        "designator": "2",
+        "name": "GND/CASE",
+        "unique_id": "HCNFRXNV",
+        "part": 1,
+        "display_mode": 0,
+        "x_coord": 21000000,
+        "y_coord": -1000000,
+        "orientation": 0,
+        "electrical": 4,
+        "length_coord": 2000000,
+        "name_font_mode": 0,
+        "designator_font_mode": 0,
+        "name_font": "Times New Roman",
+        "name_size": 10,
+        "designator_font": "Times New Roman",
+        "designator_size": 10
+      },
+      {
+        "designator": "3",
+        "name": "OUTPUT",
+        "unique_id": "WBLYADWR",
+        "part": 1,
+        "display_mode": 0,
+        "x_coord": 21000000,
+        "y_coord": 0,
+        "orientation": 0,
+        "electrical": 4,
+        "length_coord": 2000000,
+        "name_font_mode": 0,
+        "designator_font_mode": 0,
+        "name_font": "Times New Roman",
+        "name_size": 10,
+        "designator_font": "Times New Roman",
+        "designator_size": 10
+      },
+      {
+        "designator": "4",
+        "name": "VDD",
+        "unique_id": "HFPXIDWG",
+        "part": 1,
+        "display_mode": 0,
+        "x_coord": 2000000,
+        "y_coord": 0,
+        "orientation": 2,
+        "electrical": 4,
+        "length_coord": 2000000,
+        "name_font_mode": 0,
+        "designator_font_mode": 0,
+        "name_font": "Times New Roman",
+        "name_size": 10,
+        "designator_font": "Times New Roman",
+        "designator_size": 10
+      }
+    ],
+    "pin_count": 4
+  },
+  "path": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\ASV-50MHz\\Schlib1.SchLib",
+  "source": "native_editor_including_unsaved_changes"
+}

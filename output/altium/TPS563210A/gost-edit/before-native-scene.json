@@ -1,0 +1,22 @@
+{
+  "success": true,
+  "job_dir": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\tools\\altium\\runtime\\jobs\\fdc238994b1546278e302a7d6f75202e",
+  "steps": [
+    "START",
+    "FINISHED"
+  ],
+  "elapsed_seconds": 1.05,
+  "result": {
+    "override_colors": false,
+    "pin_color": 0,
+    "labels": [
+      {
+        "text": "DC/DC",
+        "color": 8388608,
+        "x_coord": 6889764,
+        "y_coord": -5905512
+      }
+    ],
+    "line_count": 0
+  }
+}

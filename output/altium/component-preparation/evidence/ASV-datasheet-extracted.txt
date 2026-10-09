@@ -1,0 +1,273 @@
+=== PDF PAGE 1 ===
+ASV SERIES
+• Clock signaling for μProcessors, PC Motherboards & Graphic Cards • HCMOS, 3.3Vdc, 2.5Vdc, & 1.8Vdc options
+• Suitable for RoHS reflow
+• Seam sealed package assures high reliability
+• High output drive capability (up to 50pF)
+APPLICATIONS:FEATURES:
+STANDARD SPECIFICATIONS:
+30332 Esperanza, Rancho Santa Margarita, California 92688
+tel 949-546-8000 | fax 949-546-8001| www.abracon.com
+Revised: 09.02.14Visit www.abracon.com for Terms & Conditions of SaleABRACON IS 
+CERTIFIED 
+ABRACON IS 
+ISO9001:2008
+CERTIFIED 
+Moisture Sensitivity Level (MSL) – This product is Hermetically Sealed 
+and not Moisture Sensitive - MSL = N/A: Not Applicable
+7.0 x 5.08 x 1.8 mmPb RoHS/RoHS II compliant
+3.3Vdc HCMOS SMD Crystal Clock Oscillator
+Parameters Minimum Typical Maximum Units Notes 
+  zHM 002  213.0 egnaR ycneuqerF
+Operating Temperature -10  +70 °C See options 
+  C° 521+  55- erutarepmeT egarotS
+Overall Frequency Stability -100  +100 ppm See options 
+Supply Voltage (Vdd) +2.97 3.3 +3.63 V See options 
+Supply Current (Idd) 
+ 2.0 10.0 
+mA 
+0.312 ~ 14.9 MHz 
+ 3.6 15.0 15.0  ~ 29.9 MHz 
+ 5.6 20.0 30.0 ~ 39.9 MHz 
+ 7.2 25.0 40.0 ~ 49.9 MHz 
+ 13.3 30.0 50.0 ~ 59.9 MHz 
+ 19.0 35.0 60.0 ~ 79.9MHz 
+ 20.2 45.0 80.0 ~ 99.9 MHz 
+ 23.7 50.0 100.0 ~ 125.0MHz 
+ 27.2 65.0 125.1 ~ 165 MHz 
+ snoitpo eeS % 06 05 04 ddV2/1 @  yrtemmyS
+Rise and Fall Time (Tr/Tf) 
+ 3.0 5.0 
+ns 
+0.312 ~ 14.9 MHz 
+ 2.8 4.0 15.0  ~ 29.9 MHz 
+ 2.6 4.0 30.0 ~ 39.9 MHz 
+ 2.4 4.0 40.0 ~ 49.9 MHz 
+ 2.2 4.0 50.0 ~ 59.9 MHz 
+ 2.2 4.0 60.0 ~ 79.9MHz 
+ 2.0 4.0 80.0 ~ 99.9 MHz 
+ 1.8 4.0 100.0 ~ 125.0MHz 
+ 1.5 4.0 125.1 ~ 165 MHz 
+Output Load   15 pF See options 
+Output Voltage VOH 0.9 x Vdd   V  
+VOL   0.4  V  
+ESD Sensitive
+
+=== PDF PAGE 2 ===
+ 
+ 
+ASV SERIES
+3.3Vdc HCMOS SMD Crystal Clock Oscillator
+ABRACON IS 
+CERTIFIED 
+ABRACON IS 
+ISO9001:2008
+CERTIFIED 
+7.0 x 5.08 x 1.8 mm
+30332 Esperanza, Rancho Santa Margarita, California 92688
+tel 949-546-8000 | fax 949-546-8001| www.abracon.com
+Revised: 09.02.14Visit www.abracon.com for Terms & Conditions of Sale
+Pb RoHS/RoHS II compliant
+ 
+Parameters Minimum Typical Maximum Units Notes 
+Start-up Time 
+ 0.4 4.0 
+ms 
+0.312 ~ 14.9 MHz 
+ 0.4 4.0 15.0  ~ 29.9 MHz 
+ 2.0 4.0 30.0 ~ 39.9 MHz 
+ 1.5 4.0 40.0 ~ 49.9 MHz 
+ 2.9 5.0 50.0 ~ 59.9 MHz 
+ 1.5 5.0 60.0 ~ 79.9MHz 
+ 1.3 5.0 80.0 ~ 99.9 MHz 
+ 1.8 5.0 100.0 ~ 125.0MHz 
+ 2.7 5.0 125.1 ~ 165 MHz 
+Tri-state function "1" (VIH≥0.7*Vdd) or Open: Oscillation 
+"0" (VIL<0.3*Vdd) : Hi Z  
+ 
+Period Jitter One Sigma (RMS): 
+ 2.5  
+ps 
+0.312 ~ 14.9 MHz 
+ 3.2  15.0  ~ 29.9 MHz 
+ 3.2  30.0 ~ 39.9 MHz 
+ 3.2  40.0 ~ 49.9 MHz 
+ 3.2  50.0 ~ 59.9 MHz 
+ 3.2  60.0 ~ 79.9MHz 
+ 3.0  80.0 ~ 99.9 MHz 
+ 2.9  100.0 ~ 125.0MHz 
+ 2.9  125.1 ~ 165 MHz 
+Aging at 25°C (first year) -5  +5 ppm  
+  Au 01   tnerruC elbasiD
+  sm 5 5.3  emiT elbanE
+  sn 001   emiT elbasiD
+(Continued)
+ESD Sensitive
+
+=== PDF PAGE 3 ===
+OPTIONS & PART IDENTIFICATION: (Left blank if standard)
+ 
+ 
+ASV SERIES
+ABRACON IS 
+CERTIFIED 
+ABRACON IS 
+ISO9001:2008
+CERTIFIED 
+7.0 x 5.08 x 1.8 mm
+3.3Vdc HCMOS SMD Crystal Clock Oscillator
+30332 Esperanza, Rancho Santa Margarita, California 92688
+tel 949-546-8000 | fax 949-546-8001| www.abracon.com
+Revised: 09.02.14Visit www.abracon.com for Terms & Conditions of Sale
+Pb RoHS/RoHS II compliant
+ 
+ 
+                 ASV -     -                 MHz -            -     -         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+P/N and Vdd (V) 
+Blank: 3.3 ± 10% 
+      25: 2.5 ± 10% 
+      18: 1.8 ± 10% 
+Packaging 
+Blank: Bulk 
+    T: 1000pcs/Reel 
+T5: 500pcs/Reel 
+Operating Temp. 
+I: 0°C ~ +50°C  
+D: -10°C ~ +60°C 
+E: -20°C ~ +70°C 
+F: -30°C ~ +70°C 
+N: -30°C ~ +85°C 
+L: -40°C ~ +85°C 
+Frequency in MHz 
+e.g. 0.312MHz 
+       14.31818MHz 
+       26.000MHz 
+       200.000MHz 
+Output Load * 
+Blank: 15pF 
+      50: 50pF 
+Overall Freq.  
+Stability 
+J: ±20ppm 
+R: ±25ppm 
+K: ±30ppm 
+H: ±35ppm 
+C: ±50ppm Symmetry 
+Blank: 40/60% @ 1/2 Vdd 
+       S: 45/55% @ 1/2 Vdd 
+Note *: See Table below for the Output Load option availability 
+Output Load Supply Voltage 
+Vdd=3.3V Vdd=2.5V Vdd=1.8V 
+ √ √ √ xam Fp51
+50pF max √ Available for Freq. ≤ 70MHz Not Available 
+ESD Sensitive
+
+=== PDF PAGE 4 ===
+OUTLINE DIMENSION:
+ 
+ 
+ASV SERIES
+ABRACON IS 
+CERTIFIED 
+ABRACON IS 
+ISO9001:2008
+CERTIFIED 
+7.0 x 5.08 x 1.8 mm
+3.3Vdc HCMOS SMD Crystal Clock Oscillator
+30332 Esperanza, Rancho Santa Margarita, California 92688
+tel 949-546-8000 | fax 949-546-8001| www.abracon.com
+Revised: 09.02.14Visit www.abracon.com for Terms & Conditions of Sale
+Pb RoHS/RoHS II compliant
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Pin Function 
+ 1 Tri-State Enable/Disable 
+2 GND/Case 
+3 Output 
+4 Vdd 
+4 3  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Dimension: Inches (mm)
+ESD Sensitive
+
+=== PDF PAGE 5 ===
+ 
+ 
+ 
+ 
+REFLOW PROFILE:
+ 
+ 
+ASV SERIES
+ABRACON IS 
+CERTIFIED 
+ABRACON IS 
+ISO9001:2008
+CERTIFIED 
+           
+TAPE & REEL:
+T: 1000pcs/reel 
+                 T5:   500pcs/reel 
+Dimension: mm
+ ATTENTION: Abracon Corporation’s products are COTS – Commercial-Off-The-Shelf products; suitable for Commercial, Industrial and, where designated, Automotive Applica-
+tions.  Abracon’s products are not specifically designed for Military, Aviation, Aerospace, Life-dependant Medical applications or any application requiring high reliability where 
+component failure could result in loss of life and/or property. For applications requiring high reliability and/or presenting an extreme operating environment, written consent and 
+authorization from Abracon Corporation is required. Please contact Abracon Corporation for more information.
+7.0 x 5.08 x 1.8 mm
+3.3Vdc HCMOS SMD Crystal Clock Oscillator
+30332 Esperanza, Rancho Santa Margarita, California 92688
+tel 949-546-8000 | fax 949-546-8001| www.abracon.com
+Revised: 09.02.14Visit www.abracon.com for Terms & Conditions of Sale
+Pb RoHS/RoHS II compliantESD Sensitive

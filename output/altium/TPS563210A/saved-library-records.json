@@ -1,0 +1,213 @@
+{
+  "path": "ARTIX\\ARTIX\\libraries\\TPS563210A\\TPS563210A.SchLib",
+  "sha256": "3f309c5f1f2b8f70414f40e1bde595d8b5ee2eee95d33377cf064219be726d9d",
+  "size": 6656,
+  "streams": [
+    "FileHeader",
+    "Storage",
+    "TPS563210A/Data",
+    "TPS563210A/PinFrac",
+    "TPS563210A/PinTextData"
+  ],
+  "records": {
+    "FileHeader": [
+      {
+        "HEADER": "Protel for Windows - Schematic Library Editor Binary File Version 5.0",
+        "Weight": "24",
+        "MinorVersion": "9",
+        "UniqueID": "HYIMLLGN",
+        "FontIdCount": "1",
+        "Size1": "10",
+        "FontName1": "GOST Common",
+        "UseMBCS": "T",
+        "IsBOC": "T",
+        "SheetStyle": "9",
+        "BorderOn": "T",
+        "SheetNumberSpaceSize": "12",
+        "AreaColor": "16317695",
+        "SnapGridOn": "T",
+        "SnapGridSize": "3",
+        "SnapGridSize_Frac": "93701",
+        "VisibleGridOn": "T",
+        "VisibleGridSize": "1",
+        "VisibleGridSize_Frac": "96850",
+        "CustomX": "17716",
+        "CustomX_Frac": "53600",
+        "CustomY": "17716",
+        "CustomY_Frac": "53600",
+        "UseCustomSheet": "T",
+        "ReferenceZonesOn": "T",
+        "Display_Unit": "1",
+        "CompCount": "1",
+        "LibRef0": "TPS563210A",
+        "CompDescr0": "Texas Instruments TPS563210A synchronous buck regulator, DDF 8-pin; custom GOST-style schematic symbol",
+        "PartCount0": "2"
+      }
+    ],
+    "TPS563210A/Data": [
+      {
+        "RECORD": "1",
+        "LibReference": "TPS563210A",
+        "ComponentDescription": "Texas Instruments TPS563210A synchronous buck regulator, DDF 8-pin; custom GOST-style schematic symbol",
+        "PartCount": "2",
+        "DisplayModeCount": "1",
+        "IndexInSheet": "-1",
+        "OwnerPartId": "-1",
+        "CurrentPartId": "1",
+        "LibraryPath": "*",
+        "SourceLibraryName": "*",
+        "SheetPartFileName": "*",
+        "TargetFileName": "*",
+        "UniqueID": "YGRMDAUO",
+        "AreaColor": "11599871",
+        "Color": "128",
+        "PartIDLocked": "T",
+        "AllPinCount": "8"
+      },
+      {
+        "RECORD": "14",
+        "IsNotAccesible": "T",
+        "OwnerPartId": "1",
+        "Location.Y": "-118",
+        "Location.Y_Frac": "-11024",
+        "Corner.X": "137",
+        "Corner.X_Frac": "79528",
+        "LineWidth": "1",
+        "AreaColor": "11599871",
+        "UniqueID": "RXULCAOT"
+      },
+      {
+        "RECORD": "4",
+        "IsNotAccesible": "T",
+        "IndexInSheet": "1",
+        "OwnerPartId": "1",
+        "Location.X": "68",
+        "Location.X_Frac": "89764",
+        "Location.Y": "-59",
+        "Location.Y_Frac": "-5512",
+        "Justification": "4",
+        "Color": "8388608",
+        "FontID": "1",
+        "Text": "DC/DC",
+        "UniqueID": "YLQFVZLF"
+      },
+      {
+        "RECORD": "41",
+        "IndexInSheet": "10",
+        "OwnerPartId": "-1",
+        "Color": "8388608",
+        "FontID": "1",
+        "IsHidden": "T",
+        "Text": "Texas Instruments",
+        "Name": "Manufacturer",
+        "UniqueID": "TSTGYNBY"
+      },
+      {
+        "RECORD": "41",
+        "IndexInSheet": "11",
+        "OwnerPartId": "-1",
+        "Color": "8388608",
+        "FontID": "1",
+        "IsHidden": "T",
+        "Text": "TPS563210A",
+        "Name": "MPN",
+        "UniqueID": "IKAJZAWW"
+      },
+      {
+        "RECORD": "41",
+        "IndexInSheet": "12",
+        "OwnerPartId": "-1",
+        "Color": "8388608",
+        "FontID": "1",
+        "IsHidden": "T",
+        "Text": "DDF",
+        "Name": "Package",
+        "UniqueID": "HOHKQQFX"
+      },
+      {
+        "RECORD": "41",
+        "IndexInSheet": "13",
+        "OwnerPartId": "-1",
+        "Color": "8388608",
+        "FontID": "1",
+        "IsHidden": "T",
+        "Text": "https://www.ti.com/lit/ds/symlink/tps563210a.pdf",
+        "Name": "Datasheet",
+        "UniqueID": "OZJPBPSL"
+      },
+      {
+        "RECORD": "41",
+        "IndexInSheet": "14",
+        "OwnerPartId": "-1",
+        "Color": "8388608",
+        "FontID": "1",
+        "IsHidden": "T",
+        "Text": "TI datasheet pin functions page 3; user-requested native symbol",
+        "Name": "Source",
+        "UniqueID": "SVSFYTCC"
+      },
+      {
+        "RECORD": "41",
+        "IndexInSheet": "15",
+        "OwnerPartId": "-1",
+        "Color": "8388608",
+        "FontID": "1",
+        "IsHidden": "T",
+        "Text": "DDFR/DDFT packaging not selected",
+        "Name": "OrderingSuffix",
+        "UniqueID": "GBXUFPAY"
+      },
+      {
+        "RECORD": "34",
+        "IndexInSheet": "-1",
+        "OwnerPartId": "-1",
+        "Location.Y": "19",
+        "Location.Y_Frac": "68504",
+        "Color": "8388608",
+        "FontID": "1",
+        "Text": "DA?",
+        "Name": "Designator",
+        "ReadOnlyState": "1",
+        "UniqueID": "UCAOJJVS"
+      },
+      {
+        "RECORD": "41",
+        "IndexInSheet": "-1",
+        "OwnerPartId": "-1",
+        "Location.X": "39",
+        "Location.X_Frac": "37008",
+        "Location.Y": "19",
+        "Location.Y_Frac": "68504",
+        "Color": "8388608",
+        "FontID": "1",
+        "Text": "TPS563210A",
+        "Name": "Comment",
+        "UniqueID": "KPSISQBC"
+      },
+      {
+        "RECORD": "44"
+      },
+      {
+        "RECORD": "45",
+        "OwnerIndex": "19",
+        "IndexInSheet": "-1",
+        "ModelName": "SOT65P280X110-8N",
+        "ModelType": "PCBLIB",
+        "DatafileCount": "1",
+        "ModelDatafile0": "TPS563210A.PcbLib",
+        "ModelDatafileEntity0": "SOT65P280X110-8N",
+        "ModelDatafileKind0": "PCBLIB",
+        "IsCurrent": "T",
+        "UniqueID": "UJIDMTXD"
+      },
+      {
+        "RECORD": "46",
+        "OwnerIndex": "20"
+      },
+      {
+        "RECORD": "48",
+        "OwnerIndex": "20"
+      }
+    ]
+  }
+}

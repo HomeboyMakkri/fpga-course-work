@@ -1,0 +1,743 @@
+{
+  "path": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\HR911130A\\new\\HR911130A.SchLib",
+  "pcblib": null,
+  "footprint": null,
+  "layout": {
+    "component": "HR911130A",
+    "mode": "redraw",
+    "electrical_policy": "power",
+    "pin_length_mm": 5.0,
+    "font_name": "GOST Common",
+    "font_size_pt": 10,
+    "parts": [
+      {
+        "id": 1,
+        "function": "RJ45 / MAGNETICS",
+        "width_mm": 74.0,
+        "height_mm": 54.0,
+        "dividers_mm": [
+          18.0,
+          56.0
+        ],
+        "label_mm": [
+          37.0,
+          -3.0
+        ],
+        "pins": [
+          {
+            "designator": "2",
+            "name": "2",
+            "part": 1,
+            "x_mm": 0,
+            "y_mm": -6.0,
+            "orientation": 2,
+            "electrical": 7
+          },
+          {
+            "designator": "3",
+            "name": "3",
+            "part": 1,
+            "x_mm": 0,
+            "y_mm": -12.0,
+            "orientation": 2,
+            "electrical": 7
+          },
+          {
+            "designator": "4",
+            "name": "4",
+            "part": 1,
+            "x_mm": 0,
+            "y_mm": -18.0,
+            "orientation": 2,
+            "electrical": 7
+          },
+          {
+            "designator": "7",
+            "name": "7",
+            "part": 1,
+            "x_mm": 0,
+            "y_mm": -24.0,
+            "orientation": 2,
+            "electrical": 7
+          },
+          {
+            "designator": "5",
+            "name": "5",
+            "part": 1,
+            "x_mm": 0,
+            "y_mm": -30.0,
+            "orientation": 2,
+            "electrical": 7
+          },
+          {
+            "designator": "6",
+            "name": "6",
+            "part": 1,
+            "x_mm": 0,
+            "y_mm": -36.0,
+            "orientation": 2,
+            "electrical": 7
+          },
+          {
+            "designator": "8",
+            "name": "8",
+            "part": 1,
+            "x_mm": 0,
+            "y_mm": -42.0,
+            "orientation": 2,
+            "electrical": 7
+          },
+          {
+            "designator": "9",
+            "name": "9",
+            "part": 1,
+            "x_mm": 0,
+            "y_mm": -48.0,
+            "orientation": 2,
+            "electrical": 7
+          },
+          {
+            "designator": "1",
+            "name": "1",
+            "part": 1,
+            "x_mm": 74.0,
+            "y_mm": -6.0,
+            "orientation": 0,
+            "electrical": 7
+          },
+          {
+            "designator": "10",
+            "name": "10",
+            "part": 1,
+            "x_mm": 74.0,
+            "y_mm": -12.0,
+            "orientation": 0,
+            "electrical": 7
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "function": "LED / SHIELD",
+        "width_mm": 74.0,
+        "height_mm": 30.0,
+        "dividers_mm": [
+          18.0,
+          56.0
+        ],
+        "label_mm": [
+          37.0,
+          -3.0
+        ],
+        "pins": [
+          {
+            "designator": "11",
+            "name": "11",
+            "part": 2,
+            "x_mm": 0,
+            "y_mm": -6.0,
+            "orientation": 2,
+            "electrical": 7
+          },
+          {
+            "designator": "12",
+            "name": "12",
+            "part": 2,
+            "x_mm": 0,
+            "y_mm": -12.0,
+            "orientation": 2,
+            "electrical": 7
+          },
+          {
+            "designator": "14",
+            "name": "14",
+            "part": 2,
+            "x_mm": 0,
+            "y_mm": -18.0,
+            "orientation": 2,
+            "electrical": 7
+          },
+          {
+            "designator": "13",
+            "name": "13",
+            "part": 2,
+            "x_mm": 0,
+            "y_mm": -24.0,
+            "orientation": 2,
+            "electrical": 7
+          },
+          {
+            "designator": "15",
+            "name": "15",
+            "part": 2,
+            "x_mm": 74.0,
+            "y_mm": -6.0,
+            "orientation": 0,
+            "electrical": 7
+          },
+          {
+            "designator": "16",
+            "name": "16",
+            "part": 2,
+            "x_mm": 74.0,
+            "y_mm": -12.0,
+            "orientation": 0,
+            "electrical": 7
+          }
+        ]
+      }
+    ],
+    "pins": [
+      {
+        "designator": "2",
+        "name": "2",
+        "part": 1,
+        "x_mm": 0,
+        "y_mm": -6.0,
+        "orientation": 2,
+        "electrical": 7
+      },
+      {
+        "designator": "3",
+        "name": "3",
+        "part": 1,
+        "x_mm": 0,
+        "y_mm": -12.0,
+        "orientation": 2,
+        "electrical": 7
+      },
+      {
+        "designator": "4",
+        "name": "4",
+        "part": 1,
+        "x_mm": 0,
+        "y_mm": -18.0,
+        "orientation": 2,
+        "electrical": 7
+      },
+      {
+        "designator": "7",
+        "name": "7",
+        "part": 1,
+        "x_mm": 0,
+        "y_mm": -24.0,
+        "orientation": 2,
+        "electrical": 7
+      },
+      {
+        "designator": "5",
+        "name": "5",
+        "part": 1,
+        "x_mm": 0,
+        "y_mm": -30.0,
+        "orientation": 2,
+        "electrical": 7
+      },
+      {
+        "designator": "6",
+        "name": "6",
+        "part": 1,
+        "x_mm": 0,
+        "y_mm": -36.0,
+        "orientation": 2,
+        "electrical": 7
+      },
+      {
+        "designator": "8",
+        "name": "8",
+        "part": 1,
+        "x_mm": 0,
+        "y_mm": -42.0,
+        "orientation": 2,
+        "electrical": 7
+      },
+      {
+        "designator": "9",
+        "name": "9",
+        "part": 1,
+        "x_mm": 0,
+        "y_mm": -48.0,
+        "orientation": 2,
+        "electrical": 7
+      },
+      {
+        "designator": "1",
+        "name": "1",
+        "part": 1,
+        "x_mm": 74.0,
+        "y_mm": -6.0,
+        "orientation": 0,
+        "electrical": 7
+      },
+      {
+        "designator": "10",
+        "name": "10",
+        "part": 1,
+        "x_mm": 74.0,
+        "y_mm": -12.0,
+        "orientation": 0,
+        "electrical": 7
+      },
+      {
+        "designator": "11",
+        "name": "11",
+        "part": 2,
+        "x_mm": 0,
+        "y_mm": -6.0,
+        "orientation": 2,
+        "electrical": 7
+      },
+      {
+        "designator": "12",
+        "name": "12",
+        "part": 2,
+        "x_mm": 0,
+        "y_mm": -12.0,
+        "orientation": 2,
+        "electrical": 7
+      },
+      {
+        "designator": "14",
+        "name": "14",
+        "part": 2,
+        "x_mm": 0,
+        "y_mm": -18.0,
+        "orientation": 2,
+        "electrical": 7
+      },
+      {
+        "designator": "13",
+        "name": "13",
+        "part": 2,
+        "x_mm": 0,
+        "y_mm": -24.0,
+        "orientation": 2,
+        "electrical": 7
+      },
+      {
+        "designator": "15",
+        "name": "15",
+        "part": 2,
+        "x_mm": 74.0,
+        "y_mm": -6.0,
+        "orientation": 0,
+        "electrical": 7
+      },
+      {
+        "designator": "16",
+        "name": "16",
+        "part": 2,
+        "x_mm": 74.0,
+        "y_mm": -12.0,
+        "orientation": 0,
+        "electrical": 7
+      }
+    ],
+    "designator": "DA?",
+    "comment": "HR911130A",
+    "description": "HR911130A",
+    "parameters": {},
+    "source": "HanRun REV B manufacturer schematic pages 1 and 3, preserved local PDF"
+  },
+  "before": {
+    "component": "HR911130A",
+    "part_count": 1,
+    "current_part": 1,
+    "pins": [
+      {
+        "designator": "1",
+        "name": "1",
+        "unique_id": "BTODQJWI",
+        "part": 1,
+        "display_mode": 0,
+        "x_coord": 2000000,
+        "y_coord": 0,
+        "orientation": 2,
+        "electrical": 4,
+        "length_coord": 2000000,
+        "name_font_mode": 0,
+        "designator_font_mode": 0,
+        "name_font": "Times New Roman",
+        "name_size": 10,
+        "designator_font": "Times New Roman",
+        "designator_size": 10
+      },
+      {
+        "designator": "2",
+        "name": "2",
+        "unique_id": "WVDUJFPH",
+        "part": 1,
+        "display_mode": 0,
+        "x_coord": 2000000,
+        "y_coord": -1000000,
+        "orientation": 2,
+        "electrical": 4,
+        "length_coord": 2000000,
+        "name_font_mode": 0,
+        "designator_font_mode": 0,
+        "name_font": "Times New Roman",
+        "name_size": 10,
+        "designator_font": "Times New Roman",
+        "designator_size": 10
+      },
+      {
+        "designator": "3",
+        "name": "3",
+        "unique_id": "QUNLINGB",
+        "part": 1,
+        "display_mode": 0,
+        "x_coord": 2000000,
+        "y_coord": -2000000,
+        "orientation": 2,
+        "electrical": 4,
+        "length_coord": 2000000,
+        "name_font_mode": 0,
+        "designator_font_mode": 0,
+        "name_font": "Times New Roman",
+        "name_size": 10,
+        "designator_font": "Times New Roman",
+        "designator_size": 10
+      },
+      {
+        "designator": "4",
+        "name": "4",
+        "unique_id": "RPNOWILS",
+        "part": 1,
+        "display_mode": 0,
+        "x_coord": 2000000,
+        "y_coord": -3000000,
+        "orientation": 2,
+        "electrical": 4,
+        "length_coord": 2000000,
+        "name_font_mode": 0,
+        "designator_font_mode": 0,
+        "name_font": "Times New Roman",
+        "name_size": 10,
+        "designator_font": "Times New Roman",
+        "designator_size": 10
+      },
+      {
+        "designator": "5",
+        "name": "5",
+        "unique_id": "JNGSNMFC",
+        "part": 1,
+        "display_mode": 0,
+        "x_coord": 2000000,
+        "y_coord": -4000000,
+        "orientation": 2,
+        "electrical": 4,
+        "length_coord": 2000000,
+        "name_font_mode": 0,
+        "designator_font_mode": 0,
+        "name_font": "Times New Roman",
+        "name_size": 10,
+        "designator_font": "Times New Roman",
+        "designator_size": 10
+      },
+      {
+        "designator": "6",
+        "name": "6",
+        "unique_id": "FYPWNBIN",
+        "part": 1,
+        "display_mode": 0,
+        "x_coord": 2000000,
+        "y_coord": -5000000,
+        "orientation": 2,
+        "electrical": 4,
+        "length_coord": 2000000,
+        "name_font_mode": 0,
+        "designator_font_mode": 0,
+        "name_font": "Times New Roman",
+        "name_size": 10,
+        "designator_font": "Times New Roman",
+        "designator_size": 10
+      },
+      {
+        "designator": "7",
+        "name": "7",
+        "unique_id": "RYYBGGFN",
+        "part": 1,
+        "display_mode": 0,
+        "x_coord": 2000000,
+        "y_coord": -6000000,
+        "orientation": 2,
+        "electrical": 4,
+        "length_coord": 2000000,
+        "name_font_mode": 0,
+        "designator_font_mode": 0,
+        "name_font": "Times New Roman",
+        "name_size": 10,
+        "designator_font": "Times New Roman",
+        "designator_size": 10
+      },
+      {
+        "designator": "8",
+        "name": "8",
+        "unique_id": "MNLBVHMN",
+        "part": 1,
+        "display_mode": 0,
+        "x_coord": 2000000,
+        "y_coord": -7000000,
+        "orientation": 2,
+        "electrical": 4,
+        "length_coord": 2000000,
+        "name_font_mode": 0,
+        "designator_font_mode": 0,
+        "name_font": "Times New Roman",
+        "name_size": 10,
+        "designator_font": "Times New Roman",
+        "designator_size": 10
+      },
+      {
+        "designator": "9",
+        "name": "9",
+        "unique_id": "KLKVYXUD",
+        "part": 1,
+        "display_mode": 0,
+        "x_coord": 7000000,
+        "y_coord": 0,
+        "orientation": 0,
+        "electrical": 4,
+        "length_coord": 2000000,
+        "name_font_mode": 0,
+        "designator_font_mode": 0,
+        "name_font": "Times New Roman",
+        "name_size": 10,
+        "designator_font": "Times New Roman",
+        "designator_size": 10
+      },
+      {
+        "designator": "10",
+        "name": "10",
+        "unique_id": "OLGJYJOQ",
+        "part": 1,
+        "display_mode": 0,
+        "x_coord": 7000000,
+        "y_coord": -1000000,
+        "orientation": 0,
+        "electrical": 4,
+        "length_coord": 2000000,
+        "name_font_mode": 0,
+        "designator_font_mode": 0,
+        "name_font": "Times New Roman",
+        "name_size": 10,
+        "designator_font": "Times New Roman",
+        "designator_size": 10
+      },
+      {
+        "designator": "11",
+        "name": "11",
+        "unique_id": "GZXXJJLD",
+        "part": 1,
+        "display_mode": 0,
+        "x_coord": 7000000,
+        "y_coord": -2000000,
+        "orientation": 0,
+        "electrical": 4,
+        "length_coord": 2000000,
+        "name_font_mode": 0,
+        "designator_font_mode": 0,
+        "name_font": "Times New Roman",
+        "name_size": 10,
+        "designator_font": "Times New Roman",
+        "designator_size": 10
+      },
+      {
+        "designator": "12",
+        "name": "12",
+        "unique_id": "ISFZAEGX",
+        "part": 1,
+        "display_mode": 0,
+        "x_coord": 7000000,
+        "y_coord": -3000000,
+        "orientation": 0,
+        "electrical": 4,
+        "length_coord": 2000000,
+        "name_font_mode": 0,
+        "designator_font_mode": 0,
+        "name_font": "Times New Roman",
+        "name_size": 10,
+        "designator_font": "Times New Roman",
+        "designator_size": 10
+      },
+      {
+        "designator": "13",
+        "name": "13",
+        "unique_id": "MBMCQNPU",
+        "part": 1,
+        "display_mode": 0,
+        "x_coord": 7000000,
+        "y_coord": -4000000,
+        "orientation": 0,
+        "electrical": 4,
+        "length_coord": 2000000,
+        "name_font_mode": 0,
+        "designator_font_mode": 0,
+        "name_font": "Times New Roman",
+        "name_size": 10,
+        "designator_font": "Times New Roman",
+        "designator_size": 10
+      },
+      {
+        "designator": "14",
+        "name": "14",
+        "unique_id": "EUNVAVOC",
+        "part": 1,
+        "display_mode": 0,
+        "x_coord": 7000000,
+        "y_coord": -5000000,
+        "orientation": 0,
+        "electrical": 4,
+        "length_coord": 2000000,
+        "name_font_mode": 0,
+        "designator_font_mode": 0,
+        "name_font": "Times New Roman",
+        "name_size": 10,
+        "designator_font": "Times New Roman",
+        "designator_size": 10
+      },
+      {
+        "designator": "15",
+        "name": "15",
+        "unique_id": "ZVUVKODA",
+        "part": 1,
+        "display_mode": 0,
+        "x_coord": 7000000,
+        "y_coord": -6000000,
+        "orientation": 0,
+        "electrical": 4,
+        "length_coord": 2000000,
+        "name_font_mode": 0,
+        "designator_font_mode": 0,
+        "name_font": "Times New Roman",
+        "name_size": 10,
+        "designator_font": "Times New Roman",
+        "designator_size": 10
+      },
+      {
+        "designator": "16",
+        "name": "16",
+        "unique_id": "ZHNGRUDK",
+        "part": 1,
+        "display_mode": 0,
+        "x_coord": 7000000,
+        "y_coord": -7000000,
+        "orientation": 0,
+        "electrical": 4,
+        "length_coord": 2000000,
+        "name_font_mode": 0,
+        "designator_font_mode": 0,
+        "name_font": "Times New Roman",
+        "name_size": 10,
+        "designator_font": "Times New Roman",
+        "designator_size": 10
+      }
+    ],
+    "pin_count": 16,
+    "graphics": [
+      {
+        "kind": "rectangle",
+        "part": 1,
+        "color": 128,
+        "x": 2000000,
+        "y": -8000000,
+        "cx": 7000000,
+        "cy": 1000000
+      }
+    ],
+    "pin_colors": [
+      {
+        "designator": "1",
+        "color": 0
+      },
+      {
+        "designator": "2",
+        "color": 0
+      },
+      {
+        "designator": "3",
+        "color": 0
+      },
+      {
+        "designator": "4",
+        "color": 0
+      },
+      {
+        "designator": "5",
+        "color": 0
+      },
+      {
+        "designator": "6",
+        "color": 0
+      },
+      {
+        "designator": "7",
+        "color": 0
+      },
+      {
+        "designator": "8",
+        "color": 0
+      },
+      {
+        "designator": "9",
+        "color": 0
+      },
+      {
+        "designator": "10",
+        "color": 0
+      },
+      {
+        "designator": "11",
+        "color": 0
+      },
+      {
+        "designator": "12",
+        "color": 0
+      },
+      {
+        "designator": "13",
+        "color": 0
+      },
+      {
+        "designator": "14",
+        "color": 0
+      },
+      {
+        "designator": "15",
+        "color": 0
+      },
+      {
+        "designator": "16",
+        "color": 0
+      }
+    ],
+    "designator_color": 8388608,
+    "comment_color": 8388608,
+    "models": [
+      {
+        "name": "HR911130A",
+        "type": "PCBLIB",
+        "map": "(1:1),(2:2),(3:3),(4:4),(5:5),(6:6),(7:7),(8:8),(9:9),(10:10),(11:11),(12:12),(13:13),(14:14),(15:15),(16:16)",
+        "links": [
+          {
+            "location": "",
+            "entity": "HR911130A"
+          }
+        ]
+      }
+    ],
+    "snap_grid_coord": 1000000,
+    "visible_grid_coord": 1000000
+  },
+  "checkpoint_captured": true,
+  "pcblib_sha256": null,
+  "models_before": {
+    "HR911130A/Data:implementation_records": [
+      "{\"DatafileCount\": \"1\", \"IsCurrent\": \"T\", \"ModelDatafileEntity0\": \"HR911130A\", \"ModelDatafileKind0\": \"PCBLib\", \"ModelName\": \"HR911130A\", \"ModelType\": \"PCBLIB\", \"RECORD\": \"45\"}",
+      "{\"RECORD\": \"44\"}",
+      "{\"RECORD\": \"46\"}",
+      "{\"RECORD\": \"48\"}"
+    ]
+  },
+  "others_before": {}
+}

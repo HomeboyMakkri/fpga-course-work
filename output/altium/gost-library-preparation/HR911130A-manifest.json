@@ -1,0 +1,109 @@
+{
+  "component": "HR911130A",
+  "source": "HanRun REV B manufacturer schematic pages 1 and 3, preserved local PDF",
+  "electrical_policy": "power",
+  "parts": [
+    {
+      "id": 1,
+      "function": "RJ45 / MAGNETICS",
+      "column_widths_mm": [
+        18,
+        38,
+        18
+      ],
+      "pins": [
+        {
+          "designator": "2",
+          "name": "2",
+          "side": "left"
+        },
+        {
+          "designator": "3",
+          "name": "3",
+          "side": "left"
+        },
+        {
+          "designator": "4",
+          "name": "4",
+          "side": "left"
+        },
+        {
+          "designator": "7",
+          "name": "7",
+          "side": "left"
+        },
+        {
+          "designator": "5",
+          "name": "5",
+          "side": "left"
+        },
+        {
+          "designator": "6",
+          "name": "6",
+          "side": "left"
+        },
+        {
+          "designator": "8",
+          "name": "8",
+          "side": "left"
+        },
+        {
+          "designator": "9",
+          "name": "9",
+          "side": "left"
+        },
+        {
+          "designator": "1",
+          "name": "1",
+          "side": "right"
+        },
+        {
+          "designator": "10",
+          "name": "10",
+          "side": "right"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "function": "LED / SHIELD",
+      "column_widths_mm": [
+        18,
+        38,
+        18
+      ],
+      "pins": [
+        {
+          "designator": "11",
+          "name": "11",
+          "side": "left"
+        },
+        {
+          "designator": "12",
+          "name": "12",
+          "side": "left"
+        },
+        {
+          "designator": "14",
+          "name": "14",
+          "side": "left"
+        },
+        {
+          "designator": "13",
+          "name": "13",
+          "side": "left"
+        },
+        {
+          "designator": "15",
+          "name": "15",
+          "side": "right"
+        },
+        {
+          "designator": "16",
+          "name": "16",
+          "side": "right"
+        }
+      ]
+    }
+  ]
+}

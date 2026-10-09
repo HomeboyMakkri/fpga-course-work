@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "job_dir": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\tools\\altium\\runtime\\jobs\\96be74e5dffd46899085a79cd1e78b66",
+  "steps": [
+    "START",
+    "select exact library component",
+    "repair exact ASV model location only",
+    "FINISHED"
+  ],
+  "elapsed_seconds": 1.2,
+  "result": {
+    "saved": true,
+    "changed_model_count": 1
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "checked_date": "2026-10-08",
+  "mode": "read_only_registry_and_file_names_no_launch",
+  "registry_roots": [
+    "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\*",
+    "HKLM:\\SOFTWARE\\WOW6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\*",
+    "HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\*"
+  ],
+  "registry_matches": [
+    {
+      "DisplayName": "Altium Library Loader version 2.2",
+      "DisplayVersion": "2.2",
+      "Publisher": null,
+      "InstallLocation": null,
+      "DisplayIcon": "C:\\Users\\makarlistkov\\Documents\\AltiumLL\\SamacSys.ico"
+    }
+  ],
+  "program_roots_scanned": [
+    "C:\\Program Files",
+    "C:\\Program Files (x86)",
+    "C:\\Users\\makarlistkov\\AppData\\Local\\Programs"
+  ],
+  "matching_files": [],
+  "direct_candidates": [
+    {
+      "path": "C:\\UltraLibrarian",
+      "exists": false
+    },
+    {
+      "path": "C:\\Ultra Librarian",
+      "exists": false
+    },
+    {
+      "path": "C:\\UltraLib",
+      "exists": false
+    },
+    {
+      "path": "C:\\Program Files\\Ultra Librarian",
+      "exists": false
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Ultra Librarian",
+      "exists": false
+    },
+    {
+      "path": "C:\\Program Files\\EMA Design Automation",
+      "exists": false
+    },
+    {
+      "path": "C:\\Program Files (x86)\\EMA Design Automation",
+      "exists": false
+    }
+  ],
+  "finding": "No Ultra Librarian BXL converter installation found in examined uninstall registry or common program roots. Altium Library Loader 2.2 is registered; BXL support not established.",
+  "limitation": "A portable converter outside these roots, inaccessible files, or an installation under another user were not excluded."
+}

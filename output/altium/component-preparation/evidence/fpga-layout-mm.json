@@ -1,0 +1,3561 @@
+{
+  "component": "XC7A50T-2FGG484I",
+  "path": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\ARTIX\\ARTIX\\libraries\\project\\ARTIX.SchLib",
+  "units": "mm",
+  "snap_grid_mm": 1,
+  "auxiliary_grid_mm": 0.5,
+  "length_mm": 5,
+  "font_name": "GOST Common",
+  "font_size_pt": 10,
+  "parts": [
+    {
+      "id": 1,
+      "label": "CONFIG / XADC / JTAG",
+      "body_mm": [
+        0,
+        -41,
+        100,
+        2
+      ],
+      "label_mm": [
+        50.0,
+        -1
+      ],
+      "pins": [
+        {
+          "designator": "N10",
+          "name": "DXP_0",
+          "x_mm": 0,
+          "y_mm": -5,
+          "orientation": 2
+        },
+        {
+          "designator": "N9",
+          "name": "DXN_0",
+          "x_mm": 0,
+          "y_mm": -8,
+          "orientation": 2
+        },
+        {
+          "designator": "M10",
+          "name": "VREFP_0",
+          "x_mm": 0,
+          "y_mm": -11,
+          "orientation": 2
+        },
+        {
+          "designator": "L9",
+          "name": "VREFN_0",
+          "x_mm": 0,
+          "y_mm": -14,
+          "orientation": 2
+        },
+        {
+          "designator": "L10",
+          "name": "VP_0",
+          "x_mm": 0,
+          "y_mm": -17,
+          "orientation": 2
+        },
+        {
+          "designator": "M9",
+          "name": "VN_0",
+          "x_mm": 0,
+          "y_mm": -20,
+          "orientation": 2
+        },
+        {
+          "designator": "K10",
+          "name": "VCCADC_0",
+          "x_mm": 0,
+          "y_mm": -23,
+          "orientation": 2
+        },
+        {
+          "designator": "K9",
+          "name": "GNDADC_0",
+          "x_mm": 0,
+          "y_mm": -26,
+          "orientation": 2
+        },
+        {
+          "designator": "E12",
+          "name": "VCCBATT_0",
+          "x_mm": 0,
+          "y_mm": -29,
+          "orientation": 2
+        },
+        {
+          "designator": "T13",
+          "name": "TMS_0",
+          "x_mm": 100,
+          "y_mm": -5,
+          "orientation": 0
+        },
+        {
+          "designator": "V12",
+          "name": "TCK_0",
+          "x_mm": 100,
+          "y_mm": -8,
+          "orientation": 0
+        },
+        {
+          "designator": "R13",
+          "name": "TDI_0",
+          "x_mm": 100,
+          "y_mm": -11,
+          "orientation": 0
+        },
+        {
+          "designator": "U13",
+          "name": "TDO_0",
+          "x_mm": 100,
+          "y_mm": -14,
+          "orientation": 0
+        },
+        {
+          "designator": "U12",
+          "name": "INIT_B_0",
+          "x_mm": 100,
+          "y_mm": -17,
+          "orientation": 0
+        },
+        {
+          "designator": "N12",
+          "name": "PROGRAM_B",
+          "x_mm": 100,
+          "y_mm": -20,
+          "orientation": 0
+        },
+        {
+          "designator": "U8",
+          "name": "CFGBVS_0",
+          "x_mm": 100,
+          "y_mm": -23,
+          "orientation": 0
+        },
+        {
+          "designator": "G11",
+          "name": "DONE_0",
+          "x_mm": 100,
+          "y_mm": -26,
+          "orientation": 0
+        },
+        {
+          "designator": "U11",
+          "name": "M0_0",
+          "x_mm": 100,
+          "y_mm": -29,
+          "orientation": 0
+        },
+        {
+          "designator": "U10",
+          "name": "M1_0",
+          "x_mm": 100,
+          "y_mm": -32,
+          "orientation": 0
+        },
+        {
+          "designator": "U9",
+          "name": "M2_0",
+          "x_mm": 100,
+          "y_mm": -35,
+          "orientation": 0
+        },
+        {
+          "designator": "L12",
+          "name": "CCLK_0",
+          "x_mm": 100,
+          "y_mm": -38,
+          "orientation": 0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "label": "BANK 14",
+      "body_mm": [
+        0,
+        -155,
+        80,
+        2
+      ],
+      "label_mm": [
+        40.0,
+        -1
+      ],
+      "pins": [
+        {
+          "designator": "P20",
+          "name": "IO_0_14",
+          "x_mm": 80,
+          "y_mm": -5,
+          "orientation": 0
+        },
+        {
+          "designator": "P22",
+          "name": "IO_L1P_T0_D00_MOSI_14",
+          "x_mm": 80,
+          "y_mm": -8,
+          "orientation": 0
+        },
+        {
+          "designator": "R22",
+          "name": "IO_L1N_T0_D01_DIN_14",
+          "x_mm": 80,
+          "y_mm": -11,
+          "orientation": 0
+        },
+        {
+          "designator": "P21",
+          "name": "IO_L2P_T0_D02_14",
+          "x_mm": 80,
+          "y_mm": -14,
+          "orientation": 0
+        },
+        {
+          "designator": "R21",
+          "name": "IO_L2N_T0_D03_14",
+          "x_mm": 80,
+          "y_mm": -17,
+          "orientation": 0
+        },
+        {
+          "designator": "U22",
+          "name": "IO_L3P_T0_DQS_PUDC_B_14",
+          "x_mm": 80,
+          "y_mm": -20,
+          "orientation": 0
+        },
+        {
+          "designator": "V22",
+          "name": "IO_L3N_T0_DQS_EMCCLK_14",
+          "x_mm": 80,
+          "y_mm": -23,
+          "orientation": 0
+        },
+        {
+          "designator": "T21",
+          "name": "IO_L4P_T0_D04_14",
+          "x_mm": 80,
+          "y_mm": -26,
+          "orientation": 0
+        },
+        {
+          "designator": "U21",
+          "name": "IO_L4N_T0_D05_14",
+          "x_mm": 80,
+          "y_mm": -29,
+          "orientation": 0
+        },
+        {
+          "designator": "P19",
+          "name": "IO_L5P_T0_D06_14",
+          "x_mm": 80,
+          "y_mm": -32,
+          "orientation": 0
+        },
+        {
+          "designator": "R19",
+          "name": "IO_L5N_T0_D07_14",
+          "x_mm": 80,
+          "y_mm": -35,
+          "orientation": 0
+        },
+        {
+          "designator": "T19",
+          "name": "IO_L6P_T0_FCS_B_14",
+          "x_mm": 80,
+          "y_mm": -38,
+          "orientation": 0
+        },
+        {
+          "designator": "T20",
+          "name": "IO_L6N_T0_D08_VREF_14",
+          "x_mm": 80,
+          "y_mm": -41,
+          "orientation": 0
+        },
+        {
+          "designator": "W21",
+          "name": "IO_L7P_T1_D09_14",
+          "x_mm": 80,
+          "y_mm": -44,
+          "orientation": 0
+        },
+        {
+          "designator": "W22",
+          "name": "IO_L7N_T1_D10_14",
+          "x_mm": 80,
+          "y_mm": -47,
+          "orientation": 0
+        },
+        {
+          "designator": "AA20",
+          "name": "IO_L8P_T1_D11_14",
+          "x_mm": 80,
+          "y_mm": -50,
+          "orientation": 0
+        },
+        {
+          "designator": "AA21",
+          "name": "IO_L8N_T1_D12_14",
+          "x_mm": 80,
+          "y_mm": -53,
+          "orientation": 0
+        },
+        {
+          "designator": "Y21",
+          "name": "IO_L9P_T1_DQS_14",
+          "x_mm": 80,
+          "y_mm": -56,
+          "orientation": 0
+        },
+        {
+          "designator": "Y22",
+          "name": "IO_L9N_T1_DQS_D13_14",
+          "x_mm": 80,
+          "y_mm": -59,
+          "orientation": 0
+        },
+        {
+          "designator": "AB21",
+          "name": "IO_L10P_T1_D14_14",
+          "x_mm": 80,
+          "y_mm": -62,
+          "orientation": 0
+        },
+        {
+          "designator": "AB22",
+          "name": "IO_L10N_T1_D15_14",
+          "x_mm": 80,
+          "y_mm": -65,
+          "orientation": 0
+        },
+        {
+          "designator": "U20",
+          "name": "IO_L11P_T1_SRCC_14",
+          "x_mm": 80,
+          "y_mm": -68,
+          "orientation": 0
+        },
+        {
+          "designator": "V20",
+          "name": "IO_L11N_T1_SRCC_14",
+          "x_mm": 80,
+          "y_mm": -71,
+          "orientation": 0
+        },
+        {
+          "designator": "W19",
+          "name": "IO_L12P_T1_MRCC_14",
+          "x_mm": 80,
+          "y_mm": -74,
+          "orientation": 0
+        },
+        {
+          "designator": "W20",
+          "name": "IO_L12N_T1_MRCC_14",
+          "x_mm": 80,
+          "y_mm": -77,
+          "orientation": 0
+        },
+        {
+          "designator": "Y18",
+          "name": "IO_L13P_T2_MRCC_14",
+          "x_mm": 80,
+          "y_mm": -80,
+          "orientation": 0
+        },
+        {
+          "designator": "Y19",
+          "name": "IO_L13N_T2_MRCC_14",
+          "x_mm": 80,
+          "y_mm": -83,
+          "orientation": 0
+        },
+        {
+          "designator": "V18",
+          "name": "IO_L14P_T2_SRCC_14",
+          "x_mm": 80,
+          "y_mm": -86,
+          "orientation": 0
+        },
+        {
+          "designator": "V19",
+          "name": "IO_L14N_T2_SRCC_14",
+          "x_mm": 80,
+          "y_mm": -89,
+          "orientation": 0
+        },
+        {
+          "designator": "AA19",
+          "name": "IO_L15P_T2_DQS_RDWR_B_14",
+          "x_mm": 80,
+          "y_mm": -92,
+          "orientation": 0
+        },
+        {
+          "designator": "AB20",
+          "name": "IO_L15N_T2_DQS_DOUT_CSO_B_14",
+          "x_mm": 80,
+          "y_mm": -95,
+          "orientation": 0
+        },
+        {
+          "designator": "V17",
+          "name": "IO_L16P_T2_CSI_B_14",
+          "x_mm": 80,
+          "y_mm": -98,
+          "orientation": 0
+        },
+        {
+          "designator": "W17",
+          "name": "IO_L16N_T2_A15_D31_14",
+          "x_mm": 80,
+          "y_mm": -101,
+          "orientation": 0
+        },
+        {
+          "designator": "AA18",
+          "name": "IO_L17P_T2_A14_D30_14",
+          "x_mm": 80,
+          "y_mm": -104,
+          "orientation": 0
+        },
+        {
+          "designator": "AB18",
+          "name": "IO_L17N_T2_A13_D29_14",
+          "x_mm": 80,
+          "y_mm": -107,
+          "orientation": 0
+        },
+        {
+          "designator": "U17",
+          "name": "IO_L18P_T2_A12_D28_14",
+          "x_mm": 80,
+          "y_mm": -110,
+          "orientation": 0
+        },
+        {
+          "designator": "U18",
+          "name": "IO_L18N_T2_A11_D27_14",
+          "x_mm": 80,
+          "y_mm": -113,
+          "orientation": 0
+        },
+        {
+          "designator": "P14",
+          "name": "IO_L19P_T3_A10_D26_14",
+          "x_mm": 80,
+          "y_mm": -116,
+          "orientation": 0
+        },
+        {
+          "designator": "R14",
+          "name": "IO_L19N_T3_A09_D25_VREF_14",
+          "x_mm": 80,
+          "y_mm": -119,
+          "orientation": 0
+        },
+        {
+          "designator": "R18",
+          "name": "IO_L20P_T3_A08_D24_14",
+          "x_mm": 80,
+          "y_mm": -122,
+          "orientation": 0
+        },
+        {
+          "designator": "T18",
+          "name": "IO_L20N_T3_A07_D23_14",
+          "x_mm": 80,
+          "y_mm": -125,
+          "orientation": 0
+        },
+        {
+          "designator": "N17",
+          "name": "IO_L21P_T3_DQS_14",
+          "x_mm": 80,
+          "y_mm": -128,
+          "orientation": 0
+        },
+        {
+          "designator": "P17",
+          "name": "IO_L21N_T3_DQS_A06_D22_14",
+          "x_mm": 80,
+          "y_mm": -131,
+          "orientation": 0
+        },
+        {
+          "designator": "P15",
+          "name": "IO_L22P_T3_A05_D21_14",
+          "x_mm": 80,
+          "y_mm": -134,
+          "orientation": 0
+        },
+        {
+          "designator": "R16",
+          "name": "IO_L22N_T3_A04_D20_14",
+          "x_mm": 80,
+          "y_mm": -137,
+          "orientation": 0
+        },
+        {
+          "designator": "N13",
+          "name": "IO_L23P_T3_A03_D19_14",
+          "x_mm": 80,
+          "y_mm": -140,
+          "orientation": 0
+        },
+        {
+          "designator": "N14",
+          "name": "IO_L23N_T3_A02_D18_14",
+          "x_mm": 80,
+          "y_mm": -143,
+          "orientation": 0
+        },
+        {
+          "designator": "P16",
+          "name": "IO_L24P_T3_A01_D17_14",
+          "x_mm": 80,
+          "y_mm": -146,
+          "orientation": 0
+        },
+        {
+          "designator": "R17",
+          "name": "IO_L24N_T3_A00_D16_14",
+          "x_mm": 80,
+          "y_mm": -149,
+          "orientation": 0
+        },
+        {
+          "designator": "N15",
+          "name": "IO_25_14",
+          "x_mm": 80,
+          "y_mm": -152,
+          "orientation": 0
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "label": "BANK 15",
+      "body_mm": [
+        0,
+        -155,
+        80,
+        2
+      ],
+      "label_mm": [
+        40.0,
+        -1
+      ],
+      "pins": [
+        {
+          "designator": "J16",
+          "name": "IO_0_15",
+          "x_mm": 80,
+          "y_mm": -5,
+          "orientation": 0
+        },
+        {
+          "designator": "H13",
+          "name": "IO_L1P_T0_AD0P_15",
+          "x_mm": 80,
+          "y_mm": -8,
+          "orientation": 0
+        },
+        {
+          "designator": "G13",
+          "name": "IO_L1N_T0_AD0N_15",
+          "x_mm": 80,
+          "y_mm": -11,
+          "orientation": 0
+        },
+        {
+          "designator": "G15",
+          "name": "IO_L2P_T0_AD8P_15",
+          "x_mm": 80,
+          "y_mm": -14,
+          "orientation": 0
+        },
+        {
+          "designator": "G16",
+          "name": "IO_L2N_T0_AD8N_15",
+          "x_mm": 80,
+          "y_mm": -17,
+          "orientation": 0
+        },
+        {
+          "designator": "J14",
+          "name": "IO_L3P_T0_DQS_AD1P_15",
+          "x_mm": 80,
+          "y_mm": -20,
+          "orientation": 0
+        },
+        {
+          "designator": "H14",
+          "name": "IO_L3N_T0_DQS_AD1N_15",
+          "x_mm": 80,
+          "y_mm": -23,
+          "orientation": 0
+        },
+        {
+          "designator": "G17",
+          "name": "IO_L4P_T0_15",
+          "x_mm": 80,
+          "y_mm": -26,
+          "orientation": 0
+        },
+        {
+          "designator": "G18",
+          "name": "IO_L4N_T0_15",
+          "x_mm": 80,
+          "y_mm": -29,
+          "orientation": 0
+        },
+        {
+          "designator": "J15",
+          "name": "IO_L5P_T0_AD9P_15",
+          "x_mm": 80,
+          "y_mm": -32,
+          "orientation": 0
+        },
+        {
+          "designator": "H15",
+          "name": "IO_L5N_T0_AD9N_15",
+          "x_mm": 80,
+          "y_mm": -35,
+          "orientation": 0
+        },
+        {
+          "designator": "H17",
+          "name": "IO_L6P_T0_15",
+          "x_mm": 80,
+          "y_mm": -38,
+          "orientation": 0
+        },
+        {
+          "designator": "H18",
+          "name": "IO_L6N_T0_VREF_15",
+          "x_mm": 80,
+          "y_mm": -41,
+          "orientation": 0
+        },
+        {
+          "designator": "J22",
+          "name": "IO_L7P_T1_AD2P_15",
+          "x_mm": 80,
+          "y_mm": -44,
+          "orientation": 0
+        },
+        {
+          "designator": "H22",
+          "name": "IO_L7N_T1_AD2N_15",
+          "x_mm": 80,
+          "y_mm": -47,
+          "orientation": 0
+        },
+        {
+          "designator": "H20",
+          "name": "IO_L8P_T1_AD10P_15",
+          "x_mm": 80,
+          "y_mm": -50,
+          "orientation": 0
+        },
+        {
+          "designator": "G20",
+          "name": "IO_L8N_T1_AD10N_15",
+          "x_mm": 80,
+          "y_mm": -53,
+          "orientation": 0
+        },
+        {
+          "designator": "K21",
+          "name": "IO_L9P_T1_DQS_AD3P_15",
+          "x_mm": 80,
+          "y_mm": -56,
+          "orientation": 0
+        },
+        {
+          "designator": "K22",
+          "name": "IO_L9N_T1_DQS_AD3N_15",
+          "x_mm": 80,
+          "y_mm": -59,
+          "orientation": 0
+        },
+        {
+          "designator": "M21",
+          "name": "IO_L10P_T1_AD11P_15",
+          "x_mm": 80,
+          "y_mm": -62,
+          "orientation": 0
+        },
+        {
+          "designator": "L21",
+          "name": "IO_L10N_T1_AD11N_15",
+          "x_mm": 80,
+          "y_mm": -65,
+          "orientation": 0
+        },
+        {
+          "designator": "J20",
+          "name": "IO_L11P_T1_SRCC_15",
+          "x_mm": 80,
+          "y_mm": -68,
+          "orientation": 0
+        },
+        {
+          "designator": "J21",
+          "name": "IO_L11N_T1_SRCC_15",
+          "x_mm": 80,
+          "y_mm": -71,
+          "orientation": 0
+        },
+        {
+          "designator": "J19",
+          "name": "IO_L12P_T1_MRCC_15",
+          "x_mm": 80,
+          "y_mm": -74,
+          "orientation": 0
+        },
+        {
+          "designator": "H19",
+          "name": "IO_L12N_T1_MRCC_15",
+          "x_mm": 80,
+          "y_mm": -77,
+          "orientation": 0
+        },
+        {
+          "designator": "K18",
+          "name": "IO_L13P_T2_MRCC_15",
+          "x_mm": 80,
+          "y_mm": -80,
+          "orientation": 0
+        },
+        {
+          "designator": "K19",
+          "name": "IO_L13N_T2_MRCC_15",
+          "x_mm": 80,
+          "y_mm": -83,
+          "orientation": 0
+        },
+        {
+          "designator": "L19",
+          "name": "IO_L14P_T2_SRCC_15",
+          "x_mm": 80,
+          "y_mm": -86,
+          "orientation": 0
+        },
+        {
+          "designator": "L20",
+          "name": "IO_L14N_T2_SRCC_15",
+          "x_mm": 80,
+          "y_mm": -89,
+          "orientation": 0
+        },
+        {
+          "designator": "N22",
+          "name": "IO_L15P_T2_DQS_15",
+          "x_mm": 80,
+          "y_mm": -92,
+          "orientation": 0
+        },
+        {
+          "designator": "M22",
+          "name": "IO_L15N_T2_DQS_ADV_B_15",
+          "x_mm": 80,
+          "y_mm": -95,
+          "orientation": 0
+        },
+        {
+          "designator": "M18",
+          "name": "IO_L16P_T2_A28_15",
+          "x_mm": 80,
+          "y_mm": -98,
+          "orientation": 0
+        },
+        {
+          "designator": "L18",
+          "name": "IO_L16N_T2_A27_15",
+          "x_mm": 80,
+          "y_mm": -101,
+          "orientation": 0
+        },
+        {
+          "designator": "N18",
+          "name": "IO_L17P_T2_A26_15",
+          "x_mm": 80,
+          "y_mm": -104,
+          "orientation": 0
+        },
+        {
+          "designator": "N19",
+          "name": "IO_L17N_T2_A25_15",
+          "x_mm": 80,
+          "y_mm": -107,
+          "orientation": 0
+        },
+        {
+          "designator": "N20",
+          "name": "IO_L18P_T2_A24_15",
+          "x_mm": 80,
+          "y_mm": -110,
+          "orientation": 0
+        },
+        {
+          "designator": "M20",
+          "name": "IO_L18N_T2_A23_15",
+          "x_mm": 80,
+          "y_mm": -113,
+          "orientation": 0
+        },
+        {
+          "designator": "K13",
+          "name": "IO_L19P_T3_A22_15",
+          "x_mm": 80,
+          "y_mm": -116,
+          "orientation": 0
+        },
+        {
+          "designator": "K14",
+          "name": "IO_L19N_T3_A21_VREF_15",
+          "x_mm": 80,
+          "y_mm": -119,
+          "orientation": 0
+        },
+        {
+          "designator": "M13",
+          "name": "IO_L20P_T3_A20_15",
+          "x_mm": 80,
+          "y_mm": -122,
+          "orientation": 0
+        },
+        {
+          "designator": "L13",
+          "name": "IO_L20N_T3_A19_15",
+          "x_mm": 80,
+          "y_mm": -125,
+          "orientation": 0
+        },
+        {
+          "designator": "K17",
+          "name": "IO_L21P_T3_DQS_15",
+          "x_mm": 80,
+          "y_mm": -128,
+          "orientation": 0
+        },
+        {
+          "designator": "J17",
+          "name": "IO_L21N_T3_DQS_A18_15",
+          "x_mm": 80,
+          "y_mm": -131,
+          "orientation": 0
+        },
+        {
+          "designator": "L14",
+          "name": "IO_L22P_T3_A17_15",
+          "x_mm": 80,
+          "y_mm": -134,
+          "orientation": 0
+        },
+        {
+          "designator": "L15",
+          "name": "IO_L22N_T3_A16_15",
+          "x_mm": 80,
+          "y_mm": -137,
+          "orientation": 0
+        },
+        {
+          "designator": "L16",
+          "name": "IO_L23P_T3_FOE_B_15",
+          "x_mm": 80,
+          "y_mm": -140,
+          "orientation": 0
+        },
+        {
+          "designator": "K16",
+          "name": "IO_L23N_T3_FWE_B_15",
+          "x_mm": 80,
+          "y_mm": -143,
+          "orientation": 0
+        },
+        {
+          "designator": "M15",
+          "name": "IO_L24P_T3_RS1_15",
+          "x_mm": 80,
+          "y_mm": -146,
+          "orientation": 0
+        },
+        {
+          "designator": "M16",
+          "name": "IO_L24N_T3_RS0_15",
+          "x_mm": 80,
+          "y_mm": -149,
+          "orientation": 0
+        },
+        {
+          "designator": "M17",
+          "name": "IO_25_15",
+          "x_mm": 80,
+          "y_mm": -152,
+          "orientation": 0
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "label": "BANK 16",
+      "body_mm": [
+        0,
+        -155,
+        80,
+        2
+      ],
+      "label_mm": [
+        40.0,
+        -1
+      ],
+      "pins": [
+        {
+          "designator": "F15",
+          "name": "IO_0_16",
+          "x_mm": 80,
+          "y_mm": -5,
+          "orientation": 0
+        },
+        {
+          "designator": "F13",
+          "name": "IO_L1P_T0_16",
+          "x_mm": 80,
+          "y_mm": -8,
+          "orientation": 0
+        },
+        {
+          "designator": "F14",
+          "name": "IO_L1N_T0_16",
+          "x_mm": 80,
+          "y_mm": -11,
+          "orientation": 0
+        },
+        {
+          "designator": "F16",
+          "name": "IO_L2P_T0_16",
+          "x_mm": 80,
+          "y_mm": -14,
+          "orientation": 0
+        },
+        {
+          "designator": "E17",
+          "name": "IO_L2N_T0_16",
+          "x_mm": 80,
+          "y_mm": -17,
+          "orientation": 0
+        },
+        {
+          "designator": "C14",
+          "name": "IO_L3P_T0_DQS_16",
+          "x_mm": 80,
+          "y_mm": -20,
+          "orientation": 0
+        },
+        {
+          "designator": "C15",
+          "name": "IO_L3N_T0_DQS_16",
+          "x_mm": 80,
+          "y_mm": -23,
+          "orientation": 0
+        },
+        {
+          "designator": "E13",
+          "name": "IO_L4P_T0_16",
+          "x_mm": 80,
+          "y_mm": -26,
+          "orientation": 0
+        },
+        {
+          "designator": "E14",
+          "name": "IO_L4N_T0_16",
+          "x_mm": 80,
+          "y_mm": -29,
+          "orientation": 0
+        },
+        {
+          "designator": "E16",
+          "name": "IO_L5P_T0_16",
+          "x_mm": 80,
+          "y_mm": -32,
+          "orientation": 0
+        },
+        {
+          "designator": "D16",
+          "name": "IO_L5N_T0_16",
+          "x_mm": 80,
+          "y_mm": -35,
+          "orientation": 0
+        },
+        {
+          "designator": "D14",
+          "name": "IO_L6P_T0_16",
+          "x_mm": 80,
+          "y_mm": -38,
+          "orientation": 0
+        },
+        {
+          "designator": "D15",
+          "name": "IO_L6N_T0_VREF_16",
+          "x_mm": 80,
+          "y_mm": -41,
+          "orientation": 0
+        },
+        {
+          "designator": "B15",
+          "name": "IO_L7P_T1_16",
+          "x_mm": 80,
+          "y_mm": -44,
+          "orientation": 0
+        },
+        {
+          "designator": "B16",
+          "name": "IO_L7N_T1_16",
+          "x_mm": 80,
+          "y_mm": -47,
+          "orientation": 0
+        },
+        {
+          "designator": "C13",
+          "name": "IO_L8P_T1_16",
+          "x_mm": 80,
+          "y_mm": -50,
+          "orientation": 0
+        },
+        {
+          "designator": "B13",
+          "name": "IO_L8N_T1_16",
+          "x_mm": 80,
+          "y_mm": -53,
+          "orientation": 0
+        },
+        {
+          "designator": "A15",
+          "name": "IO_L9P_T1_DQS_16",
+          "x_mm": 80,
+          "y_mm": -56,
+          "orientation": 0
+        },
+        {
+          "designator": "A16",
+          "name": "IO_L9N_T1_DQS_16",
+          "x_mm": 80,
+          "y_mm": -59,
+          "orientation": 0
+        },
+        {
+          "designator": "A13",
+          "name": "IO_L10P_T1_16",
+          "x_mm": 80,
+          "y_mm": -62,
+          "orientation": 0
+        },
+        {
+          "designator": "A14",
+          "name": "IO_L10N_T1_16",
+          "x_mm": 80,
+          "y_mm": -65,
+          "orientation": 0
+        },
+        {
+          "designator": "B17",
+          "name": "IO_L11P_T1_SRCC_16",
+          "x_mm": 80,
+          "y_mm": -68,
+          "orientation": 0
+        },
+        {
+          "designator": "B18",
+          "name": "IO_L11N_T1_SRCC_16",
+          "x_mm": 80,
+          "y_mm": -71,
+          "orientation": 0
+        },
+        {
+          "designator": "D17",
+          "name": "IO_L12P_T1_MRCC_16",
+          "x_mm": 80,
+          "y_mm": -74,
+          "orientation": 0
+        },
+        {
+          "designator": "C17",
+          "name": "IO_L12N_T1_MRCC_16",
+          "x_mm": 80,
+          "y_mm": -77,
+          "orientation": 0
+        },
+        {
+          "designator": "C18",
+          "name": "IO_L13P_T2_MRCC_16",
+          "x_mm": 80,
+          "y_mm": -80,
+          "orientation": 0
+        },
+        {
+          "designator": "C19",
+          "name": "IO_L13N_T2_MRCC_16",
+          "x_mm": 80,
+          "y_mm": -83,
+          "orientation": 0
+        },
+        {
+          "designator": "E19",
+          "name": "IO_L14P_T2_SRCC_16",
+          "x_mm": 80,
+          "y_mm": -86,
+          "orientation": 0
+        },
+        {
+          "designator": "D19",
+          "name": "IO_L14N_T2_SRCC_16",
+          "x_mm": 80,
+          "y_mm": -89,
+          "orientation": 0
+        },
+        {
+          "designator": "F18",
+          "name": "IO_L15P_T2_DQS_16",
+          "x_mm": 80,
+          "y_mm": -92,
+          "orientation": 0
+        },
+        {
+          "designator": "E18",
+          "name": "IO_L15N_T2_DQS_16",
+          "x_mm": 80,
+          "y_mm": -95,
+          "orientation": 0
+        },
+        {
+          "designator": "B20",
+          "name": "IO_L16P_T2_16",
+          "x_mm": 80,
+          "y_mm": -98,
+          "orientation": 0
+        },
+        {
+          "designator": "A20",
+          "name": "IO_L16N_T2_16",
+          "x_mm": 80,
+          "y_mm": -101,
+          "orientation": 0
+        },
+        {
+          "designator": "A18",
+          "name": "IO_L17P_T2_16",
+          "x_mm": 80,
+          "y_mm": -104,
+          "orientation": 0
+        },
+        {
+          "designator": "A19",
+          "name": "IO_L17N_T2_16",
+          "x_mm": 80,
+          "y_mm": -107,
+          "orientation": 0
+        },
+        {
+          "designator": "F19",
+          "name": "IO_L18P_T2_16",
+          "x_mm": 80,
+          "y_mm": -110,
+          "orientation": 0
+        },
+        {
+          "designator": "F20",
+          "name": "IO_L18N_T2_16",
+          "x_mm": 80,
+          "y_mm": -113,
+          "orientation": 0
+        },
+        {
+          "designator": "D20",
+          "name": "IO_L19P_T3_16",
+          "x_mm": 80,
+          "y_mm": -116,
+          "orientation": 0
+        },
+        {
+          "designator": "C20",
+          "name": "IO_L19N_T3_VREF_16",
+          "x_mm": 80,
+          "y_mm": -119,
+          "orientation": 0
+        },
+        {
+          "designator": "C22",
+          "name": "IO_L20P_T3_16",
+          "x_mm": 80,
+          "y_mm": -122,
+          "orientation": 0
+        },
+        {
+          "designator": "B22",
+          "name": "IO_L20N_T3_16",
+          "x_mm": 80,
+          "y_mm": -125,
+          "orientation": 0
+        },
+        {
+          "designator": "B21",
+          "name": "IO_L21P_T3_DQS_16",
+          "x_mm": 80,
+          "y_mm": -128,
+          "orientation": 0
+        },
+        {
+          "designator": "A21",
+          "name": "IO_L21N_T3_DQS_16",
+          "x_mm": 80,
+          "y_mm": -131,
+          "orientation": 0
+        },
+        {
+          "designator": "E22",
+          "name": "IO_L22P_T3_16",
+          "x_mm": 80,
+          "y_mm": -134,
+          "orientation": 0
+        },
+        {
+          "designator": "D22",
+          "name": "IO_L22N_T3_16",
+          "x_mm": 80,
+          "y_mm": -137,
+          "orientation": 0
+        },
+        {
+          "designator": "E21",
+          "name": "IO_L23P_T3_16",
+          "x_mm": 80,
+          "y_mm": -140,
+          "orientation": 0
+        },
+        {
+          "designator": "D21",
+          "name": "IO_L23N_T3_16",
+          "x_mm": 80,
+          "y_mm": -143,
+          "orientation": 0
+        },
+        {
+          "designator": "G21",
+          "name": "IO_L24P_T3_16",
+          "x_mm": 80,
+          "y_mm": -146,
+          "orientation": 0
+        },
+        {
+          "designator": "G22",
+          "name": "IO_L24N_T3_16",
+          "x_mm": 80,
+          "y_mm": -149,
+          "orientation": 0
+        },
+        {
+          "designator": "F21",
+          "name": "IO_25_16",
+          "x_mm": 80,
+          "y_mm": -152,
+          "orientation": 0
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "label": "BANK 34",
+      "body_mm": [
+        0,
+        -155,
+        80,
+        2
+      ],
+      "label_mm": [
+        40.0,
+        -1
+      ],
+      "pins": [
+        {
+          "designator": "T3",
+          "name": "IO_0_34",
+          "x_mm": 80,
+          "y_mm": -5,
+          "orientation": 0
+        },
+        {
+          "designator": "T1",
+          "name": "IO_L1P_T0_34",
+          "x_mm": 80,
+          "y_mm": -8,
+          "orientation": 0
+        },
+        {
+          "designator": "U1",
+          "name": "IO_L1N_T0_34",
+          "x_mm": 80,
+          "y_mm": -11,
+          "orientation": 0
+        },
+        {
+          "designator": "U2",
+          "name": "IO_L2P_T0_34",
+          "x_mm": 80,
+          "y_mm": -14,
+          "orientation": 0
+        },
+        {
+          "designator": "V2",
+          "name": "IO_L2N_T0_34",
+          "x_mm": 80,
+          "y_mm": -17,
+          "orientation": 0
+        },
+        {
+          "designator": "R3",
+          "name": "IO_L3P_T0_DQS_34",
+          "x_mm": 80,
+          "y_mm": -20,
+          "orientation": 0
+        },
+        {
+          "designator": "R2",
+          "name": "IO_L3N_T0_DQS_34",
+          "x_mm": 80,
+          "y_mm": -23,
+          "orientation": 0
+        },
+        {
+          "designator": "W2",
+          "name": "IO_L4P_T0_34",
+          "x_mm": 80,
+          "y_mm": -26,
+          "orientation": 0
+        },
+        {
+          "designator": "Y2",
+          "name": "IO_L4N_T0_34",
+          "x_mm": 80,
+          "y_mm": -29,
+          "orientation": 0
+        },
+        {
+          "designator": "W1",
+          "name": "IO_L5P_T0_34",
+          "x_mm": 80,
+          "y_mm": -32,
+          "orientation": 0
+        },
+        {
+          "designator": "Y1",
+          "name": "IO_L5N_T0_34",
+          "x_mm": 80,
+          "y_mm": -35,
+          "orientation": 0
+        },
+        {
+          "designator": "U3",
+          "name": "IO_L6P_T0_34",
+          "x_mm": 80,
+          "y_mm": -38,
+          "orientation": 0
+        },
+        {
+          "designator": "V3",
+          "name": "IO_L6N_T0_VREF_34",
+          "x_mm": 80,
+          "y_mm": -41,
+          "orientation": 0
+        },
+        {
+          "designator": "AA1",
+          "name": "IO_L7P_T1_34",
+          "x_mm": 80,
+          "y_mm": -44,
+          "orientation": 0
+        },
+        {
+          "designator": "AB1",
+          "name": "IO_L7N_T1_34",
+          "x_mm": 80,
+          "y_mm": -47,
+          "orientation": 0
+        },
+        {
+          "designator": "AB3",
+          "name": "IO_L8P_T1_34",
+          "x_mm": 80,
+          "y_mm": -50,
+          "orientation": 0
+        },
+        {
+          "designator": "AB2",
+          "name": "IO_L8N_T1_34",
+          "x_mm": 80,
+          "y_mm": -53,
+          "orientation": 0
+        },
+        {
+          "designator": "Y3",
+          "name": "IO_L9P_T1_DQS_34",
+          "x_mm": 80,
+          "y_mm": -56,
+          "orientation": 0
+        },
+        {
+          "designator": "AA3",
+          "name": "IO_L9N_T1_DQS_34",
+          "x_mm": 80,
+          "y_mm": -59,
+          "orientation": 0
+        },
+        {
+          "designator": "AA5",
+          "name": "IO_L10P_T1_34",
+          "x_mm": 80,
+          "y_mm": -62,
+          "orientation": 0
+        },
+        {
+          "designator": "AB5",
+          "name": "IO_L10N_T1_34",
+          "x_mm": 80,
+          "y_mm": -65,
+          "orientation": 0
+        },
+        {
+          "designator": "Y4",
+          "name": "IO_L11P_T1_SRCC_34",
+          "x_mm": 80,
+          "y_mm": -68,
+          "orientation": 0
+        },
+        {
+          "designator": "AA4",
+          "name": "IO_L11N_T1_SRCC_34",
+          "x_mm": 80,
+          "y_mm": -71,
+          "orientation": 0
+        },
+        {
+          "designator": "V4",
+          "name": "IO_L12P_T1_MRCC_34",
+          "x_mm": 80,
+          "y_mm": -74,
+          "orientation": 0
+        },
+        {
+          "designator": "W4",
+          "name": "IO_L12N_T1_MRCC_34",
+          "x_mm": 80,
+          "y_mm": -77,
+          "orientation": 0
+        },
+        {
+          "designator": "R4",
+          "name": "IO_L13P_T2_MRCC_34",
+          "x_mm": 80,
+          "y_mm": -80,
+          "orientation": 0
+        },
+        {
+          "designator": "T4",
+          "name": "IO_L13N_T2_MRCC_34",
+          "x_mm": 80,
+          "y_mm": -83,
+          "orientation": 0
+        },
+        {
+          "designator": "T5",
+          "name": "IO_L14P_T2_SRCC_34",
+          "x_mm": 80,
+          "y_mm": -86,
+          "orientation": 0
+        },
+        {
+          "designator": "U5",
+          "name": "IO_L14N_T2_SRCC_34",
+          "x_mm": 80,
+          "y_mm": -89,
+          "orientation": 0
+        },
+        {
+          "designator": "W6",
+          "name": "IO_L15P_T2_DQS_34",
+          "x_mm": 80,
+          "y_mm": -92,
+          "orientation": 0
+        },
+        {
+          "designator": "W5",
+          "name": "IO_L15N_T2_DQS_34",
+          "x_mm": 80,
+          "y_mm": -95,
+          "orientation": 0
+        },
+        {
+          "designator": "U6",
+          "name": "IO_L16P_T2_34",
+          "x_mm": 80,
+          "y_mm": -98,
+          "orientation": 0
+        },
+        {
+          "designator": "V5",
+          "name": "IO_L16N_T2_34",
+          "x_mm": 80,
+          "y_mm": -101,
+          "orientation": 0
+        },
+        {
+          "designator": "R6",
+          "name": "IO_L17P_T2_34",
+          "x_mm": 80,
+          "y_mm": -104,
+          "orientation": 0
+        },
+        {
+          "designator": "T6",
+          "name": "IO_L17N_T2_34",
+          "x_mm": 80,
+          "y_mm": -107,
+          "orientation": 0
+        },
+        {
+          "designator": "Y6",
+          "name": "IO_L18P_T2_34",
+          "x_mm": 80,
+          "y_mm": -110,
+          "orientation": 0
+        },
+        {
+          "designator": "AA6",
+          "name": "IO_L18N_T2_34",
+          "x_mm": 80,
+          "y_mm": -113,
+          "orientation": 0
+        },
+        {
+          "designator": "V7",
+          "name": "IO_L19P_T3_34",
+          "x_mm": 80,
+          "y_mm": -116,
+          "orientation": 0
+        },
+        {
+          "designator": "W7",
+          "name": "IO_L19N_T3_VREF_34",
+          "x_mm": 80,
+          "y_mm": -119,
+          "orientation": 0
+        },
+        {
+          "designator": "AB7",
+          "name": "IO_L20P_T3_34",
+          "x_mm": 80,
+          "y_mm": -122,
+          "orientation": 0
+        },
+        {
+          "designator": "AB6",
+          "name": "IO_L20N_T3_34",
+          "x_mm": 80,
+          "y_mm": -125,
+          "orientation": 0
+        },
+        {
+          "designator": "V9",
+          "name": "IO_L21P_T3_DQS_34",
+          "x_mm": 80,
+          "y_mm": -128,
+          "orientation": 0
+        },
+        {
+          "designator": "V8",
+          "name": "IO_L21N_T3_DQS_34",
+          "x_mm": 80,
+          "y_mm": -131,
+          "orientation": 0
+        },
+        {
+          "designator": "AA8",
+          "name": "IO_L22P_T3_34",
+          "x_mm": 80,
+          "y_mm": -134,
+          "orientation": 0
+        },
+        {
+          "designator": "AB8",
+          "name": "IO_L22N_T3_34",
+          "x_mm": 80,
+          "y_mm": -137,
+          "orientation": 0
+        },
+        {
+          "designator": "Y8",
+          "name": "IO_L23P_T3_34",
+          "x_mm": 80,
+          "y_mm": -140,
+          "orientation": 0
+        },
+        {
+          "designator": "Y7",
+          "name": "IO_L23N_T3_34",
+          "x_mm": 80,
+          "y_mm": -143,
+          "orientation": 0
+        },
+        {
+          "designator": "W9",
+          "name": "IO_L24P_T3_34",
+          "x_mm": 80,
+          "y_mm": -146,
+          "orientation": 0
+        },
+        {
+          "designator": "Y9",
+          "name": "IO_L24N_T3_34",
+          "x_mm": 80,
+          "y_mm": -149,
+          "orientation": 0
+        },
+        {
+          "designator": "U7",
+          "name": "IO_25_34",
+          "x_mm": 80,
+          "y_mm": -152,
+          "orientation": 0
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "label": "BANK 35",
+      "body_mm": [
+        0,
+        -155,
+        80,
+        2
+      ],
+      "label_mm": [
+        40.0,
+        -1
+      ],
+      "pins": [
+        {
+          "designator": "F4",
+          "name": "IO_0_35",
+          "x_mm": 80,
+          "y_mm": -5,
+          "orientation": 0
+        },
+        {
+          "designator": "B1",
+          "name": "IO_L1P_T0_AD4P_35",
+          "x_mm": 80,
+          "y_mm": -8,
+          "orientation": 0
+        },
+        {
+          "designator": "A1",
+          "name": "IO_L1N_T0_AD4N_35",
+          "x_mm": 80,
+          "y_mm": -11,
+          "orientation": 0
+        },
+        {
+          "designator": "C2",
+          "name": "IO_L2P_T0_AD12P_35",
+          "x_mm": 80,
+          "y_mm": -14,
+          "orientation": 0
+        },
+        {
+          "designator": "B2",
+          "name": "IO_L2N_T0_AD12N_35",
+          "x_mm": 80,
+          "y_mm": -17,
+          "orientation": 0
+        },
+        {
+          "designator": "E1",
+          "name": "IO_L3P_T0_DQS_AD5P_35",
+          "x_mm": 80,
+          "y_mm": -20,
+          "orientation": 0
+        },
+        {
+          "designator": "D1",
+          "name": "IO_L3N_T0_DQS_AD5N_35",
+          "x_mm": 80,
+          "y_mm": -23,
+          "orientation": 0
+        },
+        {
+          "designator": "E2",
+          "name": "IO_L4P_T0_35",
+          "x_mm": 80,
+          "y_mm": -26,
+          "orientation": 0
+        },
+        {
+          "designator": "D2",
+          "name": "IO_L4N_T0_35",
+          "x_mm": 80,
+          "y_mm": -29,
+          "orientation": 0
+        },
+        {
+          "designator": "G1",
+          "name": "IO_L5P_T0_AD13P_35",
+          "x_mm": 80,
+          "y_mm": -32,
+          "orientation": 0
+        },
+        {
+          "designator": "F1",
+          "name": "IO_L5N_T0_AD13N_35",
+          "x_mm": 80,
+          "y_mm": -35,
+          "orientation": 0
+        },
+        {
+          "designator": "F3",
+          "name": "IO_L6P_T0_35",
+          "x_mm": 80,
+          "y_mm": -38,
+          "orientation": 0
+        },
+        {
+          "designator": "E3",
+          "name": "IO_L6N_T0_VREF_35",
+          "x_mm": 80,
+          "y_mm": -41,
+          "orientation": 0
+        },
+        {
+          "designator": "K1",
+          "name": "IO_L7P_T1_AD6P_35",
+          "x_mm": 80,
+          "y_mm": -44,
+          "orientation": 0
+        },
+        {
+          "designator": "J1",
+          "name": "IO_L7N_T1_AD6N_35",
+          "x_mm": 80,
+          "y_mm": -47,
+          "orientation": 0
+        },
+        {
+          "designator": "H2",
+          "name": "IO_L8P_T1_AD14P_35",
+          "x_mm": 80,
+          "y_mm": -50,
+          "orientation": 0
+        },
+        {
+          "designator": "G2",
+          "name": "IO_L8N_T1_AD14N_35",
+          "x_mm": 80,
+          "y_mm": -53,
+          "orientation": 0
+        },
+        {
+          "designator": "K2",
+          "name": "IO_L9P_T1_DQS_AD7P_35",
+          "x_mm": 80,
+          "y_mm": -56,
+          "orientation": 0
+        },
+        {
+          "designator": "J2",
+          "name": "IO_L9N_T1_DQS_AD7N_35",
+          "x_mm": 80,
+          "y_mm": -59,
+          "orientation": 0
+        },
+        {
+          "designator": "J5",
+          "name": "IO_L10P_T1_AD15P_35",
+          "x_mm": 80,
+          "y_mm": -62,
+          "orientation": 0
+        },
+        {
+          "designator": "H5",
+          "name": "IO_L10N_T1_AD15N_35",
+          "x_mm": 80,
+          "y_mm": -65,
+          "orientation": 0
+        },
+        {
+          "designator": "H3",
+          "name": "IO_L11P_T1_SRCC_35",
+          "x_mm": 80,
+          "y_mm": -68,
+          "orientation": 0
+        },
+        {
+          "designator": "G3",
+          "name": "IO_L11N_T1_SRCC_35",
+          "x_mm": 80,
+          "y_mm": -71,
+          "orientation": 0
+        },
+        {
+          "designator": "H4",
+          "name": "IO_L12P_T1_MRCC_35",
+          "x_mm": 80,
+          "y_mm": -74,
+          "orientation": 0
+        },
+        {
+          "designator": "G4",
+          "name": "IO_L12N_T1_MRCC_35",
+          "x_mm": 80,
+          "y_mm": -77,
+          "orientation": 0
+        },
+        {
+          "designator": "K4",
+          "name": "IO_L13P_T2_MRCC_35",
+          "x_mm": 80,
+          "y_mm": -80,
+          "orientation": 0
+        },
+        {
+          "designator": "J4",
+          "name": "IO_L13N_T2_MRCC_35",
+          "x_mm": 80,
+          "y_mm": -83,
+          "orientation": 0
+        },
+        {
+          "designator": "L3",
+          "name": "IO_L14P_T2_SRCC_35",
+          "x_mm": 80,
+          "y_mm": -86,
+          "orientation": 0
+        },
+        {
+          "designator": "K3",
+          "name": "IO_L14N_T2_SRCC_35",
+          "x_mm": 80,
+          "y_mm": -89,
+          "orientation": 0
+        },
+        {
+          "designator": "M1",
+          "name": "IO_L15P_T2_DQS_35",
+          "x_mm": 80,
+          "y_mm": -92,
+          "orientation": 0
+        },
+        {
+          "designator": "L1",
+          "name": "IO_L15N_T2_DQS_35",
+          "x_mm": 80,
+          "y_mm": -95,
+          "orientation": 0
+        },
+        {
+          "designator": "M3",
+          "name": "IO_L16P_T2_35",
+          "x_mm": 80,
+          "y_mm": -98,
+          "orientation": 0
+        },
+        {
+          "designator": "M2",
+          "name": "IO_L16N_T2_35",
+          "x_mm": 80,
+          "y_mm": -101,
+          "orientation": 0
+        },
+        {
+          "designator": "K6",
+          "name": "IO_L17P_T2_35",
+          "x_mm": 80,
+          "y_mm": -104,
+          "orientation": 0
+        },
+        {
+          "designator": "J6",
+          "name": "IO_L17N_T2_35",
+          "x_mm": 80,
+          "y_mm": -107,
+          "orientation": 0
+        },
+        {
+          "designator": "L5",
+          "name": "IO_L18P_T2_35",
+          "x_mm": 80,
+          "y_mm": -110,
+          "orientation": 0
+        },
+        {
+          "designator": "L4",
+          "name": "IO_L18N_T2_35",
+          "x_mm": 80,
+          "y_mm": -113,
+          "orientation": 0
+        },
+        {
+          "designator": "N4",
+          "name": "IO_L19P_T3_35",
+          "x_mm": 80,
+          "y_mm": -116,
+          "orientation": 0
+        },
+        {
+          "designator": "N3",
+          "name": "IO_L19N_T3_VREF_35",
+          "x_mm": 80,
+          "y_mm": -119,
+          "orientation": 0
+        },
+        {
+          "designator": "R1",
+          "name": "IO_L20P_T3_35",
+          "x_mm": 80,
+          "y_mm": -122,
+          "orientation": 0
+        },
+        {
+          "designator": "P1",
+          "name": "IO_L20N_T3_35",
+          "x_mm": 80,
+          "y_mm": -125,
+          "orientation": 0
+        },
+        {
+          "designator": "P5",
+          "name": "IO_L21P_T3_DQS_35",
+          "x_mm": 80,
+          "y_mm": -128,
+          "orientation": 0
+        },
+        {
+          "designator": "P4",
+          "name": "IO_L21N_T3_DQS_35",
+          "x_mm": 80,
+          "y_mm": -131,
+          "orientation": 0
+        },
+        {
+          "designator": "P2",
+          "name": "IO_L22P_T3_35",
+          "x_mm": 80,
+          "y_mm": -134,
+          "orientation": 0
+        },
+        {
+          "designator": "N2",
+          "name": "IO_L22N_T3_35",
+          "x_mm": 80,
+          "y_mm": -137,
+          "orientation": 0
+        },
+        {
+          "designator": "M6",
+          "name": "IO_L23P_T3_35",
+          "x_mm": 80,
+          "y_mm": -140,
+          "orientation": 0
+        },
+        {
+          "designator": "M5",
+          "name": "IO_L23N_T3_35",
+          "x_mm": 80,
+          "y_mm": -143,
+          "orientation": 0
+        },
+        {
+          "designator": "P6",
+          "name": "IO_L24P_T3_35",
+          "x_mm": 80,
+          "y_mm": -146,
+          "orientation": 0
+        },
+        {
+          "designator": "N5",
+          "name": "IO_L24N_T3_35",
+          "x_mm": 80,
+          "y_mm": -149,
+          "orientation": 0
+        },
+        {
+          "designator": "L6",
+          "name": "IO_25_35",
+          "x_mm": 80,
+          "y_mm": -152,
+          "orientation": 0
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "label": "GTP 216",
+      "body_mm": [
+        0,
+        -65,
+        100,
+        2
+      ],
+      "label_mm": [
+        50.0,
+        -1
+      ],
+      "pins": [
+        {
+          "designator": "E8",
+          "name": "MGTAVCC_3",
+          "x_mm": 0,
+          "y_mm": -5,
+          "orientation": 2
+        },
+        {
+          "designator": "F9",
+          "name": "MGTAVCC_5",
+          "x_mm": 0,
+          "y_mm": -8,
+          "orientation": 2
+        },
+        {
+          "designator": "F7",
+          "name": "MGTAVCC_4",
+          "x_mm": 0,
+          "y_mm": -11,
+          "orientation": 2
+        },
+        {
+          "designator": "D10",
+          "name": "MGTAVCC_2",
+          "x_mm": 0,
+          "y_mm": -14,
+          "orientation": 2
+        },
+        {
+          "designator": "D6",
+          "name": "MGTAVCC_1",
+          "x_mm": 0,
+          "y_mm": -17,
+          "orientation": 2
+        },
+        {
+          "designator": "C8",
+          "name": "MGTAVTT_6",
+          "x_mm": 0,
+          "y_mm": -20,
+          "orientation": 2
+        },
+        {
+          "designator": "C4",
+          "name": "MGTAVTT_5",
+          "x_mm": 0,
+          "y_mm": -23,
+          "orientation": 2
+        },
+        {
+          "designator": "B11",
+          "name": "MGTAVTT_4",
+          "x_mm": 0,
+          "y_mm": -26,
+          "orientation": 2
+        },
+        {
+          "designator": "B9",
+          "name": "MGTAVTT_3",
+          "x_mm": 0,
+          "y_mm": -29,
+          "orientation": 2
+        },
+        {
+          "designator": "B7",
+          "name": "MGTAVTT_2",
+          "x_mm": 0,
+          "y_mm": -32,
+          "orientation": 2
+        },
+        {
+          "designator": "B5",
+          "name": "MGTAVTT_1",
+          "x_mm": 0,
+          "y_mm": -35,
+          "orientation": 2
+        },
+        {
+          "designator": "F8",
+          "name": "MGTRREF_216",
+          "x_mm": 0,
+          "y_mm": -38,
+          "orientation": 2
+        },
+        {
+          "designator": "F6",
+          "name": "MGTREFCLK0P_216",
+          "x_mm": 100,
+          "y_mm": -5,
+          "orientation": 0
+        },
+        {
+          "designator": "E6",
+          "name": "MGTREFCLK0N_216",
+          "x_mm": 100,
+          "y_mm": -8,
+          "orientation": 0
+        },
+        {
+          "designator": "B4",
+          "name": "MGTPTXP0_216",
+          "x_mm": 100,
+          "y_mm": -11,
+          "orientation": 0
+        },
+        {
+          "designator": "A4",
+          "name": "MGTPTXN0_216",
+          "x_mm": 100,
+          "y_mm": -14,
+          "orientation": 0
+        },
+        {
+          "designator": "B8",
+          "name": "MGTPRXP0_216",
+          "x_mm": 100,
+          "y_mm": -17,
+          "orientation": 0
+        },
+        {
+          "designator": "A8",
+          "name": "MGTPRXN0_216",
+          "x_mm": 100,
+          "y_mm": -20,
+          "orientation": 0
+        },
+        {
+          "designator": "D5",
+          "name": "MGTPTXP1_216",
+          "x_mm": 100,
+          "y_mm": -23,
+          "orientation": 0
+        },
+        {
+          "designator": "C5",
+          "name": "MGTPTXN1_216",
+          "x_mm": 100,
+          "y_mm": -26,
+          "orientation": 0
+        },
+        {
+          "designator": "D11",
+          "name": "MGTPRXP1_216",
+          "x_mm": 100,
+          "y_mm": -29,
+          "orientation": 0
+        },
+        {
+          "designator": "C11",
+          "name": "MGTPRXN1_216",
+          "x_mm": 100,
+          "y_mm": -32,
+          "orientation": 0
+        },
+        {
+          "designator": "B6",
+          "name": "MGTPTXP2_216",
+          "x_mm": 100,
+          "y_mm": -35,
+          "orientation": 0
+        },
+        {
+          "designator": "A6",
+          "name": "MGTPTXN2_216",
+          "x_mm": 100,
+          "y_mm": -38,
+          "orientation": 0
+        },
+        {
+          "designator": "B10",
+          "name": "MGTPRXP2_216",
+          "x_mm": 100,
+          "y_mm": -41,
+          "orientation": 0
+        },
+        {
+          "designator": "A10",
+          "name": "MGTPRXN2_216",
+          "x_mm": 100,
+          "y_mm": -44,
+          "orientation": 0
+        },
+        {
+          "designator": "D7",
+          "name": "MGTPTXP3_216",
+          "x_mm": 100,
+          "y_mm": -47,
+          "orientation": 0
+        },
+        {
+          "designator": "C7",
+          "name": "MGTPTXN3_216",
+          "x_mm": 100,
+          "y_mm": -50,
+          "orientation": 0
+        },
+        {
+          "designator": "D9",
+          "name": "MGTPRXP3_216",
+          "x_mm": 100,
+          "y_mm": -53,
+          "orientation": 0
+        },
+        {
+          "designator": "C9",
+          "name": "MGTPRXN3_216",
+          "x_mm": 100,
+          "y_mm": -56,
+          "orientation": 0
+        },
+        {
+          "designator": "F10",
+          "name": "MGTREFCLK1P_216",
+          "x_mm": 100,
+          "y_mm": -59,
+          "orientation": 0
+        },
+        {
+          "designator": "E10",
+          "name": "MGTREFCLK1N_216",
+          "x_mm": 100,
+          "y_mm": -62,
+          "orientation": 0
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "label": "GND",
+      "body_mm": [
+        0,
+        -137,
+        60,
+        2
+      ],
+      "label_mm": [
+        30.0,
+        -1
+      ],
+      "pins": [
+        {
+          "designator": "Y15",
+          "name": "GND_82",
+          "x_mm": 0,
+          "y_mm": -5,
+          "orientation": 2
+        },
+        {
+          "designator": "Y5",
+          "name": "GND_81",
+          "x_mm": 0,
+          "y_mm": -8,
+          "orientation": 2
+        },
+        {
+          "designator": "W18",
+          "name": "GND_80",
+          "x_mm": 0,
+          "y_mm": -11,
+          "orientation": 2
+        },
+        {
+          "designator": "W8",
+          "name": "GND_79",
+          "x_mm": 0,
+          "y_mm": -14,
+          "orientation": 2
+        },
+        {
+          "designator": "V21",
+          "name": "GND_78",
+          "x_mm": 0,
+          "y_mm": -17,
+          "orientation": 2
+        },
+        {
+          "designator": "V11",
+          "name": "GND_77",
+          "x_mm": 0,
+          "y_mm": -20,
+          "orientation": 2
+        },
+        {
+          "designator": "V1",
+          "name": "GND_76",
+          "x_mm": 0,
+          "y_mm": -23,
+          "orientation": 2
+        },
+        {
+          "designator": "U14",
+          "name": "GND_75",
+          "x_mm": 0,
+          "y_mm": -26,
+          "orientation": 2
+        },
+        {
+          "designator": "U4",
+          "name": "GND_74",
+          "x_mm": 0,
+          "y_mm": -29,
+          "orientation": 2
+        },
+        {
+          "designator": "T17",
+          "name": "GND_73",
+          "x_mm": 0,
+          "y_mm": -32,
+          "orientation": 2
+        },
+        {
+          "designator": "T11",
+          "name": "GND_72",
+          "x_mm": 0,
+          "y_mm": -35,
+          "orientation": 2
+        },
+        {
+          "designator": "T9",
+          "name": "GND_71",
+          "x_mm": 0,
+          "y_mm": -38,
+          "orientation": 2
+        },
+        {
+          "designator": "T7",
+          "name": "GND_70",
+          "x_mm": 0,
+          "y_mm": -41,
+          "orientation": 2
+        },
+        {
+          "designator": "R20",
+          "name": "GND_69",
+          "x_mm": 0,
+          "y_mm": -44,
+          "orientation": 2
+        },
+        {
+          "designator": "R12",
+          "name": "GND_68",
+          "x_mm": 0,
+          "y_mm": -47,
+          "orientation": 2
+        },
+        {
+          "designator": "R10",
+          "name": "GND_67",
+          "x_mm": 0,
+          "y_mm": -50,
+          "orientation": 2
+        },
+        {
+          "designator": "R8",
+          "name": "GND_66",
+          "x_mm": 0,
+          "y_mm": -53,
+          "orientation": 2
+        },
+        {
+          "designator": "P13",
+          "name": "GND_65",
+          "x_mm": 0,
+          "y_mm": -56,
+          "orientation": 2
+        },
+        {
+          "designator": "P11",
+          "name": "GND_64",
+          "x_mm": 0,
+          "y_mm": -59,
+          "orientation": 2
+        },
+        {
+          "designator": "P9",
+          "name": "GND_63",
+          "x_mm": 0,
+          "y_mm": -62,
+          "orientation": 2
+        },
+        {
+          "designator": "P7",
+          "name": "GND_62",
+          "x_mm": 0,
+          "y_mm": -65,
+          "orientation": 2
+        },
+        {
+          "designator": "P3",
+          "name": "GND_61",
+          "x_mm": 0,
+          "y_mm": -68,
+          "orientation": 2
+        },
+        {
+          "designator": "N16",
+          "name": "GND_60",
+          "x_mm": 0,
+          "y_mm": -71,
+          "orientation": 2
+        },
+        {
+          "designator": "N8",
+          "name": "GND_59",
+          "x_mm": 0,
+          "y_mm": -74,
+          "orientation": 2
+        },
+        {
+          "designator": "N6",
+          "name": "GND_58",
+          "x_mm": 0,
+          "y_mm": -77,
+          "orientation": 2
+        },
+        {
+          "designator": "M19",
+          "name": "GND_57",
+          "x_mm": 0,
+          "y_mm": -80,
+          "orientation": 2
+        },
+        {
+          "designator": "M11",
+          "name": "GND_56",
+          "x_mm": 0,
+          "y_mm": -83,
+          "orientation": 2
+        },
+        {
+          "designator": "M7",
+          "name": "GND_55",
+          "x_mm": 0,
+          "y_mm": -86,
+          "orientation": 2
+        },
+        {
+          "designator": "L22",
+          "name": "GND_54",
+          "x_mm": 0,
+          "y_mm": -89,
+          "orientation": 2
+        },
+        {
+          "designator": "L8",
+          "name": "GND_53",
+          "x_mm": 0,
+          "y_mm": -92,
+          "orientation": 2
+        },
+        {
+          "designator": "L2",
+          "name": "GND_52",
+          "x_mm": 0,
+          "y_mm": -95,
+          "orientation": 2
+        },
+        {
+          "designator": "K15",
+          "name": "GND_51",
+          "x_mm": 0,
+          "y_mm": -98,
+          "orientation": 2
+        },
+        {
+          "designator": "K11",
+          "name": "GND_50",
+          "x_mm": 0,
+          "y_mm": -101,
+          "orientation": 2
+        },
+        {
+          "designator": "K7",
+          "name": "GND_49",
+          "x_mm": 0,
+          "y_mm": -104,
+          "orientation": 2
+        },
+        {
+          "designator": "K5",
+          "name": "GND_48",
+          "x_mm": 0,
+          "y_mm": -107,
+          "orientation": 2
+        },
+        {
+          "designator": "J18",
+          "name": "GND_47",
+          "x_mm": 0,
+          "y_mm": -110,
+          "orientation": 2
+        },
+        {
+          "designator": "J12",
+          "name": "GND_46",
+          "x_mm": 0,
+          "y_mm": -113,
+          "orientation": 2
+        },
+        {
+          "designator": "J10",
+          "name": "GND_45",
+          "x_mm": 0,
+          "y_mm": -116,
+          "orientation": 2
+        },
+        {
+          "designator": "J8",
+          "name": "GND_44",
+          "x_mm": 0,
+          "y_mm": -119,
+          "orientation": 2
+        },
+        {
+          "designator": "H21",
+          "name": "GND_43",
+          "x_mm": 0,
+          "y_mm": -122,
+          "orientation": 2
+        },
+        {
+          "designator": "H11",
+          "name": "GND_42",
+          "x_mm": 0,
+          "y_mm": -125,
+          "orientation": 2
+        },
+        {
+          "designator": "H9",
+          "name": "GND_41",
+          "x_mm": 0,
+          "y_mm": -128,
+          "orientation": 2
+        },
+        {
+          "designator": "H7",
+          "name": "GND_40",
+          "x_mm": 0,
+          "y_mm": -131,
+          "orientation": 2
+        },
+        {
+          "designator": "D8",
+          "name": "GND_19",
+          "x_mm": 60,
+          "y_mm": -5,
+          "orientation": 0
+        },
+        {
+          "designator": "A2",
+          "name": "GND_1",
+          "x_mm": 60,
+          "y_mm": -8,
+          "orientation": 0
+        },
+        {
+          "designator": "A3",
+          "name": "GND_2",
+          "x_mm": 60,
+          "y_mm": -11,
+          "orientation": 0
+        },
+        {
+          "designator": "A5",
+          "name": "GND_3",
+          "x_mm": 60,
+          "y_mm": -14,
+          "orientation": 0
+        },
+        {
+          "designator": "A7",
+          "name": "GND_4",
+          "x_mm": 60,
+          "y_mm": -17,
+          "orientation": 0
+        },
+        {
+          "designator": "A9",
+          "name": "GND_5",
+          "x_mm": 60,
+          "y_mm": -20,
+          "orientation": 0
+        },
+        {
+          "designator": "A11",
+          "name": "GND_6",
+          "x_mm": 60,
+          "y_mm": -23,
+          "orientation": 0
+        },
+        {
+          "designator": "A12",
+          "name": "GND_7",
+          "x_mm": 60,
+          "y_mm": -26,
+          "orientation": 0
+        },
+        {
+          "designator": "A22",
+          "name": "GND_8",
+          "x_mm": 60,
+          "y_mm": -29,
+          "orientation": 0
+        },
+        {
+          "designator": "AA2",
+          "name": "GND_83",
+          "x_mm": 60,
+          "y_mm": -32,
+          "orientation": 0
+        },
+        {
+          "designator": "AA12",
+          "name": "GND_84",
+          "x_mm": 60,
+          "y_mm": -35,
+          "orientation": 0
+        },
+        {
+          "designator": "AA22",
+          "name": "GND_85",
+          "x_mm": 60,
+          "y_mm": -38,
+          "orientation": 0
+        },
+        {
+          "designator": "AB9",
+          "name": "GND_86",
+          "x_mm": 60,
+          "y_mm": -41,
+          "orientation": 0
+        },
+        {
+          "designator": "AB19",
+          "name": "GND_87",
+          "x_mm": 60,
+          "y_mm": -44,
+          "orientation": 0
+        },
+        {
+          "designator": "B3",
+          "name": "GND_9",
+          "x_mm": 60,
+          "y_mm": -47,
+          "orientation": 0
+        },
+        {
+          "designator": "B12",
+          "name": "GND_10",
+          "x_mm": 60,
+          "y_mm": -50,
+          "orientation": 0
+        },
+        {
+          "designator": "B19",
+          "name": "GND_11",
+          "x_mm": 60,
+          "y_mm": -53,
+          "orientation": 0
+        },
+        {
+          "designator": "C3",
+          "name": "GND_12",
+          "x_mm": 60,
+          "y_mm": -56,
+          "orientation": 0
+        },
+        {
+          "designator": "C6",
+          "name": "GND_13",
+          "x_mm": 60,
+          "y_mm": -59,
+          "orientation": 0
+        },
+        {
+          "designator": "C10",
+          "name": "GND_14",
+          "x_mm": 60,
+          "y_mm": -62,
+          "orientation": 0
+        },
+        {
+          "designator": "C12",
+          "name": "GND_15",
+          "x_mm": 60,
+          "y_mm": -65,
+          "orientation": 0
+        },
+        {
+          "designator": "C16",
+          "name": "GND_16",
+          "x_mm": 60,
+          "y_mm": -68,
+          "orientation": 0
+        },
+        {
+          "designator": "D3",
+          "name": "GND_17",
+          "x_mm": 60,
+          "y_mm": -71,
+          "orientation": 0
+        },
+        {
+          "designator": "D4",
+          "name": "GND_18",
+          "x_mm": 60,
+          "y_mm": -74,
+          "orientation": 0
+        },
+        {
+          "designator": "D12",
+          "name": "GND_20",
+          "x_mm": 60,
+          "y_mm": -77,
+          "orientation": 0
+        },
+        {
+          "designator": "D13",
+          "name": "GND_21",
+          "x_mm": 60,
+          "y_mm": -80,
+          "orientation": 0
+        },
+        {
+          "designator": "E4",
+          "name": "GND_22",
+          "x_mm": 60,
+          "y_mm": -83,
+          "orientation": 0
+        },
+        {
+          "designator": "E5",
+          "name": "GND_23",
+          "x_mm": 60,
+          "y_mm": -86,
+          "orientation": 0
+        },
+        {
+          "designator": "E7",
+          "name": "GND_24",
+          "x_mm": 60,
+          "y_mm": -89,
+          "orientation": 0
+        },
+        {
+          "designator": "E9",
+          "name": "GND_25",
+          "x_mm": 60,
+          "y_mm": -92,
+          "orientation": 0
+        },
+        {
+          "designator": "E11",
+          "name": "GND_26",
+          "x_mm": 60,
+          "y_mm": -95,
+          "orientation": 0
+        },
+        {
+          "designator": "E20",
+          "name": "GND_27",
+          "x_mm": 60,
+          "y_mm": -98,
+          "orientation": 0
+        },
+        {
+          "designator": "F5",
+          "name": "GND_28",
+          "x_mm": 60,
+          "y_mm": -101,
+          "orientation": 0
+        },
+        {
+          "designator": "F11",
+          "name": "GND_29",
+          "x_mm": 60,
+          "y_mm": -104,
+          "orientation": 0
+        },
+        {
+          "designator": "F17",
+          "name": "GND_30",
+          "x_mm": 60,
+          "y_mm": -107,
+          "orientation": 0
+        },
+        {
+          "designator": "G5",
+          "name": "GND_31",
+          "x_mm": 60,
+          "y_mm": -110,
+          "orientation": 0
+        },
+        {
+          "designator": "G6",
+          "name": "GND_32",
+          "x_mm": 60,
+          "y_mm": -113,
+          "orientation": 0
+        },
+        {
+          "designator": "G7",
+          "name": "GND_33",
+          "x_mm": 60,
+          "y_mm": -116,
+          "orientation": 0
+        },
+        {
+          "designator": "G8",
+          "name": "GND_34",
+          "x_mm": 60,
+          "y_mm": -119,
+          "orientation": 0
+        },
+        {
+          "designator": "G9",
+          "name": "GND_35",
+          "x_mm": 60,
+          "y_mm": -122,
+          "orientation": 0
+        },
+        {
+          "designator": "G10",
+          "name": "GND_36",
+          "x_mm": 60,
+          "y_mm": -125,
+          "orientation": 0
+        },
+        {
+          "designator": "G12",
+          "name": "GND_37",
+          "x_mm": 60,
+          "y_mm": -128,
+          "orientation": 0
+        },
+        {
+          "designator": "G14",
+          "name": "GND_38",
+          "x_mm": 60,
+          "y_mm": -131,
+          "orientation": 0
+        },
+        {
+          "designator": "H1",
+          "name": "GND_39",
+          "x_mm": 60,
+          "y_mm": -134,
+          "orientation": 0
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "label": "POWER",
+      "body_mm": [
+        0,
+        -95,
+        60,
+        2
+      ],
+      "label_mm": [
+        30.0,
+        -1
+      ],
+      "pins": [
+        {
+          "designator": "H8",
+          "name": "VCCINT_1",
+          "x_mm": 0,
+          "y_mm": -5,
+          "orientation": 2
+        },
+        {
+          "designator": "H10",
+          "name": "VCCINT_2",
+          "x_mm": 0,
+          "y_mm": -8,
+          "orientation": 2
+        },
+        {
+          "designator": "J7",
+          "name": "VCCINT_3",
+          "x_mm": 0,
+          "y_mm": -11,
+          "orientation": 2
+        },
+        {
+          "designator": "J9",
+          "name": "VCCINT_4",
+          "x_mm": 0,
+          "y_mm": -14,
+          "orientation": 2
+        },
+        {
+          "designator": "K8",
+          "name": "VCCINT_5",
+          "x_mm": 0,
+          "y_mm": -17,
+          "orientation": 2
+        },
+        {
+          "designator": "L7",
+          "name": "VCCINT_6",
+          "x_mm": 0,
+          "y_mm": -20,
+          "orientation": 2
+        },
+        {
+          "designator": "M8",
+          "name": "VCCINT_7",
+          "x_mm": 0,
+          "y_mm": -23,
+          "orientation": 2
+        },
+        {
+          "designator": "N7",
+          "name": "VCCINT_8",
+          "x_mm": 0,
+          "y_mm": -26,
+          "orientation": 2
+        },
+        {
+          "designator": "P8",
+          "name": "VCCINT_9",
+          "x_mm": 0,
+          "y_mm": -29,
+          "orientation": 2
+        },
+        {
+          "designator": "P10",
+          "name": "VCCINT_10",
+          "x_mm": 0,
+          "y_mm": -32,
+          "orientation": 2
+        },
+        {
+          "designator": "R7",
+          "name": "VCCINT_11",
+          "x_mm": 0,
+          "y_mm": -35,
+          "orientation": 2
+        },
+        {
+          "designator": "R9",
+          "name": "VCCINT_12",
+          "x_mm": 0,
+          "y_mm": -38,
+          "orientation": 2
+        },
+        {
+          "designator": "T8",
+          "name": "VCCINT_13",
+          "x_mm": 0,
+          "y_mm": -41,
+          "orientation": 2
+        },
+        {
+          "designator": "T10",
+          "name": "VCCINT_14",
+          "x_mm": 0,
+          "y_mm": -44,
+          "orientation": 2
+        },
+        {
+          "designator": "H12",
+          "name": "VCCAUX_1",
+          "x_mm": 0,
+          "y_mm": -47,
+          "orientation": 2
+        },
+        {
+          "designator": "K12",
+          "name": "VCCAUX_2",
+          "x_mm": 0,
+          "y_mm": -50,
+          "orientation": 2
+        },
+        {
+          "designator": "M12",
+          "name": "VCCAUX_3",
+          "x_mm": 0,
+          "y_mm": -53,
+          "orientation": 2
+        },
+        {
+          "designator": "P12",
+          "name": "VCCAUX_4",
+          "x_mm": 0,
+          "y_mm": -56,
+          "orientation": 2
+        },
+        {
+          "designator": "R11",
+          "name": "VCCAUX_5",
+          "x_mm": 0,
+          "y_mm": -59,
+          "orientation": 2
+        },
+        {
+          "designator": "N11",
+          "name": "VCCBRAM_3",
+          "x_mm": 0,
+          "y_mm": -62,
+          "orientation": 2
+        },
+        {
+          "designator": "L11",
+          "name": "VCCBRAM_2",
+          "x_mm": 0,
+          "y_mm": -65,
+          "orientation": 2
+        },
+        {
+          "designator": "J11",
+          "name": "VCCBRAM_1",
+          "x_mm": 0,
+          "y_mm": -68,
+          "orientation": 2
+        },
+        {
+          "designator": "F12",
+          "name": "VCCO_0_1",
+          "x_mm": 0,
+          "y_mm": -71,
+          "orientation": 2
+        },
+        {
+          "designator": "T12",
+          "name": "VCCO_0_2",
+          "x_mm": 0,
+          "y_mm": -74,
+          "orientation": 2
+        },
+        {
+          "designator": "N1",
+          "name": "VCCO_35_6",
+          "x_mm": 0,
+          "y_mm": -77,
+          "orientation": 2
+        },
+        {
+          "designator": "M4",
+          "name": "VCCO_35_5",
+          "x_mm": 0,
+          "y_mm": -80,
+          "orientation": 2
+        },
+        {
+          "designator": "J3",
+          "name": "VCCO_35_4",
+          "x_mm": 0,
+          "y_mm": -83,
+          "orientation": 2
+        },
+        {
+          "designator": "H6",
+          "name": "VCCO_35_3",
+          "x_mm": 0,
+          "y_mm": -86,
+          "orientation": 2
+        },
+        {
+          "designator": "F2",
+          "name": "VCCO_35_2",
+          "x_mm": 0,
+          "y_mm": -89,
+          "orientation": 2
+        },
+        {
+          "designator": "C1",
+          "name": "VCCO_35_1",
+          "x_mm": 0,
+          "y_mm": -92,
+          "orientation": 2
+        },
+        {
+          "designator": "AA17",
+          "name": "VCCO_13_4",
+          "x_mm": 60,
+          "y_mm": -5,
+          "orientation": 0
+        },
+        {
+          "designator": "AB14",
+          "name": "VCCO_13_5",
+          "x_mm": 60,
+          "y_mm": -8,
+          "orientation": 0
+        },
+        {
+          "designator": "V16",
+          "name": "VCCO_13_1",
+          "x_mm": 60,
+          "y_mm": -11,
+          "orientation": 0
+        },
+        {
+          "designator": "W13",
+          "name": "VCCO_13_2",
+          "x_mm": 60,
+          "y_mm": -14,
+          "orientation": 0
+        },
+        {
+          "designator": "Y10",
+          "name": "VCCO_13_3",
+          "x_mm": 60,
+          "y_mm": -17,
+          "orientation": 0
+        },
+        {
+          "designator": "M14",
+          "name": "VCCO_14_1",
+          "x_mm": 60,
+          "y_mm": -20,
+          "orientation": 0
+        },
+        {
+          "designator": "P18",
+          "name": "VCCO_14_2",
+          "x_mm": 60,
+          "y_mm": -23,
+          "orientation": 0
+        },
+        {
+          "designator": "R15",
+          "name": "VCCO_14_3",
+          "x_mm": 60,
+          "y_mm": -26,
+          "orientation": 0
+        },
+        {
+          "designator": "T22",
+          "name": "VCCO_14_4",
+          "x_mm": 60,
+          "y_mm": -29,
+          "orientation": 0
+        },
+        {
+          "designator": "U19",
+          "name": "VCCO_14_5",
+          "x_mm": 60,
+          "y_mm": -32,
+          "orientation": 0
+        },
+        {
+          "designator": "Y20",
+          "name": "VCCO_14_6",
+          "x_mm": 60,
+          "y_mm": -35,
+          "orientation": 0
+        },
+        {
+          "designator": "G19",
+          "name": "VCCO_15_1",
+          "x_mm": 60,
+          "y_mm": -38,
+          "orientation": 0
+        },
+        {
+          "designator": "H16",
+          "name": "VCCO_15_2",
+          "x_mm": 60,
+          "y_mm": -41,
+          "orientation": 0
+        },
+        {
+          "designator": "J13",
+          "name": "VCCO_15_3",
+          "x_mm": 60,
+          "y_mm": -44,
+          "orientation": 0
+        },
+        {
+          "designator": "K20",
+          "name": "VCCO_15_4",
+          "x_mm": 60,
+          "y_mm": -47,
+          "orientation": 0
+        },
+        {
+          "designator": "L17",
+          "name": "VCCO_15_5",
+          "x_mm": 60,
+          "y_mm": -50,
+          "orientation": 0
+        },
+        {
+          "designator": "N21",
+          "name": "VCCO_15_6",
+          "x_mm": 60,
+          "y_mm": -53,
+          "orientation": 0
+        },
+        {
+          "designator": "A17",
+          "name": "VCCO_16_1",
+          "x_mm": 60,
+          "y_mm": -56,
+          "orientation": 0
+        },
+        {
+          "designator": "B14",
+          "name": "VCCO_16_2",
+          "x_mm": 60,
+          "y_mm": -59,
+          "orientation": 0
+        },
+        {
+          "designator": "C21",
+          "name": "VCCO_16_3",
+          "x_mm": 60,
+          "y_mm": -62,
+          "orientation": 0
+        },
+        {
+          "designator": "D18",
+          "name": "VCCO_16_4",
+          "x_mm": 60,
+          "y_mm": -65,
+          "orientation": 0
+        },
+        {
+          "designator": "E15",
+          "name": "VCCO_16_5",
+          "x_mm": 60,
+          "y_mm": -68,
+          "orientation": 0
+        },
+        {
+          "designator": "F22",
+          "name": "VCCO_16_6",
+          "x_mm": 60,
+          "y_mm": -71,
+          "orientation": 0
+        },
+        {
+          "designator": "AA7",
+          "name": "VCCO_34_5",
+          "x_mm": 60,
+          "y_mm": -74,
+          "orientation": 0
+        },
+        {
+          "designator": "AB4",
+          "name": "VCCO_34_6",
+          "x_mm": 60,
+          "y_mm": -77,
+          "orientation": 0
+        },
+        {
+          "designator": "R5",
+          "name": "VCCO_34_1",
+          "x_mm": 60,
+          "y_mm": -80,
+          "orientation": 0
+        },
+        {
+          "designator": "T2",
+          "name": "VCCO_34_2",
+          "x_mm": 60,
+          "y_mm": -83,
+          "orientation": 0
+        },
+        {
+          "designator": "V6",
+          "name": "VCCO_34_3",
+          "x_mm": 60,
+          "y_mm": -86,
+          "orientation": 0
+        },
+        {
+          "designator": "W3",
+          "name": "VCCO_34_4",
+          "x_mm": 60,
+          "y_mm": -89,
+          "orientation": 0
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "label": "NC",
+      "body_mm": [
+        0,
+        -59,
+        60,
+        2
+      ],
+      "label_mm": [
+        30.0,
+        -1
+      ],
+      "pins": [
+        {
+          "designator": "Y13",
+          "name": "NC_18",
+          "x_mm": 0,
+          "y_mm": -5,
+          "orientation": 2
+        },
+        {
+          "designator": "Y14",
+          "name": "NC_19",
+          "x_mm": 0,
+          "y_mm": -8,
+          "orientation": 2
+        },
+        {
+          "designator": "Y16",
+          "name": "NC_20",
+          "x_mm": 0,
+          "y_mm": -11,
+          "orientation": 2
+        },
+        {
+          "designator": "Y17",
+          "name": "NC_21",
+          "x_mm": 0,
+          "y_mm": -14,
+          "orientation": 2
+        },
+        {
+          "designator": "AA9",
+          "name": "NC_22",
+          "x_mm": 0,
+          "y_mm": -17,
+          "orientation": 2
+        },
+        {
+          "designator": "AA10",
+          "name": "NC_23",
+          "x_mm": 0,
+          "y_mm": -20,
+          "orientation": 2
+        },
+        {
+          "designator": "AA11",
+          "name": "NC_24",
+          "x_mm": 0,
+          "y_mm": -23,
+          "orientation": 2
+        },
+        {
+          "designator": "AA13",
+          "name": "NC_25",
+          "x_mm": 0,
+          "y_mm": -26,
+          "orientation": 2
+        },
+        {
+          "designator": "AA14",
+          "name": "NC_26",
+          "x_mm": 0,
+          "y_mm": -29,
+          "orientation": 2
+        },
+        {
+          "designator": "AA15",
+          "name": "NC_27",
+          "x_mm": 0,
+          "y_mm": -32,
+          "orientation": 2
+        },
+        {
+          "designator": "AA16",
+          "name": "NC_28",
+          "x_mm": 0,
+          "y_mm": -35,
+          "orientation": 2
+        },
+        {
+          "designator": "AB10",
+          "name": "NC_29",
+          "x_mm": 0,
+          "y_mm": -38,
+          "orientation": 2
+        },
+        {
+          "designator": "AB11",
+          "name": "NC_30",
+          "x_mm": 0,
+          "y_mm": -41,
+          "orientation": 2
+        },
+        {
+          "designator": "AB12",
+          "name": "NC_31",
+          "x_mm": 0,
+          "y_mm": -44,
+          "orientation": 2
+        },
+        {
+          "designator": "AB13",
+          "name": "NC_32",
+          "x_mm": 0,
+          "y_mm": -47,
+          "orientation": 2
+        },
+        {
+          "designator": "AB15",
+          "name": "NC_33",
+          "x_mm": 0,
+          "y_mm": -50,
+          "orientation": 2
+        },
+        {
+          "designator": "AB16",
+          "name": "NC_34",
+          "x_mm": 0,
+          "y_mm": -53,
+          "orientation": 2
+        },
+        {
+          "designator": "AB17",
+          "name": "NC_35",
+          "x_mm": 0,
+          "y_mm": -56,
+          "orientation": 2
+        },
+        {
+          "designator": "T14",
+          "name": "NC_1",
+          "x_mm": 60,
+          "y_mm": -5,
+          "orientation": 0
+        },
+        {
+          "designator": "T15",
+          "name": "NC_2",
+          "x_mm": 60,
+          "y_mm": -8,
+          "orientation": 0
+        },
+        {
+          "designator": "T16",
+          "name": "NC_3",
+          "x_mm": 60,
+          "y_mm": -11,
+          "orientation": 0
+        },
+        {
+          "designator": "U15",
+          "name": "NC_4",
+          "x_mm": 60,
+          "y_mm": -14,
+          "orientation": 0
+        },
+        {
+          "designator": "U16",
+          "name": "NC_5",
+          "x_mm": 60,
+          "y_mm": -17,
+          "orientation": 0
+        },
+        {
+          "designator": "V10",
+          "name": "NC_6",
+          "x_mm": 60,
+          "y_mm": -20,
+          "orientation": 0
+        },
+        {
+          "designator": "V13",
+          "name": "NC_7",
+          "x_mm": 60,
+          "y_mm": -23,
+          "orientation": 0
+        },
+        {
+          "designator": "V14",
+          "name": "NC_8",
+          "x_mm": 60,
+          "y_mm": -26,
+          "orientation": 0
+        },
+        {
+          "designator": "V15",
+          "name": "NC_9",
+          "x_mm": 60,
+          "y_mm": -29,
+          "orientation": 0
+        },
+        {
+          "designator": "W10",
+          "name": "NC_10",
+          "x_mm": 60,
+          "y_mm": -32,
+          "orientation": 0
+        },
+        {
+          "designator": "W11",
+          "name": "NC_11",
+          "x_mm": 60,
+          "y_mm": -35,
+          "orientation": 0
+        },
+        {
+          "designator": "W12",
+          "name": "NC_12",
+          "x_mm": 60,
+          "y_mm": -38,
+          "orientation": 0
+        },
+        {
+          "designator": "W14",
+          "name": "NC_13",
+          "x_mm": 60,
+          "y_mm": -41,
+          "orientation": 0
+        },
+        {
+          "designator": "W15",
+          "name": "NC_14",
+          "x_mm": 60,
+          "y_mm": -44,
+          "orientation": 0
+        },
+        {
+          "designator": "W16",
+          "name": "NC_15",
+          "x_mm": 60,
+          "y_mm": -47,
+          "orientation": 0
+        },
+        {
+          "designator": "Y11",
+          "name": "NC_16",
+          "x_mm": 60,
+          "y_mm": -50,
+          "orientation": 0
+        },
+        {
+          "designator": "Y12",
+          "name": "NC_17",
+          "x_mm": 60,
+          "y_mm": -53,
+          "orientation": 0
+        }
+      ]
+    }
+  ],
+  "source_snapshot": "evidence/fpga-native-before.json"
+}
