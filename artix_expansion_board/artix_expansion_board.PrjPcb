@@ -151,13 +151,47 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Parameter1]
-Name=GlobalProjectName
-Value=Кузнецов М.Д.
+[Document7]
+DocumentPath=Lib_Prototype.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=OZNUIRUW
 
-[Parameter2]
+[Document8]
+DocumentPath=Prototype.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=JABJDGWV
+
+[Parameter1]
 Name==GlobalProjectName
 Value=МГТУ
+
+[Parameter2]
+Name=GlobalProjectName
+Value=Кузнецов М.Д.
 
 [Parameter3]
 Name=Вид_документа
