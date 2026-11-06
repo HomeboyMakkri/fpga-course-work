@@ -203,6 +203,23 @@ GenerateClassCluster=0
 DocumentUniqueId=BWPPVYSP
 
 [Document10]
+DocumentPath=libraries\93lc(eeprom)\93LC66B-I_SN\93LC66B-I_SN.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=XFGLNXPZ
+
+[Document11]
 DocumentPath=libraries\TLV3511DBVR\TLV3511DBVR.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -219,7 +236,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AERVGDEW
 
-[Document11]
+[Document12]
 DocumentPath=libraries\25MHz\new\HKC3225SX-25MHZ-26594-R4V1.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -236,7 +253,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BYOSRPKB
 
-[Document12]
+[Document13]
 DocumentPath=libraries\X7\new\XC7A50T-2FGG484I.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -253,7 +270,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AVPBXBWZ
 
-[Document13]
+[Document14]
 DocumentPath=libraries\ASV-50.000MHZ-LRS-T\new\ASV-50.000MHZ-LRS-T.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -270,7 +287,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BREMPTDY
 
-[Document14]
+[Document15]
 DocumentPath=libraries\FB BLM18SG121TN1D\FB.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -287,7 +304,24 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HBXNHHJN
 
-[Document15]
+[Document16]
+DocumentPath=libraries\FT(uart)\FT2232HL-REEL\FT2232HL-REEL.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=COKDVNKN
+
+[Document17]
 DocumentPath=libraries\FB BLM18SG121TN1D\FB.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -304,7 +338,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CSYHZWJC
 
-[Document16]
+[Document18]
 DocumentPath=libraries\W25Q128JV\new\W25Q128JVSIQ.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -321,7 +355,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QMQCPKRU
 
-[Document17]
+[Document19]
 DocumentPath=libraries\W25Q128JV\new\W25Q128JVSIQ.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -338,7 +372,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PCBEOVMI
 
-[Document18]
+[Document20]
 DocumentPath=libraries\TPS563210A\TPS563210A.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -355,7 +389,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JRXAFQVT
 
-[Document19]
+[Document21]
 DocumentPath=libraries\TPS563210A\TPS563210A.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -372,7 +406,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HYIMLLGN
 
-[Document20]
+[Document22]
 DocumentPath=libraries\HR911130A\new\HR911130A.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -389,7 +423,24 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XQZXZRDE
 
-[Document21]
+[Document23]
+DocumentPath=libraries\type-c\type-c\2345986-1.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=FLGXIHII
+
+[Document24]
 DocumentPath=libraries\HR911130A\new\HR911130A.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -406,7 +457,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document22]
+[Document25]
 DocumentPath=libraries\LDO SPX3819M5-L-3-3\new\SPX3819M5-L-3-3.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -423,7 +474,58 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WZBPJYWF
 
-[Document23]
+[Document26]
+DocumentPath=libraries\93lc(eeprom)\93LC66B-I_SN\SOIC127P600X175-8N.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=FJOMIYNJ
+
+[Document27]
+DocumentPath=libraries\FT(uart)\FT2232HL-REEL\QFP50P1200X1200X160-64N.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=QQEKVCNW
+
+[Document28]
+DocumentPath=libraries\type-c\type-c\TE_2345986-1.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=UWWXIMDS
+
+[Document29]
 DocumentPath=libraries\LDO SPX3819M5-L-3-3\new\SPX3819M5-L-3-3.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -440,7 +542,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document24]
+[Document30]
 DocumentPath=libraries\RTL8211E-VB-CG\new\RTL8211E-VB-CG.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -457,7 +559,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WZRTDEKM
 
-[Document25]
+[Document31]
 DocumentPath=libraries\RTL8211E-VB-CG\new\RTL8211E-VB-CG.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -474,7 +576,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document26]
+[Document32]
 DocumentPath=libraries\50 MHz\ASV2550000MHZEJT.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -491,7 +593,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=APSHEDHO
 
-[Document27]
+[Document33]
 DocumentPath=libraries\Sma\SMA.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -508,7 +610,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document28]
+[Document34]
 DocumentPath=libraries\Sma\SMA.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -525,7 +627,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NKPRIPSQ
 
-[Document29]
+[Document35]
 DocumentPath=libraries\UCC27524D\UCC27524D.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -542,7 +644,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document30]
+[Document36]
 DocumentPath=libraries\UCC27524D\UCC27524D.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -558,6 +660,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BGAJEAIN
+
+[Document37]
+DocumentPath=artix.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=BFVVWEGK
 
 [Configuration1]
 Name=Sources
@@ -902,37 +1021,32 @@ OutputDocumentPath4=
 OutputVariantName4=[No Variations]
 OutputDefault4=0
 PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType5=GOSTBOM
-OutputName5=GOST BOM
+OutputType5=Project History
+OutputName5=Project History
 OutputDocumentPath5=
 OutputVariantName5=[No Variations]
 OutputDefault5=0
-OutputType6=Project History
-OutputName6=Project History
+PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType6=ReportHierarchy
+OutputName6=Report Project Hierarchy
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
-PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType7=ReportHierarchy
-OutputName7=Report Project Hierarchy
+OutputType7=Script
+OutputName7=Script Output
 OutputDocumentPath7=
 OutputVariantName7=[No Variations]
 OutputDefault7=0
-OutputType8=Script
-OutputName8=Script Output
+OutputType8=SimpleBOM
+OutputName8=Simple BOM
 OutputDocumentPath8=
 OutputVariantName8=[No Variations]
 OutputDefault8=0
-OutputType9=SimpleBOM
-OutputName9=Simple BOM
+OutputType9=SinglePinNetReporter
+OutputName9=Report Single Pin Nets
 OutputDocumentPath9=
 OutputVariantName9=[No Variations]
 OutputDefault9=0
-OutputType10=SinglePinNetReporter
-OutputName10=Report Single Pin Nets
-OutputDocumentPath10=
-OutputVariantName10=[No Variations]
-OutputDefault10=0
 
 [OutputGroup7]
 Name=Other Outputs
