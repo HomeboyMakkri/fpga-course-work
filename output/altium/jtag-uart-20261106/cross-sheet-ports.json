@@ -1,0 +1,18 @@
+{
+  "success": true,
+  "job_dir": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\tools\\altium\\runtime\\jobs\\db161c4e4c914123920342ac4b5b414d",
+  "steps": [
+    "START",
+    "checkpoint state 02_FPGA_IO_Config.SchDoc",
+    "save 02_FPGA_IO_Config.SchDoc",
+    "checkpoint state 03_FPGA_IO_Clock.SchDoc",
+    "connect UART only to verified U1B R16 and P15",
+    "save 03_FPGA_IO_Clock.SchDoc",
+    "FINISHED"
+  ],
+  "elapsed_seconds": 5.13,
+  "result": {
+    "ports_added": 6,
+    "uart_component_instances": 1
+  }
+}

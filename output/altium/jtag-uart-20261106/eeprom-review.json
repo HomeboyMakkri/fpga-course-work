@@ -1,0 +1,511 @@
+{
+  "review_date": "2026-11-06",
+  "scope": "Read-only independent evidence review. No live Altium calls, CAD writes or compiler invocation.",
+  "source_schematic": {
+    "path": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\datasheets\\Schematic_Smart_Artix_251120.pdf",
+    "sha256": "a198469eabd1abe7a504667ca2bf17a7595e5017d6f4830a380dd04bf8923230",
+    "eeprom_page": 7,
+    "uart_fpga_page": 2,
+    "pdf_component_text": "U3 93LC66B /93LC56B",
+    "observation": "The source already offers 93LC66B and 93LC56B, rather than naming 93LC56B exclusively.",
+    "visual_evidence": [
+      "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\output\\altium\\jtag-uart-20261106\\eeprom-sources\\Smart-Artix-page7-eeprom.png",
+      "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\output\\altium\\jtag-uart-20261106\\eeprom-sources\\Smart-Artix-page2-uart-pins.png"
+    ]
+  },
+  "manufacturer_sources": [
+    {
+      "manufacturer": "Microchip Technology",
+      "family": "93LC56B",
+      "url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MPD/ProductDocuments/DataSheets/93AA56X-93LC56X-93C56X-2-Kbit-Microwire-Compatible-Serial-EEPROM-Data-Sheet.pdf",
+      "datasheet": "DS20001794J, 2023",
+      "path": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\output\\altium\\jtag-uart-20261106\\eeprom-sources\\Microchip-93XX56-DS20001794J.pdf",
+      "sha256": "7df346598452af5a980abaf9c2931d871e29439595bac427a442fe55f61711a1",
+      "relevant_pages": [
+        1,
+        2,
+        5
+      ],
+      "facts": "2 Kbit, 128 x16, 2.5-5.5V. Fixed x16 B variant; pin6 has no internal connection. Standard 8-pin SOIC mapping in the pin table. Instruction address field X,A6..A0."
+    },
+    {
+      "manufacturer": "Microchip Technology",
+      "family": "93LC66B-I/SN",
+      "url": "https://ww1.microchip.com/downloads/aemDocuments/documents/MPD/ProductDocuments/DataSheets/93AA66X-93LC66X-93C66X-4-Kbit-Microwire-Compatible-Serial-EEPROM-Data-Sheet.pdf",
+      "datasheet": "DS20001795F, 2022",
+      "path": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\output\\altium\\jtag-uart-20261106\\eeprom-sources\\Microchip-93XX66-DS20001795F.pdf",
+      "sha256": "04494d6624e9f111b4440c8f753b2c763141e33ef14a3ffcb7506dba42359fde",
+      "relevant_pages": [
+        1,
+        2,
+        5,
+        7
+      ],
+      "facts": "4 Kbit, 256 x16, 2.5-5.5V. Fixed x16 B variant; pin6 has no internal connection. Standard SN SOIC uses the same eight-pin map. Instruction address field A7..A0."
+    },
+    {
+      "manufacturer": "FTDI",
+      "url": "https://ftdichip.com/faq/what-external-eeprom-is-recommended-for-use-with-the-ftdi-usb-hi-speed-ics/",
+      "facts": "FT2232H/FT4232H support 93C46,93C56,93C66 serial EEPROM families configured for 16-bit words and 3.3V I/O.",
+      "access_note": "Official search index result returned full FAQ answer; direct web open returned HTTP403."
+    },
+    {
+      "manufacturer": "FTDI",
+      "url": "https://ftdichip.com/wp-content/uploads/2021/12/AN_558-Migrating-from-FT2232D-to-FT2232H.pdf",
+      "facts": "AN558 section7 specifies x16 EEPROM at 3.0-3.6V and recommends 93LC46/56/66."
+    },
+    {
+      "manufacturer": "Altium",
+      "url": "https://www.altium.com/documentation/altium-designer/accessing-defining-managing-project-options",
+      "facts": "Automatic scope selects Flat when ports exist and sheet entries do not. Only ports are global in Flat; same-name labels on different sheets do not create the intersheet connection."
+    }
+  ],
+  "physical_pin_map_both_standard_8pin_parts": [
+    {
+      "pin": "1",
+      "manufacturer_name": "CS",
+      "source_pdf_net": "EECS",
+      "connection": "FTDI pin63; R225 10k pull-up to VCC3V3"
+    },
+    {
+      "pin": "2",
+      "manufacturer_name": "CLK",
+      "source_pdf_net": "EECLK",
+      "connection": "FTDI pin62; R226 10k pull-up to VCC3V3"
+    },
+    {
+      "pin": "3",
+      "manufacturer_name": "DI",
+      "source_pdf_net": "EEDATA",
+      "connection": "FTDI pin61; one side of R228 2k"
+    },
+    {
+      "pin": "4",
+      "manufacturer_name": "DO",
+      "source_pdf_net": null,
+      "suggested_descriptive_net": "EEPROM_DO",
+      "connection": "other side of R228 2k to EEDATA; R227 10k pull-up to VCC3V3"
+    },
+    {
+      "pin": "5",
+      "manufacturer_name": "VSS",
+      "source_pdf_net": "GND"
+    },
+    {
+      "pin": "6",
+      "manufacturer_name": "NC",
+      "source_pdf_name": "NC/ORG",
+      "source_pdf_net": "VCC3V3",
+      "connection": "physical source connection is 3.3V; B version is internally unconnected, C version uses ORG"
+    },
+    {
+      "pin": "7",
+      "manufacturer_name": "NC",
+      "source_pdf_name": "NO",
+      "source_pdf_net": null,
+      "connection": "explicit red no-connect cross"
+    },
+    {
+      "pin": "8",
+      "manufacturer_name": "VCC",
+      "source_pdf_net": "VCC3V3",
+      "connection": "C308 0.1uF to GND"
+    }
+  ],
+  "compatibility": {
+    "hardware_assessment": "93LC66B-I/SN is a valid documented source-option family for this 3.3V FT2232H EEPROM interface, with matching standard eight-pin B-version pinout.",
+    "limitations": [
+      "93LC56B and 93LC66B differ in capacity and meaningful address bits. This review does not validate EEPROM contents, FT_PROG configuration, USB descriptors, device detection or programming on real hardware.",
+      "The exact source suffix/package is absent. Retain the known existing 93LC66B-I/SN SOIC model; do not assume a SOT23 six-pin or rotated-X SOIC package has this map.",
+      "Pin6 tied high reproduces the source. It does not select x16 on B variants; pin6 is NC. Do not relabel a B-version physical pin as functional ORG.",
+      "Pin4 must remain separated from pin3 by R228 2k. A direct short would omit the source resistor.",
+      "FT2232HL has channel A JTAG plus one UART on channel B; the source FT4232 optional UART1 and UART3 wiring is not extra FT2232 UART functionality."
+    ]
+  },
+  "existing_library": {
+    "path": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\libraries\\93lc(eeprom)\\93LC66B-I_SN\\93LC66B-I_SN.SchLib",
+    "sha256": "35620eb394b20aa178fd0d0a7b05614c8f47e3bde79cd7222af2582793b537f5",
+    "component": "93LC66B-I/SN",
+    "footprint": {
+      "path": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\libraries\\93lc(eeprom)\\93LC66B-I_SN\\SOIC127P600X175-8N.PcbLib",
+      "sha256": "c910551fb3ac8c1772d94f92dcd420d15f3e25196f43ce210d54199f50c9c5dc"
+    },
+    "prior_native_evidence": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\tools\\altium\\runtime\\93lc66b-gost\\bundle\\readback.response.json",
+    "prior_native_pins": [
+      {
+        "pin": "2",
+        "name": "CLK",
+        "electrical_code": 0
+      },
+      {
+        "pin": "1",
+        "name": "CS",
+        "electrical_code": 0
+      },
+      {
+        "pin": "3",
+        "name": "DI",
+        "electrical_code": 0
+      },
+      {
+        "pin": "6",
+        "name": "NC",
+        "electrical_code": 1
+      },
+      {
+        "pin": "7",
+        "name": "NC",
+        "electrical_code": 1
+      },
+      {
+        "pin": "8",
+        "name": "VCC",
+        "electrical_code": 7
+      },
+      {
+        "pin": "4",
+        "name": "DO",
+        "electrical_code": 2
+      },
+      {
+        "pin": "5",
+        "name": "VSS",
+        "electrical_code": 7
+      }
+    ],
+    "prior_native_models": [
+      {
+        "name": "SOIC127P600X175-8N",
+        "type": "PCBLIB",
+        "map": "(2:2),(1:1),(3:3),(6:6),(7:7),(8:8),(4:4),(5:5)",
+        "links": [
+          {
+            "location": "",
+            "entity": "SOIC127P600X175-8N"
+          }
+        ]
+      }
+    ],
+    "current_saved_model_records": {
+      "93LC66B-I_SN/Data:implementation_records": [
+        "{\"DatafileCount\": \"1\", \"IsCurrent\": \"T\", \"ModelDatafileEntity0\": \"SOIC127P600X175-8N\", \"ModelDatafileKind0\": \"PCBLib\", \"ModelName\": \"SOIC127P600X175-8N\", \"ModelType\": \"PCBLIB\", \"RECORD\": \"45\"}",
+        "{\"RECORD\": \"44\"}",
+        "{\"RECORD\": \"46\"}",
+        "{\"RECORD\": \"48\"}"
+      ]
+    },
+    "old_verification_sha256": "6ae5632d1e6651e55e522ba785e0e8495bd73d0b64dc97c7666440bc0636459c",
+    "old_report_hash_matches_current_file": false,
+    "verification_limit": "Prior native report verifies an older hash. Current saved model records confirm model identity, but fresh native save/reopen and project resolution remain separate."
+  },
+  "discrepancies": [
+    {
+      "id": "EEPROM-PIN6",
+      "source": "PDF generic NC/ORG pin6 wired to 3.3V",
+      "manufacturer": "B variant NC; C variant ORG",
+      "action": "Preserve source wire and B pin identity; document generic source label."
+    },
+    {
+      "id": "EEPROM-PIN7",
+      "source": "PDF says NO with no-connect cross",
+      "manufacturer": "NC",
+      "action": "Keep physical pin7 unconnected."
+    },
+    {
+      "id": "EEPROM-NC-ELECTRICAL",
+      "source": "Prior native library pins6/7 have electrical code1 despite their NC names",
+      "action": "Preserve original code unless an explicit source-defect correction is chosen; manufacturer NC identity takes precedence over a functional ORG interpretation."
+    },
+    {
+      "id": "SOURCE-OPTION",
+      "source": "PDF U3 text includes 93LC66B and 93LC56B",
+      "action": "Describe 93LC66B as the local implementation of a listed option, with capacity difference recorded."
+    }
+  ],
+  "cross_sheet": {
+    "project": {
+      "path": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\ARTIX.PrjPcb",
+      "sha256": "963738a2c2d04edc1be89bdd7e064407c8e50626b2b83e2e8f7774efa799581e"
+    },
+    "hierarchy_mode_saved": "0",
+    "scope_inference": "Automatic -> Flat, based on existing ports and no saved sheet entries/sheet symbols. Must be confirmed by compiler.",
+    "sheets": [
+      {
+        "path": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\01_Power.SchDoc",
+        "sha256": "8cdc6d255162340d43e13a7ae16ba9affef110f9086d0d3aa1a1358d96a9a756",
+        "component_count_including_parts": 112,
+        "ftdi_usb_eeprom_components": [],
+        "netlabels": [
+          "PG_1V0",
+          "PG_1V5",
+          "PG_1V8",
+          "PG_3V3"
+        ],
+        "ports": [],
+        "power_ports": [
+          "1V0",
+          "1V5",
+          "1V8",
+          "3V3",
+          "5V",
+          "GND",
+          "VCCIO_ADJ"
+        ],
+        "sheet_symbols": 0,
+        "sheet_entries": 0
+      },
+      {
+        "path": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\02_FPGA_IO_Config.SchDoc",
+        "sha256": "7c6a49edf011757e87eccda8dce9823b5d01ee874aa2cd4f02db8eec7579b49c",
+        "component_count_including_parts": 22,
+        "ftdi_usb_eeprom_components": [],
+        "netlabels": [
+          "FPGA_TCK",
+          "FPGA_TDI",
+          "FPGA_TDO",
+          "FPGA_TMS",
+          "QSPI_CLK"
+        ],
+        "ports": [
+          "LED1",
+          "LED2",
+          "QSPI_CS",
+          "QSPI_DQ0",
+          "QSPI_DQ1",
+          "QSPI_DQ2",
+          "QSPI_DQ3"
+        ],
+        "power_ports": [
+          "1V8",
+          "3V3",
+          "GND"
+        ],
+        "sheet_symbols": 0,
+        "sheet_entries": 0
+      },
+      {
+        "path": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\03_FPGA_IO_Clock.SchDoc",
+        "sha256": "ac2bf232b645a2d78cc1fb5544b49b82a71010f186b36287ac7f813cb61e54f4",
+        "component_count_including_parts": 9,
+        "ftdi_usb_eeprom_components": [],
+        "netlabels": [
+          "CLK_50MHz",
+          "PUDC"
+        ],
+        "ports": [
+          "ETH_INT",
+          "ETH_MDC",
+          "ETH_MDIO",
+          "ETH_RST",
+          "ETH_RXC",
+          "ETH_RXCTL",
+          "ETH_RXD0",
+          "ETH_RXD1",
+          "ETH_RXD2",
+          "ETH_RXD3",
+          "ETH_TXC",
+          "ETH_TXCTL",
+          "ETH_TXD0",
+          "ETH_TXD1",
+          "ETH_TXD2",
+          "ETH_TXD3",
+          "INPUT_PPS1",
+          "INPUT_PPS2",
+          "LED1",
+          "LED2",
+          "OUTPUT_PPS1",
+          "OUTPUT_PPS2",
+          "OUTPUT_PPS3",
+          "QSPI_CS",
+          "QSPI_DQ0",
+          "QSPI_DQ1",
+          "QSPI_DQ2",
+          "QSPI_DQ3"
+        ],
+        "power_ports": [
+          "3V3",
+          "GND"
+        ],
+        "sheet_symbols": 0,
+        "sheet_entries": 0
+      },
+      {
+        "path": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\04_Reference_Inputs.SchDoc",
+        "sha256": "ed5af38c3c209bfa2940d39a2686851efa1adf429da5ad8040bf169a7e747c87",
+        "component_count_including_parts": 23,
+        "ftdi_usb_eeprom_components": [],
+        "netlabels": [],
+        "ports": [
+          "INPUT_PPS1",
+          "INPUT_PPS2"
+        ],
+        "power_ports": [
+          "+3v3",
+          "10MHz Pulse",
+          "GND",
+          "RF_IN",
+          "RF_IN_TERM",
+          "VREF"
+        ],
+        "sheet_symbols": 0,
+        "sheet_entries": 0
+      },
+      {
+        "path": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\05_PPS_Outputs.SchDoc",
+        "sha256": "521773fd55d7d862647fc835a68587c457650b102ac384eba88c6edb62ff98c5",
+        "component_count_including_parts": 12,
+        "ftdi_usb_eeprom_components": [],
+        "netlabels": [],
+        "ports": [
+          "OUTPUT_PPS1",
+          "OUTPUT_PPS2",
+          "OUTPUT_PPS3"
+        ],
+        "power_ports": [
+          "5V",
+          "GND"
+        ],
+        "sheet_symbols": 0,
+        "sheet_entries": 0
+      },
+      {
+        "path": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\06_Ethernet.SchDoc",
+        "sha256": "6307a6b0b2b002a665d4aa7883d14647168878299dd6ef7921ca1a741a4afcf0",
+        "component_count_including_parts": 43,
+        "ftdi_usb_eeprom_components": [],
+        "netlabels": [
+          "A-TX0N",
+          "A-TX0P",
+          "A-TX1N",
+          "A-TX1P",
+          "A-TX2N",
+          "A-TX2P",
+          "A-TX3N",
+          "A-TX3P",
+          "CKXTAL1",
+          "CKXTAL2",
+          "ETH_LED0",
+          "ETH_LED1",
+          "ETH_LED2"
+        ],
+        "ports": [
+          "ETH_INT",
+          "ETH_MDC",
+          "ETH_MDIO",
+          "ETH_RST",
+          "ETH_RXC",
+          "ETH_RXCTL",
+          "ETH_RXD0",
+          "ETH_RXD1",
+          "ETH_RXD2",
+          "ETH_RXD3",
+          "ETH_TXC",
+          "ETH_TXCTL",
+          "ETH_TXD0",
+          "ETH_TXD1",
+          "ETH_TXD2",
+          "ETH_TXD3"
+        ],
+        "power_ports": [
+          "AVDD10",
+          "AVDD33",
+          "DVDD10",
+          "DVDD33",
+          "GND",
+          "VCC1V0",
+          "VCC3V3"
+        ],
+        "sheet_symbols": 0,
+        "sheet_entries": 0
+      }
+    ],
+    "no_duplicate_block_observed": true,
+    "libraries_already_in_project": [
+      "libraries\\93lc(eeprom)\\93LC66B-I_SN\\93LC66B-I_SN.SchLib",
+      "libraries\\FT(uart)\\FT2232HL-REEL\\FT2232HL-REEL.SchLib",
+      "libraries\\type-c\\type-c\\2345986-1.SchLib",
+      "libraries\\93lc(eeprom)\\93LC66B-I_SN\\SOIC127P600X175-8N.PcbLib",
+      "libraries\\FT(uart)\\FT2232HL-REEL\\QFP50P1200X1200X160-64N.PcbLib",
+      "libraries\\type-c\\type-c\\TE_2345986-1.PcbLib"
+    ],
+    "jtag_connections": [
+      {
+        "fpga_ball": "V12",
+        "fpga_pin": "TCK_0",
+        "net": "FPGA_TCK",
+        "ftdi_pin": "16"
+      },
+      {
+        "fpga_ball": "R13",
+        "fpga_pin": "TDI_0",
+        "net": "FPGA_TDI",
+        "ftdi_pin": "17"
+      },
+      {
+        "fpga_ball": "U13",
+        "fpga_pin": "TDO_0",
+        "net": "FPGA_TDO",
+        "ftdi_pin": "18"
+      },
+      {
+        "fpga_ball": "T13",
+        "fpga_pin": "TMS_0",
+        "net": "FPGA_TMS",
+        "ftdi_pin": "19"
+      }
+    ],
+    "existing_jtag_location": "02_FPGA_IO_Config.SchDoc U1 part1. Exact FPGA_T* netlabels already present; matching JTAG ports absent.",
+    "required_intersheet_action": "Use the exact existing FPGA_T* names on connected ports at both sheets. Do not change entire project scope to Global as a shortcut. Compiler must prove both pin endpoints share actual nets.",
+    "source_uart_connections": [
+      {
+        "net": "FT_UART2_TX",
+        "direction": "FTDI to FPGA",
+        "ftdi_pin": "38",
+        "fpga_ball": "R16",
+        "fpga_pin": "IO_L22N_T3_A04_D20_14",
+        "source_fpga_alias": "FPGA_UART2_RX"
+      },
+      {
+        "net": "FT_UART2_RX",
+        "direction": "FPGA to FTDI",
+        "ftdi_pin": "39",
+        "fpga_ball": "P15",
+        "fpga_pin": "IO_L22P_T3_A05_D21_14",
+        "source_fpga_alias": "FPGA_UART2_TX"
+      }
+    ],
+    "existing_uart_location": "03_FPGA_IO_Clock.SchDoc U1 part2. No UART ports/labels on saved sheets. P15 and R16 had no saved wire/port/netlabel/NoERC record at their rows in read-only inspection.",
+    "rails": "Main power sheets use 3V3,1V8,5V,GND; source PDF uses VCC3V3,5V_DC. Preserve existing rail identity through explicit target mapping. Ethernet separately contains VCC3V3/VCC1V0; this review does not merge those rails.",
+    "protect_existing_intersheet_ports": [
+      "QSPI_CS",
+      "QSPI_DQ0",
+      "QSPI_DQ1",
+      "QSPI_DQ2",
+      "QSPI_DQ3",
+      "LED1",
+      "LED2",
+      "ETH_INT",
+      "ETH_RST",
+      "ETH_MDC",
+      "ETH_MDIO",
+      "ETH_TXCTL",
+      "ETH_TXD0",
+      "ETH_TXD1",
+      "ETH_TXD2",
+      "ETH_TXD3",
+      "ETH_TXC",
+      "ETH_RXCTL",
+      "ETH_RXD0",
+      "ETH_RXD1",
+      "ETH_RXD2",
+      "ETH_RXD3",
+      "ETH_RXC",
+      "INPUT_PPS1",
+      "INPUT_PPS2",
+      "OUTPUT_PPS1",
+      "OUTPUT_PPS2",
+      "OUTPUT_PPS3"
+    ],
+    "verification_status": "Saved-file observations only. No cross-sheet/compiler connectivity or ERC pass claimed."
+  }
+}

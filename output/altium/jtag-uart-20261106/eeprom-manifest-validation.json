@@ -1,0 +1,282 @@
+{
+  "read_only": true,
+  "manifest_sha256": "613838d7cbb15092f96fd8115d21d563a08a6f0c235edfdd17683feb2d5663f3",
+  "csv_sha256": "9d0fa4458196b05a354884e4ccac78e9742536c35612ba0145c5c75a2398653e",
+  "eeprom_checks": [
+    {
+      "ref": "U3",
+      "pin": "1",
+      "expected": "EECS",
+      "manifest": "EECS",
+      "csv": "EECS",
+      "passed": true
+    },
+    {
+      "ref": "U3",
+      "pin": "2",
+      "expected": "EECLK",
+      "manifest": "EECLK",
+      "csv": "EECLK",
+      "passed": true
+    },
+    {
+      "ref": "U3",
+      "pin": "3",
+      "expected": "EEDATA",
+      "manifest": "EEDATA",
+      "csv": "EEDATA",
+      "passed": true
+    },
+    {
+      "ref": "U3",
+      "pin": "4",
+      "expected": "EEPROM_DO",
+      "manifest": "EEPROM_DO",
+      "csv": "EEPROM_DO",
+      "passed": true
+    },
+    {
+      "ref": "U3",
+      "pin": "5",
+      "expected": "GND",
+      "manifest": "GND",
+      "csv": "GND",
+      "passed": true
+    },
+    {
+      "ref": "U3",
+      "pin": "6",
+      "expected": "3V3",
+      "manifest": "3V3",
+      "csv": "3V3",
+      "passed": true
+    },
+    {
+      "ref": "U3",
+      "pin": "7",
+      "expected": null,
+      "manifest": null,
+      "csv": "NC",
+      "passed": true
+    },
+    {
+      "ref": "U3",
+      "pin": "8",
+      "expected": "3V3",
+      "manifest": "3V3",
+      "csv": "3V3",
+      "passed": true
+    },
+    {
+      "ref": "R225",
+      "pin": "1",
+      "expected": "EECS",
+      "manifest": "EECS",
+      "csv": "EECS",
+      "passed": true
+    },
+    {
+      "ref": "R225",
+      "pin": "2",
+      "expected": "3V3",
+      "manifest": "3V3",
+      "csv": "3V3",
+      "passed": true
+    },
+    {
+      "ref": "R226",
+      "pin": "1",
+      "expected": "EECLK",
+      "manifest": "EECLK",
+      "csv": "EECLK",
+      "passed": true
+    },
+    {
+      "ref": "R226",
+      "pin": "2",
+      "expected": "3V3",
+      "manifest": "3V3",
+      "csv": "3V3",
+      "passed": true
+    },
+    {
+      "ref": "R227",
+      "pin": "1",
+      "expected": "EEPROM_DO",
+      "manifest": "EEPROM_DO",
+      "csv": "EEPROM_DO",
+      "passed": true
+    },
+    {
+      "ref": "R227",
+      "pin": "2",
+      "expected": "3V3",
+      "manifest": "3V3",
+      "csv": "3V3",
+      "passed": true
+    },
+    {
+      "ref": "R228",
+      "pin": "1",
+      "expected": "EEPROM_DO",
+      "manifest": "EEPROM_DO",
+      "csv": "EEPROM_DO",
+      "passed": true
+    },
+    {
+      "ref": "R228",
+      "pin": "2",
+      "expected": "EEDATA",
+      "manifest": "EEDATA",
+      "csv": "EEDATA",
+      "passed": true
+    },
+    {
+      "ref": "C308",
+      "pin": "1",
+      "expected": "GND",
+      "manifest": "GND",
+      "csv": "GND",
+      "passed": true
+    },
+    {
+      "ref": "C308",
+      "pin": "2",
+      "expected": "3V3",
+      "manifest": "3V3",
+      "csv": "3V3",
+      "passed": true
+    }
+  ],
+  "eeprom_pass": true,
+  "manifest_csv_mismatches": [],
+  "manifest_pin_count": 176,
+  "scope_limit": "EEPROM pins and EEPROM support components reviewed against source. Other components checked only for CSV consistency.",
+  "uart_geometry": {
+    "sheet": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\03_FPGA_IO_Clock.SchDoc",
+    "sheet_sha256": "ac2bf232b645a2d78cc1fb5544b49b82a71010f186b36287ac7f813cb61e54f4",
+    "owner_index": 372,
+    "component": {
+      "RECORD": "1",
+      "LibReference": "XC7A50T-2FGG484I",
+      "ComponentDescription": "FPGA - Field Programmable Gate Array XC7A50T-2FGG484I",
+      "PartCount": "11",
+      "DisplayModeCount": "1",
+      "IndexInSheet": "82",
+      "OwnerPartId": "-1",
+      "Location.X": "98",
+      "Location.X_Frac": "42520",
+      "Location.Y": "1013",
+      "Location.Y_Frac": "77956",
+      "CurrentPartId": "2",
+      "LibraryPath": "*",
+      "SourceLibraryName": "XC7A50T-2FGG484I.SchLib",
+      "TargetFileName": "*",
+      "UniqueID": "NWFJENQU",
+      "AreaColor": "11599871",
+      "Color": "128",
+      "PartIDLocked": "T",
+      "DesignItemId": "XC7A50T-2FGG484I",
+      "AllPinCount": "484"
+    },
+    "native_coordinate_scale": "saved integer*100000 + saved _Frac; saved units are10mil. Native Coord to mm factor0.00000254.",
+    "pins": [
+      {
+        "ball": "P15",
+        "name": "IO_L22P_T3_A05_D21_14",
+        "pin_unique_id": "XAYMWMMT",
+        "record": {
+          "RECORD": "2",
+          "OwnerIndex": "372",
+          "OwnerPartId": "2",
+          "FormalType": "1",
+          "Electrical": "4",
+          "PinConglomerate": "56",
+          "PinLength": "19",
+          "PinLength_Frac": "68504",
+          "Location.X": "285",
+          "Location.X_Frac": "43308",
+          "Location.Y": "561",
+          "Location.Y_Frac": "2364",
+          "Name": "IO_L22P_T3_A05_D21_14",
+          "Designator": "P15",
+          "SwapIdPin": "0",
+          "SwapIDPart": "0",
+          "PinName_PositionConglomerate": "16",
+          "Name_CustomFontID": "3",
+          "PinDesignator_PositionConglomerate": "16",
+          "Designator_CustomFontID": "3",
+          "PinPropagationDelay": "0.000000E+000",
+          "UniqueID": "XAYMWMMT"
+        },
+        "electrical_endpoint_native": {
+          "x": 30511812,
+          "y": 56102364
+        },
+        "electrical_endpoint_mm": {
+          "x": 77.50000247999999,
+          "y": 142.50000455999998
+        },
+        "port_native": {
+          "x": 32480316,
+          "y": 56102364
+        },
+        "port_mm": {
+          "x": 82.50000263999999,
+          "y": 142.50000455999998
+        },
+        "net": "FT_UART2_RX"
+      },
+      {
+        "ball": "R16",
+        "name": "IO_L22N_T3_A04_D20_14",
+        "pin_unique_id": "TYHHRIKP",
+        "record": {
+          "RECORD": "2",
+          "OwnerIndex": "372",
+          "OwnerPartId": "2",
+          "FormalType": "1",
+          "Electrical": "4",
+          "PinConglomerate": "56",
+          "PinLength": "19",
+          "PinLength_Frac": "68504",
+          "Location.X": "285",
+          "Location.X_Frac": "43308",
+          "Location.Y": "551",
+          "Location.Y_Frac": "18112",
+          "Name": "IO_L22N_T3_A04_D20_14",
+          "Designator": "R16",
+          "SwapIdPin": "0",
+          "SwapIDPart": "0",
+          "PinName_PositionConglomerate": "16",
+          "Name_CustomFontID": "3",
+          "PinDesignator_PositionConglomerate": "16",
+          "Designator_CustomFontID": "3",
+          "PinPropagationDelay": "0.000000E+000",
+          "UniqueID": "TYHHRIKP"
+        },
+        "electrical_endpoint_native": {
+          "x": 30511812,
+          "y": 55118112
+        },
+        "electrical_endpoint_mm": {
+          "x": 77.50000247999999,
+          "y": 140.00000448
+        },
+        "port_native": {
+          "x": 32480316,
+          "y": 55118112
+        },
+        "port_mm": {
+          "x": 82.50000263999999,
+          "y": 140.00000448
+        },
+        "net": "FT_UART2_TX"
+      }
+    ],
+    "free_region": "Short5mm wires from x77.5mm to ports atx82.5mm on y140 and142.5mm. No saved external wire/port/no-connect/NoERC records on these UART rows. LED2 port at y135mm, LED1 y132.5mm. Next FPGA part3 body starts x125mm.",
+    "width_suggestion_mm": 22.5,
+    "height_suggestion_mm": 2,
+    "native_compile_status": "not invoked; endpoints derived from saved orientation0 pins and checked against neighboring existing port-wire convention"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "job_dir": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\tools\\altium\\runtime\\jobs\\55af466f10624c33891bb2e177b5c2bf",
+  "steps": [
+    "START",
+    "copy native graphics J901",
+    "copy native graphics U901",
+    "copy native graphics D901",
+    "FINISHED"
+  ],
+  "elapsed_seconds": 2.72,
+  "result": {
+    "saved": true
+  }
+}

@@ -1,0 +1,1356 @@
+{
+  "net_source": "physical",
+  "pins_expected": 176,
+  "connected_expected": 137,
+  "pin_checks": [
+    {
+      "ref": "U14",
+      "pin": "A1",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "U14",
+      "pin": "A2",
+      "expected": null,
+      "actual": "NetU14_A2",
+      "pass": false
+    },
+    {
+      "ref": "U14",
+      "pin": "A3",
+      "expected": null,
+      "actual": "NetU14_A3",
+      "pass": false
+    },
+    {
+      "ref": "U14",
+      "pin": "A4",
+      "expected": "USB_POWER",
+      "actual": "USB_POWER",
+      "pass": true
+    },
+    {
+      "ref": "U14",
+      "pin": "A5",
+      "expected": "USB_CC1",
+      "actual": "USB_CC1",
+      "pass": true
+    },
+    {
+      "ref": "U14",
+      "pin": "A6",
+      "expected": "USB_DP",
+      "actual": "USB_DP",
+      "pass": true
+    },
+    {
+      "ref": "U14",
+      "pin": "A7",
+      "expected": "USB_DN",
+      "actual": "USB_DN",
+      "pass": true
+    },
+    {
+      "ref": "U14",
+      "pin": "A8",
+      "expected": null,
+      "actual": "NetU14_A8",
+      "pass": false
+    },
+    {
+      "ref": "U14",
+      "pin": "A9",
+      "expected": "USB_POWER",
+      "actual": "USB_POWER",
+      "pass": true
+    },
+    {
+      "ref": "U14",
+      "pin": "A10",
+      "expected": null,
+      "actual": "NetU14_A10",
+      "pass": false
+    },
+    {
+      "ref": "U14",
+      "pin": "A11",
+      "expected": null,
+      "actual": "NetU14_A11",
+      "pass": false
+    },
+    {
+      "ref": "U14",
+      "pin": "A12",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "U14",
+      "pin": "B1",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "U14",
+      "pin": "B2",
+      "expected": null,
+      "actual": "NetU14_B2",
+      "pass": false
+    },
+    {
+      "ref": "U14",
+      "pin": "B3",
+      "expected": null,
+      "actual": "NetU14_B3",
+      "pass": false
+    },
+    {
+      "ref": "U14",
+      "pin": "B4",
+      "expected": "USB_POWER",
+      "actual": "USB_POWER",
+      "pass": true
+    },
+    {
+      "ref": "U14",
+      "pin": "B5",
+      "expected": "USB_CC2",
+      "actual": "USB_CC2",
+      "pass": true
+    },
+    {
+      "ref": "U14",
+      "pin": "B6",
+      "expected": "USB_DP",
+      "actual": "USB_DP",
+      "pass": true
+    },
+    {
+      "ref": "U14",
+      "pin": "B7",
+      "expected": "USB_DN",
+      "actual": "USB_DN",
+      "pass": true
+    },
+    {
+      "ref": "U14",
+      "pin": "B8",
+      "expected": null,
+      "actual": "NetU14_B8",
+      "pass": false
+    },
+    {
+      "ref": "U14",
+      "pin": "B9",
+      "expected": "USB_POWER",
+      "actual": "USB_POWER",
+      "pass": true
+    },
+    {
+      "ref": "U14",
+      "pin": "B10",
+      "expected": null,
+      "actual": "NetU14_B10",
+      "pass": false
+    },
+    {
+      "ref": "U14",
+      "pin": "B11",
+      "expected": null,
+      "actual": "NetU14_B11",
+      "pass": false
+    },
+    {
+      "ref": "U14",
+      "pin": "B12",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "U14",
+      "pin": "SH1",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "U14",
+      "pin": "SH2",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "U14",
+      "pin": "SH3",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "U14",
+      "pin": "SH4",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "U30",
+      "pin": "1",
+      "expected": null,
+      "actual": "NetU30_1",
+      "pass": false
+    },
+    {
+      "ref": "U30",
+      "pin": "2",
+      "expected": null,
+      "actual": "NetU30_2",
+      "pass": false
+    },
+    {
+      "ref": "U30",
+      "pin": "3",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "U30",
+      "pin": "4",
+      "expected": "USB_DP",
+      "actual": "USB_DP",
+      "pass": true
+    },
+    {
+      "ref": "U30",
+      "pin": "5",
+      "expected": "USB_DN",
+      "actual": "USB_DN",
+      "pass": true
+    },
+    {
+      "ref": "U30",
+      "pin": "6",
+      "expected": "USB_DN",
+      "actual": "USB_DN",
+      "pass": true
+    },
+    {
+      "ref": "U30",
+      "pin": "7",
+      "expected": "USB_DP",
+      "actual": "USB_DP",
+      "pass": true
+    },
+    {
+      "ref": "U30",
+      "pin": "8",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "U30",
+      "pin": "9",
+      "expected": null,
+      "actual": "NetU30_9",
+      "pass": false
+    },
+    {
+      "ref": "U30",
+      "pin": "10",
+      "expected": null,
+      "actual": "NetU30_10",
+      "pass": false
+    },
+    {
+      "ref": "U23",
+      "pin": "1",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "U23",
+      "pin": "2",
+      "expected": "FT_OSCI",
+      "actual": "FT_OSCI",
+      "pass": true
+    },
+    {
+      "ref": "U23",
+      "pin": "3",
+      "expected": "FT_OSCO",
+      "actual": "FT_OSCO",
+      "pass": true
+    },
+    {
+      "ref": "U23",
+      "pin": "4",
+      "expected": "VPHY",
+      "actual": "VPHY",
+      "pass": true
+    },
+    {
+      "ref": "U23",
+      "pin": "5",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "U23",
+      "pin": "6",
+      "expected": "FT_REF",
+      "actual": "FT_REF",
+      "pass": true
+    },
+    {
+      "ref": "U23",
+      "pin": "7",
+      "expected": "USB_DN",
+      "actual": "USB_DN",
+      "pass": true
+    },
+    {
+      "ref": "U23",
+      "pin": "8",
+      "expected": "USB_DP",
+      "actual": "USB_DP",
+      "pass": true
+    },
+    {
+      "ref": "U23",
+      "pin": "9",
+      "expected": "VPLL",
+      "actual": "VPLL",
+      "pass": true
+    },
+    {
+      "ref": "U23",
+      "pin": "10",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "U23",
+      "pin": "11",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "U23",
+      "pin": "12",
+      "expected": "VCC1V8_FT2232",
+      "actual": "VCC1V8_FT2232",
+      "pass": true
+    },
+    {
+      "ref": "U23",
+      "pin": "13",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "U23",
+      "pin": "14",
+      "expected": "FT_RESET_N",
+      "actual": "FT_REF",
+      "pass": false
+    },
+    {
+      "ref": "U23",
+      "pin": "15",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "U23",
+      "pin": "16",
+      "expected": "FPGA_TCK",
+      "actual": "FPGA_TCK",
+      "pass": true
+    },
+    {
+      "ref": "U23",
+      "pin": "17",
+      "expected": "FPGA_TDI",
+      "actual": "FPGA_TDI",
+      "pass": true
+    },
+    {
+      "ref": "U23",
+      "pin": "18",
+      "expected": "FPGA_TDO",
+      "actual": "FPGA_TDO",
+      "pass": true
+    },
+    {
+      "ref": "U23",
+      "pin": "19",
+      "expected": "FPGA_TMS",
+      "actual": "FPGA_TMS",
+      "pass": true
+    },
+    {
+      "ref": "U23",
+      "pin": "20",
+      "expected": "3V3",
+      "actual": "3V3",
+      "pass": true
+    },
+    {
+      "ref": "U23",
+      "pin": "21",
+      "expected": null,
+      "actual": "NetU23_21",
+      "pass": false
+    },
+    {
+      "ref": "U23",
+      "pin": "22",
+      "expected": null,
+      "actual": "NetU23_22",
+      "pass": false
+    },
+    {
+      "ref": "U23",
+      "pin": "23",
+      "expected": null,
+      "actual": "NetU23_23",
+      "pass": false
+    },
+    {
+      "ref": "U23",
+      "pin": "24",
+      "expected": null,
+      "actual": "NetU23_24",
+      "pass": false
+    },
+    {
+      "ref": "U23",
+      "pin": "25",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "U23",
+      "pin": "26",
+      "expected": "FT_UART1_TX",
+      "actual": "FT_UART1_TX",
+      "pass": true
+    },
+    {
+      "ref": "U23",
+      "pin": "27",
+      "expected": "FT_UART1_RX",
+      "actual": "FT_UART1_RX",
+      "pass": true
+    },
+    {
+      "ref": "U23",
+      "pin": "28",
+      "expected": null,
+      "actual": "NetU23_28",
+      "pass": false
+    },
+    {
+      "ref": "U23",
+      "pin": "29",
+      "expected": null,
+      "actual": "NetU23_29",
+      "pass": false
+    },
+    {
+      "ref": "U23",
+      "pin": "30",
+      "expected": null,
+      "actual": "NetU23_30",
+      "pass": false
+    },
+    {
+      "ref": "U23",
+      "pin": "31",
+      "expected": "3V3",
+      "actual": "3V3",
+      "pass": true
+    },
+    {
+      "ref": "U23",
+      "pin": "32",
+      "expected": null,
+      "actual": "NetU23_32",
+      "pass": false
+    },
+    {
+      "ref": "U23",
+      "pin": "33",
+      "expected": null,
+      "actual": "NetU23_33",
+      "pass": false
+    },
+    {
+      "ref": "U23",
+      "pin": "34",
+      "expected": null,
+      "actual": "NetU23_34",
+      "pass": false
+    },
+    {
+      "ref": "U23",
+      "pin": "35",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "U23",
+      "pin": "36",
+      "expected": null,
+      "actual": "NetU23_36",
+      "pass": false
+    },
+    {
+      "ref": "U23",
+      "pin": "37",
+      "expected": "VCC1V8_FT2232",
+      "actual": "VCC1V8_FT2232",
+      "pass": true
+    },
+    {
+      "ref": "U23",
+      "pin": "38",
+      "expected": "FT_UART2_TX",
+      "actual": "FT_UART2_TX",
+      "pass": true
+    },
+    {
+      "ref": "U23",
+      "pin": "39",
+      "expected": "FT_UART2_RX",
+      "actual": "FT_UART2_RX",
+      "pass": true
+    },
+    {
+      "ref": "U23",
+      "pin": "40",
+      "expected": null,
+      "actual": "NetU23_40",
+      "pass": false
+    },
+    {
+      "ref": "U23",
+      "pin": "41",
+      "expected": null,
+      "actual": "NetU23_41",
+      "pass": false
+    },
+    {
+      "ref": "U23",
+      "pin": "42",
+      "expected": "3V3",
+      "actual": "3V3",
+      "pass": true
+    },
+    {
+      "ref": "U23",
+      "pin": "43",
+      "expected": null,
+      "actual": "NetU23_43",
+      "pass": false
+    },
+    {
+      "ref": "U23",
+      "pin": "44",
+      "expected": null,
+      "actual": "NetU23_44",
+      "pass": false
+    },
+    {
+      "ref": "U23",
+      "pin": "45",
+      "expected": null,
+      "actual": "NetU23_45",
+      "pass": false
+    },
+    {
+      "ref": "U23",
+      "pin": "46",
+      "expected": null,
+      "actual": "NetU23_46",
+      "pass": false
+    },
+    {
+      "ref": "U23",
+      "pin": "47",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "U23",
+      "pin": "48",
+      "expected": "FT_UART3_TX",
+      "actual": "FT_UART3_TX",
+      "pass": true
+    },
+    {
+      "ref": "U23",
+      "pin": "49",
+      "expected": "VCC1V8_FT2232",
+      "actual": "VCC1V8_FT2232",
+      "pass": true
+    },
+    {
+      "ref": "U23",
+      "pin": "50",
+      "expected": "3V3",
+      "actual": "3V3",
+      "pass": true
+    },
+    {
+      "ref": "U23",
+      "pin": "51",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "U23",
+      "pin": "52",
+      "expected": "FT_UART3_RX",
+      "actual": "FT_UART3_RX",
+      "pass": true
+    },
+    {
+      "ref": "U23",
+      "pin": "53",
+      "expected": null,
+      "actual": "NetU23_53",
+      "pass": false
+    },
+    {
+      "ref": "U23",
+      "pin": "54",
+      "expected": null,
+      "actual": "NetU23_54",
+      "pass": false
+    },
+    {
+      "ref": "U23",
+      "pin": "55",
+      "expected": null,
+      "actual": "NetU23_55",
+      "pass": false
+    },
+    {
+      "ref": "U23",
+      "pin": "56",
+      "expected": "3V3",
+      "actual": "3V3",
+      "pass": true
+    },
+    {
+      "ref": "U23",
+      "pin": "57",
+      "expected": null,
+      "actual": "NetU23_57",
+      "pass": false
+    },
+    {
+      "ref": "U23",
+      "pin": "58",
+      "expected": null,
+      "actual": "NetU23_58",
+      "pass": false
+    },
+    {
+      "ref": "U23",
+      "pin": "59",
+      "expected": null,
+      "actual": "NetU23_59",
+      "pass": false
+    },
+    {
+      "ref": "U23",
+      "pin": "60",
+      "expected": null,
+      "actual": "NetU23_60",
+      "pass": false
+    },
+    {
+      "ref": "U23",
+      "pin": "61",
+      "expected": "EEDATA",
+      "actual": "EEDATA",
+      "pass": true
+    },
+    {
+      "ref": "U23",
+      "pin": "62",
+      "expected": "EECLK",
+      "actual": "EECLK",
+      "pass": true
+    },
+    {
+      "ref": "U23",
+      "pin": "63",
+      "expected": "EECS",
+      "actual": "EECS",
+      "pass": true
+    },
+    {
+      "ref": "U23",
+      "pin": "64",
+      "expected": "VCC1V8_FT2232",
+      "actual": "VCC1V8_FT2232",
+      "pass": true
+    },
+    {
+      "ref": "U3",
+      "pin": "1",
+      "expected": "EECS",
+      "actual": "EECS",
+      "pass": true
+    },
+    {
+      "ref": "U3",
+      "pin": "2",
+      "expected": "EECLK",
+      "actual": "EECLK",
+      "pass": true
+    },
+    {
+      "ref": "U3",
+      "pin": "3",
+      "expected": "EEDATA",
+      "actual": "EEDATA",
+      "pass": true
+    },
+    {
+      "ref": "U3",
+      "pin": "4",
+      "expected": "EEPROM_DO",
+      "actual": "EEPROM_DO",
+      "pass": true
+    },
+    {
+      "ref": "U3",
+      "pin": "5",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "U3",
+      "pin": "6",
+      "expected": "3V3",
+      "actual": "3V3",
+      "pass": true
+    },
+    {
+      "ref": "U3",
+      "pin": "7",
+      "expected": null,
+      "actual": "NetU3_7",
+      "pass": false
+    },
+    {
+      "ref": "U3",
+      "pin": "8",
+      "expected": "3V3",
+      "actual": "3V3",
+      "pass": true
+    },
+    {
+      "ref": "D22",
+      "pin": "1",
+      "expected": "5V",
+      "actual": "5V",
+      "pass": true
+    },
+    {
+      "ref": "D22",
+      "pin": "2",
+      "expected": "USB_POWER",
+      "actual": "USB_POWER",
+      "pass": true
+    },
+    {
+      "ref": "X5",
+      "pin": "1",
+      "expected": "FT_OSCI",
+      "actual": "FT_OSCI",
+      "pass": true
+    },
+    {
+      "ref": "X5",
+      "pin": "2",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "X5",
+      "pin": "3",
+      "expected": "FT_OSCO",
+      "actual": "FT_OSCO",
+      "pass": true
+    },
+    {
+      "ref": "X5",
+      "pin": "4",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "R448",
+      "pin": "1",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "R448",
+      "pin": "2",
+      "expected": "USB_CC2",
+      "actual": "USB_CC2",
+      "pass": true
+    },
+    {
+      "ref": "R449",
+      "pin": "1",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "R449",
+      "pin": "2",
+      "expected": "USB_CC1",
+      "actual": "USB_CC1",
+      "pass": true
+    },
+    {
+      "ref": "R456",
+      "pin": "1",
+      "expected": "FT_RESET_N",
+      "actual": "FT_REF",
+      "pass": false
+    },
+    {
+      "ref": "R456",
+      "pin": "2",
+      "expected": "3V3",
+      "actual": "3V3",
+      "pass": true
+    },
+    {
+      "ref": "R457",
+      "pin": "1",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "R457",
+      "pin": "2",
+      "expected": "FT_REF",
+      "actual": "FT_REF",
+      "pass": true
+    },
+    {
+      "ref": "R225",
+      "pin": "1",
+      "expected": "EECS",
+      "actual": "EECS",
+      "pass": true
+    },
+    {
+      "ref": "R225",
+      "pin": "2",
+      "expected": "3V3",
+      "actual": "3V3",
+      "pass": true
+    },
+    {
+      "ref": "R226",
+      "pin": "1",
+      "expected": "EECLK",
+      "actual": "EECLK",
+      "pass": true
+    },
+    {
+      "ref": "R226",
+      "pin": "2",
+      "expected": "3V3",
+      "actual": "3V3",
+      "pass": true
+    },
+    {
+      "ref": "R227",
+      "pin": "1",
+      "expected": "EEPROM_DO",
+      "actual": "EEPROM_DO",
+      "pass": true
+    },
+    {
+      "ref": "R227",
+      "pin": "2",
+      "expected": "3V3",
+      "actual": "3V3",
+      "pass": true
+    },
+    {
+      "ref": "R228",
+      "pin": "1",
+      "expected": "EEPROM_DO",
+      "actual": "EEPROM_DO",
+      "pass": true
+    },
+    {
+      "ref": "R228",
+      "pin": "2",
+      "expected": "EEDATA",
+      "actual": "EEDATA",
+      "pass": true
+    },
+    {
+      "ref": "FB3",
+      "pin": "1",
+      "expected": "3V3",
+      "actual": "3V3",
+      "pass": true
+    },
+    {
+      "ref": "FB3",
+      "pin": "2",
+      "expected": "VPHY",
+      "actual": "VPHY",
+      "pass": true
+    },
+    {
+      "ref": "FB4",
+      "pin": "1",
+      "expected": "3V3",
+      "actual": "3V3",
+      "pass": true
+    },
+    {
+      "ref": "FB4",
+      "pin": "2",
+      "expected": "VPLL",
+      "actual": "VPLL",
+      "pass": true
+    },
+    {
+      "ref": "C851",
+      "pin": "1",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "C851",
+      "pin": "2",
+      "expected": "5V",
+      "actual": "5V",
+      "pass": true
+    },
+    {
+      "ref": "C852",
+      "pin": "1",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "C852",
+      "pin": "2",
+      "expected": "5V",
+      "actual": "5V",
+      "pass": true
+    },
+    {
+      "ref": "C853",
+      "pin": "1",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "C853",
+      "pin": "2",
+      "expected": "5V",
+      "actual": "5V",
+      "pass": true
+    },
+    {
+      "ref": "C324",
+      "pin": "1",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "C324",
+      "pin": "2",
+      "expected": "3V3",
+      "actual": "3V3",
+      "pass": true
+    },
+    {
+      "ref": "C325",
+      "pin": "1",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "C325",
+      "pin": "2",
+      "expected": "3V3",
+      "actual": "3V3",
+      "pass": true
+    },
+    {
+      "ref": "C301",
+      "pin": "1",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "C301",
+      "pin": "2",
+      "expected": "3V3",
+      "actual": "3V3",
+      "pass": true
+    },
+    {
+      "ref": "C302",
+      "pin": "1",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "C302",
+      "pin": "2",
+      "expected": "3V3",
+      "actual": "3V3",
+      "pass": true
+    },
+    {
+      "ref": "C303",
+      "pin": "1",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "C303",
+      "pin": "2",
+      "expected": "3V3",
+      "actual": "3V3",
+      "pass": true
+    },
+    {
+      "ref": "C304",
+      "pin": "1",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "C304",
+      "pin": "2",
+      "expected": "3V3",
+      "actual": "3V3",
+      "pass": true
+    },
+    {
+      "ref": "C291",
+      "pin": "1",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "C291",
+      "pin": "2",
+      "expected": "VCC1V8_FT2232",
+      "actual": "VCC1V8_FT2232",
+      "pass": true
+    },
+    {
+      "ref": "C298",
+      "pin": "1",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "C298",
+      "pin": "2",
+      "expected": "VCC1V8_FT2232",
+      "actual": "VCC1V8_FT2232",
+      "pass": true
+    },
+    {
+      "ref": "C299",
+      "pin": "1",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "C299",
+      "pin": "2",
+      "expected": "VCC1V8_FT2232",
+      "actual": "VCC1V8_FT2232",
+      "pass": true
+    },
+    {
+      "ref": "C300",
+      "pin": "1",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "C300",
+      "pin": "2",
+      "expected": "VCC1V8_FT2232",
+      "actual": "VCC1V8_FT2232",
+      "pass": true
+    },
+    {
+      "ref": "C294",
+      "pin": "1",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "C294",
+      "pin": "2",
+      "expected": "VPHY",
+      "actual": "VPHY",
+      "pass": true
+    },
+    {
+      "ref": "C296",
+      "pin": "1",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "C296",
+      "pin": "2",
+      "expected": "VPHY",
+      "actual": "VPHY",
+      "pass": true
+    },
+    {
+      "ref": "C295",
+      "pin": "1",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "C295",
+      "pin": "2",
+      "expected": "VPLL",
+      "actual": "VPLL",
+      "pass": true
+    },
+    {
+      "ref": "C297",
+      "pin": "1",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "C297",
+      "pin": "2",
+      "expected": "VPLL",
+      "actual": "VPLL",
+      "pass": true
+    },
+    {
+      "ref": "C308",
+      "pin": "1",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "C308",
+      "pin": "2",
+      "expected": "3V3",
+      "actual": "3V3",
+      "pass": true
+    },
+    {
+      "ref": "C326",
+      "pin": "1",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "C326",
+      "pin": "2",
+      "expected": "FT_OSCI",
+      "actual": "FT_OSCI",
+      "pass": true
+    },
+    {
+      "ref": "C327",
+      "pin": "1",
+      "expected": "GND",
+      "actual": "GND",
+      "pass": true
+    },
+    {
+      "ref": "C327",
+      "pin": "2",
+      "expected": "FT_OSCO",
+      "actual": "FT_OSCO",
+      "pass": true
+    }
+  ],
+  "cross_sheet_checks": [
+    {
+      "ft_pin": "16",
+      "fpga_ball": "V12",
+      "ft": {
+        "ref": "U23",
+        "pin": "16",
+        "net": "FPGA_TCK",
+        "flat_index": 0,
+        "document": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\07_JTAG_UART.SchDoc"
+      },
+      "fpga": {
+        "ref": "U1",
+        "pin": "V12",
+        "net": "?",
+        "flat_index": 0,
+        "document": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\01_Power.SchDoc"
+      },
+      "pass": false
+    },
+    {
+      "ft_pin": "17",
+      "fpga_ball": "R13",
+      "ft": {
+        "ref": "U23",
+        "pin": "17",
+        "net": "FPGA_TDI",
+        "flat_index": 0,
+        "document": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\07_JTAG_UART.SchDoc"
+      },
+      "fpga": {
+        "ref": "U1",
+        "pin": "R13",
+        "net": "?",
+        "flat_index": 0,
+        "document": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\01_Power.SchDoc"
+      },
+      "pass": false
+    },
+    {
+      "ft_pin": "18",
+      "fpga_ball": "U13",
+      "ft": {
+        "ref": "U23",
+        "pin": "18",
+        "net": "FPGA_TDO",
+        "flat_index": 0,
+        "document": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\07_JTAG_UART.SchDoc"
+      },
+      "fpga": {
+        "ref": "U1",
+        "pin": "U13",
+        "net": "?",
+        "flat_index": 0,
+        "document": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\01_Power.SchDoc"
+      },
+      "pass": false
+    },
+    {
+      "ft_pin": "19",
+      "fpga_ball": "T13",
+      "ft": {
+        "ref": "U23",
+        "pin": "19",
+        "net": "FPGA_TMS",
+        "flat_index": 0,
+        "document": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\07_JTAG_UART.SchDoc"
+      },
+      "fpga": {
+        "ref": "U1",
+        "pin": "T13",
+        "net": "?",
+        "flat_index": 0,
+        "document": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\01_Power.SchDoc"
+      },
+      "pass": false
+    },
+    {
+      "ft_pin": "38",
+      "fpga_ball": "R16",
+      "ft": {
+        "ref": "U23",
+        "pin": "38",
+        "net": "FT_UART2_TX",
+        "flat_index": 0,
+        "document": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\07_JTAG_UART.SchDoc"
+      },
+      "fpga": {
+        "ref": "U1",
+        "pin": "R16",
+        "net": "?",
+        "flat_index": 0,
+        "document": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\01_Power.SchDoc"
+      },
+      "pass": false
+    },
+    {
+      "ft_pin": "39",
+      "fpga_ball": "P15",
+      "ft": {
+        "ref": "U23",
+        "pin": "39",
+        "net": "FT_UART2_RX",
+        "flat_index": 0,
+        "document": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\07_JTAG_UART.SchDoc"
+      },
+      "fpga": {
+        "ref": "U1",
+        "pin": "P15",
+        "net": "?",
+        "flat_index": 0,
+        "document": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\01_Power.SchDoc"
+      },
+      "pass": false
+    }
+  ],
+  "all_pass": false
+}

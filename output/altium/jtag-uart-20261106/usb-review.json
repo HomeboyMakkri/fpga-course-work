@@ -1,0 +1,750 @@
+{
+  "schema": "independent-usb-evidence-review-v1",
+  "review_date": "2026-11-06",
+  "scope": "Read-only source/datasheet/library-evidence review. No Altium live commands and no CAD mutations performed by this reviewer.",
+  "source_schematic": {
+    "path": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\datasheets\\Schematic_Smart_Artix_251120.pdf",
+    "sha256": "A198469EABD1ABE7A504667CA2BF17A7595E5017D6F4830A380DD04BF8923230",
+    "page": 7,
+    "visual_render": "tools/altium/runtime/smart-artix-page7.png",
+    "visual_crops": [
+      "tools/altium/runtime/usb-review-crop.png",
+      "tools/altium/runtime/usb-review-supply-crop.png"
+    ]
+  },
+  "sources": [
+    {
+      "id": "te-product",
+      "manufacturer": "TE Connectivity",
+      "mpn": "2345986-1",
+      "url": "https://www.te.com/en/product-2345986-1.html",
+      "verified": "USB Type-C 3.1 Gen2 right-angle top-mount full connector; current customer drawing link RevC."
+    },
+    {
+      "id": "te-current-drawing",
+      "manufacturer": "TE Connectivity",
+      "title": "C-2345986 RevC",
+      "url": "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocFormat=pdf&DocLang=English&DocNm=2345986&DocType=Customer+Drawing&PartCntxt=2345986-1",
+      "download_status": "Web tool reads as two-page PDF. Local HTTP download denied by server; no local RevC file claimed."
+    },
+    {
+      "id": "te-manufacturer-drawing-mirror",
+      "manufacturer": "TE Connectivity",
+      "title": "C-2345986 RevB, 24 September 2020, sheet1 of2",
+      "url": "https://datasheet.octopart.com/2345986-1-TE-Connectivity-datasheet-149594618.pdf",
+      "file": "output/altium/jtag-uart-20261106/evidence/TE-2345986-RevB-mirrored.pdf",
+      "sha256": "B5CFE56E3F16A00F700FA35E046A95FD1289B1CCE81BC904189F8D63B92A411A",
+      "visual_render": "output/altium/jtag-uart-20261106/evidence/TE-2345986-RevB-mirrored-1.png",
+      "verified": "Manufacturer drawing table visibly confirms all A1-A12/B1-B12 signal functions. It is older RevB evidence, not claimed as current RevC geometry verification."
+    },
+    {
+      "id": "usb-if",
+      "title": "USB Type-C Cable and Connector Specification Release2.0, August2019",
+      "url": "https://www.usb.org/sites/default/files/USB%20Type-C%20Spec%20R2.0%20-%20August%202019.pdf",
+      "file": "output/altium/jtag-uart-20261106/evidence/USB-Type-C-R2.0-201908.pdf",
+      "sha256": "87D15160BF8BD25129B27E0B7C5E261ED0B1806B3B0D3A7B5D8B1EB783DC9981",
+      "references": [
+        "Table3-4 printed p68: physical pin functions",
+        "Table3-5 printed p69 and notes: USB2-only unused contacts isolated; SBU1/2 NC",
+        "Table3-4 notes: duplicated USB2 pairs may be shorted close to connector; VBUS/GND contacts bus together"
+      ]
+    },
+    {
+      "id": "nexperia",
+      "manufacturer": "Nexperia",
+      "mpn": "PUSB3FR4Z",
+      "title": "PUSB3FR4 Product data sheet 12 July2018",
+      "url": "https://assets.nexperia.com/documents/data-sheet/PUSB3FR4.pdf",
+      "file": "datasheets/Datasheets/ESD/PUSB3FR4.Pdf",
+      "sha256": "9761C8E9B72727BE75B42C4A213AD65A29D5F975CCE554293CA2B8BE4597C7F4",
+      "references": [
+        "Table1 p2 physical pinout",
+        "Features p1 pass-through routing",
+        "Figure15 p9 application PCB"
+      ],
+      "visual_render": "output/altium/jtag-uart-20261106/evidence/PUSB3FR4-09.png"
+    },
+    {
+      "id": "nexperia-opn",
+      "manufacturer": "Nexperia",
+      "url": "https://www.nexperia.com/chemical-content/PUSB3FR4.html",
+      "verified": "PUSB3FR4Z ordering code is PUSB3FR4 type, SOT1176-1/XSON10."
+    }
+  ],
+  "connector": {
+    "source_designator": "U14",
+    "source_value": "TYPEC",
+    "source_pin_count": 16,
+    "source_pins": [
+      {
+        "pin": "1",
+        "name": "GND",
+        "net": "GND",
+        "source_no_connect": false
+      },
+      {
+        "pin": "2",
+        "name": "VBUS",
+        "net": "USB_POWER",
+        "source_no_connect": false
+      },
+      {
+        "pin": "3",
+        "name": "SBU2",
+        "net": null,
+        "source_no_connect": true
+      },
+      {
+        "pin": "4",
+        "name": "CC1",
+        "net": "USB_CC1",
+        "source_no_connect": false
+      },
+      {
+        "pin": "5",
+        "name": "DN2",
+        "net": "USB_DN",
+        "source_no_connect": false
+      },
+      {
+        "pin": "6",
+        "name": "DP1",
+        "net": "USB_DP",
+        "source_no_connect": false
+      },
+      {
+        "pin": "7",
+        "name": "DN1",
+        "net": "USB_DN",
+        "source_no_connect": false
+      },
+      {
+        "pin": "8",
+        "name": "DP2",
+        "net": "USB_DP",
+        "source_no_connect": false
+      },
+      {
+        "pin": "9",
+        "name": "SBU1",
+        "net": null,
+        "source_no_connect": true
+      },
+      {
+        "pin": "10",
+        "name": "CC2",
+        "net": "USB_CC2",
+        "source_no_connect": false
+      },
+      {
+        "pin": "11",
+        "name": "VBUS_2",
+        "net": "USB_POWER",
+        "source_no_connect": false
+      },
+      {
+        "pin": "12",
+        "name": "GND_2",
+        "net": "GND",
+        "source_no_connect": false
+      },
+      {
+        "pin": "P1",
+        "name": "P1",
+        "net": "GND",
+        "source_no_connect": false
+      },
+      {
+        "pin": "P2",
+        "name": "P2",
+        "net": "GND",
+        "source_no_connect": false
+      },
+      {
+        "pin": "P3",
+        "name": "P3",
+        "net": "GND",
+        "source_no_connect": false
+      },
+      {
+        "pin": "P4",
+        "name": "P4",
+        "net": "GND",
+        "source_no_connect": false
+      }
+    ],
+    "target_mpn": "2345986-1",
+    "target_manufacturer": "TE Connectivity",
+    "target_contact_count": 24,
+    "target_shell_pad_count": 4,
+    "physical_pins": [
+      {
+        "pin": "A1",
+        "function": "GND",
+        "net": "GND",
+        "no_connect": false,
+        "function_evidence": "TE manufacturer drawing signal table and USB-IF Table3-4"
+      },
+      {
+        "pin": "A2",
+        "function": "TX1+",
+        "net": null,
+        "no_connect": true,
+        "function_evidence": "TE manufacturer drawing signal table and USB-IF Table3-4"
+      },
+      {
+        "pin": "A3",
+        "function": "TX1-",
+        "net": null,
+        "no_connect": true,
+        "function_evidence": "TE manufacturer drawing signal table and USB-IF Table3-4"
+      },
+      {
+        "pin": "A4",
+        "function": "VBUS",
+        "net": "USB_POWER",
+        "no_connect": false,
+        "function_evidence": "TE manufacturer drawing signal table and USB-IF Table3-4"
+      },
+      {
+        "pin": "A5",
+        "function": "CC1",
+        "net": "USB_CC1",
+        "no_connect": false,
+        "function_evidence": "TE manufacturer drawing signal table and USB-IF Table3-4"
+      },
+      {
+        "pin": "A6",
+        "function": "DP1",
+        "net": "USB_DP",
+        "no_connect": false,
+        "function_evidence": "TE manufacturer drawing signal table and USB-IF Table3-4"
+      },
+      {
+        "pin": "A7",
+        "function": "DN1",
+        "net": "USB_DN",
+        "no_connect": false,
+        "function_evidence": "TE manufacturer drawing signal table and USB-IF Table3-4"
+      },
+      {
+        "pin": "A8",
+        "function": "SBU1",
+        "net": null,
+        "no_connect": true,
+        "function_evidence": "TE manufacturer drawing signal table and USB-IF Table3-4"
+      },
+      {
+        "pin": "A9",
+        "function": "VBUS",
+        "net": "USB_POWER",
+        "no_connect": false,
+        "function_evidence": "TE manufacturer drawing signal table and USB-IF Table3-4"
+      },
+      {
+        "pin": "A10",
+        "function": "RX2-",
+        "net": null,
+        "no_connect": true,
+        "function_evidence": "TE manufacturer drawing signal table and USB-IF Table3-4"
+      },
+      {
+        "pin": "A11",
+        "function": "RX2+",
+        "net": null,
+        "no_connect": true,
+        "function_evidence": "TE manufacturer drawing signal table and USB-IF Table3-4"
+      },
+      {
+        "pin": "A12",
+        "function": "GND",
+        "net": "GND",
+        "no_connect": false,
+        "function_evidence": "TE manufacturer drawing signal table and USB-IF Table3-4"
+      },
+      {
+        "pin": "B1",
+        "function": "GND",
+        "net": "GND",
+        "no_connect": false,
+        "function_evidence": "TE manufacturer drawing signal table and USB-IF Table3-4"
+      },
+      {
+        "pin": "B2",
+        "function": "TX2+",
+        "net": null,
+        "no_connect": true,
+        "function_evidence": "TE manufacturer drawing signal table and USB-IF Table3-4"
+      },
+      {
+        "pin": "B3",
+        "function": "TX2-",
+        "net": null,
+        "no_connect": true,
+        "function_evidence": "TE manufacturer drawing signal table and USB-IF Table3-4"
+      },
+      {
+        "pin": "B4",
+        "function": "VBUS",
+        "net": "USB_POWER",
+        "no_connect": false,
+        "function_evidence": "TE manufacturer drawing signal table and USB-IF Table3-4"
+      },
+      {
+        "pin": "B5",
+        "function": "CC2",
+        "net": "USB_CC2",
+        "no_connect": false,
+        "function_evidence": "TE manufacturer drawing signal table and USB-IF Table3-4"
+      },
+      {
+        "pin": "B6",
+        "function": "DP2",
+        "net": "USB_DP",
+        "no_connect": false,
+        "function_evidence": "TE manufacturer drawing signal table and USB-IF Table3-4"
+      },
+      {
+        "pin": "B7",
+        "function": "DN2",
+        "net": "USB_DN",
+        "no_connect": false,
+        "function_evidence": "TE manufacturer drawing signal table and USB-IF Table3-4"
+      },
+      {
+        "pin": "B8",
+        "function": "SBU2",
+        "net": null,
+        "no_connect": true,
+        "function_evidence": "TE manufacturer drawing signal table and USB-IF Table3-4"
+      },
+      {
+        "pin": "B9",
+        "function": "VBUS",
+        "net": "USB_POWER",
+        "no_connect": false,
+        "function_evidence": "TE manufacturer drawing signal table and USB-IF Table3-4"
+      },
+      {
+        "pin": "B10",
+        "function": "RX1-",
+        "net": null,
+        "no_connect": true,
+        "function_evidence": "TE manufacturer drawing signal table and USB-IF Table3-4"
+      },
+      {
+        "pin": "B11",
+        "function": "RX1+",
+        "net": null,
+        "no_connect": true,
+        "function_evidence": "TE manufacturer drawing signal table and USB-IF Table3-4"
+      },
+      {
+        "pin": "B12",
+        "function": "GND",
+        "net": "GND",
+        "no_connect": false,
+        "function_evidence": "TE manufacturer drawing signal table and USB-IF Table3-4"
+      },
+      {
+        "pin": "SH1",
+        "function": "SHIELD",
+        "net": "GND",
+        "no_connect": false,
+        "function_evidence": "Local native symbol/footprint identity; shield tabs are not signal contacts in manufacturer table."
+      },
+      {
+        "pin": "SH2",
+        "function": "SHIELD",
+        "net": "GND",
+        "no_connect": false,
+        "function_evidence": "Local native symbol/footprint identity; shield tabs are not signal contacts in manufacturer table."
+      },
+      {
+        "pin": "SH3",
+        "function": "SHIELD",
+        "net": "GND",
+        "no_connect": false,
+        "function_evidence": "Local native symbol/footprint identity; shield tabs are not signal contacts in manufacturer table."
+      },
+      {
+        "pin": "SH4",
+        "function": "SHIELD",
+        "net": "GND",
+        "no_connect": false,
+        "function_evidence": "Local native symbol/footprint identity; shield tabs are not signal contacts in manufacturer table."
+      }
+    ],
+    "mapping_policy": "Map source electrical functions to all matching TE physical contacts. Do not copy generic source 1-12 pin numbers to TE A/B contacts. No claim that generic GND/VBUS duplicate labels identify a particular A/B contact group; the same-net bus makes those grouping details electrically immaterial.",
+    "nc_policy": "A2,A3,A10,A11,B2,B3,B10,B11 SuperSpeed contacts and A8/B8 SBU contacts unused in this USB2 application; retain physical pins with explicit no-connect state.",
+    "shell_policy": "SH1-SH4 all GND, matching source P1-P4 electrical shell net. SH naming comes from local library; do not infer a unique geometric P1↔SH1 correspondence."
+  },
+  "protection": {
+    "source_designator": "U30",
+    "source_value": "PUSB3FR4",
+    "target_mpn": "PUSB3FR4Z",
+    "package": "DFN2510A-10 / SOT1176-1 (XSON10)",
+    "physical_pins": [
+      {
+        "pin": "1",
+        "function": "CH1",
+        "net": null,
+        "source_no_connect": true,
+        "internally_unconnected": false
+      },
+      {
+        "pin": "2",
+        "function": "CH2",
+        "net": null,
+        "source_no_connect": true,
+        "internally_unconnected": false
+      },
+      {
+        "pin": "3",
+        "function": "GND",
+        "net": "GND",
+        "source_no_connect": false,
+        "internally_unconnected": false
+      },
+      {
+        "pin": "4",
+        "function": "CH3",
+        "net": "USB_DP",
+        "source_no_connect": false,
+        "internally_unconnected": false
+      },
+      {
+        "pin": "5",
+        "function": "CH4",
+        "net": "USB_DN",
+        "source_no_connect": false,
+        "internally_unconnected": false
+      },
+      {
+        "pin": "6",
+        "function": "n.c.",
+        "net": "USB_DN",
+        "source_no_connect": false,
+        "internally_unconnected": true
+      },
+      {
+        "pin": "7",
+        "function": "n.c.",
+        "net": "USB_DP",
+        "source_no_connect": false,
+        "internally_unconnected": true
+      },
+      {
+        "pin": "8",
+        "function": "GND",
+        "net": "GND",
+        "source_no_connect": false,
+        "internally_unconnected": false
+      },
+      {
+        "pin": "9",
+        "function": "n.c.",
+        "net": null,
+        "source_no_connect": true,
+        "internally_unconnected": true
+      },
+      {
+        "pin": "10",
+        "function": "n.c.",
+        "net": null,
+        "source_no_connect": true,
+        "internally_unconnected": true
+      }
+    ],
+    "nc6_nc7_policy": {
+      "recommendation": "Preserve source U30.6 USB_DN and U30.7 USB_DP while retaining manufacturer n.c. pin function and original electrical types.",
+      "reason": "Manufacturer says internally not connected/no connection, not do-not-connect. Datasheet feature and application layout support pass-through board routing across opposite channel/NC pads. This is an external PCB trace connection.",
+      "required_external_connections": [
+        {
+          "net": "USB_DP",
+          "pins": [
+            "U14.A6",
+            "U14.B6",
+            "U30.4",
+            "U30.7",
+            "U23.8"
+          ]
+        },
+        {
+          "net": "USB_DN",
+          "pins": [
+            "U14.A7",
+            "U14.B7",
+            "U30.5",
+            "U30.6",
+            "U23.7"
+          ]
+        }
+      ],
+      "prohibited_assumption": "U30 has no internal electrical feedthrough from4→7 or5→6. All corresponding endpoints must already share the externally wired/labeled net independently of the IC internals.",
+      "authoritative_references": [
+        "Nexperia Table1 p2:6 n.c.,7 n.c.,9 n.c.,10 n.c.",
+        "Nexperia p1 pass-through routing feature",
+        "Nexperia Figure15 p9 external routing under the package, visually reviewed"
+      ],
+      "quote_note": "Relevant short phrases: 'not connected', 'no connection', 'pass-through' signal routing."
+    }
+  },
+  "support_components": [
+    {
+      "designator": "R448",
+      "value": "5.1k",
+      "endpoints": [
+        "USB_CC2",
+        "GND"
+      ],
+      "role": "CC2 sink termination",
+      "source": "U14.10"
+    },
+    {
+      "designator": "R449",
+      "value": "5.1k",
+      "endpoints": [
+        "USB_CC1",
+        "GND"
+      ],
+      "role": "CC1 sink termination",
+      "source": "U14.4"
+    },
+    {
+      "designator": "D22",
+      "value": "SS24",
+      "endpoints": {
+        "anode": "USB_POWER",
+        "cathode": "5V_DC"
+      },
+      "role": "USB input supply Schottky diode",
+      "physical_pin_assignment": "Must obtain A/K pad numbering from selected native library; source page gives no visible pad numbers."
+    },
+    {
+      "designator": "C851",
+      "value": "10uF/10V",
+      "endpoints": [
+        "5V_DC",
+        "GND"
+      ]
+    },
+    {
+      "designator": "C852",
+      "value": "10uF/10V",
+      "endpoints": [
+        "5V_DC",
+        "GND"
+      ]
+    },
+    {
+      "designator": "C853",
+      "value": "0.1uF",
+      "endpoints": [
+        "5V_DC",
+        "GND"
+      ]
+    },
+    {
+      "designator": "FB3",
+      "value": "BLM18SG121TN1D",
+      "endpoints": [
+        "VCC3V3",
+        "VPHY"
+      ],
+      "role": "FTDI PHY supply filtering"
+    },
+    {
+      "designator": "FB4",
+      "value": "BLM18SG121TN1D",
+      "endpoints": [
+        "VCC3V3",
+        "VPLL"
+      ],
+      "role": "FTDI PLL supply filtering"
+    },
+    {
+      "designator": "C294",
+      "value": "4.7uF",
+      "endpoints": [
+        "VPHY",
+        "GND"
+      ]
+    },
+    {
+      "designator": "C296",
+      "value": "0.1uF",
+      "endpoints": [
+        "VPHY",
+        "GND"
+      ]
+    },
+    {
+      "designator": "C295",
+      "value": "4.7uF",
+      "endpoints": [
+        "VPLL",
+        "GND"
+      ]
+    },
+    {
+      "designator": "C297",
+      "value": "0.1uF",
+      "endpoints": [
+        "VPLL",
+        "GND"
+      ]
+    },
+    {
+      "designator": "C291",
+      "value": "4.7uF",
+      "endpoints": [
+        "VCC1V8_FT2232",
+        "GND"
+      ]
+    },
+    {
+      "designator": "C298",
+      "value": "0.1uF",
+      "endpoints": [
+        "VCC1V8_FT2232",
+        "GND"
+      ]
+    },
+    {
+      "designator": "C299",
+      "value": "0.1uF",
+      "endpoints": [
+        "VCC1V8_FT2232",
+        "GND"
+      ]
+    },
+    {
+      "designator": "C300",
+      "value": "0.1uF",
+      "endpoints": [
+        "VCC1V8_FT2232",
+        "GND"
+      ]
+    },
+    {
+      "designator": "C324",
+      "value": "4.7uF",
+      "endpoints": [
+        "VCC3V3",
+        "GND"
+      ]
+    },
+    {
+      "designator": "C325",
+      "value": "0.1uF",
+      "endpoints": [
+        "VCC3V3",
+        "GND"
+      ]
+    },
+    {
+      "designator": "C301",
+      "value": "0.1uF",
+      "endpoints": [
+        "VCC3V3",
+        "GND"
+      ]
+    },
+    {
+      "designator": "C302",
+      "value": "0.1uF",
+      "endpoints": [
+        "VCC3V3",
+        "GND"
+      ]
+    },
+    {
+      "designator": "C303",
+      "value": "0.1uF",
+      "endpoints": [
+        "VCC3V3",
+        "GND"
+      ]
+    },
+    {
+      "designator": "C304",
+      "value": "0.1uF",
+      "endpoints": [
+        "VCC3V3",
+        "GND"
+      ]
+    },
+    {
+      "designator": "R456",
+      "value": "1k",
+      "endpoints": [
+        "VCC3V3",
+        "FTDI_RESET_N"
+      ],
+      "source_pin": "U23.14"
+    },
+    {
+      "designator": "R457",
+      "value": "12k",
+      "endpoints": [
+        "FTDI_REF",
+        "GND"
+      ],
+      "source_pin": "U23.6",
+      "visual_note": "High resolution crop confirms 12k, not 2k."
+    }
+  ],
+  "ftdi_supply_endpoints_for_cross_check": {
+    "U23.4": "VPHY",
+    "U23.9": "VPLL",
+    "U23.12": "VCC1V8_FT2232",
+    "U23.37": "VCC1V8_FT2232",
+    "U23.64": "VCC1V8_FT2232",
+    "U23.49": "VCC1V8_FT2232",
+    "U23.50": "VCC3V3",
+    "U23.20": "VCC3V3",
+    "U23.31": "VCC3V3",
+    "U23.42": "VCC3V3",
+    "U23.56": "VCC3V3",
+    "U23.7": "USB_DN",
+    "U23.8": "USB_DP",
+    "U23.14": "FTDI_RESET_N",
+    "U23.6": "FTDI_REF"
+  },
+  "local_evidence": [
+    {
+      "component": "2345986-1",
+      "path": "ARTIX/ARTIX/libraries/type-c/type-c/2345986-1.SchLib",
+      "sha256_at_review": "C7DB98396B7D437BE72D342761E3692AC34C23102A38DC552DDB177AE95D3F1A",
+      "snapshot": "tools/altium/runtime/usb-connector-table/working-bundle/readback.response.json",
+      "pins": "A1-A12,B1-B12,SH1-SH4;28 total",
+      "model": "TE_2345986-1",
+      "map": "All28 symbol pins mapped to equal-name footprint pads.",
+      "pcblib": "ARTIX/ARTIX/libraries/type-c/type-c/TE_2345986-1.PcbLib",
+      "pcblib_sha256": "9C152CC20D402BCB0C744B13FB8B250F0AD2E25589CA412BE2A25CB0A3321555"
+    },
+    {
+      "component": "PUSB3FR4Z",
+      "path": "ARTIX/ARTIX/libraries/PUSB3FR4Z/PUSB3FR4Z.SchLib",
+      "sha256_at_review": "C45F1887EC603EEB5B9301BBA85FDC7D9A57B407ABF8372BA4A1D05898443B87",
+      "snapshot": "tools/altium/runtime/pusb3fr4z-gost/bundle/readback.response.json",
+      "pins": "1-10;10 total",
+      "model": "U_PUSB3FR4Z_NEX",
+      "map": "All10 symbol pins mapped to equal-number footprint pads.",
+      "pcblib": "ARTIX/ARTIX/libraries/PUSB3FR4Z/PUSB3FR4Z.PcbLib",
+      "pcblib_sha256": "C644361E7FA51A6E706DCAC79B82E8A3575A20CC8E9DDD7B7145943D55FC3487"
+    }
+  ],
+  "discrepancies_and_limits": [
+    "TYPEC source 12 electrical pins+4 shells differs physically from full TE24 contacts+4 shell footprint; expansion by function is required.",
+    "PDF U30 NC6/7 are connected to signal nets. They are internally unconnected package terminals, not hidden second channel I/O pins; preserve external same-net connection.",
+    "Source R457 is12k. Low-resolution extraction or small image may misread2k.",
+    "Native readback evidence was produced earlier in runtime; this review reads those snapshots only and does not assert fresh live verification.",
+    "Component appearance, save/reopen verification, project model resolution and compiler connectivity remain the main agent's responsibility.",
+    "Support passive source graphic generally does not print1/2 pad designators; unordered endpoint pairs are electrical evidence, not a verified native footprint pin map.",
+    "No TE RevC local file was obtained; manufacturer RevB signal table was visually reviewed and matches primary USB-IF signal numbering.",
+    "FTDI supporting endpoint mapping shown here is for cross-checking only; exact FTDI variant compatibility requires separate manufacturer review."
+  ]
+}
+

@@ -1,0 +1,66 @@
+[
+  {
+    "reference": "C:\\Users\\mkkr\\Desktop\\Задание_КР_ОКиТПРЭС_РЛ1-71.docx",
+    "sha256": "99654048283db265a5bcf6b8854b333d1b20823c1103a470c9d8f1a45b2b119f",
+    "parts": {
+      "[Content_Types].xml": "0c0e17d3ac54a5acaf69b694e03959b923e2d1ead75f870ab74ab7828bc5cf64",
+      "_rels/.rels": "a76c44cf6b278166bfc93edce0a98846be30e584462153ba97fa683469ff5916",
+      "docProps/app.xml": "ada11420dd8de18ae431c1f3ba36a0bc3782eeca886c0e5531e8dd43add3bc2e",
+      "docProps/core.xml": "744f7c4f309171ffdd928464e5098131730c6bbaedaca1daf43d6056939cd1dd",
+      "word/document.xml": "ae3e0cdf1ec9fe120e510d1a6faf0e7f5e06b2f8c29889319e2b3c89610ce6ca",
+      "word/_rels/document.xml.rels": "fd6256750ed2e4862d653af7efba5eb5f008d3cc848792b2fd6b61ca812d5ab9",
+      "word/fontTable.xml": "9045b18ad4615d20b03ac47dfbb4d5836003630510bb9eb03d19f1685484060d",
+      "word/settings.xml": "beda512a79bfa7474ec8e562ed6a852b2f73a3f5517f0a301f17308ce4a791f2",
+      "word/footer1.xml": "e252bbb72be9024111e13f28f91bcd9e63677817a50e03051eb8f6bc52953152",
+      "word/styles.xml": "355df7d2751e40f7001d334b74961ec2c5d0bd4ba0012c50ff8e922cc0098449",
+      "customXml/item1.xml": "6484d95a7eb59c4beac874cc1fae10b7f7f4cfb7caeb09dfc375ad3ac4ad6ba0",
+      "customXml/_rels/item1.xml.rels": "1ca6c9a64edcebe24ee703a54403611b322d96da33371779e742d2d3f7ed7a6c",
+      "customXml/itemProps1.xml": "694605676487d36aa5504c627a44228037f438fdaee87e3820de51208c16b542",
+      "word/endnotes.xml": "43bb8da3255442f7a114b38bd8a596cf9242c9d1ab2e9aba68024daeab05aab7",
+      "word/footnotes.xml": "8d003a58b6e1d9778f7be9c43197accc969c07c75988417cd8ad94e536838a02",
+      "word/theme/theme1.xml": "66112b00cf96d9f52a52d711740925ee944679b6b46f0a1abe5cddd9ce7c500e",
+      "word/webSettings.xml": "b5fe6c33cc637e095b68ab56015abcb474e37b073075c4319ab22ae4dbe7123c",
+      "word/glossary/document.xml": "bf0cb6c40eb1ad4f74409d86ebfac71533276ecf8e873e4c96dcb07c7df51443",
+      "word/glossary/_rels/document.xml.rels": "d352dc304a5a228a114e3cc772f348142bca21d3c1e1228585d7db4576701a21",
+      "word/glossary/webSettings.xml": "f2f6fe7679634963bf49bae65f941f41934de42ceeb3a806afac4bab92274853",
+      "word/glossary/settings.xml": "d4e7ce01d4e684a1d92d9b7e5972164ab35a7d72d92b5e4facfb803f43afad08",
+      "word/glossary/styles.xml": "65e9671d54784a281ce616f8bd588102ae0ae825c72db96250b0fe7661086604",
+      "word/glossary/fontTable.xml": "9045b18ad4615d20b03ac47dfbb4d5836003630510bb9eb03d19f1685484060d"
+    },
+    "section": [
+      "<w:sectPr xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:wpc=\"http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas\" xmlns:cx=\"http://schemas.microsoft.com/office/drawing/2014/chartex\" xmlns:cx1=\"http://schemas.microsoft.com/office/drawing/2015/9/8/chartex\" xmlns:cx2=\"http://schemas.microsoft.com/office/drawing/2015/10/21/chartex\" xmlns:cx3=\"http://schemas.microsoft.com/office/drawing/2016/5/9/chartex\" xmlns:cx4=\"http://schemas.microsoft.com/office/drawing/2016/5/10/chartex\" xmlns:cx5=\"http://schemas.microsoft.com/office/drawing/2016/5/11/chartex\" xmlns:cx6=\"http://schemas.microsoft.com/office/drawing/2016/5/12/chartex\" xmlns:cx7=\"http://schemas.microsoft.com/office/drawing/2016/5/13/chartex\" xmlns:cx8=\"http://schemas.microsoft.com/office/drawing/2016/5/14/chartex\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:aink=\"http://schemas.microsoft.com/office/drawing/2016/ink\" xmlns:am3d=\"http://schemas.microsoft.com/office/drawing/2017/model3d\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:oel=\"http://schemas.microsoft.com/office/2019/extlst\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:wp14=\"http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:w15=\"http://schemas.microsoft.com/office/word/2012/wordml\" xmlns:w16cex=\"http://schemas.microsoft.com/office/word/2018/wordml/cex\" xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\" xmlns:w16=\"http://schemas.microsoft.com/office/word/2018/wordml\" xmlns:w16du=\"http://schemas.microsoft.com/office/word/2023/wordml/word16du\" xmlns:w16sdtdh=\"http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash\" xmlns:w16sdtfl=\"http://schemas.microsoft.com/office/word/2024/wordml/sdtformatlock\" xmlns:w16se=\"http://schemas.microsoft.com/office/word/2015/wordml/symex\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:wpi=\"http://schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" w:rsidR=\"009B6776\" w:rsidRPr=\"009B6776\" w:rsidSect=\"00387C07\"><w:footerReference w:type=\"first\" r:id=\"rId7\"/><w:pgSz w:w=\"11906\" w:h=\"16838\"/><w:pgMar w:top=\"1134\" w:right=\"850\" w:bottom=\"1134\" w:left=\"1701\" w:header=\"708\" w:footer=\"708\" w:gutter=\"0\"/><w:cols w:space=\"708\"/><w:titlePg/><w:docGrid w:linePitch=\"360\"/></w:sectPr>"
+    ]
+  },
+  {
+    "reference": "C:\\Users\\mkkr\\Desktop\\Календарный_план_КР_ОКиТПРЭС_РЛ1_71.docx",
+    "sha256": "d08e849a62728d88920a651e1dbd774cc040b96672e021b57330eb3f854dca7a",
+    "parts": {
+      "[Content_Types].xml": "0c0e17d3ac54a5acaf69b694e03959b923e2d1ead75f870ab74ab7828bc5cf64",
+      "_rels/.rels": "a76c44cf6b278166bfc93edce0a98846be30e584462153ba97fa683469ff5916",
+      "docProps/app.xml": "ada11420dd8de18ae431c1f3ba36a0bc3782eeca886c0e5531e8dd43add3bc2e",
+      "docProps/core.xml": "744f7c4f309171ffdd928464e5098131730c6bbaedaca1daf43d6056939cd1dd",
+      "word/document.xml": "30aea3cf6b1ce9851e7fc190bbf0435d880f1477fc2a866b91f95cd3baccd4ce",
+      "word/_rels/document.xml.rels": "fd6256750ed2e4862d653af7efba5eb5f008d3cc848792b2fd6b61ca812d5ab9",
+      "word/fontTable.xml": "9045b18ad4615d20b03ac47dfbb4d5836003630510bb9eb03d19f1685484060d",
+      "word/settings.xml": "beda512a79bfa7474ec8e562ed6a852b2f73a3f5517f0a301f17308ce4a791f2",
+      "word/footer1.xml": "e252bbb72be9024111e13f28f91bcd9e63677817a50e03051eb8f6bc52953152",
+      "word/styles.xml": "355df7d2751e40f7001d334b74961ec2c5d0bd4ba0012c50ff8e922cc0098449",
+      "customXml/item1.xml": "6484d95a7eb59c4beac874cc1fae10b7f7f4cfb7caeb09dfc375ad3ac4ad6ba0",
+      "customXml/_rels/item1.xml.rels": "1ca6c9a64edcebe24ee703a54403611b322d96da33371779e742d2d3f7ed7a6c",
+      "customXml/itemProps1.xml": "694605676487d36aa5504c627a44228037f438fdaee87e3820de51208c16b542",
+      "word/endnotes.xml": "43bb8da3255442f7a114b38bd8a596cf9242c9d1ab2e9aba68024daeab05aab7",
+      "word/footnotes.xml": "8d003a58b6e1d9778f7be9c43197accc969c07c75988417cd8ad94e536838a02",
+      "word/theme/theme1.xml": "66112b00cf96d9f52a52d711740925ee944679b6b46f0a1abe5cddd9ce7c500e",
+      "word/webSettings.xml": "b5fe6c33cc637e095b68ab56015abcb474e37b073075c4319ab22ae4dbe7123c",
+      "word/glossary/document.xml": "bf0cb6c40eb1ad4f74409d86ebfac71533276ecf8e873e4c96dcb07c7df51443",
+      "word/glossary/_rels/document.xml.rels": "d352dc304a5a228a114e3cc772f348142bca21d3c1e1228585d7db4576701a21",
+      "word/glossary/webSettings.xml": "f2f6fe7679634963bf49bae65f941f41934de42ceeb3a806afac4bab92274853",
+      "word/glossary/settings.xml": "d4e7ce01d4e684a1d92d9b7e5972164ab35a7d72d92b5e4facfb803f43afad08",
+      "word/glossary/styles.xml": "65e9671d54784a281ce616f8bd588102ae0ae825c72db96250b0fe7661086604",
+      "word/glossary/fontTable.xml": "9045b18ad4615d20b03ac47dfbb4d5836003630510bb9eb03d19f1685484060d"
+    },
+    "section": [
+      "<w:sectPr xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:wpc=\"http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas\" xmlns:cx=\"http://schemas.microsoft.com/office/drawing/2014/chartex\" xmlns:cx1=\"http://schemas.microsoft.com/office/drawing/2015/9/8/chartex\" xmlns:cx2=\"http://schemas.microsoft.com/office/drawing/2015/10/21/chartex\" xmlns:cx3=\"http://schemas.microsoft.com/office/drawing/2016/5/9/chartex\" xmlns:cx4=\"http://schemas.microsoft.com/office/drawing/2016/5/10/chartex\" xmlns:cx5=\"http://schemas.microsoft.com/office/drawing/2016/5/11/chartex\" xmlns:cx6=\"http://schemas.microsoft.com/office/drawing/2016/5/12/chartex\" xmlns:cx7=\"http://schemas.microsoft.com/office/drawing/2016/5/13/chartex\" xmlns:cx8=\"http://schemas.microsoft.com/office/drawing/2016/5/14/chartex\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:aink=\"http://schemas.microsoft.com/office/drawing/2016/ink\" xmlns:am3d=\"http://schemas.microsoft.com/office/drawing/2017/model3d\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:oel=\"http://schemas.microsoft.com/office/2019/extlst\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:wp14=\"http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:w15=\"http://schemas.microsoft.com/office/word/2012/wordml\" xmlns:w16cex=\"http://schemas.microsoft.com/office/word/2018/wordml/cex\" xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\" xmlns:w16=\"http://schemas.microsoft.com/office/word/2018/wordml\" xmlns:w16du=\"http://schemas.microsoft.com/office/word/2023/wordml/word16du\" xmlns:w16sdtdh=\"http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash\" xmlns:w16sdtfl=\"http://schemas.microsoft.com/office/word/2024/wordml/sdtformatlock\" xmlns:w16se=\"http://schemas.microsoft.com/office/word/2015/wordml/symex\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:wpi=\"http://schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" w:rsidR=\"009B6776\" w:rsidRPr=\"009B6776\" w:rsidSect=\"00387C07\"><w:footerReference w:type=\"first\" r:id=\"rId7\"/><w:pgSz w:w=\"11906\" w:h=\"16838\"/><w:pgMar w:top=\"1134\" w:right=\"850\" w:bottom=\"1134\" w:left=\"1701\" w:header=\"708\" w:footer=\"708\" w:gutter=\"0\"/><w:cols w:space=\"708\"/><w:titlePg/><w:docGrid w:linePitch=\"360\"/></w:sectPr>"
+    ]
+  }
+]

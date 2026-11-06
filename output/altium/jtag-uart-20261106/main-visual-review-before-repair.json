@@ -1,0 +1,79 @@
+{
+  "saved_schdoc_sha256": "8f8eec6311ebe701e71cbb08eca3300df8bcf2bf0a0868487a171f5659a2629e",
+  "source_files": [
+    "main-readback.json",
+    "main-saved-records.json"
+  ],
+  "review_status": "changes required",
+  "native_preview_status": "ARTIX/ARTIX/__Previews/07_JTAG_UART.SchDocPreview absent atinspection",
+  "diagnostic_image": "evidence/07-saved-geometry-before-repair.png",
+  "diagnostic_image_limits": "Read-only reconstructed primitive view, Arialapproximation, simplified port/powerglyphs. No missing symbol bodies were invented. It is not a native screenshot.",
+  "confirmed_component_count": 36,
+  "confirmed_pin_count": 176,
+  "issues": [
+    {
+      "priority": "high",
+      "kind": "missing symbol graphics",
+      "components": [
+        "U14",
+        "U30",
+        "U23",
+        "U3",
+        "D22",
+        "X5",
+        "FB3",
+        "FB4"
+      ],
+      "evidence": "Each placed library component has zero direct-owned drawing primitives. Onlypins,parameters,designator,comment and model records survived. No record14/13 geometry anywhere; all88 record6 belong to8resistors and20caps. All13record4 labels are sheet notes.",
+      "impact": "Absent GOST body/field dividers/function labels and missing diode/crystal/ferrite shapes; drawing cannot be approved."
+    },
+    {
+      "priority": "high",
+      "kind": "overlapping labeled wires",
+      "components": [
+        "R456",
+        "R457"
+      ],
+      "evidence": "R456 lower FT_RESET_N wire atx215mm spansy270→263mm. R457 upper FT_REF wire samex spansy260→267mm. Sharedsegmenty263–267mm.",
+      "impact": "Visible overlap and likely electrical merge of RESET_N and REF; must resolve with native compiler."
+    },
+    {
+      "priority": "medium",
+      "kind": "overlapping component pin/text zones",
+      "components": [
+        "U14",
+        "U30"
+      ],
+      "evidence": "U14 shell rows rootx103mm,y202,196,190,184mm overlap U30 rightrows rootx101mm,y194,188,182,176,170mm. Restoring bodies makes occupied areas conflict too.",
+      "impact": "SH1–4 and U30 NC/GND labels/pins visually collide; move one block."
+    },
+    {
+      "priority": "medium",
+      "kind": "diode and capacitor bank overlap",
+      "components": [
+        "D22",
+        "C851",
+        "C852"
+      ],
+      "evidence": "D22 at175mm,365mm across bank cap row355mm andtopbus370mm. Diode text and wire labels overlap capacitor labels/branches. Anode endpointx190.25mm visuallynearly coincides withC852 vertical5V branchx190mm.",
+      "impact": "Poor readability and fragile clearances; move diode above/left ofbank."
+    },
+    {
+      "priority": "low",
+      "kind": "duplicate power names",
+      "components": [
+        "C851",
+        "C324",
+        "C291",
+        "C294",
+        "C295",
+        "C308",
+        "C326",
+        "C327"
+      ],
+      "evidence": "At bank bus origins both record25 netlabel and record17 powerobject withShowNetName=true use same net at same origin.",
+      "impact": "Potential duplicate5V/3V3/GND text; confirm in native render and retain onlynecessary display."
+    }
+  ],
+  "clipping": "No obvious sheetscale clipping in saved primitiveview; all36 components present. Visualapproval remainspending aftergraphics repair and reflow."
+}

@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "job_dir": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\tools\\altium\\runtime\\jobs\\31b9fac14b634008b4f2a127c5d1ed66",
+  "steps": [
+    "START",
+    "probe native ports, power, and intended NC",
+    "FINISHED"
+  ],
+  "elapsed_seconds": 2.41,
+  "result": {
+    "saved": true
+  }
+}

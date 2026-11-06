@@ -1,0 +1,5351 @@
+[
+  {
+    "path": "ARTIX\\ARTIX\\01_Power.SchDoc",
+    "components": [
+      {
+        "ref": "DA1",
+        "lib": "TPS563210A"
+      },
+      {
+        "ref": "C6",
+        "lib": "C"
+      },
+      {
+        "ref": "C1",
+        "lib": "C"
+      },
+      {
+        "ref": "C15",
+        "lib": "C"
+      },
+      {
+        "ref": "C16",
+        "lib": "C"
+      },
+      {
+        "ref": "C21",
+        "lib": "C"
+      },
+      {
+        "ref": "C25",
+        "lib": "C"
+      },
+      {
+        "ref": "L1",
+        "lib": "L"
+      },
+      {
+        "ref": "C17",
+        "lib": "C"
+      },
+      {
+        "ref": "R1",
+        "lib": "R"
+      },
+      {
+        "ref": "C11",
+        "lib": "C"
+      },
+      {
+        "ref": "C2",
+        "lib": "C"
+      },
+      {
+        "ref": "C7",
+        "lib": "C"
+      },
+      {
+        "ref": "R4",
+        "lib": "R"
+      },
+      {
+        "ref": "R9",
+        "lib": "R"
+      },
+      {
+        "ref": "DA3",
+        "lib": "TPS563210A"
+      },
+      {
+        "ref": "C23",
+        "lib": "C"
+      },
+      {
+        "ref": "C27",
+        "lib": "C"
+      },
+      {
+        "ref": "L3",
+        "lib": "L"
+      },
+      {
+        "ref": "C19",
+        "lib": "C"
+      },
+      {
+        "ref": "R13",
+        "lib": "R"
+      },
+      {
+        "ref": "C13",
+        "lib": "C"
+      },
+      {
+        "ref": "C4",
+        "lib": "C"
+      },
+      {
+        "ref": "C9",
+        "lib": "C"
+      },
+      {
+        "ref": "R6",
+        "lib": "R"
+      },
+      {
+        "ref": "R11",
+        "lib": "R"
+      },
+      {
+        "ref": "DA4",
+        "lib": "TPS563210A"
+      },
+      {
+        "ref": "C24",
+        "lib": "C"
+      },
+      {
+        "ref": "C28",
+        "lib": "C"
+      },
+      {
+        "ref": "L4",
+        "lib": "L"
+      },
+      {
+        "ref": "C20",
+        "lib": "C"
+      },
+      {
+        "ref": "R3",
+        "lib": "R"
+      },
+      {
+        "ref": "C14",
+        "lib": "C"
+      },
+      {
+        "ref": "C5",
+        "lib": "C"
+      },
+      {
+        "ref": "C10",
+        "lib": "C"
+      },
+      {
+        "ref": "R12",
+        "lib": "R"
+      },
+      {
+        "ref": "R7",
+        "lib": "R"
+      },
+      {
+        "ref": "DA2",
+        "lib": "TPS563210A"
+      },
+      {
+        "ref": "C22",
+        "lib": "C"
+      },
+      {
+        "ref": "C26",
+        "lib": "C"
+      },
+      {
+        "ref": "L2",
+        "lib": "L"
+      },
+      {
+        "ref": "C18",
+        "lib": "C"
+      },
+      {
+        "ref": "R2",
+        "lib": "R"
+      },
+      {
+        "ref": "C12",
+        "lib": "C"
+      },
+      {
+        "ref": "C3",
+        "lib": "C"
+      },
+      {
+        "ref": "C8",
+        "lib": "C"
+      },
+      {
+        "ref": "R5",
+        "lib": "R"
+      },
+      {
+        "ref": "R8",
+        "lib": "R"
+      },
+      {
+        "ref": "R10",
+        "lib": "R"
+      },
+      {
+        "ref": "B1",
+        "lib": "SPX3819M5-L-3-3"
+      },
+      {
+        "ref": "R14",
+        "lib": "R"
+      },
+      {
+        "ref": "H1",
+        "lib": "LED"
+      },
+      {
+        "ref": "C37",
+        "lib": "C"
+      },
+      {
+        "ref": "C42",
+        "lib": "C"
+      },
+      {
+        "ref": "C46",
+        "lib": "C"
+      },
+      {
+        "ref": "C50",
+        "lib": "C"
+      },
+      {
+        "ref": "C52",
+        "lib": "C"
+      },
+      {
+        "ref": "C54",
+        "lib": "C"
+      },
+      {
+        "ref": "C55",
+        "lib": "C"
+      },
+      {
+        "ref": "C56",
+        "lib": "C"
+      },
+      {
+        "ref": "C57",
+        "lib": "C"
+      },
+      {
+        "ref": "C58",
+        "lib": "C"
+      },
+      {
+        "ref": "C32",
+        "lib": "C_POL"
+      },
+      {
+        "ref": "C53",
+        "lib": "C"
+      },
+      {
+        "ref": "C51",
+        "lib": "C"
+      },
+      {
+        "ref": "C47",
+        "lib": "C"
+      },
+      {
+        "ref": "C43",
+        "lib": "C"
+      },
+      {
+        "ref": "C38",
+        "lib": "C"
+      },
+      {
+        "ref": "C33",
+        "lib": "C_POL"
+      },
+      {
+        "ref": "C48",
+        "lib": "C"
+      },
+      {
+        "ref": "C44",
+        "lib": "C"
+      },
+      {
+        "ref": "C40",
+        "lib": "C"
+      },
+      {
+        "ref": "C35",
+        "lib": "C_POL"
+      },
+      {
+        "ref": "C39",
+        "lib": "C"
+      },
+      {
+        "ref": "C34",
+        "lib": "C"
+      },
+      {
+        "ref": "C29",
+        "lib": "C"
+      },
+      {
+        "ref": "C45",
+        "lib": "C"
+      },
+      {
+        "ref": "C49",
+        "lib": "C"
+      },
+      {
+        "ref": "C41",
+        "lib": "C"
+      },
+      {
+        "ref": "C36",
+        "lib": "C"
+      },
+      {
+        "ref": "C31",
+        "lib": "C"
+      },
+      {
+        "ref": "C30",
+        "lib": "C_POL"
+      },
+      {
+        "ref": "C65",
+        "lib": "C"
+      },
+      {
+        "ref": "C72",
+        "lib": "C"
+      },
+      {
+        "ref": "C76",
+        "lib": "C"
+      },
+      {
+        "ref": "C66",
+        "lib": "C"
+      },
+      {
+        "ref": "C70",
+        "lib": "C"
+      },
+      {
+        "ref": "C74",
+        "lib": "C"
+      },
+      {
+        "ref": "C79",
+        "lib": "C"
+      },
+      {
+        "ref": "C85",
+        "lib": "C"
+      },
+      {
+        "ref": "C86",
+        "lib": "C_POL"
+      },
+      {
+        "ref": "C67",
+        "lib": "C"
+      },
+      {
+        "ref": "C71",
+        "lib": "C"
+      },
+      {
+        "ref": "C75",
+        "lib": "C"
+      },
+      {
+        "ref": "C80",
+        "lib": "C"
+      },
+      {
+        "ref": "C83",
+        "lib": "C_POL"
+      },
+      {
+        "ref": "C84",
+        "lib": "C_POL"
+      },
+      {
+        "ref": "C81",
+        "lib": "C"
+      },
+      {
+        "ref": "C77",
+        "lib": "C"
+      },
+      {
+        "ref": "C69",
+        "lib": "C"
+      },
+      {
+        "ref": "C64",
+        "lib": "C"
+      },
+      {
+        "ref": "C62",
+        "lib": "C"
+      },
+      {
+        "ref": "C60",
+        "lib": "C"
+      },
+      {
+        "ref": "C59",
+        "lib": "C"
+      },
+      {
+        "ref": "C61",
+        "lib": "C"
+      },
+      {
+        "ref": "C63",
+        "lib": "C"
+      },
+      {
+        "ref": "C68",
+        "lib": "C"
+      },
+      {
+        "ref": "C73",
+        "lib": "C"
+      },
+      {
+        "ref": "C78",
+        "lib": "C"
+      },
+      {
+        "ref": "C82",
+        "lib": "C_POL"
+      },
+      {
+        "ref": "U1",
+        "lib": "XC7A50T-2FGG484I"
+      },
+      {
+        "ref": "U1",
+        "lib": "XC7A50T-2FGG484I"
+      }
+    ],
+    "labels": [
+      {
+        "RECORD": "17",
+        "IndexInSheet": "48",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "248",
+        "Location.X_Frac": "3100",
+        "Location.Y": "88",
+        "Location.Y_Frac": "58252",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "CISPWNJI"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "50",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "127",
+        "Location.X_Frac": "95464",
+        "Location.Y": "116",
+        "Location.Y_Frac": "14243",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "VPRERPPB"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "51",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "127",
+        "Location.X_Frac": "95464",
+        "Location.Y": "163",
+        "Location.Y_Frac": "38655",
+        "Orientation": "1",
+        "FontID": "3",
+        "Text": "5V",
+        "UniqueID": "QTTDHHDB"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "56",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "435",
+        "Location.X_Frac": "4162",
+        "Location.Y": "159",
+        "Location.Y_Frac": "44954",
+        "Orientation": "1",
+        "FontID": "3",
+        "Text": "VCCIO_ADJ",
+        "UniqueID": "WJUVTVSV"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "57",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "435",
+        "Location.X_Frac": "4162",
+        "Location.Y": "108",
+        "Location.Y_Frac": "26841",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "PXNPVTEC"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "58",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "486",
+        "Location.X_Frac": "22275",
+        "Location.Y": "108",
+        "Location.Y_Frac": "26841",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "JAMSWRDD"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "61",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "661",
+        "Location.X_Frac": "41767",
+        "Location.Y": "1005",
+        "Location.Y_Frac": "90606",
+        "Orientation": "1",
+        "FontID": "3",
+        "Text": "1V5",
+        "UniqueID": "RAXDKYKY"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "62",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "661",
+        "Location.X_Frac": "41767",
+        "Location.Y": "962",
+        "Location.Y_Frac": "59895",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "BMKOAWQK"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "64",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "472",
+        "Location.X_Frac": "44111",
+        "Location.Y": "946",
+        "Location.Y_Frac": "85095",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "TWSZMRZY"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "66",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "161",
+        "Location.X_Frac": "41741",
+        "Location.Y": "978",
+        "Location.Y_Frac": "34699",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "SILKLMJI"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "67",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "208",
+        "Location.X_Frac": "66153",
+        "Location.Y": "978",
+        "Location.Y_Frac": "34699",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "XUFLZEQN"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "70",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "244",
+        "Location.X_Frac": "9462",
+        "Location.Y": "940",
+        "Location.Y_Frac": "94547",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "FAOEOHNE"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "74",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "224",
+        "Location.X_Frac": "40957",
+        "Location.Y": "899",
+        "Location.Y_Frac": "60679",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "UGDYFYTW"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "76",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "125",
+        "Location.X_Frac": "98432",
+        "Location.Y": "1029",
+        "Location.Y_Frac": "52812",
+        "Orientation": "1",
+        "FontID": "3",
+        "Text": "5V",
+        "UniqueID": "FLCTAPTK"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "77",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "362",
+        "Location.X_Frac": "20492",
+        "Location.Y": "899",
+        "Location.Y_Frac": "60679",
+        "FontID": "3",
+        "Text": "1V5",
+        "UniqueID": "DQMDCNIK"
+      },
+      {
+        "RECORD": "25",
+        "IndexInSheet": "78",
+        "OwnerPartId": "-1",
+        "Location.X": "118",
+        "Location.X_Frac": "11030",
+        "Location.Y": "868",
+        "Location.Y_Frac": "11071",
+        "FontID": "3",
+        "Text": "PG_1V5",
+        "UniqueID": "FFZSHJBK"
+      },
+      {
+        "RECORD": "25",
+        "IndexInSheet": "79",
+        "OwnerPartId": "-1",
+        "Location.X": "263",
+        "Location.X_Frac": "77967",
+        "Location.Y": "994",
+        "Location.Y_Frac": "9505",
+        "FontID": "3",
+        "Text": "PG_1V8",
+        "UniqueID": "CXTSBCUC"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "83",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "665",
+        "Location.X_Frac": "35477",
+        "Location.Y": "797",
+        "Location.Y_Frac": "24449",
+        "Orientation": "1",
+        "FontID": "3",
+        "Text": "3V3",
+        "UniqueID": "QWUIQYXI"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "84",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "665",
+        "Location.X_Frac": "35477",
+        "Location.Y": "753",
+        "Location.Y_Frac": "93738",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "HIYDIEPU"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "86",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "476",
+        "Location.X_Frac": "37821",
+        "Location.Y": "738",
+        "Location.Y_Frac": "18938",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "ZQHUSRXU"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "88",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "165",
+        "Location.X_Frac": "35451",
+        "Location.Y": "769",
+        "Location.Y_Frac": "68542",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "OBWVAOXX"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "89",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "212",
+        "Location.X_Frac": "59863",
+        "Location.Y": "769",
+        "Location.Y_Frac": "68542",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "NKDAMMXG"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "92",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "248",
+        "Location.X_Frac": "3172",
+        "Location.Y": "732",
+        "Location.Y_Frac": "28390",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "QHIWEEFC"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "96",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "228",
+        "Location.X_Frac": "34667",
+        "Location.Y": "690",
+        "Location.Y_Frac": "94522",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "NLMMTPJN"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "98",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "129",
+        "Location.X_Frac": "92142",
+        "Location.Y": "820",
+        "Location.Y_Frac": "86655",
+        "Orientation": "1",
+        "FontID": "3",
+        "Text": "5V",
+        "UniqueID": "DLXBBFEW"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "99",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "368",
+        "Location.X_Frac": "10954",
+        "Location.Y": "690",
+        "Location.Y_Frac": "94348",
+        "FontID": "3",
+        "Text": "3V3",
+        "UniqueID": "ACHWNBQG"
+      },
+      {
+        "RECORD": "25",
+        "IndexInSheet": "100",
+        "OwnerPartId": "-1",
+        "Location.X": "551",
+        "Location.X_Frac": "18004",
+        "Location.Y": "698",
+        "Location.Y_Frac": "81748",
+        "FontID": "3",
+        "Text": "PG_3V3",
+        "UniqueID": "OAMWEUCW"
+      },
+      {
+        "RECORD": "25",
+        "IndexInSheet": "101",
+        "OwnerPartId": "-1",
+        "Location.X": "267",
+        "Location.X_Frac": "71677",
+        "Location.Y": "785",
+        "Location.Y_Frac": "43348",
+        "FontID": "3",
+        "Text": "PG_1V5",
+        "UniqueID": "ZZROAMIW"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "105",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "665",
+        "Location.X_Frac": "35468",
+        "Location.Y": "604",
+        "Location.Y_Frac": "33107",
+        "Orientation": "1",
+        "FontID": "3",
+        "Text": "1V8",
+        "UniqueID": "DBQOKBCF"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "106",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "665",
+        "Location.X_Frac": "35468",
+        "Location.Y": "561",
+        "Location.Y_Frac": "2396",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "EOMYUAIO"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "108",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "476",
+        "Location.X_Frac": "37812",
+        "Location.Y": "545",
+        "Location.Y_Frac": "27596",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "OJSZJETB"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "110",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "165",
+        "Location.X_Frac": "35442",
+        "Location.Y": "576",
+        "Location.Y_Frac": "77200",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "ZGQXJBJO"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "111",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "212",
+        "Location.X_Frac": "59854",
+        "Location.Y": "576",
+        "Location.Y_Frac": "77200",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "TQEFSNUF"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "114",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "248",
+        "Location.X_Frac": "3163",
+        "Location.Y": "539",
+        "Location.Y_Frac": "37048",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "DRHHXAPP"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "117",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "228",
+        "Location.X_Frac": "34658",
+        "Location.Y": "498",
+        "Location.Y_Frac": "3180",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "GPKIFPYL"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "119",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "129",
+        "Location.X_Frac": "92133",
+        "Location.Y": "627",
+        "Location.Y_Frac": "95313",
+        "Orientation": "1",
+        "FontID": "3",
+        "Text": "5V",
+        "UniqueID": "HQVRANXQ"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "120",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "366",
+        "Location.X_Frac": "14193",
+        "Location.Y": "498",
+        "Location.Y_Frac": "3180",
+        "FontID": "3",
+        "Text": "1V8",
+        "UniqueID": "NEVSLHKZ"
+      },
+      {
+        "RECORD": "25",
+        "IndexInSheet": "121",
+        "OwnerPartId": "-1",
+        "Location.X": "122",
+        "Location.X_Frac": "4731",
+        "Location.Y": "466",
+        "Location.Y_Frac": "53572",
+        "FontID": "3",
+        "Text": "PG_1V8",
+        "UniqueID": "KLNTITLY"
+      },
+      {
+        "RECORD": "25",
+        "IndexInSheet": "122",
+        "OwnerPartId": "-1",
+        "Location.X": "267",
+        "Location.X_Frac": "71668",
+        "Location.Y": "592",
+        "Location.Y_Frac": "52006",
+        "FontID": "3",
+        "Text": "PG_1V0",
+        "UniqueID": "XZBIXLMA"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "127",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "661",
+        "Location.X_Frac": "41708",
+        "Location.Y": "356",
+        "Location.Y_Frac": "29869",
+        "Orientation": "1",
+        "FontID": "3",
+        "Text": "1V0",
+        "UniqueID": "HQMTLLZJ"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "128",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "661",
+        "Location.X_Frac": "41708",
+        "Location.Y": "312",
+        "Location.Y_Frac": "99158",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "LMTHBUHA"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "130",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "472",
+        "Location.X_Frac": "44052",
+        "Location.Y": "297",
+        "Location.Y_Frac": "24358",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "QYJSDXNV"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "132",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "161",
+        "Location.X_Frac": "41682",
+        "Location.Y": "328",
+        "Location.Y_Frac": "73962",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "ESVOWPQC"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "133",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "208",
+        "Location.X_Frac": "66094",
+        "Location.Y": "328",
+        "Location.Y_Frac": "73962",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "HREWHRSD"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "136",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "244",
+        "Location.X_Frac": "9403",
+        "Location.Y": "291",
+        "Location.Y_Frac": "33810",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "KAVYHCEA"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "139",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "224",
+        "Location.X_Frac": "40898",
+        "Location.Y": "249",
+        "Location.Y_Frac": "99942",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "DZQQTWAD"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "140",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "125",
+        "Location.X_Frac": "98373",
+        "Location.Y": "379",
+        "Location.Y_Frac": "92075",
+        "Orientation": "1",
+        "FontID": "3",
+        "Text": "5V",
+        "UniqueID": "FDQVFOES"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "141",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "362",
+        "Location.X_Frac": "20433",
+        "Location.Y": "249",
+        "Location.Y_Frac": "99942",
+        "FontID": "3",
+        "Text": "1V0",
+        "UniqueID": "SGJHZVWX"
+      },
+      {
+        "RECORD": "25",
+        "IndexInSheet": "142",
+        "OwnerPartId": "-1",
+        "Location.X": "118",
+        "Location.X_Frac": "10971",
+        "Location.Y": "218",
+        "Location.Y_Frac": "50334",
+        "FontID": "3",
+        "Text": "PG_1V0",
+        "UniqueID": "ZXKHMGBA"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "145",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "275",
+        "Location.X_Frac": "59000",
+        "Location.Y": "433",
+        "Location.Y_Frac": "7002",
+        "Orientation": "1",
+        "FontID": "3",
+        "Text": "5V",
+        "UniqueID": "IFWAYMHH"
+      },
+      {
+        "RECORD": "25",
+        "IndexInSheet": "148",
+        "OwnerPartId": "-1",
+        "Location.X": "218",
+        "Location.X_Frac": "50350",
+        "Location.Y": "127",
+        "Location.Y_Frac": "95252",
+        "FontID": "3",
+        "Text": "PG_3V3",
+        "UniqueID": "GHMHVKLC"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "149",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "1220",
+        "Location.X_Frac": "47248",
+        "Location.Y": "797",
+        "Location.Y_Frac": "24412",
+        "FontID": "3",
+        "Text": "1V5",
+        "UniqueID": "JJYHWWXJ"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "150",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "1220",
+        "Location.X_Frac": "47248",
+        "Location.Y": "885",
+        "Location.Y_Frac": "82680",
+        "FontID": "3",
+        "Text": "3V3",
+        "UniqueID": "WNOOWPDR"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "151",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "1220",
+        "Location.X_Frac": "47248",
+        "Location.Y": "964",
+        "Location.Y_Frac": "56696",
+        "FontID": "3",
+        "Text": "VCCIO_ADJ",
+        "UniqueID": "HDNWEOFG"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "152",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "1220",
+        "Location.X_Frac": "47248",
+        "Location.Y": "1043",
+        "Location.Y_Frac": "30712",
+        "FontID": "3",
+        "Text": "3V3",
+        "UniqueID": "KGGFYETW"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "153",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "1220",
+        "Location.X_Frac": "47248",
+        "Location.Y": "1112",
+        "Location.Y_Frac": "20476",
+        "FontID": "3",
+        "Text": "3V3",
+        "UniqueID": "SDNDJZEY"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "154",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "529",
+        "Location.X_Frac": "52654",
+        "Location.Y": "761",
+        "Location.Y_Frac": "80948",
+        "Orientation": "1",
+        "FontID": "3",
+        "Text": "3V3",
+        "UniqueID": "HQHKESOH"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "155",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "728",
+        "Location.X_Frac": "34504",
+        "Location.Y": "805",
+        "Location.Y_Frac": "11648",
+        "Orientation": "1",
+        "FontID": "3",
+        "Text": "3V3",
+        "UniqueID": "HAPOLGKH"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "158",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "728",
+        "Location.X_Frac": "34504",
+        "Location.Y": "683",
+        "Location.Y_Frac": "6948",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "PUBPPTYA"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "159",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "1033",
+        "Location.X_Frac": "46460",
+        "Location.Y": "954",
+        "Location.Y_Frac": "72444",
+        "Orientation": "2",
+        "FontID": "3",
+        "Text": "1V8",
+        "UniqueID": "ATCUGZYO"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "160",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "1033",
+        "Location.X_Frac": "46460",
+        "Location.Y": "1112",
+        "Location.Y_Frac": "20476",
+        "Orientation": "2",
+        "FontID": "3",
+        "Text": "1V0",
+        "UniqueID": "ZVRNYKNO"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "161",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "1033",
+        "Location.X_Frac": "46460",
+        "Location.Y": "826",
+        "Location.Y_Frac": "77168",
+        "Orientation": "2",
+        "FontID": "3",
+        "Text": "3V3",
+        "UniqueID": "YJOUXWOJ"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "162",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "1023",
+        "Location.X_Frac": "62208",
+        "Location.Y": "787",
+        "Location.Y_Frac": "40160",
+        "Orientation": "2",
+        "FontID": "3",
+        "Text": "3V3",
+        "UniqueID": "KHBZPKWS"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "174",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "797",
+        "Location.X_Frac": "24412",
+        "Location.Y": "629",
+        "Location.Y_Frac": "92128",
+        "Orientation": "2",
+        "FontID": "3",
+        "Text": "1V0",
+        "UniqueID": "EOCWOJAS"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "181",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "984",
+        "Location.X_Frac": "25200",
+        "Location.Y": "561",
+        "Location.Y_Frac": "2364",
+        "Orientation": "2",
+        "FontID": "3",
+        "Text": "1V8",
+        "UniqueID": "NRWZQHFD"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "186",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "1072",
+        "Location.X_Frac": "83468",
+        "Location.Y": "501",
+        "Location.Y_Frac": "96852",
+        "Orientation": "2",
+        "FontID": "3",
+        "Text": "1V0",
+        "UniqueID": "UVGCIPWM"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "187",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "1230",
+        "Location.X_Frac": "31500",
+        "Location.Y": "521",
+        "Location.Y_Frac": "65356",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "HIVIFLLO"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "188",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "1230",
+        "Location.X_Frac": "31500",
+        "Location.Y": "462",
+        "Location.Y_Frac": "59844",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "JNBIYUSA"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "189",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "1230",
+        "Location.X_Frac": "31500",
+        "Location.Y": "590",
+        "Location.Y_Frac": "55120",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "URYMBALV"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "193",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "1122",
+        "Location.X_Frac": "4728",
+        "Location.Y": "433",
+        "Location.Y_Frac": "7088",
+        "Orientation": "2",
+        "FontID": "3",
+        "Text": "3V3",
+        "UniqueID": "NGXPLMOX"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "200",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "1230",
+        "Location.X_Frac": "31306",
+        "Location.Y": "334",
+        "Location.Y_Frac": "64482",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "WDHKBENY"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "201",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "1025",
+        "Location.X_Frac": "58906",
+        "Location.Y": "370",
+        "Location.Y_Frac": "7782",
+        "Orientation": "2",
+        "FontID": "3",
+        "Text": "3V3",
+        "UniqueID": "GNTDYIOI"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "205",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "1574",
+        "Location.X_Frac": "80320",
+        "Location.Y": "570",
+        "Location.Y_Frac": "86616",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "CNSISXJC"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "206",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "1486",
+        "Location.X_Frac": "22052",
+        "Location.Y": "600",
+        "Location.Y_Frac": "39372",
+        "Orientation": "2",
+        "FontID": "3",
+        "Text": "3V3",
+        "UniqueID": "RUXINZNF"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "213",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "1358",
+        "Location.X_Frac": "26776",
+        "Location.Y": "551",
+        "Location.Y_Frac": "18112",
+        "Orientation": "2",
+        "FontID": "3",
+        "Text": "3V3",
+        "UniqueID": "TCVLPAYZ"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "214",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "1574",
+        "Location.X_Frac": "80320",
+        "Location.Y": "511",
+        "Location.Y_Frac": "81104",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "EQNCIZLB"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "220",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "1407",
+        "Location.X_Frac": "48036",
+        "Location.Y": "482",
+        "Location.Y_Frac": "28348",
+        "Orientation": "2",
+        "FontID": "3",
+        "Text": "VCCIO_ADJ",
+        "UniqueID": "SYQQPHVI"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "221",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "1574",
+        "Location.X_Frac": "80320",
+        "Location.Y": "452",
+        "Location.Y_Frac": "75592",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "MPPYRPDT"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "229",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "1309",
+        "Location.X_Frac": "5516",
+        "Location.Y": "433",
+        "Location.Y_Frac": "7088",
+        "Orientation": "2",
+        "FontID": "3",
+        "Text": "3V3",
+        "UniqueID": "XWCNYGLC"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "230",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "1574",
+        "Location.X_Frac": "80320",
+        "Location.Y": "393",
+        "Location.Y_Frac": "70080",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "LDFEFEYC"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "238",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "1309",
+        "Location.X_Frac": "5516",
+        "Location.Y": "374",
+        "Location.Y_Frac": "1576",
+        "Orientation": "2",
+        "FontID": "3",
+        "Text": "1V5",
+        "UniqueID": "UMLKHQPU"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "239",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "1574",
+        "Location.X_Frac": "80320",
+        "Location.Y": "334",
+        "Location.Y_Frac": "64568",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "FEIRVKUV"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "241",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "1033",
+        "Location.X_Frac": "46460",
+        "Location.Y": "885",
+        "Location.Y_Frac": "82544",
+        "Orientation": "2",
+        "FontID": "3",
+        "Text": "1V0",
+        "UniqueID": "BPDIZYCQ"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "243",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "1328",
+        "Location.X_Frac": "74020",
+        "Location.Y": "698",
+        "Location.Y_Frac": "81892",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "UNBNAHAA"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "244",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "1496",
+        "Location.X_Frac": "6304",
+        "Location.Y": "688",
+        "Location.Y_Frac": "97640",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "SMSGQZAN"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "245",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "1230",
+        "Location.X_Frac": "31500",
+        "Location.Y": "403",
+        "Location.Y_Frac": "54332",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "IVBTDIDA"
+      }
+    ],
+    "fpga_instances": [
+      {
+        "RECORD": "1",
+        "LibReference": "XC7A50T-2FGG484I",
+        "ComponentDescription": "FPGA - Field Programmable Gate Array XC7A50T-2FGG484I",
+        "PartCount": "11",
+        "DisplayModeCount": "1",
+        "IndexInSheet": "240",
+        "OwnerPartId": "-1",
+        "Location.X": "1053",
+        "Location.X_Frac": "14964",
+        "Location.Y": "1131",
+        "Location.Y_Frac": "88844",
+        "CurrentPartId": "9",
+        "LibraryPath": "*",
+        "SourceLibraryName": "XC7A50T-2FGG484I.SchLib",
+        "TargetFileName": "*",
+        "UniqueID": "BBEXDXSJ",
+        "AreaColor": "11599871",
+        "Color": "128",
+        "PartIDLocked": "T",
+        "DesignItemId": "XC7A50T-2FGG484I",
+        "AllPinCount": "484"
+      },
+      {
+        "RECORD": "1",
+        "LibReference": "XC7A50T-2FGG484I",
+        "ComponentDescription": "FPGA - Field Programmable Gate Array XC7A50T-2FGG484I",
+        "PartCount": "11",
+        "DisplayModeCount": "1",
+        "IndexInSheet": "242",
+        "OwnerPartId": "-1",
+        "Location.X": "1348",
+        "Location.X_Frac": "42524",
+        "Location.Y": "1131",
+        "Location.Y_Frac": "88980",
+        "CurrentPartId": "8",
+        "LibraryPath": "*",
+        "SourceLibraryName": "XC7A50T-2FGG484I.SchLib",
+        "TargetFileName": "*",
+        "UniqueID": "ZKTIFGNA",
+        "AreaColor": "11599871",
+        "Color": "128",
+        "PartIDLocked": "T",
+        "DesignItemId": "XC7A50T-2FGG484I",
+        "AllPinCount": "484"
+      }
+    ]
+  },
+  {
+    "path": "ARTIX\\ARTIX\\02_FPGA_IO_Config.SchDoc",
+    "components": [
+      {
+        "ref": "R16",
+        "lib": "R"
+      },
+      {
+        "ref": "R18",
+        "lib": "R"
+      },
+      {
+        "ref": "R19",
+        "lib": "R"
+      },
+      {
+        "ref": "C87",
+        "lib": "C"
+      },
+      {
+        "ref": "C90",
+        "lib": "C"
+      },
+      {
+        "ref": "C89",
+        "lib": "C"
+      },
+      {
+        "ref": "C88",
+        "lib": "C"
+      },
+      {
+        "ref": "FB1",
+        "lib": "CMP-0686-00602-4"
+      },
+      {
+        "ref": "R21",
+        "lib": "R"
+      },
+      {
+        "ref": "R22",
+        "lib": "R"
+      },
+      {
+        "ref": "R20",
+        "lib": "R"
+      },
+      {
+        "ref": "R23",
+        "lib": "R"
+      },
+      {
+        "ref": "R24",
+        "lib": "R"
+      },
+      {
+        "ref": "H4",
+        "lib": "LED"
+      },
+      {
+        "ref": "U2",
+        "lib": "W25Q128JVSIQ"
+      },
+      {
+        "ref": "R15",
+        "lib": "R"
+      },
+      {
+        "ref": "R17",
+        "lib": "R"
+      },
+      {
+        "ref": "H2",
+        "lib": "LED"
+      },
+      {
+        "ref": "H3",
+        "lib": "LED"
+      },
+      {
+        "ref": "U1",
+        "lib": "XC7A50T-2FGG484I"
+      },
+      {
+        "ref": "U1",
+        "lib": "XC7A50T-2FGG484I"
+      },
+      {
+        "ref": "U1",
+        "lib": "XC7A50T-2FGG484I"
+      }
+    ],
+    "labels": [
+      {
+        "RECORD": "17",
+        "IndexInSheet": "49",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "226",
+        "Location.X_Frac": "37796",
+        "Location.Y": "866",
+        "Location.Y_Frac": "14176",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "QTDNEWZC"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "51",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "442",
+        "Location.X_Frac": "91340",
+        "Location.Y": "1033",
+        "Location.Y_Frac": "46460",
+        "Orientation": "1",
+        "FontID": "3",
+        "Text": "3V3",
+        "UniqueID": "LUUWMRKH"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "53",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "364",
+        "Location.X_Frac": "17324",
+        "Location.Y": "994",
+        "Location.Y_Frac": "9452",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "OUMGXSMR"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "54",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "757",
+        "Location.X_Frac": "87404",
+        "Location.Y": "1082",
+        "Location.Y_Frac": "67720",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "FLFUPURL"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "55",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "777",
+        "Location.X_Frac": "55908",
+        "Location.Y": "1013",
+        "Location.Y_Frac": "77956",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "GZIHJGXN"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "56",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "777",
+        "Location.X_Frac": "55908",
+        "Location.Y": "974",
+        "Location.Y_Frac": "40948",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "NCZWPBID"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "60",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "600",
+        "Location.X_Frac": "39372",
+        "Location.Y": "984",
+        "Location.Y_Frac": "25200",
+        "Orientation": "2",
+        "FontID": "3",
+        "Text": "1V8",
+        "UniqueID": "TYSEJMZU"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "61",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "610",
+        "Location.X_Frac": "23624",
+        "Location.Y": "954",
+        "Location.Y_Frac": "72444",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "WYKBEXSU"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "62",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "688",
+        "Location.X_Frac": "97640",
+        "Location.Y": "954",
+        "Location.Y_Frac": "72444",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "NJZENPFL"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "63",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "738",
+        "Location.X_Frac": "18900",
+        "Location.Y": "954",
+        "Location.Y_Frac": "72444",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "HJKJOLFR"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "64",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "797",
+        "Location.X_Frac": "24412",
+        "Location.Y": "915",
+        "Location.Y_Frac": "35436",
+        "Orientation": "2",
+        "FontID": "3",
+        "Text": "1V8",
+        "UniqueID": "HDOBJGZN"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "65",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "236",
+        "Location.X_Frac": "22048",
+        "Location.Y": "1033",
+        "Location.Y_Frac": "46460",
+        "Orientation": "1",
+        "FontID": "3",
+        "Text": "3V3",
+        "UniqueID": "YWUSPPRB"
+      },
+      {
+        "RECORD": "25",
+        "IndexInSheet": "67",
+        "OwnerPartId": "-1",
+        "Location.X": "1023",
+        "Location.X_Frac": "62208",
+        "Location.Y": "895",
+        "Location.Y_Frac": "66932",
+        "FontID": "3",
+        "Text": "QSPI_CLK",
+        "UniqueID": "ZZESNWIG"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "71",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "1033",
+        "Location.X_Frac": "46460",
+        "Location.Y": "944",
+        "Location.Y_Frac": "88192",
+        "FontID": "3",
+        "Text": "3V3",
+        "UniqueID": "YAELZULC"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "72",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "1003",
+        "Location.X_Frac": "93704",
+        "Location.Y": "925",
+        "Location.Y_Frac": "19688",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "HTFDZIOO"
+      },
+      {
+        "RECORD": "25",
+        "IndexInSheet": "73",
+        "OwnerPartId": "-1",
+        "Location.X": "984",
+        "Location.X_Frac": "25200",
+        "Location.Y": "1062",
+        "Location.Y_Frac": "99216",
+        "FontID": "3",
+        "Text": "FPGA_TDO",
+        "UniqueID": "MRORMNPA"
+      },
+      {
+        "RECORD": "25",
+        "IndexInSheet": "74",
+        "OwnerPartId": "-1",
+        "Location.X": "984",
+        "Location.X_Frac": "25200",
+        "Location.Y": "1072",
+        "Location.Y_Frac": "83468",
+        "FontID": "3",
+        "Text": "FPGA_TDI",
+        "UniqueID": "BGJBDBUB"
+      },
+      {
+        "RECORD": "25",
+        "IndexInSheet": "75",
+        "OwnerPartId": "-1",
+        "Location.X": "984",
+        "Location.X_Frac": "25200",
+        "Location.Y": "1082",
+        "Location.Y_Frac": "67720",
+        "FontID": "3",
+        "Text": "FPGA_TCK",
+        "UniqueID": "AGFMODHV"
+      },
+      {
+        "RECORD": "25",
+        "IndexInSheet": "76",
+        "OwnerPartId": "-1",
+        "Location.X": "984",
+        "Location.X_Frac": "25200",
+        "Location.Y": "1092",
+        "Location.Y_Frac": "51972",
+        "FontID": "3",
+        "Text": "FPGA_TMS",
+        "UniqueID": "HXUSVJQP"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "77",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "1043",
+        "Location.X_Frac": "30712",
+        "Location.Y": "1043",
+        "Location.Y_Frac": "30712",
+        "FontID": "3",
+        "Text": "1V8",
+        "UniqueID": "ATESNILL"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "80",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "1082",
+        "Location.X_Frac": "67720",
+        "Location.Y": "1043",
+        "Location.Y_Frac": "30712",
+        "Orientation": "1",
+        "FontID": "3",
+        "Text": "3V3",
+        "UniqueID": "GVABZOOH"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "82",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "1082",
+        "Location.X_Frac": "67720",
+        "Location.Y": "856",
+        "Location.Y_Frac": "29924",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "OVNCLVTU"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "95",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "1259",
+        "Location.X_Frac": "84256",
+        "Location.Y": "935",
+        "Location.Y_Frac": "3940",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "SYIQPAVZ"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "96",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "1259",
+        "Location.X_Frac": "84256",
+        "Location.Y": "885",
+        "Location.Y_Frac": "82680",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "KMYLXXWW"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "97",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "1515",
+        "Location.X_Frac": "74808",
+        "Location.Y": "885",
+        "Location.Y_Frac": "82680",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "YFXRUHFD"
+      },
+      {
+        "RECORD": "18",
+        "IndexInSheet": "134",
+        "OwnerPartId": "-1",
+        "Width": "59",
+        "Width_Frac": "5512",
+        "Location.X": "452",
+        "Location.X_Frac": "75592",
+        "Location.Y": "905",
+        "Location.Y_Frac": "51184",
+        "FontID": "3",
+        "AreaColor": "16777215",
+        "Name": "QSPI_DQ3",
+        "UniqueID": "HDHPXXLK",
+        "Height": "10",
+        "AutoSize": "T"
+      },
+      {
+        "RECORD": "18",
+        "IndexInSheet": "135",
+        "OwnerPartId": "-1",
+        "Width": "59",
+        "Width_Frac": "5512",
+        "Location.X": "452",
+        "Location.X_Frac": "75592",
+        "Location.Y": "866",
+        "Location.Y_Frac": "14176",
+        "FontID": "3",
+        "AreaColor": "16777215",
+        "Name": "QSPI_DQ0",
+        "UniqueID": "PCSYCYAI",
+        "Height": "10",
+        "AutoSize": "T"
+      },
+      {
+        "RECORD": "18",
+        "IndexInSheet": "136",
+        "OwnerPartId": "-1",
+        "Width": "59",
+        "Width_Frac": "5512",
+        "Location.X": "127",
+        "Location.X_Frac": "95276",
+        "Location.Y": "885",
+        "Location.Y_Frac": "82680",
+        "FontID": "3",
+        "AreaColor": "16777215",
+        "Name": "QSPI_DQ2",
+        "UniqueID": "NYSACCVJ",
+        "Height": "10",
+        "AutoSize": "T"
+      },
+      {
+        "RECORD": "18",
+        "IndexInSheet": "137",
+        "OwnerPartId": "-1",
+        "Width": "59",
+        "Width_Frac": "5512",
+        "Location.X": "127",
+        "Location.X_Frac": "95276",
+        "Location.Y": "905",
+        "Location.Y_Frac": "51184",
+        "FontID": "3",
+        "AreaColor": "16777215",
+        "Name": "QSPI_DQ1",
+        "UniqueID": "KHKKIAMU",
+        "Height": "10",
+        "AutoSize": "T"
+      },
+      {
+        "RECORD": "18",
+        "IndexInSheet": "138",
+        "OwnerPartId": "-1",
+        "Width": "59",
+        "Width_Frac": "5512",
+        "Location.X": "127",
+        "Location.X_Frac": "95276",
+        "Location.Y": "925",
+        "Location.Y_Frac": "19688",
+        "FontID": "3",
+        "AreaColor": "16777215",
+        "Name": "QSPI_CS",
+        "UniqueID": "XBWKTHOV",
+        "Height": "10",
+        "AutoSize": "T"
+      },
+      {
+        "RECORD": "25",
+        "IndexInSheet": "139",
+        "OwnerPartId": "-1",
+        "Location.X": "413",
+        "Location.X_Frac": "38584",
+        "Location.Y": "885",
+        "Location.Y_Frac": "82680",
+        "FontID": "3",
+        "Text": "QSPI_CLK",
+        "UniqueID": "LXXFTADU"
+      },
+      {
+        "RECORD": "18",
+        "IndexInSheet": "140",
+        "OwnerPartId": "-1",
+        "Width": "39",
+        "Width_Frac": "37000",
+        "Location.X": "236",
+        "Location.X_Frac": "22048",
+        "Location.Y": "561",
+        "Location.Y_Frac": "2364",
+        "FontID": "3",
+        "AreaColor": "16777215",
+        "Name": "LED1",
+        "UniqueID": "JRHPCSHD",
+        "Height": "10",
+        "AutoSize": "T"
+      },
+      {
+        "RECORD": "18",
+        "IndexInSheet": "141",
+        "OwnerPartId": "-1",
+        "Width": "39",
+        "Width_Frac": "37000",
+        "Location.X": "236",
+        "Location.X_Frac": "22048",
+        "Location.Y": "541",
+        "Location.Y_Frac": "33860",
+        "FontID": "3",
+        "AreaColor": "16777215",
+        "Name": "LED2",
+        "UniqueID": "CLBHKEDY",
+        "Height": "10",
+        "AutoSize": "T"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "146",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "147",
+        "Location.X_Frac": "63780",
+        "Location.Y": "413",
+        "Location.Y_Frac": "38584",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "BIUJXMZA"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "147",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "206",
+        "Location.X_Frac": "69292",
+        "Location.Y": "413",
+        "Location.Y_Frac": "38584",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "DHZCQLIM"
+      }
+    ],
+    "fpga_instances": [
+      {
+        "RECORD": "1",
+        "LibReference": "XC7A50T-2FGG484I",
+        "ComponentDescription": "FPGA - Field Programmable Gate Array XC7A50T-2FGG484I",
+        "PartCount": "11",
+        "DisplayModeCount": "1",
+        "IndexInSheet": "152",
+        "OwnerPartId": "-1",
+        "Location.X": "826",
+        "Location.X_Frac": "77168",
+        "Location.Y": "1112",
+        "Location.Y_Frac": "20476",
+        "CurrentPartId": "1",
+        "LibraryPath": "*",
+        "SourceLibraryName": "XC7A50T-2FGG484I.SchLib",
+        "TargetFileName": "*",
+        "UniqueID": "RORKJVJP",
+        "AreaColor": "11599871",
+        "Color": "128",
+        "PartIDLocked": "T",
+        "DesignItemId": "XC7A50T-2FGG484I",
+        "AllPinCount": "484"
+      },
+      {
+        "RECORD": "1",
+        "LibReference": "XC7A50T-2FGG484I",
+        "ComponentDescription": "FPGA - Field Programmable Gate Array XC7A50T-2FGG484I",
+        "PartCount": "11",
+        "DisplayModeCount": "1",
+        "IndexInSheet": "153",
+        "OwnerPartId": "-1",
+        "Location.X": "1289",
+        "Location.X_Frac": "37012",
+        "Location.Y": "1112",
+        "Location.Y_Frac": "20476",
+        "CurrentPartId": "7",
+        "LibraryPath": "*",
+        "SourceLibraryName": "XC7A50T-2FGG484I.SchLib",
+        "TargetFileName": "*",
+        "UniqueID": "IUAHUPWG",
+        "AreaColor": "11599871",
+        "Color": "128",
+        "PartIDLocked": "T",
+        "DesignItemId": "XC7A50T-2FGG484I",
+        "AllPinCount": "484"
+      },
+      {
+        "RECORD": "1",
+        "LibReference": "XC7A50T-2FGG484I",
+        "ComponentDescription": "FPGA - Field Programmable Gate Array XC7A50T-2FGG484I",
+        "PartCount": "11",
+        "DisplayModeCount": "1",
+        "IndexInSheet": "154",
+        "OwnerPartId": "-1",
+        "Location.X": "147",
+        "Location.X_Frac": "63780",
+        "Location.Y": "787",
+        "Location.Y_Frac": "40160",
+        "CurrentPartId": "10",
+        "LibraryPath": "*",
+        "SourceLibraryName": "XC7A50T-2FGG484I.SchLib",
+        "TargetFileName": "*",
+        "UniqueID": "SFBUZVBX",
+        "AreaColor": "11599871",
+        "Color": "128",
+        "PartIDLocked": "T",
+        "DesignItemId": "XC7A50T-2FGG484I",
+        "AllPinCount": "484"
+      }
+    ]
+  },
+  {
+    "path": "ARTIX\\ARTIX\\03_FPGA_IO_Clock.SchDoc",
+    "components": [
+      {
+        "ref": "G1",
+        "lib": "ASV-50.000MHZ-LRS-T"
+      },
+      {
+        "ref": "R26",
+        "lib": "R"
+      },
+      {
+        "ref": "C91",
+        "lib": "C"
+      },
+      {
+        "ref": "R25",
+        "lib": "R"
+      },
+      {
+        "ref": "U1",
+        "lib": "XC7A50T-2FGG484I"
+      },
+      {
+        "ref": "U1",
+        "lib": "XC7A50T-2FGG484I"
+      },
+      {
+        "ref": "U1",
+        "lib": "XC7A50T-2FGG484I"
+      },
+      {
+        "ref": "U1",
+        "lib": "XC7A50T-2FGG484I"
+      },
+      {
+        "ref": "U1",
+        "lib": "XC7A50T-2FGG484I"
+      }
+    ],
+    "labels": [
+      {
+        "RECORD": "25",
+        "IndexInSheet": "47",
+        "OwnerPartId": "-1",
+        "Location.X": "305",
+        "Location.X_Frac": "11812",
+        "Location.Y": "944",
+        "Location.Y_Frac": "88192",
+        "FontID": "3",
+        "Text": "PUDC",
+        "UniqueID": "IKZTRTFF"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "50",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "354",
+        "Location.X_Frac": "33081",
+        "Location.Y": "311",
+        "Location.Y_Frac": "2383",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "LTNYKHEY"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "53",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "157",
+        "Location.X_Frac": "48040",
+        "Location.Y": "340",
+        "Location.Y_Frac": "55145",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "GMOQJJVK"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "54",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "157",
+        "Location.X_Frac": "48040",
+        "Location.Y": "377",
+        "Location.Y_Frac": "95297",
+        "Orientation": "1",
+        "FontID": "3",
+        "Text": "3V3",
+        "UniqueID": "XQJVERBR"
+      },
+      {
+        "RECORD": "18",
+        "IndexInSheet": "55",
+        "OwnerPartId": "-1",
+        "Width": "59",
+        "Width_Frac": "5512",
+        "Location.X": "324",
+        "Location.X_Frac": "80316",
+        "Location.Y": "797",
+        "Location.Y_Frac": "24412",
+        "FontID": "3",
+        "AreaColor": "16777215",
+        "Name": "ETH_INT",
+        "UniqueID": "UDRQLVKL",
+        "Height": "10",
+        "AutoSize": "T"
+      },
+      {
+        "RECORD": "18",
+        "IndexInSheet": "56",
+        "OwnerPartId": "-1",
+        "Width": "59",
+        "Width_Frac": "5512",
+        "Location.X": "324",
+        "Location.X_Frac": "80316",
+        "Location.Y": "718",
+        "Location.Y_Frac": "50396",
+        "FontID": "3",
+        "AreaColor": "16777215",
+        "Name": "ETH_RST",
+        "UniqueID": "CHFXYWUB",
+        "Height": "10",
+        "AutoSize": "T"
+      },
+      {
+        "RECORD": "18",
+        "IndexInSheet": "57",
+        "OwnerPartId": "-1",
+        "Width": "59",
+        "Width_Frac": "5512",
+        "Location.X": "324",
+        "Location.X_Frac": "80316",
+        "Location.Y": "679",
+        "Location.Y_Frac": "13388",
+        "FontID": "3",
+        "AreaColor": "16777215",
+        "Name": "ETH_MDC",
+        "UniqueID": "VYKKGNUM",
+        "Height": "10",
+        "AutoSize": "T"
+      },
+      {
+        "RECORD": "18",
+        "IndexInSheet": "58",
+        "OwnerPartId": "-1",
+        "Width": "59",
+        "Width_Frac": "5512",
+        "Location.X": "324",
+        "Location.X_Frac": "80316",
+        "Location.Y": "688",
+        "Location.Y_Frac": "97640",
+        "FontID": "3",
+        "AreaColor": "16777215",
+        "Name": "ETH_MDIO",
+        "UniqueID": "MFBLOTVP",
+        "Height": "10",
+        "AutoSize": "T"
+      },
+      {
+        "RECORD": "18",
+        "IndexInSheet": "59",
+        "OwnerPartId": "-1",
+        "Width": "78",
+        "Width_Frac": "74016",
+        "Location.X": "324",
+        "Location.X_Frac": "80316",
+        "Location.Y": "669",
+        "Location.Y_Frac": "29136",
+        "FontID": "3",
+        "AreaColor": "16777215",
+        "Name": "ETH_TXCTL",
+        "UniqueID": "QPPPQZZK",
+        "Height": "10",
+        "AutoSize": "T"
+      },
+      {
+        "RECORD": "18",
+        "IndexInSheet": "60",
+        "OwnerPartId": "-1",
+        "Width": "59",
+        "Width_Frac": "5512",
+        "Location.X": "324",
+        "Location.X_Frac": "80316",
+        "Location.Y": "659",
+        "Location.Y_Frac": "44884",
+        "FontID": "3",
+        "AreaColor": "16777215",
+        "Name": "ETH_TXD3",
+        "UniqueID": "BXUDVPQU",
+        "Height": "10",
+        "AutoSize": "T"
+      },
+      {
+        "RECORD": "18",
+        "IndexInSheet": "61",
+        "OwnerPartId": "-1",
+        "Width": "59",
+        "Width_Frac": "5512",
+        "Location.X": "324",
+        "Location.X_Frac": "80316",
+        "Location.Y": "738",
+        "Location.Y_Frac": "18900",
+        "FontID": "3",
+        "AreaColor": "16777215",
+        "Name": "ETH_TXD2",
+        "UniqueID": "UIQFPMMG",
+        "Height": "10",
+        "AutoSize": "T"
+      },
+      {
+        "RECORD": "18",
+        "IndexInSheet": "62",
+        "OwnerPartId": "-1",
+        "Width": "59",
+        "Width_Frac": "5512",
+        "Location.X": "324",
+        "Location.X_Frac": "80316",
+        "Location.Y": "708",
+        "Location.Y_Frac": "66144",
+        "FontID": "3",
+        "AreaColor": "16777215",
+        "Name": "ETH_TXD1",
+        "UniqueID": "DHWFIDKB",
+        "Height": "10",
+        "AutoSize": "T"
+      },
+      {
+        "RECORD": "18",
+        "IndexInSheet": "63",
+        "OwnerPartId": "-1",
+        "Width": "59",
+        "Width_Frac": "5512",
+        "Location.X": "324",
+        "Location.X_Frac": "80316",
+        "Location.Y": "698",
+        "Location.Y_Frac": "81892",
+        "FontID": "3",
+        "AreaColor": "16777215",
+        "Name": "ETH_TXD0",
+        "UniqueID": "WWJXUKKZ",
+        "Height": "10",
+        "AutoSize": "T"
+      },
+      {
+        "RECORD": "18",
+        "IndexInSheet": "64",
+        "OwnerPartId": "-1",
+        "Width": "59",
+        "Width_Frac": "5512",
+        "Location.X": "324",
+        "Location.X_Frac": "80316",
+        "Location.Y": "807",
+        "Location.Y_Frac": "8664",
+        "FontID": "3",
+        "AreaColor": "16777215",
+        "Name": "ETH_TXC",
+        "UniqueID": "RRGVRVWC",
+        "Height": "10",
+        "AutoSize": "T"
+      },
+      {
+        "RECORD": "18",
+        "IndexInSheet": "65",
+        "OwnerPartId": "-1",
+        "Width": "59",
+        "Width_Frac": "5512",
+        "Location.X": "324",
+        "Location.X_Frac": "80316",
+        "Location.Y": "866",
+        "Location.Y_Frac": "14176",
+        "FontID": "3",
+        "AreaColor": "16777215",
+        "Name": "ETH_RXD2",
+        "UniqueID": "NWSRITRC",
+        "Height": "10",
+        "AutoSize": "T"
+      },
+      {
+        "RECORD": "18",
+        "IndexInSheet": "66",
+        "OwnerPartId": "-1",
+        "Width": "59",
+        "Width_Frac": "5512",
+        "Location.X": "324",
+        "Location.X_Frac": "80316",
+        "Location.Y": "856",
+        "Location.Y_Frac": "29924",
+        "FontID": "3",
+        "AreaColor": "16777215",
+        "Name": "ETH_RXD1",
+        "UniqueID": "IRGJFLNV",
+        "Height": "10",
+        "AutoSize": "T"
+      },
+      {
+        "RECORD": "18",
+        "IndexInSheet": "67",
+        "OwnerPartId": "-1",
+        "Width": "59",
+        "Width_Frac": "5512",
+        "Location.X": "324",
+        "Location.X_Frac": "80316",
+        "Location.Y": "846",
+        "Location.Y_Frac": "45672",
+        "FontID": "3",
+        "AreaColor": "16777215",
+        "Name": "ETH_RXD0",
+        "UniqueID": "SCZDZJQL",
+        "Height": "10",
+        "AutoSize": "T"
+      },
+      {
+        "RECORD": "18",
+        "IndexInSheet": "68",
+        "OwnerPartId": "-1",
+        "Width": "61",
+        "Width_Frac": "6666",
+        "Location.X": "324",
+        "Location.X_Frac": "80316",
+        "Location.Y": "836",
+        "Location.Y_Frac": "61420",
+        "FontID": "3",
+        "AreaColor": "16777215",
+        "Name": "ETH_RXCTL",
+        "UniqueID": "ZAWMKHLL",
+        "Height": "10",
+        "AutoSize": "T"
+      },
+      {
+        "RECORD": "18",
+        "IndexInSheet": "69",
+        "OwnerPartId": "-1",
+        "Width": "59",
+        "Width_Frac": "5512",
+        "Location.X": "324",
+        "Location.X_Frac": "80316",
+        "Location.Y": "767",
+        "Location.Y_Frac": "71656",
+        "FontID": "3",
+        "AreaColor": "16777215",
+        "Name": "ETH_RXC",
+        "UniqueID": "MLCULFGJ",
+        "Height": "10",
+        "AutoSize": "T"
+      },
+      {
+        "RECORD": "18",
+        "IndexInSheet": "70",
+        "OwnerPartId": "-1",
+        "Width": "59",
+        "Width_Frac": "5512",
+        "Location.X": "324",
+        "Location.X_Frac": "80316",
+        "Location.Y": "757",
+        "Location.Y_Frac": "87404",
+        "FontID": "3",
+        "AreaColor": "16777215",
+        "Name": "ETH_RXD3",
+        "UniqueID": "RNELAPAL",
+        "Height": "10",
+        "AutoSize": "T"
+      },
+      {
+        "RECORD": "25",
+        "IndexInSheet": "71",
+        "OwnerPartId": "-1",
+        "Location.X": "393",
+        "Location.X_Frac": "70080",
+        "Location.Y": "748",
+        "Location.Y_Frac": "3152",
+        "FontID": "3",
+        "Text": "CLK_50MHz",
+        "UniqueID": "UFPAGQSN"
+      },
+      {
+        "RECORD": "25",
+        "IndexInSheet": "72",
+        "OwnerPartId": "-1",
+        "Location.X": "413",
+        "Location.X_Frac": "38593",
+        "Location.Y": "370",
+        "Location.Y_Frac": "7895",
+        "FontID": "3",
+        "Text": "CLK_50MHz",
+        "UniqueID": "IWQDSVMW"
+      },
+      {
+        "RECORD": "18",
+        "IndexInSheet": "73",
+        "OwnerPartId": "-1",
+        "Width": "59",
+        "Width_Frac": "5512",
+        "Location.X": "344",
+        "Location.X_Frac": "48820",
+        "Location.Y": "954",
+        "Location.Y_Frac": "72444",
+        "FontID": "3",
+        "AreaColor": "16777215",
+        "Name": "QSPI_DQ3",
+        "UniqueID": "JEZQMORX",
+        "Height": "10",
+        "AutoSize": "T"
+      },
+      {
+        "RECORD": "18",
+        "IndexInSheet": "74",
+        "OwnerPartId": "-1",
+        "Width": "59",
+        "Width_Frac": "5512",
+        "Location.X": "344",
+        "Location.X_Frac": "48820",
+        "Location.Y": "984",
+        "Location.Y_Frac": "25200",
+        "FontID": "3",
+        "AreaColor": "16777215",
+        "Name": "QSPI_DQ0",
+        "UniqueID": "DEUPKTXI",
+        "Height": "10",
+        "AutoSize": "T"
+      },
+      {
+        "RECORD": "18",
+        "IndexInSheet": "75",
+        "OwnerPartId": "-1",
+        "Width": "59",
+        "Width_Frac": "5512",
+        "Location.X": "344",
+        "Location.X_Frac": "48820",
+        "Location.Y": "964",
+        "Location.Y_Frac": "56696",
+        "FontID": "3",
+        "AreaColor": "16777215",
+        "Name": "QSPI_DQ2",
+        "UniqueID": "NFIQWQZI",
+        "Height": "10",
+        "AutoSize": "T"
+      },
+      {
+        "RECORD": "18",
+        "IndexInSheet": "76",
+        "OwnerPartId": "-1",
+        "Width": "59",
+        "Width_Frac": "5512",
+        "Location.X": "344",
+        "Location.X_Frac": "48820",
+        "Location.Y": "974",
+        "Location.Y_Frac": "40948",
+        "FontID": "3",
+        "AreaColor": "16777215",
+        "Name": "QSPI_DQ1",
+        "UniqueID": "RFEDGZYL",
+        "Height": "10",
+        "AutoSize": "T"
+      },
+      {
+        "RECORD": "18",
+        "IndexInSheet": "77",
+        "OwnerPartId": "-1",
+        "Width": "59",
+        "Width_Frac": "5512",
+        "Location.X": "324",
+        "Location.X_Frac": "80316",
+        "Location.Y": "885",
+        "Location.Y_Frac": "82680",
+        "FontID": "3",
+        "AreaColor": "16777215",
+        "Name": "QSPI_CS",
+        "UniqueID": "AVEOBWDH",
+        "Height": "10",
+        "AutoSize": "T"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "79",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "324",
+        "Location.X_Frac": "80316",
+        "Location.Y": "1053",
+        "Location.Y_Frac": "14964",
+        "Orientation": "1",
+        "FontID": "3",
+        "Text": "3V3",
+        "UniqueID": "OOWFYDXL"
+      },
+      {
+        "RECORD": "18",
+        "IndexInSheet": "80",
+        "OwnerPartId": "-1",
+        "Width": "39",
+        "Width_Frac": "37008",
+        "Location.X": "324",
+        "Location.X_Frac": "80316",
+        "Location.Y": "521",
+        "Location.Y_Frac": "65356",
+        "FontID": "3",
+        "AreaColor": "16777215",
+        "Name": "LED1",
+        "UniqueID": "RFDUJVDS",
+        "Height": "10",
+        "AutoSize": "T"
+      },
+      {
+        "RECORD": "18",
+        "IndexInSheet": "81",
+        "OwnerPartId": "-1",
+        "Width": "39",
+        "Width_Frac": "37008",
+        "Location.X": "324",
+        "Location.X_Frac": "80316",
+        "Location.Y": "531",
+        "Location.Y_Frac": "49608",
+        "FontID": "3",
+        "AreaColor": "16777215",
+        "Name": "LED2",
+        "UniqueID": "VKRKBINI",
+        "Height": "10",
+        "AutoSize": "T"
+      },
+      {
+        "RECORD": "18",
+        "IndexInSheet": "87",
+        "OwnerPartId": "-1",
+        "Width": "78",
+        "Width_Frac": "74016",
+        "Location.X": "1466",
+        "Location.X_Frac": "53548",
+        "Location.Y": "984",
+        "Location.Y_Frac": "25200",
+        "FontID": "3",
+        "AreaColor": "16777215",
+        "Name": "INPUT_PPS1",
+        "UniqueID": "URPCNQKP",
+        "Height": "10",
+        "AutoSize": "T"
+      },
+      {
+        "RECORD": "18",
+        "IndexInSheet": "88",
+        "OwnerPartId": "-1",
+        "Width": "78",
+        "Width_Frac": "74016",
+        "Location.X": "1466",
+        "Location.X_Frac": "53548",
+        "Location.Y": "954",
+        "Location.Y_Frac": "72444",
+        "FontID": "3",
+        "AreaColor": "16777215",
+        "Name": "INPUT_PPS2",
+        "UniqueID": "RKVYEFXS",
+        "Height": "10",
+        "AutoSize": "T"
+      },
+      {
+        "RECORD": "18",
+        "IndexInSheet": "89",
+        "OwnerPartId": "-1",
+        "Width": "78",
+        "Width_Frac": "74016",
+        "Location.X": "1466",
+        "Location.X_Frac": "53548",
+        "Location.Y": "944",
+        "Location.Y_Frac": "88192",
+        "FontID": "3",
+        "AreaColor": "16777215",
+        "Name": "OUTPUT_PPS1",
+        "UniqueID": "TGQWTRJH",
+        "Height": "10",
+        "AutoSize": "T"
+      },
+      {
+        "RECORD": "18",
+        "IndexInSheet": "90",
+        "OwnerPartId": "-1",
+        "Width": "78",
+        "Width_Frac": "74016",
+        "Location.X": "1466",
+        "Location.X_Frac": "53548",
+        "Location.Y": "925",
+        "Location.Y_Frac": "19688",
+        "FontID": "3",
+        "AreaColor": "16777215",
+        "Name": "OUTPUT_PPS2",
+        "UniqueID": "JDILLGWN",
+        "Height": "10",
+        "AutoSize": "T"
+      },
+      {
+        "RECORD": "18",
+        "IndexInSheet": "91",
+        "OwnerPartId": "-1",
+        "Width": "78",
+        "Width_Frac": "74016",
+        "Location.X": "1466",
+        "Location.X_Frac": "53548",
+        "Location.Y": "875",
+        "Location.Y_Frac": "98428",
+        "FontID": "3",
+        "AreaColor": "16777215",
+        "Name": "OUTPUT_PPS3",
+        "UniqueID": "GQVKGJAE",
+        "Height": "10",
+        "AutoSize": "T"
+      }
+    ],
+    "fpga_instances": [
+      {
+        "RECORD": "1",
+        "LibReference": "XC7A50T-2FGG484I",
+        "ComponentDescription": "FPGA - Field Programmable Gate Array XC7A50T-2FGG484I",
+        "PartCount": "11",
+        "DisplayModeCount": "1",
+        "IndexInSheet": "82",
+        "OwnerPartId": "-1",
+        "Location.X": "98",
+        "Location.X_Frac": "42520",
+        "Location.Y": "1013",
+        "Location.Y_Frac": "77956",
+        "CurrentPartId": "2",
+        "LibraryPath": "*",
+        "SourceLibraryName": "XC7A50T-2FGG484I.SchLib",
+        "TargetFileName": "*",
+        "UniqueID": "NWFJENQU",
+        "AreaColor": "11599871",
+        "Color": "128",
+        "PartIDLocked": "T",
+        "DesignItemId": "XC7A50T-2FGG484I",
+        "AllPinCount": "484"
+      },
+      {
+        "RECORD": "1",
+        "LibReference": "XC7A50T-2FGG484I",
+        "ComponentDescription": "FPGA - Field Programmable Gate Array XC7A50T-2FGG484I",
+        "PartCount": "11",
+        "DisplayModeCount": "1",
+        "IndexInSheet": "83",
+        "OwnerPartId": "-1",
+        "Location.X": "492",
+        "Location.X_Frac": "12600",
+        "Location.Y": "1013",
+        "Location.Y_Frac": "77956",
+        "CurrentPartId": "3",
+        "LibraryPath": "*",
+        "SourceLibraryName": "XC7A50T-2FGG484I.SchLib",
+        "TargetFileName": "*",
+        "UniqueID": "BDLDWPGN",
+        "AreaColor": "11599871",
+        "Color": "128",
+        "PartIDLocked": "T",
+        "DesignItemId": "XC7A50T-2FGG484I",
+        "AllPinCount": "484"
+      },
+      {
+        "RECORD": "1",
+        "LibReference": "XC7A50T-2FGG484I",
+        "ComponentDescription": "FPGA - Field Programmable Gate Array XC7A50T-2FGG484I",
+        "PartCount": "11",
+        "DisplayModeCount": "1",
+        "IndexInSheet": "84",
+        "OwnerPartId": "-1",
+        "Location.X": "767",
+        "Location.X_Frac": "71656",
+        "Location.Y": "1013",
+        "Location.Y_Frac": "77956",
+        "CurrentPartId": "4",
+        "LibraryPath": "*",
+        "SourceLibraryName": "XC7A50T-2FGG484I.SchLib",
+        "TargetFileName": "*",
+        "UniqueID": "KGGSOFGK",
+        "AreaColor": "11599871",
+        "Color": "128",
+        "PartIDLocked": "T",
+        "DesignItemId": "XC7A50T-2FGG484I",
+        "AllPinCount": "484"
+      },
+      {
+        "RECORD": "1",
+        "LibReference": "XC7A50T-2FGG484I",
+        "ComponentDescription": "FPGA - Field Programmable Gate Array XC7A50T-2FGG484I",
+        "PartCount": "11",
+        "DisplayModeCount": "1",
+        "IndexInSheet": "85",
+        "OwnerPartId": "-1",
+        "Location.X": "1033",
+        "Location.X_Frac": "46460",
+        "Location.Y": "1013",
+        "Location.Y_Frac": "77956",
+        "CurrentPartId": "5",
+        "LibraryPath": "*",
+        "SourceLibraryName": "XC7A50T-2FGG484I.SchLib",
+        "TargetFileName": "*",
+        "UniqueID": "YOTCEKSE",
+        "AreaColor": "11599871",
+        "Color": "128",
+        "PartIDLocked": "T",
+        "DesignItemId": "XC7A50T-2FGG484I",
+        "AllPinCount": "484"
+      },
+      {
+        "RECORD": "1",
+        "LibReference": "XC7A50T-2FGG484I",
+        "ComponentDescription": "FPGA - Field Programmable Gate Array XC7A50T-2FGG484I",
+        "PartCount": "11",
+        "DisplayModeCount": "1",
+        "IndexInSheet": "86",
+        "OwnerPartId": "-1",
+        "Location.X": "1279",
+        "Location.X_Frac": "52760",
+        "Location.Y": "1013",
+        "Location.Y_Frac": "77956",
+        "CurrentPartId": "6",
+        "LibraryPath": "*",
+        "SourceLibraryName": "XC7A50T-2FGG484I.SchLib",
+        "TargetFileName": "*",
+        "UniqueID": "XUAGMIAF",
+        "AreaColor": "11599871",
+        "Color": "128",
+        "PartIDLocked": "T",
+        "DesignItemId": "XC7A50T-2FGG484I",
+        "AllPinCount": "484"
+      }
+    ]
+  },
+  {
+    "path": "ARTIX\\ARTIX\\04_Reference_Inputs.SchDoc",
+    "components": [
+      {
+        "ref": "R41",
+        "lib": "R"
+      },
+      {
+        "ref": "C112",
+        "lib": "C"
+      },
+      {
+        "ref": "R42",
+        "lib": "R"
+      },
+      {
+        "ref": "R44",
+        "lib": "R"
+      },
+      {
+        "ref": "R47",
+        "lib": "R"
+      },
+      {
+        "ref": "R46",
+        "lib": "R"
+      },
+      {
+        "ref": "C114",
+        "lib": "C"
+      },
+      {
+        "ref": "C116",
+        "lib": "C"
+      },
+      {
+        "ref": "C118",
+        "lib": "C"
+      },
+      {
+        "ref": "R50",
+        "lib": "R"
+      },
+      {
+        "ref": "B2",
+        "lib": "TLV3511DBVR"
+      },
+      {
+        "ref": "J1",
+        "lib": "CMP-03913-97004431-2"
+      },
+      {
+        "ref": "C113",
+        "lib": "C"
+      },
+      {
+        "ref": "R43",
+        "lib": "R"
+      },
+      {
+        "ref": "R45",
+        "lib": "R"
+      },
+      {
+        "ref": "R49",
+        "lib": "R"
+      },
+      {
+        "ref": "R48",
+        "lib": "R"
+      },
+      {
+        "ref": "C115",
+        "lib": "C"
+      },
+      {
+        "ref": "C117",
+        "lib": "C"
+      },
+      {
+        "ref": "C119",
+        "lib": "C"
+      },
+      {
+        "ref": "R51",
+        "lib": "R"
+      },
+      {
+        "ref": "B3",
+        "lib": "TLV3511DBVR"
+      },
+      {
+        "ref": "J2",
+        "lib": "CMP-03913-97004431-2"
+      }
+    ],
+    "labels": [
+      {
+        "RECORD": "17",
+        "IndexInSheet": "48",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "295",
+        "Location.X_Frac": "27560",
+        "Location.Y": "807",
+        "Location.Y_Frac": "8664",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "YYYDHVOR"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "49",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "295",
+        "Location.X_Frac": "27560",
+        "Location.Y": "885",
+        "Location.Y_Frac": "82680",
+        "Orientation": "1",
+        "FontID": "14",
+        "Text": "RF_IN_TERM",
+        "UniqueID": "NVQMTCVA"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "55",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "531",
+        "Location.X_Frac": "49608",
+        "Location.Y": "738",
+        "Location.Y_Frac": "18900",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "JQLPANCK"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "56",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "531",
+        "Location.X_Frac": "49608",
+        "Location.Y": "856",
+        "Location.Y_Frac": "29924",
+        "Orientation": "1",
+        "FontID": "14",
+        "Text": "+3v3",
+        "UniqueID": "PSERPNHG"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "58",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "590",
+        "Location.X_Frac": "55120",
+        "Location.Y": "757",
+        "Location.Y_Frac": "87404",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "QLZBBRCC"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "60",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "1082",
+        "Location.X_Frac": "67720",
+        "Location.Y": "846",
+        "Location.Y_Frac": "45672",
+        "Orientation": "1",
+        "FontID": "14",
+        "Text": "+3v3",
+        "UniqueID": "QLAMECRW"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "61",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "1082",
+        "Location.X_Frac": "67720",
+        "Location.Y": "807",
+        "Location.Y_Frac": "8664",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "HYLXHEYT"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "63",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "1151",
+        "Location.X_Frac": "57484",
+        "Location.Y": "846",
+        "Location.Y_Frac": "45672",
+        "Orientation": "1",
+        "FontID": "14",
+        "Text": "+3v3",
+        "UniqueID": "YUXBDKGC"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "64",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "1151",
+        "Location.X_Frac": "57484",
+        "Location.Y": "807",
+        "Location.Y_Frac": "8664",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "SFCATIOW"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "67",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "600",
+        "Location.X_Frac": "39372",
+        "Location.Y": "797",
+        "Location.Y_Frac": "24412",
+        "FontID": "14",
+        "Text": "VREF",
+        "UniqueID": "VSALBMOT"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "74",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "787",
+        "Location.X_Frac": "40160",
+        "Location.Y": "905",
+        "Location.Y_Frac": "51184",
+        "Orientation": "1",
+        "FontID": "14",
+        "Text": "10MHz Pulse",
+        "UniqueID": "WZUHQSFJ"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "76",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "620",
+        "Location.X_Frac": "7876",
+        "Location.Y": "935",
+        "Location.Y_Frac": "3940",
+        "Orientation": "2",
+        "FontID": "14",
+        "Text": "+3v3",
+        "UniqueID": "WJWXWFHJ"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "78",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "610",
+        "Location.X_Frac": "23624",
+        "Location.Y": "915",
+        "Location.Y_Frac": "35436",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "AHPSATAO"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "80",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "196",
+        "Location.X_Frac": "85040",
+        "Location.Y": "826",
+        "Location.Y_Frac": "77168",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "SAWMKOVD"
+      },
+      {
+        "RECORD": "18",
+        "IndexInSheet": "81",
+        "OwnerPartId": "-1",
+        "Width": "98",
+        "Width_Frac": "42520",
+        "Location.X": "885",
+        "Location.X_Frac": "82680",
+        "Location.Y": "885",
+        "Location.Y_Frac": "82680",
+        "FontID": "3",
+        "AreaColor": "16777215",
+        "Name": "INPUT_PPS1",
+        "UniqueID": "GRITPNTY",
+        "Height": "10",
+        "AutoSize": "T"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "87",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "531",
+        "Location.X_Frac": "49608",
+        "Location.Y": "492",
+        "Location.Y_Frac": "12600",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "HRCSQCLW"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "88",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "531",
+        "Location.X_Frac": "49608",
+        "Location.Y": "610",
+        "Location.Y_Frac": "23624",
+        "Orientation": "1",
+        "FontID": "14",
+        "Text": "+3v3",
+        "UniqueID": "PAZYAJDU"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "90",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "590",
+        "Location.X_Frac": "55120",
+        "Location.Y": "511",
+        "Location.Y_Frac": "81104",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "PHHGVMDQ"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "92",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "1082",
+        "Location.X_Frac": "67720",
+        "Location.Y": "551",
+        "Location.Y_Frac": "18112",
+        "Orientation": "1",
+        "FontID": "14",
+        "Text": "+3v3",
+        "UniqueID": "PDLAESFC"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "93",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "1082",
+        "Location.X_Frac": "67720",
+        "Location.Y": "511",
+        "Location.Y_Frac": "81104",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "OUADJYEA"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "95",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "1151",
+        "Location.X_Frac": "57484",
+        "Location.Y": "551",
+        "Location.Y_Frac": "18112",
+        "Orientation": "1",
+        "FontID": "14",
+        "Text": "+3v3",
+        "UniqueID": "MRWFWJIS"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "96",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "1151",
+        "Location.X_Frac": "57484",
+        "Location.Y": "511",
+        "Location.Y_Frac": "81104",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "GLOCCGYP"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "97",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "600",
+        "Location.X_Frac": "39372",
+        "Location.Y": "551",
+        "Location.Y_Frac": "18112",
+        "FontID": "14",
+        "Text": "VREF",
+        "UniqueID": "JMTGBJKH"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "99",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "787",
+        "Location.X_Frac": "40160",
+        "Location.Y": "659",
+        "Location.Y_Frac": "44884",
+        "Orientation": "1",
+        "FontID": "14",
+        "Text": "10MHz Pulse",
+        "UniqueID": "EPZYFDQH"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "100",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "620",
+        "Location.X_Frac": "7876",
+        "Location.Y": "688",
+        "Location.Y_Frac": "97640",
+        "Orientation": "2",
+        "FontID": "14",
+        "Text": "+3v3",
+        "UniqueID": "DWLINDQK"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "102",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "610",
+        "Location.X_Frac": "23624",
+        "Location.Y": "669",
+        "Location.Y_Frac": "29136",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "KJXRQONS"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "104",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "196",
+        "Location.X_Frac": "85040",
+        "Location.Y": "580",
+        "Location.Y_Frac": "70868",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "YDPBDIFE"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "105",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "295",
+        "Location.X_Frac": "27560",
+        "Location.Y": "639",
+        "Location.Y_Frac": "76380",
+        "Orientation": "1",
+        "FontID": "14",
+        "Text": "RF_IN",
+        "UniqueID": "KBFXMPQQ"
+      },
+      {
+        "RECORD": "18",
+        "IndexInSheet": "106",
+        "OwnerPartId": "-1",
+        "Width": "98",
+        "Width_Frac": "42520",
+        "Location.X": "885",
+        "Location.X_Frac": "82680",
+        "Location.Y": "639",
+        "Location.Y_Frac": "76380",
+        "FontID": "3",
+        "AreaColor": "16777215",
+        "Name": "INPUT_PPS2",
+        "UniqueID": "BLXTZHQH",
+        "Height": "10",
+        "AutoSize": "T"
+      }
+    ],
+    "fpga_instances": []
+  },
+  {
+    "path": "ARTIX\\ARTIX\\05_PPS_Outputs.SchDoc",
+    "components": [
+      {
+        "ref": "J3",
+        "lib": "CMP-03913-97004431-2"
+      },
+      {
+        "ref": "R52",
+        "lib": "R"
+      },
+      {
+        "ref": "J5",
+        "lib": "CMP-03913-97004431-2"
+      },
+      {
+        "ref": "J4",
+        "lib": "CMP-03913-97004431-2"
+      },
+      {
+        "ref": "B4",
+        "lib": "UCC27524D"
+      },
+      {
+        "ref": "B5",
+        "lib": "UCC27524D"
+      },
+      {
+        "ref": "R53",
+        "lib": "R"
+      },
+      {
+        "ref": "R54",
+        "lib": "R"
+      },
+      {
+        "ref": "C123",
+        "lib": "C"
+      },
+      {
+        "ref": "C121",
+        "lib": "C"
+      },
+      {
+        "ref": "C122",
+        "lib": "C"
+      },
+      {
+        "ref": "C120",
+        "lib": "C"
+      }
+    ],
+    "labels": [
+      {
+        "RECORD": "17",
+        "IndexInSheet": "48",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "1102",
+        "Location.X_Frac": "36224",
+        "Location.Y": "738",
+        "Location.Y_Frac": "18900",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "GBLKIZSL"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "51",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "1102",
+        "Location.X_Frac": "36224",
+        "Location.Y": "472",
+        "Location.Y_Frac": "44096",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "VOYLBUSO"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "53",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "1102",
+        "Location.X_Frac": "36224",
+        "Location.Y": "649",
+        "Location.Y_Frac": "60632",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "PAUHUCEG"
+      },
+      {
+        "RECORD": "18",
+        "IndexInSheet": "55",
+        "OwnerPartId": "-1",
+        "Width": "98",
+        "Width_Frac": "42520",
+        "Location.X": "639",
+        "Location.X_Frac": "76380",
+        "Location.Y": "757",
+        "Location.Y_Frac": "87404",
+        "FontID": "3",
+        "AreaColor": "16777215",
+        "Name": "OUTPUT_PPS1",
+        "UniqueID": "XPCGLDCM",
+        "Height": "10",
+        "AutoSize": "T"
+      },
+      {
+        "RECORD": "18",
+        "IndexInSheet": "56",
+        "OwnerPartId": "-1",
+        "Width": "98",
+        "Width_Frac": "42520",
+        "Location.X": "639",
+        "Location.X_Frac": "76380",
+        "Location.Y": "679",
+        "Location.Y_Frac": "13388",
+        "FontID": "3",
+        "AreaColor": "16777215",
+        "Name": "OUTPUT_PPS2",
+        "UniqueID": "UCWCEKSP",
+        "Height": "10",
+        "AutoSize": "T"
+      },
+      {
+        "RECORD": "18",
+        "IndexInSheet": "58",
+        "OwnerPartId": "-1",
+        "Width": "98",
+        "Width_Frac": "42520",
+        "Location.X": "639",
+        "Location.X_Frac": "76380",
+        "Location.Y": "492",
+        "Location.Y_Frac": "12600",
+        "FontID": "3",
+        "AreaColor": "16777215",
+        "Name": "OUTPUT_PPS3",
+        "UniqueID": "MNXNNEDT",
+        "Height": "10",
+        "AutoSize": "T"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "62",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "738",
+        "Location.X_Frac": "18900",
+        "Location.Y": "442",
+        "Location.Y_Frac": "91340",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "PJLUSDHN"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "63",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "738",
+        "Location.X_Frac": "18900",
+        "Location.Y": "708",
+        "Location.Y_Frac": "66144",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "EXIUCTUI"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "64",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "994",
+        "Location.X_Frac": "9452",
+        "Location.Y": "748",
+        "Location.Y_Frac": "3152",
+        "FontID": "3",
+        "Text": "5V",
+        "UniqueID": "BSPWVWMT"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "65",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "1013",
+        "Location.X_Frac": "77956",
+        "Location.Y": "472",
+        "Location.Y_Frac": "44096",
+        "FontID": "3",
+        "Text": "5V",
+        "UniqueID": "FLFRRHZP"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "67",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "984",
+        "Location.X_Frac": "25200",
+        "Location.Y": "442",
+        "Location.Y_Frac": "91340",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "VTOSFWNB"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "69",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "925",
+        "Location.X_Frac": "19688",
+        "Location.Y": "442",
+        "Location.Y_Frac": "91340",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "HGHOYIYV"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "71",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "984",
+        "Location.X_Frac": "25200",
+        "Location.Y": "718",
+        "Location.Y_Frac": "50396",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "EGVSGYPP"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "73",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "925",
+        "Location.X_Frac": "19688",
+        "Location.Y": "718",
+        "Location.Y_Frac": "50396",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "BTYRGJRX"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "78",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "738",
+        "Location.X_Frac": "18900",
+        "Location.Y": "413",
+        "Location.Y_Frac": "38584",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "YZNPWZZB"
+      }
+    ],
+    "fpga_instances": []
+  },
+  {
+    "path": "ARTIX\\ARTIX\\06_Ethernet.SchDoc",
+    "components": [
+      {
+        "ref": "R27",
+        "lib": "R"
+      },
+      {
+        "ref": "C107",
+        "lib": "C"
+      },
+      {
+        "ref": "C108",
+        "lib": "C"
+      },
+      {
+        "ref": "R40",
+        "lib": "R"
+      },
+      {
+        "ref": "R39",
+        "lib": "R"
+      },
+      {
+        "ref": "C111",
+        "lib": "C"
+      },
+      {
+        "ref": "R37",
+        "lib": "R"
+      },
+      {
+        "ref": "R36",
+        "lib": "R"
+      },
+      {
+        "ref": "R38",
+        "lib": "R"
+      },
+      {
+        "ref": "C106",
+        "lib": "C"
+      },
+      {
+        "ref": "R32",
+        "lib": "R"
+      },
+      {
+        "ref": "R35",
+        "lib": "R"
+      },
+      {
+        "ref": "C109",
+        "lib": "C"
+      },
+      {
+        "ref": "C110",
+        "lib": "C"
+      },
+      {
+        "ref": "R29",
+        "lib": "R"
+      },
+      {
+        "ref": "R30",
+        "lib": "R"
+      },
+      {
+        "ref": "R31",
+        "lib": "R"
+      },
+      {
+        "ref": "R33",
+        "lib": "R"
+      },
+      {
+        "ref": "R34",
+        "lib": "R"
+      },
+      {
+        "ref": "C92",
+        "lib": "C"
+      },
+      {
+        "ref": "C94",
+        "lib": "C"
+      },
+      {
+        "ref": "R28",
+        "lib": "R"
+      },
+      {
+        "ref": "C97",
+        "lib": "C"
+      },
+      {
+        "ref": "C101",
+        "lib": "C"
+      },
+      {
+        "ref": "C100",
+        "lib": "C"
+      },
+      {
+        "ref": "C104",
+        "lib": "C"
+      },
+      {
+        "ref": "C105",
+        "lib": "C"
+      },
+      {
+        "ref": "C93",
+        "lib": "C"
+      },
+      {
+        "ref": "C95",
+        "lib": "C"
+      },
+      {
+        "ref": "C96",
+        "lib": "C"
+      },
+      {
+        "ref": "C98",
+        "lib": "C"
+      },
+      {
+        "ref": "C102",
+        "lib": "C"
+      },
+      {
+        "ref": "C99",
+        "lib": "C"
+      },
+      {
+        "ref": "C103",
+        "lib": "C"
+      },
+      {
+        "ref": "B6",
+        "lib": "RTL8211E-VB-CG"
+      },
+      {
+        "ref": "B6",
+        "lib": "RTL8211E-VB-CG"
+      },
+      {
+        "ref": "B6",
+        "lib": "RTL8211E-VB-CG"
+      },
+      {
+        "ref": "B6",
+        "lib": "RTL8211E-VB-CG"
+      },
+      {
+        "ref": "X1",
+        "lib": "HKC3225SX-25MHZ-26594-R4V1"
+      },
+      {
+        "ref": "B6",
+        "lib": "RTL8211E-VB-CG"
+      },
+      {
+        "ref": "J6",
+        "lib": "HR911130A"
+      },
+      {
+        "ref": "J6",
+        "lib": "HR911130A"
+      },
+      {
+        "ref": "R55",
+        "lib": "R"
+      }
+    ],
+    "labels": [
+      {
+        "RECORD": "17",
+        "IndexInSheet": "48",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "954",
+        "Location.X_Frac": "72444",
+        "Location.Y": "866",
+        "Location.Y_Frac": "14176",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "UBBRPZNP"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "49",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "807",
+        "Location.X_Frac": "8664",
+        "Location.Y": "807",
+        "Location.Y_Frac": "8664",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "QFDLRCTO"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "51",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "187",
+        "Location.X_Frac": "788",
+        "Location.Y": "866",
+        "Location.Y_Frac": "14176",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "MXQNDCYF"
+      },
+      {
+        "RECORD": "25",
+        "IndexInSheet": "52",
+        "OwnerPartId": "-1",
+        "Location.X": "157",
+        "Location.X_Frac": "48032",
+        "Location.Y": "964",
+        "Location.Y_Frac": "56696",
+        "FontID": "3",
+        "Text": "CKXTAL1",
+        "UniqueID": "DPKEVWSV"
+      },
+      {
+        "RECORD": "25",
+        "IndexInSheet": "53",
+        "OwnerPartId": "-1",
+        "Location.X": "364",
+        "Location.X_Frac": "17324",
+        "Location.Y": "954",
+        "Location.Y_Frac": "72444",
+        "FontID": "3",
+        "Text": "CKXTAL2",
+        "UniqueID": "PTDKSXES"
+      },
+      {
+        "RECORD": "25",
+        "IndexInSheet": "54",
+        "OwnerPartId": "-1",
+        "Location.X": "964",
+        "Location.X_Frac": "56696",
+        "Location.Y": "797",
+        "Location.Y_Frac": "24412",
+        "FontID": "3",
+        "Text": "CKXTAL2",
+        "UniqueID": "LMVEWLJG"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "57",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "779",
+        "Location.X_Frac": "52604",
+        "Location.Y": "828",
+        "Location.Y_Frac": "73852",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "HTVPRMBN"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "58",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "964",
+        "Location.X_Frac": "56696",
+        "Location.Y": "767",
+        "Location.Y_Frac": "71662",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "AYCGAJGB"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "59",
+        "OwnerPartId": "-1",
+        "Style": "6",
+        "ShowNetName": "F",
+        "Location.X": "1358",
+        "Location.X_Frac": "26776",
+        "Location.Y": "797",
+        "Location.Y_Frac": "24412",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "PRQBEQKP"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "60",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "1171",
+        "Location.X_Frac": "25988",
+        "Location.Y": "807",
+        "Location.Y_Frac": "8664",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "EEOESDHX"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "61",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "1181",
+        "Location.X_Frac": "10240",
+        "Location.Y": "777",
+        "Location.Y_Frac": "55908",
+        "Orientation": "2",
+        "FontID": "3",
+        "Text": "DVDD33",
+        "UniqueID": "XWFOHTJB"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "64",
+        "OwnerPartId": "-1",
+        "Style": "6",
+        "ShowNetName": "F",
+        "Location.X": "1515",
+        "Location.X_Frac": "74496",
+        "Location.Y": "1082",
+        "Location.Y_Frac": "67500",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "VZIVYXNC"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "66",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "1545",
+        "Location.X_Frac": "27564",
+        "Location.Y": "1072",
+        "Location.Y_Frac": "83468",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "WWPCSXWU"
+      },
+      {
+        "RECORD": "25",
+        "IndexInSheet": "67",
+        "OwnerPartId": "-1",
+        "Location.X": "1318",
+        "Location.X_Frac": "89768",
+        "Location.Y": "1112",
+        "Location.Y_Frac": "20476",
+        "FontID": "3",
+        "Text": "A-TX0P",
+        "UniqueID": "UKAFNFTY"
+      },
+      {
+        "RECORD": "25",
+        "IndexInSheet": "68",
+        "OwnerPartId": "-1",
+        "Location.X": "777",
+        "Location.X_Frac": "55908",
+        "Location.Y": "1102",
+        "Location.Y_Frac": "36224",
+        "FontID": "3",
+        "Text": "A-TX0P",
+        "UniqueID": "UWQZUACY"
+      },
+      {
+        "RECORD": "25",
+        "IndexInSheet": "69",
+        "OwnerPartId": "-1",
+        "Location.X": "1318",
+        "Location.X_Frac": "89768",
+        "Location.Y": "1082",
+        "Location.Y_Frac": "67720",
+        "FontID": "3",
+        "Text": "A-TX0N",
+        "UniqueID": "RDFNZKVC"
+      },
+      {
+        "RECORD": "25",
+        "IndexInSheet": "70",
+        "OwnerPartId": "-1",
+        "Location.X": "954",
+        "Location.X_Frac": "72444",
+        "Location.Y": "1102",
+        "Location.Y_Frac": "36224",
+        "FontID": "3",
+        "Text": "A-TX0N",
+        "UniqueID": "JJLAKUWA"
+      },
+      {
+        "RECORD": "25",
+        "IndexInSheet": "71",
+        "OwnerPartId": "-1",
+        "Location.X": "1318",
+        "Location.X_Frac": "89768",
+        "Location.Y": "1062",
+        "Location.Y_Frac": "99216",
+        "FontID": "3",
+        "Text": "A-TX1P",
+        "UniqueID": "PSOFMZTE"
+      },
+      {
+        "RECORD": "25",
+        "IndexInSheet": "72",
+        "OwnerPartId": "-1",
+        "Location.X": "777",
+        "Location.X_Frac": "55908",
+        "Location.Y": "1082",
+        "Location.Y_Frac": "67720",
+        "FontID": "3",
+        "Text": "A-TX1P",
+        "UniqueID": "DABJANHU"
+      },
+      {
+        "RECORD": "25",
+        "IndexInSheet": "73",
+        "OwnerPartId": "-1",
+        "Location.X": "1318",
+        "Location.X_Frac": "89768",
+        "Location.Y": "1033",
+        "Location.Y_Frac": "46460",
+        "FontID": "3",
+        "Text": "A-TX1N",
+        "UniqueID": "ELHNUMXJ"
+      },
+      {
+        "RECORD": "25",
+        "IndexInSheet": "74",
+        "OwnerPartId": "-1",
+        "Location.X": "954",
+        "Location.X_Frac": "72444",
+        "Location.Y": "1082",
+        "Location.Y_Frac": "67720",
+        "FontID": "3",
+        "Text": "A-TX1N",
+        "UniqueID": "LTMMZTAI"
+      },
+      {
+        "RECORD": "25",
+        "IndexInSheet": "75",
+        "OwnerPartId": "-1",
+        "Location.X": "1318",
+        "Location.X_Frac": "89768",
+        "Location.Y": "1013",
+        "Location.Y_Frac": "77956",
+        "FontID": "3",
+        "Text": "A-TX2P",
+        "UniqueID": "PANLNNVB"
+      },
+      {
+        "RECORD": "25",
+        "IndexInSheet": "76",
+        "OwnerPartId": "-1",
+        "Location.X": "777",
+        "Location.X_Frac": "55908",
+        "Location.Y": "1053",
+        "Location.Y_Frac": "14964",
+        "FontID": "3",
+        "Text": "A-TX2P",
+        "UniqueID": "CPYYTVQC"
+      },
+      {
+        "RECORD": "25",
+        "IndexInSheet": "77",
+        "OwnerPartId": "-1",
+        "Location.X": "954",
+        "Location.X_Frac": "72444",
+        "Location.Y": "1053",
+        "Location.Y_Frac": "14964",
+        "FontID": "3",
+        "Text": "A-TX2N",
+        "UniqueID": "IJOZTNRO"
+      },
+      {
+        "RECORD": "25",
+        "IndexInSheet": "78",
+        "OwnerPartId": "-1",
+        "Location.X": "1318",
+        "Location.X_Frac": "89768",
+        "Location.Y": "994",
+        "Location.Y_Frac": "9452",
+        "FontID": "3",
+        "Text": "A-TX2N",
+        "UniqueID": "EMEKTYDI"
+      },
+      {
+        "RECORD": "25",
+        "IndexInSheet": "79",
+        "OwnerPartId": "-1",
+        "Location.X": "1318",
+        "Location.X_Frac": "89768",
+        "Location.Y": "964",
+        "Location.Y_Frac": "56696",
+        "FontID": "3",
+        "Text": "A-TX3P",
+        "UniqueID": "BJYBODCV"
+      },
+      {
+        "RECORD": "25",
+        "IndexInSheet": "80",
+        "OwnerPartId": "-1",
+        "Location.X": "1318",
+        "Location.X_Frac": "89768",
+        "Location.Y": "944",
+        "Location.Y_Frac": "88192",
+        "FontID": "3",
+        "Text": "A-TX3N",
+        "UniqueID": "ZAQBHPSG"
+      },
+      {
+        "RECORD": "25",
+        "IndexInSheet": "81",
+        "OwnerPartId": "-1",
+        "Location.X": "777",
+        "Location.X_Frac": "55908",
+        "Location.Y": "1023",
+        "Location.Y_Frac": "62208",
+        "FontID": "3",
+        "Text": "A-TX3P",
+        "UniqueID": "HENORIVS"
+      },
+      {
+        "RECORD": "25",
+        "IndexInSheet": "82",
+        "OwnerPartId": "-1",
+        "Location.X": "954",
+        "Location.X_Frac": "72444",
+        "Location.Y": "1023",
+        "Location.Y_Frac": "62208",
+        "FontID": "3",
+        "Text": "A-TX3N",
+        "UniqueID": "RRJSXAIH"
+      },
+      {
+        "RECORD": "25",
+        "IndexInSheet": "83",
+        "OwnerPartId": "-1",
+        "Location.X": "1086",
+        "Location.X_Frac": "61200",
+        "Location.Y": "748",
+        "Location.Y_Frac": "3000",
+        "FontID": "3",
+        "Text": "ETH_LED0",
+        "UniqueID": "BZCUOSHW"
+      },
+      {
+        "RECORD": "25",
+        "IndexInSheet": "84",
+        "OwnerPartId": "-1",
+        "Location.X": "1086",
+        "Location.X_Frac": "61200",
+        "Location.Y": "826",
+        "Location.Y_Frac": "77000",
+        "FontID": "3",
+        "Text": "ETH_LED1",
+        "UniqueID": "UQBKWXFJ"
+      },
+      {
+        "RECORD": "25",
+        "IndexInSheet": "85",
+        "OwnerPartId": "-1",
+        "Location.X": "925",
+        "Location.X_Frac": "19500",
+        "Location.Y": "438",
+        "Location.Y_Frac": "97550",
+        "FontID": "3",
+        "Text": "ETH_LED0",
+        "UniqueID": "FWSBVAKL"
+      },
+      {
+        "RECORD": "25",
+        "IndexInSheet": "86",
+        "OwnerPartId": "-1",
+        "Location.X": "925",
+        "Location.X_Frac": "19500",
+        "Location.Y": "415",
+        "Location.Y_Frac": "35350",
+        "FontID": "3",
+        "Text": "ETH_LED1",
+        "UniqueID": "HFABCIBR"
+      },
+      {
+        "RECORD": "25",
+        "IndexInSheet": "87",
+        "OwnerPartId": "-1",
+        "Location.X": "925",
+        "Location.X_Frac": "19500",
+        "Location.Y": "391",
+        "Location.Y_Frac": "73150",
+        "FontID": "3",
+        "Text": "ETH_LED2",
+        "UniqueID": "JQDEYXAG"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "88",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "988",
+        "Location.X_Frac": "18700",
+        "Location.Y": "320",
+        "Location.Y_Frac": "86550",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "YMUWCENX"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "92",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "988",
+        "Location.X_Frac": "18700",
+        "Location.Y": "517",
+        "Location.Y_Frac": "71550",
+        "Orientation": "1",
+        "FontID": "3",
+        "Text": "DVDD33",
+        "UniqueID": "ERYFBOUA"
+      },
+      {
+        "RECORD": "18",
+        "IndexInSheet": "94",
+        "OwnerPartId": "-1",
+        "Width": "49",
+        "Width_Frac": "33333",
+        "Location.X": "925",
+        "Location.X_Frac": "19500",
+        "Location.Y": "486",
+        "Location.Y_Frac": "21950",
+        "FontID": "3",
+        "AreaColor": "16777215",
+        "Name": "ETH_INT",
+        "UniqueID": "SUJJEXOX",
+        "Height": "10",
+        "AutoSize": "T"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "95",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "718",
+        "Location.X_Frac": "50250",
+        "Location.Y": "405",
+        "Location.Y_Frac": "51100",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "PEUGHWED"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "97",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "620",
+        "Location.X_Frac": "7750",
+        "Location.Y": "399",
+        "Location.Y_Frac": "60550",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "CKUWVNHA"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "99",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "620",
+        "Location.X_Frac": "7750",
+        "Location.Y": "492",
+        "Location.Y_Frac": "12500",
+        "Orientation": "1",
+        "FontID": "3",
+        "Text": "DVDD33",
+        "UniqueID": "LHRFZSSF"
+      },
+      {
+        "RECORD": "18",
+        "IndexInSheet": "100",
+        "OwnerPartId": "-1",
+        "Width": "53",
+        "Width_Frac": "14950",
+        "Location.X": "551",
+        "Location.X_Frac": "18000",
+        "Location.Y": "429",
+        "Location.Y_Frac": "13300",
+        "FontID": "3",
+        "AreaColor": "16777215",
+        "Name": "ETH_RST",
+        "UniqueID": "WOBBOWCA",
+        "Height": "10",
+        "AutoSize": "T"
+      },
+      {
+        "RECORD": "18",
+        "IndexInSheet": "101",
+        "OwnerPartId": "-1",
+        "Width": "59",
+        "Width_Frac": "5500",
+        "Location.X": "651",
+        "Location.X_Frac": "57350",
+        "Location.Y": "452",
+        "Location.Y_Frac": "75500",
+        "FontID": "3",
+        "AreaColor": "16777215",
+        "Name": "ETH_MDC",
+        "UniqueID": "WCXHTNYM",
+        "Height": "10",
+        "AutoSize": "T"
+      },
+      {
+        "RECORD": "18",
+        "IndexInSheet": "102",
+        "OwnerPartId": "-1",
+        "Width": "59",
+        "Width_Frac": "5500",
+        "Location.X": "651",
+        "Location.X_Frac": "57350",
+        "Location.Y": "476",
+        "Location.Y_Frac": "37700",
+        "FontID": "3",
+        "AreaColor": "16777215",
+        "Name": "ETH_MDIO",
+        "UniqueID": "PMGWKPSD",
+        "Height": "10",
+        "AutoSize": "T"
+      },
+      {
+        "RECORD": "18",
+        "IndexInSheet": "104",
+        "OwnerPartId": "-1",
+        "Width": "61",
+        "Width_Frac": "6666",
+        "Location.X": "244",
+        "Location.X_Frac": "5146",
+        "Location.Y": "688",
+        "Location.Y_Frac": "97640",
+        "FontID": "3",
+        "AreaColor": "16777215",
+        "Name": "ETH_TXCTL",
+        "UniqueID": "GEMDLAHX",
+        "Height": "10",
+        "AutoSize": "T"
+      },
+      {
+        "RECORD": "18",
+        "IndexInSheet": "105",
+        "OwnerPartId": "-1",
+        "Width": "59",
+        "Width_Frac": "5500",
+        "Location.X": "246",
+        "Location.X_Frac": "6300",
+        "Location.Y": "708",
+        "Location.Y_Frac": "66144",
+        "FontID": "3",
+        "AreaColor": "16777215",
+        "Name": "ETH_TXD3",
+        "UniqueID": "QTEXWJZF",
+        "Height": "10",
+        "AutoSize": "T"
+      },
+      {
+        "RECORD": "18",
+        "IndexInSheet": "106",
+        "OwnerPartId": "-1",
+        "Width": "59",
+        "Width_Frac": "5500",
+        "Location.X": "246",
+        "Location.X_Frac": "6300",
+        "Location.Y": "728",
+        "Location.Y_Frac": "34648",
+        "FontID": "3",
+        "AreaColor": "16777215",
+        "Name": "ETH_TXD2",
+        "UniqueID": "QUTQNNVN",
+        "Height": "10",
+        "AutoSize": "T"
+      },
+      {
+        "RECORD": "18",
+        "IndexInSheet": "107",
+        "OwnerPartId": "-1",
+        "Width": "59",
+        "Width_Frac": "5500",
+        "Location.X": "246",
+        "Location.X_Frac": "6300",
+        "Location.Y": "748",
+        "Location.Y_Frac": "3152",
+        "FontID": "3",
+        "AreaColor": "16777215",
+        "Name": "ETH_TXD1",
+        "UniqueID": "NMFCOYER",
+        "Height": "10",
+        "AutoSize": "T"
+      },
+      {
+        "RECORD": "18",
+        "IndexInSheet": "108",
+        "OwnerPartId": "-1",
+        "Width": "59",
+        "Width_Frac": "5500",
+        "Location.X": "246",
+        "Location.X_Frac": "6300",
+        "Location.Y": "767",
+        "Location.Y_Frac": "71656",
+        "FontID": "3",
+        "AreaColor": "16777215",
+        "Name": "ETH_TXD0",
+        "UniqueID": "DEBRXEAL",
+        "Height": "10",
+        "AutoSize": "T"
+      },
+      {
+        "RECORD": "18",
+        "IndexInSheet": "109",
+        "OwnerPartId": "-1",
+        "Width": "59",
+        "Width_Frac": "5500",
+        "Location.X": "246",
+        "Location.X_Frac": "6300",
+        "Location.Y": "787",
+        "Location.Y_Frac": "40160",
+        "FontID": "3",
+        "AreaColor": "16777215",
+        "Name": "ETH_TXC",
+        "UniqueID": "OMVUIASD",
+        "Height": "10",
+        "AutoSize": "T"
+      },
+      {
+        "RECORD": "18",
+        "IndexInSheet": "110",
+        "OwnerPartId": "-1",
+        "Width": "59",
+        "Width_Frac": "5500",
+        "Location.X": "614",
+        "Location.X_Frac": "17320",
+        "Location.Y": "679",
+        "Location.Y_Frac": "13388",
+        "FontID": "3",
+        "AreaColor": "16777215",
+        "Name": "ETH_RXD3",
+        "UniqueID": "MKEMUROT",
+        "Height": "10",
+        "AutoSize": "T"
+      },
+      {
+        "RECORD": "18",
+        "IndexInSheet": "111",
+        "OwnerPartId": "-1",
+        "Width": "59",
+        "Width_Frac": "5500",
+        "Location.X": "612",
+        "Location.X_Frac": "20448",
+        "Location.Y": "698",
+        "Location.Y_Frac": "81892",
+        "FontID": "3",
+        "AreaColor": "16777215",
+        "Name": "ETH_RXD2",
+        "UniqueID": "CWBXZHON",
+        "Height": "10",
+        "AutoSize": "T"
+      },
+      {
+        "RECORD": "18",
+        "IndexInSheet": "112",
+        "OwnerPartId": "-1",
+        "Width": "59",
+        "Width_Frac": "5500",
+        "Location.X": "612",
+        "Location.X_Frac": "20448",
+        "Location.Y": "718",
+        "Location.Y_Frac": "50396",
+        "FontID": "3",
+        "AreaColor": "16777215",
+        "Name": "ETH_RXD1",
+        "UniqueID": "TCQPXOXO",
+        "Height": "10",
+        "AutoSize": "T"
+      },
+      {
+        "RECORD": "18",
+        "IndexInSheet": "113",
+        "OwnerPartId": "-1",
+        "Width": "59",
+        "Width_Frac": "5500",
+        "Location.X": "612",
+        "Location.X_Frac": "20448",
+        "Location.Y": "748",
+        "Location.Y_Frac": "3152",
+        "FontID": "3",
+        "AreaColor": "16777215",
+        "Name": "ETH_RXD0",
+        "UniqueID": "KVRKGCUQ",
+        "Height": "10",
+        "AutoSize": "T"
+      },
+      {
+        "RECORD": "18",
+        "IndexInSheet": "114",
+        "OwnerPartId": "-1",
+        "Width": "61",
+        "Width_Frac": "6666",
+        "Location.X": "614",
+        "Location.X_Frac": "17324",
+        "Location.Y": "767",
+        "Location.Y_Frac": "71656",
+        "FontID": "3",
+        "AreaColor": "16777215",
+        "Name": "ETH_RXCTL",
+        "UniqueID": "EUGPDHSV",
+        "Height": "10",
+        "AutoSize": "T"
+      },
+      {
+        "RECORD": "18",
+        "IndexInSheet": "115",
+        "OwnerPartId": "-1",
+        "Width": "59",
+        "Width_Frac": "5500",
+        "Location.X": "614",
+        "Location.X_Frac": "17200",
+        "Location.Y": "787",
+        "Location.Y_Frac": "40000",
+        "FontID": "3",
+        "AreaColor": "16777215",
+        "Name": "ETH_RXC",
+        "UniqueID": "BNQEAMEX",
+        "Height": "10",
+        "AutoSize": "T"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "117",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "710",
+        "Location.X_Frac": "62850",
+        "Location.Y": "543",
+        "Location.Y_Frac": "30600",
+        "Orientation": "2",
+        "FontID": "3",
+        "Text": "DVDD33",
+        "UniqueID": "IBZJEBMQ"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "118",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "1456",
+        "Location.X_Frac": "69296",
+        "Location.Y": "649",
+        "Location.Y_Frac": "60632",
+        "FontID": "3",
+        "Text": "DVDD10",
+        "UniqueID": "WPDDEXCE"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "119",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "1269",
+        "Location.X_Frac": "68508",
+        "Location.Y": "531",
+        "Location.Y_Frac": "49608",
+        "Orientation": "2",
+        "FontID": "3",
+        "Text": "DVDD10",
+        "UniqueID": "SSHMVNHD"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "120",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "1446",
+        "Location.X_Frac": "85044",
+        "Location.Y": "501",
+        "Location.Y_Frac": "96852",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "JERRYWVB"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "122",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "1545",
+        "Location.X_Frac": "27544",
+        "Location.Y": "600",
+        "Location.Y_Frac": "39372",
+        "FontID": "3",
+        "Text": "AVDD33",
+        "UniqueID": "VATWEOMW"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "124",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "1476",
+        "Location.X_Frac": "37800",
+        "Location.Y": "570",
+        "Location.Y_Frac": "86616",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "UZOYKFYM"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "126",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "1269",
+        "Location.X_Frac": "68508",
+        "Location.Y": "649",
+        "Location.Y_Frac": "60632",
+        "Orientation": "2",
+        "FontID": "3",
+        "Text": "AVDD10",
+        "UniqueID": "EVXMBPVV"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "127",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "1250",
+        "Location.X_Frac": "4",
+        "Location.Y": "570",
+        "Location.Y_Frac": "86616",
+        "Orientation": "2",
+        "FontID": "3",
+        "Text": "AVDD33",
+        "UniqueID": "OLRMKDOH"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "133",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "610",
+        "Location.X_Frac": "23500",
+        "Location.Y": "600",
+        "Location.Y_Frac": "39250",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "TWSEKMFQ"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "134",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "488",
+        "Location.X_Frac": "18800",
+        "Location.Y": "889",
+        "Location.Y_Frac": "76200",
+        "Orientation": "1",
+        "FontID": "3",
+        "Text": "DVDD33",
+        "UniqueID": "MMFEXHHT"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "135",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "149",
+        "Location.X_Frac": "60600",
+        "Location.Y": "401",
+        "Location.Y_Frac": "57400",
+        "Orientation": "1",
+        "FontID": "3",
+        "Text": "VCC1V0",
+        "UniqueID": "VULZMCFS"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "138",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "149",
+        "Location.X_Frac": "60600",
+        "Location.Y": "362",
+        "Location.Y_Frac": "20400",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "YCVWLEKF"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "142",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "334",
+        "Location.X_Frac": "64500",
+        "Location.Y": "362",
+        "Location.Y_Frac": "20400",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "HSOGHFFE"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "143",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "334",
+        "Location.X_Frac": "64500",
+        "Location.Y": "401",
+        "Location.Y_Frac": "57400",
+        "Orientation": "1",
+        "FontID": "3",
+        "Text": "DVDD10",
+        "UniqueID": "XWIFTBXB"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "145",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "326",
+        "Location.X_Frac": "77100",
+        "Location.Y": "442",
+        "Location.Y_Frac": "91250",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "WMYPIFZS"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "147",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "374",
+        "Location.X_Frac": "1500",
+        "Location.Y": "442",
+        "Location.Y_Frac": "91250",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "GJZRHSCM"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "149",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "417",
+        "Location.X_Frac": "32200",
+        "Location.Y": "442",
+        "Location.Y_Frac": "91250",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "IMGKZLKX"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "150",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "417",
+        "Location.X_Frac": "32200",
+        "Location.Y": "480",
+        "Location.Y_Frac": "31400",
+        "Orientation": "1",
+        "FontID": "3",
+        "Text": "AVDD10",
+        "UniqueID": "NXLYLYGW"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "153",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "149",
+        "Location.X_Frac": "60600",
+        "Location.Y": "253",
+        "Location.Y_Frac": "93650",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "WMJKGMGA"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "154",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "149",
+        "Location.X_Frac": "60600",
+        "Location.Y": "291",
+        "Location.Y_Frac": "33800",
+        "Orientation": "1",
+        "FontID": "3",
+        "Text": "VCC3V3",
+        "UniqueID": "DUUPIZYW"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "160",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "407",
+        "Location.X_Frac": "47950",
+        "Location.Y": "228",
+        "Location.Y_Frac": "34600",
+        "Orientation": "1",
+        "FontID": "3",
+        "Text": "DVDD33",
+        "UniqueID": "QYWNKYGP"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "161",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "316",
+        "Location.X_Frac": "92850",
+        "Location.Y": "194",
+        "Location.Y_Frac": "88150",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "GSAMZJEA"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "162",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "267",
+        "Location.X_Frac": "71600",
+        "Location.Y": "253",
+        "Location.Y_Frac": "93650",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "BBPOJRAX"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "163",
+        "OwnerPartId": "-1",
+        "Style": "7",
+        "ShowNetName": "T",
+        "Location.X": "366",
+        "Location.X_Frac": "14100",
+        "Location.Y": "289",
+        "Location.Y_Frac": "36950",
+        "Orientation": "1",
+        "FontID": "3",
+        "Text": "AVDD33",
+        "UniqueID": "IOLYTQQH"
+      },
+      {
+        "RECORD": "17",
+        "IndexInSheet": "173",
+        "OwnerPartId": "-1",
+        "Style": "10",
+        "ShowNetName": "F",
+        "Location.X": "1427",
+        "Location.X_Frac": "16540",
+        "Location.Y": "797",
+        "Location.Y_Frac": "24412",
+        "Orientation": "3",
+        "FontID": "1",
+        "Text": "GND",
+        "UniqueID": "VFEFSJBO"
+      },
+      {
+        "RECORD": "25",
+        "IndexInSheet": "260",
+        "OwnerPartId": "-1",
+        "Location.X": "779",
+        "Location.X_Frac": "52604",
+        "Location.Y": "866",
+        "Location.Y_Frac": "14176",
+        "FontID": "3",
+        "Text": "CKXTAL1",
+        "UniqueID": "CTPKGVBD"
+      }
+    ],
+    "fpga_instances": []
+  }
+]

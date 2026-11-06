@@ -20,13 +20,53 @@
       "altium_repartition_library_component"
     ],
     "status": {
-      "altium_exe": "Z:\\Altium\\X2.EXE",
+      "altium_exe": "C:\\Program Files\\Altium\\AD25\\X2.EXE",
       "exe_exists": true,
-      "state_dir": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\tools\\altium\\runtime",
+      "state_dir": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\tools\\altium\\runtime",
       "desktop_available": true,
       "transport": "stdio",
       "bridge": "CodexAltium",
-      "executor_blocked": false
+      "executor_blocked": true,
+      "blocked_job": {
+        "job_dir": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\tools\\altium\\runtime\\jobs\\95e60835f55244a98abf3e833d23a754",
+        "diagnosis": {
+          "job_dir": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\tools\\altium\\runtime\\jobs\\95e60835f55244a98abf3e833d23a754",
+          "state": "NOT_STARTED",
+          "last_step": "NOT_STARTED",
+          "steps": [],
+          "result_exists": false,
+          "editor_alive": true,
+          "automatic_replay_safe": false,
+          "files": [
+            "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\tools\\altium\\runtime\\jobs\\95e60835f55244a98abf3e833d23a754\\CodexJob_95e60835f552.pas",
+            "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\tools\\altium\\runtime\\jobs\\95e60835f55244a98abf3e833d23a754\\CodexJob_95e60835f552.PrjScr",
+            "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\tools\\altium\\runtime\\jobs\\95e60835f55244a98abf3e833d23a754\\request.json"
+          ]
+        }
+      },
+      "status": "EXTERNAL_CONSTRAINT_SUSPECTED",
+      "user_decision_required": true,
+      "notify_user": true,
+      "failure_category": "external_or_ambiguous",
+      "automatic_retry_allowed": false,
+      "action": "status",
+      "obstacle": {
+        "evidence": [
+          "EXECUTOR_RECOVERY_REQUIRED"
+        ],
+        "uncertainty": "A failed CAD call does not establish version incompatibility; partial unsaved changes may exist."
+      },
+      "next_steps": [
+        {
+          "id": "ai_workaround",
+          "description": "Review local logs and saved copies, then propose a specific code/API correction or saved-file route after your choice."
+        },
+        {
+          "id": "human_handoff",
+          "description": "Inspect the Altium error and version; save unsaved work and stop the failed script if needed, then report the outcome."
+        }
+      ],
+      "resume_condition": "Explain evidence and uncertainty; wait if human action or a new strategy is required."
     },
     "project_sheets": 6,
     "saved_components": 8,
@@ -54,13 +94,53 @@
       "altium_repartition_library_component"
     ],
     "status": {
-      "altium_exe": "Z:\\Altium\\X2.EXE",
+      "altium_exe": "C:\\Program Files\\Altium\\AD25\\X2.EXE",
       "exe_exists": true,
-      "state_dir": "C:\\Users\\makarlistkov\\Documents\\Work\\Engineering\\FPGA-COURSE-WORK\\tools\\altium\\runtime",
+      "state_dir": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\tools\\altium\\runtime",
       "desktop_available": true,
       "transport": "stdio",
       "bridge": "CodexAltium",
-      "executor_blocked": false
+      "executor_blocked": true,
+      "blocked_job": {
+        "job_dir": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\tools\\altium\\runtime\\jobs\\95e60835f55244a98abf3e833d23a754",
+        "diagnosis": {
+          "job_dir": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\tools\\altium\\runtime\\jobs\\95e60835f55244a98abf3e833d23a754",
+          "state": "NOT_STARTED",
+          "last_step": "NOT_STARTED",
+          "steps": [],
+          "result_exists": false,
+          "editor_alive": true,
+          "automatic_replay_safe": false,
+          "files": [
+            "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\tools\\altium\\runtime\\jobs\\95e60835f55244a98abf3e833d23a754\\CodexJob_95e60835f552.pas",
+            "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\tools\\altium\\runtime\\jobs\\95e60835f55244a98abf3e833d23a754\\CodexJob_95e60835f552.PrjScr",
+            "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\tools\\altium\\runtime\\jobs\\95e60835f55244a98abf3e833d23a754\\request.json"
+          ]
+        }
+      },
+      "status": "EXTERNAL_CONSTRAINT_SUSPECTED",
+      "user_decision_required": true,
+      "notify_user": true,
+      "failure_category": "external_or_ambiguous",
+      "automatic_retry_allowed": false,
+      "action": "status",
+      "obstacle": {
+        "evidence": [
+          "EXECUTOR_RECOVERY_REQUIRED"
+        ],
+        "uncertainty": "A failed CAD call does not establish version incompatibility; partial unsaved changes may exist."
+      },
+      "next_steps": [
+        {
+          "id": "ai_workaround",
+          "description": "Review local logs and saved copies, then propose a specific code/API correction or saved-file route after your choice."
+        },
+        {
+          "id": "human_handoff",
+          "description": "Inspect the Altium error and version; save unsaved work and stop the failed script if needed, then report the outcome."
+        }
+      ],
+      "resume_condition": "Explain evidence and uncertainty; wait if human action or a new strategy is required."
     },
     "project_sheets": 6,
     "saved_components": 8,

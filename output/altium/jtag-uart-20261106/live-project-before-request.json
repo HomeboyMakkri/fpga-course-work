@@ -1,0 +1,6 @@
+{
+  "body": "WS:=GetWorkspace; Prj:=WS.DM_OpenProject('C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\ARTIX.PrjPcb',True);\nif Prj<>Nil then begin ResultText:='{\"documents\":[';\nfor I:=0 to Prj.DM_LogicalDocumentCount-1 do begin\n D:=Prj.DM_LogicalDocuments(I); if I>0 then ResultText:=ResultText+',';\n SD:=Client.GetDocumentByPath(D.DM_FullPath);\n ResultText:=ResultText+'{\"path\":'+JQ(D.DM_FullPath)+',\"open\":';\n if SD=Nil then ResultText:=ResultText+'false,\"modified\":false}'\n else begin ResultText:=ResultText+'true,\"modified\":'; if SD.Modified then ResultText:=ResultText+'true}' else ResultText:=ResultText+'false}'; end;\nend; ResultText:=ResultText+']}'; end else ResultText:='{\"error\":\"PROJECT_NOT_OPEN\"}';",
+  "declarations": "WS:IWorkspace; Prj:IProject; D:IDocument; SD:IServerDocument; I:Integer;",
+  "helpers": "\nfunction JQ(S: WideString): String;\nvar K,V: Integer;\nbegin\n  Result := '\"';\n  for K := 1 to Length(S) do begin\n    V := Ord(S[K]);\n    if (V < 32) or (V > 126) or (V = 34) or (V = 92) then\n      Result := Result + '\\u' + IntToHex(V,4)\n    else Result := Result + S[K];\n  end;\n  Result := Result + '\"';\nend;\n",
+  "timeout": 40
+}

@@ -1,0 +1,1726 @@
+{
+  "success": true,
+  "job_dir": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\tools\\altium\\runtime\\jobs\\2aeb1acfd80543478dbd87be27ec9446",
+  "steps": [
+    "START",
+    "open explicit project",
+    "load project schematic documents",
+    "compile explicit project",
+    "read compiled nets",
+    "FINISHED"
+  ],
+  "elapsed_seconds": 3.77,
+  "result": {
+    "compiled": false,
+    "net_source": "physical",
+    "document_count": 1,
+    "pins": [
+      {
+        "ref": "C901",
+        "pin": "1",
+        "net": "3V3"
+      },
+      {
+        "ref": "C901",
+        "pin": "2",
+        "net": "GND"
+      },
+      {
+        "ref": "D901",
+        "pin": "1",
+        "net": "5V"
+      },
+      {
+        "ref": "D901",
+        "pin": "2",
+        "net": "USB_POWER"
+      },
+      {
+        "ref": "J901",
+        "pin": "A1",
+        "net": "NetJ901_A1"
+      },
+      {
+        "ref": "J901",
+        "pin": "A2",
+        "net": "NetJ901_A2"
+      },
+      {
+        "ref": "J901",
+        "pin": "A3",
+        "net": "NetJ901_A3"
+      },
+      {
+        "ref": "J901",
+        "pin": "A4",
+        "net": "USB_POWER"
+      },
+      {
+        "ref": "J901",
+        "pin": "A5",
+        "net": "NetJ901_A5"
+      },
+      {
+        "ref": "J901",
+        "pin": "A6",
+        "net": "USB_DP"
+      },
+      {
+        "ref": "J901",
+        "pin": "A7",
+        "net": "USB_DN"
+      },
+      {
+        "ref": "J901",
+        "pin": "A8",
+        "net": "NetJ901_A8"
+      },
+      {
+        "ref": "J901",
+        "pin": "A9",
+        "net": "NetJ901_A9"
+      },
+      {
+        "ref": "J901",
+        "pin": "A10",
+        "net": "NetJ901_A10"
+      },
+      {
+        "ref": "J901",
+        "pin": "A11",
+        "net": "NetJ901_A11"
+      },
+      {
+        "ref": "J901",
+        "pin": "A12",
+        "net": "NetJ901_A12"
+      },
+      {
+        "ref": "J901",
+        "pin": "B1",
+        "net": "NetJ901_B1"
+      },
+      {
+        "ref": "J901",
+        "pin": "B2",
+        "net": "NetJ901_B2"
+      },
+      {
+        "ref": "J901",
+        "pin": "B3",
+        "net": "NetJ901_B3"
+      },
+      {
+        "ref": "J901",
+        "pin": "B4",
+        "net": "NetJ901_B4"
+      },
+      {
+        "ref": "J901",
+        "pin": "B5",
+        "net": "NetJ901_B5"
+      },
+      {
+        "ref": "J901",
+        "pin": "B6",
+        "net": "NetJ901_B6"
+      },
+      {
+        "ref": "J901",
+        "pin": "B7",
+        "net": "NetJ901_B7"
+      },
+      {
+        "ref": "J901",
+        "pin": "B8",
+        "net": "NetJ901_B8"
+      },
+      {
+        "ref": "J901",
+        "pin": "B9",
+        "net": "NetJ901_B9"
+      },
+      {
+        "ref": "J901",
+        "pin": "B10",
+        "net": "NetJ901_B10"
+      },
+      {
+        "ref": "J901",
+        "pin": "B11",
+        "net": "NetJ901_B11"
+      },
+      {
+        "ref": "J901",
+        "pin": "B12",
+        "net": "NetJ901_B12"
+      },
+      {
+        "ref": "J901",
+        "pin": "SH1",
+        "net": "NetJ901_SH1"
+      },
+      {
+        "ref": "J901",
+        "pin": "SH2",
+        "net": "NetJ901_SH2"
+      },
+      {
+        "ref": "J901",
+        "pin": "SH3",
+        "net": "NetJ901_SH3"
+      },
+      {
+        "ref": "J901",
+        "pin": "SH4",
+        "net": "NetJ901_SH4"
+      },
+      {
+        "ref": "R901",
+        "pin": "1",
+        "net": "CC1"
+      },
+      {
+        "ref": "R901",
+        "pin": "2",
+        "net": "GND"
+      },
+      {
+        "ref": "U901",
+        "pin": "1",
+        "net": "NetU901_1"
+      },
+      {
+        "ref": "U901",
+        "pin": "2",
+        "net": "NetU901_2"
+      },
+      {
+        "ref": "U901",
+        "pin": "3",
+        "net": "NetU901_3"
+      },
+      {
+        "ref": "U901",
+        "pin": "4",
+        "net": "NetU901_4"
+      },
+      {
+        "ref": "U901",
+        "pin": "5",
+        "net": "NetU901_5"
+      },
+      {
+        "ref": "U901",
+        "pin": "6",
+        "net": "NetU901_6"
+      },
+      {
+        "ref": "U901",
+        "pin": "7",
+        "net": "USB_DN"
+      },
+      {
+        "ref": "U901",
+        "pin": "8",
+        "net": "USB_DP"
+      },
+      {
+        "ref": "U901",
+        "pin": "9",
+        "net": "NetU901_9"
+      },
+      {
+        "ref": "U901",
+        "pin": "10",
+        "net": "NetU901_10"
+      },
+      {
+        "ref": "U901",
+        "pin": "11",
+        "net": "NetU901_11"
+      },
+      {
+        "ref": "U901",
+        "pin": "12",
+        "net": "NetU901_12"
+      },
+      {
+        "ref": "U901",
+        "pin": "13",
+        "net": "NetU901_13"
+      },
+      {
+        "ref": "U901",
+        "pin": "14",
+        "net": "NetU901_14"
+      },
+      {
+        "ref": "U901",
+        "pin": "15",
+        "net": "NetU901_15"
+      },
+      {
+        "ref": "U901",
+        "pin": "16",
+        "net": "NetU901_16"
+      },
+      {
+        "ref": "U901",
+        "pin": "17",
+        "net": "NetU901_17"
+      },
+      {
+        "ref": "U901",
+        "pin": "18",
+        "net": "NetU901_18"
+      },
+      {
+        "ref": "U901",
+        "pin": "19",
+        "net": "NetU901_19"
+      },
+      {
+        "ref": "U901",
+        "pin": "20",
+        "net": "NetU901_20"
+      },
+      {
+        "ref": "U901",
+        "pin": "21",
+        "net": "NetU901_21"
+      },
+      {
+        "ref": "U901",
+        "pin": "22",
+        "net": "NetU901_22"
+      },
+      {
+        "ref": "U901",
+        "pin": "23",
+        "net": "NetU901_23"
+      },
+      {
+        "ref": "U901",
+        "pin": "24",
+        "net": "NetU901_24"
+      },
+      {
+        "ref": "U901",
+        "pin": "25",
+        "net": "NetU901_25"
+      },
+      {
+        "ref": "U901",
+        "pin": "26",
+        "net": "NetU901_26"
+      },
+      {
+        "ref": "U901",
+        "pin": "27",
+        "net": "NetU901_27"
+      },
+      {
+        "ref": "U901",
+        "pin": "28",
+        "net": "NetU901_28"
+      },
+      {
+        "ref": "U901",
+        "pin": "29",
+        "net": "NetU901_29"
+      },
+      {
+        "ref": "U901",
+        "pin": "30",
+        "net": "NetU901_30"
+      },
+      {
+        "ref": "U901",
+        "pin": "31",
+        "net": "NetU901_31"
+      },
+      {
+        "ref": "U901",
+        "pin": "32",
+        "net": "NetU901_32"
+      },
+      {
+        "ref": "U901",
+        "pin": "33",
+        "net": "NetU901_33"
+      },
+      {
+        "ref": "U901",
+        "pin": "34",
+        "net": "NetU901_34"
+      },
+      {
+        "ref": "U901",
+        "pin": "35",
+        "net": "NetU901_35"
+      },
+      {
+        "ref": "U901",
+        "pin": "36",
+        "net": "NetU901_36"
+      },
+      {
+        "ref": "U901",
+        "pin": "37",
+        "net": "NetU901_37"
+      },
+      {
+        "ref": "U901",
+        "pin": "38",
+        "net": "NetU901_38"
+      },
+      {
+        "ref": "U901",
+        "pin": "39",
+        "net": "NetU901_39"
+      },
+      {
+        "ref": "U901",
+        "pin": "40",
+        "net": "NetU901_40"
+      },
+      {
+        "ref": "U901",
+        "pin": "41",
+        "net": "NetU901_41"
+      },
+      {
+        "ref": "U901",
+        "pin": "42",
+        "net": "NetU901_42"
+      },
+      {
+        "ref": "U901",
+        "pin": "43",
+        "net": "NetU901_43"
+      },
+      {
+        "ref": "U901",
+        "pin": "44",
+        "net": "NetU901_44"
+      },
+      {
+        "ref": "U901",
+        "pin": "45",
+        "net": "NetU901_45"
+      },
+      {
+        "ref": "U901",
+        "pin": "46",
+        "net": "NetU901_46"
+      },
+      {
+        "ref": "U901",
+        "pin": "47",
+        "net": "NetU901_47"
+      },
+      {
+        "ref": "U901",
+        "pin": "48",
+        "net": "NetU901_48"
+      },
+      {
+        "ref": "U901",
+        "pin": "49",
+        "net": "NetU901_49"
+      },
+      {
+        "ref": "U901",
+        "pin": "50",
+        "net": "NetU901_50"
+      },
+      {
+        "ref": "U901",
+        "pin": "51",
+        "net": "NetU901_51"
+      },
+      {
+        "ref": "U901",
+        "pin": "52",
+        "net": "NetU901_52"
+      },
+      {
+        "ref": "U901",
+        "pin": "53",
+        "net": "NetU901_53"
+      },
+      {
+        "ref": "U901",
+        "pin": "54",
+        "net": "NetU901_54"
+      },
+      {
+        "ref": "U901",
+        "pin": "55",
+        "net": "NetU901_55"
+      },
+      {
+        "ref": "U901",
+        "pin": "56",
+        "net": "NetU901_56"
+      },
+      {
+        "ref": "U901",
+        "pin": "57",
+        "net": "NetU901_57"
+      },
+      {
+        "ref": "U901",
+        "pin": "58",
+        "net": "NetU901_58"
+      },
+      {
+        "ref": "U901",
+        "pin": "59",
+        "net": "NetU901_59"
+      },
+      {
+        "ref": "U901",
+        "pin": "60",
+        "net": "NetU901_60"
+      },
+      {
+        "ref": "U901",
+        "pin": "61",
+        "net": "NetU901_61"
+      },
+      {
+        "ref": "U901",
+        "pin": "62",
+        "net": "NetU901_62"
+      },
+      {
+        "ref": "U901",
+        "pin": "63",
+        "net": "NetU901_63"
+      },
+      {
+        "ref": "U901",
+        "pin": "64",
+        "net": "NetU901_64"
+      }
+    ],
+    "messages": [
+      {
+        "class": "[Error]",
+        "text": "Net 3V3 has only one pin (Pin C901-1)",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Error]",
+        "text": "Net 5V has only one pin (Pin D901-1)",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Error]",
+        "text": "Net CC1 has only one pin (Pin R901-1)",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Error]",
+        "text": "Net NetU901_2 contains floating input pins (Pin U901-2)",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Error]",
+        "text": "Net NetU901_6 contains floating input pins (Pin U901-6)",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Error]",
+        "text": "Net NetU901_13 contains floating input pins (Pin U901-13)",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Error]",
+        "text": "Net NetU901_14 contains floating input pins (Pin U901-14)",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Net NetU901_2 has no driving source (Pin U901-2)",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Net NetU901_6 has no driving source (Pin U901-6)",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Net NetU901_13 has no driving source (Pin U901-13)",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Net NetU901_14 has no driving source (Pin U901-14)",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid C901 at 8267.717mil,12992.126mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid D901 at 7086.614mil,10629.921mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid J901 at 2362.205mil,13779.528mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Net Label 3V3 at 8267.717mil,12716.535mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Net Label 5V at 5708.661mil,10629.921mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Net Label CC1 at 7086.614mil,12716.535mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Net Label GND at 7086.614mil,13858.268mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Net Label GND at 8267.717mil,13562.992mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Net Label USB_DN at 4921.26mil,10590.551mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Net Label USB_DN at 9842.52mil,12598.425mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Net Label USB_DP at 4921.26mil,11062.992mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Net Label USB_DP at 9842.52mil,12362.205mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Net Label USB_POWER at 4921.26mil,13425.197mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Net Label USB_POWER at 8159.055mil,10629.921mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin C901-1 at 8267.717mil,12992.126mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin C901-2 at 8267.717mil,13287.401mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin D901-1 at 7086.614mil,10629.921mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin D901-2 at 7686.614mil,10629.921mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin J901-A1 at 4448.819mil,12480.315mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin J901-A2 at 4448.819mil,9645.669mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin J901-A3 at 4448.819mil,9409.449mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin J901-A4 at 4448.819mil,13425.197mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin J901-A5 at 4448.819mil,11535.433mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin J901-A6 at 4448.819mil,11062.992mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin J901-A7 at 4448.819mil,10590.551mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin J901-A8 at 4448.819mil,10118.11mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin J901-A9 at 4448.819mil,13188.976mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin J901-A10 at 4448.819mil,7992.126mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin J901-A11 at 4448.819mil,8228.347mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin J901-A12 at 4448.819mil,12244.095mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin J901-B1 at 4448.819mil,12007.874mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin J901-B2 at 4448.819mil,8700.787mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin J901-B3 at 4448.819mil,8464.567mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin J901-B4 at 4448.819mil,12952.756mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin J901-B5 at 4448.819mil,11299.213mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin J901-B6 at 4448.819mil,10826.772mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin J901-B7 at 4448.819mil,10354.331mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin J901-B8 at 4448.819mil,9881.89mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin J901-B9 at 4448.819mil,12716.536mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin J901-B10 at 4448.819mil,8937.008mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin J901-B11 at 4448.819mil,9173.228mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin J901-B12 at 4448.819mil,11771.654mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin J901-SH1 at 4448.819mil,7755.906mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin J901-SH2 at 4448.819mil,7519.685mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin J901-SH3 at 4448.819mil,7283.465mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin J901-SH4 at 4448.819mil,7047.244mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin R901-1 at 7086.614mil,12992.126mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin R901-2 at 7086.614mil,13582.677mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-1 at 14370.079mil,6220.473mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-2 at 11220.472mil,12834.646mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-3 at 14370.079mil,7165.354mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-4 at 14370.079mil,11653.543mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-5 at 14370.079mil,5984.252mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-6 at 11220.472mil,13307.087mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-7 at 11220.472mil,12598.425mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-8 at 11220.472mil,12362.205mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-9 at 14370.079mil,11889.764mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-10 at 14370.079mil,4330.709mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-11 at 14370.079mil,5748.032mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-12 at 14370.079mil,13543.307mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-13 at 11220.472mil,13070.866mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-14 at 11220.472mil,13543.307mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-15 at 14370.079mil,5511.811mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-16 at 14370.079mil,9055.118mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-17 at 14370.079mil,8818.898mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-18 at 14370.079mil,8582.677mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-19 at 14370.079mil,8346.457mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-20 at 14370.079mil,12834.646mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-21 at 14370.079mil,8110.236mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-22 at 14370.079mil,7874.016mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-23 at 14370.079mil,7637.795mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-24 at 14370.079mil,7401.575mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-25 at 14370.079mil,5275.591mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-26 at 14370.079mil,10944.882mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-27 at 14370.079mil,10708.662mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-28 at 14370.079mil,10472.441mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-29 at 14370.079mil,10236.221mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-30 at 14370.079mil,10000mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-31 at 14370.079mil,12598.425mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-32 at 14370.079mil,9763.78mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-33 at 14370.079mil,9527.559mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-34 at 14370.079mil,9291.339mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-35 at 14370.079mil,5039.37mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-36 at 14370.079mil,6692.913mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-37 at 14370.079mil,13307.087mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-38 at 11220.472mil,9763.78mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-39 at 11220.472mil,9527.559mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-40 at 11220.472mil,9291.339mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-41 at 11220.472mil,9055.118mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-42 at 14370.079mil,12362.205mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-43 at 11220.472mil,8818.898mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-44 at 11220.472mil,8582.677mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-45 at 11220.472mil,8346.457mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-46 at 11220.472mil,8110.236mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-47 at 14370.079mil,4803.15mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-48 at 11220.472mil,11653.543mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-49 at 14370.079mil,11181.102mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-50 at 14370.079mil,11417.323mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-51 at 14370.079mil,4566.929mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-52 at 11220.472mil,11417.323mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-53 at 11220.472mil,11181.102mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-54 at 11220.472mil,10944.882mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-55 at 11220.472mil,10708.662mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-56 at 14370.079mil,12125.984mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-57 at 11220.472mil,10472.441mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-58 at 11220.472mil,10236.221mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-59 at 11220.472mil,10000mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-60 at 14370.079mil,6456.693mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-61 at 11220.472mil,11889.764mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-62 at 14370.079mil,6929.134mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-63 at 11220.472mil,12125.984mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid Pin U901-64 at 14370.079mil,13070.866mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid R901 at 7086.614mil,12992.126mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off grid U901 at 11417.323mil,13779.528mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet C901 at 8267.717mil,12992.126mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet D901 at 7086.614mil,10629.921mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet J901 at 2362.205mil,13779.528mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Net Label 3V3 at 8267.717mil,12716.535mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Net Label 5V at 5708.661mil,10629.921mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Net Label CC1 at 7086.614mil,12716.535mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Net Label GND at 7086.614mil,13858.268mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Net Label GND at 8267.717mil,13562.992mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Net Label USB_DN at 4921.26mil,10590.551mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Net Label USB_DN at 9842.52mil,12598.425mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Net Label USB_DP at 4921.26mil,11062.992mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Net Label USB_DP at 9842.52mil,12362.205mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Net Label USB_POWER at 4921.26mil,13425.197mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Net Label USB_POWER at 8159.055mil,10629.921mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin C901-1 at 8267.717mil,12992.126mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin C901-2 at 8267.717mil,13287.401mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin D901-1 at 7086.614mil,10629.921mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin D901-2 at 7686.614mil,10629.921mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin J901-A1 at 4448.819mil,12480.315mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin J901-A2 at 4448.819mil,9645.669mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin J901-A3 at 4448.819mil,9409.449mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin J901-A4 at 4448.819mil,13425.197mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin J901-A5 at 4448.819mil,11535.433mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin J901-A6 at 4448.819mil,11062.992mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin J901-A7 at 4448.819mil,10590.551mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin J901-A8 at 4448.819mil,10118.11mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin J901-A9 at 4448.819mil,13188.976mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin J901-A10 at 4448.819mil,7992.126mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin J901-A11 at 4448.819mil,8228.347mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin J901-A12 at 4448.819mil,12244.095mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin J901-B1 at 4448.819mil,12007.874mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin J901-B2 at 4448.819mil,8700.787mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin J901-B3 at 4448.819mil,8464.567mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin J901-B4 at 4448.819mil,12952.756mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin J901-B5 at 4448.819mil,11299.213mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin J901-B6 at 4448.819mil,10826.772mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin J901-B7 at 4448.819mil,10354.331mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin J901-B8 at 4448.819mil,9881.89mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin J901-B9 at 4448.819mil,12716.536mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin J901-B10 at 4448.819mil,8937.008mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin J901-B11 at 4448.819mil,9173.228mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin J901-B12 at 4448.819mil,11771.654mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin J901-SH1 at 4448.819mil,7755.906mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin J901-SH2 at 4448.819mil,7519.685mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin J901-SH3 at 4448.819mil,7283.465mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin J901-SH4 at 4448.819mil,7047.244mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin R901-1 at 7086.614mil,12992.126mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin R901-2 at 7086.614mil,13582.677mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-1 at 14370.079mil,6220.473mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-2 at 11220.472mil,12834.646mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-3 at 14370.079mil,7165.354mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-4 at 14370.079mil,11653.543mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-5 at 14370.079mil,5984.252mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-6 at 11220.472mil,13307.087mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-7 at 11220.472mil,12598.425mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-8 at 11220.472mil,12362.205mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-9 at 14370.079mil,11889.764mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-10 at 14370.079mil,4330.709mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-11 at 14370.079mil,5748.032mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-12 at 14370.079mil,13543.307mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-13 at 11220.472mil,13070.866mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-14 at 11220.472mil,13543.307mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-15 at 14370.079mil,5511.811mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-16 at 14370.079mil,9055.118mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-17 at 14370.079mil,8818.898mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-18 at 14370.079mil,8582.677mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-19 at 14370.079mil,8346.457mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-20 at 14370.079mil,12834.646mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-21 at 14370.079mil,8110.236mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-22 at 14370.079mil,7874.016mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-23 at 14370.079mil,7637.795mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-24 at 14370.079mil,7401.575mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-25 at 14370.079mil,5275.591mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-26 at 14370.079mil,10944.882mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-27 at 14370.079mil,10708.662mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-28 at 14370.079mil,10472.441mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-29 at 14370.079mil,10236.221mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-30 at 14370.079mil,10000mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-31 at 14370.079mil,12598.425mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-32 at 14370.079mil,9763.78mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-33 at 14370.079mil,9527.559mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-34 at 14370.079mil,9291.339mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-35 at 14370.079mil,5039.37mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-36 at 14370.079mil,6692.913mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-37 at 14370.079mil,13307.087mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-38 at 11220.472mil,9763.78mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-39 at 11220.472mil,9527.559mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-40 at 11220.472mil,9291.339mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-41 at 11220.472mil,9055.118mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-42 at 14370.079mil,12362.205mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-43 at 11220.472mil,8818.898mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-44 at 11220.472mil,8582.677mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-45 at 11220.472mil,8346.457mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-46 at 11220.472mil,8110.236mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-47 at 14370.079mil,4803.15mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-48 at 11220.472mil,11653.543mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-49 at 14370.079mil,11181.102mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-50 at 14370.079mil,11417.323mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-51 at 14370.079mil,4566.929mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-52 at 11220.472mil,11417.323mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-53 at 11220.472mil,11181.102mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-54 at 11220.472mil,10944.882mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-55 at 11220.472mil,10708.662mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-56 at 14370.079mil,12125.984mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-57 at 11220.472mil,10472.441mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-58 at 11220.472mil,10236.221mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-59 at 11220.472mil,10000mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-60 at 14370.079mil,6456.693mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-61 at 11220.472mil,11889.764mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-62 at 14370.079mil,6929.134mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-63 at 11220.472mil,12125.984mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet Pin U901-64 at 14370.079mil,13070.866mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet R901 at 7086.614mil,12992.126mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      },
+      {
+        "class": "[Warning]",
+        "text": "Off sheet U901 at 11417.323mil,13779.528mil",
+        "document": "JTAG_UART_Placement_Probe.SchDoc"
+      }
+    ]
+  },
+  "status": "CODE_REPAIR_REQUIRED",
+  "user_decision_required": false,
+  "notify_user": false,
+  "failure_category": "code_or_input",
+  "automatic_retry_allowed": false,
+  "action": "compile_project",
+  "obstacle": {
+    "evidence": [
+      "OPERATION_NOT_VERIFIED"
+    ],
+    "uncertainty": "A failed CAD call does not establish version incompatibility; partial unsaved changes may exist."
+  },
+  "next_steps": [
+    {
+      "id": "ai_code_repair",
+      "description": "Correct code or input autonomously; no permission question for routine repairs."
+    }
+  ],
+  "resume_condition": "Diagnose and correct code autonomously; verify state before retrying. Stop after 3 attempts without new evidence or 10 minutes without progress."
+}

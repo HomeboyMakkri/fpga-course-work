@@ -1,0 +1,60 @@
+{
+  "success": true,
+  "job_dir": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\tools\\altium\\runtime\\jobs\\2e7131f47b3d4644b0a673e1155954dc",
+  "steps": [
+    "START",
+    "select exact library component",
+    "FINISHED"
+  ],
+  "elapsed_seconds": 2.28,
+  "result": {
+    "component": "SS24-E3_5BT",
+    "part_count": 1,
+    "current_part": 1,
+    "pins": [
+      {
+        "designator": "1",
+        "name": "K",
+        "unique_id": "QQCAOYPP",
+        "part": 1,
+        "display_mode": 0,
+        "x_coord": 1000000,
+        "y_coord": 0,
+        "orientation": 2,
+        "electrical": 4,
+        "show_name": false,
+        "show_designator": true,
+        "length_coord": 1000000,
+        "name_font_mode": 0,
+        "designator_font_mode": 0,
+        "name_font": "Times New Roman",
+        "name_size": 10,
+        "designator_font": "Times New Roman",
+        "designator_size": 10
+      },
+      {
+        "designator": "2",
+        "name": "A",
+        "unique_id": "LAUGMXUC",
+        "part": 1,
+        "display_mode": 0,
+        "x_coord": 5000000,
+        "y_coord": 0,
+        "orientation": 0,
+        "electrical": 4,
+        "show_name": false,
+        "show_designator": true,
+        "length_coord": 1000000,
+        "name_font_mode": 0,
+        "designator_font_mode": 0,
+        "name_font": "Times New Roman",
+        "name_size": 10,
+        "designator_font": "Times New Roman",
+        "designator_size": 10
+      }
+    ],
+    "pin_count": 2
+  },
+  "path": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\libraries\\ASV-50MHz\\Schlib1.SchLib",
+  "source": "native_editor_including_unsaved_changes"
+}

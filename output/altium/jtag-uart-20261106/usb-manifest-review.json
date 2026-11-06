@@ -1,0 +1,63 @@
+{
+  "review_date": "2026-11-06",
+  "reviewer": "independent USB evidence review",
+  "source_hashes": {
+    "manifest.json": "613838D7CBB15092F96FD8115D21D563A08A6F0C235EDFDD17683FEB2D5663F3",
+    "expected-pin-nets.csv": "9D0FA4458196B05A354884E4CCAC78E9742536C35612BA0145C5C75A2398653E",
+    "usb-review.json": "D0155E883525FC364CD7313C9E10E7BDFA34E1304821FDF88EC84DC42259E2CA"
+  },
+  "passed": true,
+  "findings": [],
+  "coverage": {
+    "manifest_components": 36,
+    "csv_physical_pins": 176,
+    "usb_power_support_components": 24,
+    "te_physical_pins": 28,
+    "pusb_physical_pins": 10
+  },
+  "checks": [
+    "TE28 physical pin/net entries exactly equal manufacturer/source-reviewed map",
+    "PUSB10 physical pin/net entries exactly equal map, including source NC6/7 external nets",
+    "All24 USB/power support component values and unordered net pairs match usb-review after aliases",
+    "Native selected SS24-E3_5BT readback K=1,A=2 proves D22.1=5V and D22.2=USB_POWER correct",
+    "U23 USB,reset,reference,supply endpoints agree with source review after aliases",
+    "Every176 CSV row exactly equals manifest; no duplicate component/pin or component designators",
+    "3V3/5V aliases are present in existing physical compile-before data; local VCC1V8_FT2232 remains separate",
+    "Complete source JTAG/UART component set36 present:6 main devices,8 resistors,2 ferrites,20 capacitors"
+  ],
+  "cached_preview": {
+    "format": "LargeImage hex zlib,500x354 raw BGRA with bottom-up row order",
+    "outputs": [
+      "evidence/02_FPGA_IO_Config-preview.png",
+      "evidence/03_FPGA_IO_Clock-preview.png"
+    ],
+    "sheet_size_mm": [
+      420,
+      297
+    ],
+    "suggested_free_regions_mm": {
+      "02_FPGA_IO_Config": {
+        "x": [
+          90,
+          405
+        ],
+        "y": [
+          70,
+          200
+        ]
+      },
+      "03_FPGA_IO_Clock": {
+        "x": [
+          115,
+          405
+        ],
+        "y": [
+          65,
+          115
+        ]
+      }
+    },
+    "limits": "Cached low-resolution preview; native/current geometry and electrical endpoints govern final placement. Recommendations identify clear regions only."
+  },
+  "scope_limit": "This independent audit does not claim fresh native CAD/compiler verification. EEPROM/FTDI variant and crystal qualification have separate reviews."
+}

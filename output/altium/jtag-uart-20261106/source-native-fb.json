@@ -1,0 +1,60 @@
+{
+  "success": true,
+  "job_dir": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\tools\\altium\\runtime\\jobs\\7b9160f1f2944012b25708cd3e48616a",
+  "steps": [
+    "START",
+    "select exact library component",
+    "FINISHED"
+  ],
+  "elapsed_seconds": 2.86,
+  "result": {
+    "component": "CMP-0686-00602-4",
+    "part_count": 1,
+    "current_part": 1,
+    "pins": [
+      {
+        "designator": "1",
+        "name": "1",
+        "unique_id": "JYMQPCDJ",
+        "part": 1,
+        "display_mode": 0,
+        "x_coord": 984252,
+        "y_coord": -1968504,
+        "orientation": 2,
+        "electrical": 4,
+        "show_name": false,
+        "show_designator": false,
+        "length_coord": 984252,
+        "name_font_mode": 0,
+        "designator_font_mode": 0,
+        "name_font": "Times New Roman",
+        "name_size": 10,
+        "designator_font": "Times New Roman",
+        "designator_size": 10
+      },
+      {
+        "designator": "2",
+        "name": "2",
+        "unique_id": "PRLBKVJV",
+        "part": 1,
+        "display_mode": 0,
+        "x_coord": 6889764,
+        "y_coord": -1968504,
+        "orientation": 0,
+        "electrical": 4,
+        "show_name": false,
+        "show_designator": false,
+        "length_coord": 984252,
+        "name_font_mode": 0,
+        "designator_font_mode": 0,
+        "name_font": "Times New Roman",
+        "name_size": 10,
+        "designator_font": "Times New Roman",
+        "designator_size": 10
+      }
+    ],
+    "pin_count": 2
+  },
+  "path": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\libraries\\FB BLM18SG121TN1D\\FB.SchLib",
+  "source": "native_editor_including_unsaved_changes"
+}

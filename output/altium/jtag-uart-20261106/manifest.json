@@ -1,0 +1,692 @@
+{
+  "source": "datasheets/Schematic_Smart_Artix_251120.pdf page7",
+  "aliases": {
+    "VCC3V3": "3V3",
+    "5V_DC": "5V",
+    "FTDI_RESET_N": "FT_RESET_N",
+    "FTDI_REF": "FT_REF",
+    "TCK_FPGA": "FPGA_TCK",
+    "TDI_FPGA": "FPGA_TDI",
+    "TDO_FPGA": "FPGA_TDO",
+    "TMS_FPGA": "FPGA_TMS"
+  },
+  "components": [
+    {
+      "ref": "U14",
+      "source": "usb",
+      "value": "2345986-1",
+      "x": 55,
+      "y": 355,
+      "nets": {
+        "A1": "GND",
+        "A2": null,
+        "A3": null,
+        "A4": "USB_POWER",
+        "A5": "USB_CC1",
+        "A6": "USB_DP",
+        "A7": "USB_DN",
+        "A8": null,
+        "A9": "USB_POWER",
+        "A10": null,
+        "A11": null,
+        "A12": "GND",
+        "B1": "GND",
+        "B2": null,
+        "B3": null,
+        "B4": "USB_POWER",
+        "B5": "USB_CC2",
+        "B6": "USB_DP",
+        "B7": "USB_DN",
+        "B8": null,
+        "B9": "USB_POWER",
+        "B10": null,
+        "B11": null,
+        "B12": "GND",
+        "SH1": "GND",
+        "SH2": "GND",
+        "SH3": "GND",
+        "SH4": "GND"
+      }
+    },
+    {
+      "ref": "U30",
+      "source": "esd",
+      "value": "PUSB3FR4Z",
+      "x": 55,
+      "y": 160,
+      "nets": {
+        "1": null,
+        "2": null,
+        "3": "GND",
+        "4": "USB_DP",
+        "5": "USB_DN",
+        "6": "USB_DN",
+        "7": "USB_DP",
+        "8": "GND",
+        "9": null,
+        "10": null
+      }
+    },
+    {
+      "ref": "U23",
+      "source": "ft",
+      "value": "FT2232HL-REEL",
+      "x": 290,
+      "y": 355,
+      "nets": {
+        "1": "GND",
+        "2": "FT_OSCI",
+        "3": "FT_OSCO",
+        "4": "VPHY",
+        "5": "GND",
+        "6": "FT_REF",
+        "7": "USB_DN",
+        "8": "USB_DP",
+        "9": "VPLL",
+        "10": "GND",
+        "11": "GND",
+        "12": "VCC1V8_FT2232",
+        "13": "GND",
+        "14": "FT_RESET_N",
+        "15": "GND",
+        "16": "FPGA_TCK",
+        "17": "FPGA_TDI",
+        "18": "FPGA_TDO",
+        "19": "FPGA_TMS",
+        "20": "3V3",
+        "21": null,
+        "22": null,
+        "23": null,
+        "24": null,
+        "25": "GND",
+        "26": "FT_UART1_TX",
+        "27": "FT_UART1_RX",
+        "28": null,
+        "29": null,
+        "30": null,
+        "31": "3V3",
+        "32": null,
+        "33": null,
+        "34": null,
+        "35": "GND",
+        "36": null,
+        "37": "VCC1V8_FT2232",
+        "38": "FT_UART2_TX",
+        "39": "FT_UART2_RX",
+        "40": null,
+        "41": null,
+        "42": "3V3",
+        "43": null,
+        "44": null,
+        "45": null,
+        "46": null,
+        "47": "GND",
+        "48": "FT_UART3_TX",
+        "49": "VCC1V8_FT2232",
+        "50": "3V3",
+        "51": "GND",
+        "52": "FT_UART3_RX",
+        "53": null,
+        "54": null,
+        "55": null,
+        "56": "3V3",
+        "57": null,
+        "58": null,
+        "59": null,
+        "60": null,
+        "61": "EEDATA",
+        "62": "EECLK",
+        "63": "EECS",
+        "64": "VCC1V8_FT2232"
+      }
+    },
+    {
+      "ref": "U3",
+      "source": "ee",
+      "value": "93LC66B-I/SN",
+      "x": 50,
+      "y": 110,
+      "nets": {
+        "1": "EECS",
+        "2": "EECLK",
+        "3": "EEDATA",
+        "4": "EEPROM_DO",
+        "5": "GND",
+        "6": "3V3",
+        "7": null,
+        "8": "3V3"
+      }
+    },
+    {
+      "ref": "D22",
+      "source": "diode",
+      "value": "SS24",
+      "x": 180,
+      "y": 380,
+      "nets": {
+        "1": "5V",
+        "2": "USB_POWER"
+      }
+    },
+    {
+      "ref": "X5",
+      "source": "xtal",
+      "value": "12MHz, CL=10pF",
+      "x": 175,
+      "y": 220,
+      "nets": {
+        "1": "FT_OSCI",
+        "2": "GND",
+        "3": "FT_OSCO",
+        "4": "GND"
+      }
+    },
+    {
+      "ref": "R448",
+      "source": "R1",
+      "value": "5.1k",
+      "x": 160,
+      "y": 310,
+      "nets": {
+        "1": "GND",
+        "2": "USB_CC2"
+      }
+    },
+    {
+      "ref": "R449",
+      "source": "R1",
+      "value": "5.1k",
+      "x": 195,
+      "y": 310,
+      "nets": {
+        "1": "GND",
+        "2": "USB_CC1"
+      }
+    },
+    {
+      "ref": "R456",
+      "source": "R1",
+      "value": "1k",
+      "x": 215,
+      "y": 270,
+      "nets": {
+        "1": "FT_RESET_N",
+        "2": "3V3"
+      }
+    },
+    {
+      "ref": "R457",
+      "source": "R1",
+      "value": "12k",
+      "x": 215,
+      "y": 225,
+      "nets": {
+        "1": "GND",
+        "2": "FT_REF"
+      }
+    },
+    {
+      "ref": "R225",
+      "source": "R1",
+      "value": "10k",
+      "x": 55,
+      "y": 55,
+      "nets": {
+        "1": "EECS",
+        "2": "3V3"
+      }
+    },
+    {
+      "ref": "R226",
+      "source": "R1",
+      "value": "10k",
+      "x": 90,
+      "y": 55,
+      "nets": {
+        "1": "EECLK",
+        "2": "3V3"
+      }
+    },
+    {
+      "ref": "R227",
+      "source": "R1",
+      "value": "10k",
+      "x": 125,
+      "y": 55,
+      "nets": {
+        "1": "EEPROM_DO",
+        "2": "3V3"
+      }
+    },
+    {
+      "ref": "R228",
+      "source": "R1",
+      "value": "2k",
+      "x": 170,
+      "y": 65,
+      "nets": {
+        "1": "EEPROM_DO",
+        "2": "EEDATA"
+      }
+    },
+    {
+      "ref": "FB3",
+      "source": "fb",
+      "value": "BLM18SG121TN1D",
+      "x": 430,
+      "y": 280,
+      "nets": {
+        "1": "3V3",
+        "2": "VPHY"
+      }
+    },
+    {
+      "ref": "FB4",
+      "source": "fb",
+      "value": "BLM18SG121TN1D",
+      "x": 515,
+      "y": 280,
+      "nets": {
+        "1": "3V3",
+        "2": "VPLL"
+      }
+    },
+    {
+      "ref": "C851",
+      "source": "C1",
+      "value": "10uF/10V",
+      "x": 160,
+      "y": 355,
+      "nets": {
+        "1": "GND",
+        "2": "5V"
+      },
+      "bank": 0
+    },
+    {
+      "ref": "C852",
+      "source": "C1",
+      "value": "10uF/10V",
+      "x": 190,
+      "y": 355,
+      "nets": {
+        "1": "GND",
+        "2": "5V"
+      },
+      "bank": 0
+    },
+    {
+      "ref": "C853",
+      "source": "C1",
+      "value": "0.1uF",
+      "x": 220,
+      "y": 355,
+      "nets": {
+        "1": "GND",
+        "2": "5V"
+      },
+      "bank": 0
+    },
+    {
+      "ref": "C324",
+      "source": "C1",
+      "value": "4.7uF",
+      "x": 430,
+      "y": 350,
+      "nets": {
+        "1": "GND",
+        "2": "3V3"
+      },
+      "bank": 1
+    },
+    {
+      "ref": "C325",
+      "source": "C1",
+      "value": "0.1uF",
+      "x": 455,
+      "y": 350,
+      "nets": {
+        "1": "GND",
+        "2": "3V3"
+      },
+      "bank": 1
+    },
+    {
+      "ref": "C301",
+      "source": "C1",
+      "value": "0.1uF",
+      "x": 480,
+      "y": 350,
+      "nets": {
+        "1": "GND",
+        "2": "3V3"
+      },
+      "bank": 1
+    },
+    {
+      "ref": "C302",
+      "source": "C1",
+      "value": "0.1uF",
+      "x": 505,
+      "y": 350,
+      "nets": {
+        "1": "GND",
+        "2": "3V3"
+      },
+      "bank": 1
+    },
+    {
+      "ref": "C303",
+      "source": "C1",
+      "value": "0.1uF",
+      "x": 530,
+      "y": 350,
+      "nets": {
+        "1": "GND",
+        "2": "3V3"
+      },
+      "bank": 1
+    },
+    {
+      "ref": "C304",
+      "source": "C1",
+      "value": "0.1uF",
+      "x": 555,
+      "y": 350,
+      "nets": {
+        "1": "GND",
+        "2": "3V3"
+      },
+      "bank": 1
+    },
+    {
+      "ref": "C291",
+      "source": "C1",
+      "value": "4.7uF",
+      "x": 430,
+      "y": 305,
+      "nets": {
+        "1": "GND",
+        "2": "VCC1V8_FT2232"
+      },
+      "bank": 2
+    },
+    {
+      "ref": "C298",
+      "source": "C1",
+      "value": "0.1uF",
+      "x": 465,
+      "y": 305,
+      "nets": {
+        "1": "GND",
+        "2": "VCC1V8_FT2232"
+      },
+      "bank": 2
+    },
+    {
+      "ref": "C299",
+      "source": "C1",
+      "value": "0.1uF",
+      "x": 500,
+      "y": 305,
+      "nets": {
+        "1": "GND",
+        "2": "VCC1V8_FT2232"
+      },
+      "bank": 2
+    },
+    {
+      "ref": "C300",
+      "source": "C1",
+      "value": "0.1uF",
+      "x": 535,
+      "y": 305,
+      "nets": {
+        "1": "GND",
+        "2": "VCC1V8_FT2232"
+      },
+      "bank": 2
+    },
+    {
+      "ref": "C294",
+      "source": "C1",
+      "value": "4.7uF",
+      "x": 430,
+      "y": 250,
+      "nets": {
+        "1": "GND",
+        "2": "VPHY"
+      },
+      "bank": 3
+    },
+    {
+      "ref": "C296",
+      "source": "C1",
+      "value": "0.1uF",
+      "x": 465,
+      "y": 250,
+      "nets": {
+        "1": "GND",
+        "2": "VPHY"
+      },
+      "bank": 3
+    },
+    {
+      "ref": "C295",
+      "source": "C1",
+      "value": "4.7uF",
+      "x": 515,
+      "y": 250,
+      "nets": {
+        "1": "GND",
+        "2": "VPLL"
+      },
+      "bank": 4
+    },
+    {
+      "ref": "C297",
+      "source": "C1",
+      "value": "0.1uF",
+      "x": 550,
+      "y": 250,
+      "nets": {
+        "1": "GND",
+        "2": "VPLL"
+      },
+      "bank": 4
+    },
+    {
+      "ref": "C308",
+      "source": "C1",
+      "value": "0.1uF",
+      "x": 175,
+      "y": 115,
+      "nets": {
+        "1": "GND",
+        "2": "3V3"
+      },
+      "bank": 5
+    },
+    {
+      "ref": "C326",
+      "source": "C1",
+      "value": "27pF",
+      "x": 175,
+      "y": 160,
+      "nets": {
+        "1": "GND",
+        "2": "FT_OSCI"
+      },
+      "bank": 6
+    },
+    {
+      "ref": "C327",
+      "source": "C1",
+      "value": "27pF",
+      "x": 220,
+      "y": 160,
+      "nets": {
+        "1": "GND",
+        "2": "FT_OSCO"
+      },
+      "bank": 7
+    }
+  ],
+  "banks": [
+    [
+      "5V",
+      355,
+      [
+        [
+          160,
+          "C851",
+          "10uF/10V"
+        ],
+        [
+          190,
+          "C852",
+          "10uF/10V"
+        ],
+        [
+          220,
+          "C853",
+          "0.1uF"
+        ]
+      ]
+    ],
+    [
+      "3V3",
+      350,
+      [
+        [
+          430,
+          "C324",
+          "4.7uF"
+        ],
+        [
+          455,
+          "C325",
+          "0.1uF"
+        ],
+        [
+          480,
+          "C301",
+          "0.1uF"
+        ],
+        [
+          505,
+          "C302",
+          "0.1uF"
+        ],
+        [
+          530,
+          "C303",
+          "0.1uF"
+        ],
+        [
+          555,
+          "C304",
+          "0.1uF"
+        ]
+      ]
+    ],
+    [
+      "VCC1V8_FT2232",
+      305,
+      [
+        [
+          430,
+          "C291",
+          "4.7uF"
+        ],
+        [
+          465,
+          "C298",
+          "0.1uF"
+        ],
+        [
+          500,
+          "C299",
+          "0.1uF"
+        ],
+        [
+          535,
+          "C300",
+          "0.1uF"
+        ]
+      ]
+    ],
+    [
+      "VPHY",
+      250,
+      [
+        [
+          430,
+          "C294",
+          "4.7uF"
+        ],
+        [
+          465,
+          "C296",
+          "0.1uF"
+        ]
+      ]
+    ],
+    [
+      "VPLL",
+      250,
+      [
+        [
+          515,
+          "C295",
+          "4.7uF"
+        ],
+        [
+          550,
+          "C297",
+          "0.1uF"
+        ]
+      ]
+    ],
+    [
+      "3V3",
+      115,
+      [
+        [
+          175,
+          "C308",
+          "0.1uF"
+        ]
+      ]
+    ],
+    [
+      "FT_OSCI",
+      160,
+      [
+        [
+          175,
+          "C326",
+          "27pF"
+        ]
+      ]
+    ],
+    [
+      "FT_OSCO",
+      160,
+      [
+        [
+          220,
+          "C327",
+          "27pF"
+        ]
+      ]
+    ]
+  ],
+  "notes": [
+    "Source labels on physical FT2232HL pins26/27 and48/52 retained as FT_UART1/3 but are ACBUS/BCBUS, not additional UARTs.",
+    "U30 pins6/7 internally NC, external same-net copper retained as in source; no internal feedthrough assumed.",
+    "U3 pin6 NC tied3V3 as source; not ORG on B variants. EEPROM contents/programming not verified.",
+    "X5 reuses passive four-pad crystal symbol/land pattern; 12MHz part selection and CL qualification pending.",
+    "3V3/5V/GND use existing project power names; local1V8_FT2232 is separate from FPGA1V8."
+  ]
+}

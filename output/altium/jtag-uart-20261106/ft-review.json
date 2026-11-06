@@ -1,0 +1,744 @@
+{
+  "scope": "Read-only independent FT2232HL+surrounding evidence review; no live Altium called and no CAD files mutated.",
+  "date": "2026-11-06",
+  "source_schematic_page_1_based": 7,
+  "manufacturer": "FTDI",
+  "requested_mpn": "FT2232HL",
+  "local_library_candidate": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\libraries\\FT(uart)\\FT2232HL-REEL\\FT2232HL-REEL.SchLib",
+  "local_footprint_candidate": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\libraries\\FT(uart)\\FT2232HL-REEL\\QFP50P1200X1200X160-64N.PcbLib",
+  "library_native_verification": "Pending parent native inspection. Presence of these files does not prove pin-map/model resolution.",
+  "sources": [
+    {
+      "path": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\datasheets\\Schematic_Smart_Artix_251120.pdf",
+      "sha256": "a198469eabd1abe7a504667ca2bf17a7595e5017d6f4830a380dd04bf8923230"
+    },
+    {
+      "path": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\datasheets\\Datasheets\\JTAG_UART\\FT2232HL.pdf",
+      "sha256": "971ef077e8bc2d049d4751d0d0dad78fb31fc72c65333d5bfa980f732bc4747c"
+    },
+    {
+      "path": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\datasheets\\Datasheets\\JTAG_UART\\FT2232HQ-REEL.pdf",
+      "sha256": "3840b6adcd22e1a474949a19d8439c17af5363b6fe019dfabe90599bac74ca21"
+    },
+    {
+      "path": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\libraries\\FT(uart)\\FT2232HL-REEL\\FT2232HL-REEL.SchLib",
+      "sha256": "9ec6a1942e2dd95c278089777682c62dc68958fb7e40a6fcf94b97b009b4beab"
+    },
+    {
+      "path": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\libraries\\FT(uart)\\FT2232HL-REEL\\QFP50P1200X1200X160-64N.PcbLib",
+      "sha256": "beb98af05e2a7f41bb35264448cb4f25c32ab1cfb701777b3395411e777b371b"
+    }
+  ],
+  "primary_web_sources": [
+    {
+      "url": "https://ftdichip.com/wp-content/uploads/2020/07/DS_FT2232H.pdf",
+      "supports": "FT2232HL LQFP64 functions and physical pin map; official primary IC datasheet."
+    },
+    {
+      "url": "https://ftdichip.com/wp-content/uploads/2024/09/DS_FT4232H.pdf",
+      "supports": "Alternative FT4232HL UART channel allocation at pins26/27,38/39,48/52."
+    }
+  ],
+  "manufacturer_document_local": "FT2232HQ-REEL.pdf is shared FT2232H IC datasheet FT_000061 v2.5,90 pages; pp9-13 apply to FT2232HL LQFP64. FT2232HL.pdf is mislabeled as a filename: content is FT2232H Mini Module FT_000114 v1.7,13 pages and is not IC primary pin-map evidence.",
+  "pins": [
+    {
+      "designator": "U23",
+      "physical_pin": "1",
+      "manufacturer_name": "GND",
+      "source_expected_net": "GND",
+      "source_explicit_nc": false
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "2",
+      "manufacturer_name": "OSCI",
+      "source_expected_net": "FT_OSCI",
+      "source_explicit_nc": false,
+      "net_label_is_generated_for_anonymous_source_net": true
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "3",
+      "manufacturer_name": "OSCO",
+      "source_expected_net": "FT_OSCO",
+      "source_explicit_nc": false,
+      "net_label_is_generated_for_anonymous_source_net": true
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "4",
+      "manufacturer_name": "VPHY",
+      "source_expected_net": "VPHY",
+      "source_explicit_nc": false
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "5",
+      "manufacturer_name": "GND",
+      "source_expected_net": "GND",
+      "source_explicit_nc": false
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "6",
+      "manufacturer_name": "REF",
+      "source_expected_net": "FT_REF",
+      "source_explicit_nc": false,
+      "net_label_is_generated_for_anonymous_source_net": true
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "7",
+      "manufacturer_name": "DM",
+      "source_expected_net": "USB_DN",
+      "source_explicit_nc": false
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "8",
+      "manufacturer_name": "DP",
+      "source_expected_net": "USB_DP",
+      "source_explicit_nc": false
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "9",
+      "manufacturer_name": "VPLL",
+      "source_expected_net": "VPLL",
+      "source_explicit_nc": false
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "10",
+      "manufacturer_name": "AGND",
+      "source_expected_net": "GND",
+      "source_explicit_nc": false
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "11",
+      "manufacturer_name": "GND",
+      "source_expected_net": "GND",
+      "source_explicit_nc": false
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "12",
+      "manufacturer_name": "VCORE",
+      "source_expected_net": "VCC1V8_FT2232",
+      "source_explicit_nc": false
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "13",
+      "manufacturer_name": "TEST",
+      "source_expected_net": "GND",
+      "source_explicit_nc": false
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "14",
+      "manufacturer_name": "RESET#",
+      "source_expected_net": "FT_RESET_N",
+      "source_explicit_nc": false,
+      "net_label_is_generated_for_anonymous_source_net": true
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "15",
+      "manufacturer_name": "GND",
+      "source_expected_net": "GND",
+      "source_explicit_nc": false
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "16",
+      "manufacturer_name": "ADBUS0",
+      "source_expected_net": "FPGA_TCK",
+      "source_explicit_nc": false,
+      "source_labels_on_same_wire": [
+        "TCK_FPGA",
+        "FPGA_TCK"
+      ]
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "17",
+      "manufacturer_name": "ADBUS1",
+      "source_expected_net": "FPGA_TDI",
+      "source_explicit_nc": false,
+      "source_labels_on_same_wire": [
+        "TDI_FPGA",
+        "FPGA_TDI"
+      ]
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "18",
+      "manufacturer_name": "ADBUS2",
+      "source_expected_net": "FPGA_TDO",
+      "source_explicit_nc": false,
+      "source_labels_on_same_wire": [
+        "TDO_FPGA",
+        "FPGA_TDO"
+      ]
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "19",
+      "manufacturer_name": "ADBUS3",
+      "source_expected_net": "FPGA_TMS",
+      "source_explicit_nc": false,
+      "source_labels_on_same_wire": [
+        "TMS_FPGA",
+        "FPGA_TMS"
+      ]
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "20",
+      "manufacturer_name": "VCCIO",
+      "source_expected_net": "VCC3V3",
+      "source_explicit_nc": false
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "21",
+      "manufacturer_name": "ADBUS4",
+      "source_expected_net": null,
+      "source_explicit_nc": true
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "22",
+      "manufacturer_name": "ADBUS5",
+      "source_expected_net": null,
+      "source_explicit_nc": true
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "23",
+      "manufacturer_name": "ADBUS6",
+      "source_expected_net": null,
+      "source_explicit_nc": true
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "24",
+      "manufacturer_name": "ADBUS7",
+      "source_expected_net": null,
+      "source_explicit_nc": true
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "25",
+      "manufacturer_name": "GND",
+      "source_expected_net": "GND",
+      "source_explicit_nc": false
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "26",
+      "manufacturer_name": "ACBUS0",
+      "source_expected_net": "FT_UART1_TX",
+      "source_explicit_nc": false,
+      "source_function_conflict": "See FT2232-versus-FT4232 UART conflict notes; do not infer UART role from source label."
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "27",
+      "manufacturer_name": "ACBUS1",
+      "source_expected_net": "FT_UART1_RX",
+      "source_explicit_nc": false,
+      "source_function_conflict": "See FT2232-versus-FT4232 UART conflict notes; do not infer UART role from source label."
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "28",
+      "manufacturer_name": "ACBUS2",
+      "source_expected_net": null,
+      "source_explicit_nc": true
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "29",
+      "manufacturer_name": "ACBUS3",
+      "source_expected_net": null,
+      "source_explicit_nc": true
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "30",
+      "manufacturer_name": "ACBUS4",
+      "source_expected_net": null,
+      "source_explicit_nc": true
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "31",
+      "manufacturer_name": "VCCIO",
+      "source_expected_net": "VCC3V3",
+      "source_explicit_nc": false
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "32",
+      "manufacturer_name": "ACBUS5",
+      "source_expected_net": null,
+      "source_explicit_nc": true
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "33",
+      "manufacturer_name": "ACBUS6",
+      "source_expected_net": null,
+      "source_explicit_nc": true
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "34",
+      "manufacturer_name": "ACBUS7",
+      "source_expected_net": null,
+      "source_explicit_nc": true
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "35",
+      "manufacturer_name": "GND",
+      "source_expected_net": "GND",
+      "source_explicit_nc": false
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "36",
+      "manufacturer_name": "SUSPEND#",
+      "source_expected_net": null,
+      "source_explicit_nc": true
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "37",
+      "manufacturer_name": "VCORE",
+      "source_expected_net": "VCC1V8_FT2232",
+      "source_explicit_nc": false
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "38",
+      "manufacturer_name": "BDBUS0",
+      "source_expected_net": "FT_UART2_TX",
+      "source_explicit_nc": false,
+      "source_function_conflict": "See FT2232-versus-FT4232 UART conflict notes; do not infer UART role from source label."
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "39",
+      "manufacturer_name": "BDBUS1",
+      "source_expected_net": "FT_UART2_RX",
+      "source_explicit_nc": false,
+      "source_function_conflict": "See FT2232-versus-FT4232 UART conflict notes; do not infer UART role from source label."
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "40",
+      "manufacturer_name": "BDBUS2",
+      "source_expected_net": null,
+      "source_explicit_nc": true
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "41",
+      "manufacturer_name": "BDBUS3",
+      "source_expected_net": null,
+      "source_explicit_nc": true
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "42",
+      "manufacturer_name": "VCCIO",
+      "source_expected_net": "VCC3V3",
+      "source_explicit_nc": false
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "43",
+      "manufacturer_name": "BDBUS4",
+      "source_expected_net": null,
+      "source_explicit_nc": true
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "44",
+      "manufacturer_name": "BDBUS5",
+      "source_expected_net": null,
+      "source_explicit_nc": true
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "45",
+      "manufacturer_name": "BDBUS6",
+      "source_expected_net": null,
+      "source_explicit_nc": true
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "46",
+      "manufacturer_name": "BDBUS7",
+      "source_expected_net": null,
+      "source_explicit_nc": true
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "47",
+      "manufacturer_name": "GND",
+      "source_expected_net": "GND",
+      "source_explicit_nc": false
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "48",
+      "manufacturer_name": "BCBUS0",
+      "source_expected_net": "FT_UART3_TX",
+      "source_explicit_nc": false,
+      "source_function_conflict": "See FT2232-versus-FT4232 UART conflict notes; do not infer UART role from source label."
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "49",
+      "manufacturer_name": "VREGOUT",
+      "source_expected_net": "VCC1V8_FT2232",
+      "source_explicit_nc": false
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "50",
+      "manufacturer_name": "VREGIN",
+      "source_expected_net": "VCC3V3",
+      "source_explicit_nc": false
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "51",
+      "manufacturer_name": "GND",
+      "source_expected_net": "GND",
+      "source_explicit_nc": false
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "52",
+      "manufacturer_name": "BCBUS1",
+      "source_expected_net": "FT_UART3_RX",
+      "source_explicit_nc": false,
+      "source_function_conflict": "See FT2232-versus-FT4232 UART conflict notes; do not infer UART role from source label."
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "53",
+      "manufacturer_name": "BCBUS2",
+      "source_expected_net": null,
+      "source_explicit_nc": true
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "54",
+      "manufacturer_name": "BCBUS3",
+      "source_expected_net": null,
+      "source_explicit_nc": true
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "55",
+      "manufacturer_name": "BCBUS4",
+      "source_expected_net": null,
+      "source_explicit_nc": true
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "56",
+      "manufacturer_name": "VCCIO",
+      "source_expected_net": "VCC3V3",
+      "source_explicit_nc": false
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "57",
+      "manufacturer_name": "BCBUS5",
+      "source_expected_net": null,
+      "source_explicit_nc": true
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "58",
+      "manufacturer_name": "BCBUS6",
+      "source_expected_net": null,
+      "source_explicit_nc": true
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "59",
+      "manufacturer_name": "BCBUS7",
+      "source_expected_net": null,
+      "source_explicit_nc": true
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "60",
+      "manufacturer_name": "PWREN#",
+      "source_expected_net": null,
+      "source_explicit_nc": true
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "61",
+      "manufacturer_name": "EEDATA",
+      "source_expected_net": "EEDATA",
+      "source_explicit_nc": false
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "62",
+      "manufacturer_name": "EECLK",
+      "source_expected_net": "EECLK",
+      "source_explicit_nc": false
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "63",
+      "manufacturer_name": "EECS",
+      "source_expected_net": "EECS",
+      "source_explicit_nc": false
+    },
+    {
+      "designator": "U23",
+      "physical_pin": "64",
+      "manufacturer_name": "VCORE",
+      "source_expected_net": "VCC1V8_FT2232",
+      "source_explicit_nc": false
+    }
+  ],
+  "pin_summary": {
+    "physical_count": 64,
+    "source_connected": 40,
+    "source_explicit_nc": 24
+  },
+  "passive_components": [
+    {
+      "designator": "C294",
+      "type": "capacitor",
+      "source_value": "4.7uF",
+      "endpoint_nets": [
+        "VPHY",
+        "GND"
+      ]
+    },
+    {
+      "designator": "C296",
+      "type": "capacitor",
+      "source_value": "0.1uF",
+      "endpoint_nets": [
+        "VPHY",
+        "GND"
+      ]
+    },
+    {
+      "designator": "C295",
+      "type": "capacitor",
+      "source_value": "4.7uF",
+      "endpoint_nets": [
+        "VPLL",
+        "GND"
+      ]
+    },
+    {
+      "designator": "C297",
+      "type": "capacitor",
+      "source_value": "0.1uF",
+      "endpoint_nets": [
+        "VPLL",
+        "GND"
+      ]
+    },
+    {
+      "designator": "C291",
+      "type": "capacitor",
+      "source_value": "4.7uF",
+      "endpoint_nets": [
+        "VCC1V8_FT2232",
+        "GND"
+      ]
+    },
+    {
+      "designator": "C298",
+      "type": "capacitor",
+      "source_value": "0.1uF",
+      "endpoint_nets": [
+        "VCC1V8_FT2232",
+        "GND"
+      ]
+    },
+    {
+      "designator": "C299",
+      "type": "capacitor",
+      "source_value": "0.1uF",
+      "endpoint_nets": [
+        "VCC1V8_FT2232",
+        "GND"
+      ]
+    },
+    {
+      "designator": "C300",
+      "type": "capacitor",
+      "source_value": "0.1uF",
+      "endpoint_nets": [
+        "VCC1V8_FT2232",
+        "GND"
+      ]
+    },
+    {
+      "designator": "C301",
+      "type": "capacitor",
+      "source_value": "0.1uF",
+      "endpoint_nets": [
+        "VCC3V3",
+        "GND"
+      ]
+    },
+    {
+      "designator": "C302",
+      "type": "capacitor",
+      "source_value": "0.1uF",
+      "endpoint_nets": [
+        "VCC3V3",
+        "GND"
+      ]
+    },
+    {
+      "designator": "C303",
+      "type": "capacitor",
+      "source_value": "0.1uF",
+      "endpoint_nets": [
+        "VCC3V3",
+        "GND"
+      ]
+    },
+    {
+      "designator": "C304",
+      "type": "capacitor",
+      "source_value": "0.1uF",
+      "endpoint_nets": [
+        "VCC3V3",
+        "GND"
+      ]
+    },
+    {
+      "designator": "C324",
+      "type": "capacitor",
+      "source_value": "4.7uF",
+      "endpoint_nets": [
+        "VCC3V3",
+        "GND"
+      ]
+    },
+    {
+      "designator": "C325",
+      "type": "capacitor",
+      "source_value": "0.1uF",
+      "endpoint_nets": [
+        "VCC3V3",
+        "GND"
+      ]
+    },
+    {
+      "designator": "C326",
+      "type": "capacitor",
+      "source_value": "27pF",
+      "endpoint_nets": [
+        "FT_OSCI",
+        "GND"
+      ]
+    },
+    {
+      "designator": "C327",
+      "type": "capacitor",
+      "source_value": "27pF",
+      "endpoint_nets": [
+        "FT_OSCO",
+        "GND"
+      ]
+    },
+    {
+      "designator": "R456",
+      "type": "resistor",
+      "source_value": "1k",
+      "endpoint_nets": [
+        "VCC3V3",
+        "FT_RESET_N"
+      ]
+    },
+    {
+      "designator": "R457",
+      "type": "resistor",
+      "source_value": "12k",
+      "endpoint_nets": [
+        "FT_REF",
+        "GND"
+      ],
+      "manufacturer_constraint": "12k +/-1% recommended by FTDI; source does not display tolerance"
+    },
+    {
+      "designator": "FB3",
+      "type": "ferrite_bead",
+      "source_value": "BLM18SG121TN1D",
+      "endpoint_nets": [
+        "VCC3V3",
+        "VPHY"
+      ]
+    },
+    {
+      "designator": "FB4",
+      "type": "ferrite_bead",
+      "source_value": "BLM18SG121TN1D",
+      "endpoint_nets": [
+        "VCC3V3",
+        "VPLL"
+      ]
+    }
+  ],
+  "crystal": {
+    "designator": "X5",
+    "type": "crystal",
+    "source_value": "12M_10pf",
+    "frequency_hz": 12000000,
+    "source_physical_pin_nets": {
+      "1": "FT_OSCI",
+      "2": "GND",
+      "3": "FT_OSCO",
+      "4": "GND"
+    },
+    "note": "Source draws a passive 4-contact crystal, not an active oscillator. C326/C327 each27pF; load rating10pF in displayed comment. Keep crystal function; source precise MPN not given."
+  },
+  "component_count_this_review": 22,
+  "passive_endpoint_numbering": "Two-terminal PDF passives do not display numbered pins. endpoint_nets are unordered and native pin numbers must be assigned after symbol inspection.",
+  "regulator_note": "No external regulator is inside JTAG/UART block. U23 internal1.8V regulator pins50/49 feed core pins12/37/64. Upper page POWER circuitry is outside this task block.",
+  "conflicts": [
+    {
+      "severity": "functional",
+      "subject": "FT2232HL versus combined FT4232HL/FT2232HL source U23",
+      "source": "Source names U23 FT4232HL / FT2232HL and FT2232 names pins26/27 ACBUS0/1,38/39 BDBUS0/1,48/52 BCBUS0/1. Yet it labels these three pairs UART1,UART2(FT4232 ONLY),UART3(FT4232 ONLY).",
+      "manufacturer": "Actual FT2232HL UART channelB TXD/RXD are pins38/39. Pins26/27 are ACBUS0/1, with TXDEN/tristate in UART mode or GPIOH0/1 in MPSSE mode. Pins48/52 are BCBUS0/1, with TXDEN/tristate in UART mode. FT4232HL has UARTB at26/27,UARTC38/39,UARTD48/52.",
+      "implication": "The page UART annotations correspond to FT4232HL while pin display names correspond FT2232HL. Preserving PDF wiring with actual FT2232HL does not yield UART1 on26/27. Never silently call those pins UART TX/RX or silently move external project signals. Parent must record chosen conservative wiring, likely keep conflicting outputs uncommitted or preserve literal nets with explicit review note."
+    },
+    {
+      "severity": "source_metadata",
+      "subject": "Crystal load notation",
+      "source": "X5 comment12M_10pf with C326/C32727pF.",
+      "implication": "Preserve easily readable values but precise crystal MPN/load validation remains outside available evidence."
+    }
+  ],
+  "verification_limits": [
+    "Visual review and manufacturer pin comparison are evidence only, not native compiler connectivity.",
+    "Original library files hashed but not opened natively by this subagent.",
+    "PCB model mapping/resolution must be confirmed by parent.",
+    "Physical source UART label discrepancy remains an explicit functional decision."
+  ]
+}

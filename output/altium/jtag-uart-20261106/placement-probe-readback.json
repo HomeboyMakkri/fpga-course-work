@@ -1,0 +1,964 @@
+{
+  "success": true,
+  "job_dir": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\tools\\altium\\runtime\\jobs\\622585f404c64a0b965ec612cf79ddbb",
+  "steps": [
+    "START",
+    "open target for inspection",
+    "inspection complete",
+    "FINISHED"
+  ],
+  "elapsed_seconds": 2.41,
+  "result": {
+    "components": [
+      {
+        "ref": "J901",
+        "value": "2345986-1",
+        "x": 2362,
+        "y": 13780,
+        "pins": [
+          {
+            "number": "A4",
+            "name": "VBUS_A",
+            "x": 4252,
+            "y": 13425,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "A9",
+            "name": "VBUS_A",
+            "x": 4252,
+            "y": 13189,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "A2",
+            "name": "TX1+",
+            "x": 4252,
+            "y": 9646,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "A3",
+            "name": "TX1-",
+            "x": 4252,
+            "y": 9409,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "A5",
+            "name": "CC1",
+            "x": 4252,
+            "y": 11535,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "A6",
+            "name": "DP1",
+            "x": 4252,
+            "y": 11063,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "A7",
+            "name": "DN1",
+            "x": 4252,
+            "y": 10591,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "A8",
+            "name": "SBU1",
+            "x": 4252,
+            "y": 10118,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "A10",
+            "name": "RX2-",
+            "x": 4252,
+            "y": 7992,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "A11",
+            "name": "RX2+",
+            "x": 4252,
+            "y": 8228,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "A1",
+            "name": "GND_A",
+            "x": 4252,
+            "y": 12480,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "A12",
+            "name": "GND_A",
+            "x": 4252,
+            "y": 12244,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "SH1",
+            "name": "SHIELD",
+            "x": 4252,
+            "y": 7756,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "SH2",
+            "name": "SHIELD",
+            "x": 4252,
+            "y": 7520,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "SH3",
+            "name": "SHIELD",
+            "x": 4252,
+            "y": 7283,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "SH4",
+            "name": "SHIELD",
+            "x": 4252,
+            "y": 7047,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "B4",
+            "name": "VBUS_B",
+            "x": 4252,
+            "y": 12953,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "B9",
+            "name": "VBUS_B",
+            "x": 4252,
+            "y": 12717,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "B11",
+            "name": "RX1+",
+            "x": 4252,
+            "y": 9173,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "B10",
+            "name": "RX1-",
+            "x": 4252,
+            "y": 8937,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "B8",
+            "name": "SBU2",
+            "x": 4252,
+            "y": 9882,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "B7",
+            "name": "DN2",
+            "x": 4252,
+            "y": 10354,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "B6",
+            "name": "DP2",
+            "x": 4252,
+            "y": 10827,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "B5",
+            "name": "CC2",
+            "x": 4252,
+            "y": 11299,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "B3",
+            "name": "TX2-",
+            "x": 4252,
+            "y": 8465,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "B2",
+            "name": "TX2+",
+            "x": 4252,
+            "y": 8701,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "B1",
+            "name": "GND_B",
+            "x": 4252,
+            "y": 12008,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "B12",
+            "name": "GND_B",
+            "x": 4252,
+            "y": 11772,
+            "orientation": 0,
+            "length": 197
+          }
+        ]
+      },
+      {
+        "ref": "R901",
+        "value": "5.1k",
+        "x": 7087,
+        "y": 12992,
+        "pins": [
+          {
+            "number": "1",
+            "name": "1",
+            "x": 7087,
+            "y": 13091,
+            "orientation": 3,
+            "length": 98
+          },
+          {
+            "number": "2",
+            "name": "2",
+            "x": 7087,
+            "y": 13484,
+            "orientation": 1,
+            "length": 98
+          }
+        ]
+      },
+      {
+        "ref": "C901",
+        "value": "0.1uF",
+        "x": 8268,
+        "y": 12992,
+        "pins": [
+          {
+            "number": "1",
+            "name": "1",
+            "x": 8268,
+            "y": 13091,
+            "orientation": 3,
+            "length": 98
+          },
+          {
+            "number": "2",
+            "name": "2",
+            "x": 8268,
+            "y": 13189,
+            "orientation": 1,
+            "length": 98
+          }
+        ]
+      },
+      {
+        "ref": "U901",
+        "value": "FT2232HL",
+        "x": 11417,
+        "y": 13780,
+        "pins": [
+          {
+            "number": "14",
+            "name": "R\\E\\S\\E\\T\\\\",
+            "x": 11417,
+            "y": 13543,
+            "orientation": 2,
+            "length": 197
+          },
+          {
+            "number": "6",
+            "name": "REF",
+            "x": 11417,
+            "y": 13307,
+            "orientation": 2,
+            "length": 197
+          },
+          {
+            "number": "13",
+            "name": "TEST",
+            "x": 11417,
+            "y": 13071,
+            "orientation": 2,
+            "length": 197
+          },
+          {
+            "number": "2",
+            "name": "OSCI",
+            "x": 11417,
+            "y": 12835,
+            "orientation": 2,
+            "length": 197
+          },
+          {
+            "number": "7",
+            "name": "DM",
+            "x": 11417,
+            "y": 12598,
+            "orientation": 2,
+            "length": 197
+          },
+          {
+            "number": "8",
+            "name": "DP",
+            "x": 11417,
+            "y": 12362,
+            "orientation": 2,
+            "length": 197
+          },
+          {
+            "number": "63",
+            "name": "EECS",
+            "x": 11417,
+            "y": 12126,
+            "orientation": 2,
+            "length": 197
+          },
+          {
+            "number": "61",
+            "name": "EEDATA",
+            "x": 11417,
+            "y": 11890,
+            "orientation": 2,
+            "length": 197
+          },
+          {
+            "number": "48",
+            "name": "BCBUS0",
+            "x": 11417,
+            "y": 11654,
+            "orientation": 2,
+            "length": 197
+          },
+          {
+            "number": "52",
+            "name": "BCBUS1",
+            "x": 11417,
+            "y": 11417,
+            "orientation": 2,
+            "length": 197
+          },
+          {
+            "number": "53",
+            "name": "BCBUS2",
+            "x": 11417,
+            "y": 11181,
+            "orientation": 2,
+            "length": 197
+          },
+          {
+            "number": "54",
+            "name": "BCBUS3",
+            "x": 11417,
+            "y": 10945,
+            "orientation": 2,
+            "length": 197
+          },
+          {
+            "number": "55",
+            "name": "BCBUS4",
+            "x": 11417,
+            "y": 10709,
+            "orientation": 2,
+            "length": 197
+          },
+          {
+            "number": "57",
+            "name": "BCBUS5",
+            "x": 11417,
+            "y": 10472,
+            "orientation": 2,
+            "length": 197
+          },
+          {
+            "number": "58",
+            "name": "BCBUS6",
+            "x": 11417,
+            "y": 10236,
+            "orientation": 2,
+            "length": 197
+          },
+          {
+            "number": "59",
+            "name": "BCBUS7",
+            "x": 11417,
+            "y": 10000,
+            "orientation": 2,
+            "length": 197
+          },
+          {
+            "number": "38",
+            "name": "BDBUS0",
+            "x": 11417,
+            "y": 9764,
+            "orientation": 2,
+            "length": 197
+          },
+          {
+            "number": "39",
+            "name": "BDBUS1",
+            "x": 11417,
+            "y": 9528,
+            "orientation": 2,
+            "length": 197
+          },
+          {
+            "number": "40",
+            "name": "BDBUS2",
+            "x": 11417,
+            "y": 9291,
+            "orientation": 2,
+            "length": 197
+          },
+          {
+            "number": "41",
+            "name": "BDBUS3",
+            "x": 11417,
+            "y": 9055,
+            "orientation": 2,
+            "length": 197
+          },
+          {
+            "number": "43",
+            "name": "BDBUS4",
+            "x": 11417,
+            "y": 8819,
+            "orientation": 2,
+            "length": 197
+          },
+          {
+            "number": "44",
+            "name": "BDBUS5",
+            "x": 11417,
+            "y": 8583,
+            "orientation": 2,
+            "length": 197
+          },
+          {
+            "number": "45",
+            "name": "BDBUS6",
+            "x": 11417,
+            "y": 8346,
+            "orientation": 2,
+            "length": 197
+          },
+          {
+            "number": "46",
+            "name": "BDBUS7",
+            "x": 11417,
+            "y": 8110,
+            "orientation": 2,
+            "length": 197
+          },
+          {
+            "number": "12",
+            "name": "VCORE-1",
+            "x": 14173,
+            "y": 13543,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "37",
+            "name": "VCORE-2",
+            "x": 14173,
+            "y": 13307,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "64",
+            "name": "VCORE-3",
+            "x": 14173,
+            "y": 13071,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "20",
+            "name": "VCCIO-1",
+            "x": 14173,
+            "y": 12835,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "31",
+            "name": "VCCIO-2",
+            "x": 14173,
+            "y": 12598,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "42",
+            "name": "VCCIO-3",
+            "x": 14173,
+            "y": 12362,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "56",
+            "name": "VCCIO-4",
+            "x": 14173,
+            "y": 12126,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "9",
+            "name": "VPLL",
+            "x": 14173,
+            "y": 11890,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "4",
+            "name": "VPHY",
+            "x": 14173,
+            "y": 11654,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "50",
+            "name": "VREGIN",
+            "x": 14173,
+            "y": 11417,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "49",
+            "name": "VREGOUT",
+            "x": 14173,
+            "y": 11181,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "26",
+            "name": "ACBUS0",
+            "x": 14173,
+            "y": 10945,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "27",
+            "name": "ACBUS1",
+            "x": 14173,
+            "y": 10709,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "28",
+            "name": "ACBUS2",
+            "x": 14173,
+            "y": 10472,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "29",
+            "name": "ACBUS3",
+            "x": 14173,
+            "y": 10236,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "30",
+            "name": "ACBUS4",
+            "x": 14173,
+            "y": 10000,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "32",
+            "name": "ACBUS5",
+            "x": 14173,
+            "y": 9764,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "33",
+            "name": "ACBUS6",
+            "x": 14173,
+            "y": 9528,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "34",
+            "name": "ACBUS7",
+            "x": 14173,
+            "y": 9291,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "16",
+            "name": "ADBUS0",
+            "x": 14173,
+            "y": 9055,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "17",
+            "name": "ADBUS1",
+            "x": 14173,
+            "y": 8819,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "18",
+            "name": "ADBUS2",
+            "x": 14173,
+            "y": 8583,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "19",
+            "name": "ADBUS3",
+            "x": 14173,
+            "y": 8346,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "21",
+            "name": "ADBUS4",
+            "x": 14173,
+            "y": 8110,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "22",
+            "name": "ADBUS5",
+            "x": 14173,
+            "y": 7874,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "23",
+            "name": "ADBUS6",
+            "x": 14173,
+            "y": 7638,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "24",
+            "name": "ADBUS7",
+            "x": 14173,
+            "y": 7402,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "3",
+            "name": "OSCO",
+            "x": 14173,
+            "y": 7165,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "62",
+            "name": "EECLK",
+            "x": 14173,
+            "y": 6929,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "36",
+            "name": "S\\U\\S\\P\\E\\N\\D\\\\",
+            "x": 14173,
+            "y": 6693,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "60",
+            "name": "P\\W\\R\\E\\N\\\\",
+            "x": 14173,
+            "y": 6457,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "1",
+            "name": "GND",
+            "x": 14173,
+            "y": 6220,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "5",
+            "name": "GND",
+            "x": 14173,
+            "y": 5984,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "11",
+            "name": "GND",
+            "x": 14173,
+            "y": 5748,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "15",
+            "name": "GND",
+            "x": 14173,
+            "y": 5512,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "25",
+            "name": "GND",
+            "x": 14173,
+            "y": 5276,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "35",
+            "name": "GND",
+            "x": 14173,
+            "y": 5039,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "47",
+            "name": "GND",
+            "x": 14173,
+            "y": 4803,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "51",
+            "name": "GND",
+            "x": 14173,
+            "y": 4567,
+            "orientation": 0,
+            "length": 197
+          },
+          {
+            "number": "10",
+            "name": "AGND",
+            "x": 14173,
+            "y": 4331,
+            "orientation": 0,
+            "length": 197
+          }
+        ]
+      },
+      {
+        "ref": "D901",
+        "value": "SS24",
+        "x": 7087,
+        "y": 10630,
+        "pins": [
+          {
+            "number": "1",
+            "name": "K",
+            "x": 7187,
+            "y": 10630,
+            "orientation": 2,
+            "length": 100
+          },
+          {
+            "number": "2",
+            "name": "A",
+            "x": 7587,
+            "y": 10630,
+            "orientation": 0,
+            "length": 100
+          }
+        ]
+      }
+    ],
+    "net_labels": [
+      {
+        "net": "USB_DP",
+        "x": 4921,
+        "y": 11063
+      },
+      {
+        "net": "USB_DN",
+        "x": 4921,
+        "y": 10591
+      },
+      {
+        "net": "USB_POWER",
+        "x": 4921,
+        "y": 13425
+      },
+      {
+        "net": "CC1",
+        "x": 7087,
+        "y": 12717
+      },
+      {
+        "net": "GND",
+        "x": 7087,
+        "y": 13858
+      },
+      {
+        "net": "3V3",
+        "x": 8268,
+        "y": 12717
+      },
+      {
+        "net": "GND",
+        "x": 8268,
+        "y": 13563
+      },
+      {
+        "net": "USB_DN",
+        "x": 9843,
+        "y": 12598
+      },
+      {
+        "net": "USB_DP",
+        "x": 9843,
+        "y": 12362
+      },
+      {
+        "net": "5V",
+        "x": 5709,
+        "y": 10630
+      },
+      {
+        "net": "USB_POWER",
+        "x": 8159,
+        "y": 10630
+      }
+    ],
+    "wires": [
+      {
+        "x1": 4449,
+        "y1": 11063,
+        "x2": 4921,
+        "y2": 11063
+      },
+      {
+        "x1": 4449,
+        "y1": 10591,
+        "x2": 4921,
+        "y2": 10591
+      },
+      {
+        "x1": 4449,
+        "y1": 13425,
+        "x2": 4921,
+        "y2": 13425
+      },
+      {
+        "x1": 7087,
+        "y1": 12992,
+        "x2": 7087,
+        "y2": 12717
+      },
+      {
+        "x1": 7087,
+        "y1": 13583,
+        "x2": 7087,
+        "y2": 13858
+      },
+      {
+        "x1": 8268,
+        "y1": 12992,
+        "x2": 8268,
+        "y2": 12717
+      },
+      {
+        "x1": 8268,
+        "y1": 13287,
+        "x2": 8268,
+        "y2": 13563
+      },
+      {
+        "x1": 11220,
+        "y1": 12598,
+        "x2": 9843,
+        "y2": 12598
+      },
+      {
+        "x1": 11220,
+        "y1": 12362,
+        "x2": 9843,
+        "y2": 12362
+      },
+      {
+        "x1": 7087,
+        "y1": 10630,
+        "x2": 5709,
+        "y2": 10630
+      },
+      {
+        "x1": 7687,
+        "y1": 10630,
+        "x2": 8159,
+        "y2": 10630
+      }
+    ]
+  }
+}

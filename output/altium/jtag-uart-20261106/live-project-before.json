@@ -1,0 +1,213 @@
+{
+  "success": true,
+  "job_dir": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\tools\\altium\\runtime\\jobs\\269bb3c67da2418db182caf99305c517",
+  "steps": [
+    "START",
+    "FINISHED"
+  ],
+  "elapsed_seconds": 2.56,
+  "result": {
+    "documents": [
+      {
+        "path": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\01_Power.SchDoc",
+        "open": true,
+        "modified": false
+      },
+      {
+        "path": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\02_FPGA_IO_Config.SchDoc",
+        "open": true,
+        "modified": false
+      },
+      {
+        "path": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\03_FPGA_IO_Clock.SchDoc",
+        "open": true,
+        "modified": false
+      },
+      {
+        "path": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\04_Reference_Inputs.SchDoc",
+        "open": true,
+        "modified": false
+      },
+      {
+        "path": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\05_PPS_Outputs.SchDoc",
+        "open": true,
+        "modified": false
+      },
+      {
+        "path": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\06_Ethernet.SchDoc",
+        "open": true,
+        "modified": false
+      },
+      {
+        "path": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\libraries\\TLV3511DBVR\\TLV3511DBVR.PcbLib",
+        "open": false,
+        "modified": false
+      },
+      {
+        "path": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\libraries\\25MHz\\HKC3225SX25MHZ26594R4V1.PcbLib",
+        "open": true,
+        "modified": false
+      },
+      {
+        "path": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\libraries\\X7\\new\\BGA484C100P22X22_2300X2300X260.PcbLib",
+        "open": false,
+        "modified": false
+      },
+      {
+        "path": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\libraries\\93lc(eeprom)\\93LC66B-I_SN\\93LC66B-I_SN.SchLib",
+        "open": true,
+        "modified": false
+      },
+      {
+        "path": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\libraries\\TLV3511DBVR\\TLV3511DBVR.SchLib",
+        "open": true,
+        "modified": false
+      },
+      {
+        "path": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\libraries\\25MHz\\new\\HKC3225SX-25MHZ-26594-R4V1.SchLib",
+        "open": true,
+        "modified": false
+      },
+      {
+        "path": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\libraries\\X7\\new\\XC7A50T-2FGG484I.SchLib",
+        "open": true,
+        "modified": false
+      },
+      {
+        "path": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\libraries\\PUSB3FR4Z\\PUSB3FR4Z.SchLib",
+        "open": true,
+        "modified": false
+      },
+      {
+        "path": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\libraries\\ASV-50.000MHZ-LRS-T\\new\\ASV-50.000MHZ-LRS-T.SchLib",
+        "open": true,
+        "modified": false
+      },
+      {
+        "path": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\libraries\\FB BLM18SG121TN1D\\FB.PcbLib",
+        "open": false,
+        "modified": false
+      },
+      {
+        "path": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\libraries\\FT(uart)\\FT2232HL-REEL\\FT2232HL-REEL.SchLib",
+        "open": true,
+        "modified": false
+      },
+      {
+        "path": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\libraries\\FB BLM18SG121TN1D\\FB.SchLib",
+        "open": true,
+        "modified": false
+      },
+      {
+        "path": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\libraries\\W25Q128JV\\new\\W25Q128JVSIQ.PcbLib",
+        "open": false,
+        "modified": false
+      },
+      {
+        "path": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\libraries\\W25Q128JV\\new\\W25Q128JVSIQ.SchLib",
+        "open": true,
+        "modified": false
+      },
+      {
+        "path": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\libraries\\TPS563210A\\TPS563210A.PcbLib",
+        "open": false,
+        "modified": false
+      },
+      {
+        "path": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\libraries\\TPS563210A\\TPS563210A.SchLib",
+        "open": true,
+        "modified": false
+      },
+      {
+        "path": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\libraries\\HR911130A\\new\\HR911130A.SchLib",
+        "open": true,
+        "modified": false
+      },
+      {
+        "path": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\libraries\\type-c\\type-c\\2345986-1.SchLib",
+        "open": true,
+        "modified": false
+      },
+      {
+        "path": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\libraries\\HR911130A\\new\\HR911130A.PcbLib",
+        "open": false,
+        "modified": false
+      },
+      {
+        "path": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\libraries\\LDO SPX3819M5-L-3-3\\new\\SPX3819M5-L-3-3.SchLib",
+        "open": false,
+        "modified": false
+      },
+      {
+        "path": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\libraries\\93lc(eeprom)\\93LC66B-I_SN\\SOIC127P600X175-8N.PcbLib",
+        "open": false,
+        "modified": false
+      },
+      {
+        "path": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\libraries\\FT(uart)\\FT2232HL-REEL\\QFP50P1200X1200X160-64N.PcbLib",
+        "open": false,
+        "modified": false
+      },
+      {
+        "path": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\libraries\\type-c\\type-c\\TE_2345986-1.PcbLib",
+        "open": true,
+        "modified": false
+      },
+      {
+        "path": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\libraries\\LDO SPX3819M5-L-3-3\\new\\SPX3819M5-L-3-3.PcbLib",
+        "open": false,
+        "modified": false
+      },
+      {
+        "path": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\libraries\\RTL8211E-VB-CG\\new\\RTL8211E-VB-CG.SchLib",
+        "open": false,
+        "modified": false
+      },
+      {
+        "path": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\libraries\\PUSB3FR4Z\\PUSB3FR4Z.PcbLib",
+        "open": false,
+        "modified": false
+      },
+      {
+        "path": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\libraries\\RTL8211E-VB-CG\\new\\RTL8211E-VB-CG.PcbLib",
+        "open": false,
+        "modified": false
+      },
+      {
+        "path": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\libraries\\50 MHz\\ASV2550000MHZEJT.PcbLib",
+        "open": false,
+        "modified": false
+      },
+      {
+        "path": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\libraries\\Sma\\SMA.PcbLib",
+        "open": false,
+        "modified": false
+      },
+      {
+        "path": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\libraries\\Sma\\SMA.SchLib",
+        "open": false,
+        "modified": false
+      },
+      {
+        "path": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\libraries\\UCC27524D\\UCC27524D.PcbLib",
+        "open": false,
+        "modified": false
+      },
+      {
+        "path": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\libraries\\UCC27524D\\UCC27524D.SchLib",
+        "open": true,
+        "modified": false
+      },
+      {
+        "path": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\ActiveBOM.VirtualBOM",
+        "open": false,
+        "modified": false
+      },
+      {
+        "path": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\ARTIX\\ARTIX\\artix.PcbDoc",
+        "open": true,
+        "modified": false
+      }
+    ]
+  }
+}

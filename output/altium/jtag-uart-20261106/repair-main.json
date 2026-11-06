@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "job_dir": "C:\\Users\\mkkr\\Documents\\Codex\\fpga-course-work\\tools\\altium\\runtime\\jobs\\a6373f82222b44ed919f330474d1f64c",
+  "steps": [
+    "START",
+    "remove only generated top-level wires labels power ports NC and notes",
+    "restore exact native library graphics and reflow components",
+    "save repaired native main sheet",
+    "FINISHED"
+  ],
+  "elapsed_seconds": 4.98,
+  "result": {
+    "saved_and_reopened": true
+  }
+}
