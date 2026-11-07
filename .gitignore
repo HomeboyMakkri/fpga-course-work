@@ -22,6 +22,16 @@ output/altium/**/backups/
 gowin/fpga_project/impl/
 gowin/fpga_project/*.gprj.user
 
+# Vivado generated project state; RTL, XDC, project and test evidence are tracked
+vivado/*.cache/
+vivado/*.hw/
+vivado/*.ip_user_files/
+vivado/*.runs/
+vivado/*.sim/
+vivado/.Xil/
+vivado/*.jou
+vivado/*.str
+
 # Local scratch files
 tmp/
 
