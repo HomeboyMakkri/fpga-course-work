@@ -1,0 +1,40 @@
+C:\Users\mkkr\Documents\Codex\fpga-course-work\vivado\third_party\verilog-ethernet\rtl\eth_mac_1g_rgmii_fifo.v:273: warning: Port 8 (s_axis_tid) of axis_async_fifo_adapter expects 8 bits, got 32.
+C:\Users\mkkr\Documents\Codex\fpga-course-work\vivado\third_party\verilog-ethernet\rtl\eth_mac_1g_rgmii_fifo.v:273:        : Pruning (signed) 24 high bits of the expression.
+C:\Users\mkkr\Documents\Codex\fpga-course-work\vivado\third_party\verilog-ethernet\rtl\eth_mac_1g_rgmii_fifo.v:273: warning: Port 9 (s_axis_tdest) of axis_async_fifo_adapter expects 8 bits, got 32.
+C:\Users\mkkr\Documents\Codex\fpga-course-work\vivado\third_party\verilog-ethernet\rtl\eth_mac_1g_rgmii_fifo.v:273:        : Pruning (signed) 24 high bits of the expression.
+C:\Users\mkkr\Documents\Codex\fpga-course-work\vivado\third_party\verilog-ethernet\rtl\eth_mac_1g_rgmii_fifo.v:324: warning: Port 4 (s_axis_tkeep) of axis_async_fifo_adapter expects 1 bits, got 32.
+C:\Users\mkkr\Documents\Codex\fpga-course-work\vivado\third_party\verilog-ethernet\rtl\eth_mac_1g_rgmii_fifo.v:324:        : Pruning (signed) 31 high bits of the expression.
+C:\Users\mkkr\Documents\Codex\fpga-course-work\vivado\third_party\verilog-ethernet\rtl\eth_mac_1g_rgmii_fifo.v:324: warning: Port 8 (s_axis_tid) of axis_async_fifo_adapter expects 8 bits, got 32.
+C:\Users\mkkr\Documents\Codex\fpga-course-work\vivado\third_party\verilog-ethernet\rtl\eth_mac_1g_rgmii_fifo.v:324:        : Pruning (signed) 24 high bits of the expression.
+C:\Users\mkkr\Documents\Codex\fpga-course-work\vivado\third_party\verilog-ethernet\rtl\eth_mac_1g_rgmii_fifo.v:324: warning: Port 9 (s_axis_tdest) of axis_async_fifo_adapter expects 8 bits, got 32.
+C:\Users\mkkr\Documents\Codex\fpga-course-work\vivado\third_party\verilog-ethernet\rtl\eth_mac_1g_rgmii_fifo.v:324:        : Pruning (signed) 24 high bits of the expression.
+C:\Users\mkkr\Documents\Codex\fpga-course-work\vivado\third_party\verilog-ethernet\rtl\udp_complete.v:369: warning: Port 5 (s_eth_dest_mac) of ip_arb_mux expects 96 bits, got 32.
+C:\Users\mkkr\Documents\Codex\fpga-course-work\vivado\third_party\verilog-ethernet\rtl\udp_complete.v:369:        : Padding (signed) 64 high bits of the port.
+C:\Users\mkkr\Documents\Codex\fpga-course-work\vivado\third_party\verilog-ethernet\rtl\udp_complete.v:369: warning: Port 6 (s_eth_src_mac) of ip_arb_mux expects 96 bits, got 32.
+C:\Users\mkkr\Documents\Codex\fpga-course-work\vivado\third_party\verilog-ethernet\rtl\udp_complete.v:369:        : Padding (signed) 64 high bits of the port.
+C:\Users\mkkr\Documents\Codex\fpga-course-work\vivado\third_party\verilog-ethernet\rtl\udp_complete.v:369: warning: Port 8 (s_ip_version) of ip_arb_mux expects 8 bits, got 32.
+C:\Users\mkkr\Documents\Codex\fpga-course-work\vivado\third_party\verilog-ethernet\rtl\udp_complete.v:369:        : Pruning (signed) 24 high bits of the expression.
+C:\Users\mkkr\Documents\Codex\fpga-course-work\vivado\third_party\verilog-ethernet\rtl\udp_complete.v:369: warning: Port 9 (s_ip_ihl) of ip_arb_mux expects 8 bits, got 32.
+C:\Users\mkkr\Documents\Codex\fpga-course-work\vivado\third_party\verilog-ethernet\rtl\udp_complete.v:369:        : Pruning (signed) 24 high bits of the expression.
+C:\Users\mkkr\Documents\Codex\fpga-course-work\vivado\third_party\verilog-ethernet\rtl\udp_complete.v:369: warning: Port 14 (s_ip_flags) of ip_arb_mux expects 6 bits, got 32.
+C:\Users\mkkr\Documents\Codex\fpga-course-work\vivado\third_party\verilog-ethernet\rtl\udp_complete.v:369:        : Pruning (signed) 26 high bits of the expression.
+C:\Users\mkkr\Documents\Codex\fpga-course-work\vivado\third_party\verilog-ethernet\rtl\udp_complete.v:369: warning: Port 15 (s_ip_fragment_offset) of ip_arb_mux expects 26 bits, got 32.
+C:\Users\mkkr\Documents\Codex\fpga-course-work\vivado\third_party\verilog-ethernet\rtl\udp_complete.v:369:        : Pruning (signed) 6 high bits of the expression.
+C:\Users\mkkr\Documents\Codex\fpga-course-work\vivado\third_party\verilog-ethernet\rtl\udp_complete.v:369: warning: Port 22 (s_ip_payload_axis_tkeep) of ip_arb_mux expects 2 bits, got 32.
+C:\Users\mkkr\Documents\Codex\fpga-course-work\vivado\third_party\verilog-ethernet\rtl\udp_complete.v:369:        : Pruning (signed) 30 high bits of the expression.
+C:\Users\mkkr\Documents\Codex\fpga-course-work\vivado\third_party\verilog-ethernet\rtl\udp_complete.v:369: warning: Port 26 (s_ip_payload_axis_tid) of ip_arb_mux expects 16 bits, got 32.
+C:\Users\mkkr\Documents\Codex\fpga-course-work\vivado\third_party\verilog-ethernet\rtl\udp_complete.v:369:        : Pruning (signed) 16 high bits of the expression.
+C:\Users\mkkr\Documents\Codex\fpga-course-work\vivado\third_party\verilog-ethernet\rtl\udp_complete.v:369: warning: Port 27 (s_ip_payload_axis_tdest) of ip_arb_mux expects 16 bits, got 32.
+C:\Users\mkkr\Documents\Codex\fpga-course-work\vivado\third_party\verilog-ethernet\rtl\udp_complete.v:369:        : Pruning (signed) 16 high bits of the expression.
+C:\Users\mkkr\Documents\Codex\fpga-course-work\vivado\third_party\verilog-ethernet\rtl\ip_complete.v:269: warning: Port 9 (s_eth_payload_axis_tkeep) of eth_arb_mux expects 2 bits, got 32.
+C:\Users\mkkr\Documents\Codex\fpga-course-work\vivado\third_party\verilog-ethernet\rtl\ip_complete.v:269:        : Pruning (signed) 30 high bits of the expression.
+C:\Users\mkkr\Documents\Codex\fpga-course-work\vivado\third_party\verilog-ethernet\rtl\ip_complete.v:269: warning: Port 13 (s_eth_payload_axis_tid) of eth_arb_mux expects 16 bits, got 32.
+C:\Users\mkkr\Documents\Codex\fpga-course-work\vivado\third_party\verilog-ethernet\rtl\ip_complete.v:269:        : Pruning (signed) 16 high bits of the expression.
+C:\Users\mkkr\Documents\Codex\fpga-course-work\vivado\third_party\verilog-ethernet\rtl\ip_complete.v:269: warning: Port 14 (s_eth_payload_axis_tdest) of eth_arb_mux expects 16 bits, got 32.
+C:\Users\mkkr\Documents\Codex\fpga-course-work\vivado\third_party\verilog-ethernet\rtl\ip_complete.v:269:        : Pruning (signed) 16 high bits of the expression.
+C:\Users\mkkr\Documents\Codex\fpga-course-work\vivado\third_party\verilog-ethernet\rtl\udp_checksum_gen.v:214: warning: Port 4 (s_axis_tkeep) of axis_fifo expects 1 bits, got 32.
+C:\Users\mkkr\Documents\Codex\fpga-course-work\vivado\third_party\verilog-ethernet\rtl\udp_checksum_gen.v:214:        : Pruning (signed) 31 high bits of the expression.
+C:\Users\mkkr\Documents\Codex\fpga-course-work\vivado\third_party\verilog-ethernet\rtl\udp_checksum_gen.v:214: warning: Port 8 (s_axis_tid) of axis_fifo expects 8 bits, got 32.
+C:\Users\mkkr\Documents\Codex\fpga-course-work\vivado\third_party\verilog-ethernet\rtl\udp_checksum_gen.v:214:        : Pruning (signed) 24 high bits of the expression.
+C:\Users\mkkr\Documents\Codex\fpga-course-work\vivado\third_party\verilog-ethernet\rtl\udp_checksum_gen.v:214: warning: Port 9 (s_axis_tdest) of axis_fifo expects 8 bits, got 32.
+C:\Users\mkkr\Documents\Codex\fpga-course-work\vivado\third_party\verilog-ethernet\rtl\udp_checksum_gen.v:214:        : Pruning (signed) 24 high bits of the expression.

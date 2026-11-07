@@ -1,5 +1,7 @@
 `timescale 1ns/1ps
 `default_nettype none
+// HISTORICAL pre-Ethernet model only. The new multi-clock top uses Vivado UNISIM
+// (run_tests.py --top-only); do not compile this model with the Ethernet top.
 // Simplified simulation-only model for the fixed 50 MHz -> 10 MHz setup.
 // It does not model MMCM timing, jitter, lock accuracy or other configurations.
 module MMCME2_BASE #(

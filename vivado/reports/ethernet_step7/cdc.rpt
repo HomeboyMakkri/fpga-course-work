@@ -1,0 +1,105 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Sat Nov  7 16:54:38 2026
+| Host         : DESKTOP-JST3DFG running 64-bit major release  (build 9200)
+| Command      : report_cdc -details -file cdc.rpt
+| Design       : smart_artix_top
+| Device       : 7a50t-fgg484
+| Speed File   : -2  PRODUCTION 1.23 2018-06-13
+------------------------------------------------------------------------------------
+
+CDC Report
+
+ID      Severity  Count  Description
+------  --------  -----  -------------------------------------------------------
+CDC-3   Info         10  1-bit synchronized with ASYNC_REG property
+CDC-6   Warning       1  Multi-bit synchronized with ASYNC_REG property
+CDC-9   Info          4  Asynchronous reset synchronized with ASYNC_REG property
+CDC-15  Warning      18  Clock enable controlled CDC structure detected
+CDC-17  Warning       2  MUX hold controlled CDC structure detected
+
+Source Clock: input port clock
+Destination Clock: delay_raw
+CDC Type: No Common Primary Clock
+
+Row  ID     Severity  Description                                              Depth  Exception   Source (From)  Destination (To)
+---  -----  --------  -------------------------------------------------------  -----  ----------  -------------  --------------------
+  1  CDC-9  Info      Asynchronous reset synchronized with ASYNC_REG property     16  False Path  reset_n        dr/stages_reg[0]/PRE
+
+Source Clock: input port clock
+Destination Clock: net_raw
+CDC Type: No Common Primary Clock
+
+Row  ID     Severity  Description                                              Depth  Exception   Source (From)  Destination (To)
+---  -----  --------  -------------------------------------------------------  -----  ----------  -------------  --------------------
+  1  CDC-3  Info      1-bit synchronized with ASYNC_REG property                   2  False Path  phy_mdio       mdio_sync_reg[0]/D
+  2  CDC-9  Info      Asynchronous reset synchronized with ASYNC_REG property      4  False Path  reset_n        nr/stages_reg[0]/PRE
+
+Source Clock: ref_raw
+Destination Clock: net_raw
+CDC Type: Safely Timed
+
+Row  ID      Severity  Description                                 Depth  Exception                Source (From)                 Destination (To)
+---  ------  --------  ------------------------------------------  -----  -----------------------  ----------------------------  ----------------------------
+  1  CDC-3   Info      1-bit synchronized with ASYNC_REG property      2  False Path               mailbox/acknowledge_reg/C     mailbox/ack_sync_reg[0]/D
+  2  CDC-17  Warning   MUX hold controlled CDC structure detected      0  Max Delay Datapath Only  mailbox/held_result_reg[0]/C  mailbox/result_data_reg[0]/D
+  3  CDC-17  Warning   MUX hold controlled CDC structure detected      0  Max Delay Datapath Only  mailbox/held_result_reg[1]/C  mailbox/result_data_reg[1]/D
+
+Source Clock: rgmii_rx
+Destination Clock: net_raw
+CDC Type: No Common Primary Clock
+
+Row  ID      Severity  Description                                     Depth  Exception                Source (From)                                                        Destination (To)
+---  ------  --------  ----------------------------------------------  -----  -----------------------  -------------------------------------------------------------------  -------------------------------------------------------------------
+  1  CDC-3   Info      1-bit synchronized with ASYNC_REG property          2  Max Delay Datapath Only  net/eth_mac_inst/eth_mac_1g_rgmii_inst/rx_prescale_reg[2]/C          net/eth_mac_inst/eth_mac_1g_rgmii_inst/rx_prescale_sync_reg[0]/D
+  2  CDC-3   Info      1-bit synchronized with ASYNC_REG property          2  Max Delay Datapath Only  net/eth_mac_inst/rx_fifo/fifo_inst/m_rst_sync1_reg_reg/C             net/eth_mac_inst/rx_fifo/fifo_inst/m_rst_sync2_reg_reg/D
+  3  CDC-15  Warning   Clock enable controlled CDC structure detected      0  Max Delay Datapath Only  net/eth_mac_inst/rx_fifo/fifo_inst/wr_ptr_sync_commit_reg_reg[0]/C   net/eth_mac_inst/rx_fifo/fifo_inst/wr_ptr_commit_sync_reg_reg[0]/D
+  4  CDC-15  Warning   Clock enable controlled CDC structure detected      0  Max Delay Datapath Only  net/eth_mac_inst/rx_fifo/fifo_inst/wr_ptr_sync_commit_reg_reg[1]/C   net/eth_mac_inst/rx_fifo/fifo_inst/wr_ptr_commit_sync_reg_reg[1]/D
+  5  CDC-15  Warning   Clock enable controlled CDC structure detected      0  Max Delay Datapath Only  net/eth_mac_inst/rx_fifo/fifo_inst/wr_ptr_sync_commit_reg_reg[2]/C   net/eth_mac_inst/rx_fifo/fifo_inst/wr_ptr_commit_sync_reg_reg[2]/D
+  6  CDC-15  Warning   Clock enable controlled CDC structure detected      0  Max Delay Datapath Only  net/eth_mac_inst/rx_fifo/fifo_inst/wr_ptr_sync_commit_reg_reg[3]/C   net/eth_mac_inst/rx_fifo/fifo_inst/wr_ptr_commit_sync_reg_reg[3]/D
+  7  CDC-15  Warning   Clock enable controlled CDC structure detected      0  Max Delay Datapath Only  net/eth_mac_inst/rx_fifo/fifo_inst/wr_ptr_sync_commit_reg_reg[4]/C   net/eth_mac_inst/rx_fifo/fifo_inst/wr_ptr_commit_sync_reg_reg[4]/D
+  8  CDC-15  Warning   Clock enable controlled CDC structure detected      0  Max Delay Datapath Only  net/eth_mac_inst/rx_fifo/fifo_inst/wr_ptr_sync_commit_reg_reg[5]/C   net/eth_mac_inst/rx_fifo/fifo_inst/wr_ptr_commit_sync_reg_reg[5]/D
+  9  CDC-15  Warning   Clock enable controlled CDC structure detected      0  Max Delay Datapath Only  net/eth_mac_inst/rx_fifo/fifo_inst/wr_ptr_sync_commit_reg_reg[6]/C   net/eth_mac_inst/rx_fifo/fifo_inst/wr_ptr_commit_sync_reg_reg[6]/D
+ 10  CDC-15  Warning   Clock enable controlled CDC structure detected      0  Max Delay Datapath Only  net/eth_mac_inst/rx_fifo/fifo_inst/wr_ptr_sync_commit_reg_reg[7]/C   net/eth_mac_inst/rx_fifo/fifo_inst/wr_ptr_commit_sync_reg_reg[7]/D
+ 11  CDC-15  Warning   Clock enable controlled CDC structure detected      0  Max Delay Datapath Only  net/eth_mac_inst/rx_fifo/fifo_inst/wr_ptr_sync_commit_reg_reg[8]/C   net/eth_mac_inst/rx_fifo/fifo_inst/wr_ptr_commit_sync_reg_reg[8]/D
+ 12  CDC-15  Warning   Clock enable controlled CDC structure detected      0  Max Delay Datapath Only  net/eth_mac_inst/rx_fifo/fifo_inst/wr_ptr_sync_commit_reg_reg[9]/C   net/eth_mac_inst/rx_fifo/fifo_inst/wr_ptr_commit_sync_reg_reg[9]/D
+ 13  CDC-15  Warning   Clock enable controlled CDC structure detected      0  Max Delay Datapath Only  net/eth_mac_inst/rx_fifo/fifo_inst/wr_ptr_sync_commit_reg_reg[10]/C  net/eth_mac_inst/rx_fifo/fifo_inst/wr_ptr_commit_sync_reg_reg[10]/D
+ 14  CDC-15  Warning   Clock enable controlled CDC structure detected      0  Max Delay Datapath Only  net/eth_mac_inst/rx_fifo/fifo_inst/wr_ptr_sync_commit_reg_reg[11]/C  net/eth_mac_inst/rx_fifo/fifo_inst/wr_ptr_commit_sync_reg_reg[11]/D
+ 15  CDC-15  Warning   Clock enable controlled CDC structure detected      0  Max Delay Datapath Only  net/eth_mac_inst/rx_fifo/fifo_inst/wr_ptr_sync_commit_reg_reg[12]/C  net/eth_mac_inst/rx_fifo/fifo_inst/wr_ptr_commit_sync_reg_reg[12]/D
+ 16  CDC-3   Info      1-bit synchronized with ASYNC_REG property          2  Max Delay Datapath Only  net/eth_mac_inst/rx_fifo/fifo_inst/wr_ptr_update_reg_reg/C           net/eth_mac_inst/rx_fifo/fifo_inst/wr_ptr_update_sync1_reg_reg/D
+
+Source Clock: input port clock
+Destination Clock: ref_raw
+CDC Type: No Common Primary Clock
+
+Row  ID     Severity  Description                                              Depth  Exception   Source (From)  Destination (To)
+---  -----  --------  -------------------------------------------------------  -----  ----------  -------------  --------------------
+  1  CDC-9  Info      Asynchronous reset synchronized with ASYNC_REG property      4  False Path  reset_n        rr/stages_reg[0]/PRE
+
+Source Clock: net_raw
+Destination Clock: ref_raw
+CDC Type: Safely Timed
+
+Row  ID      Severity  Description                                     Depth  Exception                Source (From)                  Destination (To)
+---  ------  --------  ----------------------------------------------  -----  -----------------------  -----------------------------  ----------------------------
+  1  CDC-15  Warning   Clock enable controlled CDC structure detected      0  Max Delay Datapath Only  mailbox/held_command_reg[0]/C  mailbox/ref_command_reg[0]/D
+  2  CDC-15  Warning   Clock enable controlled CDC structure detected      0  Max Delay Datapath Only  mailbox/held_command_reg[1]/C  mailbox/ref_command_reg[1]/D
+  3  CDC-15  Warning   Clock enable controlled CDC structure detected      0  Max Delay Datapath Only  mailbox/held_command_reg[2]/C  mailbox/ref_command_reg[2]/D
+  4  CDC-15  Warning   Clock enable controlled CDC structure detected      0  Max Delay Datapath Only  mailbox/held_command_reg[3]/C  mailbox/ref_command_reg[3]/D
+  5  CDC-15  Warning   Clock enable controlled CDC structure detected      0  Max Delay Datapath Only  mailbox/held_command_reg[4]/C  mailbox/ref_command_reg[4]/D
+  6  CDC-3   Info      1-bit synchronized with ASYNC_REG property          2  False Path               mailbox/request_reg/C          mailbox/req_sync_reg[0]/D
+
+Source Clock: net_raw
+Destination Clock: rgmii_rx
+CDC Type: No Common Primary Clock
+
+Row  ID     Severity  Description                                              Depth  Exception                Source (From)                                                                 Destination (To)
+---  -----  --------  -------------------------------------------------------  -----  -----------------------  ----------------------------------------------------------------------------  ------------------------------------------------------------------------------
+  1  CDC-9  Info      Asynchronous reset synchronized with ASYNC_REG property      4  False Path               nr/stages_reg[3]/C                                                            net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/rx_rst_reg_reg[3]/PRE
+  2  CDC-3  Info      1-bit synchronized with ASYNC_REG property                   2  Max Delay Datapath Only  net/eth_mac_inst/eth_mac_1g_rgmii_inst/mii_select_reg_reg/C                   net/eth_mac_inst/eth_mac_1g_rgmii_inst/rx_mii_select_sync_reg[0]/D
+  3  CDC-6  Warning   Multi-bit synchronized with ASYNC_REG property               2  Max Delay Datapath Only  net/eth_mac_inst/rx_fifo/fifo_inst/rd_ptr_gray_reg_reg[12:0]/C                net/eth_mac_inst/rx_fifo/fifo_inst/rd_ptr_gray_sync1_reg_reg[12:0]/D
+  4  CDC-3  Info      1-bit synchronized with ASYNC_REG property                   2  Max Delay Datapath Only  net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/tx_rst_reg_reg[3]/C  net/eth_mac_inst/rx_fifo/fifo_inst/s_rst_sync2_reg_reg/D
+  5  CDC-3  Info      1-bit synchronized with ASYNC_REG property                   2  Max Delay Datapath Only  net/eth_mac_inst/rx_fifo/fifo_inst/wr_ptr_update_sync3_reg_reg/C              net/eth_mac_inst/rx_fifo/fifo_inst/wr_ptr_update_ack_sync1_reg_reg/D
+  6  CDC-3  Info      1-bit synchronized with ASYNC_REG property                   2  Max Delay Datapath Only  ethernet_enable_reg/C                                                         net/rx_enable_sync_reg[0]/D
+

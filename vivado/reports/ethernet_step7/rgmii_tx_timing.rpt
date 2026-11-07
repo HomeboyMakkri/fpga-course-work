@@ -1,0 +1,676 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Sat Nov  7 16:54:39 2026
+| Host         : DESKTOP-JST3DFG running 64-bit major release  (build 9200)
+| Command      : report_timing -to [get_ports {{phy_txd[*]} phy_tx_ctl}] -delay_type min_max -max_paths 20 -file rgmii_tx_timing.rpt
+| Design       : smart_artix_top
+| Device       : 7a50t-fgg484
+| Speed File   : -2  PRODUCTION 1.23 2018-06-13
+-------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Report
+
+Slack (MET) :             0.443ns  (arrival time - required time)
+  Source:                 net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/data_oddr_inst/oddr[3].oddr_inst/C
+                            (falling edge-triggered cell ODDR clocked by net_raw  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Destination:            phy_txd[2]
+                            (output port clocked by phy_tx_capture  {rise@2.000ns fall@6.000ns period=8.000ns})
+  Path Group:             phy_tx_capture
+  Path Type:              Min at Slow Process Corner
+  Requirement:            -2.000ns  (phy_tx_capture rise@2.000ns - net_raw fall@4.000ns)
+  Data Path Delay:        3.123ns  (logic 3.122ns (99.968%)  route 0.001ns (0.032%))
+  Logic Levels:           1  (OBUF=1)
+  Output Delay:           -1.200ns
+  Clock Path Skew:        3.433ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    2.921ns = ( 4.921 - 2.000 ) 
+    Source Clock Delay      (SCD):    -0.962ns = ( 3.038 - 4.000 ) 
+    Clock Pessimism Removal (CPR):    0.450ns
+  Clock Uncertainty:      0.047ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.061ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock net_raw fall edge)    4.000     4.000 f  
+    Y18                                               0.000     4.000 f  clk_50m (IN)
+                         net (fo=0)                   0.000     4.000    clk_50m
+    Y18                  IBUF (Prop_ibuf_I_O)         1.361     5.361 f  clk_50m_IBUF_inst/O
+                         net (fo=1, routed)           1.004     6.364    clk_50m_IBUF
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT1)
+                                                     -6.061     0.303 f  u_mmcm/CLKOUT1
+                         net (fo=1, routed)           1.357     1.661    net_raw
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.077     1.738 f  u_net_buf/O
+                         net (fo=3316, routed)        1.300     3.038    net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/data_oddr_inst/clk_net
+    OLOGIC_X0Y23         ODDR                                         f  net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/data_oddr_inst/oddr[3].oddr_inst/C
+  -------------------------------------------------------------------    -------------------
+    OLOGIC_X0Y23         ODDR (Prop_oddr_C_Q)         0.363     3.401 r  net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/data_oddr_inst/oddr[3].oddr_inst/Q
+                         net (fo=1, routed)           0.001     3.402    phy_txd_OBUF[2]
+    Y19                  OBUF (Prop_obuf_I_O)         2.759     6.161 r  phy_txd_OBUF[2]_inst/O
+                         net (fo=0)                   0.000     6.161    phy_txd[2]
+    Y19                                                               r  phy_txd[2] (OUT)
+  -------------------------------------------------------------------    -------------------
+
+                         (clock phy_tx_capture rise edge)
+                                                      2.000     2.000 f  
+    Y18                                               0.000     2.000 f  clk_50m (IN)
+                         net (fo=0)                   0.000     2.000    clk_50m
+    Y18                  IBUF (Prop_ibuf_I_O)         1.427     3.427 f  clk_50m_IBUF_inst/O
+                         net (fo=1, routed)           1.065     4.492    clk_50m_IBUF
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT1)
+                                                     -5.924    -1.433 f  u_mmcm/CLKOUT1
+                         net (fo=1, routed)           1.425    -0.008    net_raw
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.081     0.073 f  u_net_buf/O
+                         net (fo=3316, routed)        1.446     1.519    net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/clk_oddr_inst/clk_net
+    OLOGIC_X0Y30         ODDR (Prop_oddr_C_Q)         0.418     1.937 r  net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/clk_oddr_inst/oddr[0].oddr_inst/Q
+                         net (fo=1, routed)           0.001     1.938    phy_tx_clk_OBUF
+    AB21                 OBUF (Prop_obuf_I_O)         2.983     4.921 r  phy_tx_clk_OBUF_inst/O
+                         net (fo=0)                   0.000     4.921    phy_tx_clk
+    AB21                                                              r  phy_tx_clk (OUT)
+                         clock pessimism             -0.450     4.471    
+                         clock uncertainty            0.047     4.518    
+                         output delay                 1.200     5.718    
+  -------------------------------------------------------------------
+                         required time                         -5.718    
+                         arrival time                           6.161    
+  -------------------------------------------------------------------
+                         slack                                  0.443    
+
+Slack (MET) :             0.451ns  (arrival time - required time)
+  Source:                 net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/data_oddr_inst/oddr[0].oddr_inst/C
+                            (falling edge-triggered cell ODDR clocked by net_raw  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Destination:            phy_tx_ctl
+                            (output port clocked by phy_tx_capture  {rise@2.000ns fall@6.000ns period=8.000ns})
+  Path Group:             phy_tx_capture
+  Path Type:              Min at Slow Process Corner
+  Requirement:            -2.000ns  (phy_tx_capture rise@2.000ns - net_raw fall@4.000ns)
+  Data Path Delay:        3.123ns  (logic 3.122ns (99.968%)  route 0.001ns (0.032%))
+  Logic Levels:           1  (OBUF=1)
+  Output Delay:           -1.200ns
+  Clock Path Skew:        3.425ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    2.921ns = ( 4.921 - 2.000 ) 
+    Source Clock Delay      (SCD):    -0.954ns = ( 3.046 - 4.000 ) 
+    Clock Pessimism Removal (CPR):    0.450ns
+  Clock Uncertainty:      0.047ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.061ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock net_raw fall edge)    4.000     4.000 f  
+    Y18                                               0.000     4.000 f  clk_50m (IN)
+                         net (fo=0)                   0.000     4.000    clk_50m
+    Y18                  IBUF (Prop_ibuf_I_O)         1.361     5.361 f  clk_50m_IBUF_inst/O
+                         net (fo=1, routed)           1.004     6.364    clk_50m_IBUF
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT1)
+                                                     -6.061     0.303 f  u_mmcm/CLKOUT1
+                         net (fo=1, routed)           1.357     1.661    net_raw
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.077     1.738 f  u_net_buf/O
+                         net (fo=3316, routed)        1.308     3.046    net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/data_oddr_inst/clk_net
+    OLOGIC_X0Y16         ODDR                                         f  net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/data_oddr_inst/oddr[0].oddr_inst/C
+  -------------------------------------------------------------------    -------------------
+    OLOGIC_X0Y16         ODDR (Prop_oddr_C_Q)         0.363     3.409 r  net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/data_oddr_inst/oddr[0].oddr_inst/Q
+                         net (fo=1, routed)           0.001     3.410    phy_tx_ctl_OBUF
+    AA18                 OBUF (Prop_obuf_I_O)         2.759     6.169 r  phy_tx_ctl_OBUF_inst/O
+                         net (fo=0)                   0.000     6.169    phy_tx_ctl
+    AA18                                                              r  phy_tx_ctl (OUT)
+  -------------------------------------------------------------------    -------------------
+
+                         (clock phy_tx_capture rise edge)
+                                                      2.000     2.000 f  
+    Y18                                               0.000     2.000 f  clk_50m (IN)
+                         net (fo=0)                   0.000     2.000    clk_50m
+    Y18                  IBUF (Prop_ibuf_I_O)         1.427     3.427 f  clk_50m_IBUF_inst/O
+                         net (fo=1, routed)           1.065     4.492    clk_50m_IBUF
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT1)
+                                                     -5.924    -1.433 f  u_mmcm/CLKOUT1
+                         net (fo=1, routed)           1.425    -0.008    net_raw
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.081     0.073 f  u_net_buf/O
+                         net (fo=3316, routed)        1.446     1.519    net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/clk_oddr_inst/clk_net
+    OLOGIC_X0Y30         ODDR (Prop_oddr_C_Q)         0.418     1.937 r  net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/clk_oddr_inst/oddr[0].oddr_inst/Q
+                         net (fo=1, routed)           0.001     1.938    phy_tx_clk_OBUF
+    AB21                 OBUF (Prop_obuf_I_O)         2.983     4.921 r  phy_tx_clk_OBUF_inst/O
+                         net (fo=0)                   0.000     4.921    phy_tx_clk
+    AB21                                                              r  phy_tx_clk (OUT)
+                         clock pessimism             -0.450     4.471    
+                         clock uncertainty            0.047     4.518    
+                         output delay                 1.200     5.718    
+  -------------------------------------------------------------------
+                         required time                         -5.718    
+                         arrival time                           6.169    
+  -------------------------------------------------------------------
+                         slack                                  0.451    
+
+Slack (MET) :             0.451ns  (arrival time - required time)
+  Source:                 net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/data_oddr_inst/oddr[4].oddr_inst/C
+                            (falling edge-triggered cell ODDR clocked by net_raw  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Destination:            phy_txd[3]
+                            (output port clocked by phy_tx_capture  {rise@2.000ns fall@6.000ns period=8.000ns})
+  Path Group:             phy_tx_capture
+  Path Type:              Min at Slow Process Corner
+  Requirement:            -2.000ns  (phy_tx_capture rise@2.000ns - net_raw fall@4.000ns)
+  Data Path Delay:        3.123ns  (logic 3.122ns (99.968%)  route 0.001ns (0.032%))
+  Logic Levels:           1  (OBUF=1)
+  Output Delay:           -1.200ns
+  Clock Path Skew:        3.425ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    2.921ns = ( 4.921 - 2.000 ) 
+    Source Clock Delay      (SCD):    -0.954ns = ( 3.046 - 4.000 ) 
+    Clock Pessimism Removal (CPR):    0.450ns
+  Clock Uncertainty:      0.047ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.061ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock net_raw fall edge)    4.000     4.000 f  
+    Y18                                               0.000     4.000 f  clk_50m (IN)
+                         net (fo=0)                   0.000     4.000    clk_50m
+    Y18                  IBUF (Prop_ibuf_I_O)         1.361     5.361 f  clk_50m_IBUF_inst/O
+                         net (fo=1, routed)           1.004     6.364    clk_50m_IBUF
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT1)
+                                                     -6.061     0.303 f  u_mmcm/CLKOUT1
+                         net (fo=1, routed)           1.357     1.661    net_raw
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.077     1.738 f  u_net_buf/O
+                         net (fo=3316, routed)        1.308     3.046    net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/data_oddr_inst/clk_net
+    OLOGIC_X0Y15         ODDR                                         f  net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/data_oddr_inst/oddr[4].oddr_inst/C
+  -------------------------------------------------------------------    -------------------
+    OLOGIC_X0Y15         ODDR (Prop_oddr_C_Q)         0.363     3.409 r  net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/data_oddr_inst/oddr[4].oddr_inst/Q
+                         net (fo=1, routed)           0.001     3.410    phy_txd_OBUF[3]
+    AB18                 OBUF (Prop_obuf_I_O)         2.759     6.169 r  phy_txd_OBUF[3]_inst/O
+                         net (fo=0)                   0.000     6.169    phy_txd[3]
+    AB18                                                              r  phy_txd[3] (OUT)
+  -------------------------------------------------------------------    -------------------
+
+                         (clock phy_tx_capture rise edge)
+                                                      2.000     2.000 f  
+    Y18                                               0.000     2.000 f  clk_50m (IN)
+                         net (fo=0)                   0.000     2.000    clk_50m
+    Y18                  IBUF (Prop_ibuf_I_O)         1.427     3.427 f  clk_50m_IBUF_inst/O
+                         net (fo=1, routed)           1.065     4.492    clk_50m_IBUF
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT1)
+                                                     -5.924    -1.433 f  u_mmcm/CLKOUT1
+                         net (fo=1, routed)           1.425    -0.008    net_raw
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.081     0.073 f  u_net_buf/O
+                         net (fo=3316, routed)        1.446     1.519    net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/clk_oddr_inst/clk_net
+    OLOGIC_X0Y30         ODDR (Prop_oddr_C_Q)         0.418     1.937 r  net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/clk_oddr_inst/oddr[0].oddr_inst/Q
+                         net (fo=1, routed)           0.001     1.938    phy_tx_clk_OBUF
+    AB21                 OBUF (Prop_obuf_I_O)         2.983     4.921 r  phy_tx_clk_OBUF_inst/O
+                         net (fo=0)                   0.000     4.921    phy_tx_clk
+    AB21                                                              r  phy_tx_clk (OUT)
+                         clock pessimism             -0.450     4.471    
+                         clock uncertainty            0.047     4.518    
+                         output delay                 1.200     5.718    
+  -------------------------------------------------------------------
+                         required time                         -5.718    
+                         arrival time                           6.169    
+  -------------------------------------------------------------------
+                         slack                                  0.451    
+
+Slack (MET) :             0.456ns  (arrival time - required time)
+  Source:                 net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/data_oddr_inst/oddr[1].oddr_inst/C
+                            (falling edge-triggered cell ODDR clocked by net_raw  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Destination:            phy_txd[0]
+                            (output port clocked by phy_tx_capture  {rise@2.000ns fall@6.000ns period=8.000ns})
+  Path Group:             phy_tx_capture
+  Path Type:              Min at Slow Process Corner
+  Requirement:            -2.000ns  (phy_tx_capture rise@2.000ns - net_raw fall@4.000ns)
+  Data Path Delay:        3.134ns  (logic 3.133ns (99.968%)  route 0.001ns (0.032%))
+  Logic Levels:           1  (OBUF=1)
+  Output Delay:           -1.200ns
+  Clock Path Skew:        3.431ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    2.921ns = ( 4.921 - 2.000 ) 
+    Source Clock Delay      (SCD):    -0.960ns = ( 3.040 - 4.000 ) 
+    Clock Pessimism Removal (CPR):    0.450ns
+  Clock Uncertainty:      0.047ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.061ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock net_raw fall edge)    4.000     4.000 f  
+    Y18                                               0.000     4.000 f  clk_50m (IN)
+                         net (fo=0)                   0.000     4.000    clk_50m
+    Y18                  IBUF (Prop_ibuf_I_O)         1.361     5.361 f  clk_50m_IBUF_inst/O
+                         net (fo=1, routed)           1.004     6.364    clk_50m_IBUF
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT1)
+                                                     -6.061     0.303 f  u_mmcm/CLKOUT1
+                         net (fo=1, routed)           1.357     1.661    net_raw
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.077     1.738 f  u_net_buf/O
+                         net (fo=3316, routed)        1.303     3.040    net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/data_oddr_inst/clk_net
+    OLOGIC_X0Y19         ODDR                                         f  net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/data_oddr_inst/oddr[1].oddr_inst/C
+  -------------------------------------------------------------------    -------------------
+    OLOGIC_X0Y19         ODDR (Prop_oddr_C_Q)         0.363     3.403 r  net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/data_oddr_inst/oddr[1].oddr_inst/Q
+                         net (fo=1, routed)           0.001     3.404    phy_txd_OBUF[0]
+    AB20                 OBUF (Prop_obuf_I_O)         2.770     6.174 r  phy_txd_OBUF[0]_inst/O
+                         net (fo=0)                   0.000     6.174    phy_txd[0]
+    AB20                                                              r  phy_txd[0] (OUT)
+  -------------------------------------------------------------------    -------------------
+
+                         (clock phy_tx_capture rise edge)
+                                                      2.000     2.000 f  
+    Y18                                               0.000     2.000 f  clk_50m (IN)
+                         net (fo=0)                   0.000     2.000    clk_50m
+    Y18                  IBUF (Prop_ibuf_I_O)         1.427     3.427 f  clk_50m_IBUF_inst/O
+                         net (fo=1, routed)           1.065     4.492    clk_50m_IBUF
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT1)
+                                                     -5.924    -1.433 f  u_mmcm/CLKOUT1
+                         net (fo=1, routed)           1.425    -0.008    net_raw
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.081     0.073 f  u_net_buf/O
+                         net (fo=3316, routed)        1.446     1.519    net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/clk_oddr_inst/clk_net
+    OLOGIC_X0Y30         ODDR (Prop_oddr_C_Q)         0.418     1.937 r  net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/clk_oddr_inst/oddr[0].oddr_inst/Q
+                         net (fo=1, routed)           0.001     1.938    phy_tx_clk_OBUF
+    AB21                 OBUF (Prop_obuf_I_O)         2.983     4.921 r  phy_tx_clk_OBUF_inst/O
+                         net (fo=0)                   0.000     4.921    phy_tx_clk
+    AB21                                                              r  phy_tx_clk (OUT)
+                         clock pessimism             -0.450     4.471    
+                         clock uncertainty            0.047     4.518    
+                         output delay                 1.200     5.718    
+  -------------------------------------------------------------------
+                         required time                         -5.718    
+                         arrival time                           6.174    
+  -------------------------------------------------------------------
+                         slack                                  0.456    
+
+Slack (MET) :             0.456ns  (arrival time - required time)
+  Source:                 net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/data_oddr_inst/oddr[2].oddr_inst/C
+                            (falling edge-triggered cell ODDR clocked by net_raw  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Destination:            phy_txd[1]
+                            (output port clocked by phy_tx_capture  {rise@2.000ns fall@6.000ns period=8.000ns})
+  Path Group:             phy_tx_capture
+  Path Type:              Min at Slow Process Corner
+  Requirement:            -2.000ns  (phy_tx_capture rise@2.000ns - net_raw fall@4.000ns)
+  Data Path Delay:        3.134ns  (logic 3.133ns (99.968%)  route 0.001ns (0.032%))
+  Logic Levels:           1  (OBUF=1)
+  Output Delay:           -1.200ns
+  Clock Path Skew:        3.431ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    2.921ns = ( 4.921 - 2.000 ) 
+    Source Clock Delay      (SCD):    -0.960ns = ( 3.040 - 4.000 ) 
+    Clock Pessimism Removal (CPR):    0.450ns
+  Clock Uncertainty:      0.047ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.061ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock net_raw fall edge)    4.000     4.000 f  
+    Y18                                               0.000     4.000 f  clk_50m (IN)
+                         net (fo=0)                   0.000     4.000    clk_50m
+    Y18                  IBUF (Prop_ibuf_I_O)         1.361     5.361 f  clk_50m_IBUF_inst/O
+                         net (fo=1, routed)           1.004     6.364    clk_50m_IBUF
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT1)
+                                                     -6.061     0.303 f  u_mmcm/CLKOUT1
+                         net (fo=1, routed)           1.357     1.661    net_raw
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.077     1.738 f  u_net_buf/O
+                         net (fo=3316, routed)        1.303     3.040    net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/data_oddr_inst/clk_net
+    OLOGIC_X0Y20         ODDR                                         f  net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/data_oddr_inst/oddr[2].oddr_inst/C
+  -------------------------------------------------------------------    -------------------
+    OLOGIC_X0Y20         ODDR (Prop_oddr_C_Q)         0.363     3.403 r  net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/data_oddr_inst/oddr[2].oddr_inst/Q
+                         net (fo=1, routed)           0.001     3.404    phy_txd_OBUF[1]
+    AA19                 OBUF (Prop_obuf_I_O)         2.770     6.174 r  phy_txd_OBUF[1]_inst/O
+                         net (fo=0)                   0.000     6.174    phy_txd[1]
+    AA19                                                              r  phy_txd[1] (OUT)
+  -------------------------------------------------------------------    -------------------
+
+                         (clock phy_tx_capture rise edge)
+                                                      2.000     2.000 f  
+    Y18                                               0.000     2.000 f  clk_50m (IN)
+                         net (fo=0)                   0.000     2.000    clk_50m
+    Y18                  IBUF (Prop_ibuf_I_O)         1.427     3.427 f  clk_50m_IBUF_inst/O
+                         net (fo=1, routed)           1.065     4.492    clk_50m_IBUF
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT1)
+                                                     -5.924    -1.433 f  u_mmcm/CLKOUT1
+                         net (fo=1, routed)           1.425    -0.008    net_raw
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.081     0.073 f  u_net_buf/O
+                         net (fo=3316, routed)        1.446     1.519    net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/clk_oddr_inst/clk_net
+    OLOGIC_X0Y30         ODDR (Prop_oddr_C_Q)         0.418     1.937 r  net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/clk_oddr_inst/oddr[0].oddr_inst/Q
+                         net (fo=1, routed)           0.001     1.938    phy_tx_clk_OBUF
+    AB21                 OBUF (Prop_obuf_I_O)         2.983     4.921 r  phy_tx_clk_OBUF_inst/O
+                         net (fo=0)                   0.000     4.921    phy_tx_clk
+    AB21                                                              r  phy_tx_clk (OUT)
+                         clock pessimism             -0.450     4.471    
+                         clock uncertainty            0.047     4.518    
+                         output delay                 1.200     5.718    
+  -------------------------------------------------------------------
+                         required time                         -5.718    
+                         arrival time                           6.174    
+  -------------------------------------------------------------------
+                         slack                                  0.456    
+
+Slack (MET) :             0.490ns  (required time - arrival time)
+  Source:                 net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/data_oddr_inst/oddr[2].oddr_inst/C
+                            (rising edge-triggered cell ODDR clocked by net_raw  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Destination:            phy_txd[1]
+                            (output port clocked by phy_tx_capture  {rise@2.000ns fall@6.000ns period=8.000ns})
+  Path Group:             phy_tx_capture
+  Path Type:              Max at Slow Process Corner
+  Requirement:            2.000ns  (phy_tx_capture rise@2.000ns - net_raw rise@0.000ns)
+  Data Path Delay:        3.385ns  (logic 3.384ns (99.970%)  route 0.001ns (0.030%))
+  Logic Levels:           1  (OBUF=1)
+  Output Delay:           1.200ns
+  Clock Path Skew:        3.122ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    2.191ns = ( 4.191 - 2.000 ) 
+    Source Clock Delay      (SCD):    -0.481ns
+    Clock Pessimism Removal (CPR):    0.450ns
+  Clock Uncertainty:      0.047ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.061ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock net_raw rise edge)    0.000     0.000 r  
+    Y18                                               0.000     0.000 r  clk_50m (IN)
+                         net (fo=0)                   0.000     0.000    clk_50m
+    Y18                  IBUF (Prop_ibuf_I_O)         1.427     1.427 r  clk_50m_IBUF_inst/O
+                         net (fo=1, routed)           1.065     2.492    clk_50m_IBUF
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT1)
+                                                     -5.924    -3.433 r  u_mmcm/CLKOUT1
+                         net (fo=1, routed)           1.425    -2.008    net_raw
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.081    -1.927 r  u_net_buf/O
+                         net (fo=3316, routed)        1.446    -0.481    net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/data_oddr_inst/clk_net
+    OLOGIC_X0Y20         ODDR                                         r  net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/data_oddr_inst/oddr[2].oddr_inst/C
+  -------------------------------------------------------------------    -------------------
+    OLOGIC_X0Y20         ODDR (Prop_oddr_C_Q)         0.418    -0.063 r  net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/data_oddr_inst/oddr[2].oddr_inst/Q
+                         net (fo=1, routed)           0.001    -0.062    phy_txd_OBUF[1]
+    AA19                 OBUF (Prop_obuf_I_O)         2.966     2.904 r  phy_txd_OBUF[1]_inst/O
+                         net (fo=0)                   0.000     2.904    phy_txd[1]
+    AA19                                                              r  phy_txd[1] (OUT)
+  -------------------------------------------------------------------    -------------------
+
+                         (clock phy_tx_capture rise edge)
+                                                      2.000     2.000 f  
+    Y18                                               0.000     2.000 f  clk_50m (IN)
+                         net (fo=0)                   0.000     2.000    clk_50m
+    Y18                  IBUF (Prop_ibuf_I_O)         1.361     3.361 f  clk_50m_IBUF_inst/O
+                         net (fo=1, routed)           1.004     4.364    clk_50m_IBUF
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT1)
+                                                     -6.061    -1.697 f  u_mmcm/CLKOUT1
+                         net (fo=1, routed)           1.357    -0.339    net_raw
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.077    -0.262 f  u_net_buf/O
+                         net (fo=3316, routed)        1.303     1.040    net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/clk_oddr_inst/clk_net
+    OLOGIC_X0Y30         ODDR (Prop_oddr_C_Q)         0.363     1.403 r  net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/clk_oddr_inst/oddr[0].oddr_inst/Q
+                         net (fo=1, routed)           0.001     1.404    phy_tx_clk_OBUF
+    AB21                 OBUF (Prop_obuf_I_O)         2.787     4.191 r  phy_tx_clk_OBUF_inst/O
+                         net (fo=0)                   0.000     4.191    phy_tx_clk
+    AB21                                                              r  phy_tx_clk (OUT)
+                         clock pessimism              0.450     4.641    
+                         clock uncertainty           -0.047     4.594    
+                         output delay                -1.200     3.394    
+  -------------------------------------------------------------------
+                         required time                          3.394    
+                         arrival time                          -2.904    
+  -------------------------------------------------------------------
+                         slack                                  0.490    
+
+Slack (MET) :             0.491ns  (required time - arrival time)
+  Source:                 net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/data_oddr_inst/oddr[1].oddr_inst/C
+                            (rising edge-triggered cell ODDR clocked by net_raw  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Destination:            phy_txd[0]
+                            (output port clocked by phy_tx_capture  {rise@2.000ns fall@6.000ns period=8.000ns})
+  Path Group:             phy_tx_capture
+  Path Type:              Max at Slow Process Corner
+  Requirement:            2.000ns  (phy_tx_capture rise@2.000ns - net_raw rise@0.000ns)
+  Data Path Delay:        3.385ns  (logic 3.384ns (99.970%)  route 0.001ns (0.030%))
+  Logic Levels:           1  (OBUF=1)
+  Output Delay:           1.200ns
+  Clock Path Skew:        3.122ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    2.191ns = ( 4.191 - 2.000 ) 
+    Source Clock Delay      (SCD):    -0.481ns
+    Clock Pessimism Removal (CPR):    0.450ns
+  Clock Uncertainty:      0.047ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.061ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock net_raw rise edge)    0.000     0.000 r  
+    Y18                                               0.000     0.000 r  clk_50m (IN)
+                         net (fo=0)                   0.000     0.000    clk_50m
+    Y18                  IBUF (Prop_ibuf_I_O)         1.427     1.427 r  clk_50m_IBUF_inst/O
+                         net (fo=1, routed)           1.065     2.492    clk_50m_IBUF
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT1)
+                                                     -5.924    -3.433 r  u_mmcm/CLKOUT1
+                         net (fo=1, routed)           1.425    -2.008    net_raw
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.081    -1.927 r  u_net_buf/O
+                         net (fo=3316, routed)        1.446    -0.481    net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/data_oddr_inst/clk_net
+    OLOGIC_X0Y19         ODDR                                         r  net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/data_oddr_inst/oddr[1].oddr_inst/C
+  -------------------------------------------------------------------    -------------------
+    OLOGIC_X0Y19         ODDR (Prop_oddr_C_Q)         0.418    -0.063 r  net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/data_oddr_inst/oddr[1].oddr_inst/Q
+                         net (fo=1, routed)           0.001    -0.062    phy_txd_OBUF[0]
+    AB20                 OBUF (Prop_obuf_I_O)         2.966     2.903 r  phy_txd_OBUF[0]_inst/O
+                         net (fo=0)                   0.000     2.903    phy_txd[0]
+    AB20                                                              r  phy_txd[0] (OUT)
+  -------------------------------------------------------------------    -------------------
+
+                         (clock phy_tx_capture rise edge)
+                                                      2.000     2.000 f  
+    Y18                                               0.000     2.000 f  clk_50m (IN)
+                         net (fo=0)                   0.000     2.000    clk_50m
+    Y18                  IBUF (Prop_ibuf_I_O)         1.361     3.361 f  clk_50m_IBUF_inst/O
+                         net (fo=1, routed)           1.004     4.364    clk_50m_IBUF
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT1)
+                                                     -6.061    -1.697 f  u_mmcm/CLKOUT1
+                         net (fo=1, routed)           1.357    -0.339    net_raw
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.077    -0.262 f  u_net_buf/O
+                         net (fo=3316, routed)        1.303     1.040    net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/clk_oddr_inst/clk_net
+    OLOGIC_X0Y30         ODDR (Prop_oddr_C_Q)         0.363     1.403 r  net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/clk_oddr_inst/oddr[0].oddr_inst/Q
+                         net (fo=1, routed)           0.001     1.404    phy_tx_clk_OBUF
+    AB21                 OBUF (Prop_obuf_I_O)         2.787     4.191 r  phy_tx_clk_OBUF_inst/O
+                         net (fo=0)                   0.000     4.191    phy_tx_clk
+    AB21                                                              r  phy_tx_clk (OUT)
+                         clock pessimism              0.450     4.641    
+                         clock uncertainty           -0.047     4.594    
+                         output delay                -1.200     3.394    
+  -------------------------------------------------------------------
+                         required time                          3.394    
+                         arrival time                          -2.903    
+  -------------------------------------------------------------------
+                         slack                                  0.491    
+
+Slack (MET) :             0.495ns  (required time - arrival time)
+  Source:                 net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/data_oddr_inst/oddr[4].oddr_inst/C
+                            (rising edge-triggered cell ODDR clocked by net_raw  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Destination:            phy_txd[3]
+                            (output port clocked by phy_tx_capture  {rise@2.000ns fall@6.000ns period=8.000ns})
+  Path Group:             phy_tx_capture
+  Path Type:              Max at Slow Process Corner
+  Requirement:            2.000ns  (phy_tx_capture rise@2.000ns - net_raw rise@0.000ns)
+  Data Path Delay:        3.374ns  (logic 3.373ns (99.970%)  route 0.001ns (0.030%))
+  Logic Levels:           1  (OBUF=1)
+  Output Delay:           1.200ns
+  Clock Path Skew:        3.116ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    2.191ns = ( 4.191 - 2.000 ) 
+    Source Clock Delay      (SCD):    -0.475ns
+    Clock Pessimism Removal (CPR):    0.450ns
+  Clock Uncertainty:      0.047ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.061ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock net_raw rise edge)    0.000     0.000 r  
+    Y18                                               0.000     0.000 r  clk_50m (IN)
+                         net (fo=0)                   0.000     0.000    clk_50m
+    Y18                  IBUF (Prop_ibuf_I_O)         1.427     1.427 r  clk_50m_IBUF_inst/O
+                         net (fo=1, routed)           1.065     2.492    clk_50m_IBUF
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT1)
+                                                     -5.924    -3.433 r  u_mmcm/CLKOUT1
+                         net (fo=1, routed)           1.425    -2.008    net_raw
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.081    -1.927 r  u_net_buf/O
+                         net (fo=3316, routed)        1.452    -0.475    net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/data_oddr_inst/clk_net
+    OLOGIC_X0Y15         ODDR                                         r  net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/data_oddr_inst/oddr[4].oddr_inst/C
+  -------------------------------------------------------------------    -------------------
+    OLOGIC_X0Y15         ODDR (Prop_oddr_C_Q)         0.418    -0.057 r  net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/data_oddr_inst/oddr[4].oddr_inst/Q
+                         net (fo=1, routed)           0.001    -0.056    phy_txd_OBUF[3]
+    AB18                 OBUF (Prop_obuf_I_O)         2.955     2.899 r  phy_txd_OBUF[3]_inst/O
+                         net (fo=0)                   0.000     2.899    phy_txd[3]
+    AB18                                                              r  phy_txd[3] (OUT)
+  -------------------------------------------------------------------    -------------------
+
+                         (clock phy_tx_capture rise edge)
+                                                      2.000     2.000 f  
+    Y18                                               0.000     2.000 f  clk_50m (IN)
+                         net (fo=0)                   0.000     2.000    clk_50m
+    Y18                  IBUF (Prop_ibuf_I_O)         1.361     3.361 f  clk_50m_IBUF_inst/O
+                         net (fo=1, routed)           1.004     4.364    clk_50m_IBUF
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT1)
+                                                     -6.061    -1.697 f  u_mmcm/CLKOUT1
+                         net (fo=1, routed)           1.357    -0.339    net_raw
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.077    -0.262 f  u_net_buf/O
+                         net (fo=3316, routed)        1.303     1.040    net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/clk_oddr_inst/clk_net
+    OLOGIC_X0Y30         ODDR (Prop_oddr_C_Q)         0.363     1.403 r  net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/clk_oddr_inst/oddr[0].oddr_inst/Q
+                         net (fo=1, routed)           0.001     1.404    phy_tx_clk_OBUF
+    AB21                 OBUF (Prop_obuf_I_O)         2.787     4.191 r  phy_tx_clk_OBUF_inst/O
+                         net (fo=0)                   0.000     4.191    phy_tx_clk
+    AB21                                                              r  phy_tx_clk (OUT)
+                         clock pessimism              0.450     4.641    
+                         clock uncertainty           -0.047     4.594    
+                         output delay                -1.200     3.394    
+  -------------------------------------------------------------------
+                         required time                          3.394    
+                         arrival time                          -2.899    
+  -------------------------------------------------------------------
+                         slack                                  0.495    
+
+Slack (MET) :             0.495ns  (required time - arrival time)
+  Source:                 net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/data_oddr_inst/oddr[0].oddr_inst/C
+                            (rising edge-triggered cell ODDR clocked by net_raw  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Destination:            phy_tx_ctl
+                            (output port clocked by phy_tx_capture  {rise@2.000ns fall@6.000ns period=8.000ns})
+  Path Group:             phy_tx_capture
+  Path Type:              Max at Slow Process Corner
+  Requirement:            2.000ns  (phy_tx_capture rise@2.000ns - net_raw rise@0.000ns)
+  Data Path Delay:        3.374ns  (logic 3.373ns (99.970%)  route 0.001ns (0.030%))
+  Logic Levels:           1  (OBUF=1)
+  Output Delay:           1.200ns
+  Clock Path Skew:        3.116ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    2.191ns = ( 4.191 - 2.000 ) 
+    Source Clock Delay      (SCD):    -0.475ns
+    Clock Pessimism Removal (CPR):    0.450ns
+  Clock Uncertainty:      0.047ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.061ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock net_raw rise edge)    0.000     0.000 r  
+    Y18                                               0.000     0.000 r  clk_50m (IN)
+                         net (fo=0)                   0.000     0.000    clk_50m
+    Y18                  IBUF (Prop_ibuf_I_O)         1.427     1.427 r  clk_50m_IBUF_inst/O
+                         net (fo=1, routed)           1.065     2.492    clk_50m_IBUF
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT1)
+                                                     -5.924    -3.433 r  u_mmcm/CLKOUT1
+                         net (fo=1, routed)           1.425    -2.008    net_raw
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.081    -1.927 r  u_net_buf/O
+                         net (fo=3316, routed)        1.452    -0.475    net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/data_oddr_inst/clk_net
+    OLOGIC_X0Y16         ODDR                                         r  net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/data_oddr_inst/oddr[0].oddr_inst/C
+  -------------------------------------------------------------------    -------------------
+    OLOGIC_X0Y16         ODDR (Prop_oddr_C_Q)         0.418    -0.057 r  net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/data_oddr_inst/oddr[0].oddr_inst/Q
+                         net (fo=1, routed)           0.001    -0.056    phy_tx_ctl_OBUF
+    AA18                 OBUF (Prop_obuf_I_O)         2.955     2.899 r  phy_tx_ctl_OBUF_inst/O
+                         net (fo=0)                   0.000     2.899    phy_tx_ctl
+    AA18                                                              r  phy_tx_ctl (OUT)
+  -------------------------------------------------------------------    -------------------
+
+                         (clock phy_tx_capture rise edge)
+                                                      2.000     2.000 f  
+    Y18                                               0.000     2.000 f  clk_50m (IN)
+                         net (fo=0)                   0.000     2.000    clk_50m
+    Y18                  IBUF (Prop_ibuf_I_O)         1.361     3.361 f  clk_50m_IBUF_inst/O
+                         net (fo=1, routed)           1.004     4.364    clk_50m_IBUF
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT1)
+                                                     -6.061    -1.697 f  u_mmcm/CLKOUT1
+                         net (fo=1, routed)           1.357    -0.339    net_raw
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.077    -0.262 f  u_net_buf/O
+                         net (fo=3316, routed)        1.303     1.040    net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/clk_oddr_inst/clk_net
+    OLOGIC_X0Y30         ODDR (Prop_oddr_C_Q)         0.363     1.403 r  net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/clk_oddr_inst/oddr[0].oddr_inst/Q
+                         net (fo=1, routed)           0.001     1.404    phy_tx_clk_OBUF
+    AB21                 OBUF (Prop_obuf_I_O)         2.787     4.191 r  phy_tx_clk_OBUF_inst/O
+                         net (fo=0)                   0.000     4.191    phy_tx_clk
+    AB21                                                              r  phy_tx_clk (OUT)
+                         clock pessimism              0.450     4.641    
+                         clock uncertainty           -0.047     4.594    
+                         output delay                -1.200     3.394    
+  -------------------------------------------------------------------
+                         required time                          3.394    
+                         arrival time                          -2.899    
+  -------------------------------------------------------------------
+                         slack                                  0.495    
+
+Slack (MET) :             0.505ns  (required time - arrival time)
+  Source:                 net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/data_oddr_inst/oddr[3].oddr_inst/C
+                            (rising edge-triggered cell ODDR clocked by net_raw  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Destination:            phy_txd[2]
+                            (output port clocked by phy_tx_capture  {rise@2.000ns fall@6.000ns period=8.000ns})
+  Path Group:             phy_tx_capture
+  Path Type:              Max at Slow Process Corner
+  Requirement:            2.000ns  (phy_tx_capture rise@2.000ns - net_raw rise@0.000ns)
+  Data Path Delay:        3.374ns  (logic 3.373ns (99.970%)  route 0.001ns (0.030%))
+  Logic Levels:           1  (OBUF=1)
+  Output Delay:           1.200ns
+  Clock Path Skew:        3.125ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    2.191ns = ( 4.191 - 2.000 ) 
+    Source Clock Delay      (SCD):    -0.484ns
+    Clock Pessimism Removal (CPR):    0.450ns
+  Clock Uncertainty:      0.047ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.061ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock net_raw rise edge)    0.000     0.000 r  
+    Y18                                               0.000     0.000 r  clk_50m (IN)
+                         net (fo=0)                   0.000     0.000    clk_50m
+    Y18                  IBUF (Prop_ibuf_I_O)         1.427     1.427 r  clk_50m_IBUF_inst/O
+                         net (fo=1, routed)           1.065     2.492    clk_50m_IBUF
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT1)
+                                                     -5.924    -3.433 r  u_mmcm/CLKOUT1
+                         net (fo=1, routed)           1.425    -2.008    net_raw
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.081    -1.927 r  u_net_buf/O
+                         net (fo=3316, routed)        1.443    -0.484    net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/data_oddr_inst/clk_net
+    OLOGIC_X0Y23         ODDR                                         r  net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/data_oddr_inst/oddr[3].oddr_inst/C
+  -------------------------------------------------------------------    -------------------
+    OLOGIC_X0Y23         ODDR (Prop_oddr_C_Q)         0.418    -0.066 r  net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/data_oddr_inst/oddr[3].oddr_inst/Q
+                         net (fo=1, routed)           0.001    -0.065    phy_txd_OBUF[2]
+    Y19                  OBUF (Prop_obuf_I_O)         2.955     2.890 r  phy_txd_OBUF[2]_inst/O
+                         net (fo=0)                   0.000     2.890    phy_txd[2]
+    Y19                                                               r  phy_txd[2] (OUT)
+  -------------------------------------------------------------------    -------------------
+
+                         (clock phy_tx_capture rise edge)
+                                                      2.000     2.000 f  
+    Y18                                               0.000     2.000 f  clk_50m (IN)
+                         net (fo=0)                   0.000     2.000    clk_50m
+    Y18                  IBUF (Prop_ibuf_I_O)         1.361     3.361 f  clk_50m_IBUF_inst/O
+                         net (fo=1, routed)           1.004     4.364    clk_50m_IBUF
+    MMCME2_ADV_X0Y0      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT1)
+                                                     -6.061    -1.697 f  u_mmcm/CLKOUT1
+                         net (fo=1, routed)           1.357    -0.339    net_raw
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.077    -0.262 f  u_net_buf/O
+                         net (fo=3316, routed)        1.303     1.040    net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/clk_oddr_inst/clk_net
+    OLOGIC_X0Y30         ODDR (Prop_oddr_C_Q)         0.363     1.403 r  net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/clk_oddr_inst/oddr[0].oddr_inst/Q
+                         net (fo=1, routed)           0.001     1.404    phy_tx_clk_OBUF
+    AB21                 OBUF (Prop_obuf_I_O)         2.787     4.191 r  phy_tx_clk_OBUF_inst/O
+                         net (fo=0)                   0.000     4.191    phy_tx_clk
+    AB21                                                              r  phy_tx_clk (OUT)
+                         clock pessimism              0.450     4.641    
+                         clock uncertainty           -0.047     4.594    
+                         output delay                -1.200     3.394    
+  -------------------------------------------------------------------
+                         required time                          3.394    
+                         arrival time                          -2.890    
+  -------------------------------------------------------------------
+                         slack                                  0.505    
+
+
+
+

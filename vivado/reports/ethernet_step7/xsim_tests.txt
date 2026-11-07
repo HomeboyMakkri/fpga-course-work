@@ -1,0 +1,35 @@
+#-----------------------------------------------------------
+# xsim v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Nov  7 16:44:43 2026
+# Process ID: 3568
+# Current directory: C:/Users/mkkr/Documents/Codex/fpga-course-work/tmp/ethernet-xsim-final
+# Command line: xsim.exe -mode tcl -source {xsim.dir/ethernet_integration_tb_sim/xsim_script.tcl}
+# Log file: C:/Users/mkkr/Documents/Codex/fpga-course-work/tmp/ethernet-xsim-final/xsim.log
+# Journal file: C:/Users/mkkr/Documents/Codex/fpga-course-work/tmp/ethernet-xsim-final\xsim.jou
+#-----------------------------------------------------------
+source xsim.dir/ethernet_integration_tb_sim/xsim_script.tcl
+# xsim {ethernet_integration_tb_sim} -autoloadwcfg -runall
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+run -all
+PASS Ethernet RGMII/ARP/IPv4/UDP + CDC/PPS: requests=21 applies=17 replies=20 invalid=0 overflow=0
+$finish called at time : 638076 ns : File "C:/Users/mkkr/Documents/Codex/fpga-course-work/vivado/tests/ethernet_integration_tb.v" Line 81
+exit
+INFO: [Common 17-206] Exiting xsim at Sat Nov  7 16:44:50 2026...
+
+****** xsim v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/ethernet_integration_tb_sim/xsim_script.tcl
+# xsim {ethernet_integration_tb_sim} -autoloadwcfg -runall
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+run -all
+PASS Ethernet RGMII/ARP/IPv4/UDP + CDC/PPS: requests=21 applies=17 replies=20 invalid=0 overflow=0
+$finish called at time : 638076 ns : File "C:/Users/mkkr/Documents/Codex/fpga-course-work/vivado/tests/ethernet_integration_tb.v" Line 81
+exit
+INFO: [Common 17-206] Exiting xsim at Sat Nov  7 16:44:50 2026...

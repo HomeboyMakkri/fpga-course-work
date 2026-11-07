@@ -1,0 +1,2 @@
+# Vendor hashes must survive Windows core.autocrlf; retain upstream blob bytes.
+/vivado/third_party/verilog-ethernet/** -text

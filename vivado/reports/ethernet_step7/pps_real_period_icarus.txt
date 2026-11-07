@@ -1,0 +1,2 @@
+PASS: 10 MHz real periods 10000000, 1000000, 100000 cycles
+C:\Users\mkkr\Documents\Codex\fpga-course-work\vivado\codex_sources\pps_real_period_tb.v:29: $finish called at 20000013100 (1ps)

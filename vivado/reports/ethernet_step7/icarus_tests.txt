@@ -1,0 +1,8 @@
+PASS UDP bubbles, early error flag, excess length, full slot and reply header/payload backpressure
+C:\Users\mkkr\Documents\Codex\fpga-course-work\vivado\tests\udp_backpressure_tb.v:64: $finish called at 976000 (1ps)
+PASS MDIO wire model: ID, RMW preserved bits, readback, AN, link loss/recovery, wrong ID, missing TA
+C:\Users\mkkr\Documents\Codex\fpga-course-work\vivado\tests\rtl8211e_init_tb.v:82: $finish called at 89140000 (1ps)
+PASS: accelerated PPS tests
+C:\Users\mkkr\Documents\Codex\fpga-course-work\vivado\codex_sources\pps_generator_tb.v:69: $finish called at 22906000 (1ps)
+PASS Ethernet RGMII/ARP/IPv4/UDP + CDC/PPS: requests=21 applies=17 replies=20 invalid=0 overflow=0
+C:\Users\mkkr\Documents\Codex\fpga-course-work\vivado\tests\ethernet_integration_tb.v:81: $finish called at 638076000 (1ps)

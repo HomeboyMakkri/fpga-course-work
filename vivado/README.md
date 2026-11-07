@@ -1,22 +1,192 @@
-# Генератор PPS для Smart Artix
+# Реализация Ethernet → PPS на Smart Artix
 
-Открыть `ethernet_generator.xpr` в Vivado 2019.1. Проект использует `xc7a50tfgg484-2`, верхний модуль `smart_artix_top`, локальные исходники и XDC из `codex_sources`. Временные директории Vivado не хранятся в Git.
+Исходники `codex_sources`, проект `ethernet_generator.xpr`, Vivado 2019.1,
+`xc7a50tfgg484-2`, top `smart_artix_top`. Реализованы RGMII MAC с FIFO,
+ARP/IPv4/UDP, установка/чтение режима каждого из трёх PPS и подтверждение
+из домена PPS. Начальное состояние **всех каналов OFF**.
+Старая автоматическая прошивка 1/10/100 PPS сохранена отдельно в
+`bitstream/smart_artix_pps.bit`; это не новая Ethernet-прошивка.
 
-Стендовая версия формирует 10 МГц из встроенного такта платы 50 МГц через MMCM. При включении выходы автоматически задаются на 1, 10 и 100 PPS; Ethernet-управление ещё не реализовано. Импульсы активны высоким уровнем, номинальная ширина 100 нс. KEY3 выполняет сброс. Назначение контактов и подключение анализатора — в `codex_sources/SMART_ARTIX_README.md`.
+Опора — внутренние 10 МГц из генератора платы 50 МГц, импульс высокий,
+номинально 100 нс. Внешняя опора и привязка к UTC не реализованы.
+Команда перезапускает только выбранный канал; первый импульс — после полного
+периода. Повтор установки того же режима также перезапускает фазу.
 
-`codex_sources/pps_generator.v` реализует три независимых канала. Интерфейс `cmd_valid`, `cmd_channel` (1–3) и `cmd_mode` (0=OFF, 1=1 PPS, 2=10 PPS, 3=100 PPS) синхронен `clk_ref`. Каждая команда перезапускает только выбранный канал; первый импульс возникает через полный период. Передача команд из домена Ethernet ещё не выполнена. При остановке опоры синхронная логика не обновляется и высокий выход может остаться высоким.
+## Подключение и запуск с ПК
 
-`bitstream/smart_artix_pps.bit` — копия тестовой конфигурации, загруженной на плату; SHA-256 `70bd92555e1eeea93d9aec32a41df9dad6eb32528ab6b457f1a56afe978dfef4`. `measurements/check.sr` и `check.pvs` — захват PulseView и его настройки. По измерению 50 млн отсчётов при 24 Мвыб/с обнаружены периоды около 1,000057 с, 100,00566 мс и 10,00056 мс. Пользователь подтвердил, что при первом захвате провода C2 и E1 были переставлены. Ширина 2–3 отсчёта согласуется со 100 нс с ограниченной точностью анализатора.
-
-Проверка из корня репозитория с Icarus Verilog:
+1. Сверить Smart Artix со схемой `datasheets/Schematic_Smart_Artix_251120.pdf`:
+   FPGA XC7A50T-FGG484, PHY RTL8211E-VB-CG, питание банков 3,3 В.
+   JTAG подтверждает семейство/ёмкость, но не корпус, speed grade или ревизию.
+2. Подключить RJ45 J3 обычным кабелем к физическому Ethernet-адаптеру ПК либо
+   к коммутатору в отдельной локальной сети. Нужен работающий full-duplex link.
+   На ПК вручную назначить свободный IPv4 `192.168.1.10/24` проводному интерфейсу;
+   шлюз для прямого соединения не нужен. Не менять Wi-Fi, VPN и VirtualBox.
+3. Адрес FPGA `192.168.1.128`, MAC `02:00:00:00:00:50`, UDP порт `1234`.
+   Эти адреса временные; исключить совпадение IP/MAC в сети.
+   DHCP/ICMP ping/TCP не реализованы: отсутствие ping-ответа ожидаемо.
+4. После проверки FPGA и ревизии загрузить новый `smart_artix_ethernet.bit`
+   **в SRAM через JTAG**. Сверять единственное целевое устройство `xc7a50t`,
+   не выполнять Program Configuration Memory. Flash не требуется.
+   Дождаться автосогласования (обычно секунды), затем отправлять команды.
+5. Команды ниже запускаются из корня репозитория Python 3 (только stdlib).
 
 ```powershell
-iverilog -g2012 -s pps_generator_tb -o "$env:TEMP\pps-test.vvp" vivado/codex_sources/pps_generator.v vivado/codex_sources/pps_generator_tb.v
-vvp "$env:TEMP\pps-test.vvp"
-iverilog -g2012 -s smart_artix_top_tb -o "$env:TEMP\smart-artix-test.vvp" vivado/codex_sources/sim_mmcm_model.v vivado/codex_sources/pps_generator.v vivado/codex_sources/smart_artix_top.v vivado/codex_sources/smart_artix_top_tb.v
-vvp "$env:TEMP\smart-artix-test.vvp"
+python vivado/pps_control.py 1 1 --bind 192.168.1.10
+python vivado/pps_control.py 2 10 --bind 192.168.1.10
+python vivado/pps_control.py 3 100 --bind 192.168.1.10
+python vivado/pps_control.py 2 off --bind 192.168.1.10
+python vivado/pps_control.py 2 get --bind 192.168.1.10
 ```
 
-Модель MMCM в тесте оболочки упрощённая и не проверяет аналоговые параметры MMCM. Реальные периоды 10 000 000, 1 000 000 и 100 000 тактов отдельно проверяются тестом `pps_real_period_tb.v`. Ранее выполненный Vivado implementation завершился без DRC-ошибок, внутренние setup/hold выполнены; output delays для асинхронного анализатора не задавались.
+Если `python` ведёт на заглушку Windows Store, указать путь к установленному
+Python, например `tools/altium/.venv/Scripts/python.exe` на текущей машине.
+Сам Ethernet-клиент от Altium не зависит. Клиент отправляет одну команду,
+ждёт ответ 2 с, проверяет адрес отправителя и формат. Автоповторов нет.
+Тайм-аут не доказывает, что команда не исполнилась: сначала прочитать режим.
+`get` не меняет фазу канала. Параллельные клиенты и аутентификация не предусмотрены.
 
-Для сборки вне GUI из пустой директории: `vivado -mode batch -source vivado/build.tcl -tclargs <пустая_папка_для_результатов>`.
+## Протокол версии 1
+
+UDP payload ровно два байта:
+
+| Байт | Значение |
+|---|---|
+| 0 | Номер канала: 1, 2 или 3 |
+| 1 | `00` OFF, `01` 1 PPS, `02` 10 PPS, `03` 100 PPS; `80` чтение |
+
+Например `02 03` устанавливает канал 2 в 100 PPS. Ответ на исходный UDP порт
+ПК — четыре байта `00 channel applied_mode 01`: успех, канал, действующий
+код режима 0..3, версия. Для установки ответ создаётся **после выполнения
+на такте PPS**, для чтения — после снимка режима в том же домене.
+Это подтверждение цифровой логики, не измерение физического импульса.
+
+Проверяются destination MAC/IP/порт, IPv4 без options и фрагментации,
+IP total length=30, UDP length=10, точная длина payload, channel/mode,
+ошибка AXIS tuser, IP checksum и Ethernet FCS. Ненулевой UDP checksum проверяет
+наш парсер, так как upstream RX его не проверяет. Нулевой UDP checksum
+допускается для IPv4. Отдельные ошибки FCS/header могут быть отброшены стеком
+до парсера. Неподходящие/повреждённые/занятые команды не меняют настройки
+и не получают ответа. Счётчики accepted/invalid/overflow доступны внутри RTL,
+не являются полями сетевого ответа.
+
+Одновременно обслуживается одна команда и её ответ. Следующая до освобождения
+слота отклоняется с overflow; конечные MAC/UDP FIFO также могут отбросить
+трафик при перегрузке. UDP не гарантирует доставку, порядок или отсутствие
+повторов. Нет transaction ID и дедупликации; для стенда — один клиент, одна
+команда за раз, затем ответ. После reset состояние OFF, очереди очищаются.
+
+## Аппаратная проверка
+
+Контакты PPS на J5: PPS1 B1/pin7, PPS2 C2/pin9, PPS3 E1/pin11;
+GND pin5/6. Ориентацию pin1 проверить по маркировке. J5 pin1/2 — 5 В,
+pin3/4 — 3,3 В; анализатор подключать только к указанным сигнальным контактам
+и GND, входы должны допускать 3,3 В. Нагрузка 50 Ом не предусмотрена.
+
+Проверить Wireshark (`arp or udp.port == 1234`): ARP request/reply,
+команда и четырёхбайтовый ответ. Затем для каждого канала пройти OFF/1/10/100,
+прочитать состояние, измерить период 1 с/100 мс/10 мс и ширину около 100 нс.
+При переключении одного канала остальные должны сохранять периоды и фазу.
+Проверить ошибочные payload, KEY3, переподключение кабеля/автосогласование.
+Проверку полной ширины 100 нс предпочтительно делать осциллографом.
+
+7 ноября 2026 перед загрузкой выполнено read-only обнаружение JTAG:
+`localhost:3121/xilinx_tcf/Xilinx/26SH168A`, `xc7a50t_0`, PART `xc7a50t`.
+Новая прошивка затем загружена в SRAM FPGA по указанию пользователя; DONE=1, CRC/IDCODE errors=0, Flash сохранена. [Протокол загрузки](reports/ethernet_step7/PROGRAMMING.md). Физического проводного адаптера в Windows
+нет: Wi-Fi, Bluetooth, WSL, туннель и VirtualBox не заменяют RJ45-подключение.
+Для продолжения нужен Ethernet/USB-Ethernet либо доступная проводная сеть,
+подключённая плата и подтверждение ревизии/маркировки. Ethernet и PPS новой
+прошивки на плате не проверены. Старые измерения относятся к прежнему bitstream.
+
+## Сборка и моделирование
+
+Перед пакетной сборкой сохранить пользовательские правки и закрыть Vivado.
+`build.ps1` отказывается работать при запущенном Vivado. Не открывать этот .xpr
+в GUI до окончания пакетной команды. Каталог результатов должен быть пустым.
+
+```powershell
+# Изолированная non-project сборка; исходный .xpr не открывается.
+./vivado/build.ps1 -OutputDirectory C:/path/to/new-build
+# Проверка фактического .xpr; пересоздаёт его generated synth/impl runs.
+./vivado/build.ps1 -Project -OutputDirectory C:/path/to/new-project-build
+# Если список файлов менялся, при закрытом GUI:
+& C:/Xilinx/Vivado/2019.1/bin/vivado.bat -mode batch -source vivado/update_project.tcl
+```
+
+`reports.tcl` сохраняет DRC, setup/hold, clocks, CDC, clock interaction,
+check_timing, exceptions, отдельные DDR RX/TX пути, utilization и routed DCP.
+Bitstream не выдаётся при отрицательном setup/hold или Critical CDC;
+штатный bitgen также выполняет DRC. Численный timing не отменяет проверки
+временных бюджетов и платы. Данные проверок — `reports/ethernet_step7`.
+
+```powershell
+# Полный Icarus прогон, включая реальные коэффициенты 10 МГц (несколько минут).
+python vivado/tests/run_tests.py --output tmp/test-new
+# Быстрый прогон, без повторения 20 млн тактов реального PPS.
+python vivado/tests/run_tests.py --quick --output tmp/test-quick-new
+# Тот же набор в Vivado Simulator 2019.1.
+python vivado/tests/run_tests.py --quick --xsim-bin C:/Xilinx/Vivado/2019.1/bin --output tmp/xsim-new
+# Полная оболочка с настоящими моделями Xilinx MMCM/IDELAY/DDR.
+python vivado/tests/run_tests.py --top-only --xsim-bin C:/Xilinx/Vivado/2019.1/bin --output tmp/top-new
+```
+
+Модель RGMII подаёт настоящие preamble/Ethernet/FCS/IP/UDP; независимо проверяются
+передаваемые ARP и UDP ответы. В интеграции проверены все каналы/режимы,
+сохранение фазы остальных по cycle scoreboard, чтение, ошибки MAC/IP/UDP,
+повторы, остановка/возврат обоих доменов, full и reset с pending-командой.
+Отдельный тест проверяет stalls header/payload и AXIS bubbles/tuser;
+модель MDIO — ID, TA, read-modify-write, readback, EEE disable, AN, потерю link.
+UNISIM smoke-тест оболочки вводит команды непосредственно на вход mailbox;
+он не заменяет модель физического PHY или измерение skew.
+`sim_mmcm_model.v` — историческая модель старой оболочки, в новых тестах не используется.
+
+## PHY, XDC и временные допущения
+
+Назначения заново сверены с листами 2 и 5 схемы, а не скопированы из Nexys.
+Банк14 LVCMOS33; RXC W19, RXD0..3 AA20/W22/W21/W20, RXCTL AA21;
+TXC AB21, TXD0..3 AB20/AA19/Y19/AB18, TXCTL AA18;
+RESET V19, MDIO V17, MDC W17. INT AB22 не используется/порт не создан.
+
+Straps дают PHY address=3, TXDLY=1, RXDLY=0. Контроллер держит PHY reset low
+10 мс, затем отпускает его в Z через штатный R52/C670 и ждёт ещё 40 мс; проверяет ID `001c:c915`, на page7/ext0xa4/register0x1c
+сохраняет остальные биты и устанавливает mask0x3800, затем читает обратно.
+Включены обе внутренние задержки. FPGA TX clk90 **отключён**, двойного
+сдвига TX нет. EEE advertisement MMD7:0x3c обнулён; объявляется только full
+10/100/1000, затем AN restart. BMSR опрашивается примерно каждые 66 мкс;
+MAC включается после link+AN complete и IDELAY ready. При неверном ID, TA
+или readback — fail closed до KEY3/reset, автоматического retry нет.
+Последовательность питания внешних 1 В/3,3 В требует проверки на плате.
+
+MMCM VCO=1000 МГц: выходы 10, 125 и 200 МГц, reset снимается синхронно
+для каждого домена; IDELAYCTRL выдерживается минимум 16 тактов 200 МГц.
+RX — BUFIO/BUFR, IDDR; IDELAYE2 11 taps компенсирует внутренний перекос
+clock/data FPGA и **не заменяет** задержку RX в PHY. FIFO MAC пересекает RXC
+в 125 МГц. PPS-команда — один стабильный bundle с request/ack двумя стадиями,
+снимок в ref-регистре перед применением; результат удерживается до ack.
+Нет независимых синхронизаторов битов команды. Оба reset происходят от общего
+источника; независимый сброс половины mailbox не поддерживается.
+
+Таблица 65 локального RTL8211E rev1.6 даёт integrated-delay output setup/hold
+>=1,2 нс; RX input delays заданы min1/max3 нс на обеих DDR-границах с
+предварительным allowance дорожек ±0,2 нс. TX capture в PHY моделируется
+сдвигом +2 нс, setup/hold 1 нс плюс 0,2 нс allowance. **TX delay +2 нс,
+дорожки ±0,2 нс, реальные duty/jitter и фактические задержки PHY остаются
+предварительным бюджетом**, не подтверждёнными параметрами данной платы.
+Физическое timing sign-off, PVT/duty/skew и режимы 10/100 необходимо проверить
+и при необходимости пересчитать XDC. Пройденный nominal STA это не доказывает.
+
+Исключения узкие: первые стадии request/ack/MDIO/RDY, асинхронное утверждение
+reset; PPS/PHY reset — асинхронные внешние управляющие сигналы. Bundle paths
+ограничены max_delay8 нс; upstream FIFO получает собственные max_delay/bus_skew,
+без blanket clock_groups. MDIO/MDC имеют bound32 net cycles=256 нс, меньше
+512 нс полупериода MDC; setup/hold PHY10 нс. Это исключение не касается RGMII.
+Отчёт unconstrained содержит clock-only MMCM feedback/IDELAY REFCLK/forwarded
+TX clock; пути данных к необозначенным clock/internal endpoints отсутствуют.
+RDY IDELAYCTRL принят как асинхронный статус только через две стадии.
+
+Старт OFF, перезапуск фазы, один слот, IP/MAC/порт и ограниченный протокол —
+временные инженерные решения. При остановке опоры синхронный PPS может
+остаться высоким; pending-команда ждёт возврата такта. Нет watchdog,
+безопасного мгновенного выключения, внешней опоры, DHCP, UTC, сохранения
+настроек, авторизации или гарантированной доставки UDP.
+
+Версии, MIT-лицензии и SHA-256 зависимостей — `third_party/README.md` и manifest.

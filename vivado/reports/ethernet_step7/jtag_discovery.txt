@@ -1,0 +1,47 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Nov  7 16:36:43 2026
+# Process ID: 24556
+# Current directory: C:/Users/mkkr/Documents/Codex/fpga-course-work
+# Command line: vivado.exe -mode batch -nojournal -log tmp/hardware-probe-3.log -source vivado/probe_hardware.tcl
+# Log file: C:/Users/mkkr/Documents/Codex/fpga-course-work/tmp/hardware-probe-3.log
+# Journal file: 
+#-----------------------------------------------------------
+source vivado/probe_hardware.tcl
+# open_hw
+# connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2019.1
+  **** Build date : May 24 2019 at 15:13:31
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+
+# set targets [get_hw_targets]
+# puts "DISCOVERED_TARGETS=$targets"
+DISCOVERED_TARGETS=localhost:3121/xilinx_tcf/Xilinx/26SH168A
+# foreach target $targets {
+#     current_hw_target $target
+#     open_hw_target
+#     foreach device [get_hw_devices] {
+#         puts "DISCOVERED_DEVICE=$device PART=[get_property PART $device]"
+#     }
+#     close_hw_target
+# }
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/26SH168A
+DISCOVERED_DEVICE=xc7a50t_0 PART=xc7a50t
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost:3121/xilinx_tcf/Xilinx/26SH168A
+# disconnect_hw_server
+# close_hw
+****** Webtalk v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/mkkr/Documents/Codex/fpga-course-work/.Xil/Vivado-24556-DESKTOP-JST3DFG/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sat Nov  7 16:36:53 2026...
+INFO: [Common 17-206] Exiting Vivado at Sat Nov  7 16:36:53 2026...

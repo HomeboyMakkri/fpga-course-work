@@ -1,0 +1,59 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Sat Nov  7 16:54:39 2026
+| Host         : DESKTOP-JST3DFG running 64-bit major release  (build 9200)
+| Command      : report_exceptions -file exceptions.rpt
+| Design       : smart_artix_top
+| Device       : 7a50t-fgg484
+| Speed File   : -2  PRODUCTION 1.23 2018-06-13
+------------------------------------------------------------------------------------
+
+Exceptions Report
+
+Position  From                                                                              Through         To                                                                                Setup           Hold            Status                            
+--------  --------------------------------------------------------------------------------  --------------  --------------------------------------------------------------------------------  --------------  --------------  ----------------------------------
+13        *                                                                                 *               [get_ports {{pps_out[*]} phy_reset_n}]                                            false           false           
+14        [get_ports reset_n]                                                               *               *                                                                                 false           false           
+17        [get_ports phy_mdio]                                                              *               [get_pins {mdio_sync_reg[0]/D}]                                                   false           false           
+18        *                                                                                 *               [get_ports {phy_mdio phy_mdc}]                                                    cycles=32       -               
+19        *                                                                                 *               [get_ports {phy_mdio phy_mdc}]                                                    -               cycles=31       
+21        [get_cells net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/rgmii_tx_clk  *               [get_cells {net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/clk_oddr_in  max_dpo=2       -               
+          _1_reg]                                                                                           st/oddr[0].oddr_inst}]                                                                                            
+22        [get_cells net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/rgmii_tx_clk  *               [get_cells {net/eth_mac_inst/eth_mac_1g_rgmii_inst/rgmii_phy_if_inst/clk_oddr_in  max_dpo=2       -               
+          _2_reg]                                                                                           st/oddr[0].oddr_inst}]                                                                                            
+23        [get_cells net/eth_mac_inst/eth_mac_1g_rgmii_inst/mii_select_reg_reg]             *               [get_cells {net/eth_mac_inst/eth_mac_1g_rgmii_inst/tx_mii_select_sync_reg[0]}]    max_dpo=8       -               
+24        [get_cells net/eth_mac_inst/eth_mac_1g_rgmii_inst/mii_select_reg_reg]             *               [get_cells {net/eth_mac_inst/eth_mac_1g_rgmii_inst/rx_mii_select_sync_reg[0]}]    max_dpo=8       -               
+25        [get_cells {net/eth_mac_inst/eth_mac_1g_rgmii_inst/rx_prescale_reg[2]}]           *               [get_cells {net/eth_mac_inst/eth_mac_1g_rgmii_inst/rx_prescale_sync_reg[0]}]      max_dpo=8       -               
+26        [get_cells -of_objects [get_pins -of_objects [get_nets -segments -of_objects [ge  *               [get_cells net/eth_mac_inst/rx_fifo/fifo_inst/s_rst_sync2_reg_reg]                max_dpo=8       -               
+          t_pins -of_objects [get_cells net/eth_mac_inst/rx_fifo/fifo_inst/s_rst_sync2_reg                                                                                                                                    
+          _reg] -filter {REF_PIN_NAME == D}]] -filter {IS_LEAF && DIRECTION == OUT}]]                                                                                                                                         
+27        [get_cells -of_objects [get_pins -of_objects [get_nets -segments -of_objects [ge  *               [get_cells net/eth_mac_inst/rx_fifo/fifo_inst/m_rst_sync2_reg_reg]                max_dpo=8       -               
+          t_pins -of_objects [get_cells net/eth_mac_inst/rx_fifo/fifo_inst/m_rst_sync2_reg                                                                                                                                    
+          _reg] -filter {REF_PIN_NAME == D}]] -filter {IS_LEAF && DIRECTION == OUT}]]                                                                                                                                         
+28        [get_cells {{net/eth_mac_inst/rx_fifo/fifo_inst/rd_ptr_reg_reg[*]} {net/eth_mac_  *               [get_cells {net/eth_mac_inst/rx_fifo/fifo_inst/rd_ptr_gray_sync1_reg_reg[*]}]     max_dpo=8       -               
+          inst/rx_fifo/fifo_inst/rd_ptr_gray_reg_reg[*]}}]                                                                                                                                                                    
+30        [get_cells -quiet {net/eth_mac_inst/rx_fifo/fifo_inst/wr_ptr_sync_commit_reg_reg  *               [get_cells {net/eth_mac_inst/rx_fifo/fifo_inst/wr_ptr_commit_sync_reg_reg[*]}]    max_dpo=8       -               
+          [*]}]                                                                                                                                                                                                               
+32        [get_cells net/eth_mac_inst/rx_fifo/fifo_inst/wr_ptr_update_reg_reg]              *               [get_cells net/eth_mac_inst/rx_fifo/fifo_inst/wr_ptr_update_sync1_reg_reg]        max_dpo=8       -               
+33        [get_cells net/eth_mac_inst/rx_fifo/fifo_inst/wr_ptr_update_sync3_reg_reg]        *               [get_cells net/eth_mac_inst/rx_fifo/fifo_inst/wr_ptr_update_ack_sync1_reg_reg]    max_dpo=8       -               
+34        [get_cells -of_objects [get_pins -of_objects [get_nets -segments -of_objects [ge  *               [get_cells net/eth_mac_inst/tx_fifo/fifo_inst/s_rst_sync2_reg_reg]                max_dpo=8       -               
+          t_pins -of_objects [get_cells net/eth_mac_inst/tx_fifo/fifo_inst/s_rst_sync2_reg                                                                                                                                    
+          _reg] -filter {REF_PIN_NAME == D}]] -filter {IS_LEAF && DIRECTION == OUT}]]                                                                                                                                         
+35        [get_cells -of_objects [get_pins -of_objects [get_nets -segments -of_objects [ge  *               [get_cells net/eth_mac_inst/tx_fifo/fifo_inst/m_rst_sync2_reg_reg]                max_dpo=8       -               
+          t_pins -of_objects [get_cells net/eth_mac_inst/tx_fifo/fifo_inst/m_rst_sync2_reg                                                                                                                                    
+          _reg] -filter {REF_PIN_NAME == D}]] -filter {IS_LEAF && DIRECTION == OUT}]]                                                                                                                                         
+36        [get_cells {{net/eth_mac_inst/tx_fifo/fifo_inst/rd_ptr_reg_reg[*]} {net/eth_mac_  *               [get_cells {net/eth_mac_inst/tx_fifo/fifo_inst/rd_ptr_gray_sync1_reg_reg[*]}]     max_dpo=8       -               
+          inst/tx_fifo/fifo_inst/rd_ptr_gray_reg_reg[*]}}]                                                                                                                                                                    
+38        [get_cells -quiet {net/eth_mac_inst/tx_fifo/fifo_inst/wr_ptr_sync_commit_reg_reg  *               [get_cells {net/eth_mac_inst/tx_fifo/fifo_inst/wr_ptr_commit_sync_reg_reg[*]}]    max_dpo=8       -               
+          [*]}]                                                                                                                                                                                                               
+40        [get_cells net/eth_mac_inst/tx_fifo/fifo_inst/wr_ptr_update_reg_reg]              *               [get_cells net/eth_mac_inst/tx_fifo/fifo_inst/wr_ptr_update_sync1_reg_reg]        max_dpo=8       -               
+41        [get_cells net/eth_mac_inst/tx_fifo/fifo_inst/wr_ptr_update_sync3_reg_reg]        *               [get_cells net/eth_mac_inst/tx_fifo/fifo_inst/wr_ptr_update_ack_sync1_reg_reg]    max_dpo=8       -               
+42        *                                                                                 *               [get_pins {{mailbox/req_sync_reg[0]/D} {mailbox/ack_sync_reg[0]/D} {mdio_sync_re  false           false           Partially overridden path by FP 17
+                                                                                                            g[0]/D}}]                                                                                                         
+44        [get_cells ethernet_enable_reg]                                                   *               [get_cells {net/rx_enable_sync_reg[0]}]                                           max_dpo=8       -               
+45        [get_cells {mailbox/held_command_reg[*]}]                                         *               [get_cells {mailbox/ref_command_reg[*]}]                                          max_dpo=8       -               
+46        [get_cells {mailbox/held_result_reg[*]}]                                          *               [get_cells {mailbox/result_data_reg[*]}]                                          max_dpo=8       -               
+47        *                                                                                 *               [get_pins -of_objects [get_cells -hier -filter {REF_NAME =~ FD* && ASYNC_REG ==   false           false           Partially overridden path by FP 14
+                                                                                                            TRUE}] -filter {REF_PIN_NAME == CLR || REF_PIN_NAME == PRE}]                                                      
+
